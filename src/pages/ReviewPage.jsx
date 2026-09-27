@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { ThumbsUp, ThumbsDown } from 'lucide-react';
 import { getCar, getCategory, carsInCategory } from '../data/cars.js';
 import { CRITERIA } from '../data/criteria.js';
-import { formatPrice, formatScore, scoreVerdict } from '../lib/scoring.js';
+import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
 import CarImage from '../components/CarImage.jsx';
 import StarRating from '../components/StarRating.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
@@ -59,6 +59,11 @@ export default function ReviewPage() {
 
   const category = getCategory(car.category);
   const rivals = carsInCategory(car.category).filter((c) => c.slug !== car.slug);
+  const extraSpecs = [
+    ['Model yılı', car.year],
+    ['Yakıt', car.fuel],
+    ['Vites', car.gearbox],
+  ].filter(([, v]) => v);
 
   return (
     <article className="max-w-6xl mx-auto px-4 sm:px-6 pt-8">
@@ -76,6 +81,11 @@ export default function ReviewPage() {
             {car.year} {car.make} {car.model}
           </h1>
           <p className="text-ink-soft mt-2 text-lg">{car.version}</p>
+          {car.used && (
+            <p className="mt-3 inline-block text-sm font-medium border border-star rounded px-2 py-0.5">
+              İkinci el değerlendirmesi
+            </p>
+          )}
           <div className="mt-5 flex flex-wrap items-center gap-4">
             <ScoreBadge score={car.score} size="md" />
             <StarRating value={car.score} size={20} />
@@ -87,7 +97,11 @@ export default function ReviewPage() {
             listesinde <strong className="font-semibold">{car.rank}. sırada</strong>
           </p>
           <p className="mt-1 text-[15px]">
-            Başlangıç fiyatı <strong className="font-semibold">{formatPrice(car.price)}</strong>
+            {car.price != null ? (
+              <>Başlangıç fiyatı <strong className="font-semibold">{priceLabel(car)}</strong></>
+            ) : (
+              <span className="text-muted">{priceLabel(car)}</span>
+            )}
           </p>
         </div>
         <CarImage car={car} className="h-48 sm:h-64 bg-mist rounded-xl p-4 sm:p-8" />
@@ -122,6 +136,12 @@ export default function ReviewPage() {
           <section>
             <h2 className="font-display text-2xl font-bold mb-3">Teknik veriler</h2>
             <dl className="border-t border-rule">
+              {extraSpecs.map(([label, value]) => (
+                <div key={label} className="grid grid-cols-[10rem_1fr] gap-4 py-2.5 border-b border-rule text-[15px]">
+                  <dt className="text-muted">{label}</dt>
+                  <dd className="font-medium">{value}</dd>
+                </div>
+              ))}
               {SPEC_LABELS.map(([key, label]) =>
                 car.specs?.[key] ? (
                   <div key={key} className="grid grid-cols-[10rem_1fr] gap-4 py-2.5 border-b border-rule text-[15px]">
@@ -147,7 +167,7 @@ export default function ReviewPage() {
               <li key={r.slug}>
                 <Link to={`/inceleme/${r.slug}`} className="group block">
                   <CarImage car={r} className="h-24 mb-3" />
-                  <p className="font-semibold group-hover:text-link">#{r.rank} {r.make} {r.model}</p>
+                  <p className="font-semibold group-hover:text-link">#{r.rank} {r.year} {r.make} {r.model}</p>
                   <p className="text-sm text-muted tabular-nums">{formatScore(r.score)} / 10</p>
                 </Link>
               </li>

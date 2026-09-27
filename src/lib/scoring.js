@@ -16,12 +16,20 @@ export function formatScore(n) {
   return n.toLocaleString('tr-TR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
 }
 
+// Fiyatı olmayan (ikinci el ya da listede bulunmayan) araçlarda null döner.
 export function formatPrice(p) {
+  if (p == null) return null;
   return new Intl.NumberFormat('tr-TR', {
     style: 'currency',
     currency: 'TRY',
     maximumFractionDigits: 0,
   }).format(p);
+}
+
+// Araç kartlarında ve inceleme sayfasında gösterilecek fiyat metni.
+export function priceLabel(car) {
+  if (car.price != null) return formatPrice(car.price);
+  return car.used ? 'İkinci el, liste fiyatı yok' : 'Güncel liste fiyatı yok';
 }
 
 export function scoreVerdict(n) {

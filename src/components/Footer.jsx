@@ -14,6 +14,7 @@ export default function Footer() {
         <div>
           <p className="font-semibold mb-2">Sıralamalar</p>
           <ul className="space-y-1.5">
+            <li><Link to="/araclar" className="text-ink-soft hover:text-link">Tüm araçlar</Link></li>
             {CATEGORIES.map((c) => (
               <li key={c.slug}>
                 <Link to={`/kategori/${c.slug}`} className="text-ink-soft hover:text-link">{c.title}</Link>

@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { getCategory, carsInCategory } from '../data/cars.js';
-import { formatPrice } from '../lib/scoring.js';
+import { priceLabel } from '../lib/scoring.js';
 import CarImage from '../components/CarImage.jsx';
 import StarRating from '../components/StarRating.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
@@ -23,6 +23,11 @@ export default function CategoryPage() {
       </nav>
       <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight">{category.title}</h1>
       <p className="text-ink-soft mt-3 text-lg max-w-2xl leading-relaxed">{category.intro}</p>
+      <p className="mt-3 text-[15px]">
+        <Link to={`/araclar?kat=${category.slug}`} className="text-link hover:underline underline-offset-2">
+          Bu kategoriyi filtrele ve farklı ölçütlere göre sırala
+        </Link>
+      </p>
 
       <ol className="mt-10 border-t border-rule">
         {cars.map((car) => (
@@ -39,14 +44,21 @@ export default function CategoryPage() {
                       {car.year} {car.make} {car.model}
                     </Link>
                   </h2>
-                  <p className="text-sm text-muted mt-0.5">{car.version}</p>
+                  <p className="text-sm text-muted mt-0.5">
+                    {car.version}
+                    {car.used && <span className="ml-2 inline-block text-xs font-medium text-ink border border-star rounded px-1.5 py-px align-middle">İkinci el</span>}
+                  </p>
                 </div>
                 <ScoreBadge score={car.score} size="md" />
               </div>
               <StarRating value={car.score} size={15} className="mt-3" />
               <p className="text-ink-soft mt-3 leading-relaxed max-w-prose">{car.summary}</p>
               <div className="mt-3 flex flex-wrap items-center gap-x-6 gap-y-1 text-sm">
-                <span>Başlangıç fiyatı <strong className="font-semibold">{formatPrice(car.price)}</strong></span>
+                {car.price != null ? (
+                  <span>Başlangıç fiyatı <strong className="font-semibold">{priceLabel(car)}</strong></span>
+                ) : (
+                  <span className="text-muted">{priceLabel(car)}</span>
+                )}
                 <Link to={`/inceleme/${car.slug}`} className="text-link hover:underline underline-offset-2">İncelemeyi oku</Link>
               </div>
             </div>

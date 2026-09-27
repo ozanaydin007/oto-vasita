@@ -26,7 +26,7 @@ export const CATEGORIES = [
     slug: 'premium-sedan',
     title: 'En İyi Premium ve Üst Sınıf Sedanlar',
     short: 'Premium sedan',
-    intro: 'Sürüş keyfi, kabin kalitesi ve teknolojinin en üst seviyede buluştuğu sedanlar. Türkiye’de ÖTV nedeniyle çoğu 1.6 litre altı motorlarla satılıyor.',
+    intro: 'Sürüş keyfi, kabin kalitesi ve teknolojinin en üst seviyede buluştuğu sedan ve fastback’ler. Türkiye’de ÖTV nedeniyle çoğu 1.6 litre altı motorlarla satılıyor.',
   },
   {
     slug: 'kucuk-suv',
@@ -47,6 +47,12 @@ export const CATEGORIES = [
     intro: 'Marka prestiji, kabin kalitesi ve ileri teknolojiyi yüksek sürüş pozisyonuyla birleştiren modeller.',
   },
   {
+    slug: 'spor',
+    title: 'En İyi Spor ve Coupé Otomobiller',
+    short: 'Spor',
+    intro: 'Hafta sonu keyfinden pist performansına, sürüş heyecanını her şeyin önüne koyan otomobiller.',
+  },
+  {
     slug: 'elektrikli',
     title: 'En İyi Elektrikli Otomobiller',
     short: 'Elektrikli',
@@ -63,6 +69,10 @@ export const CATEGORIES = [
 // - ratings: 8 başlık, 0–10 arası, küsuratlı olabilir.
 // - Genel puan ve sıralama OTOMATİK hesaplanır.
 // - bodyType: 'sedan' | 'suv' | 'fastback'
+// - fuel: 'Benzin' | 'Dizel' | 'Hafif hibrit' | 'Hibrit' | 'Benzin + LPG' | 'Elektrik'
+// - gearbox: 'Otomatik' | 'Manuel'   hp: beygir gücü (bilinmiyorsa null)
+// - used: true → ikinci el değerlendirmesi (yeni satışta olmayan model/yıl).
+//   Bu araçlarda price: null bırakılır; sitede "İkinci el" etiketi görünür.
 // ---------------------------------------------------------------------------
 const RAW_CARS = [
   // =========================================================================
@@ -71,6 +81,7 @@ const RAW_CARS = [
   {
     make: 'Renault', model: 'Clio', year: 2026, version: 'TCe 115 EDC Evolution Plus',
     category: 'sehir-hatchback', bodyType: 'fastback', price: 1830000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 115,
     specs: { motor: 'Turbo benzin, 115 bg, EDC otomatik', hizlanma: '10,5 sn', tuketim: '5,5 L/100 km', bagaj: '391 L' },
     ratings: { surus: 7.8, guvenlik: 8.0, konfor: 7.7, tuketim: 8.3, malzeme: 7.6, tasarim: 8.6, fiyat: 8.5, teknoloji: 8.2 },
     pros: ['Bursa üretimi, sınıfının en uygun otomatiklerinden', 'Geniş bagaj', 'Yeni nesilde modern kabin ve tasarım'],
@@ -80,6 +91,7 @@ const RAW_CARS = [
   {
     make: 'Toyota', model: 'Yaris Hybrid', year: 2026, version: '1.5 Hybrid Flame e-CVT',
     category: 'sehir-hatchback', bodyType: 'fastback', price: 2350000,
+    fuel: 'Hibrit', gearbox: 'Otomatik', hp: 116,
     specs: { motor: '1.5L tam hibrit, 116 bg', hizlanma: '9,7 sn', tuketim: '3,9 L/100 km', bagaj: '286 L' },
     ratings: { surus: 7.6, guvenlik: 9.0, konfor: 7.2, tuketim: 9.8, malzeme: 7.2, tasarim: 7.8, fiyat: 7.2, teknoloji: 7.6 },
     pros: ['Şehir içinde rakipsiz yakıt tüketimi', 'Güçlü standart güvenlik paketi', 'Toyota hibrit dayanıklılığı'],
@@ -89,6 +101,7 @@ const RAW_CARS = [
   {
     make: 'Hyundai', model: 'i20', year: 2026, version: '1.0 T-GDI 90 Elite DCT',
     category: 'sehir-hatchback', bodyType: 'fastback', price: 2068000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 90,
     specs: { motor: '1.0L turbo, 90 bg, DCT', hizlanma: '12,5 sn', tuketim: '5,3 L/100 km', bagaj: '352 L' },
     ratings: { surus: 7.2, guvenlik: 7.6, konfor: 7.6, tuketim: 8.3, malzeme: 7.2, tasarim: 8.0, fiyat: 8.0, teknoloji: 8.0 },
     pros: ['İzmit’te üretim', 'Geniş iç hacim', 'Dijital gösterge ve zengin donanım'],
@@ -98,6 +111,7 @@ const RAW_CARS = [
   {
     make: 'Seat', model: 'Ibiza', year: 2026, version: '1.0 EcoTSI 116 Style Plus DSG',
     category: 'sehir-hatchback', bodyType: 'fastback', price: 1985000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 116,
     specs: { motor: '1.0L turbo, 116 bg, DSG', hizlanma: '9,5 sn', tuketim: '5,3 L/100 km', bagaj: '355 L' },
     ratings: { surus: 8.2, guvenlik: 8.0, konfor: 7.6, tuketim: 8.2, malzeme: 7.3, tasarim: 7.8, fiyat: 8.2, teknoloji: 7.7 },
     pros: ['Sınıfının en canlı sürüşlerinden', 'Güçlü motor ve hızlı DSG', 'Polo altyapısı daha uygun fiyata'],
@@ -107,6 +121,7 @@ const RAW_CARS = [
   {
     make: 'Opel', model: 'Corsa', year: 2026, version: 'Hybrid 1.2 136 GS e-DCT6',
     category: 'sehir-hatchback', bodyType: 'fastback', price: 1955000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 136,
     specs: { motor: '1.2L turbo hafif hibrit, 136 bg', hizlanma: '8,9 sn', tuketim: '4,9 L/100 km', bagaj: '309 L' },
     ratings: { surus: 8.0, guvenlik: 7.4, konfor: 7.6, tuketim: 8.6, malzeme: 7.3, tasarim: 7.8, fiyat: 8.2, teknoloji: 7.7 },
     pros: ['Sınıfına göre güçlü hibrit motor', 'Düşük tüketim', 'Klasik, kullanışlı gösterge düzeni'],
@@ -116,6 +131,7 @@ const RAW_CARS = [
   {
     make: 'Skoda', model: 'Fabia', year: 2026, version: '1.0 TSI 115 Premium DSG',
     category: 'sehir-hatchback', bodyType: 'fastback', price: 2009900,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 115,
     specs: { motor: '1.0L turbo, 115 bg, DSG', hizlanma: '9,7 sn', tuketim: '5,3 L/100 km', bagaj: '380 L' },
     ratings: { surus: 7.7, guvenlik: 8.0, konfor: 7.9, tuketim: 8.3, malzeme: 7.4, tasarim: 7.2, fiyat: 8.0, teknoloji: 7.4 },
     pros: ['Sınıfının en geniş kabinlerinden', '380 litrelik bagaj', 'Pratik akıllı çözümler'],
@@ -125,6 +141,7 @@ const RAW_CARS = [
   {
     make: 'Dacia', model: 'Sandero', year: 2026, version: 'TCe 100 Expression',
     category: 'sehir-hatchback', bodyType: 'fastback', price: 1460000,
+    fuel: 'Benzin', gearbox: 'Manuel', hp: 100,
     specs: { motor: '1.0L turbo, 100 bg, manuel', hizlanma: '11,6 sn', tuketim: '5,4 L/100 km', bagaj: '328 L' },
     ratings: { surus: 6.9, guvenlik: 6.0, konfor: 7.2, tuketim: 8.2, malzeme: 6.0, tasarim: 7.0, fiyat: 9.4, teknoloji: 6.6 },
     pros: ['Piyasanın en uygun fiyatlı sıfır otomobillerinden', 'Geniş kabin', 'Basit ve ucuz bakım'],
@@ -134,6 +151,7 @@ const RAW_CARS = [
   {
     make: 'Suzuki', model: 'Swift', year: 2026, version: '1.2 MHEV CVT Life',
     category: 'sehir-hatchback', bodyType: 'fastback', price: 2079000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 82,
     specs: { motor: '1.2L hafif hibrit, 82 bg, CVT', hizlanma: '12,5 sn', tuketim: '4,7 L/100 km', bagaj: '265 L' },
     ratings: { surus: 7.5, guvenlik: 7.0, konfor: 7.0, tuketim: 9.0, malzeme: 6.8, tasarim: 7.6, fiyat: 7.4, teknoloji: 7.3 },
     pros: ['Çok düşük tüketim', 'Hafif ve çevik', 'Suzuki güvenilirliği'],
@@ -147,6 +165,7 @@ const RAW_CARS = [
   {
     make: 'Volkswagen', model: 'Golf', year: 2026, version: '1.5 eTSI 150 Style DSG',
     category: 'kompakt-hatchback', bodyType: 'fastback', price: 3591000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '8,5 sn', tuketim: '5,4 L/100 km', bagaj: '381 L' },
     ratings: { surus: 8.7, guvenlik: 8.8, konfor: 8.6, tuketim: 8.2, malzeme: 8.0, tasarim: 7.8, fiyat: 6.6, teknoloji: 8.3 },
     pros: ['Sınıfının referans sürüş dengesi', 'Güçlü ve verimli motor', 'Olgun, sessiz kabin'],
@@ -156,6 +175,7 @@ const RAW_CARS = [
   {
     make: 'Peugeot', model: '308', year: 2026, version: '1.5 BlueHDi 130 GT EAT8',
     category: 'kompakt-hatchback', bodyType: 'fastback', price: 2695000,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 130,
     specs: { motor: '1.5L turbodizel, 130 bg, EAT8', hizlanma: '10,6 sn', tuketim: '4,6 L/100 km', bagaj: '412 L' },
     ratings: { surus: 8.1, guvenlik: 8.0, konfor: 8.1, tuketim: 8.9, malzeme: 8.3, tasarim: 9.0, fiyat: 7.8, teknoloji: 8.3 },
     pros: ['Uzun yolda çok düşük dizel tüketimi', 'Sınıfın en etkileyici tasarımı', 'Kaliteli kabin'],
@@ -165,6 +185,7 @@ const RAW_CARS = [
   {
     make: 'Opel', model: 'Astra', year: 2026, version: '1.5 Dizel 130 GS AT8',
     category: 'kompakt-hatchback', bodyType: 'fastback', price: 2590000,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 130,
     specs: { motor: '1.5L turbodizel, 130 bg, AT8', hizlanma: '10,6 sn', tuketim: '4,7 L/100 km', bagaj: '422 L' },
     ratings: { surus: 8.0, guvenlik: 7.8, konfor: 8.2, tuketim: 8.8, malzeme: 7.8, tasarim: 8.4, fiyat: 7.9, teknoloji: 8.0 },
     pros: ['AGR sertifikalı çok rahat koltuklar', 'Düşük dizel tüketimi', 'Fiziksel tuşları koruyan net kabin'],
@@ -174,6 +195,7 @@ const RAW_CARS = [
   {
     make: 'Seat', model: 'Leon', year: 2026, version: '1.5 eTSI 116 Style DSG',
     category: 'kompakt-hatchback', bodyType: 'fastback', price: 2560000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 116,
     specs: { motor: '1.5L turbo hafif hibrit, 116 bg', hizlanma: '10,2 sn', tuketim: '5,3 L/100 km', bagaj: '380 L' },
     ratings: { surus: 8.4, guvenlik: 8.6, konfor: 8.0, tuketim: 8.3, malzeme: 7.6, tasarim: 8.2, fiyat: 8.0, teknoloji: 8.0 },
     pros: ['Golf altyapısı çok daha uygun fiyata', 'Keskin direksiyon', 'Hafif hibritle iyi tüketim'],
@@ -183,6 +205,7 @@ const RAW_CARS = [
   {
     make: 'Skoda', model: 'Scala', year: 2026, version: '1.0 TSI 115 Elite DSG',
     category: 'kompakt-hatchback', bodyType: 'fastback', price: 2014900,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 115,
     specs: { motor: '1.0L turbo, 115 bg, DSG', hizlanma: '9,8 sn', tuketim: '5,2 L/100 km', bagaj: '467 L' },
     ratings: { surus: 7.6, guvenlik: 8.4, konfor: 8.0, tuketim: 8.4, malzeme: 7.5, tasarim: 7.3, fiyat: 8.7, teknoloji: 7.6 },
     pros: ['467 litre ile dev bagaj', 'Geniş arka koltuk', 'Sınıfının en uygun fiyatlılarından'],
@@ -192,6 +215,7 @@ const RAW_CARS = [
   {
     make: 'Toyota', model: 'Corolla Hatchback', year: 2026, version: '1.8 Hybrid Flame e-CVT',
     category: 'kompakt-hatchback', bodyType: 'fastback', price: 2905000,
+    fuel: 'Hibrit', gearbox: 'Otomatik', hp: 140,
     specs: { motor: '1.8L tam hibrit, 140 bg', hizlanma: '9,2 sn', tuketim: '4,4 L/100 km', bagaj: '361 L' },
     ratings: { surus: 7.9, guvenlik: 8.8, konfor: 8.0, tuketim: 9.5, malzeme: 7.8, tasarim: 8.0, fiyat: 7.4, teknoloji: 7.6 },
     pros: ['Çok düşük tüketim', 'Yüksek güvenilirlik', 'Sessiz şehir içi sürüş'],
@@ -201,6 +225,7 @@ const RAW_CARS = [
   {
     make: 'Hyundai', model: 'i30', year: 2026, version: '1.5 T-GDI MHEV 140 Prime DCT',
     category: 'kompakt-hatchback', bodyType: 'fastback', price: 2299000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 140,
     specs: { motor: '1.5L turbo hafif hibrit, 140 bg', hizlanma: '9,0 sn', tuketim: '5,6 L/100 km', bagaj: '395 L' },
     ratings: { surus: 7.8, guvenlik: 8.2, konfor: 7.9, tuketim: 8.2, malzeme: 7.5, tasarim: 7.4, fiyat: 8.2, teknoloji: 7.8 },
     pros: ['Güçlü ve akıcı motor', 'Fiyatına göre zengin donanım', 'Geniş kabin'],
@@ -210,6 +235,7 @@ const RAW_CARS = [
   {
     make: 'Kia', model: 'Ceed', year: 2026, version: '1.5 T-GDI 140 Elegance DCT',
     category: 'kompakt-hatchback', bodyType: 'fastback', price: 2070000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 140,
     specs: { motor: '1.5L turbo, 140 bg, DCT', hizlanma: '9,6 sn', tuketim: '5,8 L/100 km', bagaj: '395 L' },
     ratings: { surus: 7.9, guvenlik: 8.2, konfor: 7.8, tuketim: 8.0, malzeme: 7.5, tasarim: 7.7, fiyat: 8.4, teknoloji: 7.7 },
     pros: ['Güçlü motor, uygun fiyat', 'Dengeli yol tutuş', 'Uzun garanti'],
@@ -223,6 +249,7 @@ const RAW_CARS = [
   {
     make: 'Toyota', model: 'Corolla Hybrid', year: 2026, version: '1.8 Hybrid Dream e-CVT',
     category: 'kompakt-sedan', bodyType: 'sedan', price: 2968000,
+    fuel: 'Hibrit', gearbox: 'Otomatik', hp: 140,
     specs: { motor: '1.8L tam hibrit, 140 bg', hizlanma: '9,3 sn', tuketim: '4,5 L/100 km', bagaj: '471 L' },
     ratings: { surus: 7.8, guvenlik: 9.0, konfor: 8.2, tuketim: 9.6, malzeme: 8.0, tasarim: 7.9, fiyat: 7.8, teknoloji: 7.5 },
     pros: ['Sakarya üretimi', 'Şehir içinde rakipsiz yakıt ekonomisi', 'Kanıtlanmış mekanik dayanıklılık'],
@@ -232,6 +259,7 @@ const RAW_CARS = [
   {
     make: 'Fiat', model: 'Egea Sedan', year: 2026, version: '1.6 Multijet 130 DCT Lounge',
     category: 'kompakt-sedan', bodyType: 'sedan', price: 2090900,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 130,
     specs: { motor: '1.6L turbodizel, 130 bg, DCT', hizlanma: '9,9 sn', tuketim: '4,8 L/100 km', bagaj: '520 L' },
     ratings: { surus: 7.1, guvenlik: 6.2, konfor: 7.3, tuketim: 8.8, malzeme: 6.4, tasarim: 6.8, fiyat: 8.6, teknoloji: 6.9 },
     pros: ['Bursa üretimi, 520 litrelik dev bagaj', 'Güçlü ve çok ekonomik dizel', 'Parça ve servis çok kolay'],
@@ -241,6 +269,7 @@ const RAW_CARS = [
   {
     make: 'Renault', model: 'Megane Sedan', year: 2026, version: '1.3 TCe 140 EDC Icon',
     category: 'kompakt-sedan', bodyType: 'sedan', price: 2349000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 140,
     specs: { motor: '1.3L turbo, 140 bg, EDC', hizlanma: '9,5 sn', tuketim: '6,0 L/100 km', bagaj: '503 L' },
     ratings: { surus: 7.6, guvenlik: 7.6, konfor: 8.0, tuketim: 7.8, malzeme: 7.3, tasarim: 7.4, fiyat: 8.3, teknoloji: 7.4 },
     pros: ['Bursa üretimi', 'Güçlü motor ve otomatik şanzıman', 'Geniş bagaj ve arka koltuk'],
@@ -250,6 +279,7 @@ const RAW_CARS = [
   {
     make: 'Dacia', model: 'Logan', year: 2026, version: 'Eco-G 120 Journey Otomatik',
     category: 'kompakt-sedan', bodyType: 'sedan', price: 1784000,
+    fuel: 'Benzin + LPG', gearbox: 'Otomatik', hp: 120,
     specs: { motor: '1.0L turbo, benzin + fabrika çıkışlı LPG, 120 bg', hizlanma: '11,9 sn', tuketim: '6,9 L/100 km (LPG ile düşük maliyet)', bagaj: '528 L' },
     ratings: { surus: 6.8, guvenlik: 6.0, konfor: 7.3, tuketim: 8.6, malzeme: 6.2, tasarim: 7.0, fiyat: 9.2, teknoloji: 6.8 },
     pros: ['Fabrika LPG ile çok düşük yakıt maliyeti', 'Piyasanın en uygun otomatik sedanlarından', 'Geniş bagaj'],
@@ -259,6 +289,7 @@ const RAW_CARS = [
   {
     make: 'Honda', model: 'Civic Sedan', year: 2026, version: '1.5 VTEC Turbo Executive+',
     category: 'kompakt-sedan', bodyType: 'sedan', price: 2700000, priceEstimate: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 182,
     specs: { motor: '1.5L turbo benzin, 182 bg (ECO LPG seçeneği de var)', hizlanma: '8,2 sn', tuketim: '6,7 L/100 km', bagaj: '495 L' },
     ratings: { surus: 8.8, guvenlik: 8.5, konfor: 8.3, tuketim: 7.4, malzeme: 8.1, tasarim: 8.2, fiyat: 7.2, teknoloji: 7.8 },
     pros: ['Sınıfının en iyi sürüş keyfi', 'Güçlü motor', 'Yüksek güvenilirlik ve ikinci el değeri'],
@@ -268,6 +299,7 @@ const RAW_CARS = [
   {
     make: 'Skoda', model: 'Octavia', year: 2026, version: '1.5 TSI mHEV 150 Prestige DSG',
     category: 'kompakt-sedan', bodyType: 'fastback', price: 3459900,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '8,5 sn', tuketim: '5,3 L/100 km', bagaj: '600 L' },
     ratings: { surus: 8.3, guvenlik: 8.9, konfor: 8.6, tuketim: 8.3, malzeme: 8.0, tasarim: 7.8, fiyat: 7.3, teknoloji: 8.2 },
     pros: ['600 litrelik bagaj ve üst sınıf alan', 'Olgun sürüş ve konfor', 'Güçlü, verimli motor'],
@@ -277,6 +309,7 @@ const RAW_CARS = [
   {
     make: 'Citroën', model: 'C4 X', year: 2026, version: '1.2 Hybrid 145 Max e-DCS6',
     category: 'kompakt-sedan', bodyType: 'fastback', price: 2345000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 145,
     specs: { motor: '1.2L turbo hafif hibrit, 145 bg', hizlanma: '9,5 sn', tuketim: '5,2 L/100 km', bagaj: '510 L' },
     ratings: { surus: 7.4, guvenlik: 7.4, konfor: 8.8, tuketim: 8.4, malzeme: 7.2, tasarim: 8.0, fiyat: 8.2, teknoloji: 7.5 },
     pros: ['Sınıfının en yumuşak süspansiyonu', 'Rahat Advanced Comfort koltuklar', 'Geniş bagaj'],
@@ -286,6 +319,7 @@ const RAW_CARS = [
   {
     make: 'Peugeot', model: '408', year: 2026, version: '1.2 Hybrid 145 GT e-DCS6',
     category: 'kompakt-sedan', bodyType: 'fastback', price: 3028000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 145,
     specs: { motor: '1.2L turbo hafif hibrit, 145 bg', hizlanma: '9,1 sn', tuketim: '5,3 L/100 km', bagaj: '536 L' },
     ratings: { surus: 8.1, guvenlik: 8.0, konfor: 8.2, tuketim: 8.4, malzeme: 8.3, tasarim: 9.3, fiyat: 7.2, teknoloji: 8.2 },
     pros: ['Yolda en çok dikkat çeken tasarımlardan', 'Kaliteli kabin', 'Geniş bagaj'],
@@ -299,6 +333,7 @@ const RAW_CARS = [
   {
     make: 'BMW', model: '3 Serisi', year: 2026, version: '320i M Sport',
     category: 'premium-sedan', bodyType: 'sedan', price: 6307600,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '1.6L turbo, 170 bg (Türkiye’ye özel)', hizlanma: '8,1 sn', tuketim: '6,4 L/100 km', bagaj: '480 L' },
     ratings: { surus: 9.2, guvenlik: 8.9, konfor: 8.4, tuketim: 7.8, malzeme: 8.8, tasarim: 8.5, fiyat: 7.0, teknoloji: 8.8 },
     pros: ['Sınıfının en iyi sürüş dinamikleri', 'Mükemmel şanzıman ve direksiyon', 'Kavisli ekran ve iDrive'],
@@ -308,6 +343,7 @@ const RAW_CARS = [
   {
     make: 'Mercedes-Benz', model: 'C Serisi', year: 2026, version: 'C 200 4MATIC AMG',
     category: 'premium-sedan', bodyType: 'sedan', price: 6485000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 204,
     specs: { motor: '1.5L turbo hafif hibrit, 204 bg, 4MATIC', hizlanma: '7,3 sn', tuketim: '7,0 L/100 km', bagaj: '455 L' },
     ratings: { surus: 8.5, guvenlik: 9.2, konfor: 8.8, tuketim: 7.5, malzeme: 8.9, tasarim: 9.0, fiyat: 6.9, teknoloji: 9.1 },
     pros: ['Mini S-Serisi etkisi yaratan kabin', '4MATIC dört çeker standart', 'Gelişmiş sürüş destek sistemleri'],
@@ -317,6 +353,7 @@ const RAW_CARS = [
   {
     make: 'Audi', model: 'A5 Sedan', year: 2026, version: 'TFSI 204 quattro S tronic',
     category: 'premium-sedan', bodyType: 'fastback', price: 8545869,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 204,
     specs: { motor: '2.0L turbo, 204 bg (150 kW), quattro', hizlanma: '7,0 sn', tuketim: '7,3 L/100 km', bagaj: '445 L' },
     ratings: { surus: 8.6, guvenlik: 8.9, konfor: 8.6, tuketim: 7.2, malzeme: 8.8, tasarim: 8.4, fiyat: 6.0, teknoloji: 9.0 },
     pros: ['Yeni nesil dijital kokpit ve yolcu ekranı', 'quattro dört çeker', 'Yüksek işçilik kalitesi'],
@@ -326,6 +363,7 @@ const RAW_CARS = [
   {
     make: 'Skoda', model: 'Superb', year: 2026, version: '1.5 TSI mHEV 150 Prestige DSG',
     category: 'premium-sedan', bodyType: 'fastback', price: 4744900,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '9,2 sn', tuketim: '5,9 L/100 km', bagaj: '645 L' },
     ratings: { surus: 8.0, guvenlik: 9.0, konfor: 9.0, tuketim: 8.3, malzeme: 8.4, tasarim: 8.0, fiyat: 8.2, teknoloji: 8.6 },
     pros: ['Limuzin gibi geniş arka koltuk', 'Dev bagaj', 'Premium rakiplerin çok altında fiyat'],
@@ -335,6 +373,7 @@ const RAW_CARS = [
   {
     make: 'BMW', model: '5 Serisi', year: 2026, version: '520i M Sport',
     category: 'premium-sedan', bodyType: 'sedan', price: 9290400,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 190,
     specs: { motor: '1.6L turbo hafif hibrit, 190 bg (Türkiye’ye özel)', hizlanma: '7,9 sn', tuketim: '6,9 L/100 km', bagaj: '520 L' },
     ratings: { surus: 9.0, guvenlik: 9.3, konfor: 9.1, tuketim: 7.8, malzeme: 9.1, tasarim: 8.2, fiyat: 6.3, teknoloji: 9.3 },
     pros: ['Konfor ve sürüş dengesi mükemmel', 'Geniş ve sessiz kabin', 'Üst düzey teknoloji'],
@@ -344,6 +383,7 @@ const RAW_CARS = [
   {
     make: 'Mercedes-Benz', model: 'E Serisi', year: 2026, version: 'E 180 AMG',
     category: 'premium-sedan', bodyType: 'sedan', price: 8668500,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '1.5L turbo hafif hibrit, 170 bg', hizlanma: '9,0 sn', tuketim: '6,9 L/100 km', bagaj: '540 L' },
     ratings: { surus: 8.3, guvenlik: 9.5, konfor: 9.4, tuketim: 7.7, malzeme: 9.3, tasarim: 8.8, fiyat: 6.2, teknoloji: 9.5 },
     pros: ['Sınıfının en konforlu sürüşü', 'MBUX Superscreen ve üst düzey teknoloji', 'Çok yüksek güvenlik'],
@@ -357,6 +397,7 @@ const RAW_CARS = [
   {
     make: 'Renault', model: 'Captur', year: 2026, version: 'Mild Hybrid 140 EDC Techno',
     category: 'kucuk-suv', bodyType: 'suv', price: 2325000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 140,
     specs: { motor: '1.3L turbo hafif hibrit, 140 bg', hizlanma: '9,9 sn', tuketim: '5,9 L/100 km', bagaj: '484 L' },
     ratings: { surus: 7.6, guvenlik: 8.0, konfor: 7.9, tuketim: 7.9, malzeme: 7.6, tasarim: 8.0, fiyat: 8.2, teknoloji: 8.3 },
     pros: ['Kayar arka koltukla esnek bagaj', 'Google tabanlı multimedya', 'Güçlü motor'],
@@ -366,6 +407,7 @@ const RAW_CARS = [
   {
     make: 'Peugeot', model: '2008', year: 2026, version: '1.2 Hybrid 145 GT eDCS6',
     category: 'kucuk-suv', bodyType: 'suv', price: 2632000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 145,
     specs: { motor: '1.2L turbo hafif hibrit, 145 bg', hizlanma: '9,2 sn', tuketim: '5,3 L/100 km', bagaj: '434 L' },
     ratings: { surus: 7.9, guvenlik: 7.6, konfor: 7.9, tuketim: 8.3, malzeme: 8.0, tasarim: 8.9, fiyat: 7.4, teknoloji: 8.1 },
     pros: ['Sınıfının en premium görünen kabini', 'Hafif hibritle iyi tüketim', 'Çevik sürüş'],
@@ -375,6 +417,7 @@ const RAW_CARS = [
   {
     make: 'Toyota', model: 'Yaris Cross', year: 2026, version: '1.5 Hybrid 130 Flame e-CVT',
     category: 'kucuk-suv', bodyType: 'suv', price: 3345000,
+    fuel: 'Hibrit', gearbox: 'Otomatik', hp: 130,
     specs: { motor: '1.5L tam hibrit, 130 bg', hizlanma: '10,2 sn', tuketim: '4,4 L/100 km', bagaj: '397 L' },
     ratings: { surus: 7.5, guvenlik: 8.8, konfor: 7.4, tuketim: 9.6, malzeme: 7.2, tasarim: 7.9, fiyat: 6.6, teknoloji: 7.8 },
     pros: ['Sınıfının en düşük tüketimi', 'Toyota güvenilirliği', 'Güçlü güvenlik paketi'],
@@ -384,6 +427,7 @@ const RAW_CARS = [
   {
     make: 'Hyundai', model: 'Bayon', year: 2026, version: '1.0 T-GDI 90 Elite DCT',
     category: 'kucuk-suv', bodyType: 'suv', price: 2192000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 90,
     specs: { motor: '1.0L turbo, 90 bg, DCT', hizlanma: '12,9 sn', tuketim: '5,5 L/100 km', bagaj: '411 L' },
     ratings: { surus: 7.0, guvenlik: 7.4, konfor: 7.6, tuketim: 8.1, malzeme: 7.1, tasarim: 7.5, fiyat: 8.0, teknoloji: 7.9 },
     pros: ['İzmit üretimi', 'Geniş bagaj', 'Zengin donanım'],
@@ -393,6 +437,7 @@ const RAW_CARS = [
   {
     make: 'Volkswagen', model: 'T-Cross', year: 2026, version: '1.0 TSI 116 Style DSG',
     category: 'kucuk-suv', bodyType: 'suv', price: 3008000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 116,
     specs: { motor: '1.0L turbo, 116 bg, DSG', hizlanma: '10,2 sn', tuketim: '5,6 L/100 km', bagaj: '455 L' },
     ratings: { surus: 7.8, guvenlik: 8.3, konfor: 8.0, tuketim: 8.1, malzeme: 7.5, tasarim: 7.6, fiyat: 6.8, teknoloji: 7.8 },
     pros: ['Olgun ve sessiz sürüş', 'Kayar arka koltuk', 'Güçlü ikinci el değeri'],
@@ -402,6 +447,7 @@ const RAW_CARS = [
   {
     make: 'Ford', model: 'Puma', year: 2026, version: '1.0 EcoBoost 155 ST-Line X',
     category: 'kucuk-suv', bodyType: 'suv', price: 2615600,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 155,
     specs: { motor: '1.0L turbo, 155 bg, 7 ileri otomatik', hizlanma: '8,9 sn', tuketim: '5,9 L/100 km', bagaj: '456 L' },
     ratings: { surus: 8.8, guvenlik: 7.9, konfor: 7.5, tuketim: 7.8, malzeme: 7.4, tasarim: 8.2, fiyat: 7.8, teknoloji: 8.0 },
     pros: ['Sınıfının en eğlenceli sürüşü', 'Bagaj altındaki MegaBox', 'Güçlü motor'],
@@ -411,6 +457,7 @@ const RAW_CARS = [
   {
     make: 'Skoda', model: 'Kamiq', year: 2026, version: '1.0 TSI 115 Elite DSG',
     category: 'kucuk-suv', bodyType: 'suv', price: 2149900,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 115,
     specs: { motor: '1.0L turbo, 115 bg, DSG', hizlanma: '9,9 sn', tuketim: '5,5 L/100 km', bagaj: '400 L' },
     ratings: { surus: 7.7, guvenlik: 8.3, konfor: 8.1, tuketim: 8.2, malzeme: 7.5, tasarim: 7.3, fiyat: 8.5, teknoloji: 7.6 },
     pros: ['Geniş arka koltuk', 'Konforlu süspansiyon', 'T-Cross’tan çok daha uygun fiyat'],
@@ -420,6 +467,7 @@ const RAW_CARS = [
   {
     make: 'Opel', model: 'Frontera', year: 2026, version: 'Hybrid 1.2 136 GS e-DCT6',
     category: 'kucuk-suv', bodyType: 'suv', price: 2290000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 136,
     specs: { motor: '1.2L turbo hafif hibrit, 136 bg', hizlanma: '9,0 sn', tuketim: '5,4 L/100 km', bagaj: '460 L' },
     ratings: { surus: 7.3, guvenlik: 7.2, konfor: 7.8, tuketim: 8.3, malzeme: 7.0, tasarim: 7.9, fiyat: 8.4, teknoloji: 7.5 },
     pros: ['Geniş ve pratik kabin', 'Güçlü hibrit motor', 'Fiyatına göre büyük gövde'],
@@ -429,6 +477,7 @@ const RAW_CARS = [
   {
     make: 'Hyundai', model: 'Kona', year: 2026, version: '1.6 T-GDI Prime DCT',
     category: 'kucuk-suv', bodyType: 'suv', price: 2384050,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: null,
     specs: { motor: '1.6L turbo benzin, DCT', hizlanma: '7,8 sn', tuketim: '6,9 L/100 km', bagaj: '466 L' },
     ratings: { surus: 7.8, guvenlik: 8.6, konfor: 8.2, tuketim: 7.5, malzeme: 7.8, tasarim: 8.4, fiyat: 8.2, teknoloji: 8.6 },
     pros: ['Güçlü motor', 'Geniş kabin ve bagaj', 'Çift ekranlı modern kokpit'],
@@ -438,6 +487,7 @@ const RAW_CARS = [
   {
     make: 'Fiat', model: 'Egea Cross', year: 2026, version: '1.6 Multijet 130 DCT Lounge',
     category: 'kucuk-suv', bodyType: 'suv', price: 2062900,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 130,
     specs: { motor: '1.6L turbodizel, 130 bg, DCT', hizlanma: '10,0 sn', tuketim: '4,9 L/100 km', bagaj: '440 L' },
     ratings: { surus: 7.0, guvenlik: 6.2, konfor: 7.4, tuketim: 8.8, malzeme: 6.5, tasarim: 7.2, fiyat: 8.5, teknoloji: 6.9 },
     pros: ['Bursa üretimi', 'Ekonomik dizel ve otomatik şanzıman', 'Yüksek yerden yükseklik'],
@@ -451,6 +501,7 @@ const RAW_CARS = [
   {
     make: 'Renault', model: 'Duster', year: 2026, version: 'Turbo TCe 145 EDC Techno',
     category: 'aile-suv', bodyType: 'suv', price: 2080000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 145,
     specs: { motor: 'Turbo benzin, 145 bg, EDC otomatik', hizlanma: '10,0 sn', tuketim: '6,2 L/100 km', bagaj: '472 L' },
     ratings: { surus: 7.4, guvenlik: 6.8, konfor: 7.6, tuketim: 7.8, malzeme: 6.8, tasarim: 8.0, fiyat: 9.2, teknoloji: 7.2 },
     pros: ['Fiyatına göre inanılmaz değer', 'Sağlam ve iddialı duruş', '4x4 ve LPG seçenekleri'],
@@ -460,6 +511,7 @@ const RAW_CARS = [
   {
     make: 'Peugeot', model: '3008', year: 2026, version: '1.2 Hybrid 136 GT eDCS6',
     category: 'aile-suv', bodyType: 'suv', price: 3390000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 136,
     specs: { motor: '1.2L turbo hafif hibrit, 136 bg', hizlanma: '10,2 sn', tuketim: '5,6 L/100 km', bagaj: '520 L' },
     ratings: { surus: 7.9, guvenlik: 8.3, konfor: 8.2, tuketim: 8.0, malzeme: 8.4, tasarim: 9.2, fiyat: 7.2, teknoloji: 8.8 },
     pros: ['21 inçlik panoramik kavisli ekran', 'Çarpıcı fastback tasarım', 'Kaliteli kabin'],
@@ -469,6 +521,7 @@ const RAW_CARS = [
   {
     make: 'Volkswagen', model: 'Tiguan', year: 2026, version: '1.5 eTSI 150 Elegance DSG',
     category: 'aile-suv', bodyType: 'suv', price: 4629000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '9,1 sn', tuketim: '6,0 L/100 km', bagaj: '652 L' },
     ratings: { surus: 8.4, guvenlik: 8.9, konfor: 8.7, tuketim: 7.9, malzeme: 8.3, tasarim: 8.0, fiyat: 6.4, teknoloji: 8.6 },
     pros: ['652 litrelik bagaj', 'DCC süspansiyonla üstün konfor', 'Olgun, sessiz sürüş'],
@@ -478,6 +531,7 @@ const RAW_CARS = [
   {
     make: 'Toyota', model: 'C-HR', year: 2026, version: '1.8 Hybrid Passion e-CVT',
     category: 'aile-suv', bodyType: 'suv', price: 3045000,
+    fuel: 'Hibrit', gearbox: 'Otomatik', hp: 140,
     specs: { motor: '1.8L tam hibrit, 140 bg', hizlanma: '9,9 sn', tuketim: '4,8 L/100 km', bagaj: '388 L' },
     ratings: { surus: 8.0, guvenlik: 8.8, konfor: 7.9, tuketim: 9.2, malzeme: 8.0, tasarim: 8.8, fiyat: 7.6, teknoloji: 8.0 },
     pros: ['Sakarya üretimi', 'Çok düşük tüketim', 'Keskin ve modern tasarım'],
@@ -487,6 +541,7 @@ const RAW_CARS = [
   {
     make: 'Toyota', model: 'RAV4', year: 2026, version: '2.5 Hybrid 4x4 Passion X-Pack',
     category: 'aile-suv', bodyType: 'suv', price: 5639000,
+    fuel: 'Hibrit', gearbox: 'Otomatik', hp: 222,
     specs: { motor: '2.5L tam hibrit, 222 bg, 4x4', hizlanma: '8,1 sn', tuketim: '5,8 L/100 km', bagaj: '580 L' },
     ratings: { surus: 7.9, guvenlik: 9.0, konfor: 8.2, tuketim: 8.6, malzeme: 7.8, tasarim: 7.8, fiyat: 6.0, teknoloji: 8.0 },
     pros: ['Güçlü ve verimli hibrit', 'Standart dört çeker', 'Uzun ömürlü mekanik'],
@@ -496,6 +551,7 @@ const RAW_CARS = [
   {
     make: 'Hyundai', model: 'Tucson', year: 2026, version: '1.6 T-GDI 180 4x2 Elite DCT',
     category: 'aile-suv', bodyType: 'suv', price: 3470000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 180,
     specs: { motor: '1.6L turbo benzin, 180 bg, DCT', hizlanma: '9,1 sn', tuketim: '7,0 L/100 km', bagaj: '620 L' },
     ratings: { surus: 7.9, guvenlik: 8.7, konfor: 8.5, tuketim: 7.3, malzeme: 8.0, tasarim: 8.6, fiyat: 7.5, teknoloji: 8.7 },
     pros: ['Güçlü motor', 'Geniş bagaj', 'Zengin teknoloji ve donanım'],
@@ -505,6 +561,7 @@ const RAW_CARS = [
   {
     make: 'Kia', model: 'Sportage', year: 2026, version: '1.6 T-GDI 150 Prestige DCT',
     category: 'aile-suv', bodyType: 'suv', price: 3340000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.6L turbo benzin, 150 bg, DCT', hizlanma: '10,4 sn', tuketim: '7,0 L/100 km', bagaj: '591 L' },
     ratings: { surus: 7.8, guvenlik: 8.7, konfor: 8.4, tuketim: 7.3, malzeme: 8.1, tasarim: 8.4, fiyat: 7.6, teknoloji: 8.7 },
     pros: ['Kavisli çift ekran', 'Geniş arka koltuk', 'Uzun garanti'],
@@ -514,6 +571,7 @@ const RAW_CARS = [
   {
     make: 'Nissan', model: 'Qashqai', year: 2026, version: 'e-POWER 190 Skypack',
     category: 'aile-suv', bodyType: 'suv', price: 4115200,
+    fuel: 'Hibrit', gearbox: 'Otomatik', hp: 190,
     specs: { motor: '1.5L seri hibrit (e-POWER), 190 bg', hizlanma: '7,9 sn', tuketim: '5,3 L/100 km', bagaj: '504 L' },
     ratings: { surus: 7.8, guvenlik: 8.6, konfor: 8.3, tuketim: 8.5, malzeme: 8.0, tasarim: 8.0, fiyat: 6.6, teknoloji: 8.3 },
     pros: ['Elektrikli gibi sessiz, akıcı hızlanma', 'Rahat süspansiyon', 'Kaliteli kabin'],
@@ -523,6 +581,7 @@ const RAW_CARS = [
   {
     make: 'Chery', model: 'Tiggo 7', year: 2026, version: 'Prestige 4x2',
     category: 'aile-suv', bodyType: 'suv', price: 2580000,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: null,
     specs: { motor: '1.6L turbo benzin, 7DCT', hizlanma: '—', tuketim: '7,5 L/100 km', bagaj: '500 L' },
     ratings: { surus: 7.0, guvenlik: 8.2, konfor: 7.9, tuketim: 7.2, malzeme: 7.6, tasarim: 7.8, fiyat: 8.6, teknoloji: 8.4 },
     pros: ['Fiyatına göre çok zengin donanım', 'Geniş kabin', '4x4 seçeneği'],
@@ -532,6 +591,7 @@ const RAW_CARS = [
   {
     make: 'Skoda', model: 'Kodiaq', year: 2026, version: '1.5 TSI mHEV 150 Prestige DSG',
     category: 'aile-suv', bodyType: 'suv', price: 4749900,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '9,7 sn', tuketim: '6,1 L/100 km', bagaj: '845 L (5 koltuk)' },
     ratings: { surus: 8.1, guvenlik: 8.9, konfor: 8.8, tuketim: 7.8, malzeme: 8.3, tasarim: 7.9, fiyat: 7.0, teknoloji: 8.5 },
     pros: ['Dev bagaj ve 7 koltuk seçeneği', 'Çok konforlu, sessiz sürüş', 'Pratik detaylar'],
@@ -541,6 +601,7 @@ const RAW_CARS = [
   {
     make: 'Renault', model: 'Austral', year: 2026, version: 'Mild Hybrid 160 Techno Otomatik',
     category: 'aile-suv', bodyType: 'suv', price: 2875000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 160,
     specs: { motor: '1.3L turbo hafif hibrit, 160 bg', hizlanma: '9,6 sn', tuketim: '6,3 L/100 km', bagaj: '500 L' },
     ratings: { surus: 8.0, guvenlik: 8.6, konfor: 8.2, tuketim: 7.9, malzeme: 8.0, tasarim: 8.0, fiyat: 8.2, teknoloji: 8.6 },
     pros: ['OpenR ekran ve Google hizmetleri', 'Kaliteli kabin', 'Rakiplerine göre uygun fiyat'],
@@ -550,6 +611,7 @@ const RAW_CARS = [
   {
     make: 'Cupra', model: 'Formentor', year: 2026, version: '1.5 eTSI 150 VZ-Line DSG',
     category: 'aile-suv', bodyType: 'suv', price: 3775000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '8,9 sn', tuketim: '5,9 L/100 km', bagaj: '450 L' },
     ratings: { surus: 8.9, guvenlik: 8.6, konfor: 7.6, tuketim: 7.9, malzeme: 7.9, tasarim: 9.1, fiyat: 7.0, teknoloji: 8.2 },
     pros: ['Sınıfının en sportif sürüşü', 'Göz alıcı tasarım', 'Alçak, otomobil gibi oturma'],
@@ -563,6 +625,7 @@ const RAW_CARS = [
   {
     make: 'BMW', model: 'X1', year: 2026, version: 'sDrive20i M Sport',
     category: 'premium-suv', bodyType: 'suv', price: 5854800,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '1.5L turbo hafif hibrit, 170 bg', hizlanma: '8,4 sn', tuketim: '6,4 L/100 km', bagaj: '540 L' },
     ratings: { surus: 8.6, guvenlik: 9.0, konfor: 8.4, tuketim: 7.9, malzeme: 8.6, tasarim: 8.3, fiyat: 6.9, teknoloji: 8.9 },
     pros: ['Pratik ve geniş kabin', 'Keskin direksiyon', 'Kavisli ekran'],
@@ -572,6 +635,7 @@ const RAW_CARS = [
   {
     make: 'Mercedes-Benz', model: 'GLA', year: 2026, version: 'GLA 200 AMG',
     category: 'premium-suv', bodyType: 'suv', price: 4760000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 163,
     specs: { motor: '1.3L turbo hafif hibrit, 163 bg', hizlanma: '8,7 sn', tuketim: '6,3 L/100 km', bagaj: '435 L' },
     ratings: { surus: 7.9, guvenlik: 8.9, konfor: 8.1, tuketim: 7.9, malzeme: 8.4, tasarim: 8.2, fiyat: 7.4, teknoloji: 8.5 },
     pros: ['Premium SUV’ların en ulaşılabilirlerinden', 'Şık kabin atmosferi', 'Mercedes prestiji'],
@@ -581,6 +645,7 @@ const RAW_CARS = [
   {
     make: 'Audi', model: 'Q3', year: 2026, version: 'TFSI 150 S tronic',
     category: 'premium-suv', bodyType: 'suv', price: 5311292,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo, 150 bg (110 kW)', hizlanma: '9,3 sn', tuketim: '6,5 L/100 km', bagaj: '488 L' },
     ratings: { surus: 8.2, guvenlik: 8.8, konfor: 8.4, tuketim: 7.8, malzeme: 8.6, tasarim: 8.5, fiyat: 7.0, teknoloji: 8.7 },
     pros: ['Yeni nesilde yenilenen teknoloji', 'Kaliteli, sessiz kabin', 'Kayar arka koltuk'],
@@ -590,6 +655,7 @@ const RAW_CARS = [
   {
     make: 'BMW', model: 'X3', year: 2026, version: 'X3 20 M Sport',
     category: 'premium-suv', bodyType: 'suv', price: 7635700,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 190,
     specs: { motor: '1.6L turbo hafif hibrit, 190 bg (Türkiye’ye özel)', hizlanma: '8,4 sn', tuketim: '7,4–8,2 L/100 km', bagaj: '570 L' },
     ratings: { surus: 8.7, guvenlik: 9.2, konfor: 8.7, tuketim: 7.3, malzeme: 8.8, tasarim: 8.0, fiyat: 6.5, teknoloji: 9.0 },
     pros: ['Sınıfının en iyi sürüşü', 'Geniş ve kaliteli kabin', 'Harman Kardon ve zengin donanım'],
@@ -599,6 +665,7 @@ const RAW_CARS = [
   {
     make: 'Mercedes-Benz', model: 'GLC', year: 2026, version: 'GLC 180 AMG',
     category: 'premium-suv', bodyType: 'suv', price: 7169000,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '1.5L turbo hafif hibrit, 170 bg', hizlanma: '8,9 sn', tuketim: '7,3 L/100 km', bagaj: '620 L' },
     ratings: { surus: 8.2, guvenlik: 9.4, konfor: 9.1, tuketim: 7.5, malzeme: 9.0, tasarim: 8.7, fiyat: 6.6, teknoloji: 9.2 },
     pros: ['Sınıfının en konforlu sürüşü', 'Lüks kabin', 'Geniş bagaj'],
@@ -608,6 +675,7 @@ const RAW_CARS = [
   {
     make: 'Volvo', model: 'XC60', year: 2026, version: 'B5 AWD Mild Hybrid Plus',
     category: 'premium-suv', bodyType: 'suv', price: 7292014,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 250,
     specs: { motor: '2.0L turbo hafif hibrit, 250 bg, AWD', hizlanma: '6,9 sn', tuketim: '7,6 L/100 km', bagaj: '483 L' },
     ratings: { surus: 8.0, guvenlik: 9.5, konfor: 8.9, tuketim: 7.2, malzeme: 8.9, tasarim: 8.8, fiyat: 6.7, teknoloji: 8.6 },
     pros: ['Sınıfının en güvenli otomobillerinden', 'Güçlü motor ve dört çeker', 'Çok rahat koltuklar'],
@@ -617,6 +685,7 @@ const RAW_CARS = [
   {
     make: 'Lexus', model: 'NX', year: 2026, version: '350h 4x4 Executive',
     category: 'premium-suv', bodyType: 'suv', price: 7000000, priceEstimate: true,
+    fuel: 'Hibrit', gearbox: 'Otomatik', hp: 244,
     specs: { motor: '2.5L tam hibrit, 244 bg, 4x4', hizlanma: '7,7 sn', tuketim: '5,8 L/100 km', bagaj: '520 L' },
     ratings: { surus: 7.8, guvenlik: 9.1, konfor: 8.7, tuketim: 8.8, malzeme: 9.0, tasarim: 8.5, fiyat: 6.6, teknoloji: 8.4 },
     pros: ['Premium sınıfta en düşük tüketimlerden', 'Kusursuz işçilik', 'Yüksek güvenilirlik'],
@@ -630,6 +699,7 @@ const RAW_CARS = [
   {
     make: 'Togg', model: 'T10X', year: 2026, version: 'V2 RWD Uzun Menzil',
     category: 'elektrikli', bodyType: 'suv', price: 2411000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 218,
     specs: { motor: '218 bg, 88,5 kWh batarya, ~523 km WLTP', hizlanma: '7,4 sn', tuketim: '17,8 kWh/100 km', bagaj: '441 L' },
     ratings: { surus: 7.8, guvenlik: 8.9, konfor: 8.2, tuketim: 7.6, malzeme: 7.8, tasarim: 8.5, fiyat: 8.6, teknoloji: 8.8 },
     pros: ['Fiyatına göre uzun menzil', 'Geniş ekranlı teknoloji odaklı kabin', 'Yaygın yerli servis ağı'],
@@ -639,6 +709,7 @@ const RAW_CARS = [
   {
     make: 'Togg', model: 'T10F', year: 2026, version: 'V2 RWD Uzun Menzil',
     category: 'elektrikli', bodyType: 'sedan', price: 2370930,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 218,
     specs: { motor: '218 bg, 88,5 kWh batarya, ~600 km WLTP', hizlanma: '7,0 sn', tuketim: '15,5 kWh/100 km', bagaj: '470 L' },
     ratings: { surus: 8.0, guvenlik: 8.8, konfor: 8.3, tuketim: 8.3, malzeme: 7.9, tasarim: 8.4, fiyat: 8.6, teknoloji: 8.9 },
     pros: ['Aerodinamik gövdeyle uzun menzil', 'Zengin standart donanım', 'Yaygın yerli servis'],
@@ -648,6 +719,7 @@ const RAW_CARS = [
   {
     make: 'Tesla', model: 'Model Y', year: 2026, version: 'Long Range Arkadan İtiş',
     category: 'elektrikli', bodyType: 'suv', price: 3682800,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: null,
     specs: { motor: 'Tek motor, ~620 km WLTP', hizlanma: '5,6 sn', tuketim: '15,0 kWh/100 km', bagaj: '854 L (ön+arka)' },
     ratings: { surus: 8.2, guvenlik: 9.2, konfor: 8.2, tuketim: 9.2, malzeme: 7.9, tasarim: 8.2, fiyat: 7.6, teknoloji: 9.4 },
     pros: ['Sınıfının en iyi verimliliği', 'Supercharger ağı', 'Dev bagaj hacmi'],
@@ -657,6 +729,7 @@ const RAW_CARS = [
   {
     make: 'Peugeot', model: 'e-208', year: 2026, version: 'GT 100 kW',
     category: 'elektrikli', bodyType: 'fastback', price: 2080000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 136,
     specs: { motor: '136 bg, ~51 kWh, ~400 km WLTP', hizlanma: '8,3 sn', tuketim: '15,5 kWh/100 km', bagaj: '309 L' },
     ratings: { surus: 8.0, guvenlik: 7.4, konfor: 7.8, tuketim: 8.3, malzeme: 7.8, tasarim: 9.0, fiyat: 8.2, teknoloji: 8.0 },
     pros: ['Sınıfının en şık tasarımlarından', 'Çevik şehir sürüşü', 'Şehir için yeterli menzil'],
@@ -666,6 +739,7 @@ const RAW_CARS = [
   {
     make: 'Renault', model: '5 E-Tech', year: 2026, version: 'Techno EV52 150 bg',
     category: 'elektrikli', bodyType: 'fastback', price: 2099000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '150 bg, 52 kWh, ~410 km WLTP', hizlanma: '7,9 sn', tuketim: '15,0 kWh/100 km', bagaj: '326 L' },
     ratings: { surus: 8.4, guvenlik: 8.0, konfor: 7.8, tuketim: 8.6, malzeme: 7.6, tasarim: 9.4, fiyat: 8.3, teknoloji: 8.5 },
     pros: ['Retro ve karakterli tasarım', 'Eğlenceli, çevik sürüş', 'Google tabanlı multimedya'],
@@ -675,6 +749,7 @@ const RAW_CARS = [
   {
     make: 'BYD', model: 'Seal', year: 2026, version: 'Excellence AWD',
     category: 'elektrikli', bodyType: 'sedan', price: 4077000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 530,
     specs: { motor: '530 bg çift motor, 82,5 kWh, ~520 km WLTP', hizlanma: '3,8 sn', tuketim: '17,0 kWh/100 km', bagaj: '400 L + 53 L ön' },
     ratings: { surus: 8.4, guvenlik: 9.0, konfor: 8.4, tuketim: 8.0, malzeme: 8.2, tasarim: 8.6, fiyat: 7.2, teknoloji: 8.6 },
     pros: ['Süper otomobil hızlanması', 'Kaliteli kabin', 'Dört çeker'],
@@ -684,6 +759,7 @@ const RAW_CARS = [
   {
     make: 'BYD', model: 'Sealion 7', year: 2026, version: 'Excellence AWD',
     category: 'elektrikli', bodyType: 'suv', price: 4190000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 530,
     specs: { motor: '530 bg çift motor, 82,5 kWh, ~500 km WLTP', hizlanma: '4,5 sn', tuketim: '20,0 kWh/100 km', bagaj: '520 L' },
     ratings: { surus: 8.2, guvenlik: 9.0, konfor: 8.4, tuketim: 7.4, malzeme: 8.2, tasarim: 8.4, fiyat: 7.0, teknoloji: 8.6 },
     pros: ['Çok güçlü çift motor', 'Geniş kabin', 'Zengin standart donanım'],
@@ -693,6 +769,7 @@ const RAW_CARS = [
   {
     make: 'Volkswagen', model: 'ID.4', year: 2026, version: '125 kW 170 PS',
     category: 'elektrikli', bodyType: 'suv', price: 3126000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '170 bg, ~52 kWh, ~360 km WLTP', hizlanma: '9,0 sn', tuketim: '16,5 kWh/100 km', bagaj: '543 L' },
     ratings: { surus: 7.6, guvenlik: 9.0, konfor: 8.6, tuketim: 8.0, malzeme: 7.6, tasarim: 7.6, fiyat: 6.8, teknoloji: 8.0 },
     pros: ['Konforlu, sessiz sürüş', 'Geniş kabin ve bagaj', 'Olgun yol davranışı'],
@@ -702,6 +779,7 @@ const RAW_CARS = [
   {
     make: 'Hyundai', model: 'Ioniq 5', year: 2026, version: '160 kW Advance',
     category: 'elektrikli', bodyType: 'suv', price: 3490000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 229,
     specs: { motor: '229 bg, 84 kWh, ~570 km WLTP', hizlanma: '7,5 sn', tuketim: '17,0 kWh/100 km', bagaj: '520 L' },
     ratings: { surus: 8.0, guvenlik: 9.1, konfor: 8.8, tuketim: 8.3, malzeme: 8.2, tasarim: 9.3, fiyat: 7.4, teknoloji: 9.0 },
     pros: ['800V altyapıyla çok hızlı şarj', 'İkonik retro-fütüristik tasarım', 'Lounge gibi geniş kabin'],
@@ -711,6 +789,7 @@ const RAW_CARS = [
   {
     make: 'Kia', model: 'EV6', year: 2026, version: 'Elegance Standart Menzil 125 kW',
     category: 'elektrikli', bodyType: 'fastback', price: 3790000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '170 bg, ~63 kWh, ~390 km WLTP', hizlanma: '8,5 sn', tuketim: '16,5 kWh/100 km', bagaj: '480 L' },
     ratings: { surus: 8.4, guvenlik: 9.0, konfor: 8.3, tuketim: 8.3, malzeme: 8.2, tasarim: 9.0, fiyat: 6.6, teknoloji: 8.9 },
     pros: ['800V hızlı şarj', 'Sportif ve çevik sürüş', 'Etkileyici tasarım'],
@@ -720,6 +799,7 @@ const RAW_CARS = [
   {
     make: 'Volvo', model: 'EX30', year: 2026, version: 'Ultra P4 Long Range',
     category: 'elektrikli', bodyType: 'suv', price: 2485390,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 204,
     specs: { motor: '204 bg, ~64 kWh, ~470 km WLTP', hizlanma: '7,4 sn', tuketim: '16,9 kWh/100 km', bagaj: '318 L' },
     ratings: { surus: 8.0, guvenlik: 9.0, konfor: 7.6, tuketim: 8.2, malzeme: 8.2, tasarim: 9.0, fiyat: 8.4, teknoloji: 8.3 },
     pros: ['Premium markada ulaşılabilir fiyat', 'Üst donanım standart', 'Şık ve sürdürülebilir kabin malzemeleri'],
@@ -729,6 +809,7 @@ const RAW_CARS = [
   {
     make: 'Kia', model: 'EV3', year: 2026, version: 'Elegance Long Range 150 kW',
     category: 'elektrikli', bodyType: 'suv', price: 2485000,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 204,
     specs: { motor: '204 bg, 81,4 kWh, ~600 km WLTP', hizlanma: '7,9 sn', tuketim: '15,5 kWh/100 km', bagaj: '460 L' },
     ratings: { surus: 7.8, guvenlik: 8.9, konfor: 8.2, tuketim: 8.8, malzeme: 7.9, tasarim: 8.6, fiyat: 8.8, teknoloji: 8.7 },
     pros: ['Kompakt boyutlarda çok uzun menzil', 'Fiyatına göre güçlü paket', 'Geniş bagaj'],
@@ -738,11 +819,225 @@ const RAW_CARS = [
   {
     make: 'Skoda', model: 'Elroq', year: 2026, version: '60 e-Prestige 204 PS',
     category: 'elektrikli', bodyType: 'suv', price: 3314900,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 204,
     specs: { motor: '204 bg, ~59 kWh, ~400 km WLTP', hizlanma: '8,0 sn', tuketim: '16,0 kWh/100 km', bagaj: '470 L' },
     ratings: { surus: 7.9, guvenlik: 9.0, konfor: 8.4, tuketim: 8.3, malzeme: 7.9, tasarim: 8.2, fiyat: 7.2, teknoloji: 8.4 },
     pros: ['Pratik ve geniş kabin', 'Olgun sürüş', 'Fiziksel tuşları koruyan kullanışlı arayüz'],
     cons: ['Fiyatına göre menzil ortalama', 'Hızlı şarj rakiplerin gerisinde'],
     summary: 'Skoda pratikliğini elektrikli kompakt SUV’a taşıyan mantıklı bir aile otomobili.',
+  },
+  // =========================================================================
+  // EK ARAÇLAR (yeni ve ikinci el)
+  // =========================================================================
+  {
+    make: 'Audi', model: 'A3 Sportback', year: 2024, version: '35 TFSI 150 MHEV S tronic',
+    category: 'kompakt-hatchback', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
+    specs: { motor: '1.5L turbo hafif hibrit, 150 bg, S tronic', hizlanma: '8,4 sn', tuketim: '5,4 L/100 km', bagaj: '380 L' },
+    ratings: { surus: 8.4, guvenlik: 8.8, konfor: 8.4, tuketim: 8.4, malzeme: 8.5, tasarim: 8.4, fiyat: 7.4, teknoloji: 8.6 },
+    pros: ['Premium marka kalitesi kompakt boyutlarda', 'Virtual Cockpit ve olgun sürüş', 'Hafif hibritle düşük tüketim'],
+    cons: ['Kapı ve alt panellerde sert plastikler', 'Arka koltuk ortalama'],
+    summary: 'Golf altyapısını daha premium bir kabin ve marka imajıyla sunan, ikinci elde de değerini iyi koruyan bir kompakt.',
+  },
+  {
+    make: 'BMW', model: 'i7', year: 2024, version: 'M60 xDrive',
+    category: 'elektrikli', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 610,
+    specs: { motor: '610 bg çift motor, 101,7 kWh, ~560 km WLTP', hizlanma: '3,8 sn', tuketim: '22,5 kWh/100 km', bagaj: '500 L' },
+    ratings: { surus: 9.0, guvenlik: 9.5, konfor: 9.7, tuketim: 7.4, malzeme: 9.7, tasarim: 7.8, fiyat: 6.0, teknoloji: 9.9 },
+    pros: ['Arkada 31,3 inçlik tavan ekranı', 'Olağanüstü kabin sessizliği', '2,7 tonluk gövdeye rağmen süper otomobil hızlanması'],
+    cons: ['Şehirde park etmek zor', 'Tartışmalı ön ızgara tasarımı'],
+    summary: 'Arka koltuğunda sinema konforu, direksiyonunda M performansı sunan elektrikli bir makam otomobili. 2024 sonrası M70 adıyla satılıyor.',
+  },
+  {
+    make: 'Mercedes-Benz', model: 'C Serisi', year: 2015, version: 'C 200 d BlueTEC',
+    category: 'premium-sedan', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 136,
+    specs: { motor: '1.6L turbodizel, 136 bg, 7G-Tronic', hizlanma: '10,3 sn', tuketim: '4,4 L/100 km', bagaj: '480 L' },
+    ratings: { surus: 7.8, guvenlik: 8.4, konfor: 8.6, tuketim: 9.0, malzeme: 8.4, tasarim: 8.4, fiyat: 7.8, teknoloji: 6.8 },
+    pros: ['Hâlâ şık ve premium görünen kabin', 'Çok düşük dizel tüketimi', 'Uzun yolda konforlu'],
+    cons: ['1.6 motor performansta sınırlı', 'Multimedya ve güvenlik teknolojisi eskidi'],
+    summary: 'W205 kasanın Türkiye’ye özel 1.6 dizel versiyonu; ikinci elde premium konforu düşük yakıt masrafıyla sunan mantıklı bir tercih.',
+  },
+  {
+    make: 'Opel', model: 'Corsa', year: 2021, version: '1.5 Dizel 102 Edition Manuel',
+    category: 'sehir-hatchback', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Dizel', gearbox: 'Manuel', hp: 102,
+    specs: { motor: '1.5L turbodizel, 102 bg, 6 ileri manuel', hizlanma: '10,2 sn', tuketim: '3,8 L/100 km', bagaj: '309 L' },
+    ratings: { surus: 7.7, guvenlik: 7.3, konfor: 7.4, tuketim: 9.3, malzeme: 7.0, tasarim: 7.8, fiyat: 8.4, teknoloji: 6.8 },
+    pros: ['Çok düşük yakıt tüketimi', 'Güçlü ara hızlanma (tork)', 'Çok kilometre yapanlar için ekonomik'],
+    cons: ['Edition donanım sade', 'Dizel motor rölantide sesli'],
+    summary: 'Yakıt masrafı ön planda olan, çok yol yapan kullanıcılar için ikinci elde akıllı bir şehir otomobili.',
+  },
+  {
+    make: 'Porsche', model: 'Taycan', year: 2026, version: 'Taycan (arkadan itiş)',
+    category: 'elektrikli', bodyType: 'sedan', price: 14883516,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 408,
+    specs: { motor: '408 bg (overboost), 82 kWh, ~590 km WLTP', hizlanma: '4,8 sn', tuketim: '17,9 kWh/100 km', bagaj: '407 L + 84 L ön' },
+    ratings: { surus: 9.6, guvenlik: 9.2, konfor: 8.8, tuketim: 8.5, malzeme: 9.4, tasarim: 9.5, fiyat: 6.4, teknoloji: 9.3 },
+    pros: ['Gerçek spor otomobil dinamikleri', '800V mimariyle çok hızlı şarj', 'Makyajla uzayan menzil'],
+    cons: ['Dar arka yaşam alanı', 'Çok pahalı opsiyonlar'],
+    summary: 'Elektrikli çağda saf spor otomobil karakterini yaşatan bir mühendislik örneği; Türkiye’de benzinli Porsche’lara göre vergi avantajlı.',
+  },
+  {
+    make: 'Porsche', model: 'Panamera', year: 2026, version: 'Panamera',
+    category: 'premium-sedan', bodyType: 'fastback', price: 25030751,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 353,
+    specs: { motor: '2.9L V6 biturbo, 353 bg, PDK', hizlanma: '5,1 sn', tuketim: '10,6 L/100 km', bagaj: '494 L' },
+    ratings: { surus: 9.4, guvenlik: 9.2, konfor: 9.3, tuketim: 6.2, malzeme: 9.6, tasarim: 9.2, fiyat: 5.6, teknoloji: 9.4 },
+    pros: ['Büyük gövdede spor otomobil yol tutuşu', 'Kusursuz işçilik', 'Uzun yolda çok konforlu'],
+    cons: ['ÖTV nedeniyle çok yüksek fiyat', 'Tüketim yüksek'],
+    summary: 'Dört kişiyi spor otomobil hızında ve lüks sedan konforunda taşıyan bir gran turismo.',
+  },
+  {
+    make: 'Porsche', model: '718 Cayman', year: 2023, version: '718 Cayman PDK',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 300,
+    specs: { motor: '2.0L turbo boxer, 300 bg, PDK', hizlanma: '4,9 sn', tuketim: '8,8 L/100 km', bagaj: '150 L ön + 275 L arka' },
+    ratings: { surus: 9.6, guvenlik: 8.4, konfor: 7.2, tuketim: 6.8, malzeme: 8.8, tasarim: 9.2, fiyat: 7.0, teknoloji: 7.2 },
+    pros: ['Orta motorlu şasinin kusursuz dengesi', 'Keskin direksiyon ve frenler', 'İki bagajla şaşırtıcı pratiklik'],
+    cons: ['Dört silindirli motorun sesi sıradan', 'Multimedya eskidi'],
+    summary: 'Sürüş keyfi açısından piyasanın en iyi şasilerinden biri; üretimi sona erdiği için artık ikinci elde aranan bir model.',
+  },
+  {
+    make: 'Porsche', model: 'Macan', year: 2026, version: 'Macan Electric (arkadan itiş)',
+    category: 'premium-suv', bodyType: 'suv', price: 8752146,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 360,
+    specs: { motor: '360 bg (overboost), 100 kWh, ~640 km WLTP', hizlanma: '5,7 sn', tuketim: '17,9 kWh/100 km', bagaj: '540 L + 84 L ön' },
+    ratings: { surus: 9.0, guvenlik: 9.2, konfor: 8.8, tuketim: 8.4, malzeme: 9.2, tasarim: 8.8, fiyat: 7.2, teknoloji: 9.2 },
+    pros: ['Uzun menzil ve çok hızlı şarj', 'SUV’da Porsche sürüş karakteri', 'Premium rakiplerine yakın fiyat'],
+    cons: ['Benzinli versiyon artık yok', 'Arka koltuk başüstü sınırlı'],
+    summary: 'Türkiye’de yalnızca elektrikli olarak satılan yeni Macan, vergi avantajıyla Porsche’a en uygun giriş kapısı.',
+  },
+  {
+    make: 'Porsche', model: 'Cayenne', year: 2026, version: 'Cayenne',
+    category: 'premium-suv', bodyType: 'suv', price: 21493343,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 353,
+    specs: { motor: '3.0L V6 turbo, 353 bg, dört çeker', hizlanma: '6,0 sn', tuketim: '11,5 L/100 km', bagaj: '772 L' },
+    ratings: { surus: 9.2, guvenlik: 9.3, konfor: 9.2, tuketim: 5.8, malzeme: 9.5, tasarim: 8.8, fiyat: 5.4, teknoloji: 9.3 },
+    pros: ['Büyük SUV’da spor otomobil yol tutuşu', 'Geniş ve lüks kabin', 'Dev bagaj'],
+    cons: ['ÖTV nedeniyle elektrikli Cayenne’den çok daha pahalı', 'Yüksek tüketim'],
+    summary: 'Sınıfının sürüş referansı; Türkiye’de ise yeni Cayenne Electric vergi avantajıyla ciddi bir alternatif sunuyor.',
+  },
+  {
+    make: 'Mazda', model: 'MX-5', year: 2016, version: '1.5 Skyactiv-G 131',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Manuel', hp: 131,
+    specs: { motor: '1.5L atmosferik benzin, 131 bg, 6 ileri manuel', hizlanma: '8,3 sn', tuketim: '6,0 L/100 km', bagaj: '130 L' },
+    ratings: { surus: 9.3, guvenlik: 7.2, konfor: 6.6, tuketim: 8.2, malzeme: 7.2, tasarim: 9.0, fiyat: 8.4, teknoloji: 6.2 },
+    pros: ['Hafif gövde ve saf, eğlenceli sürüş', 'Mükemmel manuel şanzıman', 'Düşük tüketim ve güvenilirlik'],
+    cons: ['Çok küçük bagaj ve kabin', 'Otoyolda gürültülü'],
+    summary: 'Az güçle çok keyif. Açık hava ve direksiyon hissi arayanlar için ikinci elde ulaşılabilir bir roadster.',
+  },
+  {
+    make: 'BMW', model: '2 Serisi Coupé', year: 2015, version: '218i Coupé',
+    category: 'spor', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 136,
+    specs: { motor: '1.5L turbo, 136 bg, 8 ileri otomatik', hizlanma: '8,8 sn', tuketim: '5,3 L/100 km', bagaj: '390 L' },
+    ratings: { surus: 8.6, guvenlik: 8.2, konfor: 7.8, tuketim: 8.4, malzeme: 8.0, tasarim: 7.8, fiyat: 8.0, teknoloji: 7.0 },
+    pros: ['Arkadan itişli dengeli şasi', 'Düşük tüketim', 'Coupé için kullanışlı bagaj'],
+    cons: ['Üç silindirli motor performansta sınırlı', 'Arka koltuk dar'],
+    summary: 'Arkadan itişli BMW sürüş karakterini ekonomik bir motorla sunan, ikinci elde mantıklı bir coupé.',
+  },
+  {
+    make: 'Audi', model: 'S3 Sportback', year: 2021, version: '2.0 TFSI quattro S tronic',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 310,
+    specs: { motor: '2.0L turbo, 310 bg, quattro', hizlanma: '4,8 sn', tuketim: '8,0 L/100 km', bagaj: '325 L' },
+    ratings: { surus: 9.1, guvenlik: 8.8, konfor: 7.8, tuketim: 6.8, malzeme: 8.5, tasarim: 8.4, fiyat: 7.2, teknoloji: 8.6 },
+    pros: ['Her havada quattro güveni', 'Güçlü ve akıcı motor', 'Günlük kullanıma uygun pratiklik'],
+    cons: ['Sürüş karakteri biraz steril', 'Yüksek ÖTV nedeniyle pahalı'],
+    summary: 'Her gün kullanılabilen, ama istendiğinde süper otomobilleri zorlayan bir hot hatch.',
+  },
+  {
+    make: 'Audi', model: 'A5 Sportback', year: 2023, version: '45 TFSI quattro S line',
+    category: 'premium-sedan', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 265,
+    specs: { motor: '2.0L turbo hafif hibrit, 265 bg, quattro', hizlanma: '5,8 sn', tuketim: '7,6 L/100 km', bagaj: '465 L' },
+    ratings: { surus: 8.8, guvenlik: 9.0, konfor: 8.7, tuketim: 7.2, malzeme: 8.9, tasarim: 9.0, fiyat: 7.0, teknoloji: 8.5 },
+    pros: ['Zarif fastback tasarım', 'Güçlü motor ve quattro', 'Yüksek işçilik kalitesi'],
+    cons: ['Arka başüstü sınırlı', '2.0 motor nedeniyle yüksek vergi ve MTV'],
+    summary: 'Şıklığı, güçlü motoru ve quattro’suyla önceki nesil A5’in en keyifli versiyonu.',
+  },
+  {
+    make: 'Audi', model: 'A4 Sedan', year: 2019, version: '40 TDI S tronic',
+    category: 'premium-sedan', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 190,
+    specs: { motor: '2.0L turbodizel, 190 bg, S tronic', hizlanma: '7,7 sn', tuketim: '4,6 L/100 km', bagaj: '460 L' },
+    ratings: { surus: 8.4, guvenlik: 8.8, konfor: 8.8, tuketim: 8.9, malzeme: 8.8, tasarim: 8.0, fiyat: 7.8, teknoloji: 8.2 },
+    pros: ['Otoyolda çok sessiz kabin', 'Güçlü ve ekonomik dizel', 'Kaliteli işçilik'],
+    cons: ['Kabin tasarımı yaşını gösteriyor', 'Arkada yüksek şaft tüneli'],
+    summary: 'Sessizliği ve düşük tüketimiyle uzun yolları kolayca tüketen, ikinci elde çok aranan bir yol otomobili.',
+  },
+  {
+    make: 'BMW', model: 'M235i Gran Coupé', year: 2023, version: 'M235i xDrive',
+    category: 'spor', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 306,
+    specs: { motor: '2.0L turbo, 306 bg, xDrive', hizlanma: '4,9 sn', tuketim: '7,8 L/100 km', bagaj: '430 L' },
+    ratings: { surus: 8.9, guvenlik: 8.8, konfor: 7.8, tuketim: 7.0, malzeme: 8.3, tasarim: 8.2, fiyat: 7.0, teknoloji: 8.6 },
+    pros: ['Güçlü motor ve dört çeker', 'Günlük kullanıma uygun dört kapı', 'Zengin teknoloji'],
+    cons: ['Önden çekiş tabanlı şasi klasik BMW hissini vermiyor', 'Sert süspansiyon'],
+    summary: 'Kompakt bir gövdede güçlü performans; pratik bir spor sedan arayanlar için.',
+  },
+  {
+    make: 'Mercedes-AMG', model: 'CLA 45 S', year: 2023, version: '4MATIC+',
+    category: 'spor', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 421,
+    specs: { motor: '2.0L turbo, 421 bg, 4MATIC+', hizlanma: '4,0 sn', tuketim: '9,5 L/100 km', bagaj: '460 L' },
+    ratings: { surus: 9.4, guvenlik: 8.8, konfor: 6.8, tuketim: 5.8, malzeme: 8.4, tasarim: 8.8, fiyat: 6.6, teknoloji: 8.8 },
+    pros: ['Dünyanın en güçlü seri üretim 4 silindirli motorlarından', 'Drift modlu akıllı dört çeker', 'Agresif tasarım'],
+    cons: ['Şehirde sert ve yorucu', 'Yüksek kullanım maliyeti'],
+    summary: 'Kompakt bir sedanın içine sıkıştırılmış süper otomobil performansı.',
+  },
+  {
+    make: 'Land Rover', model: 'Range Rover Evoque', year: 2026, version: 'P160 MHEV Dynamic SE',
+    category: 'premium-suv', bodyType: 'suv', price: 7281412,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 160,
+    specs: { motor: '1.5L turbo hafif hibrit, 160 bg, önden çekiş', hizlanma: '10,3 sn', tuketim: '8,0 L/100 km', bagaj: '591 L' },
+    ratings: { surus: 7.4, guvenlik: 8.8, konfor: 8.2, tuketim: 7.0, malzeme: 8.6, tasarim: 9.2, fiyat: 6.0, teknoloji: 8.2 },
+    pros: ['Sınıfının en şık tasarımlarından', 'Kaliteli kabin ve Pivi Pro', 'Range Rover prestiji'],
+    cons: ['160 bg ağır gövdeye yetersiz', 'Türkiye versiyonu önden çekişli'],
+    summary: 'Tasarımı ve marka prestijiyle öne çıkıyor; ÖTV için küçültülen motor performansı sınırlıyor.',
+  },
+  {
+    make: 'Jaguar', model: 'F-Type', year: 2023, version: 'P300 R-Dynamic Coupé',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 300,
+    specs: { motor: '2.0L turbo, 300 bg, 8 ileri otomatik', hizlanma: '5,7 sn', tuketim: '8,6 L/100 km', bagaj: '310 L' },
+    ratings: { surus: 8.8, guvenlik: 8.0, konfor: 7.4, tuketim: 7.0, malzeme: 8.2, tasarim: 9.7, fiyat: 6.8, teknoloji: 7.2 },
+    pros: ['Yaşayan en güzel spor otomobil tasarımlarından', 'Dengeli arkadan itiş şasi', 'Sınıfına göre uygun ikinci el fiyatı'],
+    cons: ['Dört silindir, V6/V8 kadar karakterli değil', 'Üretimi sona erdi; parça ve servis maliyeti'],
+    summary: 'Jaguar’ın son saf spor otomobili; tasarımıyla alınan, sürüşüyle de hayal kırıklığı yaşatmayan bir coupé.',
+  },
+  {
+    make: 'Audi', model: 'A7 Sportback', year: 2020, version: '40 TDI quattro S tronic',
+    category: 'premium-sedan', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 204,
+    specs: { motor: '2.0L turbodizel hafif hibrit, 204 bg, quattro', hizlanma: '7,3 sn', tuketim: '5,6 L/100 km', bagaj: '535 L' },
+    ratings: { surus: 8.5, guvenlik: 9.1, konfor: 9.1, tuketim: 8.5, malzeme: 9.2, tasarim: 9.3, fiyat: 7.4, teknoloji: 9.0 },
+    pros: ['Çarpıcı fastback tasarım', 'Çift dokunmatik ekranlı teknoloji dolu kabin', 'Düşük tüketimli dizel ve quattro'],
+    cons: ['Dokunmatik ekranlar sürüşte dikkat dağıtıyor', 'Arka başüstü sınırlı'],
+    summary: 'Üst sınıf konfor ve teknolojiyi en şık gövdelerden birinde, makul yakıt masrafıyla sunuyor.',
+  },
+  {
+    make: 'Audi', model: 'R8', year: 2023, version: 'V10 performance quattro',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 620,
+    specs: { motor: '5.2L V10 atmosferik, 620 bg, quattro', hizlanma: '3,1 sn', tuketim: '13,4 L/100 km', bagaj: '112 L' },
+    ratings: { surus: 9.8, guvenlik: 8.6, konfor: 6.8, tuketim: 4.2, malzeme: 9.2, tasarim: 9.6, fiyat: 6.0, teknoloji: 8.0 },
+    pros: ['8.700 devire dönen atmosferik V10', 'Günlük kullanılabilen süper otomobil', 'Efsanevi ses'],
+    cons: ['Çok yüksek tüketim ve bakım maliyeti', 'Neredeyse sıfır bagaj'],
+    summary: 'Atmosferik V10 çağının son temsilcilerinden; üretimi 2024’te bitti ve koleksiyon değeri artıyor.',
+  },
+  {
+    make: 'Alfa Romeo', model: 'Stelvio', year: 2025, version: '2.0 Turbo 280 Q4 Veloce',
+    category: 'premium-suv', bodyType: 'suv', price: null,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 280,
+    specs: { motor: '2.0L turbo, 280 bg, Q4 dört çeker', hizlanma: '5,7 sn', tuketim: '7,8 L/100 km', bagaj: '525 L' },
+    ratings: { surus: 9.0, guvenlik: 8.6, konfor: 8.0, tuketim: 7.0, malzeme: 7.8, tasarim: 9.2, fiyat: 6.8, teknoloji: 7.0 },
+    pros: ['SUV’lar arasında en keskin direksiyon', 'Güçlü motor ve dört çeker', 'Karakterli İtalyan tasarımı'],
+    cons: ['Multimedya ve teknoloji rakiplerin gerisinde', 'Zayıf ikinci el değeri'],
+    summary: 'Sürüş keyfini SUV pratikliğiyle birleştiren, Alman rakiplerine duygusal bir alternatif.',
   },
 ];
 
@@ -751,15 +1046,20 @@ const RAW_CARS = [
 // ---------------------------------------------------------------------------
 const withScores = RAW_CARS.map((car) => ({
   ...car,
+  used: !!car.used,
+  price: car.price ?? null,
   slug: car.slug || slugify(`${car.make} ${car.model} ${car.year}`),
   score: overallScore(car.ratings),
 }));
+
+// Eşit genel puanda, yuvarlanmamış toplam puanı yüksek olan öne geçer.
+const exactTotal = (c) => Object.values(c.ratings).reduce((a, b) => a + b, 0);
 
 const rankMap = new Map();
 for (const cat of CATEGORIES) {
   withScores
     .filter((c) => c.category === cat.slug)
-    .sort((a, b) => b.score - a.score)
+    .sort((a, b) => b.score - a.score || exactTotal(b) - exactTotal(a))
     .forEach((c, i) => rankMap.set(c.slug, i + 1));
 }
 
