@@ -1,16 +1,43 @@
-# React + Vite
+# Oto Vasıta
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Otomobil inceleme ve puanlama sitesi. React + Vite + Tailwind CSS, Vercel üzerinde yayında.
 
-Currently, two official plugins are available:
+## Yerelde çalıştırma
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Yeni araç eklemek
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+`src/data/cars.js` dosyasında `RAW_CARS` listesine yeni bir blok ekleyin:
 
-## Expanding the Oxlint configuration
+```js
+{
+  make: 'Volkswagen', model: 'Golf', year: 2025, version: '1.5 eTSI Style DSG',
+  category: 'kompakt-sedan', bodyType: 'fastback', price: 2100000,
+  specs: { motor: '1.5 eTSI, 150 bg', hizlanma: '8,5 sn', tuketim: '5,4 L/100 km', bagaj: '381 L' },
+  ratings: { surus: 8.7, guvenlik: 9.0, konfor: 8.5, tuketim: 8.6, malzeme: 8.4, tasarim: 8.1, fiyat: 7.8, teknoloji: 8.8 },
+  pros: ['...'],
+  cons: ['...'],
+  summary: '...',
+  image: '/cars/vw-golf.png', // isteğe bağlı
+},
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Genel puan (8 başlığın ortalaması), kategori sırası ve sayfa adresi otomatik oluşur.
+- Fotoğraflar `public/cars/` klasörüne konur. Fotoğraf yoksa gövde tipine göre silüet gösterilir.
+- Puan başlıklarının adları `src/data/criteria.js` içindedir.
+
+## Sayfalar
+
+| Adres | İçerik |
+| --- | --- |
+| `/` | Kategori sıralamaları |
+| `/kategori/:slug` | Bir kategorinin tam sıralaması |
+| `/inceleme/:slug` | Araç incelemesi ve 8 başlıklı puan karnesi |
+| `/ara?q=` | Arama sonuçları |
+| `/puanlama` | Puanlama yöntemi |
+
+`vercel.json`, bu adreslerin sayfa yenilendiğinde 404 vermemesini sağlar.

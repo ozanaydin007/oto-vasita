@@ -1,0 +1,4 @@
+Araç fotoğraflarını bu klasöre koyun (ör. toyota-corolla-hybrid.png).
+En iyi görünüm için: yandan çekilmiş, arka planı şeffaf veya beyaz PNG/WebP, yaklaşık 800x400 px.
+Sonra src/data/cars.js içinde ilgili araca şunu ekleyin:  image: '/cars/toyota-corolla-hybrid.png'
+Fotoğraf eklenmeyen araçlarda otomatik olarak gövde tipine uygun bir silüet gösterilir.
