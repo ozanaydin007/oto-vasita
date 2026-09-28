@@ -12,15 +12,15 @@ export const CATEGORIES = [
   },
   {
     slug: 'kompakt-hatchback',
-    title: 'En İyi Kompakt Hatchbackler',
-    short: 'Kompakt hatchback',
+    title: 'En İyi Hatchbackler',
+    short: 'Hatchback',
     intro: 'Sürüş keyfi, kabin kalitesi ve pratikliği bir arada arayanlar için en rekabetçi sınıflardan biri.',
   },
   {
     slug: 'kompakt-sedan',
-    title: 'En İyi Kompakt Sedanlar',
-    short: 'Kompakt sedan',
-    intro: 'Türkiye’nin en çok satan sınıfı. Bagaj, tüketim ve fiyat dengesi burada her şeyden önemli.',
+    title: 'En İyi Sedanlar',
+    short: 'Sedan',
+    intro: 'Türkiye’nin en çok satan gövde tipi. Ekonomik aile sedanlarından sportif premium modellere kadar.',
   },
   {
     slug: 'premium-sedan',
@@ -30,9 +30,9 @@ export const CATEGORIES = [
   },
   {
     slug: 'kucuk-suv',
-    title: 'En İyi Küçük SUV’lar',
-    short: 'Küçük SUV',
-    intro: 'Hatchback boyutlarında, daha yüksek oturma pozisyonu sunan B-SUV ve crossover’lar. Pazarın en hızlı büyüyen sınıfı.',
+    title: 'En İyi C-SUV’lar',
+    short: 'C-SUV',
+    intro: 'Kompakt boyutlarda, yüksek oturma pozisyonu sunan SUV ve crossover’lar. Pazarın en hızlı büyüyen sınıfı.',
   },
   {
     slug: 'aile-suv',
@@ -332,7 +332,7 @@ const RAW_CARS = [
   // =========================================================================
   {
     make: 'BMW', model: '3 Serisi', year: 2026, version: '320i M Sport',
-    category: 'premium-sedan', bodyType: 'sedan', price: 6307600,
+    category: 'kompakt-sedan', bodyType: 'sedan', price: 6307600,
     fuel: 'Benzin', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '1.6L turbo, 170 bg (Türkiye’ye özel)', hizlanma: '8,1 sn', tuketim: '6,4 L/100 km', bagaj: '480 L' },
     ratings: { surus: 9.2, guvenlik: 8.9, konfor: 8.4, tuketim: 7.8, malzeme: 8.8, tasarim: 8.5, fiyat: 7.0, teknoloji: 8.8 },
@@ -342,7 +342,7 @@ const RAW_CARS = [
   },
   {
     make: 'Mercedes-Benz', model: 'C Serisi', year: 2026, version: 'C 200 4MATIC AMG',
-    category: 'premium-sedan', bodyType: 'sedan', price: 6485000,
+    category: 'kompakt-sedan', bodyType: 'sedan', price: 6485000,
     fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 204,
     specs: { motor: '1.5L turbo hafif hibrit, 204 bg, 4MATIC', hizlanma: '7,3 sn', tuketim: '7,0 L/100 km', bagaj: '455 L' },
     ratings: { surus: 8.5, guvenlik: 9.2, konfor: 8.8, tuketim: 7.5, malzeme: 8.9, tasarim: 9.0, fiyat: 6.9, teknoloji: 9.1 },
@@ -851,7 +851,7 @@ const RAW_CARS = [
   },
   {
     make: 'Mercedes-Benz', model: 'C Serisi', year: 2015, version: 'C 200 d BlueTEC',
-    category: 'premium-sedan', bodyType: 'sedan', price: null, used: true,
+    category: 'kompakt-sedan', bodyType: 'sedan', price: null, used: true,
     fuel: 'Dizel', gearbox: 'Otomatik', hp: 136,
     specs: { motor: '1.6L turbodizel, 136 bg, 7G-Tronic', hizlanma: '10,3 sn', tuketim: '4,4 L/100 km', bagaj: '480 L' },
     ratings: { surus: 7.8, guvenlik: 8.4, konfor: 8.6, tuketim: 9.0, malzeme: 8.4, tasarim: 8.4, fiyat: 7.8, teknoloji: 6.8 },
@@ -1134,7 +1134,7 @@ const RAW_CARS = [
   },
   {
     make: 'BMW', model: '3 Serisi', year: 2013, version: '320i ED 1.6 Luxury',
-    category: 'premium-sedan', bodyType: 'sedan', price: null, used: true,
+    category: 'kompakt-sedan', bodyType: 'sedan', price: null, used: true,
     fuel: 'Benzin', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '1.6L turbo, 170 bg, 8 ileri otomatik', hizlanma: '7,6 sn', tuketim: '5,4 L/100 km', bagaj: '480 L' },
     ratings: { surus: 8.8, guvenlik: 8.2, konfor: 8.0, tuketim: 8.4, malzeme: 8.2, tasarim: 7.8, fiyat: 7.6, teknoloji: 6.2 },
@@ -1527,6 +1527,69 @@ const RAW_CARS = [
     pros: ['İtalyan tasarımı ve karakter', 'Güçlü hafif hibrit motor', 'Arkadan itişli keyifli sürüş'],
     cons: ['Teknoloji Alman rakiplerin çok gerisinde', 'Hızlı değer kaybı'],
     summary: 'Duygusal bir tercih; tasarımı ve sürüşü güzel ama teknolojide ve ikinci el değerinde zayıf.',
+  },
+  // =========================================================================
+  // EK ARAÇLAR 5
+  // =========================================================================
+  {
+    make: 'Audi', model: 'A3 Sedan', year: 2021, version: '35 TFSI 150 S tronic Advanced',
+    category: 'kompakt-sedan', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
+    specs: { motor: '1.5L turbo hafif hibrit, 150 bg, S tronic', hizlanma: '8,4 sn', tuketim: '5,4 L/100 km', bagaj: '425 L' },
+    ratings: { surus: 8.4, guvenlik: 8.8, konfor: 8.4, tuketim: 8.4, malzeme: 8.6, tasarim: 8.4, fiyat: 7.6, teknoloji: 8.6 },
+    pros: ['Virtual Cockpit ve modern kabin', 'Olgun, sessiz sürüş', 'Düşük tüketim'],
+    cons: ['Kapı panellerinde sert plastikler', 'Arka görüş dar'],
+    summary: 'Premium kaliteyi kompakt bir sedanda sunan, şehirde çevik ve uzun yolda olgun bir otomobil.',
+  },
+  {
+    make: 'Audi', model: 'A1', year: 2011, version: '1.4 TFSI 122 S tronic Ambition',
+    category: 'sehir-hatchback', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 122,
+    specs: { motor: '1.4L turbo benzin, 122 bg, 7 ileri S tronic', hizlanma: '8,9 sn', tuketim: '5,3 L/100 km', bagaj: '270 L' },
+    ratings: { surus: 7.6, guvenlik: 7.4, konfor: 6.6, tuketim: 7.0, malzeme: 7.8, tasarim: 7.6, fiyat: 6.0, teknoloji: 5.2 },
+    pros: ['Sınıfına göre kaliteli kabin', 'Canlı motor ve hızlı şanzıman', 'Hâlâ şık görünen tasarım'],
+    cons: ['Kuru kavramalı S tronic’in bakım riski', 'Sert süspansiyon ve dar arka koltuk'],
+    summary: 'Premium şehir otomobili fikrinin ilk örneklerinden; şık ve canlı ama yaşı ve şanzıman riski göz önünde bulundurulmalı.',
+  },
+  {
+    make: 'Audi', model: 'A8 L', year: 2020, version: '50 TDI quattro',
+    category: 'premium-sedan', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 286,
+    specs: { motor: '3.0L V6 TDI hafif hibrit, 286 bg, quattro', hizlanma: '5,9 sn', tuketim: '6,6 L/100 km', bagaj: '505 L' },
+    ratings: { surus: 8.6, guvenlik: 9.6, konfor: 9.7, tuketim: 7.6, malzeme: 9.8, tasarim: 8.8, fiyat: 7.0, teknoloji: 9.6 },
+    pros: ['Uzun şasiyle geniş ve lüks arka koltuk', 'Çok sessiz kabin', 'Dokunmatik ekranlarla dolu ileri teknoloji'],
+    cons: ['Yüksek bakım maliyeti', 'S Serisi kadar prestijli algılanmıyor'],
+    summary: 'Teknolojisi ve sessizliğiyle öne çıkan bir makam sedanı; ikinci elde değer/fiyat dengesi güçlü.',
+  },
+  {
+    make: 'Alfa Romeo', model: 'Giulia', year: 2021, version: '2.0T 280 Q4 Veloce',
+    category: 'kompakt-sedan', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 280,
+    specs: { motor: '2.0L turbo, 280 bg, Q4 dört çeker', hizlanma: '5,2 sn', tuketim: '7,8 L/100 km', bagaj: '480 L' },
+    ratings: { surus: 9.5, guvenlik: 8.6, konfor: 7.8, tuketim: 7.2, malzeme: 7.6, tasarim: 9.4, fiyat: 7.6, teknoloji: 6.8 },
+    pros: ['Sınıfının en keskin direksiyonu', 'Zamansız İtalyan tasarımı', 'Güçlü motor ve dört çeker'],
+    cons: ['Eski multimedya', 'Zayıf ikinci el değeri'],
+    summary: 'Kalpten alınan bir sedan: teknoloji eksiklerini sürüş karakteri ve tasarımıyla fazlasıyla telafi ediyor.',
+  },
+  {
+    make: 'Mazda', model: '3 Sedan', year: 2018, version: '1.5 Skyactiv-G 100 Power Sense Plus Otomatik',
+    category: 'kompakt-sedan', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 100,
+    specs: { motor: '1.5L atmosferik benzin, 100 bg, 6 ileri otomatik', hizlanma: '12,3 sn', tuketim: '5,8 L/100 km', bagaj: '419 L' },
+    ratings: { surus: 8.0, guvenlik: 8.2, konfor: 7.2, tuketim: 7.4, malzeme: 7.6, tasarim: 8.0, fiyat: 7.2, teknoloji: 6.2 },
+    pros: ['Keyifli yol tutuş ve direksiyon', 'Kaliteli kabin', 'Mazda güvenilirliği'],
+    cons: ['100 bg ile performans zayıf', 'Arka koltuk ve bagaj sınıf ortalamasının altında'],
+    summary: 'Sürüşü ve kalitesiyle sınıfının üstünde hissettiren ama zayıf motoruyla sınırlanan bir sedan.',
+  },
+  {
+    make: 'MG', model: 'MG4 XPOWER', year: 2024, version: 'XPOWER AWD',
+    category: 'kompakt-hatchback', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 435,
+    specs: { motor: '435 bg çift motor, 64 kWh, ~385 km WLTP', hizlanma: '3,8 sn', tuketim: '18,0 kWh/100 km', bagaj: '363 L' },
+    ratings: { surus: 8.8, guvenlik: 8.6, konfor: 7.2, tuketim: 7.6, malzeme: 6.8, tasarim: 8.2, fiyat: 9.6, teknoloji: 8.8 },
+    pros: ['Süper otomobil hızlanması hatchback fiyatına', 'Dört çeker', 'Fiyat/performansta rakipsiz'],
+    cons: ['Ucuz kabin malzemeleri', 'Sert süspansiyon ve kısa menzil'],
+    summary: 'Performansı fiyatına göre inanılmaz; kabin kalitesi ve menzil ise bütçe sınıfında kalıyor.',
   },
 ];
 
