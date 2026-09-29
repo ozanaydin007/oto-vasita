@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-mist border-t border-rule mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 grid gap-8 sm:grid-cols-3 text-sm">
         <div>
-          <p className="font-display text-xl font-extrabold">Oto Vasıta</p>
+          <p className="font-display text-xl font-extrabold">OtoVaro</p>
           <p className="text-ink-soft mt-2 max-w-xs leading-relaxed">
             Türkiye pazarındaki otomobillerin 8 başlıkta puanlanan incelemeleri ve segment sıralamaları.
           </p>
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-rule">
-        <p className="max-w-7xl mx-auto px-4 sm:px-6 py-4 text-xs text-muted">© {new Date().getFullYear()} Oto Vasıta</p>
+        <p className="max-w-7xl mx-auto px-4 sm:px-6 py-4 text-xs text-muted">© {new Date().getFullYear()} OtoVaro</p>
       </div>
     </footer>
   );

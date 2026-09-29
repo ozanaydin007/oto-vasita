@@ -5,14 +5,14 @@ import { CATEGORIES } from '../data/cars.js';
 
 function Logo() {
   return (
-    <Link to="/" className="flex items-center gap-2 shrink-0" aria-label="Oto Vasıta ana sayfa">
+    <Link to="/" className="flex items-center gap-2 shrink-0" aria-label="OtoVaro ana sayfa">
       <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
         <rect width="32" height="32" rx="7" fill="#1a1d23" />
         <path d="M7 21a9 9 0 1 1 18 0" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" />
         <path d="M16 21l5-6" stroke="#e8a317" strokeWidth="2.5" strokeLinecap="round" />
         <circle cx="16" cy="21" r="2" fill="#fff" />
       </svg>
-      <span className="font-display text-2xl font-extrabold tracking-tight">Oto Vasıta</span>
+      <span className="font-display text-2xl font-extrabold tracking-tight">OtoVaro</span>
     </Link>
   );
 }
