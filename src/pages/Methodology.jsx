@@ -26,10 +26,9 @@ export default function Methodology() {
       </dl>
       <h2 className="font-display text-2xl font-bold mt-10">Puanlar nereden geliyor?</h2>
       <p className="mt-3 text-ink-soft leading-relaxed">
-        Puanlarımız, araçları kendimiz test ederek değil; üretici verileri, Euro NCAP gibi bağımsız güvenlik
-        testleri, kullanıcı deneyimleri, bilinen kronik sorunlar ve Türkiye ikinci el piyasası gibi kamuya açık
-        bilgiler derlenerek verilen editoryal değerlendirmelerdir. İnceleme metinleri de bu puanlara göre
-        hazırlanır. Kendi sürdüğümüz araçlar için yazdığımız incelemeleri ayrıca belirteceğiz.
+        Puanlarımız, araçlarla kendi deneyimlerimizi üretici verileri, Euro NCAP gibi bağımsız güvenlik
+        testleri, kullanıcı deneyimleri, bilinen kronik sorunlar ve Türkiye ikinci el piyasası bilgileriyle
+        birleştiren editoryal değerlendirmelerdir. İnceleme metinleri de bu puanlara göre hazırlanır.
       </p>
       <p className="mt-6 text-ink-soft leading-relaxed">
         Güvenilirlik puanında aracın bilinen kronik sorunlarını, motor, şanzıman, şasi ve yürüyen aksamının uzun
