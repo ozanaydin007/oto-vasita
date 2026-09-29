@@ -2,12 +2,18 @@ import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import CookieConsent from './components/CookieConsent.jsx';
+import SeoSync from './components/SeoSync.jsx';
 import Home from './pages/Home.jsx';
 import AllCarsPage from './pages/AllCarsPage.jsx';
 import CategoryPage from './pages/CategoryPage.jsx';
 import ReviewPage from './pages/ReviewPage.jsx';
 import SearchPage from './pages/SearchPage.jsx';
 import Methodology from './pages/Methodology.jsx';
+import About from './pages/About.jsx';
+import Contact from './pages/Contact.jsx';
+import Privacy from './pages/Privacy.jsx';
+import CookiePolicy from './pages/CookiePolicy.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 // Sayfa değişince başa kaydır. Tüm araçlar sayfasında filtre değiştirmek
@@ -27,6 +33,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <ScrollToTop />
+      <SeoSync />
       <Header />
       <main className="flex-1">
         <Routes>
@@ -36,10 +43,15 @@ export default function App() {
           <Route path="/inceleme/:slug" element={<ReviewPage />} />
           <Route path="/ara" element={<SearchPage />} />
           <Route path="/puanlama" element={<Methodology />} />
+          <Route path="/hakkinda" element={<About />} />
+          <Route path="/iletisim" element={<Contact />} />
+          <Route path="/gizlilik" element={<Privacy />} />
+          <Route path="/cerez-politikasi" element={<CookiePolicy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
+      <CookieConsent />
     </div>
   );
 }
