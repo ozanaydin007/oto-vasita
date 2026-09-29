@@ -12,7 +12,8 @@ import { formatScore, formatPrice } from './scoring.js';
 //   editorial: 'Editörün görüşü altındaki ek paragraf',
 //   review: {
 //     giris: '...', surus: '...', guvenlik: '...', konfor: '...', tuketim: '...',
-//     malzeme: '...', tasarim: '...', fiyat: '...', teknoloji: '...', sonuc: '...',
+//     malzeme: '...', tasarim: '...', fiyat: '...', teknoloji: '...',
+//     guvenilirlik: '...', ikinciel: '...', sonuc: '...',
 //   },
 // ---------------------------------------------------------------------------
 
@@ -43,6 +44,8 @@ const NAMES = {
   tasarim: 'tasarım',
   fiyat: 'fiyat/değer',
   teknoloji: 'teknoloji',
+  guvenilirlik: 'güvenilirlik',
+  ikinciel: 'ikinci el değeri',
 };
 
 const AUDIENCE = {
@@ -54,6 +57,8 @@ const AUDIENCE = {
   tasarim: 'yolda dikkat çekmek isteyenler',
   fiyat: 'bütçesini akıllıca kullanmak isteyenler',
   teknoloji: 'teknolojiyi seven sürücüler',
+  guvenilirlik: 'uzun yıllar sorunsuz bir otomobil isteyenler',
+  ikinciel: 'aracını birkaç yılda bir yenileyenler',
 };
 
 const WEAK_AUDIENCE = {
@@ -65,6 +70,8 @@ const WEAK_AUDIENCE = {
   tasarim: 'Tasarıma önem verenler',
   fiyat: 'Bütçesi sıkı olanlar',
   teknoloji: 'Teknoloji meraklıları',
+  guvenilirlik: 'Uzun vadeli dayanıklılık arayanlar',
+  ikinciel: 'Aracını birkaç yılda bir değiştirenler',
 };
 
 const isEV = (car) => car.fuel === 'Elektrik';
@@ -312,6 +319,47 @@ const TEXT = {
       () => 'Teknoloji adına neredeyse hiçbir şey yok; radyo ve temel göstergelerle yetinmeniz gerekiyor.',
     ],
   },
+  guvenilirlik: {
+    mukemmel: [
+      () => 'Güvenilirlik konusunda neredeyse efsane seviyesinde. Motor, şanzıman ve yürüyen aksamda bilinen kronik bir sorunu yok; düzenli bakımla yüz binlerce kilometreyi dert etmeden yapıyor.',
+      () => 'Uzun vadede başınızı ağrıtmayacak otomobillerin başında geliyor. Servise neredeyse yalnızca periyodik bakım için gidiyorsunuz.',
+    ],
+    cokiyi: [
+      () => 'Güvenilirlik çok iyi. Mekanik aksamı sağlam ve bilinen ciddi bir kronik sorunu yok; bakımları zamanında yapıldığında uzun yıllar sorunsuz kullanılıyor.',
+    ],
+    iyi: [
+      () => 'Güvenilirlik genel olarak iyi. Büyük bir kronik sorunu yok, ancak bazı parçalar yüksek kilometrede ilgi isteyebiliyor; bakım geçmişi önemli.',
+    ],
+    orta: [
+      () => 'Güvenilirlik ortalama. Kullanıcıların sık şikâyet ettiği bazı kronik noktalar var; almadan önce bakım kayıtlarını inceleyin ve ekspertizden geçirin.',
+    ],
+    zayif: [
+      () => 'Güvenilirlik zayıf halkalardan biri. Motor, şanzıman veya elektronik tarafında bilinen kronik sorunlar var ve arıza masrafları yüksek olabiliyor.',
+    ],
+    kotu: [
+      () => 'Güvenilirlik ciddi bir risk. Yaşı ve bilinen sorunları nedeniyle beklenmedik masraflara hazırlıklı olmak gerekiyor.',
+    ],
+  },
+  ikinciel: {
+    mukemmel: [
+      () => 'İkinci elde tam bir altın. Değerini çok iyi koruyor, satışa çıkardığınızda kısa sürede alıcı buluyor ve piyasada temiz örnek bulmak zor değil.',
+    ],
+    cokiyi: [
+      () => 'İkinci el piyasasında çok aranan bir model. Değer kaybı düşük, satmak istediğinizde uzun süre beklemiyorsunuz.',
+    ],
+    iyi: [
+      () => 'İkinci el performansı iyi; değer kaybı makul ve alıcı bulmak zor değil.',
+    ],
+    orta: [
+      () => 'İkinci el tarafı ortalama. Değer kaybı belirgin ve satışı rakiplerine göre biraz daha uzun sürebiliyor.',
+    ],
+    zayif: [
+      () => 'İkinci elde zorlanan bir model. Hızlı değer kaybediyor, alıcı kitlesi dar ve temiz bir örnek bulmak kolay değil.',
+    ],
+    kotu: [
+      () => 'İkinci el açısından çok zor bir tercih: temiz örnek bulmak neredeyse imkânsız, satmak da uzun sürebiliyor.',
+    ],
+  },
 };
 
 function sortedCriteria(car) {
@@ -358,12 +406,12 @@ export function buildEditorial(car) {
   return clean(parts.join(' '));
 }
 
-// Tam inceleme: giriş, 8 başlık ve sonuç
+// Tam inceleme: giriş, 10 başlık ve sonuç
 export function buildReview(car, category) {
   const o = car.review || {};
   const intro = [];
   intro.push(
-    `${car.year} ${car.make} ${car.model}, ${car.version} donanımıyla ${category.title.toLocaleLowerCase('tr-TR')} listemizde ${car.rank}. sırada yer alıyor ve 8 başlığın ortalamasında ${formatScore(car.score)} puan alıyor.`
+    `${car.year} ${car.make} ${car.model}, ${car.version} donanımıyla ${category.title.toLocaleLowerCase('tr-TR')} listemizde ${car.rank}. sırada yer alıyor ve 10 başlığın ortalamasında ${formatScore(car.score)} puan alıyor.`
   );
   if (car.year < 1990) {
     intro.push('Bu bir klasik otomobil; puanlarımızı günümüz otomobilleriyle aynı ölçütlere göre verdik, bu yüzden nostaljik değerini puanlara ancak kısmen yansıtabildik.');

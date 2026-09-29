@@ -1,4 +1,4 @@
-// Her araç bu 8 başlıkta 0–10 arası (küsuratlı) puanlanır.
+// Her araç bu 10 başlıkta 0–10 arası (küsuratlı) puanlanır.
 // Bir başlığın adını değiştirmek için sadece "label" ve "hint" alanını düzenleyin.
 // "key" alanını değiştirirseniz cars.js içindeki ratings anahtarlarını da değiştirmeniz gerekir.
 export const CRITERIA = [
@@ -10,4 +10,6 @@ export const CRITERIA = [
   { key: 'tasarim', label: 'Tasarım', hint: 'Dış ve iç tasarım, ergonomi' },
   { key: 'fiyat', label: 'Fiyat / Değer', hint: 'Fiyatına göre sunduğu donanım ve kalite' },
   { key: 'teknoloji', label: 'Teknoloji', hint: 'Multimedya, bağlantı, dijital özellikler' },
+  { key: 'guvenilirlik', label: 'Güvenilirlik', hint: 'Kronik sorunlar; motor, şanzıman, şasi ve yürüyen aksamın uzun vadeli dayanıklılığı' },
+  { key: 'ikinciel', label: 'İkinci El', hint: 'Temiz örnek bulma kolaylığı, değer kaybı ve ne kadar hızlı satıldığı' },
 ];

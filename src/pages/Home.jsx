@@ -51,7 +51,7 @@ export default function Home() {
           2026 otomobil sıralamaları
         </h1>
         <p className="text-ink-soft mt-3 max-w-2xl text-lg leading-relaxed">
-          Her aracı sürüşten fiyata 8 başlıkta, 10 üzerinden puanlıyoruz. Sıralamalar bu puanların ortalamasına göre belirleniyor.
+          Her aracı sürüşten ikinci el değerine 10 başlıkta, 10 üzerinden puanlıyoruz. Sıralamalar bu puanların ortalamasına göre belirleniyor.
         </p>
       </div>
 
@@ -87,15 +87,15 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 mt-16">
         <div className="bg-mist rounded-xl p-6 sm:p-8 grid gap-6 lg:grid-cols-[1fr_2fr] items-start">
           <div>
-            <h2 className="font-display text-2xl font-bold">8 başlık, 10 yıldız</h2>
+            <h2 className="font-display text-2xl font-bold">10 başlık, 10 yıldız</h2>
             <p className="text-ink-soft mt-2 leading-relaxed">
-              Her başlık 10 üzerinden, gerektiğinde küsuratlı puanlanır. Genel puan sekiz başlığın ortalamasıdır.
+              Her başlık 10 üzerinden, gerektiğinde küsuratlı puanlanır. Genel puan on başlığın ortalamasıdır.
             </p>
             <Link to="/puanlama" className="inline-flex items-center gap-0.5 mt-3 text-link hover:underline underline-offset-2">
               Puanlama yöntemini oku <ChevronRight className="w-4 h-4" aria-hidden="true" />
             </Link>
           </div>
-          <ul className="grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-3">
+          <ul className="grid grid-cols-2 sm:grid-cols-5 gap-x-6 gap-y-3">
             {CRITERIA.map((c) => (
               <li key={c.key} className="font-medium">{c.label}</li>
             ))}

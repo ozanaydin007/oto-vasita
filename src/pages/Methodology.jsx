@@ -8,8 +8,8 @@ export default function Methodology() {
     <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-8">
       <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight">Nasıl puanlıyoruz?</h1>
       <p className="text-lg text-ink-soft mt-4 leading-relaxed">
-        Her aracı aşağıdaki 8 başlıkta 10 üzerinden puanlıyoruz. Puanlar küsuratlı olabilir; örneğin 8,7 puan
-        8 tam ve bir de %70’i dolu yıldız olarak gösterilir. Genel puan bu sekiz başlığın ortalamasıdır ve
+        Her aracı aşağıdaki 10 başlıkta 10 üzerinden puanlıyoruz. Puanlar küsuratlı olabilir; örneğin 8,7 puan
+        8 tam ve bir de %70’i dolu yıldız olarak gösterilir. Genel puan bu on başlığın ortalamasıdır ve
         kategori sıralamaları genel puana göre otomatik oluşur.
       </p>
       <div className="mt-6 flex items-center gap-3">
@@ -24,6 +24,11 @@ export default function Methodology() {
           </div>
         ))}
       </dl>
+      <p className="mt-6 text-ink-soft leading-relaxed">
+        Güvenilirlik puanında aracın bilinen kronik sorunlarını, motor, şanzıman, şasi ve yürüyen aksamının uzun
+        vadeli dayanıklılığını değerlendiriyoruz. İkinci el puanında ise Türkiye piyasasında temiz bir örneğin
+        bulunabilirliğine, değer kaybına ve aracın ne kadar hızlı satıldığına bakıyoruz.
+      </p>
     </div>
   );
 }

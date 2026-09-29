@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <p className="font-display text-xl font-extrabold">OtoVaro</p>
           <p className="text-ink-soft mt-2 max-w-xs leading-relaxed">
-            Türkiye pazarındaki otomobillerin 8 başlıkta puanlanan incelemeleri ve segment sıralamaları.
+            Türkiye pazarındaki otomobillerin 10 başlıkta puanlanan incelemeleri ve segment sıralamaları.
           </p>
         </div>
         <div>
