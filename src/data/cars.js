@@ -1,4 +1,5 @@
 import { overallScore, slugify } from '../lib/scoring.js';
+import { WIKI_TITLES } from './wikiTitles.js';
 
 // ---------------------------------------------------------------------------
 // KATEGORİLER
@@ -2032,13 +2033,17 @@ const RAW_CARS = [
 // ---------------------------------------------------------------------------
 // Otomatik alanlar: slug, genel puan ve kategori içi sıra
 // ---------------------------------------------------------------------------
-const withScores = RAW_CARS.map((car) => ({
-  ...car,
-  used: !!car.used,
-  price: car.price ?? null,
-  slug: car.slug || slugify(`${car.make} ${car.model} ${car.year}`),
-  score: overallScore(car.ratings),
-}));
+const withScores = RAW_CARS.map((car) => {
+  const slug = car.slug || slugify(`${car.make} ${car.model} ${car.year}`);
+  return {
+    ...car,
+    used: !!car.used,
+    price: car.price ?? null,
+    slug,
+    wiki: car.wiki ?? WIKI_TITLES[slug],
+    score: overallScore(car.ratings),
+  };
+});
 
 // Eşit genel puanda, yuvarlanmamış toplam puanı yüksek olan öne geçer.
 const exactTotal = (c) => Object.values(c.ratings).reduce((a, b) => a + b, 0);

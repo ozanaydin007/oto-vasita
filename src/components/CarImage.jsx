@@ -1,6 +1,7 @@
-import { useId } from 'react';
+import { useId, useState, useEffect } from 'react';
+import { useCarPhoto } from '../lib/wikiImage.js';
 
-// Gövde tiplerine göre yandan silüetler (fotoğraf eklenmemiş araçlar için)
+// Gövde tiplerine göre yandan silüetler (fotoğrafı bulunamayan araçlar için)
 const BODIES = {
   sedan: {
     body: 'M30 130 C30 113 38 105 58 101 L128 93 C152 74 188 57 232 55 L290 55 C322 57 348 73 374 91 L424 97 C444 100 452 109 452 123 L452 134 C452 140 448 142 442 142 L400 142 A30 30 0 0 0 340 142 L140 142 A30 30 0 0 0 80 142 L38 142 C33 142 30 138 30 134 Z',
@@ -53,19 +54,63 @@ function Silhouette({ type = 'sedan', label }) {
         <path key={i} d={d} fill={`url(#${id}w)`} />
       ))}
       <path d="M60 118 L440 118" stroke="#ffffff" strokeOpacity="0.25" strokeWidth="2" />
-      <Wheel cx={type === 'suv' ? 110 : 110} r={b.wheelR} />
+      <Wheel cx={110} r={b.wheelR} />
       <Wheel cx={370} r={b.wheelR} />
     </svg>
   );
 }
 
-// Araçta "image" alanı varsa fotoğrafı, yoksa silüeti gösterir.
+function creditText(photo) {
+  return `Fotoğraf: ${photo.author}${photo.license ? `, ${photo.license}` : ''} (Wikimedia Commons)`;
+}
+
+// Fotoğrafçı ve lisans bilgisi (Creative Commons lisansları bunu zorunlu tutar)
+export function PhotoCredit({ car, className = '' }) {
+  const photo = useCarPhoto(car);
+  if (!photo || photo.own) return null;
+  return (
+    <p className={`text-xs text-muted leading-snug ${className}`}>
+      Fotoğraf:{' '}
+      <a href={photo.page} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-link">
+        {photo.author}
+      </a>
+      {photo.license && (
+        <>
+          ,{' '}
+          {photo.licenseUrl ? (
+            <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer license" className="underline underline-offset-2 hover:text-link">
+              {photo.license}
+            </a>
+          ) : (
+            photo.license
+          )}
+        </>
+      )}
+      , Wikimedia Commons üzerinden. Görsel, incelenen versiyondan farklı bir donanım veya model yılına ait olabilir.
+    </p>
+  );
+}
+
+// Fotoğraf varsa fotoğrafı, yoksa (ya da yüklenemezse) gövde tipine uygun silüeti gösterir.
 export default function CarImage({ car, className = '' }) {
   const label = `${car.year} ${car.make} ${car.model}`;
+  const photo = useCarPhoto(car);
+  const [failed, setFailed] = useState(false);
+  useEffect(() => setFailed(false), [photo?.src]);
+
+  const showPhoto = photo && !failed;
   return (
-    <div className={`flex items-center justify-center ${className}`}>
-      {car.image ? (
-        <img src={car.image} alt={label} loading="lazy" className="max-h-full w-auto object-contain" />
+    <div className={`flex items-center justify-center overflow-hidden ${className}`}>
+      {showPhoto ? (
+        <img
+          src={photo.src}
+          alt={label}
+          title={photo.own ? undefined : creditText(photo)}
+          loading="lazy"
+          decoding="async"
+          onError={() => setFailed(true)}
+          className={photo.own ? 'max-h-full w-auto object-contain' : 'w-full h-full object-cover rounded-lg'}
+        />
       ) : (
         <Silhouette type={car.bodyType} label={label} />
       )}
