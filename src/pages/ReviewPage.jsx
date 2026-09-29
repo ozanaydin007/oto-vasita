@@ -1,8 +1,10 @@
+import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ThumbsUp, ThumbsDown } from 'lucide-react';
+import { ThumbsUp, ThumbsDown, ChevronDown } from 'lucide-react';
 import { getCar, getCategory, carsInCategory } from '../data/cars.js';
 import { CRITERIA } from '../data/criteria.js';
 import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
+import { buildEditorial, buildReview } from '../lib/review.js';
 import CarImage from '../components/CarImage.jsx';
 import StarRating from '../components/StarRating.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
@@ -48,6 +50,46 @@ function Scorecard({ car }) {
         })}
       </ul>
     </section>
+  );
+}
+
+function FullReview({ car, category }) {
+  const [open, setOpen] = useState(false);
+  useEffect(() => setOpen(false), [car.slug]);
+  const review = buildReview(car, category);
+
+  return (
+    <div className="mt-6">
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        aria-expanded={open}
+        aria-controls="tam-inceleme"
+        className="inline-flex items-center gap-2 bg-ink text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-ink-soft"
+      >
+        {open ? 'Tam incelemeyi gizle' : 'Tam incelemeyi oku'}
+        <ChevronDown className={`w-4 h-4 transition-transform ${open ? 'rotate-180' : ''}`} aria-hidden="true" />
+      </button>
+
+      {open && (
+        <div id="tam-inceleme" className="mt-6 border-l-2 border-star pl-5 sm:pl-6 space-y-6 max-w-prose">
+          <p className="text-[17px] leading-relaxed">{review.intro}</p>
+          {review.sections.map((s) => (
+            <section key={s.key}>
+              <h3 className="font-display text-xl font-bold flex items-baseline justify-between gap-4">
+                {s.label}
+                <span className="text-base font-semibold tabular-nums text-ink-soft">{formatScore(s.score)} / 10</span>
+              </h3>
+              <p className="mt-1.5 text-[17px] leading-relaxed text-ink-soft">{s.text}</p>
+            </section>
+          ))}
+          <section>
+            <h3 className="font-display text-xl font-bold">Sonuç</h3>
+            <p className="mt-1.5 text-[17px] leading-relaxed">{review.conclusion}</p>
+          </section>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -111,7 +153,9 @@ export default function ReviewPage() {
         <div className="space-y-10">
           <section>
             <h2 className="font-display text-2xl font-bold mb-3">Editörün görüşü</h2>
-            <p className="text-lg leading-relaxed text-ink-soft max-w-prose">{car.summary}</p>
+            <p className="text-lg leading-relaxed max-w-prose">{car.summary}</p>
+            <p className="text-lg leading-relaxed text-ink-soft max-w-prose mt-4">{buildEditorial(car)}</p>
+            <FullReview car={car} category={category} />
           </section>
 
           <section className="grid sm:grid-cols-2 gap-6">
@@ -119,17 +163,25 @@ export default function ReviewPage() {
               <h3 className="font-semibold flex items-center gap-2 text-good mb-2">
                 <ThumbsUp className="w-4 h-4" aria-hidden="true" /> Beğendiklerimiz
               </h3>
-              <ul className="space-y-1.5 text-[15px] list-disc pl-5 marker:text-good">
-                {car.pros.map((p) => <li key={p}>{p}</li>)}
-              </ul>
+              {car.pros.length > 0 ? (
+                <ul className="space-y-1.5 text-[15px] list-disc pl-5 marker:text-good">
+                  {car.pros.map((p) => <li key={p}>{p}</li>)}
+                </ul>
+              ) : (
+                <p className="text-[15px] text-muted">Öne çıkan bir artısını bulamadık.</p>
+              )}
             </div>
             <div>
               <h3 className="font-semibold flex items-center gap-2 text-bad mb-2">
                 <ThumbsDown className="w-4 h-4" aria-hidden="true" /> Beğenmediklerimiz
               </h3>
-              <ul className="space-y-1.5 text-[15px] list-disc pl-5 marker:text-bad">
-                {car.cons.map((p) => <li key={p}>{p}</li>)}
-              </ul>
+              {car.cons.length > 0 ? (
+                <ul className="space-y-1.5 text-[15px] list-disc pl-5 marker:text-bad">
+                  {car.cons.map((p) => <li key={p}>{p}</li>)}
+                </ul>
+              ) : (
+                <p className="text-[15px] text-muted">Kayda değer bir eksiğini bulamadık.</p>
+              )}
             </div>
           </section>
 
