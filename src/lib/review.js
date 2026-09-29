@@ -121,8 +121,8 @@ function powerSentence(car) {
 const TEXT = {
   surus: {
     mukemmel: [
-      (c) => `Direksiyonu elinize aldığınız anda bunun sıradan bir otomobil olmadığını anlıyorsunuz. ${powerSentence(c)} Virajlarda yol tutuşu öyle kusursuz ki test sürüşünü bitirip anahtarı teslim etmek gerçekten zor geldi.`,
-      (c) => `Sürüş dinamikleri açısından test ettiğimiz en iyi otomobiller arasında. Direksiyon her tepkiyi net biçimde iletiyor, şasi ise sınırları zorladığınızda bile sakinliğini koruyor. ${powerSentence(c)}`,
+      (c) => `Direksiyonu elinize aldığınız anda bunun sıradan bir otomobil olmadığını anlıyorsunuz. ${powerSentence(c)} Değerlendirmemize göre virajlardaki yol tutuşu kusursuza yakın; direksiyon başında geçen her dakika keyfe dönüşüyor.`,
+      (c) => `Sürüş dinamikleri açısından değerlendirdiğimiz en iyi otomobiller arasında. Direksiyon her tepkiyi net biçimde iletiyor, şasi ise sınırları zorladığınızda bile sakinliğini koruyor. ${powerSentence(c)}`,
     ],
     cokiyi: [
       (c) => `Sürüşü gerçekten keyifli. Direksiyon hassas, gövde virajlarda dengeli. ${powerSentence(c)} Sırf keyif için bile yola çıkmak isteyeceğiniz otomobillerden.`,
@@ -146,7 +146,7 @@ const TEXT = {
   },
   guvenlik: {
     mukemmel: [
-      () => 'Güvenlik konusunda içiniz tamamen rahat olabilir. Sağlam gövde yapısı ve gelişmiş sürüş destek sistemleriyle test ettiğimiz en güvenli otomobiller arasında.',
+      () => 'Güvenlik konusunda içiniz tamamen rahat olabilir. Sağlam gövde yapısı ve gelişmiş sürüş destek sistemleriyle listemizdeki en güvenli otomobiller arasında.',
       () => 'Aileniz için gönül rahatlığıyla önerebileceğimiz bir otomobil. Sürüş destek sistemleri doğal ve güven verici çalışıyor, gövde yapısı ise sınıfının en iyilerinden.',
     ],
     cokiyi: [
@@ -169,7 +169,7 @@ const TEXT = {
   },
   konfor: {
     mukemmel: [
-      () => 'Araba o kadar konforlu ki şu ana kadar test ettiğimiz araçlar arasında en iyilerden biri. Süspansiyon bozuk yolları sanki hiç yokmuş gibi siliyor, kabin ise otoyol hızlarında bile sessiz.',
+      () => 'Değerlendirmemize göre konforda listemizdeki en iyi araçlardan biri. Süspansiyon bozuk yolları sanki hiç yokmuş gibi siliyor, kabin ise otoyol hızlarında bile sessiz.',
       () => 'Uzun yolda saatlerce sürdükten sonra bile yorgunluk hissetmiyorsunuz. Koltuklar, süspansiyon ve ses yalıtımı kusursuza yakın.',
     ],
     cokiyi: [
@@ -236,7 +236,7 @@ const TEXT = {
   malzeme: {
     mukemmel: [
       () => 'Kabine girdiğiniz anda kaliteyi hissediyorsunuz. Dokunduğunuz her yüzey özenle işlenmiş, montaj kalitesi kusursuz.',
-      () => 'İşçilik öyle iyi ki kabindeki en küçük düğme bile özenle tasarlanmış hissi veriyor. Malzeme kalitesinde test ettiğimiz en iyiler arasında.',
+      () => 'İşçilik öyle iyi ki kabindeki en küçük düğme bile özenle tasarlanmış hissi veriyor. Malzeme kalitesinde listemizdeki en iyiler arasında.',
     ],
     cokiyi: [
       () => 'Malzeme kalitesi sınıfının üst seviyesinde; yumuşak yüzeyler ve özenli montaj kabine premium bir hava katıyor.',
@@ -372,7 +372,7 @@ function verdict(car) {
   if (s >= 9) return `Sonuç olarak ${name}, kategorisinin zirvesinde yer alan ve bizi neredeyse hiçbir konuda hayal kırıklığına uğratmayan bir otomobil. Gönül rahatlığıyla öneriyoruz.`;
   if (s >= 8.3) return `Sonuç olarak ${name}, kolayca önerebileceğimiz ve sınıfının en iyileri arasında yer alan bir otomobil.`;
   if (s >= 7.5) return `Sonuç olarak ${name}, güçlü yanları zayıf yanlarından ağır basan, mantıklı bir tercih.`;
-  if (s >= 6.5) return `Sonuç olarak ${name} belirli ihtiyaçlar için mantıklı olabilir, ama almadan önce rakiplerini de mutlaka test edin.`;
+  if (s >= 6.5) return `Sonuç olarak ${name} belirli ihtiyaçlar için mantıklı olabilir, ama almadan önce rakiplerini de mutlaka test sürüşüyle deneyin.`;
   if (s >= 5.5) return `Sonuç olarak ${name}, ancak bütçesi çok kısıtlı olanlara önerebileceğimiz bir otomobil.`;
   return `Sonuç olarak ${name} günlük kullanım için önermediğimiz bir otomobil. Nostalji ya da çok düşük bütçe tek kriterinizse bir göz atılabilir.`;
 }
@@ -413,10 +413,11 @@ export function buildReview(car, category) {
   intro.push(
     `${car.year} ${car.make} ${car.model}, ${car.version} donanımıyla ${category.title.toLocaleLowerCase('tr-TR')} listemizde ${car.rank}. sırada yer alıyor ve 10 başlığın ortalamasında ${formatScore(car.score)} puan alıyor.`
   );
+  intro.push('Bu inceleme; üretici verileri, bağımsız güvenlik testleri, kullanıcı deneyimleri ve ikinci el piyasası gibi kamuya açık bilgilere dayanan editoryal bir değerlendirmedir. Aracı kendimiz test etmedik.');
   if (car.year < 1990) {
     intro.push('Bu bir klasik otomobil; puanlarımızı günümüz otomobilleriyle aynı ölçütlere göre verdik, bu yüzden nostaljik değerini puanlara ancak kısmen yansıtabildik.');
   } else if (car.used) {
-    intro.push(`Bu inceleme ikinci el bir ${car.year} model üzerinden yapıldı. Alırken bakım kayıtlarını, hasar geçmişini ve kilometreyi mutlaka kontrol edin; puanlarımız iyi durumdaki bir örneği esas alıyor.`);
+    intro.push(`Bu bir ikinci el değerlendirmesi. Alırken bakım kayıtlarını, hasar geçmişini ve kilometreyi mutlaka kontrol edin; puanlarımız iyi durumdaki bir ${car.year} model örneği esas alıyor.`);
   } else if (car.price != null) {
     intro.push(`Türkiye’de ${formatPrice(car.price)} başlangıç fiyatıyla satılıyor.`);
   }
