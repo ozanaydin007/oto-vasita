@@ -74,7 +74,7 @@ for (const route of routes) {
 // Site haritası (arama sonuçlarında gösterilmesini istemediğimiz sayfalar hariç)
 const today = new Date().toISOString().slice(0, 10);
 const indexable = routes.filter((r) => !getSeo(r).noindex);
-const priority = (r) => (r === '/' ? '1.0' : r.startsWith('/kategori/') || r === '/araclar' ? '0.9' : r.startsWith('/inceleme/') ? '0.8' : '0.3');
+const priority = (r) => (r === '/' ? '1.0' : r.startsWith('/kategori/') || r === '/araclar' ? '0.9' : r.startsWith('/inceleme/') || r.startsWith('/rehber') ? '0.8' : '0.3');
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${indexable

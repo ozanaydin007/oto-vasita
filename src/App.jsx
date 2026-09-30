@@ -11,6 +11,8 @@ import ReviewPage from './pages/ReviewPage.jsx';
 import SearchPage from './pages/SearchPage.jsx';
 import Methodology from './pages/Methodology.jsx';
 import About from './pages/About.jsx';
+import GuidesPage from './pages/GuidesPage.jsx';
+import GuidePage from './pages/GuidePage.jsx';
 import Contact from './pages/Contact.jsx';
 import Privacy from './pages/Privacy.jsx';
 import CookiePolicy from './pages/CookiePolicy.jsx';
@@ -43,6 +45,8 @@ export default function App() {
           <Route path="/inceleme/:slug" element={<ReviewPage />} />
           <Route path="/ara" element={<SearchPage />} />
           <Route path="/puanlama" element={<Methodology />} />
+          <Route path="/rehber" element={<GuidesPage />} />
+          <Route path="/rehber/:slug" element={<GuidePage />} />
           <Route path="/hakkinda" element={<About />} />
           <Route path="/iletisim" element={<Contact />} />
           <Route path="/gizlilik" element={<Privacy />} />

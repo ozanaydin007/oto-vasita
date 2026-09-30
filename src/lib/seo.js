@@ -1,5 +1,6 @@
 import { CARS, CATEGORIES, getCar, getCategory } from '../data/cars.js';
 import { SITE_URL, SITE_NAME } from '../config.js';
+import { GUIDES, getGuide } from '../data/guides.js';
 
 // ---------------------------------------------------------------------------
 // ARAMA MOTORU (SEO) BİLGİLERİ
@@ -29,6 +30,10 @@ const STATIC = {
   '/puanlama': {
     title: titled('Nasıl puanlıyoruz?'),
     description: 'Otomobilleri sürüşten güvenilirliğe, ikinci el değerinden teknolojiye 10 başlıkta nasıl puanladığımızı öğrenin.',
+  },
+  '/rehber': {
+    title: titled('Rehber'),
+    description: 'Otomobil seçerken işinize yarayacak listeler, karşılaştırmalar ve pratik bilgiler: en az yakan otomobiller ve daha fazlası.',
   },
   '/hakkinda': {
     title: titled('Hakkında'),
@@ -87,6 +92,41 @@ function reviewSeo(car) {
   return { title, description, jsonLd, type: 'article' };
 }
 
+function guideSeo(g) {
+  const url = `${SITE_URL}/rehber/${g.slug}`;
+  const jsonLd = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: g.title,
+      description: g.description,
+      datePublished: g.date,
+      dateModified: g.date,
+      inLanguage: 'tr-TR',
+      mainEntityOfPage: url,
+      author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+      publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+    },
+  ];
+  if (g.items?.length) {
+    jsonLd.push({
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: g.title,
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      itemListElement: g.items
+        .map((it, i) => {
+          const car = getCar(it.car);
+          return car
+            ? { '@type': 'ListItem', position: i + 1, name: `${car.year} ${car.make} ${car.model}`, url: `${SITE_URL}/inceleme/${car.slug}` }
+            : null;
+        })
+        .filter(Boolean),
+    });
+  }
+  return { title: titled(g.title), description: clip(g.description), jsonLd, type: 'article' };
+}
+
 export function getSeo(pathname) {
   const path = pathname.length > 1 ? pathname.replace(/\/+$/, '') : '/';
   let seo;
@@ -95,6 +135,8 @@ export function getSeo(pathname) {
     seo = { ...STATIC[path] };
   } else if ((m = path.match(/^\/inceleme\/([^/]+)$/)) && getCar(m[1])) {
     seo = reviewSeo(getCar(m[1]));
+  } else if ((m = path.match(/^\/rehber\/([^/]+)$/)) && getGuide(m[1])) {
+    seo = guideSeo(getGuide(m[1]));
   } else if ((m = path.match(/^\/kategori\/([^/]+)$/)) && getCategory(m[1])) {
     const c = getCategory(m[1]);
     seo = { title: titled(c.title), description: clip(`${c.intro} ${SITE_NAME} ${c.short} sıralaması.`) };
@@ -120,6 +162,8 @@ export function allRoutes() {
     '/gizlilik',
     '/cerez-politikasi',
     '/ara',
+    '/rehber',
+    ...GUIDES.map((g) => `/rehber/${g.slug}`),
     ...CATEGORIES.map((c) => `/kategori/${c.slug}`),
     ...CARS.map((c) => `/inceleme/${c.slug}`),
   ];
