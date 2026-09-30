@@ -9,7 +9,7 @@ export const SITE_URL = 'https://otovaro.com';
 export const SITE_NAME = 'OtoVaro';
 
 // İletişim ve KVKK başvuruları için e-posta adresi
-export const CONTACT_EMAIL = 'ozan.ege.aydin@outlook.com';
+export const CONTACT_EMAIL = 'iletisim@otovaro.com';
 
 // Veri sorumlusu (KVKK): sitenin sahibi olan kişinin adı soyadı veya şirket unvanı
 export const DATA_CONTROLLER = 'Ozan Ege Aydın';
