@@ -4,7 +4,7 @@
 
 // Sitenin yayındaki tam adresi (sonunda / olmadan).
 // Kendi alan adınızı alınca burayı değiştirin, ör. 'https://www.otovaro.com'
-export const SITE_URL = 'https://otovaro.pages.dev';
+export const SITE_URL = 'https://otovaro.com';
 
 export const SITE_NAME = 'OtoVaro';
 
