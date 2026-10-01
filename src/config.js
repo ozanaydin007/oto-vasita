@@ -23,4 +23,4 @@ export const LEGAL_UPDATED = '29 Eylül 2026';
 // Google AdSense yayıncı kimliği (ör. 'ca-pub-1234567890123456').
 // Boş bırakıldığı sürece sitede hiçbir reklam kodu yüklenmez.
 // Doldurulduğunda reklam kodu YALNIZCA ziyaretçi reklam çerezlerine onay verirse yüklenir.
-export const ADSENSE_CLIENT = '';
+export const ADSENSE_CLIENT = 'ca-pub-1004029858074942';
