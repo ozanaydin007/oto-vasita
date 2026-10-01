@@ -357,11 +357,14 @@ const RAW_CARS = [
     specs: { motor: '1.2L turbo hafif hibrit, 145 bg', hizlanma: '9,1 sn', tuketim: '5,3 L/100 km', bagaj: '536 L' },
     ratings: { surus: 8.1, guvenlik: 8.0, konfor: 8.2, tuketim: 8.4, malzeme: 8.3, tasarim: 9.3, fiyat: 7.2, teknoloji: 8.2, guvenilirlik: 7.4, ikinciel: 7.2 },
     pros: ['Yolda en çok dikkat çeken tasarımlardan', 'Kaliteli kabin', 'Geniş bagaj'],
-    cons: ['GT donanımda fiyat yüksek', 'Arka başüstü mesafesi sınırlı'],
+    cons: ['GT donanımda fiyat yüksek', 'Arka başüstü mesafesi sınırlı', 'Güneş altında ekranda gitme yaşanabiliyor'],
     review: {
       tasarim: 'Açık konuşalım: 408 çok yakışıklı bir otomobil! Fastback siluetiyle yolda gerçekten başları çeviriyor; park ettiğinizde dönüp bir kez daha bakma isteği uyandıran otomobillerden.',
       konfor: 'Masajlı ve ısıtmalı koltuklar sürücüye gerçekten özel bir deneyim sağlıyor. Uzun bir yolun sonunda masaj fonksiyonunun ne kadar fark yarattığını ancak kullanınca anlıyorsunuz.',
       fiyat: 'Donanım listesi çok dolu ve sunduğu özellikler fiyatına göre gayet tatmin edici. Bu sınıfta bu kadar donanımı bu tasarımla bir arada bulmak kolay değil.',
+    },
+    reviewExtra: {
+      teknoloji: 'Bilmeniz gereken bir sorun var: ekranda gitme yaşanabiliyor. Özellikle aracı uzun süre güneş altında bıraktığınızda ekran sorun çıkarabiliyor; yeniden açılması bazen uzun sürüyor, bazen de servis gerektirebiliyor.',
     },
     summary: 'Tasarımıyla sınıf kalıplarını kıran fastback; 308’in kalitesini daha fazla alanla sunuyor.',
   },
@@ -389,9 +392,13 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 204 bg, 4MATIC', hizlanma: '7,3 sn', tuketim: '7,0 L/100 km', bagaj: '455 L' },
     ratings: { surus: 8.8, guvenlik: 9.5, konfor: 9.1, tuketim: 7.5, malzeme: 9.2, tasarim: 9.3, fiyat: 6.9, teknoloji: 9.4, guvenilirlik: 7.6, ikinciel: 8.8 },
     pros: ['Mini S-Serisi etkisi yaratan kabin', '4MATIC dört çeker standart', 'Gelişmiş sürüş destek sistemleri'],
-    cons: ['Dokunmatik direksiyon tuşları', 'Yüksek fiyat'],
+    cons: ['Dokunmatik direksiyon tuşları', 'Yüksek fiyat', 'Ön aks ve aktarma organlarından ses gelebiliyor', 'Dokunmatik ekran donabiliyor', 'Uzun süreli kullanımda trim sesleri'],
     review: {
+      guvenilirlik: '2026 C Serisi’nde dikkat etmeniz gereken birkaç nokta var. Ön aks ve aktarma organlarından ses gelebiliyor; ön aktarma organlarında sorun çıkabildiğini de görüyoruz. Ayrıca dokunmatik ekran zaman zaman donabiliyor; bazı araçlarda bu sorun servise götürmeyi gerektirecek kadar ilerleyebiliyor.',
       malzeme: 'C Serisi’nin kabinine oturduğunuzda kendinizi bir üst sınıfta hissediyorsunuz. Ambiyans aydınlatması, türbin tipi havalandırma ızgaraları ve yumuşak yüzeylerle sınıfının en lüks kabini; geceleri ayrı bir şov sunuyor.',
+    },
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
     summary: 'Kabin atmosferi ve konforuyla sınıfının en lüks hissettireni; Türkiye versiyonunda dört çeker de standart.',
   },
@@ -435,7 +442,10 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 170 bg', hizlanma: '9,0 sn', tuketim: '6,9 L/100 km', bagaj: '540 L' },
     ratings: { surus: 8.5, guvenlik: 9.8, konfor: 9.6, tuketim: 7.5, malzeme: 9.5, tasarim: 9.1, fiyat: 6.0, teknoloji: 9.8, guvenilirlik: 7.6, ikinciel: 8.6 },
     pros: ['Sınıfının en konforlu sürüşü', 'MBUX Superscreen ve üst düzey teknoloji', 'Çok yüksek güvenlik'],
-    cons: ['Giriş motoru ağır gövdede zorlanıyor', 'Fiyatı çok yüksek'],
+    cons: ['Giriş motoru ağır gövdede zorlanıyor', 'Fiyatı çok yüksek', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Konfor ve teknolojinin zirvesi; sürüş keyfinden çok huzurlu seyahat arayanlar için.',
   },
 
@@ -721,7 +731,10 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbo hafif hibrit, 163 bg', hizlanma: '8,7 sn', tuketim: '6,3 L/100 km', bagaj: '435 L' },
     ratings: { surus: 8.2, guvenlik: 9.2, konfor: 8.4, tuketim: 7.9, malzeme: 8.7, tasarim: 8.5, fiyat: 7.4, teknoloji: 8.8, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Premium SUV’ların en ulaşılabilirlerinden', 'Şık kabin atmosferi', 'Mercedes prestiji'],
-    cons: ['Rakiplerine göre küçük bagaj', 'Model yaşını hissettiriyor'],
+    cons: ['Rakiplerine göre küçük bagaj', 'Model yaşını hissettiriyor', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Mercedes kabin deneyimini kompakt boyutlarda ve X1’den bir milyon TL daha uygun fiyatla sunuyor.',
   },
   {
@@ -754,7 +767,10 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 170 bg', hizlanma: '8,9 sn', tuketim: '7,3 L/100 km', bagaj: '620 L' },
     ratings: { surus: 8.5, guvenlik: 9.7, konfor: 9.4, tuketim: 7.5, malzeme: 9.3, tasarim: 9.0, fiyat: 6.6, teknoloji: 9.5, guvenilirlik: 7.6, ikinciel: 8.4 },
     pros: ['Sınıfının en konforlu sürüşü', 'Lüks kabin', 'Geniş bagaj'],
-    cons: ['170 bg büyük gövdede zorlanıyor', 'Dokunmatik kontroller'],
+    cons: ['170 bg büyük gövdede zorlanıyor', 'Dokunmatik kontroller', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Konfor ve lüks hissinde sınıfın lideri; Türkiye’ye uygun 1.5 motor performanstan çok verimlilik için seçilmiş.',
   },
   {
@@ -951,7 +967,10 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbodizel, 136 bg, 7G-Tronic', hizlanma: '10,3 sn', tuketim: '4,4 L/100 km', bagaj: '480 L' },
     ratings: { surus: 8.1, guvenlik: 8.7, konfor: 8.9, tuketim: 9.0, malzeme: 8.7, tasarim: 8.7, fiyat: 7.8, teknoloji: 7.1, guvenilirlik: 7.4, ikinciel: 8.4 },
     pros: ['Hâlâ şık ve premium görünen kabin', 'Çok düşük dizel tüketimi', 'Uzun yolda konforlu'],
-    cons: ['1.6 motor performansta sınırlı', 'Multimedya ve güvenlik teknolojisi eskidi'],
+    cons: ['1.6 motor performansta sınırlı', 'Multimedya ve güvenlik teknolojisi eskidi', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'W205 kasanın Türkiye’ye özel 1.6 dizel versiyonu; ikinci elde premium konforu düşük yakıt masrafıyla sunan mantıklı bir tercih.',
   },
   {
@@ -1084,7 +1103,10 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbo, 421 bg, 4MATIC+', hizlanma: '4,0 sn', tuketim: '9,5 L/100 km', bagaj: '460 L' },
     ratings: { surus: 10.0, guvenlik: 9.6, konfor: 8.0, tuketim: 6.7, malzeme: 9.2, tasarim: 9.6, fiyat: 7.9, teknoloji: 9.6, guvenilirlik: 7.2, ikinciel: 7.2 },
     pros: ['Dünyanın en güçlü seri üretim 4 silindirli motorlarından', 'Drift modlu akıllı dört çeker', 'Agresif tasarım'],
-    cons: ['Şehirde sert ve yorucu', 'Yüksek kullanım maliyeti'],
+    cons: ['Şehirde sert ve yorucu', 'Yüksek kullanım maliyeti', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Kompakt bir sedanın içine sıkıştırılmış süper otomobil performansı.',
   },
   {
@@ -1115,6 +1137,12 @@ const RAW_CARS = [
     ratings: { surus: 9.0, guvenlik: 9.6, konfor: 9.6, tuketim: 8.5, malzeme: 9.7, tasarim: 9.8, fiyat: 7.4, teknoloji: 9.5, guvenilirlik: 7.4, ikinciel: 7.2 },
     pros: ['Çarpıcı fastback tasarım', 'Çift dokunmatik ekranlı teknoloji dolu kabin', 'Düşük tüketimli dizel ve quattro'],
     cons: ['Dokunmatik ekranlar sürüşte dikkat dağıtıyor', 'Arka başüstü sınırlı'],
+    review: {
+      surus: 'Segmentine göre biraz ağır bir kasası olduğu için performansından açıkçası biraz şüpheliydik, ama hiç de kötü değil. 204 beygirlik dizel şasiyi rahatça taşıyor ve tatmin edici denebilecek bir performans sunuyor.',
+      tuketim: 'Tüketimi de düşük, performansı da iyi; bu boyutta bir otomobil için ikisini birlikte sunması gerçekten başarılı.',
+      tasarim: 'Bu otomobilin asıl olayı tasarımı. Hızlandıkça açılan arka oynar spoiler detayı ve agresif görüntüsüyle yolda gerçekten fark ediliyor.',
+      konfor: 'Konforu inanılmaz seviyede. Ön ve arka diz mesafesi etkileyici; uzun yolda ön koltukta da arka koltukta da kimse yorulmuyor.',
+    },
     summary: 'Üst sınıf konfor ve teknolojiyi en şık gövdelerden birinde, makul yakıt masrafıyla sunuyor.',
   },
   {
@@ -1292,7 +1320,10 @@ const RAW_CARS = [
     specs: { motor: '2.9L sıralı 6 silindir dizel, 330 bg, 4MATIC', hizlanma: '5,4 sn', tuketim: '7,4 L/100 km', bagaj: '550 L' },
     ratings: { surus: 9.3, guvenlik: 10.0, konfor: 10.0, tuketim: 7.8, malzeme: 10.0, tasarim: 9.5, fiyat: 6.8, teknoloji: 10.0, guvenilirlik: 7.4, ikinciel: 7.6 },
     pros: ['Sınıfının en konforlu ve sessiz kabini', 'Arka koltukta makam otomobili konforu', 'Güçlü ve şaşırtıcı ekonomik dizel', 'Sınıfının en gelişmiş güvenlik sistemleri'],
-    cons: ['Çok yüksek bakım ve sigorta maliyeti'],
+    cons: ['Çok yüksek bakım ve sigorta maliyeti', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Lüks otomobilin referansı; konfor, güvenlik ve teknolojide rakiplerine yol gösteriyor.',
   },
   {
@@ -1352,7 +1383,10 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbodizel hafif hibrit, 269 bg, 4MATIC', hizlanma: '7,2 sn', tuketim: '7,5 L/100 km', bagaj: '630 L' },
     ratings: { surus: 8.8, guvenlik: 9.9, konfor: 9.7, tuketim: 7.8, malzeme: 9.7, tasarim: 9.3, fiyat: 6.8, teknoloji: 9.9, guvenilirlik: 7.4, ikinciel: 7.8 },
     pros: ['Sessiz ve çok konforlu sürüş', 'MBUX ile zengin teknoloji', 'Geniş kabin ve bagaj'],
-    cons: ['Fiyatı çok yüksek', 'Sürüşte X5 kadar keskin değil'],
+    cons: ['Fiyatı çok yüksek', 'Sürüşte X5 kadar keskin değil', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Konfor ve teknolojiyi ön plana koyan, uzun yolların rahat büyük SUV’u.',
   },
   {
@@ -1740,7 +1774,10 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbo benzin, 156 bg, 7G-DCT', hizlanma: '8,4 sn', tuketim: '5,7 L/100 km', bagaj: '470 L' },
     ratings: { surus: 7.9, guvenlik: 8.5, konfor: 7.1, tuketim: 7.4, malzeme: 7.9, tasarim: 8.9, fiyat: 6.8, teknoloji: 6.7, guvenilirlik: 7.2, ikinciel: 7.8 },
     pros: ['Coupé gibi şık siluet', 'Ekonomik ve yeterli motor', 'Mercedes prestiji'],
-    cons: ['Sert süspansiyon ve dar arka koltuk', 'Eskimiş multimedya'],
+    cons: ['Sert süspansiyon ve dar arka koltuk', 'Eskimiş multimedya', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Tasarımıyla alınan şık bir sedan; konfor ve arka yaşam alanında C Serisi’nin gerisinde.',
   },
   {
@@ -1781,6 +1818,11 @@ const RAW_CARS = [
     ratings: { surus: 8.9, guvenlik: 8.3, konfor: 7.3, tuketim: 7.6, malzeme: 8.4, tasarim: 9.1, fiyat: 6.2, teknoloji: 8.7, guvenilirlik: 7.4, ikinciel: 7.6 },
     pros: ['Go-kart gibi çevik sürüş', 'Yuvarlak OLED ekranlı karakterli kabin', 'İkonik tasarım'],
     cons: ['Çok küçük bagaj', 'Fiyatına göre dar kabin'],
+    review: {
+      surus: 'Garip bir şekilde bu MINI, 1.5 eTSI motorlu rakiplerinden daha hızlı. Aslında çok da gariplik yok; kasası daha hafif, motoru daha güçlü. Yine de o dişli rakiplerinden sıyrılması hayret verici.',
+      tasarim: 'İç tasarıma alışmak biraz uzun sürebiliyor; çok alışılagelmiş bir tasarım değil. Ama dışarıdan baktığınızda yine MINI Cooper’ın o eski efsane kasasını görüyorsunuz.',
+      teknoloji: 'İçinde çok çok keyifli “oyuncaklar” bulunuyor: yuvarlak OLED ekran, farklı sürüş modlarında değişen ışık ve ses efektleri gibi detaylar her yolculuğu eğlenceli hâle getiriyor.',
+    },
     summary: 'Mantıktan çok keyifle alınan, şehirde en eğlenceli otomobillerden biri.',
   },
   {
@@ -1858,7 +1900,10 @@ const RAW_CARS = [
     specs: { motor: '190 bg, 66,5 kWh, ~420 km WLTP', hizlanma: '9,0 sn', tuketim: '18,0 kWh/100 km', bagaj: '495 L' },
     ratings: { surus: 7.5, guvenlik: 9.3, konfor: 8.5, tuketim: 7.2, malzeme: 8.5, tasarim: 7.7, fiyat: 7.0, teknoloji: 8.7, guvenilirlik: 7.6, ikinciel: 6.0 },
     pros: ['7 koltuk seçeneği', 'Geniş, kutu gibi pratik kabin', 'Mercedes kalitesi'],
-    cons: ['Fiyatına göre kısa menzil', 'Verimlilik rakiplerin gerisinde'],
+    cons: ['Fiyatına göre kısa menzil', 'Verimlilik rakiplerin gerisinde', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Kalabalık aileler için pratik bir elektrikli; menzil ve verimlilik zayıf halkası.',
   },
   {
@@ -1868,7 +1913,10 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbo benzin, 163 bg, 7G-DCT', hizlanma: '9,1 sn', tuketim: '6,5 L/100 km', bagaj: '570 L' },
     ratings: { surus: 7.9, guvenlik: 9.3, konfor: 8.5, tuketim: 7.6, malzeme: 8.3, tasarim: 8.1, fiyat: 7.2, teknoloji: 8.3, guvenilirlik: 7.6, ikinciel: 7.8 },
     pros: ['7 koltuk seçeneği ve dev bagaj', 'Kutu gibi geniş kabin', 'MBUX teknolojisi'],
-    cons: ['1.3 motor dolu araçta zorlanıyor', 'Fiyatına göre sert plastikler'],
+    cons: ['1.3 motor dolu araçta zorlanıyor', 'Fiyatına göre sert plastikler', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Mercedes’in en pratik kompakt SUV’u; kalabalık aileler için mantıklı bir premium seçenek.',
   },
   {
@@ -1878,7 +1926,10 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbo benzin, 163 bg, 7G-DCT', hizlanma: '8,7 sn', tuketim: '6,3 L/100 km', bagaj: '435 L' },
     ratings: { surus: 8.1, guvenlik: 9.2, konfor: 8.3, tuketim: 7.8, malzeme: 8.5, tasarim: 8.5, fiyat: 7.2, teknoloji: 8.5, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Çift ekranlı modern kabin', 'Ekonomik motor', 'Mercedes prestiji'],
-    cons: ['Arka koltuk ve bagaj sınırlı', 'Sert süspansiyon'],
+    cons: ['Arka koltuk ve bagaj sınırlı', 'Sert süspansiyon', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Yeni neslin ilk yılı; şık kabini ve teknolojisiyle ikinci elde değerli bir kompakt premium SUV.',
   },
   {
@@ -2252,7 +2303,10 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbo benzin, 163 bg, 7G-DCT', hizlanma: '8,2 sn', tuketim: '5,9 L/100 km', bagaj: '370 L' },
     ratings: { surus: 8.0, guvenlik: 9.2, konfor: 7.8, tuketim: 8.0, malzeme: 8.4, tasarim: 8.6, fiyat: 7.0, teknoloji: 9.0, guvenilirlik: 7.6, ikinciel: 8.4 },
     pros: ['Çift ekranlı etkileyici kabin', 'Kompakt sınıfta premium his', 'MBUX sesli asistan'],
-    cons: ['Sert süspansiyon', 'Arka koltuk sınırlı'],
+    cons: ['Sert süspansiyon', 'Arka koltuk sınırlı', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Kompakt boyutlarda Mercedes deneyimi; kabin teknolojisiyle sınıfının en etkileyicilerinden.',
   },
   {
@@ -2354,7 +2408,10 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit (EQ Boost), 184 bg, 9G-Tronic', hizlanma: '7,7 sn', tuketim: '6,3 L/100 km', bagaj: '455 L' },
     ratings: { surus: 8.4, guvenlik: 9.0, konfor: 8.8, tuketim: 7.8, malzeme: 8.8, tasarim: 8.8, fiyat: 7.2, teknoloji: 8.6, guvenilirlik: 7.6, ikinciel: 8.6 },
     pros: ['Konforlu ve sessiz sürüş', 'Zarif tasarım', 'Güçlü ikinci el talebi'],
-    cons: ['Arka koltuk sınırlı', 'Opsiyonlar pahalı'],
+    cons: ['Arka koltuk sınırlı', 'Opsiyonlar pahalı', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'W205 kasanın makyajlı hâli; konforu ve prestijiyle ikinci elde çok aranan bir premium sedan.',
   },
   {
@@ -2365,7 +2422,10 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbo benzin, 163 bg, 7G-DCT', hizlanma: '8,2 sn', tuketim: '5,9 L/100 km', bagaj: '460 L' },
     ratings: { surus: 8.2, guvenlik: 9.0, konfor: 7.6, tuketim: 8.0, malzeme: 8.4, tasarim: 9.2, fiyat: 7.2, teknoloji: 9.0, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Coupé gibi çarpıcı siluet', 'MBUX çift ekranlı kabin', 'Ekonomik motor'],
-    cons: ['Arka başüstü dar', 'Sert süspansiyon'],
+    cons: ['Arka başüstü dar', 'Sert süspansiyon', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Tasarımı ve teknolojisiyle öne çıkan şık bir premium sedan.',
   },
   {
@@ -2409,7 +2469,10 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbo benzin, 156 bg, 9G-Tronic', hizlanma: '9,5 sn', tuketim: '6,4 L/100 km', bagaj: '540 L' },
     ratings: { surus: 7.8, guvenlik: 9.2, konfor: 9.2, tuketim: 7.8, malzeme: 9.0, tasarim: 8.8, fiyat: 7.2, teknoloji: 8.8, guvenilirlik: 7.6, ikinciel: 8.4 },
     pros: ['Sınıfının en konforlu sürüşlerinden', 'Zarif kabin', 'Güçlü marka prestiji'],
-    cons: ['1.6 motor ağır gövdede zorlanıyor', 'Bakım maliyetleri yüksek'],
+    cons: ['1.6 motor ağır gövdede zorlanıyor', 'Bakım maliyetleri yüksek', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Konforu ve zarafetiyle makam sedanı hissi veren, ikinci elde çok aranan bir model.',
   },
   {
@@ -2638,7 +2701,10 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbo hafif hibrit, 197 bg, 4MATIC', hizlanma: '7,8 sn', tuketim: '7,2 L/100 km', bagaj: '550 L' },
     ratings: { surus: 8.2, guvenlik: 9.2, konfor: 9.0, tuketim: 7.4, malzeme: 8.8, tasarim: 8.8, fiyat: 7.2, teknoloji: 8.8, guvenilirlik: 7.6, ikinciel: 8.6 },
     pros: ['Konforlu ve sessiz sürüş', 'Zarif kabin', 'Güçlü ikinci el talebi'],
-    cons: ['Tüketim yüksek', 'Arka koltuk sınırlı'],
+    cons: ['Tüketim yüksek', 'Arka koltuk sınırlı', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'Önceki nesil GLC; konforu ve prestijiyle ikinci elde en çok aranan premium SUV’lardan.',
   },
   {
@@ -2704,7 +2770,10 @@ const RAW_CARS = [
     specs: { motor: '4.0L V8 biturbo, 510 bg, 9 ileri otomatik', hizlanma: '4,0 sn', tuketim: '10,4 L/100 km', bagaj: '435 L' },
     ratings: { surus: 9.6, guvenlik: 9.0, konfor: 8.0, tuketim: 5.8, malzeme: 9.0, tasarim: 9.2, fiyat: 7.4, teknoloji: 8.6, guvenilirlik: 7.4, ikinciel: 7.6 },
     pros: ['Gürleyen V8 ve eşsiz ses', 'Güçlü performans', 'Lüks kabin'],
-    cons: ['Yüksek tüketim', 'Arkadan itişle ıslak zeminde dikkat istiyor'],
+    cons: ['Yüksek tüketim', 'Arkadan itişle ıslak zeminde dikkat istiyor', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
     summary: 'V8 çağının son büyük sportif sedanlarından; sesi ve karakteriyle unutulmaz.',
   },
   {
@@ -3020,6 +3089,120 @@ const RAW_CARS = [
     pros: ['Karakterli tasarım', 'Keskin direksiyon', 'Kaliteli dijital gösterge'],
     cons: ['Hızlı değer kaybı', 'Motor performansı orta seviyede'],
     summary: 'Tasarımı ve direksiyonuyla Alfa ruhunu taşıyan bir premium C-SUV; ikinci el değeri ise zayıf halkası.',
+  },
+  // =========================================================================
+  // EK ARAÇLAR 10
+  // =========================================================================
+  {
+    make: 'Seat', model: 'Ibiza', year: 2024, version: '1.0 TSI 116 Style Plus DSG',
+    category: 'sehir-hatchback', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 116,
+    wiki: 'SEAT Ibiza',
+    specs: { motor: '1.0L turbo benzin, 116 bg, 7 ileri DSG', hizlanma: '9,3 sn', tuketim: '5,3 L/100 km', bagaj: '355 L' },
+    ratings: { surus: 8.2, guvenlik: 8.0, konfor: 7.4, tuketim: 8.2, malzeme: 6.6, tasarim: 7.8, fiyat: 8.0, teknoloji: 7.6, guvenilirlik: 7.4, ikinciel: 7.8 },
+    pros: ['Canlı motor ve hızlı DSG', 'Keyifli yol tutuş', 'Zengin Style Plus donanımı'],
+    cons: ['Malzeme kalitesi düşük', 'Sert süspansiyon'],
+    review: {
+      ikinciel: 'Garantisi devam eden bir örnek bulursanız kesinlikle değerlendirmenizi öneririz. Hem DSG şanzımanın olası masraflarına karşı güvence sağlıyor hem de ikinci elde iyi bir fiyat/performans sunuyor.',
+    },
+    summary: 'Canlı motoru ve keyifli sürüşüyle şehir otomobilleri arasında sürüş tutkunlarının tercihi; garantisi devam eden bir örnek bulursanız kaçırmayın.',
+  },
+  {
+    make: 'Hyundai', model: 'Ioniq 6', year: 2024, version: 'Advance 170 bg',
+    category: 'elektrikli', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 170,
+    wiki: 'Hyundai Ioniq 6',
+    specs: { motor: '170 bg, arkadan itiş, ~53 kWh, ~430 km WLTP', hizlanma: '8,8 sn', tuketim: '13,9 kWh/100 km', bagaj: '401 L' },
+    ratings: { surus: 7.4, guvenlik: 9.0, konfor: 8.6, tuketim: 9.2, malzeme: 8.2, tasarim: 9.0, fiyat: 7.6, teknoloji: 8.8, guvenilirlik: 8.2, ikinciel: 7.0 },
+    pros: ['Tatmin edici ve güven veren menzil', 'Porsche’yi andıran güzel tasarım', 'Çok verimli'],
+    cons: ['ÖTV avantajlı bir araç için motor gücü düşük', 'Arka başüstü sınırlı'],
+    review: {
+      tuketim: 'Menzili gerçekten güzel; çok tatmin edici ve uzun yolda güven veriyor. Aerodinamik gövdesi sayesinde verimliliği de sınıfının en iyilerinden.',
+      surus: 'Bu otomobilin tek zayıf noktası motor gücü. 170 beygir, özellikle ÖTV’si düşük bir elektrikli için çok düşük kalıyor; diğer elektrikli rakiplerine oranla Ioniq 6 daha güçlü bir motoru kesinlikle hak ediyor.',
+      tasarim: 'Porsche’yi andıran akıcı silueti ve yuvarlak hatlarıyla tasarımı çok güzel; yolda gerçekten dikkat çekiyor.',
+    },
+    summary: 'Menzili ve tasarımıyla çok tatmin edici bir elektrikli sedan; tek eksiği rakiplerine göre düşük kalan motor gücü.',
+  },
+  {
+    make: 'Audi', model: 'A6 e-tron Sportback', year: 2025, version: 'Standart 326 bg',
+    category: 'elektrikli', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 326,
+    wiki: 'Audi A6 e-tron',
+    specs: { motor: '326 bg (overboost), arkadan itiş, ~623 km WLTP', hizlanma: '6,0 sn', tuketim: '14,8 kWh/100 km', bagaj: '502 L + 27 L ön' },
+    ratings: { surus: 8.8, guvenlik: 9.4, konfor: 9.2, tuketim: 9.2, malzeme: 9.2, tasarim: 9.0, fiyat: 7.6, teknoloji: 9.4, guvenilirlik: 8.0, ikinciel: 7.2 },
+    pros: ['Aşırı tatmin edici 623 km menzil', '21 dakikada hızlı şarj', 'Bang & Olufsen ses sistemi ve LED arka logo'],
+    cons: ['Yüksek fiyat', 'Elektrikli premium modellerde hızlı değer kaybı'],
+    review: {
+      tuketim: 'Menzili çok, çok aşırı tatmin edici: katalogda 623 km. Hızlı şarj istasyonunda yaklaşık 21 dakikada şarj olabiliyor; uzun yolda mola süresi bir kahve molasından uzun sürmüyor.',
+      surus: 'Arkadan itişli olması sürüşe ayrı bir denge ve keyif katıyor. 326 beygirlik güç her durumda fazlasıyla yeterli.',
+      teknoloji: 'Arka logonun LED olması ayrı güzel bir detay; gece yolda gerçekten fark ediliyor. Bang & Olufsen ses sistemi de bu pakette mevcut. Kısacası her şeyi yapabilen bir otomobil diyebiliriz.',
+      ikinciel: 'Garantisi devam eden ve temiz bir ikinci el örneği bulursanız kesinlikle değerlendirmelisiniz; elektrikli premium modellerdeki değer kaybı, ikinci elde bu otomobili çok cazip bir fiyata ulaştırabiliyor.',
+    },
+    summary: 'Menzili, şarj hızı ve donanımıyla her şeyi yapabilen bir otomobil; garantili ve temiz bir ikinci el örneği kesinlikle değerlendirilmeli.',
+  },
+  {
+    make: 'BMW', model: '8 Serisi Coupé', year: 2019, version: '840i xDrive M Sport',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 340,
+    wiki: 'BMW 8 Series (G15)',
+    specs: { motor: '3.0L sıralı 6 turbo, 340 bg, xDrive, 8 ileri otomatik', hizlanma: '4,9 sn', tuketim: '8,4 L/100 km', bagaj: '420 L' },
+    ratings: { surus: 9.6, guvenlik: 9.4, konfor: 9.4, tuketim: 7.0, malzeme: 9.6, tasarim: 9.4, fiyat: 7.4, teknoloji: 9.6, guvenilirlik: 8.4, ikinciel: 7.6 },
+    pros: ['Hızlı ve güçlü', 'Çok donanımlı ve teknolojik; anahtarı bile ayrı güzel', 'Harman Kardon ses sistemi'],
+    cons: ['Fiyat'],
+    review: {
+      surus: 'Tank desek yerinde olur; muazzam bir otomobil. 340 beygirlik sıralı altı silindir ve xDrive ile hem çok hızlı hem de her koşulda kayaya oturmuş gibi güven veriyor. Bir eksiğini bulmaya çok uğraştık ama bulamadık.',
+      teknoloji: 'Hızlı, donanımlı ve teknolojik; hatta anahtarı bile çok güzel ve teknolojik. Harman Kardon ses sistemiyle kabin adeta muazzam bir orkestrayı barındırıyor.',
+    },
+    summary: 'Tank desek yerinde olur: muazzam bir otomobil. Bir eksiğini bulmak için çok uğraştık ama bulamadık.',
+  },
+  {
+    make: 'Mercedes-Benz', model: 'EQS', year: 2022, version: 'EQS 350',
+    category: 'elektrikli', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 292,
+    wiki: 'Mercedes-Benz EQS',
+    specs: { motor: '292 bg, arkadan itiş, 705 km WLTP (katalog)', hizlanma: '4,3 sn', tuketim: '17,0 kWh/100 km', bagaj: '610 L' },
+    ratings: { surus: 8.6, guvenlik: 9.6, konfor: 9.8, tuketim: 9.0, malzeme: 9.4, tasarim: 8.4, fiyat: 7.0, teknoloji: 9.8, guvenilirlik: 7.6, ikinciel: 6.4 },
+    pros: ['İnsanı şaşırtan menzil', 'Uzun yolda çok konforlu ve keyifli', 'Arkadan itiş ve etkileyici hızlanma'],
+    cons: ['Uzun süreli kullanımda trim sesleri', 'Elektrikli premium modellerde hızlı değer kaybı'],
+    review: {
+      tuketim: 'Öncelikle bu otomobilin menziline insan gerçekten çok şaşırıyor. Katalogda 705 km olarak verilen menzil, dikkatli bir sürüşle sizi yollarda yine de 650 km’ye kadar götürebiliyor.',
+      surus: 'Çok başarılı bir otomobil; uzun yol performansı konforlu ve keyifli. Arkadan itişli olması, en azından 210 km/s’ye kadar limitör olmaması ve 0–100 km/s’yi 4,3 saniyede tamamlaması gerçekten etkileyici.',
+    },
+    reviewExtra: {
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
+    summary: 'Menziliyle insanı gerçekten şaşırtan, uzun yolda konforlu ve keyifli, çok başarılı bir elektrikli lüks sedan.',
+  },
+  {
+    make: 'BMW', model: 'Z4', year: 2020, version: 'sDrive30i',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 258,
+    wiki: 'BMW Z4 (G29)',
+    specs: { motor: '2.0L turbo benzin, 258 bg, ZF 8 ileri otomatik, arkadan itiş', hizlanma: '5,4 sn', tuketim: '6,5 L/100 km', bagaj: '281 L' },
+    ratings: { surus: 9.6, guvenlik: 8.8, konfor: 7.8, tuketim: 7.4, malzeme: 8.8, tasarim: 9.2, fiyat: 7.8, teknoloji: 8.8, guvenilirlik: 8.6, ikinciel: 8.0 },
+    pros: ['Rijit ve dayanıklı kasa', 'Hafif gövdeyle fazlasıyla yeterli 258 bg', 'ZF 8 ileri şanzıman'],
+    cons: ['İki kişilik ve küçük bagaj'],
+    review: {
+      surus: 'Çok ama çok başarılı, inanılmaz bir otomobil. Roadster tarzı küçük, klasik Z4 havası mı desek, o havayla birleşen yeni teknoloji mi, kasanın rijitliği mi, yoksa hafif kasasıyla 258 beygirin aslında bu araba için gayet yeterli olması mı; hangisini öne çıkaracağımızı bilemedik. Kasa ve arka kısım çok dayanıklı; uzun soluklu yanlama ve drift işlerinde başarılı. Katalogda 0–100 km/s 5,4 saniye görünüyor ama otomobil bize kesinlikle daha hızlı hissettirdi.',
+      guvenilirlik: 'ZF’nin 8 ileri şanzımanıyla geldiğini söylemekte fayda var; piyasadaki en hızlı ve en başarılı şanzımanlardan biri. Çok yaygın bir kronik sorunu da yok. Sanırım bu otomobilin çok bir eksiği yok.',
+    },
+    summary: 'Çok ama çok başarılı, inanılmaz bir roadster; klasik Z4 havasını yeni teknolojiyle birleştiriyor ve neredeyse hiç eksiği yok.',
+  },
+  {
+    make: 'Audi', model: 'Q8', year: 2024, version: '45 TFSI quattro',
+    category: 'premium-suv', bodyType: 'suv', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 265,
+    wiki: 'Audi Q8',
+    specs: { motor: '2.0L turbo benzin, 265 bg, quattro, 8 ileri otomatik', hizlanma: '6,7 sn', tuketim: '9,5 L/100 km', bagaj: '605 L' },
+    ratings: { surus: 8.6, guvenlik: 9.2, konfor: 9.0, tuketim: 7.0, malzeme: 9.2, tasarim: 9.2, fiyat: 8.0, teknoloji: 9.0, guvenilirlik: 7.8, ikinciel: 7.6 },
+    pros: ['Kilosuna göre çok etkileyici 0–100', 'Rakiplerinden daha uygun fiyat', 'Yüksek hızlarda istikrarlı şasi'],
+    cons: ['2 tona yakın ağırlık ara hızlanmayı ve frenlemeyi zorlaştırıyor', 'Yüksek tüketim'],
+    review: {
+      surus: '0–100 km/s verisi bu kiloya göre çok etkileyici. 2 ton civarındaki ağırlığı ara hızlanmaları ve ani frenlemeleri biraz zorlaştırsa da performansı yine de kötü değil. Yüksek süratlerde şasi son derece istikrarlı.',
+      malzeme: 'İçi sade ve şık; premium hissini fazlasıyla taşıyabiliyor.',
+      fiyat: 'Rakiplerinden daha uygun fiyata bulunabilmesi onu öne çıkaran en önemli özelliklerden biri.',
+    },
+    summary: 'Premium hissini taşıyan, rakiplerinden daha uygun fiyata bulunabilen ve yüksek hızlarda kayaya oturmuş gibi giden bir SUV coupé.',
   },
 ];
 

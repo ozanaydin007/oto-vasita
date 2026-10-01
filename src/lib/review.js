@@ -15,6 +15,7 @@ import { formatScore, formatPrice } from './scoring.js';
 //     malzeme: '...', tasarim: '...', fiyat: '...', teknoloji: '...',
 //     guvenilirlik: '...', ikinciel: '...', sonuc: '...',
 //   },
+//   reviewExtra: { konfor: '...' },  // otomatik ya da yazılmış metnin SONUNA eklenir
 // ---------------------------------------------------------------------------
 
 function hash(str) {
@@ -424,7 +425,9 @@ export function buildReview(car, category) {
 
   const sections = CRITERIA.map((c) => {
     const v = car.ratings[c.key];
-    const text = o[c.key] || pick(TEXT[c.key][band(v)], car, c.key)(car);
+    const base = o[c.key] || pick(TEXT[c.key][band(v)], car, c.key)(car);
+    const extra = car.reviewExtra?.[c.key];
+    const text = extra ? `${base} ${extra}` : base;
     return { key: c.key, label: c.label, score: v, text: clean(text) };
   });
 
