@@ -138,7 +138,10 @@ const RAW_CARS = [
     specs: { motor: '1.2L turbo hafif hibrit, 136 bg', hizlanma: '8,9 sn', tuketim: '4,9 L/100 km', bagaj: '309 L' },
     ratings: { surus: 8.0, guvenlik: 7.4, konfor: 7.6, tuketim: 8.6, malzeme: 7.3, tasarim: 7.8, fiyat: 8.2, teknoloji: 7.7, guvenilirlik: 7.4, ikinciel: 7.6 },
     pros: ['Sınıfına göre güçlü hibrit motor', 'Düşük tüketim', 'Klasik, kullanışlı gösterge düzeni'],
-    cons: ['Arka koltuk ve bagaj ortalama', 'Kabinde sert plastikler'],
+    cons: ['Arka koltuk ve bagaj ortalama', 'Kabinde sert plastikler', 'Dar sürücü ayak boşluğu (botla sürmek zor)'],
+    reviewExtra: {
+      tasarim: 'Sürücü tarafında ayak boşluğu çok dar; özellikle manuel versiyonda pedal kullanımı zorlaşıyor ve bot gibi kalın tabanlı ayakkabılarla sürmek neredeyse imkânsız hâle geliyor.',
+    },
     summary: 'Hafif hibrit motoruyla hem canlı hem ekonomik; fiyat/performans dengesi çok güçlü bir şehir otomobili.',
   },
   {
@@ -196,7 +199,11 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbodizel, 130 bg, EAT8', hizlanma: '10,6 sn', tuketim: '4,6 L/100 km', bagaj: '412 L' },
     ratings: { surus: 8.1, guvenlik: 8.0, konfor: 8.1, tuketim: 8.9, malzeme: 8.3, tasarim: 9.0, fiyat: 7.8, teknoloji: 8.3, guvenilirlik: 7.6, ikinciel: 7.6 },
     pros: ['Uzun yolda çok düşük dizel tüketimi', 'Sınıfın en etkileyici tasarımı', 'Kaliteli kabin'],
-    cons: ['i-Cockpit düzeni herkese uymuyor', 'Arka koltuk başüstü dar'],
+    cons: ['i-Cockpit düzeni herkese uymuyor', 'Arka koltuk başüstü dar', 'Sürüş pozisyonuna göre direksiyonun göstergeyi perdelemesi', 'Soğuk motorda şanzıman vites geçiş sertliği / vuruntusu'],
+    reviewExtra: {
+      tasarim: 'i-Cockpit tasarımında, sürücünün boyuna ve oturuş pozisyonuna göre direksiyon simidi 3D dijital göstergenin alt kısmını kapatabiliyor; göstergeyi görmek için direksiyonu çok aşağı indirmek gerekebiliyor.',
+      guvenilirlik: 'EAT8 otomatik şanzıman soğuk havalarda ilk kalkışlarda 1. vitesten 2. vitese geçerken sarsıntı (vuruntu) yapma eğiliminde.',
+    },
     summary: 'Türkiye’de dizel motorla satılan 308, tasarımı ve düşük yakıt masrafıyla uzun yol yapanlara hitap ediyor.',
   },
   {
@@ -286,10 +293,13 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbodizel, 130 bg, DCT', hizlanma: '9,9 sn', tuketim: '4,8 L/100 km', bagaj: '520 L' },
     ratings: { surus: 6.8, guvenlik: 5.9, konfor: 7.0, tuketim: 8.8, malzeme: 6.1, tasarim: 6.5, fiyat: 8.6, teknoloji: 6.6, guvenilirlik: 8.0, ikinciel: 9.2 },
     pros: ['Bursa üretimi, 520 litrelik dev bagaj', 'Güçlü ve çok ekonomik dizel', 'Parça ve servis çok kolay'],
-    cons: ['Eskimiş platform ve güvenlik', 'Sade kabin'],
+    cons: ['Eskimiş platform ve güvenlik', 'Sade kabin', '1.4 Fire motor versiyonlarında kronik yağ eksiltme eğilimi', 'Ön süspansiyon takozlarının erken yıpranması ve lokurtu sesleri'],
     review: {
       fiyat: 'Egea’nın sırrı aslında çok basit: bu paraya bu kadar bagaj, bu kadar ekonomik bir dizel ve her köşede bulunan bir servis ağını başka hiçbir yerde bulamazsınız. Mükemmel bir otomobil değil ama Türkiye şartlarında “mantıklı” kelimesinin tam karşılığı.',
       ikinciel: 'İkinci elde Egea satmak, sabah simit almak kadar kolay. Her bütçeden alıcısı var ve değerini şaşırtıcı derecede iyi koruyor.',
+    },
+    reviewExtra: {
+      guvenilirlik: '1.4 Fire atmosferik benzinli versiyonlarda, yüksek devirli ya da uzun süreli otoyol kullanımında üretici sınırları içinde kabul edilen ama kullanıcıyı şaşırtan belirgin bir yağ eksiltme huyu var. Tüm versiyonlarda ön amortisör takozları çabuk yıpranabiliyor; direksiyonu çevirirken ya da kasislerden geçerken “lokurtu” sesi yapabiliyor.',
     },
     summary: 'Türkiye’nin en tanıdık sedanı; yeni dizel motoruyla düşük tüketim ve geniş bagajı ulaşılabilir fiyatla sunuyor.',
   },
@@ -320,9 +330,13 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo benzin, 182 bg (ECO LPG seçeneği de var)', hizlanma: '8,2 sn', tuketim: '6,7 L/100 km', bagaj: '495 L' },
     ratings: { surus: 8.8, guvenlik: 8.5, konfor: 8.3, tuketim: 7.4, malzeme: 8.1, tasarim: 8.2, fiyat: 7.2, teknoloji: 7.8, guvenilirlik: 9.2, ikinciel: 9.2 },
     pros: ['Sınıfının en iyi sürüş keyfi', 'Güçlü motor', 'Yüksek güvenilirlik ve ikinci el değeri'],
-    cons: ['Tüketim hibritlerin gerisinde', 'Multimedya sade'],
+    cons: ['Tüketim hibritlerin gerisinde', 'Multimedya sade', 'Kronik direksiyon takılma ve sertleşme problemi', 'Yüksek hızlarda zayıf rüzgar yalıtımı'],
     review: {
       surus: 'Civic’in direksiyonuna geçtiğinizde neden yıllardır bu kadar sevildiğini hemen anlıyorsunuz. Şasi virajlara iştahla giriyor, 1.5 turbo motor her devirde canlı; bir aile sedanından bu kadar keyif almak gerçekten nadir.',
+    },
+    reviewExtra: {
+      guvenilirlik: 'Bilinen bir sorun direksiyon kutusunda: zamanla aşırı sertleşme ve takılma hissi (EPS direksiyon dişlisi) görülebiliyor; düz yolda giderken sürekli küçük düzeltmeler yapma ihtiyacı doğabiliyor.',
+      konfor: '110 km/s ve üzerindeki hızlarda A sütunu ve aynalardan kabine belirgin bir rüzgar sesi geliyor.',
     },
     summary: 'Sedan pratikliğini gerçek sürüş keyfiyle birleştiren, Türkiye’de yıllardır sevilen bir tercih.',
   },
@@ -333,10 +347,14 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '8,5 sn', tuketim: '5,3 L/100 km', bagaj: '600 L' },
     ratings: { surus: 8.3, guvenlik: 8.9, konfor: 8.6, tuketim: 8.3, malzeme: 8.0, tasarim: 7.8, fiyat: 7.3, teknoloji: 8.2, guvenilirlik: 7.4, ikinciel: 8.6 },
     pros: ['600 litrelik bagaj ve üst sınıf alan', 'Olgun sürüş ve konfor', 'Güçlü, verimli motor'],
-    cons: ['Üst donanımlarda fiyat hızla artıyor', 'Tasarımı muhafazakâr', 'Kronik riskler: DQ200 şanzıman, vites kolu ve 48V akü'],
+    cons: ['Üst donanımlarda fiyat hızla artıyor', 'Tasarımı muhafazakâr', 'Kronik riskler: DQ200 şanzıman, vites kolu ve 48V akü', 'Sürekli tekrarlayan Seyahat Asistanı bip sesi ve yazılım hatası', 'Torsiyonlu versiyonlarda arka süspansiyon sertliği ve kapı fitili sesleri'],
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
       konfor: 'Octavia’nın arka koltuğuna oturan herkes önce dizlerinin önündeki boşluğa şaşırıyor. 600 litrelik bagajı ve yakıt kapağındaki buz kazıyıcı gibi akıllı detaylarıyla ailelerin hayatını gerçekten kolaylaştıran bir otomobil.',
+    },
+    reviewExtra: {
+      teknoloji: 'Dijital kokpitte “Seyahat Asistanı devre dışı” uyarısı, direksiyondaki kapasitif sensörlerin hassasiyet kaybı nedeniyle sürekli bip sesiyle ekrana gelebiliyor. Ayakla bagaj açma (sanal pedal) sistemi de kararsız çalışabiliyor.',
+      konfor: 'Arka süspansiyonda torsiyon çubuğu kullanan versiyonlarda (özellikle 1.0 eTSI) arka kısım bozuk yollarda fazla zıplayabiliyor; arka kapı fitillerinden gıcırtı sesleri gelebiliyor.',
     },
     summary: 'Kompakt fiyatına orta sınıf sedan alanı. Aileler için sınıfının en dengeli paketlerinden biri.',
   },
@@ -379,9 +397,13 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbo, 170 bg (Türkiye’ye özel)', hizlanma: '8,1 sn', tuketim: '6,4 L/100 km', bagaj: '480 L' },
     ratings: { surus: 9.3, guvenlik: 9.2, konfor: 8.7, tuketim: 7.8, malzeme: 9.1, tasarim: 8.6, fiyat: 6.4, teknoloji: 8.9, guvenilirlik: 8.0, ikinciel: 9.0 },
     pros: ['Sınıfının en iyi sürüş dinamikleri', 'Mükemmel şanzıman ve direksiyon', 'Kavisli ekran ve iDrive'],
-    cons: ['1.6 motor şasinin hakkını tam veremiyor', 'M Sport süspansiyon kötü yolda sert'],
+    cons: ['1.6 motor şasinin hakkını tam veremiyor', 'M Sport süspansiyon kötü yolda sert', 'Sert süspansiyon ve run-flat lastik kaynaklı konfor kaybı', 'Soğutma sistemi bileşenlerinde erken yıpranma ve sızıntı riski'],
     review: {
       surus: 'Türkiye’ye özel 1.6 motor kâğıt üzerinde mütevazı görünse de 3 Serisi’nin şasisi her şeyi affettiriyor. Arkadan itişin verdiği o dengeli his, keskin direksiyon ve kusursuz 8 ileri şanzıman; virajlı bir yolda bu otomobilin neden hâlâ sınıfının referansı olduğunu çok net anlıyorsunuz.',
+    },
+    reviewExtra: {
+      konfor: 'Run-flat (patlamayan) lastiklerle sert süspansiyon birleşince şehir içi çukurlarda kabine aşırı darbe iletebiliyor. Ön konsoldaki orta havalandırma ızgaralarından tıkırtı sesleri de gelebiliyor.',
+      guvenilirlik: 'Soğutma sistemi hortumlarında ve genleşme tankında (yedek su deposu) erken yaşta çatlama ve su eksiltme eğilimi görülebiliyor; su seviyesini düzenli kontrol edin.',
     },
     summary: 'Türkiye’ye özel 1.6 motoruyla bile sürücü odaklı premium sedanın referansı. Direksiyon başında olmayı sevenler için ilk tercih.',
   },
@@ -392,9 +414,9 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 204 bg, 4MATIC', hizlanma: '7,3 sn', tuketim: '7,0 L/100 km', bagaj: '455 L' },
     ratings: { surus: 8.8, guvenlik: 9.5, konfor: 9.1, tuketim: 7.5, malzeme: 9.2, tasarim: 9.3, fiyat: 6.9, teknoloji: 9.4, guvenilirlik: 7.6, ikinciel: 8.8 },
     pros: ['Mini S-Serisi etkisi yaratan kabin', '4MATIC dört çeker standart', 'Gelişmiş sürüş destek sistemleri'],
-    cons: ['Dokunmatik direksiyon tuşları', 'Yüksek fiyat', 'Ön aks ve aktarma organlarından ses gelebiliyor', 'Dokunmatik ekran donabiliyor', 'Uzun süreli kullanımda trim sesleri'],
+    cons: ['Dokunmatik direksiyon tuşları', 'Yüksek fiyat', 'Uzun süreli kullanımda trim sesleri', 'Ön takımdan gelen erken gıcırtı/lokurtu sesleri', 'Merkezi ekranın sıcakta donması ve yazılımsal kilitlenmeler'],
     review: {
-      guvenilirlik: '2026 C Serisi’nde dikkat etmeniz gereken birkaç nokta var. Ön aks ve aktarma organlarından ses gelebiliyor; ön aktarma organlarında sorun çıkabildiğini de görüyoruz. Ayrıca dokunmatik ekran zaman zaman donabiliyor; bazı araçlarda bu sorun servise götürmeyi gerektirecek kadar ilerleyebiliyor.',
+      guvenilirlik: '2026 C Serisi’nde dikkat etmeniz gereken birkaç nokta var. Ön aks taşıyıcı burçları ve salıncak kolları kasislerden geçerken gıcırtı ve kuru sürtünme sesi yapabiliyor; ön aktarma organlarında da sorun çıkabildiğini görüyoruz. Arka aks yönlendirmesi olan versiyonlarda sistem düşük hızlı manevralarda hafif vuruntu hissettirebiliyor. Dikey merkezi ekran ise özellikle güneşte park sonrası aşırı sıcakta donabiliyor ya da siyah ekranda kalabiliyor; bazı araçlarda bu sorun servise götürmeyi gerektirecek kadar ilerleyebiliyor.',
       malzeme: 'C Serisi’nin kabinine oturduğunuzda kendinizi bir üst sınıfta hissediyorsunuz. Ambiyans aydınlatması, türbin tipi havalandırma ızgaraları ve yumuşak yüzeylerle sınıfının en lüks kabini; geceleri ayrı bir şov sunuyor.',
     },
     reviewExtra: {
@@ -552,9 +574,12 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbodizel, 130 bg, DCT', hizlanma: '10,0 sn', tuketim: '4,9 L/100 km', bagaj: '440 L' },
     ratings: { surus: 6.7, guvenlik: 5.9, konfor: 7.1, tuketim: 8.8, malzeme: 6.2, tasarim: 6.9, fiyat: 8.5, teknoloji: 6.6, guvenilirlik: 8.0, ikinciel: 8.6 },
     pros: ['Bursa üretimi', 'Ekonomik dizel ve otomatik şanzıman', 'Yüksek yerden yükseklik'],
-    cons: ['Eskimiş platform', 'Güvenlik puanı düşük'],
+    cons: ['Eskimiş platform', 'Güvenlik puanı düşük', '1.4 Fire motor versiyonlarında kronik yağ eksiltme eğilimi', 'Ön süspansiyon takozlarının erken yıpranması ve lokurtu sesleri'],
     review: {
       fiyat: 'Egea Cross, Egea’nın bütün mantığını biraz daha yüksek ve daha maceracı bir gövdeyle sunuyor. Dizel ve otomatik bir crossover’ı bu fiyata bulmak bugün neredeyse imkânsız.',
+    },
+    reviewExtra: {
+      guvenilirlik: '1.4 Fire atmosferik benzinli versiyonlarda, yüksek devirli ya da uzun süreli otoyol kullanımında üretici sınırları içinde kabul edilen ama kullanıcıyı şaşırtan belirgin bir yağ eksiltme huyu var. Tüm versiyonlarda ön amortisör takozları çabuk yıpranabiliyor; direksiyonu çevirirken ya da kasislerden geçerken “lokurtu” sesi yapabiliyor.',
     },
     summary: 'Egea’nın yükseltilmiş hali; dizel ekonomisi ve crossover duruşunu uygun fiyatla sunuyor.',
   },
@@ -569,9 +594,13 @@ const RAW_CARS = [
     specs: { motor: 'Turbo benzin, 145 bg, EDC otomatik', hizlanma: '10,0 sn', tuketim: '6,2 L/100 km', bagaj: '472 L' },
     ratings: { surus: 7.1, guvenlik: 6.5, konfor: 7.3, tuketim: 7.8, malzeme: 6.5, tasarim: 7.7, fiyat: 9.2, teknoloji: 6.9, guvenilirlik: 8.0, ikinciel: 8.6 },
     pros: ['Fiyatına göre inanılmaz değer', 'Sağlam ve iddialı duruş', '4x4 ve LPG seçenekleri'],
-    cons: ['Ucuz kabin malzemeleri', 'Güvenlik puanı rakiplerin gerisinde'],
+    cons: ['Ucuz kabin malzemeleri', 'Güvenlik puanı rakiplerin gerisinde', 'Kapı üstünden gelen rüzgar ıslığı', 'Sert plastik konsolun çıtırtı sesleri'],
     review: {
       fiyat: 'Duster, “SUV istiyorum ama bütçem kısıtlı” diyenlerin cevabı. Yeni nesliyle o eski kaba Duster gitti, yerine gerçekten derli toplu bir SUV geldi. Aynı parayla rakiplerin ancak küçük hatchback’lerini alabildiğinizi düşününce değeri çok yüksek.',
+    },
+    reviewExtra: {
+      konfor: 'Kapı ve cam fitillerindeki kauçuk malzeme sert olduğu için 100 km/s’nin üzerine çıkıldığında sürücü kapısının üst köşesinden kabine rüzgar ıslığı sızabiliyor.',
+      malzeme: 'Geri dönüştürülmüş sert plastikten üretilen ön konsol, güneş altında uzun süre park edildikten sonra klima açıldığında ani soğumayla çıtırtı ve genleşme sesleri çıkarabiliyor.',
     },
     summary: 'Aile SUV’una en uygun fiyatlı giriş biletlerinden; Türkiye’de Renault logosuyla satılıyor.',
   },
@@ -622,7 +651,11 @@ const RAW_CARS = [
     specs: { motor: '2.5L tam hibrit, 222 bg, 4x4', hizlanma: '8,1 sn', tuketim: '5,8 L/100 km', bagaj: '580 L' },
     ratings: { surus: 7.9, guvenlik: 9.0, konfor: 8.2, tuketim: 8.6, malzeme: 7.8, tasarim: 7.8, fiyat: 6.0, teknoloji: 8.0, guvenilirlik: 9.6, ikinciel: 8.8 },
     pros: ['Güçlü ve verimli hibrit', 'Standart dört çeker', 'Uzun ömürlü mekanik'],
-    cons: ['2.5 motor nedeniyle çok yüksek fiyat', 'Kabin malzemeleri fiyatının gerisinde'],
+    cons: ['2.5 motor nedeniyle çok yüksek fiyat', 'Kabin malzemeleri fiyatının gerisinde', 'Arka aks yüksek voltaj kablo konnektöründe korozyon riski', 'Arka çamurluk yalıtımının zayıflığı nedeniyle yüksek yol ve su sesi'],
+    reviewExtra: {
+      guvenilirlik: 'Dört çekerli hibritlerde arka elektrik motorunu besleyen yüksek voltaj kablosunun arka tekerleklerin hemen arkasındaki konnektörü; çamur, tuz ve su nedeniyle zamanla korozyona uğrayabiliyor ve hibrit sistem arızası verebiliyor. Bu bölgenin periyodik bakımlarda kontrol edilmesini isteyin.',
+      konfor: 'Otoyol süratlerinde arka çamurlukların iç yalıtımı zayıf kaldığı için, yağmurlu havada arkadaki yolcular tekerleklerden sıçrayan suyu kabinin içindeymiş gibi yüksek sesle duyabiliyor.',
+    },
     summary: 'Güvenilirlik ve dört çekeri birleştiren sağlam bir aile SUV’u; ÖTV nedeniyle fiyatı premium seviyede.',
   },
   {
@@ -632,9 +665,13 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbo benzin, 180 bg, DCT', hizlanma: '9,1 sn', tuketim: '7,0 L/100 km', bagaj: '620 L' },
     ratings: { surus: 7.9, guvenlik: 8.7, konfor: 8.5, tuketim: 7.3, malzeme: 8.0, tasarim: 8.6, fiyat: 7.5, teknoloji: 8.7, guvenilirlik: 8.4, ikinciel: 8.6 },
     pros: ['Güçlü motor', 'Geniş bagaj', 'Zengin teknoloji ve donanım'],
-    cons: ['Tüketim hibrit rakiplerden yüksek', 'Direksiyon hissi zayıf'],
+    cons: ['Tüketim hibrit rakiplerden yüksek', 'Direksiyon hissi zayıf', 'Yoğun trafikte DCT şanzıman ısınma problemi ve kalkışta titreme', 'Benzinli motorda yüksek şehir içi yakıt tüketimi'],
     review: {
       tasarim: 'Tucson’un parametrik ızgarası ve kapalıyken gizlenen gündüz farları onu yolda hemen tanınır kılıyor. Sınıfının en cesur tasarımlı SUV’larından; kabinde de aynı modern hava devam ediyor.',
+    },
+    reviewExtra: {
+      guvenilirlik: '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
+      tuketim: '1.6 T-GDI benzinli motor, performansına oranla şehir içi dur-kalk trafikte beklenenden yüksek yakıt tüketimine ulaşabiliyor.',
     },
     summary: 'Donanım, tasarım ve alanı iyi fiyatla sunan, sınıfının en dengeli paketlerinden.',
   },
@@ -645,9 +682,13 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbo benzin, 150 bg, DCT', hizlanma: '10,4 sn', tuketim: '7,0 L/100 km', bagaj: '591 L' },
     ratings: { surus: 7.8, guvenlik: 8.7, konfor: 8.4, tuketim: 7.3, malzeme: 8.1, tasarim: 8.4, fiyat: 7.6, teknoloji: 8.7, guvenilirlik: 8.4, ikinciel: 8.4 },
     pros: ['Kavisli çift ekran', 'Geniş arka koltuk', 'Uzun garanti'],
-    cons: ['150 bg dolu araçta sınırda', 'Dokunmatik çift fonksiyonlu panel kafa karıştırıcı'],
+    cons: ['150 bg dolu araçta sınırda', 'Dokunmatik çift fonksiyonlu panel kafa karıştırıcı', 'Yoğun trafikte DCT şanzıman ısınma problemi ve kalkışta titreme', 'Benzinli motorda yüksek şehir içi yakıt tüketimi'],
     review: {
       teknoloji: 'Sportage’ın kavisli çift ekranı hem şık hem kullanışlı. Klima ile medya kontrolleri arasında geçiş yapan dokunmatik panele alışmak biraz zaman alıyor, ama alıştıktan sonra çok pratik.',
+    },
+    reviewExtra: {
+      guvenilirlik: '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
+      tuketim: '1.6 T-GDI benzinli motor, performansına oranla şehir içi dur-kalk trafikte beklenenden yüksek yakıt tüketimine ulaşabiliyor.',
     },
     summary: 'Tucson’un kuzeni; kaliteli kabini ve geniş donanım yelpazesiyle eşit derecede güçlü bir aday.',
   },
@@ -658,9 +699,13 @@ const RAW_CARS = [
     specs: { motor: '1.5L seri hibrit (e-POWER), 190 bg', hizlanma: '7,9 sn', tuketim: '5,3 L/100 km', bagaj: '504 L' },
     ratings: { surus: 7.8, guvenlik: 8.6, konfor: 8.3, tuketim: 8.5, malzeme: 8.0, tasarim: 8.0, fiyat: 6.6, teknoloji: 8.3, guvenilirlik: 7.6, ikinciel: 7.8 },
     pros: ['Elektrikli gibi sessiz, akıcı hızlanma', 'Rahat süspansiyon', 'Kaliteli kabin'],
-    cons: ['Otoyolda tüketim artıyor', 'e-POWER fiyatı çok yükseldi'],
+    cons: ['Otoyolda tüketim artıyor', 'e-POWER fiyatı çok yükseldi', 'Rampalarda motor sesi ile hızlanmanın uyuşmaması (e-POWER bağırtısı)', 'Ön kamera sensörlerinin sıcaklık ve buğudan çabuk etkilenip kapanması'],
     review: {
       surus: 'e-Power sistemi Qashqai’ye elektrikli bir otomobil gibi sessiz ve akıcı bir hızlanma kazandırıyor. Benzinli motor yalnızca jeneratör olarak çalıştığı için şehir içinde vites değişimi hissi hiç yok; ilk kez kullananların çoğu buna şaşırıyor.',
+    },
+    reviewExtra: {
+      surus: 'e-POWER’da motor yalnızca jeneratör olarak çalıştığı için dik rampalarda gaza basıldığında motor devri ve sesi hızla artıyor, ama hızlanma bu sesle senkronize olmuyor; CVT benzeri bir his yaratıyor.',
+      teknoloji: 'Akıllı dikiz aynası ve şerit takip kamerası, ön camda aşırı buğulanma veya aşırı sıcaklık durumlarında kendini kapatarak güvenlik sistemlerini devre dışı bırakabiliyor.',
     },
     summary: 'e-POWER sistemiyle şehirde çok keyifli; mild hybrid versiyonu ise daha mantıklı bir fiyat sunuyor.',
   },
@@ -694,7 +739,11 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbo hafif hibrit, 160 bg', hizlanma: '9,6 sn', tuketim: '6,3 L/100 km', bagaj: '500 L' },
     ratings: { surus: 8.0, guvenlik: 8.6, konfor: 8.2, tuketim: 7.9, malzeme: 8.0, tasarim: 8.0, fiyat: 8.2, teknoloji: 8.6, guvenilirlik: 7.4, ikinciel: 7.0 },
     pros: ['OpenR ekran ve Google hizmetleri', 'Kaliteli kabin', 'Rakiplerine göre uygun fiyat'],
-    cons: ['Arka koltuk başüstü sınırlı', 'Tam hibrit seçeneği şu an listede yok'],
+    cons: ['Arka koltuk başüstü sınırlı', 'Tam hibrit seçeneği şu an listede yok', 'Düşük devirlerde motor titreşimi ve şanzıman kararsızlığı', 'Kızaklı arka koltuk mekanizmasından gelen trim sesleri'],
+    reviewExtra: {
+      surus: '1.2 litrelik üç silindirli motor düşük devirlerde belirgin titreşim yapıyor; trafikte kavrama anlarında anlık kararsızlıklar ve silkelemeler yaşanabiliyor.',
+      konfor: 'İleri-geri kaydırılabilen arka koltuk mekanizması bozuk yollarda arkadan trim sesi yapabiliyor.',
+    },
     summary: 'Teknoloji ve kabin kalitesinde iddialı, fiyatıyla da dikkat çeken çevik bir aile SUV’u.',
   },
   {
@@ -704,9 +753,13 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '8,9 sn', tuketim: '5,9 L/100 km', bagaj: '450 L' },
     ratings: { surus: 8.9, guvenlik: 8.6, konfor: 7.6, tuketim: 7.9, malzeme: 7.9, tasarim: 9.1, fiyat: 7.0, teknoloji: 8.2, guvenilirlik: 7.0, ikinciel: 7.6 },
     pros: ['Sınıfının en sportif sürüşü', 'Göz alıcı tasarım', 'Alçak, otomobil gibi oturma'],
-    cons: ['Sert süspansiyon', 'Aile için bagaj ve arka alan ortalama', 'Kronik riskler: DQ200 şanzıman, vites kolu ve 48V akü'],
+    cons: ['Sert süspansiyon', 'Aile için bagaj ve arka alan ortalama', 'Kronik riskler: DQ200 şanzıman, vites kolu ve 48V akü', 'Arka yolcular için sert ve sarsıntılı süspansiyon', 'Kronik ekran donmaları ve bilgi-eğlence sistemi çökmeleri'],
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
+    },
+    reviewExtra: {
+      konfor: 'Agresif ve sportif tasarımını destekleyen keskin direksiyon tepkileri var; ancak MINI Cooper kadar olmasa da arka süspansiyon geometrisi sert, arka yolcular bunu hissediyor.',
+      teknoloji: 'Golf 8’e benzer şekilde multimedya ekranı tamamen kapanabiliyor ya da donabiliyor; dijital göstergede anlık veri kayıpları yaşanabiliyor.',
     },
     summary: 'SUV olmaktan çok yükseltilmiş bir hot-hatch; aile ihtiyacından çok sürüş keyfi arayanlar için.',
   },
@@ -827,9 +880,13 @@ const RAW_CARS = [
     specs: { motor: 'Tek motor, ~620 km WLTP', hizlanma: '5,6 sn', tuketim: '15,0 kWh/100 km', bagaj: '854 L (ön+arka)' },
     ratings: { surus: 8.2, guvenlik: 9.2, konfor: 8.2, tuketim: 9.2, malzeme: 7.9, tasarim: 8.2, fiyat: 7.6, teknoloji: 9.4, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Sınıfının en iyi verimliliği', 'Supercharger ağı', 'Dev bagaj hacmi'],
-    cons: ['Neredeyse tüm kontroller ekranda', 'Standart Range’e göre ciddi fiyat farkı'],
+    cons: ['Neredeyse tüm kontroller ekranda', 'Standart Range’e göre ciddi fiyat farkı', 'Cam tavanda perde olmaması kaynaklı yazın kabin içi aşırı ısınma', 'Yüksek süratlerde aşırı hassas direksiyon tepkileri ve mikro trim sesleri'],
     review: {
       tuketim: 'Model Y’nin verimliliği bir SUV için akıl almaz. Supercharger ağı sayesinde uzun yolda şarj planlamak neredeyse hiç kafa yormuyor: navigasyona hedefi yazıyorsunuz, nerede ve ne kadar şarj etmeniz gerektiğini otomobil kendisi hesaplıyor.',
+    },
+    reviewExtra: {
+      konfor: 'Cam tavanın standart olarak mekanik bir perdesi olmadığı için özellikle yaz aylarında kabin aşırı ısınabiliyor ve klimanın verimi düşüyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler zamanla gevşeyip tıkırdayabiliyor.',
+      surus: 'Direksiyon oranı çok hızlı (sportif) olduğu için otoyol hızlarında en ufak hareketle araç şerit içinde keskin tepki veriyor; alışkın olmayan sürücüler için yorucu olabiliyor.',
     },
     summary: 'Verimlilik, şarj altyapısı ve yazılımda hâlâ ölçü birimi; bütçe öncelikliyse Standart Range versiyonu çok daha ucuz.',
   },
@@ -980,9 +1037,12 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbodizel, 102 bg, 6 ileri manuel', hizlanma: '10,2 sn', tuketim: '3,8 L/100 km', bagaj: '309 L' },
     ratings: { surus: 7.7, guvenlik: 7.3, konfor: 7.4, tuketim: 10.0, malzeme: 7.0, tasarim: 7.8, fiyat: 8.4, teknoloji: 6.8, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Düz yolda 90 km/s’de 2,3 L/100 km’ye inen tüketim (kendi ölçümümüz)', 'Güçlü ara hızlanma (tork)', 'Hafif kasa ve dizel motorun mükemmel uyumu'],
-    cons: ['Yaklaşık 40 litrelik küçük yakıt deposu', 'Edition donanım sade', 'Dizel motor rölantide sesli'],
+    cons: ['Yaklaşık 40 litrelik küçük yakıt deposu', 'Edition donanım sade', 'Dizel motor rölantide sesli', 'Dar sürücü ayak boşluğu (botla sürmek zor)'],
     review: {
       tuketim: 'Bu otomobilin en etkileyici yanı kesinlikle tüketimi. Düz yolda hızı 90 km/s’ye sabitlediğimizde motor 1.500 devir civarında dönüyor ve yol bilgisayarında 2,3 L/100 km gördük. Uzun ve düz bir yolda bu tür komik denebilecek rakamlara ulaşmak gerçekten mümkün. 1.5 dizel motor hafif kasayla birleşince ortaya inanılmaz bir sonuç çıkıyor. Tek eksik yakıt deposu: segmenti gereği yaklaşık 40 litre yakıt alabiliyorsunuz. 50–60 litrelik bir depoya sahip olsaydı, bu kombinasyon sizi ayda yalnızca bir kez akaryakıt istasyonuna götürecek kadar ekonomik olurdu.',
+    },
+    reviewExtra: {
+      tasarim: 'Sürücü tarafında ayak boşluğu çok dar; özellikle manuel versiyonda pedal kullanımı zorlaşıyor ve bot gibi kalın tabanlı ayakkabılarla sürmek neredeyse imkânsız hâle geliyor.',
     },
     summary: 'Yakıt masrafı ön planda olan, çok yol yapan kullanıcılar için ikinci elde akıllı bir şehir otomobili.',
   },
@@ -1043,7 +1103,11 @@ const RAW_CARS = [
     specs: { motor: '1.5L atmosferik benzin, 131 bg, 6 ileri manuel', hizlanma: '8,3 sn', tuketim: '6,0 L/100 km', bagaj: '130 L' },
     ratings: { surus: 9.8, guvenlik: 7.7, konfor: 7.1, tuketim: 8.7, malzeme: 7.7, tasarim: 9.5, fiyat: 8.8, teknoloji: 6.7, guvenilirlik: 9.2, ikinciel: 7.8 },
     pros: ['Hafif gövde ve saf, eğlenceli sürüş', 'Mükemmel manuel şanzıman', 'Düşük tüketim ve güvenilirlik'],
-    cons: ['Çok küçük bagaj ve kabin', 'Otoyolda gürültülü'],
+    cons: ['Çok küçük bagaj ve kabin', 'Otoyolda gürültülü', 'Şanzıman tüneli yüzünden sağ bacak ve dizin çok dar yerleşimi', 'Torpido gözü olmaması ve kullanışsız koltuk arkası saklama alanı'],
+    reviewExtra: {
+      konfor: 'Şanzıman tüneli sürücü tarafına doğru geniş tasarlandığı için gaz pedalının yanındaki ayak boşluğu çok dar; sağ bacak sürekli orta konsoldaki sert plastiğe yaslanıyor ve uzun yolda sağ dizde ağrı yapabiliyor.',
+      tasarim: 'Kabinde klasik bir torpido gözü yok. Eşyalar için iki koltuğun arkasındaki kilitli kutu kullanılıyor; sürüş sırasında buradan cüzdan ya da gözlük almak tam bir akrobasi gerektiriyor.',
+    },
     summary: 'Az güçle çok keyif. Açık hava ve direksiyon hissi arayanlar için ikinci elde ulaşılabilir bir roadster.',
   },
   {
@@ -1083,7 +1147,11 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbodizel, 190 bg, S tronic', hizlanma: '7,7 sn', tuketim: '4,6 L/100 km', bagaj: '460 L' },
     ratings: { surus: 8.7, guvenlik: 9.1, konfor: 9.1, tuketim: 8.9, malzeme: 9.1, tasarim: 8.3, fiyat: 7.8, teknoloji: 8.5, guvenilirlik: 7.8, ikinciel: 8.6 },
     pros: ['Otoyolda çok sessiz kabin', 'Güçlü ve ekonomik dizel', 'Kaliteli işçilik'],
-    cons: ['Kabin tasarımı yaşını gösteriyor', 'Arkada yüksek şaft tüneli'],
+    cons: ['Kabin tasarımı yaşını gösteriyor', 'Arkada yüksek şaft tüneli', 'Kronik AdBlue sistemi ve enjektör tıkanma arızaları', 'S tronic şanzımanda erken yaşta volan sesi ve yıpranma eğilimi'],
+    reviewExtra: {
+      guvenilirlik: '7 ileri S tronic şanzımanın çift kütleli volanı 60.000–80.000 km civarında ses yapmaya başlayabiliyor; özellikle rölantide ve ilk kalkışta şıkırtı/tıkırtı duyulabiliyor. TDI motorlarda AdBlue enjektörü ve deposu sıklıkla tıkanıp arıza lambası yakabiliyor.',
+      malzeme: 'Çerçevesiz dikiz aynasının arkasındaki plastik kapaklardan ve ön kapı içlerindeki LED ambiyans şeritlerinin yuvalarından ince tıkırtılar gelebiliyor.',
+    },
     summary: 'Sessizliği ve düşük tüketimiyle uzun yolları kolayca tüketen, ikinci elde çok aranan bir yol otomobili.',
   },
   {
@@ -1319,10 +1387,10 @@ const RAW_CARS = [
     fuel: 'Dizel', gearbox: 'Otomatik', hp: 330,
     specs: { motor: '2.9L sıralı 6 silindir dizel, 330 bg, 4MATIC', hizlanma: '5,4 sn', tuketim: '7,4 L/100 km', bagaj: '550 L' },
     ratings: { surus: 9.3, guvenlik: 10.0, konfor: 10.0, tuketim: 7.8, malzeme: 10.0, tasarim: 9.5, fiyat: 6.8, teknoloji: 10.0, guvenilirlik: 7.4, ikinciel: 7.6 },
-    pros: ['Sınıfının en konforlu ve sessiz kabini', 'Arka koltukta makam otomobili konforu', 'Güçlü ve şaşırtıcı ekonomik dizel', 'Sınıfının en gelişmiş güvenlik sistemleri'],
+    pros: ['Sınıfının en konforlu ve sessiz kabini', 'Arka koltukta makam otomobili konforu', 'Güçlü ve şaşırtıcı ekonomik dizel', 'Sınıfının en gelişmiş güvenlik sistemleri', 'Yol tarama kameralı aktif süspansiyonla kusursuz sönümleme', 'Dış dünyayı unutturan akustik yalıtım'],
     cons: ['Çok yüksek bakım ve sigorta maliyeti', 'Uzun süreli kullanımda trim sesleri'],
     reviewExtra: {
-      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor. E-Active Body Control (kamera destekli aktif süspansiyon) yoldaki kasis ve çukurları önceden tarayıp her tekerleğin sönümlemesini milisaniyeler içinde ayarlıyor; kabindekiler kelimenin tam anlamıyla uçan halı üzerinde seyahat ediyor. Arka koltuklardaki yumuşak ek yastıklar ve akustik camlar birleşince kabin bir meditasyon odası kadar sessizleşiyor.',
     },
     summary: 'Lüks otomobilin referansı; konfor, güvenlik ve teknolojide rakiplerine yol gösteriyor.',
   },
@@ -1435,8 +1503,12 @@ const RAW_CARS = [
     fuel: 'Elektrik', gearbox: 'Otomatik', hp: 476,
     specs: { motor: '476 bg (overboost 530), 93,4 kWh, ~488 km WLTP', hizlanma: '4,1 sn', tuketim: '20,6 kWh/100 km', bagaj: '405 L + 85 L ön' },
     ratings: { surus: 9.9, guvenlik: 9.6, konfor: 9.3, tuketim: 7.8, malzeme: 9.8, tasarim: 10.0, fiyat: 7.0, teknoloji: 9.5, guvenilirlik: 8.0, ikinciel: 6.4 },
-    pros: ['Yolda en güzel görünen elektriklilerden', '800V ile çok hızlı şarj', 'Gran turismo konforu'],
+    pros: ['Yolda en güzel görünen elektriklilerden', '800V ile çok hızlı şarj', 'Gran turismo konforu', 'Fütüristik ve zamansız dış tasarım', 'Havalı süspansiyonla salınımsız, yüksek hızlı viraj kararlılığı'],
     cons: ['Menzil rakiplerin gerisinde', 'Arka koltuk alçak ve dar'],
+    reviewExtra: {
+      tasarim: 'Alçak tavanı, geniş çamurlukları ve akıcı siluetiyle son yılların en karizmatik elektrikli GT tasarımlarından; yolda geleneksel süper sporlardan bile daha fütüristik duruyor.',
+      surus: 'Üç odacıklı havalı süspansiyon ve arka aks yönlendirmesi sayesinde yüksek hızda viraj alırken bataryanın ağırlığını tamamen unutturuyor; ray üzerinde gidiyormuş gibi bir kararlılık sunuyor.',
+    },
     summary: 'Taycan altyapısını daha rahat bir karakter ve çarpıcı bir tasarımla sunan elektrikli GT.',
   },
   {
@@ -1569,7 +1641,11 @@ const RAW_CARS = [
     specs: { motor: '2.0L boxer hafif hibrit (e-Boxer), 150 bg, Symmetrical AWD, CVT', hizlanma: '11,8 sn', tuketim: '8,1 L/100 km', bagaj: '509 L' },
     ratings: { surus: 7.4, guvenlik: 9.2, konfor: 7.8, tuketim: 6.2, malzeme: 7.2, tasarim: 6.8, fiyat: 7.0, teknoloji: 6.6, guvenilirlik: 8.8, ikinciel: 6.4 },
     pros: ['Standart dört çeker ve yüksek yerden yükseklik', 'Sınıfının en güvenli SUV’larından (EyeSight)', 'Geniş camlarla mükemmel görüş'],
-    cons: ['Hibrite rağmen yüksek tüketim', 'Yavaş CVT ve eski multimedya'],
+    cons: ['Hibrite rağmen yüksek tüketim', 'Yavaş CVT ve eski multimedya', 'Geri viteste dik rampalarda zorlanma', 'EyeSight kameralarının dış etkenlerden çabuk etkilenip kapanması'],
+    reviewExtra: {
+      surus: 'Sınıfının en iyi simetrik dört çeker sistemlerinden birine sahip olsa da, Lineartronic CVT şanzımanla dik rampaları geri geri çıkarken zorlanabiliyor.',
+      teknoloji: 'Ön camın üstündeki EyeSight kamera sistemi; kalitesiz cam filmleri, dikiz aynasına asılan kokular veya hafif buğu yüzünden çarpışma önleme ve şerit takibini aniden kapatabiliyor.',
+    },
     summary: 'Kötü yol ve kış koşulları için en güvenilir SUV’lardan; verimlilik ve teknolojide rakiplerin gerisinde.',
   },
   {
@@ -1715,7 +1791,11 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbo, 280 bg, Q4 dört çeker', hizlanma: '5,2 sn', tuketim: '7,8 L/100 km', bagaj: '480 L' },
     ratings: { surus: 9.8, guvenlik: 8.9, konfor: 8.1, tuketim: 7.2, malzeme: 7.9, tasarim: 9.7, fiyat: 7.6, teknoloji: 7.1, guvenilirlik: 6.6, ikinciel: 5.8 },
     pros: ['Sınıfının en keskin direksiyonu', 'Zamansız İtalyan tasarımı', 'Güçlü motor ve dört çeker'],
-    cons: ['Eski multimedya', 'Zayıf ikinci el değeri'],
+    cons: ['Eski multimedya', 'Zayıf ikinci el değeri', 'Zayıf akü voltajı yönetimi yüzünden sık yaşanan asılsız elektronik uyarılar', 'Manevralarda tekerleğin atlama yapması (direksiyon geometrisi karakteri)'],
+    reviewExtra: {
+      surus: 'Sınıfının en keskin ve direkt direksiyon tepkilerine sahip; adeta go-kart hissi veriyor. Yalnız tam turlu park manevralarında ön tekerleklerin hafifçe kayarak “atlama” yapması kendine has direksiyon geometrisinden kaynaklanıyor; arıza değil ama ilk seferde kullanıcıyı korkutabiliyor.',
+      guvenilirlik: 'Akü voltajı biraz düştüğünde bile (örneğin araç birkaç gün yatarsa) ekranda start-stop devre dışı veya DNA modu arızası gibi asılsız elektronik uyarılar çıkabiliyor.',
+    },
     summary: 'Kalpten alınan bir sedan: teknoloji eksiklerini sürüş karakteri ve tasarımıyla fazlasıyla telafi ediyor.',
   },
   {
@@ -1832,7 +1912,11 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbodizel, 122 bg, 8 ileri otomatik', hizlanma: '11,1 sn', tuketim: '4,7 L/100 km', bagaj: '490 L' },
     ratings: { surus: 7.8, guvenlik: 8.2, konfor: 8.2, tuketim: 8.6, malzeme: 7.2, tasarim: 7.6, fiyat: 7.8, teknoloji: 6.5, guvenilirlik: 7.6, ikinciel: 6.8 },
     pros: ['Çok düşük uzun yol tüketimi', 'AGR sertifikalı rahat koltuklar', 'Geniş kabin'],
-    cons: ['Motor büyük gövdede güçsüz', 'Multimedya eski'],
+    cons: ['Motor büyük gövdede güçsüz', 'Multimedya eski', '1.6 CDTI versiyonlarda ilk çalıştırma zincir sesi ve erken zincir uzaması riski', 'Matrix far sisteminin çevre etkenleriyle kararsız çalışması'],
+    reviewExtra: {
+      guvenilirlik: '1.6 CDTI dizel versiyonlarda ilk çalıştırmada zincir gergisi yağı geç doldurduğu için motordan 2–3 saniye boyunca şiddetli bir zincir sesi gelebiliyor ve zincir zamanla erken uzayabiliyor.',
+      teknoloji: 'IntelliLux LED Matrix farlar, karşıdan araç gelmediği durumlarda bile tabela yansımalarını veya yol kenarındaki nesneleri araç sanarak uzun farı gereksiz yere kapatabiliyor.',
+    },
     summary: 'Uzun yolların ekonomik ve rahat sedanı; performans ve teknoloji beklentisini düşük tutmak gerek.',
   },
   {
@@ -1842,10 +1926,14 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbo benzin, 170 bg, 8 ileri otomatik (Türkiye’ye özel)', hizlanma: '7,8 sn', tuketim: '6,1 L/100 km', bagaj: '480 L' },
     ratings: { surus: 9.1, guvenlik: 9.1, konfor: 8.7, tuketim: 8.0, malzeme: 8.9, tasarim: 8.7, fiyat: 7.8, teknoloji: 8.7, guvenilirlik: 8.2, ikinciel: 8.8 },
     pros: ['G20 kasanın dengeli arkadan itişli şasisi', 'Yazılımla ciddi güç artışı potansiyeli', 'Mükemmel 8 ileri şanzıman'],
-    cons: ['Standart hâliyle şasinin hakkını veremeyen motor', 'Yazılım garanti ve motor ömrü açısından risk taşıyor'],
+    cons: ['Standart hâliyle şasinin hakkını veremeyen motor', 'Yazılım garanti ve motor ömrü açısından risk taşıyor', 'Sert süspansiyon ve run-flat lastik kaynaklı konfor kaybı', 'Soğutma sistemi bileşenlerinde erken yıpranma ve sızıntı riski'],
     review: {
       surus: 'Bizim deneyimimize göre G20 kasa 320i, ufak modifikasyonlarla gerçekten bir M otomobilinin seviyesine erişebiliyor; üstelik yarı fiyatına. Standart hâlinde bile arkadan itişin verdiği denge, keskin direksiyon ve kusursuz 8 ileri şanzıman bu otomobili sınıfının en keyifli sedanlarından biri yapıyor.',
       guvenilirlik: 'Türkiye’ye özel 1.6 motor, aslında BMW’nin 2 litrelik motorundan küçültülerek (downsize) üretildiği için yüksek güçlere çok hazırlıklı. Genel bakımlarını aksatmaz ve dikkatli kullanırsanız kronik sorunları yok denecek kadar az.',
+    },
+    reviewExtra: {
+      konfor: 'Run-flat (patlamayan) lastiklerle sert süspansiyon birleşince şehir içi çukurlarda kabine aşırı darbe iletebiliyor. Ön konsoldaki orta havalandırma ızgaralarından tıkırtı sesleri de gelebiliyor.',
+      guvenilirlik: 'Soğutma sistemi hortumlarında ve genleşme tankında (yedek su deposu) erken yaşta çatlama ve su eksiltme eğilimi görülebiliyor; su seviyesini düzenli kontrol edin.',
     },
     summary: 'Türkiye’ye özel 1.6 motor aslında 2.0 litrelik kardeşiyle aynı bloktan geliyor; yazılım (chip tuning) ile yaklaşık 300 beygire kadar güç alınabildiği biliniyor. Standart hâlinde bile sınıfının en keyifli sedanlarından; güç artışı düşünenler garanti kaybını ve motor ömrüne etkisini hesaba katmalı.',
   },
@@ -1939,7 +2027,11 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbodizel, 130 bg, 8 ileri otomatik', hizlanma: '9,7 sn', tuketim: '4,4 L/100 km', bagaj: '487 L' },
     ratings: { surus: 8.2, guvenlik: 8.4, konfor: 7.8, tuketim: 8.8, malzeme: 8.2, tasarim: 9.0, fiyat: 7.6, teknoloji: 7.8, guvenilirlik: 7.6, ikinciel: 7.0 },
     pros: ['Sınıfının en çarpıcı tasarımlarından', 'Çok düşük tüketim', 'Kaliteli kabin'],
-    cons: ['Arka başüstü ve kapı girişi dar', 'i-Cockpit herkese uymuyor'],
+    cons: ['Arka başüstü ve kapı girişi dar', 'i-Cockpit herkese uymuyor', 'Çerçevesiz camların yüksek hızda esnemesi kaynaklı rüzgar sesi', 'Kablosuz şarj alanının vites konsolunun altında kör noktada olması'],
+    reviewExtra: {
+      konfor: 'Çerçevesiz kapıların estetiğine karşın, 130 km/s üzerindeki hızlarda yan camlar rüzgar basıncıyla milimetrik olarak esneyebiliyor ve kabine sürekli bir rüzgar üflemesi sesi geliyor.',
+      tasarim: 'Kablosuz şarj alanı vites konsolunun altına gizlenmiş; sürüş sırasında telefonu oraya koymak ya da almak kör noktada kaldığı için dikkat dağıtıyor.',
+    },
     summary: 'Tasarımıyla D segmentini sallayan, ekonomik ve kaliteli bir fastback sedan.',
   },
   {
@@ -1949,7 +2041,10 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbodizel, 136 bg, 7 ileri DCT', hizlanma: '11,2 sn', tuketim: '5,4 L/100 km', bagaj: '513 L' },
     ratings: { surus: 7.2, guvenlik: 8.4, konfor: 7.8, tuketim: 8.2, malzeme: 7.2, tasarim: 7.4, fiyat: 7.4, teknoloji: 6.7, guvenilirlik: 8.2, ikinciel: 8.4 },
     pros: ['Ekonomik dizel ve DCT', 'Geniş kabin', 'Güvenilir mekanik'],
-    cons: ['Multimedya ve tasarım yaşını gösteriyor', 'Direksiyon hissi zayıf'],
+    cons: ['Multimedya ve tasarım yaşını gösteriyor', 'Direksiyon hissi zayıf', 'Yoğun trafikte DCT şanzıman ısınma problemi ve kalkışta titreme'],
+    reviewExtra: {
+      guvenilirlik: '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
+    },
     summary: 'Önceki nesil Tucson; ekonomik ve güvenilir, ikinci elde mantıklı bir aile SUV’u.',
   },
   {
@@ -2009,7 +2104,11 @@ const RAW_CARS = [
     specs: { motor: '204 bg, 82 kWh, ~570 km WLTP', hizlanma: '7,3 sn', tuketim: '17,5 kWh/100 km', bagaj: '419 L + 31 L ön' },
     ratings: { surus: 7.9, guvenlik: 9.7, konfor: 8.5, tuketim: 7.8, malzeme: 8.7, tasarim: 8.9, fiyat: 7.2, teknoloji: 8.7, guvenilirlik: 7.6, ikinciel: 6.6 },
     pros: ['Üst düzey güvenlik', 'Uzun menzil', 'Google tabanlı kullanışlı multimedya'],
-    cons: ['Sürüş dinamikleri sıradan', 'Bagaj ortalama'],
+    cons: ['Sürüş dinamikleri sıradan', 'Bagaj ortalama', 'Kronik multimedya internet bağlantısı (LTE) kopma sorunu', 'Otoyol süratlerinde yüksek enerji tüketimi ve hızlı menzil kaybı'],
+    reviewExtra: {
+      teknoloji: 'Google tabanlı Android Automotive sistemin internet (LTE/4G) bağlantısı aniden kopabiliyor; bu durumda navigasyon ve Spotify gibi uygulamalar tamamen çevrimdışı kalıyor.',
+      tuketim: 'Köşeli tasarımın getirdiği rüzgar direnci nedeniyle 120 km/s üzerindeki hızlarda enerji tüketimi rakiplerine göre çok daha hızlı artıyor ve menzil hızla düşüyor.',
+    },
     summary: 'XC40’ın elektrikli hâli; güvenli, şık ve uzun menzilli bir premium kompakt SUV.',
   },
   {
@@ -2281,7 +2380,11 @@ const RAW_CARS = [
     specs: { motor: '1.0L turbo hafif hibrit, 110 bg, 7 ileri DSG', hizlanma: '10,2 sn', tuketim: '5,1 L/100 km', bagaj: '381 L' },
     ratings: { surus: 8.2, guvenlik: 8.8, konfor: 8.2, tuketim: 8.4, malzeme: 7.6, tasarim: 7.8, fiyat: 7.4, teknoloji: 7.8, guvenilirlik: 7.6, ikinciel: 9.0 },
     pros: ['Olgun ve sessiz sürüş', 'Düşük tüketim', 'İkinci elde çok aranıyor'],
-    cons: ['İlk yıllarda yazılım sorunları', 'Dokunmatik kontroller'],
+    cons: ['İlk yıllarda yazılım sorunları', 'Dokunmatik kontroller', 'Kronik multimedya yazılım çökmeleri ve Seyahat Asistanı hataları', 'Işıklandırmasız klima/ses dokunmatik kontrolleri'],
+    reviewExtra: {
+      teknoloji: 'Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.',
+      tasarim: 'Gece sürüşlerinde klima ve ses kontrolünü sağlayan dokunmatik panellerin (slider) aydınlatması olmadığı için kullanmak zorlaşıyor.',
+    },
     summary: 'Sekizinci nesil Golf; sürüş olgunluğu ve değer korumasıyla ikinci elde en güvenli kompakt tercihlerden.',
   },
   {
@@ -2292,7 +2395,11 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbo benzin, 245 bg, 7 ileri DSG', hizlanma: '6,3 sn', tuketim: '7,1 L/100 km', bagaj: '374 L' },
     ratings: { surus: 9.2, guvenlik: 8.8, konfor: 7.8, tuketim: 7.0, malzeme: 7.8, tasarim: 8.4, fiyat: 7.4, teknoloji: 8.2, guvenilirlik: 7.6, ikinciel: 8.6 },
     pros: ['Günlük kullanılabilen gerçek hot hatch', 'Güçlü ve karakterli motor', 'Olgun şasi'],
-    cons: ['Yüksek vergi nedeniyle pahalı', 'Dokunmatik kontroller'],
+    cons: ['Yüksek vergi nedeniyle pahalı', 'Dokunmatik kontroller', 'Kronik multimedya yazılım çökmeleri ve Seyahat Asistanı hataları', 'Işıklandırmasız klima/ses dokunmatik kontrolleri'],
+    reviewExtra: {
+      teknoloji: 'Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.',
+      tasarim: 'Gece sürüşlerinde klima ve ses kontrolünü sağlayan dokunmatik panellerin (slider) aydınlatması olmadığı için kullanmak zorlaşıyor.',
+    },
     summary: 'Hot hatch kavramının referansı; her gün kullanılabilen, istendiğinde çok hızlı bir kompakt.',
   },
   {
@@ -2342,7 +2449,11 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbodizel, 120 bg, 8 ileri otomatik', hizlanma: '10,6 sn', tuketim: '4,6 L/100 km', bagaj: '375 L' },
     ratings: { surus: 8.4, guvenlik: 8.2, konfor: 7.6, tuketim: 8.6, malzeme: 7.0, tasarim: 7.4, fiyat: 7.6, teknoloji: 7.6, guvenilirlik: 7.4, ikinciel: 7.6 },
     pros: ['Sınıfının en iyi şasilerinden', 'Ekonomik dizel', 'Klasik otomatik şanzıman'],
-    cons: ['Kabin kalitesi sıradan', 'Multimedya yavaş'],
+    cons: ['Kabin kalitesi sıradan', 'Multimedya yavaş', 'Çevirmeli vites düğmesi geçişlerinde vuruntu eğilimi', 'Dikiz aynası muhafazasından gelen trim cızırtıları'],
+    reviewExtra: {
+      guvenilirlik: '8 ileri tam otomatik versiyonlarda çevirmeli vites düğmesi elektronik olarak bazen kararsız kalabiliyor; özellikle D’den R’ye geçerken arkadan sert bir “tak” sesiyle vuruntu hissedilebiliyor.',
+      malzeme: 'Ön camın tavan döşemesiyle birleştiği yerdeki dikiz aynası plastik muhafazası bozuk yollarda sürekli ince bir cızırtı sesi üretebiliyor.',
+    },
     summary: 'Sürüş keyfini dizel ekonomisiyle birleştiren, keyifli bir kompakt.',
   },
   {
@@ -2375,7 +2486,11 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo benzin, 182 bg, CVT', hizlanma: '8,2 sn', tuketim: '6,7 L/100 km', bagaj: '495 L' },
     ratings: { surus: 8.8, guvenlik: 8.6, konfor: 8.2, tuketim: 7.4, malzeme: 8.0, tasarim: 8.2, fiyat: 7.4, teknoloji: 7.6, guvenilirlik: 9.2, ikinciel: 9.2 },
     pros: ['Sınıfının en iyi sürüşü', 'Güçlü motor', 'Yüksek güvenilirlik ve değer koruma'],
-    cons: ['Tüketim hibritlerin gerisinde', 'Multimedya sade'],
+    cons: ['Tüketim hibritlerin gerisinde', 'Multimedya sade', 'Kronik direksiyon takılma ve sertleşme problemi', 'Yüksek hızlarda zayıf rüzgar yalıtımı'],
+    reviewExtra: {
+      guvenilirlik: 'Bilinen bir sorun direksiyon kutusunda: zamanla aşırı sertleşme ve takılma hissi (EPS direksiyon dişlisi) görülebiliyor; düz yolda giderken sürekli küçük düzeltmeler yapma ihtiyacı doğabiliyor.',
+      konfor: '110 km/s ve üzerindeki hızlarda A sütunu ve aynalardan kabine belirgin bir rüzgar sesi geliyor.',
+    },
     summary: 'Sürüş keyfi, güvenilirlik ve ikinci el değerini aynı pakette sunan çok dengeli bir sedan.',
   },
   {
@@ -2386,7 +2501,11 @@ const RAW_CARS = [
     specs: { motor: '1.0L turbo hafif hibrit, 110 bg, 7 ileri DSG', hizlanma: '10,4 sn', tuketim: '5,0 L/100 km', bagaj: '600 L' },
     ratings: { surus: 7.8, guvenlik: 8.8, konfor: 8.4, tuketim: 8.4, malzeme: 7.8, tasarim: 7.8, fiyat: 8.0, teknoloji: 8.0, guvenilirlik: 7.8, ikinciel: 8.6 },
     pros: ['600 litrelik bagaj', 'Geniş arka koltuk', 'Düşük tüketim'],
-    cons: ['Üç silindirli motor dolu araçta zorlanıyor', 'Dokunmatik ağırlıklı kontroller'],
+    cons: ['Üç silindirli motor dolu araçta zorlanıyor', 'Dokunmatik ağırlıklı kontroller', 'Sürekli tekrarlayan Seyahat Asistanı bip sesi ve yazılım hatası', 'Torsiyonlu versiyonlarda arka süspansiyon sertliği ve kapı fitili sesleri'],
+    reviewExtra: {
+      teknoloji: 'Dijital kokpitte “Seyahat Asistanı devre dışı” uyarısı, direksiyondaki kapasitif sensörlerin hassasiyet kaybı nedeniyle sürekli bip sesiyle ekrana gelebiliyor. Ayakla bagaj açma (sanal pedal) sistemi de kararsız çalışabiliyor.',
+      konfor: 'Arka süspansiyonda torsiyon çubuğu kullanan versiyonlarda (özellikle 1.0 eTSI) arka kısım bozuk yollarda fazla zıplayabiliyor; arka kapı fitillerinden gıcırtı sesleri gelebiliyor.',
+    },
     summary: 'Kompakt fiyatına orta sınıf alan sunan, ailelerin ikinci elde de gözdesi olan bir sedan.',
   },
   {
@@ -2447,7 +2566,11 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbo hafif hibrit, 150 bg, S tronic', hizlanma: '8,9 sn', tuketim: '5,9 L/100 km', bagaj: '460 L' },
     ratings: { surus: 8.2, guvenlik: 9.0, konfor: 8.8, tuketim: 8.0, malzeme: 8.8, tasarim: 8.2, fiyat: 7.4, teknoloji: 8.8, guvenilirlik: 7.8, ikinciel: 8.4 },
     pros: ['Sessiz ve kaliteli kabin', 'Makyajla yenilenen dokunmatik ekran', 'Güçlü değer koruma'],
-    cons: ['Arka orta koltuk dar', 'Sürüş heyecanı sınırlı'],
+    cons: ['Arka orta koltuk dar', 'Sürüş heyecanı sınırlı', 'S tronic şanzımanda erken yaşta volan sesi ve yıpranma eğilimi'],
+    reviewExtra: {
+      guvenilirlik: '7 ileri S tronic şanzımanın çift kütleli volanı 60.000–80.000 km civarında ses yapmaya başlayabiliyor; özellikle rölantide ve ilk kalkışta şıkırtı/tıkırtı duyulabiliyor.',
+      malzeme: 'Çerçevesiz dikiz aynasının arkasındaki plastik kapaklardan ve ön kapı içlerindeki LED ambiyans şeritlerinin yuvalarından ince tıkırtılar gelebiliyor.',
+    },
     summary: 'Sessizliği ve işçiliğiyle uzun yolların rahat premium sedanı.',
   },
   {
@@ -2588,7 +2711,10 @@ const RAW_CARS = [
     specs: { motor: '2.5L tam hibrit, 218 bg, e-CVT', hizlanma: '8,4 sn', tuketim: '5,5 L/100 km', bagaj: '580 L' },
     ratings: { surus: 7.7, guvenlik: 9.0, konfor: 8.0, tuketim: 8.8, malzeme: 7.4, tasarim: 7.7, fiyat: 7.5, teknoloji: 7.7, guvenilirlik: 9.6, ikinciel: 8.6 },
     pros: ['Güçlü ve verimli hibrit', 'Geniş kabin', 'Uzun ömürlü mekanik'],
-    cons: ['Kabin malzemeleri fiyatının gerisinde', 'Hızlanmada motor sesi'],
+    cons: ['Kabin malzemeleri fiyatının gerisinde', 'Hızlanmada motor sesi', 'Arka çamurluk yalıtımının zayıflığı nedeniyle yüksek yol ve su sesi'],
+    reviewExtra: {
+      konfor: 'Otoyol süratlerinde arka çamurlukların iç yalıtımı zayıf kaldığı için, yağmurlu havada arkadaki yolcular tekerleklerden sıçrayan suyu kabinin içindeymiş gibi yüksek sesle duyabiliyor.',
+    },
     summary: 'Büyük gövdede küçük araç tüketimi; uzun yıllar sorunsuz kullanılacak bir aile SUV’u.',
   },
   {
@@ -2599,7 +2725,10 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbodizel hafif hibrit, 136 bg, 7 ileri DCT', hizlanma: '11,4 sn', tuketim: '5,6 L/100 km', bagaj: '620 L' },
     ratings: { surus: 7.4, guvenlik: 8.6, konfor: 8.2, tuketim: 8.0, malzeme: 7.8, tasarim: 8.6, fiyat: 7.6, teknoloji: 8.4, guvenilirlik: 8.2, ikinciel: 8.4 },
     pros: ['Cesur tasarım', 'Geniş bagaj', 'Zengin donanım'],
-    cons: ['Direksiyon hissi zayıf', 'Dolu araçta motor sınırda'],
+    cons: ['Direksiyon hissi zayıf', 'Dolu araçta motor sınırda', 'Yoğun trafikte DCT şanzıman ısınma problemi ve kalkışta titreme'],
+    reviewExtra: {
+      guvenilirlik: '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
+    },
     summary: 'Yeni nesil Tucson’un dizel versiyonu; donanım, alan ve tasarımda sınıfının önünde.',
   },
   {
@@ -2621,7 +2750,10 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbo hafif hibrit, 158 bg, Xtronic', hizlanma: '9,9 sn', tuketim: '6,2 L/100 km', bagaj: '504 L' },
     ratings: { surus: 7.6, guvenlik: 8.6, konfor: 8.2, tuketim: 7.6, malzeme: 7.8, tasarim: 8.0, fiyat: 7.4, teknoloji: 8.2, guvenilirlik: 7.6, ikinciel: 7.6 },
     pros: ['Rahat süspansiyon', 'Kaliteli kabin', 'Panoramik cam tavan'],
-    cons: ['Xtronic şanzıman hızlanmada gürültülü', 'Otoyolda tüketim artıyor'],
+    cons: ['Xtronic şanzıman hızlanmada gürültülü', 'Otoyolda tüketim artıyor', 'Ön kamera sensörlerinin sıcaklık ve buğudan çabuk etkilenip kapanması'],
+    reviewExtra: {
+      teknoloji: 'Akıllı dikiz aynası ve şerit takip kamerası, ön camda aşırı buğulanma veya aşırı sıcaklık durumlarında kendini kapatarak güvenlik sistemlerini devre dışı bırakabiliyor.',
+    },
     summary: 'Üçüncü nesil Qashqai; konforu ve kalitesiyle ailelerin rahat SUV’u.',
   },
   {
@@ -2654,7 +2786,11 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbodizel, 130 bg, 8 ileri otomatik', hizlanma: '10,4 sn', tuketim: '4,8 L/100 km', bagaj: '580 L' },
     ratings: { surus: 7.0, guvenlik: 8.0, konfor: 9.0, tuketim: 8.4, malzeme: 7.4, tasarim: 7.8, fiyat: 7.8, teknoloji: 7.6, guvenilirlik: 7.6, ikinciel: 7.0 },
     pros: ['Sınıfının en konforlu süspansiyonu', 'Üç ayrı kayar arka koltuk', 'Dev bagaj'],
-    cons: ['Sürüş dinamikleri sıradan', 'İkinci el talebi rakiplerden düşük'],
+    cons: ['Sürüş dinamikleri sıradan', 'İkinci el talebi rakiplerden düşük', 'Virajlarda fazla gövde salınımı ve amortisörlerin erken yağ sızdırması', 'Hız sabitleme kolunun direksiyon arkasında görünmez olması'],
+    reviewExtra: {
+      konfor: 'Kademeli Hidrolik Destekli süspansiyon “uçan halı” hissi sunsa da virajlarda ve ani şerit değişimlerinde gövdeyi çok fazla yatırabiliyor; amortisörler ömrünü erken tamamlayıp yağ sızdırabiliyor.',
+      tasarim: 'Hız sabitleyici kolu direksiyonun sol arkasında, sürücünün görüş açısının tamamen dışında; ayar yapmak için körlemesine ezbere basmak gerekiyor.',
+    },
     summary: 'Konforu her şeyin önüne koyan aileler için rahat ve pratik bir SUV.',
   },
   {
@@ -2726,7 +2862,11 @@ const RAW_CARS = [
     specs: { motor: '2.9L V6 biturbo, 380 bg, PDK, dört çeker', hizlanma: '4,8 sn', tuketim: '10,6 L/100 km', bagaj: '488 L' },
     ratings: { surus: 9.6, guvenlik: 9.2, konfor: 8.6, tuketim: 6.4, malzeme: 9.2, tasarim: 9.0, fiyat: 7.4, teknoloji: 8.8, guvenilirlik: 8.4, ikinciel: 8.8 },
     pros: ['SUV’da spor otomobil yol tutuşu', 'Güçlü V6', 'Porsche kalitesi ve değer koruma'],
-    cons: ['Yüksek tüketim', 'Arka koltuk ve bagaj sınırlı'],
+    cons: ['Yüksek tüketim', 'Arka koltuk ve bagaj sınırlı', 'Silecek altına gizlenen bagaj düğmesi yüzünden elin çamurlanması', 'Küçük bir sensör arızası nedeniyle yüksek şanzıman masrafı riski'],
+    reviewExtra: {
+      tasarim: 'Bagaj kapağını açma düğmesi dışarıdan görünmüyor; arka silecek kolunun altındaki plastik gövdeye gizlenmiş. Yağmurlu havalarda sileceğin topladığı çamur bu yuvaya doluyor ve bagajı açmak isterken eliniz çamur olabiliyor.',
+      guvenilirlik: '7 ileri PDK şanzımanın mekatronik ünitesindeki hız sensörü zamanla bozulabiliyor. Sensörün kendisi ucuz olsa da servis prosedürleri nedeniyle şanzımanın komple değişmesi gerekebiliyor ve fatura çok yüksek tutarlara ulaşabiliyor.',
+    },
     summary: 'Benzinli Macan’ın son neslinden; SUV gövdesinde gerçek bir Porsche sürüşü.',
   },
   {
@@ -2748,7 +2888,11 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbo benzin, 320 bg, 4MOTION', hizlanma: '4,7 sn', tuketim: '8,2 L/100 km', bagaj: '341 L' },
     ratings: { surus: 9.2, guvenlik: 8.8, konfor: 7.8, tuketim: 6.6, malzeme: 8.2, tasarim: 8.4, fiyat: 7.6, teknoloji: 8.4, guvenilirlik: 7.6, ikinciel: 8.4 },
     pros: ['Drift moduna sahip akıllı dört çeker', 'Günlük kullanılabilir süper hatchback', 'Güçlü motor'],
-    cons: ['Yüksek vergi nedeniyle pahalı', 'Dokunmatik kontroller'],
+    cons: ['Yüksek vergi nedeniyle pahalı', 'Dokunmatik kontroller', 'Kronik multimedya yazılım çökmeleri ve Seyahat Asistanı hataları', 'Işıklandırmasız klima/ses dokunmatik kontrolleri'],
+    reviewExtra: {
+      teknoloji: 'Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.',
+      tasarim: 'Gece sürüşlerinde klima ve ses kontrolünü sağlayan dokunmatik panellerin (slider) aydınlatması olmadığı için kullanmak zorlaşıyor.',
+    },
     summary: 'Golf’ün en hızlısı; her havada kullanılabilen ve istendiğinde çok hızlı bir kompakt.',
   },
   {
@@ -2806,7 +2950,11 @@ const RAW_CARS = [
     specs: { motor: '2.0L turbo benzin, 310 bg, 4Drive', hizlanma: '4,9 sn', tuketim: '8,6 L/100 km', bagaj: '420 L' },
     ratings: { surus: 9.2, guvenlik: 8.6, konfor: 7.6, tuketim: 6.6, malzeme: 7.8, tasarim: 9.0, fiyat: 7.8, teknoloji: 8.2, guvenilirlik: 7.4, ikinciel: 7.2 },
     pros: ['Güçlü motor ve dört çeker', 'Çarpıcı tasarım', 'Günlük pratiklik'],
-    cons: ['Sert süspansiyon', 'Yüksek tüketim'],
+    cons: ['Sert süspansiyon', 'Yüksek tüketim', 'Arka yolcular için sert ve sarsıntılı süspansiyon', 'Kronik ekran donmaları ve bilgi-eğlence sistemi çökmeleri'],
+    reviewExtra: {
+      konfor: 'Agresif ve sportif tasarımını destekleyen keskin direksiyon tepkileri var; ancak MINI Cooper kadar olmasa da arka süspansiyon geometrisi sert, arka yolcular bunu hissediyor.',
+      teknoloji: 'Golf 8’e benzer şekilde multimedya ekranı tamamen kapanabiliyor ya da donabiliyor; dijital göstergede anlık veri kayıpları yaşanabiliyor.',
+    },
     summary: 'SUV gövdesinde hot hatch performansı; tasarımı ve hızıyla etkileyici.',
   },
   {
@@ -2839,7 +2987,11 @@ const RAW_CARS = [
     specs: { motor: 'Tek motor, ~60 kWh LFP batarya, ~455 km WLTP', hizlanma: '6,9 sn', tuketim: '15,7 kWh/100 km', bagaj: '854 L (ön+arka)' },
     ratings: { surus: 7.8, guvenlik: 9.2, konfor: 7.6, tuketim: 9.0, malzeme: 7.4, tasarim: 8.0, fiyat: 8.4, teknoloji: 9.2, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Çok verimli', 'Supercharger ağı', 'Dev bagaj'],
-    cons: ['Sert süspansiyon', 'Tüm kontroller ekranda'],
+    cons: ['Sert süspansiyon', 'Tüm kontroller ekranda', 'Cam tavanda perde olmaması kaynaklı yazın kabin içi aşırı ısınma', 'Yüksek süratlerde aşırı hassas direksiyon tepkileri ve mikro trim sesleri'],
+    reviewExtra: {
+      konfor: 'Cam tavanın standart olarak mekanik bir perdesi olmadığı için özellikle yaz aylarında kabin aşırı ısınabiliyor ve klimanın verimi düşüyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler zamanla gevşeyip tıkırdayabiliyor.',
+      surus: 'Direksiyon oranı çok hızlı (sportif) olduğu için otoyol hızlarında en ufak hareketle araç şerit içinde keskin tepki veriyor; alışkın olmayan sürücüler için yorucu olabiliyor.',
+    },
     summary: 'Türkiye’de satılan ilk Model Y’ler; verimlilik ve pratiklikte hâlâ çok güçlü.',
   },
   {
@@ -2850,7 +3002,11 @@ const RAW_CARS = [
     specs: { motor: 'Çift motor, ~514 km WLTP', hizlanma: '3,7 sn', tuketim: '17,5 kWh/100 km', bagaj: '854 L (ön+arka)' },
     ratings: { surus: 9.0, guvenlik: 9.2, konfor: 7.2, tuketim: 8.4, malzeme: 7.6, tasarim: 8.2, fiyat: 7.8, teknoloji: 9.4, guvenilirlik: 7.6, ikinciel: 7.6 },
     pros: ['Süper otomobil hızlanması', 'Dört çeker', 'Pratik ve geniş kabin'],
-    cons: ['Çok sert süspansiyon', 'Standart versiyona göre kısa menzil'],
+    cons: ['Çok sert süspansiyon', 'Standart versiyona göre kısa menzil', 'Cam tavanda perde olmaması kaynaklı yazın kabin içi aşırı ısınma', 'Yüksek süratlerde aşırı hassas direksiyon tepkileri ve mikro trim sesleri'],
+    reviewExtra: {
+      konfor: 'Cam tavanın standart olarak mekanik bir perdesi olmadığı için özellikle yaz aylarında kabin aşırı ısınabiliyor ve klimanın verimi düşüyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler zamanla gevşeyip tıkırdayabiliyor.',
+      surus: 'Direksiyon oranı çok hızlı (sportif) olduğu için otoyol hızlarında en ufak hareketle araç şerit içinde keskin tepki veriyor; alışkın olmayan sürücüler için yorucu olabiliyor.',
+    },
     summary: 'Model Y’nin pratikliğini çok ciddi bir performansla birleştiren versiyon.',
   },
   {
@@ -2861,7 +3017,11 @@ const RAW_CARS = [
     specs: { motor: 'Çift motor, ~629 km WLTP', hizlanma: '4,4 sn', tuketim: '13,9 kWh/100 km', bagaj: '682 L (ön+arka)' },
     ratings: { surus: 8.8, guvenlik: 9.2, konfor: 8.4, tuketim: 9.6, malzeme: 8.0, tasarim: 8.4, fiyat: 8.2, teknoloji: 9.4, guvenilirlik: 7.8, ikinciel: 7.8 },
     pros: ['Piyasanın en verimli elektriklilerinden', 'Makyajla çok sessizleşen kabin', 'Uzun menzil'],
-    cons: ['Sinyal kolu olmayan direksiyon alışkanlık istiyor', 'Tüm kontroller ekranda'],
+    cons: ['Sinyal kolu olmayan direksiyon alışkanlık istiyor', 'Tüm kontroller ekranda', 'Fiziksel sinyal kolu olmaması nedeniyle kavşak içinde sinyal vermenin zorluğu', 'Bagaj açıldığında camdaki suyun doğrudan bagajın içine akması'],
+    reviewExtra: {
+      tasarim: 'Direksiyon arkasındaki fiziksel silecek ve sinyal kolları tamamen kaldırıldı; sinyaller direksiyonun solundaki dokunmatik butonlara taşındı. Özellikle döner kavşaklarda, direksiyon dönmüşken sinyal butonunu bulup kavşaktan çıkış sinyali vermek çok zorlaşıyor.',
+      konfor: 'Bagaj kapağı ıslakken açıldığında arka camdaki su, oluklardan tahliye olmak yerine doğrudan bagajın içine ve eşyaların üzerine akabiliyor.',
+    },
     summary: 'Makyajlı (Highland) Model 3; verimlilik, menzil ve konforda elektrikli sedanların referansı.',
   },
   {
@@ -2979,10 +3139,13 @@ const RAW_CARS = [
     specs: { motor: '1.2L turbo benzin, 130 bg, 8 ileri otomatik', hizlanma: '8,7 sn', tuketim: '5,6 L/100 km', bagaj: '309 L' },
     ratings: { surus: 8.6, guvenlik: 7.6, konfor: 7.6, tuketim: 8.2, malzeme: 7.2, tasarim: 8.0, fiyat: 8.0, teknoloji: 7.8, guvenilirlik: 6.8, ikinciel: 7.8 },
     pros: ['Segmentine göre olağanüstü performans', 'Çok başarılı motor', '8 ileri otomatik şanzıman'],
-    cons: ['Kronik triger kayışı sorunu', 'Arka koltuk ve bagaj ortalama'],
+    cons: ['Kronik triger kayışı sorunu', 'Arka koltuk ve bagaj ortalama', 'Dar sürücü ayak boşluğu (botla sürmek zor)'],
     review: {
       surus: 'Bu motoru çok beğendik. 1.2 turbo motor gerçekten çok başarılı ve performansı segmentine göre çok çok çok iyi; bir şehir otomobilinden beklemeyeceğiniz kadar canlı. 8 ileri otomatik şanzımanla uyumu da çok iyi.',
       guvenilirlik: 'Tek sorunu kronik olarak bilinen triger kayışı problemi. Bunun da çözümü belli: yaklaşık 50 bin kilometrede bir, tercihen daha da kısa aralıklarla kayış değişimi yaptırmak. Bu bakımı aksatmazsanız keyifle kullanabileceğiniz bir otomobil.',
+    },
+    reviewExtra: {
+      tasarim: 'Sürücü tarafında ayak boşluğu çok dar; özellikle manuel versiyonda pedal kullanımı zorlaşıyor ve bot gibi kalın tabanlı ayakkabılarla sürmek neredeyse imkânsız hâle geliyor.',
     },
     summary: 'Segmentinin en performanslı şehir otomobillerinden; motorunu çok beğendik, yalnızca kayış değişimlerini aksatmamak gerekiyor.',
   },
@@ -3086,8 +3249,12 @@ const RAW_CARS = [
     wiki: 'Alfa Romeo Tonale',
     specs: { motor: '1.5L turbo hafif hibrit, 160 bg, 7 ileri DCT', hizlanma: '8,8 sn', tuketim: '6,0 L/100 km', bagaj: '500 L' },
     ratings: { surus: 8.2, guvenlik: 9.0, konfor: 8.0, tuketim: 8.0, malzeme: 8.0, tasarim: 9.0, fiyat: 7.2, teknoloji: 8.4, guvenilirlik: 7.0, ikinciel: 6.2 },
-    pros: ['Karakterli tasarım', 'Keskin direksiyon', 'Kaliteli dijital gösterge'],
+    pros: ['Karakterli tasarım', 'Keskin direksiyon', 'Kaliteli dijital gösterge', 'Sabit alüminyum vites kulakçıkları ve kusursuz İtalyan tasarımı', 'Sınıf lideri keskin direksiyonla üstün viraj kabiliyeti'],
     cons: ['Hızlı değer kaybı', 'Motor performansı orta seviyede'],
+    reviewExtra: {
+      tasarim: '“Trilobo” ön ızgarası ve 3+3 LED Matrix farlarıyla segmentinin en dikkat çekici duruşlarından birine sahip. Direksiyon arkasındaki büyük, sabit alüminyum vites kulakçıkları süper spor otomobil hissi veriyor ve mekanik hissiyatı harika.',
+      surus: 'Sınıfının en direkt ve hızlı tepki veren direksiyonlarından biri (13,6:1 dişli oranı) sayesinde virajlı yollarda bir kompakt hatchback gibi kıvrak dönüyor.',
+    },
     summary: 'Tasarımı ve direksiyonuyla Alfa ruhunu taşıyan bir premium C-SUV; ikinci el değeri ise zayıf halkası.',
   },
   // =========================================================================
@@ -3195,14 +3362,168 @@ const RAW_CARS = [
     wiki: 'Audi Q8',
     specs: { motor: '2.0L turbo benzin, 265 bg, quattro, 8 ileri otomatik', hizlanma: '6,7 sn', tuketim: '9,5 L/100 km', bagaj: '605 L' },
     ratings: { surus: 8.6, guvenlik: 9.2, konfor: 9.0, tuketim: 7.0, malzeme: 9.2, tasarim: 9.2, fiyat: 8.0, teknoloji: 9.0, guvenilirlik: 7.8, ikinciel: 7.6 },
-    pros: ['Kilosuna göre çok etkileyici 0–100', 'Rakiplerinden daha uygun fiyat', 'Yüksek hızlarda istikrarlı şasi'],
+    pros: ['Kilosuna göre çok etkileyici 0–100', 'Rakiplerinden daha uygun fiyat', 'Yüksek hızlarda istikrarlı şasi', 'Coupé-SUV şıklığını geleneksel SUV genişliğiyle birleştirmesi', 'Çerçevesiz kapılara rağmen premium yalıtım'],
     cons: ['2 tona yakın ağırlık ara hızlanmayı ve frenlemeyi zorlaştırıyor', 'Yüksek tüketim'],
     review: {
       surus: '0–100 km/s verisi bu kiloya göre çok etkileyici. 2 ton civarındaki ağırlığı ara hızlanmaları ve ani frenlemeleri biraz zorlaştırsa da performansı yine de kötü değil. Yüksek süratlerde şasi son derece istikrarlı.',
       malzeme: 'İçi sade ve şık; premium hissini fazlasıyla taşıyabiliyor.',
       fiyat: 'Rakiplerinden daha uygun fiyata bulunabilmesi onu öne çıkaran en önemli özelliklerden biri.',
     },
+    reviewExtra: {
+      konfor: 'Çerçevesiz kapılı coupé-SUV formuna rağmen arka koltuklarda baş ve diz mesafesi bir Q7 kadar geniş; kayar arka koltuklar bagajla yaşam alanı arasında harika bir esneklik sağlıyor. Çerçevesiz kapılara rağmen yalıtım kalitesi de premium seviyede.',
+    },
     summary: 'Premium hissini taşıyan, rakiplerinden daha uygun fiyata bulunabilen ve yüksek hızlarda kayaya oturmuş gibi giden bir SUV coupé.',
+  },
+  // =========================================================================
+  // EK ARAÇLAR 11
+  // =========================================================================
+  {
+    make: 'Volvo', model: 'S60', year: 2022, version: 'B4 Plus',
+    category: 'premium-sedan', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 197,
+    wiki: 'Volvo S60',
+    specs: { motor: '2.0L turbo hafif hibrit, 197 bg, 8 ileri Geartronic', hizlanma: '7,6 sn', tuketim: '6,8 L/100 km', bagaj: '442 L' },
+    ratings: { surus: 7.6, guvenlik: 9.6, konfor: 8.4, tuketim: 7.6, malzeme: 8.8, tasarim: 9.0, fiyat: 7.4, teknoloji: 8.4, guvenilirlik: 7.6, ikinciel: 6.6 },
+    pros: ['Üst düzey güvenlik', 'Zarif İskandinav tasarımı', 'Rahat koltuklar'],
+    cons: ['Ani hızlanmalarda kararsız kalan şanzıman', 'Yüksek hızlarda kapı fitillerinden ıslık benzeri rüzgar sesi'],
+    reviewExtra: {
+      surus: '8 ileri Geartronic şanzıman ani hızlanma isteklerinde (kick-down) rakiplerine, örneğin BMW’nin ZF8’ine kıyasla belirgin şekilde hantal kalıyor ve vites düşürürken silkeleme yapabiliyor.',
+      konfor: 'Kapı fitilleri ve tavan birleşim yerleri 120 km/s üzerindeki otoyol hızlarında kabine belirgin bir ıslık/rüzgar sesi sızdırabiliyor.',
+    },
+    summary: 'Güvenliği ve zarif tasarımıyla Alman rakiplerine sakin bir alternatif; şanzımanı ve yüksek hızdaki rüzgar sesi zayıf halkası.',
+  },
+  {
+    make: 'DS', model: '9', year: 2022, version: 'E-Tense 225 Rivoli',
+    category: 'premium-sedan', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Şarj edilebilir hibrit', gearbox: 'Otomatik', hp: 225,
+    wiki: 'DS 9',
+    specs: { motor: '1.6L turbo şarj edilebilir hibrit, 225 bg, ~50 km elektrikli menzil', hizlanma: '8,1 sn', tuketim: '1,4 L/100 km (WLTP, şarjlı)', bagaj: '510 L' },
+    ratings: { surus: 7.6, guvenlik: 9.0, konfor: 8.8, tuketim: 8.6, malzeme: 9.0, tasarim: 9.0, fiyat: 7.0, teknoloji: 8.6, guvenilirlik: 6.8, ikinciel: 5.4 },
+    pros: ['Lüks ve özgün kabin', 'Kamera destekli aktif süspansiyon', 'Şarj edilebilir hibritle düşük tüketim'],
+    cons: ['Ardışık küçük yol pürüzlerinde mikro titreşimler', 'Konsol deri/plastik birleşimlerinden ısıl genleşme çıtırtıları'],
+    reviewExtra: {
+      konfor: 'Kamera destekli DS Active Scan Suspension büyük çukurları harika sönümlerken, şehir içindeki küçük ama ardışık yama ve parke taşlı yollarda beklenmedik mikro titreşimleri kabine iletebiliyor.',
+      malzeme: 'Fildişi veya napa deri kaplı konsol, ön cam havalandırması çalıştığında ani sıcaklık değişimi nedeniyle gerilip çıtırtı sesi çıkarabiliyor.',
+    },
+    summary: 'Fransız lüksünü özgün bir tasarımla sunan bir premium sedan; ikinci el değeri ve bazı konfor detayları zayıf halkası.',
+  },
+  {
+    make: 'Land Rover', model: 'Range Rover Velar', year: 2021, version: 'P250 R-Dynamic SE',
+    category: 'premium-suv', bodyType: 'suv', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 250,
+    wiki: 'Range Rover Velar',
+    specs: { motor: '2.0L turbo benzin, 250 bg, AWD', hizlanma: '7,1 sn', tuketim: '9,4 L/100 km', bagaj: '673 L' },
+    ratings: { surus: 8.0, guvenlik: 9.0, konfor: 9.0, tuketim: 6.8, malzeme: 9.2, tasarim: 9.8, fiyat: 6.6, teknoloji: 8.4, guvenilirlik: 6.2, ikinciel: 6.6 },
+    pros: ['Sınıfının en zarif tasarımlarından', 'Konforlu ve sessiz sürüş', 'Geniş bagaj'],
+    cons: ['Donma/sıkışma yapan gömme kapı kolları', 'Çift ekranlı multimedyada senkronizasyon kaybı ve kilitlenmeler'],
+    reviewExtra: {
+      guvenilirlik: 'Gövdeye gömülü kapı kolları kış aylarında donabiliyor ya da kirlenince dışarı çıkmayabiliyor; bazen kapı kolunun üzerine ılık su dökmek gerekebiliyor.',
+      teknoloji: 'Konsoldaki alt alta iki dokunmatik ekran (Touch Pro Duo) yoğun yük ve sıcaklık nedeniyle senkronizasyonunu kaybedebiliyor; üst ekran navigasyonu gösterirken alt ekran donabiliyor ve klimayı ya da koltuk ısıtmayı kapatamayabiliyorsunuz.',
+    },
+    summary: 'Tasarımıyla göz kamaştıran, konforlu bir premium SUV; elektronik ve mekanizmalardaki kronik sorunlara hazırlıklı olmak gerekiyor.',
+  },
+  {
+    make: 'Ford', model: 'Mustang', year: 2018, version: '2.3 EcoBoost Fastback',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 317,
+    wiki: 'Ford Mustang (sixth generation)',
+    specs: { motor: '2.3L turbo benzin, 317 bg, 10 ileri otomatik, arkadan itiş', hizlanma: '5,5 sn', tuketim: '9,0 L/100 km', bagaj: '408 L' },
+    ratings: { surus: 8.8, guvenlik: 7.8, konfor: 7.6, tuketim: 6.4, malzeme: 7.4, tasarim: 9.2, fiyat: 8.0, teknoloji: 7.6, guvenilirlik: 7.6, ikinciel: 8.0 },
+    pros: ['İkonik muscle car tasarımı', 'Arkadan itişli eğlenceli sürüş', 'Fiyatına göre güçlü performans'],
+    cons: ['Bagaj menteşesine sürtünen kablo yüzünden geri görüş kamerası arızası', 'Arka yolcuların başının arka cama değmesi'],
+    reviewExtra: {
+      guvenilirlik: 'Geri vitese takıldığında arka kamera açılmayabiliyor ya da ekranda çizgiler çıkabiliyor. Bunun sebebi çoğunlukla bagaj kapağından geçen ana kablo tesisatının, bagaj her açılıp kapandığında menteşe kenarına sürtünerek zamanla kopması.',
+      konfor: 'Geniş dış boyutlarına rağmen arka tavan eğimi o kadar basık ki, arkaya oturan yetişkinlerin başı doğrudan arka cama değebiliyor; yazın güneşte bu ayrı bir eziyete dönüşüyor.',
+    },
+    summary: 'Muscle car ruhunu günlük kullanılabilir bir pakette sunuyor; arka koltuk ve bazı elektrik sorunları zayıf halkası.',
+  },
+  {
+    make: 'Kia', model: 'Stinger', year: 2019, version: '2.0 T-GDI GT-Line',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 255,
+    wiki: 'Kia Stinger',
+    specs: { motor: '2.0L turbo benzin, 255 bg, 8 ileri otomatik, arkadan itiş', hizlanma: '6,0 sn', tuketim: '8,8 L/100 km', bagaj: '406 L' },
+    ratings: { surus: 8.8, guvenlik: 8.8, konfor: 8.4, tuketim: 7.0, malzeme: 8.2, tasarim: 9.2, fiyat: 8.4, teknoloji: 8.4, guvenilirlik: 8.0, ikinciel: 6.8 },
+    pros: ['Çarpıcı gran turismo tasarımı', 'Arkadan itişli keyifli sürüş', 'Fiyatına göre zengin donanım'],
+    cons: ['Liftback bagaj kapağından gelen gıcırtı ve lokurtular', 'Fren balatası yapısı nedeniyle direksiyonda titreme'],
+    reviewExtra: {
+      konfor: 'Liftback yapıdaki büyük bagaj kapağının kilit mekanizması bozuk yollarda mikro esnemeler yapabiliyor ve arkadan kabine sürekli bir gıcırtı/lokurtu sesi dolabiliyor. Kullanıcılar bunu çoğunlukla kilit mekanizmasına bez bant sararak çözüyor.',
+      guvenilirlik: 'Brembo kaliperlere rağmen fabrikasyon balatalar agresif kullanımda disk yüzeyinde düzensiz balata kalıntısı bırakabiliyor; bu da diskte yamulma hissi ve direksiyonda titreme yaratıyor.',
+    },
+    summary: 'Avrupalı rakiplerine meydan okuyan karizmatik bir GT; birkaç kronik ses ve fren sorunu dışında çok tatmin edici.',
+  },
+  {
+    make: 'Honda', model: 'Civic Type R', year: 2023, version: '2.0 VTEC Turbo',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Manuel', hp: 329,
+    wiki: 'Honda Civic Type R',
+    specs: { motor: '2.0L turbo benzin, 329 bg, 6 ileri manuel, önden çekiş', hizlanma: '5,4 sn', tuketim: '9,7 L/100 km', bagaj: '410 L' },
+    ratings: { surus: 10.0, guvenlik: 8.8, konfor: 7.4, tuketim: 6.8, malzeme: 8.2, tasarim: 8.4, fiyat: 8.4, teknoloji: 8.4, guvenilirlik: 9.0, ikinciel: 9.2 },
+    pros: ['Dünyanın en iyi manuel şanzıman hislerinden', 'Önden çekişe rağmen sıfır tork sapması', 'Honda güvenilirliği ve değer koruma'],
+    cons: ['Sert süspansiyon', 'Yüksek ÖTV nedeniyle pahalı'],
+    reviewExtra: {
+      surus: 'Dünyanın en iyi manuel şanzıman yollarından birine sahip: vites topuzunun milimetrik ve kemikli geçişleri saf bir mekanik sanat eseri hissi uyandırıyor. Devir eşitleme (Rev-Match) sistemi vites düşürürken motor sesini kusursuz ayarlıyor. Ön akstaki çift eksenli süspansiyon ve mekanik kilitli diferansiyel sayesinde 329 beygiri ön tekerleklere iletirken direksiyon sağa sola çekmiyor; pist sürelerinde süper sporları geride bırakabiliyor.',
+    },
+    summary: 'Önden çekişli otomobillerin zirvesi: pistte süper sporları zorlayan, ama günlük kullanılabilen bir mühendislik harikası.',
+  },
+  {
+    make: 'Mazda', model: '3 Hatchback', year: 2021, version: '2.0 e-Skyactiv G 150 Takumi',
+    category: 'kompakt-hatchback', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
+    wiki: 'Mazda3',
+    specs: { motor: '2.0L atmosferik hafif hibrit, 150 bg, 6 ileri otomatik', hizlanma: '9,6 sn', tuketim: '5,9 L/100 km', bagaj: '358 L' },
+    ratings: { surus: 8.4, guvenlik: 9.0, konfor: 8.4, tuketim: 7.8, malzeme: 9.2, tasarim: 9.2, fiyat: 7.8, teknoloji: 7.8, guvenilirlik: 9.0, ikinciel: 7.2 },
+    pros: ['Premium Alman rakipleri kıskandıran iç mekân kalitesi', 'Sınıfının en sessiz kabinlerinden', 'Zarif Kodo tasarımı'],
+    cons: ['Arka koltuk ve görüş sınırlı', 'Bagaj ortalama'],
+    reviewExtra: {
+      malzeme: 'Kabindeki malzeme kalitesi, deri işçiliği ve sade lüks felsefesi; Audi ve BMW gibi premium Alman rakipleri kıskandıracak kadar pürüzsüz ve minimalist bir premium algı sunuyor.',
+      konfor: 'Ses yalıtımı sınıfının en başarılılarından; lastik ve yol sesi kabine çok az ulaşıyor ve sınıfının en sessiz yuvarlanma konforlarından birini sunuyor.',
+    },
+    summary: 'Premium markaları kıskandıran kabin kalitesi ve sessizliğiyle kompakt sınıfın en zarif seçeneklerinden.',
+  },
+  {
+    make: 'BMW', model: 'M5', year: 2020, version: 'Competition M xDrive',
+    category: 'spor', bodyType: 'sedan', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 625,
+    wiki: 'BMW M5',
+    specs: { motor: '4.4L V8 biturbo, 625 bg, M xDrive', hizlanma: '3,3 sn', tuketim: '10,9 L/100 km', bagaj: '530 L' },
+    ratings: { surus: 10.0, guvenlik: 9.4, konfor: 8.8, tuketim: 5.4, malzeme: 9.4, tasarim: 9.0, fiyat: 7.6, teknoloji: 9.4, guvenilirlik: 7.6, ikinciel: 7.6 },
+    pros: ['Dört çeker ile saf arkadan itiş arasında geçiş imkânı', 'Pist performansı ile lüks sedan konforu bir arada', 'Dört yetişkin için geniş kabin'],
+    cons: ['Yüksek tüketim', 'Yüksek bakım maliyeti'],
+    reviewExtra: {
+      surus: 'M xDrive dört çeker sistemi akılalmaz bir esneklik sunuyor: tek tuşla ön aksı tamamen devre dışı bırakıp (2WD modu) saf arkadan itişli bir drift canavarına dönüşebiliyor, istendiğinde ise 4WD Sport modunda 600’ü aşkın beygiri asfalta kayıpsız aktarıyor.',
+      konfor: 'Pist sürelerinde süper sporlarla yarışabilen performansına tezat olarak, konfor moduna alındığında dört yetişkini uzun yolculuklarda lüks ve sessiz bir iş sedanı konforunda taşıyabiliyor.',
+    },
+    summary: 'Süper spor performansını lüks bir iş sedanının konforuyla birleştiren, çift karakterli bir efsane.',
+  },
+  {
+    make: 'BMW', model: '5 Serisi Touring', year: 2021, version: '520d xDrive M Sport',
+    category: 'premium-sedan', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Dizel', gearbox: 'Otomatik', hp: 190,
+    wiki: 'BMW 5 Series (G30)',
+    specs: { motor: '2.0L turbodizel hafif hibrit, 190 bg, xDrive', hizlanma: '7,6 sn', tuketim: '5,3 L/100 km', bagaj: '560 L' },
+    ratings: { surus: 8.8, guvenlik: 9.4, konfor: 9.2, tuketim: 8.6, malzeme: 9.0, tasarim: 8.6, fiyat: 7.6, teknoloji: 9.0, guvenilirlik: 7.8, ikinciel: 8.0 },
+    pros: ['Bağımsız açılabilen arka bagaj camı', 'BMW sürüş karakteri ile dev yükleme hacmi', 'Ekonomik dizel ve xDrive'],
+    cons: ['Yüksek fiyat', 'Opsiyonlar pahalı'],
+    reviewExtra: {
+      tasarim: 'BMW station wagon modellerine özel bir detay: bagaj kapağını tamamen açmadan yalnızca arka cam bağımsız olarak yukarı açılabiliyor. Dar park alanlarında bagaj kapağı arkadaki duvara çarpmadan, sadece camı kaldırıp eşyaları hızlıca bagaja koyabiliyorsunuz.',
+    },
+    summary: 'Dinamik BMW sürüş karakterini devasa yükleme hacmiyle en şık şekilde sunan bir station wagon.',
+  },
+  {
+    make: 'Mercedes-AMG', model: 'GT 4-Door Coupé', year: 2021, version: 'GT 63 S 4MATIC+',
+    category: 'spor', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 639,
+    wiki: 'Mercedes-AMG GT 4-Door Coupé',
+    specs: { motor: '4.0L V8 biturbo, 639 bg, 4MATIC+', hizlanma: '3,2 sn', tuketim: '12,7 L/100 km', bagaj: '456 L' },
+    ratings: { surus: 9.8, guvenlik: 9.2, konfor: 8.6, tuketim: 5.2, malzeme: 9.4, tasarim: 9.4, fiyat: 7.4, teknoloji: 9.6, guvenilirlik: 7.4, ikinciel: 6.8 },
+    pros: ['Dört kapılı bir otomobilde pist odaklı keskin şasi', 'Karakter sahibi AMG egzoz senfonisi', 'Lüks ve teknolojik kabin'],
+    cons: ['Çok yüksek tüketim', 'Uzun süreli kullanımda trim sesleri'],
+    reviewExtra: {
+      surus: 'Dört kapılı pratik bir gövdeye sahip olmasına rağmen AMG mühendisleri şasiyi o kadar rijit ve keskin tasarlamış ki, direksiyonu milimetrik çevirdiğinizde bile arkada büyük bir gövde olduğunu unutturan saf bir spor otomobil çevikliği hissediyorsunuz. Gaza basıldığında kabine dolan hırıltılı AMG egzoz sesi de ayrı bir keyif.',
+      konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+    },
+    summary: 'Dört kapılı pratik bir gövdede saf bir spor otomobil çevikliği ve AMG’nin unutulmaz sesi.',
   },
 ];
 

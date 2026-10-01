@@ -13,7 +13,7 @@ import useTitle from '../lib/useTitle.js';
 // Tüm filtreler adres çubuğunda tutulur; filtrelenmiş liste link olarak paylaşılabilir.
 // ---------------------------------------------------------------------------
 const BODY_LABELS = { sedan: 'Sedan', fastback: 'Hatchback / Fastback', suv: 'SUV' };
-const FUEL_ORDER = ['Benzin', 'Dizel', 'Benzin + LPG', 'Hafif hibrit', 'Hibrit', 'Elektrik'];
+const FUEL_ORDER = ['Benzin', 'Dizel', 'Benzin + LPG', 'Hafif hibrit', 'Hibrit', 'Şarj edilebilir hibrit', 'Elektrik'];
 const HP_STEPS = [100, 150, 200, 300, 400];
 const SCORE_STEPS = [7, 7.5, 8, 8.5, 9];
 
