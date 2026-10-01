@@ -9,6 +9,7 @@
 export const GUIDES = [
   {
     slug: 'en-az-yakan-10-otomobil',
+    stats: ['tuketimSpec', 'tuketimPuan', 'yakit'],
     title: 'En Az Yakan 10 Otomobil',
     subtitle: 'İçten yanmalı motorlu (benzinli, dizel ve hibrit) otomobiller arasında yakıt tüketiminde öne çıkanlar',
     description:
@@ -78,6 +79,229 @@ export const GUIDES = [
         title: 'Hangisini seçmeli?',
         paragraphs: [
           'Çok kilometre yapıyor ve ağırlıklı olarak otoyol kullanıyorsanız dizel motorlu Corsa veya C 200 d gibi modeller öne çıkıyor. Şehir içinde dur-kalk trafikte daha çok vakit geçiriyorsanız Toyota, Renault ve Honda’nın tam hibrit modelleri çok daha avantajlı.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'kronik-sorunu-bilinen-motorlar',
+    title: 'Almadan Önce Bilin: Kronik Sorunu Bilinen Motorlar',
+    subtitle: 'PureTech kayışından BMW zincirlerine, DPF’den LPG dönüşümüne kadar ikinci el alırken dikkat etmeniz gereken motorlar',
+    description:
+      'İkinci el otomobil almadan önce bilmeniz gereken kronik motor sorunları: 1.2 PureTech kayışı, 1.5 eTSI 48V aküsü, BMW N13, N20, N47 ve N54, 2.0 TDI PD, dizel DPF ve LPG dönüşümlü atmosferik motorlar.',
+    date: '2026-10-01',
+    dateLabel: '1 Ekim 2026',
+    intro: [
+      'Bir otomobilin ikinci el fiyatı cazip görünebilir; ama yanlış motoru seçerseniz o fiyat avantajı ilk büyük tamirde buharlaşır. Bu rehberde, Türkiye’de ikinci el piyasasında sık karşılaşılan ve kronik sorunlarıyla bilinen motorları bir araya getirdik.',
+      'Bu motorlara sahip her otomobil arızalı demek değildir. Bakımı zamanında yapılmış, geçmişi belli bir örnek yıllarca sorunsuz kullanılabilir. Amacımız sizi korkutmak değil, neye bakmanız gerektiğini bilerek pazarlığa oturmanızı sağlamak.',
+    ],
+    sections: [
+      {
+        title: '1. 1.2 PureTech (Peugeot, Citroën, Opel): yağ içinde çalışan triger kayışı',
+        paragraphs: [
+          'Stellantis’in 1.2 litrelik üç silindirli turbo PureTech motoru performansıyla çok beğeniliyor; ancak triger kayışı motor yağının içinde çalışıyor. Zamanla kayış dağılıp parçacıklar yağ emiş süzgecini tıkayabiliyor; bu da yağ basıncı kaybına ve en kötü durumda motor hasarına yol açabiliyor. Yüksek yağ tüketimi de bu motorun bilinen sorunları arasında.',
+          'Bizim önerimiz kayışı üreticinin önerdiği aralığı beklemeden, yaklaşık 50 bin kilometrede bir, hatta daha kısa sürede değiştirmek. Yeni nesil 1.2 Hybrid (136/145 bg) versiyonlarda kayış yerine zincir kullanılıyor.',
+        ],
+        list: [
+          'Kayış değişim faturasını mutlaka isteyin; faturası olmayan aracı değiştirilmemiş kabul edin.',
+          'Ekspertizde yağ basıncı uyarısı ve kayış durumu kontrol ettirilmeli.',
+          'Yağ seviyesi iki bakım arasında belirgin şekilde düşüyorsa dikkat edin.',
+        ],
+        cars: ['opel-corsa-2020', 'peugeot-208-2023', 'peugeot-2008-2021'],
+      },
+      {
+        title: '2. VW Grubu 1.5 eTSI: 48V akü, DQ200 ve kalkışta sarma',
+        paragraphs: [
+          'Golf, Leon, Octavia ve A3 gibi modellerde kullanılan 1.5 eTSI hafif hibrit motor güçlü ve verimli; ancak üç bilinen sorunu var. Hafif hibrit sistemin 48V aküsünde arızalar görülebiliyor, kompakt modellerde eşleştiği kuru kavramalı DQ200 şanzıman ve vites kolu kronik sorunlar arasında. Ayrıca düşük devirlerdeki tork karakteristiği nedeniyle düz yolda kalkışta bile sarma yaşanabiliyor.',
+          'Bu arızaların kalıcı bir çözümü pek yok ve ne zaman ortaya çıkacakları belirsiz. Tiguan, Kodiaq gibi büyük modellerde ise daha dayanıklı DQ381 şanzıman kullanılıyor.',
+        ],
+        list: [
+          'Garantisi devam eden bir örnek ya da uzatılmış garanti tercih edin.',
+          'Test sürüşünde trafikte dur-kalk yapıp kalkış karakterini mutlaka deneyin.',
+          'Servis kayıtlarında 48V akü veya şanzıman işlemi olup olmadığına bakın.',
+        ],
+        cars: ['volkswagen-golf-2026', 'cupra-leon-2024', 'audi-a3-sportback-2024', 'seat-leon-2021'],
+      },
+      {
+        title: '3. BMW N13 (1.6 turbo benzin): zincir ve soğuk çalıştırma sesleri',
+        paragraphs: [
+          'Yaklaşık 2011–2016 yılları arasında 1 Serisi (F20) ve 3 Serisi (F30) gibi modellerin 1.6 litrelik benzinli versiyonlarında kullanılan N13 motorun en bilinen sorunu triger zinciri ve zincir gerdirme/kızak parçaları. Soğuk çalıştırmada birkaç saniyelik metalik zincir sesi en önemli işaret. Yağ kaçakları ve yüksek basınç yakıt pompası da dikkat edilmesi gereken noktalar arasında.',
+        ],
+        list: [
+          'Aracı motor soğukken çalıştırın ve ilk saniyelerdeki sesi dinleyin.',
+          'Zincir setinin değiştirilip değiştirilmediğini servis kayıtlarından sorun.',
+          'Yağ değişim aralığı uzatılmış (15–20 bin km üstü) araçlarda risk artıyor.',
+        ],
+      },
+      {
+        title: '4. BMW N20 (2.0 turbo benzin): zincir kızakları',
+        paragraphs: [
+          'Yaklaşık 2011–2016 arasında 320i, 328i, 520i, X1 ve X3 gibi pek çok BMW’de kullanılan N20, güçlü ve keyifli bir motor; ancak triger zincirinin plastik kızakları zamanla aşınabiliyor. Zincir sesi ihmal edilirse zincir atlayabilir ve motor ciddi hasar görebilir. Zincir motorun arka tarafında olduğu için tamir işçiliği de yüksek.',
+        ],
+        list: [
+          'Soğuk çalıştırmada ve rölantide motorun arka tarafından gelen metalik sese dikkat edin.',
+          'Zincir seti güncellenmiş parçalarla değiştirildiyse bu büyük bir artı.',
+          'Kısa yağ değişim aralığı bu motorun ömrünü uzatıyor.',
+        ],
+        cars: ['bmw-3-serisi-2012', 'bmw-5-serisi-2012'],
+      },
+      {
+        title: '5. BMW N47 (2.0 dizel): kopan triger zinciri',
+        paragraphs: [
+          'Yaklaşık 2007–2014 yılları arasında 118d, 120d, 318d, 320d, 520d ve X3 20d gibi modellerde kullanılan N47 dizel motorun en büyük sorunu triger zincirinin uzaması ve kopması. Zincir motorun arkasında, şanzıman tarafında olduğu için tamiri çok sıkıntılı: çoğu durumda motorun indirilmesi gerekiyor ve masraf ciddi boyutlara ulaşabiliyor. Zincir koparsa motor büyük hasar görebiliyor.',
+        ],
+        list: [
+          'Rölantide ve düşük devirde motorun arkasından gelen tıkırtı ve sürtünme sesi en önemli uyarı işaretidir.',
+          'Zincir değişimi yapılmış örnekler ciddi bir avantaj; faturasını mutlaka isteyin.',
+          'Ekspertizde zincir sesi için kulak verilmesini özellikle isteyin.',
+        ],
+      },
+      {
+        title: '6. BMW N54 (3.0 çift turbo benzin): yakıt pompası ve enjektörler',
+        paragraphs: [
+          '335i, 135i ve 535i gibi modellerde kullanılan çift turbolu N54, yüksek güç potansiyeliyle efsaneleşmiş bir motor. Ancak yüksek basınçlı yakıt pompası (HPFP) ve piezo enjektör arızaları en bilinen sorunları. Pompa arızasında motor güç kaybeder ve arıza moduna geçebilir; enjektör kaçakları tekleme ve sarsıntıya yol açar. Turbo atık kapısı (wastegate) sesleri ve su pompası da dikkat edilmesi gereken noktalar.',
+        ],
+        list: [
+          'Soğuk çalıştırmada ve ilk kalkışta tekleme veya sarsıntı olup olmadığına bakın.',
+          'Pompa ve enjektörlerin güncel revizyonlarla değiştirilip değiştirilmediğini sorun.',
+          'Yazılımla güç artırılmış örneklerde motor ve turbo durumunu ayrıca kontrol ettirin.',
+        ],
+      },
+      {
+        title: '7. VW 2.0 TDI PD (2005–2008, BKP kodlu): enjektörler ve yağ pompası mili',
+        paragraphs: [
+          'Özellikle Passat B6 gibi modellerde kullanılan pompa-enjektörlü (PD) 2.0 TDI motorlarda iki bilinen sorun öne çıkıyor. Birincisi pompa-enjektör ünitelerinin arızalanması; tekleme, zor çalışma ve duman bu sorunun işaretleri. İkincisi ve daha tehlikelisi, yağ pompasını döndüren altıgen milin aşınması. Mil aşındığında yağ basıncı aniden düşebiliyor ve motor kısa sürede ciddi hasar görebiliyor.',
+        ],
+        list: [
+          'Yağ pompası tahrik milinin güncellenmiş parçayla değiştirilip değiştirilmediğini sorun.',
+          'Yağ basıncı uyarı ışığı hiç yandıysa aracı almadan önce iki kez düşünün.',
+          'Enjektör değişim geçmişi olan araçlar daha güvenli bir tercih.',
+        ],
+      },
+      {
+        title: '8. Dizel motorlarda DPF (partikül filtresi)',
+        paragraphs: [
+          'Modern dizellerin neredeyse tamamında bulunan DPF, egzozdaki is partiküllerini tutar ve belirli aralıklarla yakarak kendini temizler. Bu temizlik (rejenerasyon) için motorun bir süre yüksek sıcaklıkta çalışması gerekir. Araç ağırlıklı olarak kısa mesafeli şehir içi kullanımda kalırsa DPF tıkanabilir; temizlik veya değişim masrafı çıkabilir.',
+          'Şehir içinde günde birkaç kilometre kullanacaksanız dizel yerine benzinli ya da hibrit bir otomobil çok daha mantıklı olabilir.',
+        ],
+        list: [
+          'Gösterge panelinde DPF uyarısı olup olmadığına ve ekspertizde DPF doluluk değerine bakın.',
+          'DPF’si iptal edilmiş araçlardan uzak durun; muayeneden geçemeyebilir.',
+          'Düzenli uzun yol yapılan dizeller DPF açısından çok daha sağlıklıdır.',
+        ],
+        cars: ['bmw-1-serisi-2016', 'volvo-v40-2015', 'opel-corsa-2021', 'mercedes-benz-c-serisi-2015'],
+      },
+      {
+        title: '9. LPG dönüşümlü atmosferik motorlar (1.6 MPI / VVT)',
+        paragraphs: [
+          'Türkiye’de yakıt masrafını düşürmenin en yaygın yolu LPG dönüşümü. 1.6 MPI ve VVT gibi atmosferik motorlar LPG’ye genel olarak uygun olsa da, LPG benzine göre daha yüksek sıcaklıkta yandığı ve yağlayıcı etkisi olmadığı için en büyük risk supaplar ve supap yuvaları. Zamanla supap boşluklarında değişim, kompresyon kaybı ve supap yanması görülebiliyor.',
+          'Kaliteli bir LPG kiti, doğru ayar ve düzenli supap ayarı bu riskleri büyük ölçüde azaltıyor. Fabrika çıkışlı LPG’li modellerde (ör. Dacia Eco-G) motor bu kullanım için baştan tasarlandığı için risk daha düşük.',
+        ],
+        list: [
+          'Ekspertizde kompresyon testi yaptırın; silindirler arasında büyük fark kötü bir işaret.',
+          'LPG kitinin markası, montaj tarihi ve ruhsata işlenip işlenmediğini kontrol edin.',
+          'Supap ayarı ve LPG bakım faturası olan araçları tercih edin.',
+        ],
+        cars: ['hyundai-accent-era-2008', 'hyundai-getz-2009', 'dacia-logan-2026'],
+      },
+      {
+        title: 'Son söz',
+        paragraphs: [
+          'Hangi otomobili alırsanız alın, bağımsız bir ekspertiz raporu, eksiksiz servis geçmişi ve tramer kaydı en büyük güvenceniz. Bu rehberdeki motorlara sahip bir otomobili düşünüyorsanız, ilgili kronik sorunların giderilip giderilmediğini belgelerle sorgulamak hem sizi büyük masraflardan korur hem de pazarlıkta elinizi güçlendirir.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'aileler-icin-en-iyi-10-suv',
+    stats: ['bagaj', 'guvenlik', 'konfor'],
+    title: 'Aileler İçin En İyi 10 SUV',
+    subtitle: 'Güvenlik, konfor, bagaj hacmi ve uzun vadeli maliyetler açısından ailelere en uygun SUV’lar',
+    description:
+      'Aileler için en iyi 10 SUV: güvenlik, konfor, bagaj hacmi, güvenilirlik ve işletme maliyetlerine göre Türkiye’de bulabileceğiniz en iyi aile SUV’larını sıraladık. 7 koltuklu seçenekler dahil.',
+    date: '2026-10-01',
+    dateLabel: '1 Ekim 2026',
+    intro: [
+      'Aile için otomobil seçerken öncelikler değişir: çocuk koltuklarının rahatça sığdığı bir arka koltuk, tatil bavullarını yutan bir bagaj, uzun yolda kimseyi yormayan bir konfor ve elbette en üst seviyede güvenlik. Bu rehberde aile SUV’ları arasından bu ihtiyaçları en iyi karşılayan 10 modeli seçtik.',
+      'Listede hem sıfır hem de ikinci elde bulabileceğiniz modeller var. Kalabalık aileler için 7 koltuk seçeneği sunan modelleri ayrıca belirttik.',
+    ],
+    method:
+      'Sıralamayı genel puandan farklı, ailelere özel bir hesapla yaptık. Güvenlik ve konfor puanlarına en yüksek ağırlığı verdik; bunları bagaj hacmi, güvenilirlik, fiyat/değer, tüketim ve ikinci el puanlarıyla birleştirdik. Bu yüzden listedeki sıra, sitemizdeki genel puan sırasından farklı olabilir. Aynı modelin farklı yıllarını tek bir sırada değerlendirdik.',
+    items: [
+      { car: 'toyota-rav4-2022', text: 'Listenin zirvesinde RAV4 Hybrid var. Geniş kabini, 580 litrelik bagajı ve büyük gövdesine rağmen düşük tüketimiyle aile bütçesini koruyor. Toyota’nın hibrit sistemi yıllarca dert çıkarmadan çalıştığı için “aileyi yolda bırakmayan otomobil” tanımına en çok yakışan model. İkinci elde de değerini çok iyi koruyor.' },
+      { car: 'kia-sportage-2023', text: 'Hibrit Sportage güçlü motoru, geniş arka koltuğu ve uzun garantisiyle ailelerin gözdesi. Kavisli çift ekranlı kabini çocuklardan büyüklere herkesin hoşuna gidiyor. Güvenlik donanımı da sınıfının en kapsamlılarından.' },
+      { car: 'honda-cr-v-2020', text: 'CR-V, pratikliğin ve dayanıklılığın SUV hâli. Arka kapıları neredeyse dik açıyla açılıyor; çocuk koltuğu takmak ve çocukları yerleştirmek bu sayede çok kolay. Dört çeker ve Honda güvenilirliği uzun yıllar sorunsuz kullanım vaat ediyor.' },
+      { car: 'hyundai-tucson-2026', text: 'Tucson 620 litrelik bagajı, zengin donanımı ve cesur tasarımıyla ailelere çok şey sunuyor. Arka yolcular için ayrı klima çıkışları ve USB girişleri uzun yolculukları kolaylaştırıyor. Fiyat/donanım dengesi de sınıfının en iyilerinden.' },
+      { car: 'kia-sorento-2022', text: 'Kalabalık aileler için listenin en mantıklı seçeneklerinden biri. 7 koltuklu Sorento, hibrit motoru sayesinde büyük gövdesine göre makul yakıyor; geniş kabini ve zengin donanımıyla uzun yollarda gerçek bir aile otobüsü konforu sunuyor.' },
+      { car: 'skoda-kodiaq-2026', text: 'Kodiaq alanda neredeyse rakipsiz: 5 koltuklu hâlde 845 litreye varan bagajı ve 7 koltuk seçeneğiyle kalabalık ailelerin yükünü rahatça taşıyor. Sessiz kabini ve konforlu süspansiyonu uzun yolları kısaltıyor. Skoda’nın şemsiye, buz kazıyıcı gibi akıllı detayları da günlük hayatı kolaylaştırıyor.' },
+      { car: 'mercedes-benz-glb-2020', text: 'Premium bir aile SUV’u arıyorsanız GLB çok mantıklı bir tercih. Kutu gibi gövdesi sayesinde kabini sınıfına göre çok geniş; 7 koltuk seçeneği de sunuyor. Mercedes’in güvenlik sistemleri ve MBUX teknolojisi ailenin her üyesine hitap ediyor.' },
+      { car: 'volkswagen-tiguan-2026', text: 'Yeni Tiguan sessiz kabini, 652 litrelik bagajı ve olgun sürüşüyle uzun yolların en rahat SUV’larından. Fiyatı yüksek olsa da ikinci elde değerini çok iyi koruması bu farkı bir ölçüde telafi ediyor.' },
+      { car: 'citroen-c5-aircross-2022', text: 'Konforu her şeyin önüne koyan aileler için C5 Aircross’un süspansiyonu sınıfının en yumuşağı. Arkadaki üç ayrı kayar ve katlanır koltuk, üç çocuk koltuğunu yan yana takmak isteyen aileler için büyük avantaj. Ekonomik dizel motoruyla uzun yolda da cebi yormuyor.' },
+      { car: 'peugeot-5008-2024', text: 'Yeni 5008, 7 koltuğu ve 5 koltuklu hâlde 900 litreyi aşan dev bagajıyla listenin en geniş SUV’larından. Etkileyici panoramik ekranlı kabini de ailenin teknoloji meraklılarını memnun edecek. Motoru dolu araçta biraz zorlansa da alan arayan kalabalık aileler için çok güçlü bir seçenek.' },
+    ],
+    sections: [
+      {
+        title: 'Aile SUV’u alırken nelere dikkat etmeli?',
+        list: [
+          'Çocuk koltuğu kullanacaksanız ISOFIX bağlantılarının sayısına ve arka kapıların açılma açısına bakın.',
+          'Bagaj hacmini katalogdan değil, kendi bebek arabanızı ve bavullarınızı koyarak test edin.',
+          '7 koltuk gerçekten gerekli mi düşünün; üçüncü sıra çoğu modelde yalnızca çocuklar için uygun.',
+          'Euro NCAP sonuçlarına ve özellikle çocuk yolcu koruma puanına göz atın.',
+          'Yıllık kilometrenizi hesaplayın: şehir içi ağırlıklı kullanımda hibrit, uzun yolda dizel daha ekonomik olabilir.',
+        ],
+      },
+      {
+        title: 'Bütçeniz daha yüksekse',
+        paragraphs: [
+          'Premium segmente bakıyorsanız Volvo XC90 üst düzey güvenliği ve 7 koltuklu zarif kabiniyle, BMW X5 ise sürüş keyfi ve konforuyla ailelere hitap eden güçlü alternatifler.',
+        ],
+        cars: ['volvo-xc90-2023', 'bmw-x5-2020'],
+      },
+    ],
+  },
+  {
+    slug: 'ilk-otomobil-icin-en-ucuz-10-secenek',
+    stats: ['fiyat', 'guvenlik', 'guvenilirlik'],
+    title: 'İlk Otomobil İçin En Ucuz 10 Seçenek',
+    subtitle: 'Sıfır kilometre otomobiller arasında en uygun fiyatlı 10 model ve ilk otomobil alırken bilmeniz gerekenler',
+    description:
+      'İlk otomobil için en ucuz 10 seçenek: Türkiye’de satılan en uygun fiyatlı sıfır otomobilleri liste fiyatına göre sıraladık; güvenlik, güvenilirlik ve ikinci el değerleriyle birlikte değerlendirdik.',
+    date: '2026-10-01',
+    dateLabel: '1 Ekim 2026',
+    intro: [
+      'İlk otomobil heyecan verici ama bütçe genellikle sınırlı. Bu rehberde Türkiye’de satılan en uygun fiyatlı sıfır otomobilleri liste fiyatına göre, ucuzdan pahalıya sıraladık. Her birinin güvenlik, güvenilirlik ve ikinci el durumunu da belirttik; çünkü ilk otomobilde yalnızca satın alma fiyatı değil, birkaç yıl sonra ne kadara satabileceğiniz de önemli.',
+      'Elektrikli modeller bu listeye dahil değil. Fiyatlar Eylül 2026 tavsiye edilen anahtar teslim liste fiyatlarıdır; güncel fiyat ve kampanyalar için yetkili satıcıya danışın.',
+    ],
+    method:
+      'Sıralama yalnızca liste fiyatına göre yapıldı: en ucuz model ilk sırada. Bu yüzden en ucuz olan her zaman en iyi seçenek olmayabilir; her aracın açıklamasında güçlü ve zayıf yönlerini dürüstçe belirttik.',
+    items: [
+      { car: 'dacia-sandero-2026', text: 'Türkiye’nin en uygun fiyatlı sıfır otomobillerinden Sandero, geniş kabini ve ucuz bakımıyla ilk otomobil için mantıklı bir başlangıç. Yalnız dürüst olmak gerekirse güvenlik puanı listedeki rakiplerinin gerisinde; bu konuyu önemsiyorsanız birkaç basamak yukarıya bakmanızı öneririz.' },
+      { car: 'dacia-logan-2026', text: 'Sedan isteyenler için en ucuz seçeneklerden Logan, fabrika çıkışlı LPG’li versiyonuyla yakıt masrafını da en aza indiriyor. Geniş bagajı pratik; ancak Sandero gibi güvenlik donanımı sınırlı.' },
+      { car: 'renault-clio-2026', text: 'Bize göre bu listenin en dengeli seçeneği Clio. Bursa üretimi, şık tasarımı, geniş bagajı ve yüksek güvenlik seviyesiyle fiyatının çok üzerinde bir paket sunuyor. İkinci elde de çok hızlı satılıyor; ilk otomobil için gönül rahatlığıyla önerebiliriz.' },
+      { car: 'opel-corsa-2026', text: 'Hafif hibrit motoruyla hem canlı hem ekonomik Corsa, sürmeyi seven gençler için güzel bir seçenek. Klasik ve kolay anlaşılır gösterge düzeni de yeni sürücülerin işini kolaylaştırıyor.' },
+      { car: 'seat-ibiza-2026', text: 'Volkswagen altyapısını genç bir karakterle sunan Ibiza, güçlü motoru ve keyifli yol tutuşuyla dinamik bir ilk otomobil. Güvenlik seviyesi de sınıfının iyilerinden.' },
+      { car: 'skoda-fabia-2026', text: 'Fabia mantığın otomobili: sınıfının en geniş kabinlerinden biri, 380 litrelik bagaj, iyi güvenlik ve sorunsuz mekanik. Gösterişli değil ama ilk otomobil için çok güvenli bir tercih.' },
+      { car: 'skoda-scala-2026', text: 'Scala, şehir otomobili fiyatına neredeyse bir aile otomobili alanı sunuyor. Daha büyük bir otomobil isteyen ama bütçesi kısıtlı olanlar için listenin en akıllıca seçeneklerinden; güvenlik puanı da listenin en yükseklerinden.' },
+      { car: 'fiat-egea-cross-2026', text: 'Crossover görünümü, dizel motoru ve otomatik şanzımanı bu fiyata sunan Egea Cross, ikinci elde de çok kolay satılıyor. Ancak eskimiş platformu nedeniyle güvenlik tarafında rakiplerinin gerisinde kalıyor.' },
+      { car: 'hyundai-i20-2026', text: 'İzmit üretimi i20, geniş kabini, zengin donanımı ve güçlü ikinci el talebiyle ilk otomobil için çok mantıklı. Hyundai’nin uzun garantisi ve güvenilir mekaniği de ekstra bir güvence.' },
+      { car: 'kia-ceed-2026', text: 'Listeyi Ceed tamamlıyor: bir üst sınıf kompakt hatchback’i şehir otomobili fiyatına yakın bir bütçeyle almak mümkün. Güçlü motoru, olgun sürüşü ve uzun garantisiyle büyümek isteyen ilk otomobil sahipleri için ideal.' },
+    ],
+    sections: [
+      {
+        title: 'İkinci elde daha ucuz alternatifler',
+        paragraphs: [
+          'Bütçeniz sıfır bir otomobile yetmiyorsa ikinci el piyasasında ilk otomobil için çok mantıklı seçenekler var. Yakıt cimrisi Opel Corsa 1.5 dizel, sorunsuz Toyota Yaris Hybrid, pratik Honda Jazz ve ekonomik Renault Clio dizel bunların başında geliyor.',
+        ],
+        cars: ['opel-corsa-2021', 'toyota-yaris-hybrid-2022', 'honda-jazz-2019', 'renault-clio-2016', 'volkswagen-polo-2020'],
+      },
+      {
+        title: 'İlk otomobil alırken bilmeniz gerekenler',
+        list: [
+          'Genç ve yeni ehliyetli sürücüler için kasko ve trafik sigortası primleri yüksek olabilir; teklifi otomobili almadan önce alın.',
+          'Motor hacmi ve araç değeri yıllık MTV tutarını doğrudan etkiliyor; satın almadan önce hesaplayın.',
+          'İkinci el alıyorsanız bağımsız ekspertiz, tramer kaydı ve servis geçmişi olmazsa olmaz.',
+          'Bakım ve parça fiyatları yaygın markalarda çok daha uygun; ilk otomobilde bu büyük avantaj.',
+          'Birkaç yıl sonra satacağınızı düşünerek ikinci el değerini koruyan modelleri tercih edin.',
         ],
       },
     ],

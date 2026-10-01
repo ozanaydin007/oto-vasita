@@ -1,11 +1,26 @@
 import { Link, useParams } from 'react-router-dom';
 import { getGuide } from '../data/guides.js';
 import { getCar } from '../data/cars.js';
-import { formatScore } from '../lib/scoring.js';
+import { formatScore, priceLabel } from '../lib/scoring.js';
 import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
 import NotFound from './NotFound.jsx';
 import useTitle from '../lib/useTitle.js';
+
+// Listeli rehberlerde her aracın altında gösterilebilecek kutucuklar.
+// guides.js içinde rehbere stats: ['bagaj', 'guvenlik', ...] ekleyerek seçilir.
+const score = (key) => (car) => `${formatScore(car.ratings[key])} / 10`;
+const STATS = {
+  tuketimSpec: { label: 'Katalog tüketimi', value: (car) => car.specs.tuketim },
+  tuketimPuan: { label: 'Tüketim puanı', value: score('tuketim') },
+  yakit: { label: 'Yakıt', value: (car) => car.fuel },
+  bagaj: { label: 'Bagaj', value: (car) => car.specs.bagaj },
+  guvenlik: { label: 'Güvenlik puanı', value: score('guvenlik') },
+  konfor: { label: 'Konfor puanı', value: score('konfor') },
+  guvenilirlik: { label: 'Güvenilirlik puanı', value: score('guvenilirlik') },
+  ikinciel: { label: 'İkinci el puanı', value: score('ikinciel') },
+  fiyat: { label: 'Liste fiyatı', value: (car) => priceLabel(car) },
+};
 
 export default function GuidePage() {
   const { slug } = useParams();
@@ -56,18 +71,15 @@ export default function GuidePage() {
                   <figcaption><PhotoCredit car={car} className="mt-2" /></figcaption>
                 </figure>
                 <dl className="mt-4 grid grid-cols-3 gap-3 text-sm">
-                  <div className="bg-mist rounded-lg p-3">
-                    <dt className="text-muted">Katalog tüketimi</dt>
-                    <dd className="font-semibold mt-0.5">{car.specs.tuketim}</dd>
-                  </div>
-                  <div className="bg-mist rounded-lg p-3">
-                    <dt className="text-muted">Tüketim puanı</dt>
-                    <dd className="font-semibold mt-0.5 tabular-nums">{formatScore(car.ratings.tuketim)} / 10</dd>
-                  </div>
-                  <div className="bg-mist rounded-lg p-3">
-                    <dt className="text-muted">Yakıt</dt>
-                    <dd className="font-semibold mt-0.5">{car.fuel}</dd>
-                  </div>
+                  {(guide.stats || ['tuketimSpec', 'tuketimPuan', 'yakit']).map((key) => {
+                    const st = STATS[key];
+                    return st ? (
+                      <div key={key} className="bg-mist rounded-lg p-3">
+                        <dt className="text-muted">{st.label}</dt>
+                        <dd className="font-semibold mt-0.5 tabular-nums">{st.value(car)}</dd>
+                      </div>
+                    ) : null;
+                  })}
                 </dl>
                 <p className="mt-4 text-[17px] leading-relaxed">{item.text}</p>
                 <div className="mt-3 flex flex-wrap items-center gap-3 text-[15px]">
@@ -91,6 +103,22 @@ export default function GuidePage() {
             <ul className="mt-3 list-disc pl-6 space-y-1.5 text-[17px] leading-relaxed">
               {s.list.map((li) => <li key={li}>{li}</li>)}
             </ul>
+          )}
+          {s.cars?.length > 0 && (
+            <p className="mt-4 text-[15px] text-ink-soft">
+              <span className="font-semibold text-ink">Sitemizdeki ilgili incelemeler: </span>
+              {s.cars
+                .map((slug) => getCar(slug))
+                .filter(Boolean)
+                .map((car, i, arr) => (
+                  <span key={car.slug}>
+                    <Link to={`/inceleme/${car.slug}`} className="text-link hover:underline underline-offset-2">
+                      {car.year} {car.make} {car.model}
+                    </Link>
+                    {i < arr.length - 1 ? ', ' : ''}
+                  </span>
+                ))}
+            </p>
           )}
         </section>
       ))}
