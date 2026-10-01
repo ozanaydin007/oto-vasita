@@ -93,6 +93,9 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.0, konfor: 7.7, tuketim: 8.3, malzeme: 7.6, tasarim: 8.6, fiyat: 8.5, teknoloji: 8.2, guvenilirlik: 7.8, ikinciel: 8.8 },
     pros: ['Bursa üretimi, sınıfının en uygun otomatiklerinden', 'Geniş bagaj', 'Yeni nesilde modern kabin ve tasarım'],
     cons: ['Arka koltuk diz mesafesi dar', 'EDC şanzıman düşük hızda sarsıntılı olabiliyor'],
+    review: {
+      tasarim: 'Yeni Clio’yu ilk gördüğünüzde bir şehir otomobiline baktığınıza inanmak zor. Keskin farları ve kaslı duruşuyla segmentinin en havalı tasarımlarından; kabinde de ucuzluk hissi neredeyse yok. Bursa’dan çıkan bir otomobilin bu kadar iddialı görünmesi ayrıca gurur verici.',
+    },
     summary: 'Yerli üretimin fiyat avantajı, geniş bagajı ve yenilenen tasarımıyla şehir otomobili sınıfının en mantıklı tercihlerinden biri.',
   },
   {
@@ -113,6 +116,9 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 7.6, konfor: 7.6, tuketim: 8.3, malzeme: 7.2, tasarim: 8.0, fiyat: 8.0, teknoloji: 8.0, guvenilirlik: 8.4, ikinciel: 8.8 },
     pros: ['İzmit’te üretim', 'Geniş iç hacim', 'Dijital gösterge ve zengin donanım'],
     cons: ['90 bg ile performans sınırlı', 'Kabin malzemeleri sade'],
+    review: {
+      konfor: 'i20’nin kabini bir şehir otomobili için gerçekten ferah; arkaya geçen bir yetişkin bile dizlerinden pek şikâyet etmiyor. Yumuşak süspansiyon ayarı da şehrin çukurlu sokaklarında işinizi epey kolaylaştırıyor.',
+    },
     summary: 'Geniş kabini ve bol donanımıyla dengeli bir şehir otomobili; Türkiye’ye özel 90 bg motor ise ancak yetiyor.',
   },
   {
@@ -267,6 +273,9 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 9.0, konfor: 8.2, tuketim: 9.6, malzeme: 8.0, tasarim: 7.9, fiyat: 7.8, teknoloji: 7.5, guvenilirlik: 9.5, ikinciel: 9.4 },
     pros: ['Sakarya üretimi', 'Şehir içinde rakipsiz yakıt ekonomisi', 'Kanıtlanmış mekanik dayanıklılık'],
     cons: ['Ani gaz tepkilerinde yükselen motor sesi (e-CVT)', 'Sade multimedya arayüzü'],
+    review: {
+      guvenilirlik: 'Corolla Hybrid için “bakımını yap, gerisini unut” demek abartı olmaz. Toyota’nın hibrit sistemi dünyanın dört bir yanında taksi filolarında yüz binlerce kilometre yapıyor ve hâlâ şaşırtacak kadar az sorun çıkarıyor. Sakarya üretimi olması da parça bulmayı ayrıca kolaylaştırıyor.',
+    },
     summary: 'Kompakt sedan sınıfının verimlilik lideri. Dayanıklılığı ve düşük işletme giderleriyle aileler için en güvenli tercihlerden biri.',
   },
   {
@@ -277,6 +286,10 @@ const RAW_CARS = [
     ratings: { surus: 6.8, guvenlik: 5.9, konfor: 7.0, tuketim: 8.8, malzeme: 6.1, tasarim: 6.5, fiyat: 8.6, teknoloji: 6.6, guvenilirlik: 8.0, ikinciel: 9.2 },
     pros: ['Bursa üretimi, 520 litrelik dev bagaj', 'Güçlü ve çok ekonomik dizel', 'Parça ve servis çok kolay'],
     cons: ['Eskimiş platform ve güvenlik', 'Sade kabin'],
+    review: {
+      fiyat: 'Egea’nın sırrı aslında çok basit: bu paraya bu kadar bagaj, bu kadar ekonomik bir dizel ve her köşede bulunan bir servis ağını başka hiçbir yerde bulamazsınız. Mükemmel bir otomobil değil ama Türkiye şartlarında “mantıklı” kelimesinin tam karşılığı.',
+      ikinciel: 'İkinci elde Egea satmak, sabah simit almak kadar kolay. Her bütçeden alıcısı var ve değerini şaşırtıcı derecede iyi koruyor.',
+    },
     summary: 'Türkiye’nin en tanıdık sedanı; yeni dizel motoruyla düşük tüketim ve geniş bagajı ulaşılabilir fiyatla sunuyor.',
   },
   {
@@ -307,6 +320,9 @@ const RAW_CARS = [
     ratings: { surus: 8.8, guvenlik: 8.5, konfor: 8.3, tuketim: 7.4, malzeme: 8.1, tasarim: 8.2, fiyat: 7.2, teknoloji: 7.8, guvenilirlik: 9.2, ikinciel: 9.2 },
     pros: ['Sınıfının en iyi sürüş keyfi', 'Güçlü motor', 'Yüksek güvenilirlik ve ikinci el değeri'],
     cons: ['Tüketim hibritlerin gerisinde', 'Multimedya sade'],
+    review: {
+      surus: 'Civic’in direksiyonuna geçtiğinizde neden yıllardır bu kadar sevildiğini hemen anlıyorsunuz. Şasi virajlara iştahla giriyor, 1.5 turbo motor her devirde canlı; bir aile sedanından bu kadar keyif almak gerçekten nadir.',
+    },
     summary: 'Sedan pratikliğini gerçek sürüş keyfiyle birleştiren, Türkiye’de yıllardır sevilen bir tercih.',
   },
   {
@@ -317,6 +333,9 @@ const RAW_CARS = [
     ratings: { surus: 8.3, guvenlik: 8.9, konfor: 8.6, tuketim: 8.3, malzeme: 8.0, tasarim: 7.8, fiyat: 7.3, teknoloji: 8.2, guvenilirlik: 8.0, ikinciel: 8.6 },
     pros: ['600 litrelik bagaj ve üst sınıf alan', 'Olgun sürüş ve konfor', 'Güçlü, verimli motor'],
     cons: ['Üst donanımlarda fiyat hızla artıyor', 'Tasarımı muhafazakâr'],
+    review: {
+      konfor: 'Octavia’nın arka koltuğuna oturan herkes önce dizlerinin önündeki boşluğa şaşırıyor. 600 litrelik bagajı ve yakıt kapağındaki buz kazıyıcı gibi akıllı detaylarıyla ailelerin hayatını gerçekten kolaylaştıran bir otomobil.',
+    },
     summary: 'Kompakt fiyatına orta sınıf sedan alanı. Aileler için sınıfının en dengeli paketlerinden biri.',
   },
   {
@@ -337,6 +356,11 @@ const RAW_CARS = [
     ratings: { surus: 8.1, guvenlik: 8.0, konfor: 8.2, tuketim: 8.4, malzeme: 8.3, tasarim: 9.3, fiyat: 7.2, teknoloji: 8.2, guvenilirlik: 7.4, ikinciel: 7.2 },
     pros: ['Yolda en çok dikkat çeken tasarımlardan', 'Kaliteli kabin', 'Geniş bagaj'],
     cons: ['GT donanımda fiyat yüksek', 'Arka başüstü mesafesi sınırlı'],
+    review: {
+      tasarim: 'Açık konuşalım: 408 çok yakışıklı bir otomobil! Fastback siluetiyle yolda gerçekten başları çeviriyor; park ettiğinizde dönüp bir kez daha bakma isteği uyandıran otomobillerden.',
+      konfor: 'Masajlı ve ısıtmalı koltuklar sürücüye gerçekten özel bir deneyim sağlıyor. Uzun bir yolun sonunda masaj fonksiyonunun ne kadar fark yarattığını ancak kullanınca anlıyorsunuz.',
+      fiyat: 'Donanım listesi çok dolu ve sunduğu özellikler fiyatına göre gayet tatmin edici. Bu sınıfta bu kadar donanımı bu tasarımla bir arada bulmak kolay değil.',
+    },
     summary: 'Tasarımıyla sınıf kalıplarını kıran fastback; 308’in kalitesini daha fazla alanla sunuyor.',
   },
 
@@ -351,6 +375,9 @@ const RAW_CARS = [
     ratings: { surus: 9.3, guvenlik: 9.2, konfor: 8.7, tuketim: 7.8, malzeme: 9.1, tasarim: 8.6, fiyat: 6.4, teknoloji: 8.9, guvenilirlik: 8.0, ikinciel: 9.0 },
     pros: ['Sınıfının en iyi sürüş dinamikleri', 'Mükemmel şanzıman ve direksiyon', 'Kavisli ekran ve iDrive'],
     cons: ['1.6 motor şasinin hakkını tam veremiyor', 'M Sport süspansiyon kötü yolda sert'],
+    review: {
+      surus: 'Türkiye’ye özel 1.6 motor kâğıt üzerinde mütevazı görünse de 3 Serisi’nin şasisi her şeyi affettiriyor. Arkadan itişin verdiği o dengeli his, keskin direksiyon ve kusursuz 8 ileri şanzıman; virajlı bir yolda bu otomobilin neden hâlâ sınıfının referansı olduğunu çok net anlıyorsunuz.',
+    },
     summary: 'Türkiye’ye özel 1.6 motoruyla bile sürücü odaklı premium sedanın referansı. Direksiyon başında olmayı sevenler için ilk tercih.',
   },
   {
@@ -361,6 +388,9 @@ const RAW_CARS = [
     ratings: { surus: 8.8, guvenlik: 9.5, konfor: 9.1, tuketim: 7.5, malzeme: 9.2, tasarim: 9.3, fiyat: 6.9, teknoloji: 9.4, guvenilirlik: 7.6, ikinciel: 8.8 },
     pros: ['Mini S-Serisi etkisi yaratan kabin', '4MATIC dört çeker standart', 'Gelişmiş sürüş destek sistemleri'],
     cons: ['Dokunmatik direksiyon tuşları', 'Yüksek fiyat'],
+    review: {
+      malzeme: 'C Serisi’nin kabinine oturduğunuzda kendinizi bir üst sınıfta hissediyorsunuz. Ambiyans aydınlatması, türbin tipi havalandırma ızgaraları ve yumuşak yüzeylerle sınıfının en lüks kabini; geceleri ayrı bir şov sunuyor.',
+    },
     summary: 'Kabin atmosferi ve konforuyla sınıfının en lüks hissettireni; Türkiye versiyonunda dört çeker de standart.',
   },
   {
@@ -435,6 +465,9 @@ const RAW_CARS = [
     ratings: { surus: 7.5, guvenlik: 8.8, konfor: 7.4, tuketim: 9.6, malzeme: 7.2, tasarim: 7.9, fiyat: 6.6, teknoloji: 7.8, guvenilirlik: 9.4, ikinciel: 8.8 },
     pros: ['Sınıfının en düşük tüketimi', 'Toyota güvenilirliği', 'Güçlü güvenlik paketi'],
     cons: ['Sınıfının en pahalılarından', 'Kabin malzemeleri fiyatının gerisinde'],
+    review: {
+      tuketim: 'Yaris Cross’la şehir trafiğinde ne kadar beklerseniz bekleyin, yakıt göstergesi neredeyse kıpırdamıyor. Hibrit sistem dur-kalkta çoğu zaman elektrikle ilerlediği için şehirde yaşayanlar için gerçek bir tasarruf makinesi.',
+    },
     summary: 'Yakıt masrafını en aza indirmek isteyenler için ideal; ancak fiyatı artık bir üst sınıfa yaklaştı.',
   },
   {
@@ -505,6 +538,9 @@ const RAW_CARS = [
     ratings: { surus: 6.7, guvenlik: 5.9, konfor: 7.1, tuketim: 8.8, malzeme: 6.2, tasarim: 6.9, fiyat: 8.5, teknoloji: 6.6, guvenilirlik: 8.0, ikinciel: 8.6 },
     pros: ['Bursa üretimi', 'Ekonomik dizel ve otomatik şanzıman', 'Yüksek yerden yükseklik'],
     cons: ['Eskimiş platform', 'Güvenlik puanı düşük'],
+    review: {
+      fiyat: 'Egea Cross, Egea’nın bütün mantığını biraz daha yüksek ve daha maceracı bir gövdeyle sunuyor. Dizel ve otomatik bir crossover’ı bu fiyata bulmak bugün neredeyse imkânsız.',
+    },
     summary: 'Egea’nın yükseltilmiş hali; dizel ekonomisi ve crossover duruşunu uygun fiyatla sunuyor.',
   },
 
@@ -519,6 +555,9 @@ const RAW_CARS = [
     ratings: { surus: 7.1, guvenlik: 6.5, konfor: 7.3, tuketim: 7.8, malzeme: 6.5, tasarim: 7.7, fiyat: 9.2, teknoloji: 6.9, guvenilirlik: 8.0, ikinciel: 8.6 },
     pros: ['Fiyatına göre inanılmaz değer', 'Sağlam ve iddialı duruş', '4x4 ve LPG seçenekleri'],
     cons: ['Ucuz kabin malzemeleri', 'Güvenlik puanı rakiplerin gerisinde'],
+    review: {
+      fiyat: 'Duster, “SUV istiyorum ama bütçem kısıtlı” diyenlerin cevabı. Yeni nesliyle o eski kaba Duster gitti, yerine gerçekten derli toplu bir SUV geldi. Aynı parayla rakiplerin ancak küçük hatchback’lerini alabildiğinizi düşününce değeri çok yüksek.',
+    },
     summary: 'Aile SUV’una en uygun fiyatlı giriş biletlerinden; Türkiye’de Renault logosuyla satılıyor.',
   },
   {
@@ -529,6 +568,9 @@ const RAW_CARS = [
     ratings: { surus: 7.9, guvenlik: 8.3, konfor: 8.2, tuketim: 8.0, malzeme: 8.4, tasarim: 9.2, fiyat: 7.2, teknoloji: 8.8, guvenilirlik: 7.4, ikinciel: 8.0 },
     pros: ['21 inçlik panoramik kavisli ekran', 'Çarpıcı fastback tasarım', 'Kaliteli kabin'],
     cons: ['Motor ağır gövdede zorlanabiliyor', 'GT donanımda fiyat yüksek'],
+    review: {
+      teknoloji: '3008’in kabinine ilk oturduğunuzda karşınızdaki 21 inçlik kavisli ekran bir bilim kurgu filmine girmiş hissi veriyor. Bu kadar dijital bir kabine alışmak birkaç gün sürebilir; ama alıştıktan sonra geri dönmek istemiyorsunuz.',
+    },
     summary: 'Tasarım ve teknolojide sınıfının en iddialısı; göz alıcı bir aile SUV’u arayanlar için.',
   },
   {
@@ -539,6 +581,9 @@ const RAW_CARS = [
     ratings: { surus: 8.4, guvenlik: 8.9, konfor: 8.7, tuketim: 7.9, malzeme: 8.3, tasarim: 8.0, fiyat: 6.4, teknoloji: 8.6, guvenilirlik: 7.8, ikinciel: 8.8 },
     pros: ['652 litrelik bagaj', 'DCC süspansiyonla üstün konfor', 'Olgun, sessiz sürüş'],
     cons: ['Fiyatı premium SUV’lara yaklaştı', 'Bazı fonksiyonlar menülere gömülü'],
+    review: {
+      konfor: 'Tiguan’la uzun yola çıktığınızda neden bu kadar pahalı olduğunu anlıyorsunuz. Kabin sessiz, koltuklar destekleyici; yüzlerce kilometreyi bir kahve molasıyla bitirip yorulmadan inebileceğiniz türden bir SUV.',
+    },
     summary: 'Konfor, alan ve kaliteyi en dengeli şekilde birleştiren aile SUV’larından; bedeli ise çok yüksek.',
   },
   {
@@ -549,6 +594,9 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 8.5, konfor: 7.6, tuketim: 8.9, malzeme: 7.7, tasarim: 8.5, fiyat: 7.3, teknoloji: 7.7, guvenilirlik: 9.4, ikinciel: 8.8 },
     pros: ['Sakarya üretimi', 'Çok düşük tüketim', 'Keskin ve modern tasarım'],
     cons: ['Küçük bagaj', 'Arka koltuk ve görüş sınırlı'],
+    review: {
+      tasarim: 'Yeni C-HR yolda gerçekten dönüp baktıran nadir Toyota’lardan. Keskin hatları ve iki renkli kasasıyla bir konsept otomobilden fırlamış gibi duruyor; üstelik Sakarya’da üretiliyor.',
+    },
     summary: 'Aileden çok çiftlere uygun; tasarım ve verimlilikte güçlü, pratiklikte sınıfının gerisinde.',
   },
   {
@@ -569,6 +617,9 @@ const RAW_CARS = [
     ratings: { surus: 7.9, guvenlik: 8.7, konfor: 8.5, tuketim: 7.3, malzeme: 8.0, tasarim: 8.6, fiyat: 7.5, teknoloji: 8.7, guvenilirlik: 8.4, ikinciel: 8.6 },
     pros: ['Güçlü motor', 'Geniş bagaj', 'Zengin teknoloji ve donanım'],
     cons: ['Tüketim hibrit rakiplerden yüksek', 'Direksiyon hissi zayıf'],
+    review: {
+      tasarim: 'Tucson’un parametrik ızgarası ve kapalıyken gizlenen gündüz farları onu yolda hemen tanınır kılıyor. Sınıfının en cesur tasarımlı SUV’larından; kabinde de aynı modern hava devam ediyor.',
+    },
     summary: 'Donanım, tasarım ve alanı iyi fiyatla sunan, sınıfının en dengeli paketlerinden.',
   },
   {
@@ -579,6 +630,9 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.7, konfor: 8.4, tuketim: 7.3, malzeme: 8.1, tasarim: 8.4, fiyat: 7.6, teknoloji: 8.7, guvenilirlik: 8.4, ikinciel: 8.4 },
     pros: ['Kavisli çift ekran', 'Geniş arka koltuk', 'Uzun garanti'],
     cons: ['150 bg dolu araçta sınırda', 'Dokunmatik çift fonksiyonlu panel kafa karıştırıcı'],
+    review: {
+      teknoloji: 'Sportage’ın kavisli çift ekranı hem şık hem kullanışlı. Klima ile medya kontrolleri arasında geçiş yapan dokunmatik panele alışmak biraz zaman alıyor, ama alıştıktan sonra çok pratik.',
+    },
     summary: 'Tucson’un kuzeni; kaliteli kabini ve geniş donanım yelpazesiyle eşit derecede güçlü bir aday.',
   },
   {
@@ -589,6 +643,9 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.6, konfor: 8.3, tuketim: 8.5, malzeme: 8.0, tasarim: 8.0, fiyat: 6.6, teknoloji: 8.3, guvenilirlik: 7.6, ikinciel: 7.8 },
     pros: ['Elektrikli gibi sessiz, akıcı hızlanma', 'Rahat süspansiyon', 'Kaliteli kabin'],
     cons: ['Otoyolda tüketim artıyor', 'e-POWER fiyatı çok yükseldi'],
+    review: {
+      surus: 'e-Power sistemi Qashqai’ye elektrikli bir otomobil gibi sessiz ve akıcı bir hızlanma kazandırıyor. Benzinli motor yalnızca jeneratör olarak çalıştığı için şehir içinde vites değişimi hissi hiç yok; ilk kez kullananların çoğu buna şaşırıyor.',
+    },
     summary: 'e-POWER sistemiyle şehirde çok keyifli; mild hybrid versiyonu ise daha mantıklı bir fiyat sunuyor.',
   },
   {
@@ -717,6 +774,9 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.9, konfor: 8.2, tuketim: 7.6, malzeme: 7.8, tasarim: 8.5, fiyat: 8.6, teknoloji: 8.8, guvenilirlik: 7.4, ikinciel: 7.8 },
     pros: ['Fiyatına göre uzun menzil', 'Geniş ekranlı teknoloji odaklı kabin', 'Yaygın yerli servis ağı'],
     cons: ['Hızlı şarj gücü rakiplerin gerisinde', 'Bazı yazılım özellikleri hâlâ olgunlaşıyor'],
+    review: {
+      teknoloji: 'Togg’a bindiğinizde sizi karşılayan uçtan uca ekran ve akıllı cihaz ekosistemi, otomobili adeta bir telefon gibi kullanmanızı sağlıyor. Bazı özellikler hâlâ güncellemelerle olgunlaşıyor ama yerli bir otomobilde bu teknoloji seviyesini görmek gerçekten etkileyici.',
+    },
     summary: 'Türkiye’nin en çok satan elektriklilerinden; menzil, donanım ve fiyat dengesi çok güçlü.',
   },
   {
@@ -737,6 +797,9 @@ const RAW_CARS = [
     ratings: { surus: 8.2, guvenlik: 9.2, konfor: 8.2, tuketim: 9.2, malzeme: 7.9, tasarim: 8.2, fiyat: 7.6, teknoloji: 9.4, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Sınıfının en iyi verimliliği', 'Supercharger ağı', 'Dev bagaj hacmi'],
     cons: ['Neredeyse tüm kontroller ekranda', 'Standart Range’e göre ciddi fiyat farkı'],
+    review: {
+      tuketim: 'Model Y’nin verimliliği bir SUV için akıl almaz. Supercharger ağı sayesinde uzun yolda şarj planlamak neredeyse hiç kafa yormuyor: navigasyona hedefi yazıyorsunuz, nerede ve ne kadar şarj etmeniz gerektiğini otomobil kendisi hesaplıyor.',
+    },
     summary: 'Verimlilik, şarj altyapısı ve yazılımda hâlâ ölçü birimi; bütçe öncelikliyse Standart Range versiyonu çok daha ucuz.',
   },
   {
@@ -1166,7 +1229,7 @@ const RAW_CARS = [
     category: 'kompakt-hatchback', bodyType: 'fastback', price: null, used: true,
     fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg, DSG', hizlanma: '8,5 sn', tuketim: '5,6 L/100 km', bagaj: '380 L' },
-    ratings: { surus: 8.9, guvenlik: 8.6, konfor: 7.8, tuketim: 8.2, malzeme: 8.0, tasarim: 8.8, fiyat: 8.0, teknoloji: 8.1, guvenilirlik: 7.8, ikinciel: 7.4 },
+    ratings: { surus: 7.9, guvenlik: 8.6, konfor: 7.8, tuketim: 8.2, malzeme: 8.0, tasarim: 8.8, fiyat: 8.0, teknoloji: 8.1, guvenilirlik: 7.5, ikinciel: 7.4 },
     pros: ['Segmentine ve fiyatına göre içi ve dışıyla çok dolu', 'Güçlü ve tatmin edici 1.5 eTSI motor', 'Genç kullanıcılar için ideal sportif karakter'],
     cons: ['Değişken hızlarda yol tutuşu beklentinin altında', 'Düşük devirde kalkışta sarma', 'Bilinen sorunlar: alternatör, vites kolu ve DQ200 şanzıman'],
     review: {
@@ -1184,6 +1247,9 @@ const RAW_CARS = [
     ratings: { surus: 8.2, guvenlik: 8.8, konfor: 8.8, tuketim: 8.3, malzeme: 8.4, tasarim: 7.6, fiyat: 7.8, teknoloji: 7.7, guvenilirlik: 7.8, ikinciel: 9.0 },
     pros: ['Çok konforlu ve sessiz uzun yol sürüşü', 'Geniş arka koltuk ve bagaj', 'Güçlü ikinci el değeri'],
     cons: ['Tasarımı muhafazakâr', 'DSG şanzımanın bakım geçmişi önemli'],
+    review: {
+      ikinciel: 'Passat Türkiye’de neredeyse bir statü sembolü; ikinci elde satışa koyduğunuz gün telefonunuz susmuyor. Değerini koruma konusunda sınıfında Passat’la yarışabilecek çok az otomobil var.',
+    },
     summary: 'Türkiye’nin favori makam sedanlarından; konfor, alan ve değer korumada hâlâ çok güçlü.',
   },
   {
@@ -1626,6 +1692,9 @@ const RAW_CARS = [
     ratings: { surus: 10.0, guvenlik: 9.9, konfor: 9.3, tuketim: 6.6, malzeme: 10.0, tasarim: 10.0, fiyat: 9.4, teknoloji: 10.0, guvenilirlik: 9.2, ikinciel: 9.6 },
     pros: ['Hiper otomobil seviyesinde hızlanma', 'Her havada ve her yolda kullanılabilir', 'Kusursuz işçilik ve değer koruma', 'Olağanüstü güçlü frenler', 'Sınıfına göre şaşırtıcı konfor'],
     cons: [],
+    review: {
+      surus: '911 Turbo S’in gazına sonuna kadar bastığınız ilk anı unutmanız mümkün değil. 650 beygirlik güç dört tekere öyle kusursuz dağıtılıyor ki otomobil yere yapışıp fırlıyor; buna rağmen trafikte sıradan bir otomobil kadar uysal.',
+    },
     summary: 'Günlük kullanılabilen en hızlı otomobillerden; performans, konfor ve kaliteyi kusursuz dengeleyen bir başyapıt.',
   },
   {
@@ -1706,6 +1775,10 @@ const RAW_CARS = [
     ratings: { surus: 9.1, guvenlik: 9.1, konfor: 8.7, tuketim: 8.0, malzeme: 8.9, tasarim: 8.7, fiyat: 7.8, teknoloji: 8.7, guvenilirlik: 8.2, ikinciel: 8.8 },
     pros: ['G20 kasanın dengeli arkadan itişli şasisi', 'Yazılımla ciddi güç artışı potansiyeli', 'Mükemmel 8 ileri şanzıman'],
     cons: ['Standart hâliyle şasinin hakkını veremeyen motor', 'Yazılım garanti ve motor ömrü açısından risk taşıyor'],
+    review: {
+      surus: 'Bizim deneyimimize göre G20 kasa 320i, ufak modifikasyonlarla gerçekten bir M otomobilinin seviyesine erişebiliyor; üstelik yarı fiyatına. Standart hâlinde bile arkadan itişin verdiği denge, keskin direksiyon ve kusursuz 8 ileri şanzıman bu otomobili sınıfının en keyifli sedanlarından biri yapıyor.',
+      guvenilirlik: 'Türkiye’ye özel 1.6 motor, aslında BMW’nin 2 litrelik motorundan küçültülerek (downsize) üretildiği için yüksek güçlere çok hazırlıklı. Genel bakımlarını aksatmaz ve dikkatli kullanırsanız kronik sorunları yok denecek kadar az.',
+    },
     summary: 'Türkiye’ye özel 1.6 motor aslında 2.0 litrelik kardeşiyle aynı bloktan geliyor; yazılım (chip tuning) ile yaklaşık 300 beygire kadar güç alınabildiği biliniyor. Standart hâlinde bile sınıfının en keyifli sedanlarından; güç artışı düşünenler garanti kaybını ve motor ömrüne etkisini hesaba katmalı.',
   },
   {
