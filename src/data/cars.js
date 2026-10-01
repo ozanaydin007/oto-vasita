@@ -176,7 +176,10 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg', hizlanma: '8,5 sn', tuketim: '5,4 L/100 km', bagaj: '381 L' },
     ratings: { surus: 8.7, guvenlik: 8.8, konfor: 8.6, tuketim: 8.2, malzeme: 8.0, tasarim: 7.8, fiyat: 6.6, teknoloji: 8.3, guvenilirlik: 7.8, ikinciel: 9.0 },
     pros: ['Sınıfının referans sürüş dengesi', 'Güçlü ve verimli motor', 'Olgun, sessiz kabin'],
-    cons: ['Sınıfının en pahalılarından', 'Bagaj rakiplerin gerisinde'],
+    cons: ['Düşük devirde kalkışta sarma', 'Sınıfının en pahalılarından', 'Bagaj rakiplerin gerisinde'],
+    review: {
+      surus: 'Golf’ün şasisi hâlâ sınıfının referansı; virajda dengeli, uzun yolda sakin. 1.5 eTSI motor da başarılı: yüksek güce rahatça ulaşıyor ve segmenti için çok tatmin edici. Yalnız düşük devirlerdeki tork karakteristiği nedeniyle düz yolda kalkışta bile ciddi bir sarma sorunu yaşanabiliyor; şehir içi dur-kalkta bunu belirgin şekilde hissediyorsunuz.',
+    },
     summary: 'Kompakt sınıfın ölçü birimi olmaya devam ediyor; her konuda iyi ama bedeli yüksek.',
   },
   {
@@ -206,7 +209,10 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 116 bg', hizlanma: '10,2 sn', tuketim: '5,3 L/100 km', bagaj: '380 L' },
     ratings: { surus: 8.0, guvenlik: 8.2, konfor: 7.4, tuketim: 8.0, malzeme: 7.0, tasarim: 7.6, fiyat: 7.8, teknoloji: 7.6, guvenilirlik: 7.8, ikinciel: 8.0 },
     pros: ['Golf altyapısı çok daha uygun fiyata', 'Keskin direksiyon', 'Hafif hibritle iyi tüketim'],
-    cons: ['116 bg dolu araçta yetersiz kalabiliyor', 'Malzemeler Golf’ün gerisinde'],
+    cons: ['Düşük devirde kalkışta sarma', '116 bg dolu araçta yetersiz kalabiliyor', 'Malzemeler Golf’ün gerisinde'],
+    review: {
+      surus: 'Leon, Golf altyapısını daha genç bir karakterle sunuyor ve direksiyonu keskin. 1.5 eTSI motor başarılı; yüksek güce erişebiliyor ve segmenti için tatmin edici. Ancak düşük devirlerdeki tork karakteristiği nedeniyle düz yolda kalkışta bile ciddi bir sarma sorunu yaşanabiliyor. Özellikle trafikte sık dur-kalk yapıyorsanız bu durumu test sürüşünde mutlaka deneyin.',
+    },
     summary: 'Golf’ün mekaniğini genç bir karakter ve bir milyon TL’ye yakın daha düşük fiyatla sunan akıllı bir alternatif.',
   },
   {
@@ -843,7 +849,10 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg, S tronic', hizlanma: '8,4 sn', tuketim: '5,4 L/100 km', bagaj: '380 L' },
     ratings: { surus: 8.3, guvenlik: 8.8, konfor: 8.3, tuketim: 8.1, malzeme: 8.4, tasarim: 8.3, fiyat: 7.1, teknoloji: 8.5, guvenilirlik: 7.8, ikinciel: 8.4 },
     pros: ['Premium marka kalitesi kompakt boyutlarda', 'Virtual Cockpit ve olgun sürüş', 'Hafif hibritle düşük tüketim'],
-    cons: ['Kapı ve alt panellerde sert plastikler', 'Arka koltuk ortalama'],
+    cons: ['Düşük devirde kalkışta sarma', 'Kapı ve alt panellerde sert plastikler', 'Arka koltuk ortalama'],
+    review: {
+      surus: '1.5 TFSI motor başarılı; yüksek güce rahatça ulaşıyor ve segmenti için çok tatmin edici bir performans sunuyor. Ancak bu motor ailesinin bilinen bir karakteri burada da karşımıza çıkıyor: düşük devirlerdeki tork karakteristiği nedeniyle düz yolda kalkışta bile ciddi bir sarma sorunu yaşanabiliyor. Özellikle şehir içi dur-kalk trafikte bunu hissedeceksiniz. Hareket hâlindeyken ise yol tutuşu olgun ve güven verici.',
+    },
     summary: 'Golf altyapısını daha premium bir kabin ve marka imajıyla sunan, ikinci elde de değerini iyi koruyan bir kompakt.',
   },
   {
@@ -872,8 +881,11 @@ const RAW_CARS = [
     fuel: 'Dizel', gearbox: 'Manuel', hp: 102,
     specs: { motor: '1.5L turbodizel, 102 bg, 6 ileri manuel', hizlanma: '10,2 sn', tuketim: '3,8 L/100 km', bagaj: '309 L' },
     ratings: { surus: 7.7, guvenlik: 7.3, konfor: 7.4, tuketim: 10.0, malzeme: 7.0, tasarim: 7.8, fiyat: 8.4, teknoloji: 6.8, guvenilirlik: 7.6, ikinciel: 8.0 },
-    pros: ['Çok düşük yakıt tüketimi', 'Güçlü ara hızlanma (tork)', 'Çok kilometre yapanlar için ekonomik'],
-    cons: ['Edition donanım sade', 'Dizel motor rölantide sesli'],
+    pros: ['Düz yolda 90 km/s’de 2,3 L/100 km’ye inen tüketim (kendi ölçümümüz)', 'Güçlü ara hızlanma (tork)', 'Hafif kasa ve dizel motorun mükemmel uyumu'],
+    cons: ['Yaklaşık 40 litrelik küçük yakıt deposu', 'Edition donanım sade', 'Dizel motor rölantide sesli'],
+    review: {
+      tuketim: 'Bu otomobilin en etkileyici yanı kesinlikle tüketimi. Düz yolda hızı 90 km/s’ye sabitlediğimizde motor 1.500 devir civarında dönüyor ve yol bilgisayarında 2,3 L/100 km gördük. Uzun ve düz bir yolda bu tür komik denebilecek rakamlara ulaşmak gerçekten mümkün. 1.5 dizel motor hafif kasayla birleşince ortaya inanılmaz bir sonuç çıkıyor. Tek eksik yakıt deposu: segmenti gereği yaklaşık 40 litre yakıt alabiliyorsunuz. 50–60 litrelik bir depoya sahip olsaydı, bu kombinasyon sizi ayda yalnızca bir kez akaryakıt istasyonuna götürecek kadar ekonomik olurdu.',
+    },
     summary: 'Yakıt masrafı ön planda olan, çok yol yapan kullanıcılar için ikinci elde akıllı bir şehir otomobili.',
   },
   {
@@ -1155,9 +1167,14 @@ const RAW_CARS = [
     fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg, DSG', hizlanma: '8,5 sn', tuketim: '5,6 L/100 km', bagaj: '380 L' },
     ratings: { surus: 8.9, guvenlik: 8.6, konfor: 7.8, tuketim: 8.2, malzeme: 8.0, tasarim: 8.8, fiyat: 8.0, teknoloji: 8.1, guvenilirlik: 7.8, ikinciel: 7.4 },
-    pros: ['Keskin ve eğlenceli sürüş', 'Seat Leon’dan daha güçlü motor', 'Sportif ve şık tasarım'],
-    cons: ['Sert süspansiyon', 'Dokunmatik ağırlıklı kontroller'],
-    summary: 'Leon’un daha güçlü ve daha karakterli versiyonu; sürüş keyfi arayanlar için dengeli bir kompakt.',
+    pros: ['Segmentine ve fiyatına göre içi ve dışıyla çok dolu', 'Güçlü ve tatmin edici 1.5 eTSI motor', 'Genç kullanıcılar için ideal sportif karakter'],
+    cons: ['Değişken hızlarda yol tutuşu beklentinin altında', 'Düşük devirde kalkışta sarma', 'Bilinen sorunlar: alternatör, vites kolu ve DQ200 şanzıman'],
+    review: {
+      surus: 'Bu aracı uzun süre kullandığımızı belirtmekte fayda var. Garip bir şekilde, hızın sürekli değiştiği düzensiz sürüşlerde yol tutuşu beklentimizin altında kaldı. Lastikleri sıfırlarıyla değiştirmemize rağmen yol tutuşunda bir değişim olmadı. Bunun arka süspansiyonun yapısından kaynaklanabileceğini düşündük; ancak bağımsız arka süspansiyona sahip olmayan bazı rakiplerinden bile daha kötü bir sonuç verdi. Ufak modifikasyonlarla bu kasadan çok daha iyi bir sonuç alınabilir. 1.5 eTSI motor ise başarılı: yüksek güce rahatça ulaşıyor ve segmenti için çok tatmin edici. Yalnız düşük devirlerdeki tork karakteristiği nedeniyle düz yolda kalkışta bile belirgin bir sarma sorunu yaşanabiliyor.',
+      fiyat: 'Segmentine ve fiyatına göre içi de dışı da aşırı dolu bir otomobil. Donanım listesi ve sportif karakteriyle özellikle genç kullanıcılar için çok ideal.',
+      guvenilirlik: 'Bilmeniz gereken birkaç kronik nokta var: 1.5 eTSI motorda alternatör arızası ihtimali, vites kolu arızaları ve 7 ileri kuru kavramalı DQ200 şanzıman bu aracın bilinen zayıf noktaları. İkinci el alırken bu parçaların bakım ve değişim geçmişini mutlaka sorgulayın.',
+    },
+    summary: 'İçi ve dışıyla segmentinin ve fiyatının en dolu kompaktlarından; genç kullanıcılar için çok çekici. Ancak uzun süreli kullanımımızda değişken hızlardaki yol tutuşu ve bilinen kronik noktalarıyla dikkat isteyen bir otomobil olduğunu gördük.',
   },
   {
     make: 'Volkswagen', model: 'Passat', year: 2020, version: '1.5 TSI ACT 150 Elegance DSG',
