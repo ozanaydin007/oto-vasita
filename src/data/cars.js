@@ -1,4 +1,4 @@
-import { overallScore, slugify } from '../lib/scoring.js';
+import { overallScore, weightedAverage, slugify } from '../lib/scoring.js';
 import { WIKI_TITLES } from './wikiTitles.js';
 
 // ---------------------------------------------------------------------------
@@ -2719,8 +2719,8 @@ const withScores = RAW_CARS.map((car) => {
   };
 });
 
-// Eşit genel puanda, yuvarlanmamış toplam puanı yüksek olan öne geçer.
-const exactTotal = (c) => Object.values(c.ratings).reduce((a, b) => a + b, 0);
+// Eşit genel puanda, yuvarlanmamış ağırlıklı ortalaması yüksek olan öne geçer.
+const exactTotal = (c) => weightedAverage(c.ratings);
 
 const rankMap = new Map();
 for (const cat of CATEGORIES) {

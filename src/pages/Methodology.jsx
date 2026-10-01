@@ -9,7 +9,7 @@ export default function Methodology() {
       <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight">Nasıl puanlıyoruz?</h1>
       <p className="text-lg text-ink-soft mt-4 leading-relaxed">
         Her aracı aşağıdaki 10 başlıkta 10 üzerinden puanlıyoruz. Puanlar küsuratlı olabilir; örneğin 8,7 puan
-        8 tam ve bir de %70’i dolu yıldız olarak gösterilir. Genel puan bu on başlığın ortalamasıdır ve
+        8 tam ve bir de %70’i dolu yıldız olarak gösterilir. Genel puan bu on başlığın ağırlıklı ortalamasıdır ve
         kategori sıralamaları genel puana göre otomatik oluşur.
       </p>
       <div className="mt-6 flex items-center gap-3">
@@ -19,11 +19,23 @@ export default function Methodology() {
       <dl className="mt-10 border-t border-rule">
         {CRITERIA.map((c) => (
           <div key={c.key} className="py-4 border-b border-rule grid sm:grid-cols-[12rem_1fr] gap-1 sm:gap-6">
-            <dt className="font-display text-xl font-bold">{c.label}</dt>
+            <dt className="font-display text-xl font-bold">
+              {c.label}
+              <span className="block text-sm font-semibold text-muted mt-0.5">Ağırlık: {String(c.weight ?? 1).replace('.', ',')}</span>
+            </dt>
             <dd className="text-ink-soft leading-relaxed">{c.hint}</dd>
           </div>
         ))}
       </dl>
+      <h2 className="font-display text-2xl font-bold mt-10">Neden ağırlıklı ortalama?</h2>
+      <p className="mt-3 text-ink-soft leading-relaxed">
+        Genel puanda otomobilin ne kadar iyi bir otomobil olduğunu belirleyen başlıklara (sürüş, konfor, güvenlik,
+        malzeme kalitesi, teknoloji) daha fazla; ne kadar ekonomik bir alım olduğunu belirleyen başlıklara (tüketim,
+        fiyat/değer, ikinci el) daha az ağırlık veriyoruz. Ekonomik bir otomobil arıyorsanız bu başlıkların puanlarına
+        her incelemedeki puan karnesinden ayrıca bakabilir, Tüm araçlar sayfasında bu başlıklara göre sıralama
+        yapabilirsiniz.
+      </p>
+
       <h2 className="font-display text-2xl font-bold mt-10">Puanlar nereden geliyor?</h2>
       <p className="mt-3 text-ink-soft leading-relaxed">
         Puanlarımız, araçlarla kendi deneyimlerimizi üretici verileri, Euro NCAP gibi bağımsız güvenlik

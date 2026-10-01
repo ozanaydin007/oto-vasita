@@ -411,9 +411,9 @@ export function buildReview(car, category) {
   const o = car.review || {};
   const intro = [];
   intro.push(
-    `${car.year} ${car.make} ${car.model}, ${car.version} donanımıyla ${category.title.toLocaleLowerCase('tr-TR')} listemizde ${car.rank}. sırada yer alıyor ve 10 başlığın ortalamasında ${formatScore(car.score)} puan alıyor.`
+    `${car.year} ${car.make} ${car.model}, ${car.version} donanımıyla ${category.title.toLocaleLowerCase('tr-TR')} listemizde ${car.rank}. sırada yer alıyor ve 10 başlığın ağırlıklı ortalamasında ${formatScore(car.score)} puan alıyor.`
   );
-  intro.push('Bu inceleme; üretici verileri, bağımsız güvenlik testleri, kullanıcı deneyimleri ve ikinci el piyasası gibi kamuya açık bilgilere dayanan editoryal bir değerlendirmedir. Aracı kendimiz test etmedik.');
+  intro.push('Bu inceleme; üretici verileri, bağımsız güvenlik testleri, kullanıcı deneyimleri ve ikinci el piyasası gibi kamuya açık bilgilere dayanan editoryal bir değerlendirmedir.');
   if (car.year < 1990) {
     intro.push('Bu bir klasik otomobil; puanlarımızı günümüz otomobilleriyle aynı ölçütlere göre verdik, bu yüzden nostaljik değerini puanlara ancak kısmen yansıtabildik.');
   } else if (car.used) {

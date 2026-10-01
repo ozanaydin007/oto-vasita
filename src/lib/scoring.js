@@ -2,13 +2,23 @@ import { CRITERIA } from '../data/criteria.js';
 
 const clamp = (n) => Math.max(0, Math.min(10, n));
 
-// Genel puan = 8 başlığın ortalaması, tek ondalığa yuvarlanır.
-// Ağırlıklı ortalama isterseniz CRITERIA içine "weight" ekleyip burayı güncelleyebilirsiniz.
+// Genel puan = 10 başlığın ağırlıklı ortalaması (ağırlıklar criteria.js içinde), tek ondalığa yuvarlanır.
+export function weightedAverage(ratings = {}) {
+  let sum = 0;
+  let wsum = 0;
+  for (const c of CRITERIA) {
+    const v = ratings[c.key];
+    if (typeof v !== 'number') continue;
+    const w = c.weight ?? 1;
+    sum += clamp(v) * w;
+    wsum += w;
+  }
+  return wsum ? sum / wsum : null;
+}
+
 export function overallScore(ratings = {}) {
-  const values = CRITERIA.map((c) => ratings[c.key]).filter((v) => typeof v === 'number');
-  if (values.length === 0) return null;
-  const avg = values.reduce((sum, v) => sum + clamp(v), 0) / values.length;
-  return Math.round(avg * 10) / 10;
+  const avg = weightedAverage(ratings);
+  return avg == null ? null : Math.round(avg * 10) / 10;
 }
 
 export function formatScore(n) {

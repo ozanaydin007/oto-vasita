@@ -24,7 +24,7 @@ function Scorecard({ car }) {
       <div className="bg-ink text-white px-5 sm:px-6 py-5 flex flex-wrap items-center justify-between gap-4">
         <div>
           <h2 id="h-karne" className="font-display text-2xl font-bold">Puan karnesi</h2>
-          <p className="text-white/70 text-sm mt-0.5">10 başlığın ortalaması</p>
+          <p className="text-white/70 text-sm mt-0.5">10 başlığın ağırlıklı ortalaması</p>
         </div>
         <div className="flex items-center gap-4">
           <span className="font-display text-5xl font-extrabold tabular-nums leading-none">

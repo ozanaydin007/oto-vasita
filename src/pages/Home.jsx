@@ -51,7 +51,7 @@ export default function Home() {
           2026 otomobil sıralamaları
         </h1>
         <p className="text-ink-soft mt-3 max-w-2xl text-lg leading-relaxed">
-          Her aracı sürüşten ikinci el değerine 10 başlıkta, 10 üzerinden puanlıyoruz. Sıralamalar bu puanların ortalamasına göre belirleniyor.
+          Her aracı sürüşten ikinci el değerine 10 başlıkta, 10 üzerinden puanlıyoruz. Sıralamalar bu puanların ağırlıklı ortalamasına göre belirleniyor.
         </p>
       </div>
 
@@ -89,7 +89,7 @@ export default function Home() {
           <div>
             <h2 className="font-display text-2xl font-bold">10 başlık, 10 yıldız</h2>
             <p className="text-ink-soft mt-2 leading-relaxed">
-              Her başlık 10 üzerinden, gerektiğinde küsuratlı puanlanır. Genel puan on başlığın ortalamasıdır.
+              Her başlık 10 üzerinden, gerektiğinde küsuratlı puanlanır. Genel puan, on başlığın ağırlıklı ortalamasıdır.
             </p>
             <Link to="/puanlama" className="inline-flex items-center gap-0.5 mt-3 text-link hover:underline underline-offset-2">
               Puanlama yöntemini oku <ChevronRight className="w-4 h-4" aria-hidden="true" />
