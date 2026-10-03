@@ -306,6 +306,117 @@ export const GUIDES = [
       },
     ],
   },
+  {
+    slug: 'elektrikli-otomobil-almadan-once-bilinmesi-gerekenler',
+    title: 'Elektrikli Otomobil Almadan Önce Bilinmesi Gerekenler',
+    subtitle: 'Menzil, şarj, ÖTV avantajı, ikinci el değeri ve batarya sağlığı: elektrikliye geçmeden önce aklınızda olması gereken her şey',
+    description:
+      'Elektrikli otomobil almadan önce bilmeniz gerekenler: gerçek menzil ile katalog menzili farkı, AC ve DC şarj, evde şarj imkânı, ÖTV avantajı, ikinci el değer kaybı ve batarya sağlığı.',
+    date: '2026-10-03',
+    dateLabel: '3 Ekim 2026',
+    intro: [
+      'Elektrikli otomobiller Türkiye’de her yıl daha fazla satılıyor. Sessiz ve akıcı sürüşleri, düşük kilometre başı maliyetleri ve ÖTV avantajıyla gerçekten cazipler. Ancak içten yanmalı bir otomobilden elektrikliye geçmek, yalnızca yakıt türünü değiştirmek değil; kullanım alışkanlıklarınızı da değiştirmek anlamına geliyor.',
+      'Bu rehberde, elektrikli bir otomobil almadan önce dikkat etmeniz gereken konuları bir araya getirdik. Amacımız sizi vazgeçirmek değil, doğru elektrikliyi doğru beklentiyle almanızı sağlamak.',
+    ],
+    sections: [
+      {
+        title: '1. Menzil: katalog değeri her zaman gerçek değildir',
+        paragraphs: [
+          'Elektrikli otomobillerin menzili WLTP adı verilen standart bir test döngüsüyle ölçülüyor. Bu değer otomobilleri birbiriyle karşılaştırmak için faydalı, ama gerçek kullanımda menzil çoğu zaman katalog değerinin altında kalıyor. Bu nedenle otomobil seçerken katalogdaki rakamın yaklaşık yüzde 15–25 altını gerçekçi bir günlük menzil olarak düşünmek en sağlıklısı.',
+          'Kendi deneyimimizden bir örnek: Mercedes EQS’nin katalogda 705 km olarak verilen menzili, dikkatli bir sürüşle bizi yollarda yaklaşık 650 km’ye kadar taşıdı. Bu, sınıfının en iyi sonuçlarından biri; çoğu otomobilde fark bundan daha büyük oluyor.',
+        ],
+        list: [
+          'Hız: 120 km/s üzerindeki otoyol hızlarında tüketim hızla artıyor. Özellikle köşeli tasarımlı SUV’larda menzil kaybı çok daha belirgin.',
+          'Kış: Soğuk havada batarya verimi düşüyor ve kabin ısıtması enerji tüketiyor. Kışın menzil yaz aylarına göre belirgin şekilde azalabiliyor.',
+          'Klima ve ısıtma: Isı pompası (heat pump) bulunan otomobiller kışın çok daha verimli; satın alırken bu donanımı mutlaka sorgulayın.',
+          'Sürüş tarzı: Sert hızlanmalar menzili eritir; akıcı sürüş ve rejeneratif frenlemeyi doğru kullanmak menzili belirgin şekilde uzatır.',
+          'Lastik ve jant: Büyük jantlar ve sportif lastikler şık görünse de menzili düşürebiliyor.',
+        ],
+        cars: ['mercedes-benz-eqs-2022', 'volvo-ex40-2024', 'hyundai-ioniq-6-2024'],
+      },
+      {
+        title: '2. Şarj: AC ile DC arasındaki fark',
+        paragraphs: [
+          'Elektrikli otomobil iki şekilde şarj edilir. AC (alternatif akım) şarj, evde ve iş yerlerindeki yavaş şarj cihazlarında kullanılır; otomobilin içindeki şarj ünitesi akımı dönüştürdüğü için hızı genellikle 7–22 kW arasında sınırlıdır. Bir gecede bataryanın büyük kısmını doldurmak için idealdir.',
+          'DC (doğru akım) hızlı şarj ise yol kenarındaki hızlı şarj istasyonlarında kullanılır ve 50 kW’tan 300 kW’ın üzerine kadar çıkabilir. Uzun yolda molalarda kullanılır. Burada otomobilin kabul edebildiği en yüksek şarj gücü belirleyicidir: 800V mimariye sahip otomobiller çok daha hızlı şarj olabiliyor. Örneğin Audi A6 e-tron hızlı şarjda yaklaşık 21 dakikada bataryasının büyük kısmını doldurabiliyor.',
+          'Önemli bir detay: Hızlı şarj, bataryanın yaklaşık yüzde 80’ine kadar hızlı ilerler, sonrasında bataryayı korumak için yavaşlar. Bu yüzden uzun yolda yüzde 10–80 arasında şarj etmek en verimli yöntemdir. Katalogdaki şarj süreleri de genellikle bu aralık için verilir.',
+        ],
+        list: [
+          'Otomobilin AC şarj gücünü (ör. 11 kW) ve en yüksek DC şarj gücünü (ör. 150 kW) mutlaka karşılaştırın.',
+          'Uzun yol yapacağınız güzergâhlarda hızlı şarj istasyonu yoğunluğunu önceden kontrol edin; şarj ağlarının uygulamaları rota planlamada çok işe yarar.',
+          'DC hızlı şarj, evde AC şarja göre kWh başına belirgin şekilde daha pahalıdır; sürekli hızlı şarjla kullanımda tasarruf azalır.',
+        ],
+        cars: ['audi-a6-e-tron-sportback-2025', 'hyundai-ioniq-5-2026', 'porsche-taycan-2026'],
+      },
+      {
+        title: '3. Evde şarj imkânınız var mı?',
+        paragraphs: [
+          'Elektrikli otomobilin en büyük avantajı, “yakıt deposunu” her gece evde doldurabilmeniz. Müstakil bir evde ya da kendi otoparkınızda bir duvar tipi şarj ünitesi (wallbox) kurabiliyorsanız, elektrikli otomobil hem en ucuz hem de en konforlu hâline kavuşur: sabah her gün dolu bir bataryayla yola çıkarsınız.',
+          'Apartmanda ya da sitede oturuyorsanız şarj ünitesi kurmak için yönetimin onayı, uygun bir otopark yeri ve elektrik altyapısı gerekebilir. Evde şarj imkânınız yoksa ve otomobili yalnızca halka açık hızlı şarj istasyonlarında şarj edecekseniz, hem maliyet avantajı azalır hem de günlük kullanım çok daha planlı hâle gelir.',
+        ],
+        list: [
+          'Normal ev prizinden şarj mümkündür ama çok yavaştır; günlük kullanım için yetmeyebilir.',
+          'Wallbox kurulumunu yetkili bir elektrikçiye yaptırın; elektrik tesisatınızın gücünü önceden kontrol ettirin.',
+          'İş yerinizde şarj imkânı varsa bu da evde şarj kadar değerli bir avantajdır.',
+        ],
+      },
+      {
+        title: '4. ÖTV avantajı: lüks otomobillere daha uygun fiyatla ulaşmak',
+        paragraphs: [
+          'Türkiye’de elektrikli otomobillerin ÖTV oranları, benzer fiyat ve performanstaki içten yanmalı otomobillere göre çok daha düşük. Bunun en çarpıcı sonucu şu: içten yanmalı hâliyle çok pahalı olan premium ve lüks modellerin elektrikli versiyonları çok daha ulaşılabilir fiyatlara satılabiliyor. Örneğin elektrikli Porsche Macan, Porsche dünyasına girmenin en uygun yollarından biri hâline geldi; elektrikli Taycan da benzinli Porsche sedanlara göre çok daha uygun fiyatlı.',
+          'ÖTV oranları otomobilin fiyatına ve elektrik motorunun gücüne göre kademeli olarak değişiyor. Bu yüzden bazı markalar Türkiye’ye daha düşük vergi diliminde kalan, gücü sınırlandırılmış versiyonlar getiriyor. Bu durum fiyatı düşürse de, kimi zaman otomobilin hak ettiğinden daha zayıf bir motorla gelmesine neden olabiliyor. Ayrıca vergi düzenlemeleri zaman zaman değişebildiği için güncel oranları satın almadan önce mutlaka kontrol edin.',
+          'Elektrikli otomobillerin yıllık Motorlu Taşıtlar Vergisi (MTV) de benzer içten yanmalı otomobillere göre daha düşük; bu da uzun vadede ayrı bir tasarruf sağlıyor.',
+        ],
+        cars: ['porsche-macan-2026', 'porsche-taycan-2026', 'mercedes-benz-eqs-2022'],
+      },
+      {
+        title: '5. İkinci el değer kaybı: içten yanmalılardan daha hızlı',
+        paragraphs: [
+          'Elektrikli otomobil almadan önce en çok düşünmeniz gereken konulardan biri ikinci el değeri. Elektrikli otomobiller, içten yanmalı otomobillere göre her yıl daha fazla değer kaybediyor ve bu fark yıllar geçtikçe büyüyor. Bunun birkaç nedeni var: batarya teknolojisi çok hızlı gelişiyor ve yeni modeller daha uzun menzil sunuyor; ikinci el alıcılar bataryanın durumundan emin olamıyor; üreticiler sıfır fiyatlarında sık sık indirim ve kampanya yapıyor; vergi düzenlemelerindeki değişiklikler de fiyatları doğrudan etkileyebiliyor.',
+          'Bu durumun bir de diğer tarafı var: ikinci el elektrikli otomobil alacaksanız, değer kaybı sizin lehinize çalışıyor. Garantisi devam eden, batarya sağlığı raporu iyi olan temiz bir ikinci el örnek, sıfırına göre çok daha uygun fiyata premium bir elektrikliye sahip olmanın akıllıca bir yolu olabilir.',
+        ],
+      },
+      {
+        title: '6. Batarya sağlığı ve garanti',
+        paragraphs: [
+          'Bataryanın kapasitesi yıllar içinde yavaş yavaş azalır. Bu azalma çoğu otomobilde makul seviyelerde kalsa da, ikinci el alırken batarya sağlık durumunu (SoH) öğrenmek çok önemli. Üreticilerin çoğu bataryaya genellikle 8 yıl veya belirli bir kilometre için ayrı bir garanti veriyor; garanti şartlarını model bazında mutlaka kontrol edin.',
+        ],
+        list: [
+          'İkinci el alırken yetkili servisten batarya sağlık raporu isteyin.',
+          'Bataryayı günlük kullanımda yüzde 20–80 arasında tutmak ömrünü uzatır; yüzde 100’e uzun yolculuk öncesinde şarj edin.',
+          'Sürekli DC hızlı şarj yerine mümkün olduğunca AC şarj tercih etmek bataryayı daha az yorar.',
+          'Batarya garantisinin süresini ve devredilebilir olup olmadığını öğrenin.',
+        ],
+      },
+      {
+        title: '7. Bakım, lastik ve sigorta',
+        paragraphs: [
+          'Elektrikli otomobillerde motor yağı, triger kayışı, buji ya da egzoz yok; bu yüzden periyodik bakım masrafları genellikle daha düşük. Rejeneratif frenleme sayesinde fren balataları da daha uzun ömürlü oluyor.',
+          'Öte yandan elektrikli otomobiller bataryaları nedeniyle daha ağır ve anlık torkları çok yüksek; bu da lastiklerin daha hızlı aşınmasına yol açabiliyor. Kasko primleri, batarya ve elektronik parçaların onarım maliyetleri nedeniyle bazı modellerde daha yüksek çıkabiliyor. Satın almadan önce kasko teklifi almanızı öneririz.',
+        ],
+      },
+      {
+        title: '8. Yazılım, servis ve günlük kullanım',
+        paragraphs: [
+          'Elektrikli otomobillerin çoğu internet üzerinden yazılım güncellemesi (OTA) alıyor; bu sayede zamanla yeni özellikler ekleniyor. Ancak yazılımın merkezde olduğu bu otomobillerde ekran donmaları, bağlantı kopmaları gibi sorunlar da yaşanabiliyor. Yetkili servis ağının yaygınlığı da önemli: Togg gibi yerli markalar bu konuda avantajlıyken, bazı markaların servis noktası sayısı sınırlı.',
+          'Son olarak, bir elektrikli otomobilin sessizliği ve anında gelen torku içten yanmalı otomobillere alışkın sürücüleri çok şaşırtabiliyor. Satın almadan önce mutlaka uzun bir test sürüşü yapın; mümkünse otomobili birkaç gün kiralayıp kendi günlük rutininizde deneyin.',
+        ],
+        cars: ['togg-t10x-2026', 'tesla-model-y-2026', 'kia-ev3-2026'],
+      },
+      {
+        title: 'Elektrikli otomobil size uygun mu? Kısa kontrol listesi',
+        list: [
+          'Evde veya iş yerinde düzenli şarj imkânınız var mı?',
+          'Günlük ortalama kaç kilometre yapıyorsunuz ve otomobilin gerçek menzili (katalogdan yüzde 15–25 düşük) buna yetiyor mu?',
+          'Sık uzun yol yapıyorsanız güzergâhınızda yeterli hızlı şarj istasyonu var mı?',
+          'Otomobili kaç yıl kullanmayı düşünüyorsunuz? Kısa sürede satacaksanız değer kaybını hesaba katın.',
+          'Batarya garantisi ne kadar süre ve kaç kilometre için geçerli?',
+          'Kışın ısı pompası var mı?',
+          'Kasko teklifi ve yıllık MTV tutarını içten yanmalı alternatifle karşılaştırdınız mı?',
+        ],
+      },
+    ],
+  },
 ];
 
 export function getGuide(slug) {
