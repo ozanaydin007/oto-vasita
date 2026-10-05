@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 // 2) commons.wikimedia.org: küçültülmüş adres + fotoğrafçı + lisans bilgisi
 // İstekler toplu yapılır (50'şerli) ve tarayıcı oturumu boyunca önbelleğe alınır.
 // ---------------------------------------------------------------------------
-const WIKI_API = 'https://en.wikipedia.org/w/api.php';
+const wikiApi = (lang) => `https://${lang}.wikipedia.org/w/api.php`;
 const COMMONS_API = 'https://commons.wikimedia.org/w/api.php';
 const THUMB_WIDTH = 960;
 const CHUNK = 50;
@@ -34,11 +34,17 @@ async function getJSON(base, params) {
   return res.json();
 }
 
-// Makale adı -> Commons dosya adı
-async function pageImages(titles) {
+// "de:Audi A3 8Y" -> { lang: 'de', title: 'Audi A3 8Y' }; dil öneki yoksa İngilizce Wikipedia
+function splitTitle(t) {
+  const m = /^([a-z]{2,3}):(.+)$/.exec(t);
+  return m ? { lang: m[1], title: m[2] } : { lang: 'en', title: t };
+}
+
+// Bir dildeki makale adları -> Commons dosya adı
+async function pageImages(lang, titles) {
   const out = new Map();
   for (const group of chunks(titles, CHUNK)) {
-    const data = await getJSON(WIKI_API, {
+    const data = await getJSON(wikiApi(lang), {
       action: 'query',
       prop: 'pageimages',
       piprop: 'name',
@@ -100,9 +106,35 @@ async function flush() {
   queue = [];
   timer = null;
   try {
-    const needTitles = [...new Set(batch.filter((b) => !b.file).map((b) => b.title))];
-    const titleToFile = needTitles.length ? await pageImages(needTitles) : new Map();
-    const fileOf = (b) => (b.file || titleToFile.get(b.title) || '').replace(/ /g, '_');
+    // Dillere göre grupla, her dil için toplu sorgula
+    const byLang = new Map();
+    for (const b of batch) {
+      if (b.file) continue;
+      for (const t of b.titles) {
+        const { lang, title } = splitTitle(t);
+        if (!byLang.has(lang)) byLang.set(lang, new Set());
+        byLang.get(lang).add(title);
+      }
+    }
+    const found = new Map(); // "lang:title" -> dosya
+    for (const [lang, set] of byLang) {
+      try {
+        const res = await pageImages(lang, [...set]);
+        for (const [title, file] of res) found.set(`${lang}:${title}`, file);
+      } catch {
+        // bir dil başarısız olursa diğerleriyle devam et
+      }
+    }
+    // Her araç için listedeki ilk bulunan makalenin fotoğrafı kullanılır
+    const fileOf = (b) => {
+      if (b.file) return b.file.replace(/ /g, '_');
+      for (const t of b.titles) {
+        const { lang, title } = splitTitle(t);
+        const f = found.get(`${lang}:${title}`);
+        if (f) return f.replace(/ /g, '_');
+      }
+      return '';
+    };
     const files = [...new Set(batch.map(fileOf).filter(Boolean))];
     const info = files.length ? await fileInfo(files) : new Map();
     for (const b of batch) b.resolve(info.get(fileOf(b)) || null);
@@ -111,13 +143,13 @@ async function flush() {
   }
 }
 
-function load(title, file) {
-  const key = file ? `f:${file}` : `t:${title}`;
+function load(titles, file) {
+  const key = file ? `f:${file}` : `t:${titles.join('|')}`;
   if (!cache.has(key)) {
     cache.set(
       key,
       new Promise((resolve) => {
-        queue.push({ key, title, file, resolve });
+        queue.push({ key, titles, file, resolve });
         if (!timer) timer = setTimeout(flush, 30);
       })
     );
@@ -128,7 +160,8 @@ function load(title, file) {
 // Bir araç için fotoğraf bilgisi. Kendi fotoğrafı (image) varsa onu kullanır.
 export function useCarPhoto(car) {
   const own = car.image ? { src: car.image, own: true } : null;
-  const title = car.wiki;
+  const titles = car.wiki ? (Array.isArray(car.wiki) ? car.wiki : [car.wiki]) : [];
+  const title = titles.join('|');
   const file = car.wikiFile;
   const [photo, setPhoto] = useState(own);
 
@@ -143,7 +176,7 @@ export function useCarPhoto(car) {
     }
     let alive = true;
     setPhoto(null);
-    load(title, file).then((p) => alive && setPhoto(p));
+    load(titles, file).then((p) => alive && setPhoto(p));
     return () => {
       alive = false;
     };

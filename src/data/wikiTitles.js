@@ -202,3 +202,45 @@ export const WIKI_TITLES = {
   'mazda-cx-5-2023': 'Mazda CX-5',
   'kia-sportage-2023': 'Kia Sportage',
 };
+
+// ---------------------------------------------------------------------------
+// DÜZELTMELER (öncelikli)
+// Fotoğrafı çıkmayan ya da yanlış nesli gösteren araçlar için.
+// Liste olarak birden fazla makale verilebilir; ilk fotoğrafı bulunan kullanılır.
+// "de:" / "fr:" / "it:" öneki ilgili dildeki Wikipedia'yı kullanır
+// (Almanca Wikipedia'da çoğu modelin her nesli için ayrı makale var).
+// ---------------------------------------------------------------------------
+export const WIKI_FIX = {
+  // Fotoğrafı hiç çıkmayanlar
+  'audi-a3-sportback-2024': ['de:Audi A3 8Y', 'Audi A3'],
+  'audi-a3-sedan-2021': ['de:Audi A3 8Y', 'Audi A3'],
+  'audi-s3-sportback-2021': ['de:Audi A3 8Y', 'Audi A3'],
+  'audi-a8-l-2020': ['de:Audi A8 D5', 'Audi A8'],
+  'audi-a4-sedan-2019': ['de:Audi A4 B9', 'Audi A4'],
+  'audi-a4-sedan-2021': ['de:Audi A4 B9', 'Audi A4'],
+  'audi-a6-2021': ['de:Audi A6 C8', 'Audi A6'],
+  'peugeot-408-2026': ['fr:Peugeot 408 (2022)', 'de:Peugeot 408 (2022)', 'Peugeot 408 (2022)'],
+  'hyundai-i20-n-2022': ['de:Hyundai i20 N', 'Hyundai i20 N', 'de:Hyundai i20 (BC3)'],
+  'alfa-romeo-junior-2025': ['Alfa Romeo Junior (2024)', 'it:Alfa Romeo Junior (2024)', 'de:Alfa Romeo Junior (2024)'],
+  'audi-tt-2007': ['de:Audi TT 8J', 'Audi TT'],
+  'renault-clio-2016': ['de:Renault Clio IV', 'fr:Renault Clio IV', 'Renault Clio'],
+  'chevrolet-cruze-2014': ['de:Chevrolet Cruze (2009)', 'Chevrolet Cruze'],
+  'mg-zs-2021': ['MG ZS', 'de:MG ZS', 'MG ZS (2017)'],
+  'hyundai-accent-era-2008': ['de:Hyundai Accent (MC)', 'Hyundai Accent'],
+  // Yanlış nesli gösterenler
+  'bmw-2-serisi-gran-coupe-2025': ['de:BMW F74', 'de:BMW 2er Gran Coupé', 'BMW 2 Series Gran Coupé'],
+  'bmw-3-serisi-2026': ['de:BMW G20', 'BMW 3 Series (G20)'],
+  'skoda-superb-2020': ['de:Škoda Superb III', 'Škoda Superb'],
+  'cupra-leon-2024': ['de:Cupra León', 'Cupra León'],
+  'mercedes-benz-cla-2016': ['de:Mercedes-Benz C 117', 'Mercedes-Benz CLA-Class (C117)'],
+  'opel-frontera-2026': ['de:Opel Frontera (2024)', 'fr:Opel Frontera (2024)', 'Opel Frontera'],
+  'nissan-qashqai-2015': ['de:Nissan Qashqai (J11)', 'Nissan Qashqai'],
+  'audi-a1-2011': ['de:Audi A1 8X', 'Audi A1'],
+  'opel-astra-2012': ['de:Opel Astra J', 'Opel Astra J'],
+  'dacia-duster-2015': ['de:Dacia Duster I', 'fr:Dacia Duster I', 'Dacia Duster'],
+};
+
+// Belirli bir Commons dosyası kullanmak istenenler (makaleden önce gelir)
+export const WIKI_FILES = {
+  'cupra-formentor-2026': 'Cupra_Formentor_Facelift_IMG_0666.jpg',
+};
