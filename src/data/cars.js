@@ -3528,6 +3528,42 @@ const RAW_CARS = [
 ];
 
 // ---------------------------------------------------------------------------
+// ELEKTRİKLİ MENZİL
+// Elektrikli ve hibrit araçlar için "menzil" bilgisi otomatik oluşturulur.
+// Bir araca özel metin yazmak isterseniz specs içine menzil: '...' ekleyin.
+// Not: Her hibrit elektrikle uzun mesafe gidemez; hibrit türüne göre açıklama değişir.
+// ---------------------------------------------------------------------------
+const STELLANTIS_48V = ['Peugeot', 'Opel', 'Citroën', 'Fiat', 'Alfa Romeo', 'DS'];
+
+function electricRange(car) {
+  const motor = car.specs?.motor || '';
+  const km = (motor.match(/(\d[\d.]*)\s?km/) || [])[1];
+  switch (car.fuel) {
+    case 'Elektrik':
+      return km ? `~${km} km (WLTP katalog değeri; gerçek kullanımda genellikle %15–25 daha az)` : null;
+    case 'Şarj edilebilir hibrit':
+      return km
+        ? `~${km} km yalnızca elektrikle (WLTP); batarya bitince benzinli motorla hibrit olarak devam eder`
+        : 'Bataryası şarj edilebilir; kısa mesafeleri yalnızca elektrikle gidebilir';
+    case 'Hibrit':
+      if (/seri hibrit|e-POWER/i.test(motor)) {
+        return 'Tekerlekleri her zaman elektrik motoru döndürür, ancak dışarıdan şarj edilmez; elektriği benzinli motor üretir. Bağımsız bir elektrikli menzili yoktur.';
+      }
+      return 'Dışarıdan şarj edilmez. Düşük hızlarda ve kısa mesafelerde (genellikle 1–2 km) yalnızca elektrikle ilerleyebilir; elektrik motorunun asıl görevi tüketimi düşürmektir.';
+    case 'Hafif hibrit':
+      if (car.make === 'Subaru') {
+        return 'Dışarıdan şarj edilmez. Çok düşük hızlarda birkaç yüz metre yalnızca elektrikle ilerleyebilir; anlamlı bir elektrikli menzili yoktur.';
+      }
+      if (STELLANTIS_48V.includes(car.make) && /1\.2L/.test(motor)) {
+        return 'Dışarıdan şarj edilmez. 48V sistem park manevralarında ve yavaş trafikte kısa süreliğine yalnızca elektrikle ilerleyebilir; anlamlı bir elektrikli menzili yoktur.';
+      }
+      return 'Yalnızca elektrikle sürülemez. Elektrik motoru kalkışta ve hızlanmada benzinli motora destek verir, yavaşlarken enerji geri kazanır; elektrikli menzili yoktur.';
+    default:
+      return null;
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Otomatik alanlar: slug, genel puan ve kategori içi sıra
 // ---------------------------------------------------------------------------
 const withScores = RAW_CARS.map((car) => {
@@ -3538,6 +3574,7 @@ const withScores = RAW_CARS.map((car) => {
     price: car.price ?? null,
     slug,
     wiki: car.wiki ?? WIKI_TITLES[slug],
+    specs: { ...car.specs, menzil: car.specs?.menzil ?? electricRange(car) },
     score: overallScore(car.ratings),
   };
 });
