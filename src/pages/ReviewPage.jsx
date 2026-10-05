@@ -6,6 +6,8 @@ import { CRITERIA } from '../data/criteria.js';
 import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
 import { buildEditorial, buildReview } from '../lib/review.js';
 import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
+import CompareToggle from '../components/CompareToggle.jsx';
+import { comparePath } from '../lib/compare.js';
 import StarRating from '../components/StarRating.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
 import NotFound from './NotFound.jsx';
@@ -132,6 +134,9 @@ export default function ReviewPage() {
             <ScoreBadge score={car.score} size="md" />
             <StarRating value={car.score} size={20} />
           </div>
+          <div className="mt-4">
+            <CompareToggle car={car} />
+          </div>
           <p className="mt-5 text-[15px]">
             <Link to={`/kategori/${category.slug}`} className="text-link hover:underline underline-offset-2">
               {category.title}
@@ -199,6 +204,12 @@ export default function ReviewPage() {
                   <dd className="font-medium">{value}</dd>
                 </div>
               ))}
+              {car.specs?.menzil && (
+                <div className="grid grid-cols-[10rem_1fr] gap-4 py-2.5 border-b border-rule text-[15px]">
+                  <dt className="text-muted">{car.fuel === 'Elektrik' ? 'Menzil' : 'Elektrikli menzil'}</dt>
+                  <dd className="font-medium">{car.specs.menzil}</dd>
+                </div>
+              )}
               {SPEC_LABELS.map(([key, label]) =>
                 car.specs?.[key] ? (
                   <div key={key} className="grid grid-cols-[10rem_1fr] gap-4 py-2.5 border-b border-rule text-[15px]">
@@ -226,6 +237,9 @@ export default function ReviewPage() {
                   <CarImage car={r} className="h-24 mb-3" />
                   <p className="font-semibold group-hover:text-link">#{r.rank} {r.year} {r.make} {r.model}</p>
                   <p className="text-sm text-muted tabular-nums">{formatScore(r.score)} / 10</p>
+                </Link>
+                <Link to={comparePath([car.slug, r.slug])} className="mt-1 inline-block text-sm text-link hover:underline underline-offset-2">
+                  Karşılaştır
                 </Link>
               </li>
             ))}

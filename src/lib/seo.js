@@ -1,6 +1,7 @@
 import { CARS, CATEGORIES, getCar, getCategory } from '../data/cars.js';
 import { SITE_URL, SITE_NAME } from '../config.js';
 import { GUIDES, getGuide } from '../data/guides.js';
+import { POPULAR_COMPARISONS } from '../data/comparisons.js';
 
 // ---------------------------------------------------------------------------
 // ARAMA MOTORU (SEO) BİLGİLERİ
@@ -30,6 +31,10 @@ const STATIC = {
   '/puanlama': {
     title: titled('Nasıl puanlıyoruz?'),
     description: 'Otomobilleri sürüşten güvenilirliğe, ikinci el değerinden teknolojiye 10 başlıkta nasıl puanladığımızı öğrenin.',
+  },
+  '/karsilastir': {
+    title: titled('Otomobil karşılaştır'),
+    description: 'Otomobilleri puanları, teknik verileri, menzilleri, artıları ve eksileriyle yan yana karşılaştırın. En fazla 3 aracı aynı anda kıyaslayın.',
   },
   '/rehber': {
     title: titled('Rehber'),
@@ -92,6 +97,10 @@ function reviewSeo(car) {
   return { title, description, jsonLd, type: 'article' };
 }
 
+function compareCars(pair) {
+  return [...new Set(pair.split('-vs-'))].map((x) => getCar(x)).filter(Boolean).slice(0, 3);
+}
+
 function guideSeo(g) {
   const url = `${SITE_URL}/rehber/${g.slug}`;
   const jsonLd = [
@@ -135,6 +144,15 @@ export function getSeo(pathname) {
     seo = { ...STATIC[path] };
   } else if ((m = path.match(/^\/inceleme\/([^/]+)$/)) && getCar(m[1])) {
     seo = reviewSeo(getCar(m[1]));
+  } else if ((m = path.match(/^\/karsilastir\/([^/]+)$/)) && compareCars(m[1]).length >= 2) {
+    const cars = compareCars(m[1]);
+    const names = cars.map((c) => `${c.make} ${c.model}`).join(' vs ');
+    seo = {
+      title: titled(`${names} karşılaştırması`),
+      description: clip(
+        `${cars.map((c) => `${c.year} ${c.make} ${c.model} (${fmt(c.score)}/10)`).join(' ile ')} karşılaştırması: 10 başlıkta puanlar, teknik veriler, artılar ve eksiler. Hangisini almalı?`
+      ),
+    };
   } else if ((m = path.match(/^\/rehber\/([^/]+)$/)) && getGuide(m[1])) {
     seo = guideSeo(getGuide(m[1]));
   } else if ((m = path.match(/^\/kategori\/([^/]+)$/)) && getCategory(m[1])) {
@@ -162,6 +180,8 @@ export function allRoutes() {
     '/gizlilik',
     '/cerez-politikasi',
     '/ara',
+    '/karsilastir',
+    ...POPULAR_COMPARISONS.map((p) => `/karsilastir/${p.join('-vs-')}`),
     '/rehber',
     ...GUIDES.map((g) => `/rehber/${g.slug}`),
     ...CATEGORIES.map((c) => `/kategori/${c.slug}`),

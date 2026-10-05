@@ -11,6 +11,8 @@ import ReviewPage from './pages/ReviewPage.jsx';
 import SearchPage from './pages/SearchPage.jsx';
 import Methodology from './pages/Methodology.jsx';
 import About from './pages/About.jsx';
+import ComparePage from './pages/ComparePage.jsx';
+import CompareTray from './components/CompareTray.jsx';
 import GuidesPage from './pages/GuidesPage.jsx';
 import GuidePage from './pages/GuidePage.jsx';
 import Contact from './pages/Contact.jsx';
@@ -45,6 +47,8 @@ export default function App() {
           <Route path="/inceleme/:slug" element={<ReviewPage />} />
           <Route path="/ara" element={<SearchPage />} />
           <Route path="/puanlama" element={<Methodology />} />
+          <Route path="/karsilastir" element={<ComparePage />} />
+          <Route path="/karsilastir/:pair" element={<ComparePage />} />
           <Route path="/rehber" element={<GuidesPage />} />
           <Route path="/rehber/:slug" element={<GuidePage />} />
           <Route path="/hakkinda" element={<About />} />
@@ -55,6 +59,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <CompareTray />
       <CookieConsent />
     </div>
   );

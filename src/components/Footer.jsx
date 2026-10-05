@@ -18,6 +18,7 @@ export default function Footer() {
           <p className="font-semibold mb-2">Sıralamalar</p>
           <ul className="space-y-1.5">
             <li><Link to="/araclar" className={linkClass}>Tüm araçlar</Link></li>
+            <li><Link to="/karsilastir" className={linkClass}>Otomobil karşılaştır</Link></li>
             <li><Link to="/rehber" className={linkClass}>Rehber</Link></li>
             {CATEGORIES.map((c) => (
               <li key={c.slug}>

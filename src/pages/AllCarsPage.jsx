@@ -7,6 +7,7 @@ import { formatScore, priceLabel } from '../lib/scoring.js';
 import CarImage from '../components/CarImage.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
 import useTitle from '../lib/useTitle.js';
+import CompareToggle from '../components/CompareToggle.jsx';
 
 // ---------------------------------------------------------------------------
 // Filtre ve sıralama tanımları
@@ -24,6 +25,7 @@ const SORTS = [
   { key: 'fiyat-azalan', label: 'Fiyat (pahalıdan ucuza)' },
   { key: 'beygir', label: 'Motor gücü (güçlüden)' },
   { key: 'yil', label: 'Model yılı (yeniden eskiye)' },
+  { key: 'menzil', label: 'Elektrikli menzil (uzundan)' },
   { key: 'marka', label: 'Marka ve model (A–Z)' },
   ...CRITERIA.map((c) => ({ key: `b-${c.key}`, label: `${c.label} puanı (yüksekten)` })),
 ];
@@ -82,6 +84,10 @@ function sortCars(list, key) {
     case 'fiyat-azalan': return out.sort((a, b) => nullsLast(a, b, (c) => c.price, -1) || tie(a, b));
     case 'beygir': return out.sort((a, b) => nullsLast(a, b, (c) => c.hp, -1) || tie(a, b));
     case 'yil': return out.sort((a, b) => b.year - a.year || tie(a, b));
+    case 'menzil': {
+      const km = (c) => (c.fuel === 'Elektrik' || c.fuel === 'Şarj edilebilir hibrit') ? Number((c.specs?.menzil?.match(/~?(\d+)/) || [])[1]) || null : null;
+      return out.sort((a, b) => nullsLast(a, b, km, -1) || tie(a, b));
+    }
     case 'marka': return out.sort((a, b) => byTr(carName(a), carName(b)) || b.year - a.year);
     default:
       if (key.startsWith('b-')) {
@@ -142,10 +148,10 @@ function Tag({ children, tone = 'plain' }) {
 
 function ResultRow({ car }) {
   return (
-    <li>
+    <li className="py-5">
       <Link
         to={`/inceleme/${car.slug}`}
-        className="group grid grid-cols-[88px_1fr] sm:grid-cols-[150px_1fr_auto] items-center gap-x-4 sm:gap-x-6 gap-y-3 py-5"
+        className="group grid grid-cols-[88px_1fr] sm:grid-cols-[150px_1fr_auto] items-center gap-x-4 sm:gap-x-6 gap-y-3"
       >
         <CarImage car={car} className="h-14 sm:h-20" />
         <div className="min-w-0">
@@ -159,6 +165,7 @@ function ResultRow({ car }) {
             <Tag>{car.fuel}</Tag>
             <Tag>{car.gearbox}</Tag>
             {car.hp != null && <Tag>{car.hp} bg</Tag>}
+            {car.fuel === 'Elektrik' && car.specs?.menzil && <Tag>{car.specs.menzil.split(' (')[0]} menzil</Tag>}
           </div>
         </div>
         <div className="col-span-2 sm:col-span-1 flex sm:flex-col items-center sm:items-end justify-between gap-2">
@@ -168,6 +175,9 @@ function ResultRow({ car }) {
           </span>
         </div>
       </Link>
+      <div className="mt-2 flex justify-end">
+        <CompareToggle car={car} compact />
+      </div>
     </li>
   );
 }
