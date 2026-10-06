@@ -132,6 +132,7 @@ export const GUIDES = [
           'Zincir setinin değiştirilip değiştirilmediğini servis kayıtlarından sorun.',
           'Yağ değişim aralığı uzatılmış (15–20 bin km üstü) araçlarda risk artıyor.',
         ],
+        cars: ['bmw-3-serisi-2013'],
       },
       {
         title: '4. BMW N20 (2.0 turbo benzin): zincir kızakları',
