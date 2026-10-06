@@ -417,6 +417,143 @@ export const GUIDES = [
       },
     ],
   },
+  {
+    slug: 'ikinci-elde-degerini-en-iyi-koruyan-otomobiller',
+    stats: ['ikinciel', 'guvenilirlik', 'fiyat'],
+    title: 'İkinci Elde Değerini En İyi Koruyan Otomobiller',
+    subtitle: 'Satarken en az kaybettiren, en hızlı alıcı bulan otomobiller ve değeri artabilecek, üretimi bitmiş modeller',
+    description:
+      'İkinci elde değerini en iyi koruyan otomobiller: Türkiye piyasasında en hızlı satılan ve en az değer kaybeden modeller. Ayrıca üretimi bırakılmış ve değeri artma ihtimali olan otomobiller.',
+    date: '2026-10-05',
+    dateLabel: '5 Ekim 2026',
+    intro: [
+      'Bir otomobil alırken çoğumuz yalnızca bugünkü fiyata bakıyoruz; oysa otomobilin gerçek maliyetini belirleyen en büyük kalemlerden biri, birkaç yıl sonra satarken ne kadar kaybettiğiniz. İki otomobil aynı fiyata alınsa bile, birinin değer kaybı diğerinin yarısı kadar olabiliyor.',
+      'Bu rehberde, ikinci el puanımıza göre Türkiye piyasasında değerini en iyi koruyan, temiz örneği kolay bulunan ve satışa koyduğunuzda hızlı alıcı bulan modelleri sıraladık. Aynı modelin farklı yıllarını tek bir sırada değerlendirdik.',
+    ],
+    method:
+      'Sıralamada incelemelerimizdeki İkinci El puanını kullandık. Bu puan; Türkiye piyasasında değer kaybını, aracın ne kadar hızlı satıldığını ve temiz bir örneğin bulunabilirliğini birlikte değerlendiriyor.',
+    items: [
+      { car: 'toyota-corolla-hybrid-2026', text: 'Türkiye’de ikinci el denince akla gelen ilk isimlerden biri Corolla. Efsanevi güvenilirliği, düşük tüketimi ve geniş alıcı kitlesi sayesinde satışa koyduğunuz gün telefonunuz susmuyor. Hibrit versiyonlar akaryakıt fiyatları arttıkça daha da aranır hâle geliyor.' },
+      { car: 'honda-civic-sedan-2026', text: 'Civic, Türkiye’nin en sevilen sedanlarından biri ve ikinci elde bunu çok net hissettiriyor. Hem sürüş keyfi arayan gençler hem de güvenilirlik arayan aileler tarafından aranması, değer kaybını sınıfının en düşüklerinden biri yapıyor.' },
+      { car: 'fiat-egea-sedan-2026', text: 'Egea mükemmel bir otomobil değil; ama ikinci elde satması sabah simit almak kadar kolay. Her bütçeden alıcısı, ucuz parçası ve yaygın servisi sayesinde değerini şaşırtıcı derecede iyi koruyor.' },
+      { car: 'toyota-hilux-2023', text: 'Hilux, kırılmaz ünüyle hem iş dünyasının hem de arazi tutkunlarının gözdesi. Yüksek kilometrelerde bile alıcı bulması ve değerini koruması, onu ikinci elde en güvenli yatırımlardan biri yapıyor.' },
+      { car: 'bmw-3-serisi-2026', text: 'Premium segmentte değerini en iyi koruyan modellerin başında 3 Serisi geliyor. Türkiye’ye özel vergi avantajlı 1.6 motoru ve güçlü marka imajı, ikinci elde geniş bir alıcı kitlesi yaratıyor.' },
+      { car: 'volkswagen-golf-2026', text: 'Golf, Türkiye’de neredeyse her zaman alıcısı olan bir model. Temiz ve bakımlı bir Golf’ü satmak çok kolay; değer kaybı da sınıfının ortalamasının belirgin şekilde altında.' },
+      { car: 'volkswagen-passat-2020', text: 'Passat Türkiye’de bir statü sembolü olmaya devam ediyor. Geniş kabini, konforu ve güçlü marka algısı sayesinde ikinci elde çok aranıyor ve değerini sınıfının en iyi koruyan sedanlarından biri.' },
+      { car: 'mercedes-benz-c-serisi-2026', text: 'C Serisi, premium sedan arayanların ilk durağı. Mercedes yıldızının ikinci el piyasasındaki gücü sayesinde hem kolay satılıyor hem de değerini iyi koruyor; temiz, bakımlı örnekler özellikle aranıyor.' },
+      { car: 'renault-clio-2026', text: 'Listeyi Türkiye’nin en sevilen şehir otomobillerinden Clio tamamlıyor. Bursa üretimi, ucuz bakım ve her yaşa hitap eden yapısı sayesinde ikinci elde çok hızlı alıcı buluyor.' },
+    ],
+    sections: [
+      {
+        title: 'Üretimi bitmiş otomobiller: değeri korunabilir, hatta artabilir',
+        paragraphs: [
+          'İkinci el piyasasında ilginç bir durum var: bazı otomobillerin üretimi sona erdiğinde değerleri düşmek yerine korunabiliyor, hatta zamanla artabiliyor. Özellikle elektrifikasyonla birlikte atmosferik ve büyük hacimli motorlar, manuel şanzımanlar ve saf sürüş odaklı spor otomobiller giderek azalıyor. Yerine yenisi gelmeyen bu otomobiller, tutkunların ve koleksiyoncuların ilgisini çekiyor.',
+          'Örneğin atmosferik V10 motoruyla Audi R8 ve Lamborghini Huracán, orta motorlu dört silindirli 718 Cayman, Jaguar’ın son saf spor otomobili F-Type ve 2023’te üretimi biten Audi TT bu açıdan dikkat çekici modeller. Elbette her üretimi biten otomobilin değeri artmıyor; bu potansiyeli taşıyanlar genellikle sınırlı sayıda üretilmiş, karakterli ve sürüş tutkunlarının sevdiği modeller.',
+        ],
+        list: [
+          'Değeri korunabilecek bir örnek arıyorsanız düşük kilometreli, orijinal ve bakım geçmişi belgeli olanları tercih edin.',
+          'Modifiye edilmiş veya boyalı parçaları çok olan örnekler bu potansiyeli büyük ölçüde kaybeder.',
+          'Bu bir yatırım tavsiyesi değildir; piyasa koşulları değişebilir ve değer artışı garanti değildir.',
+        ],
+        cars: ['audi-r8-2023', 'lamborghini-huracan-evo-2021', 'porsche-718-cayman-2023', 'jaguar-f-type-2023', 'audi-tt-2007'],
+      },
+      {
+        title: 'Değer kaybını azaltmanın yolları',
+        list: [
+          'Periyodik bakımları yetkili ya da güvenilir bir serviste yaptırın ve faturalarını saklayın.',
+          'Hasar ve boya geçmişini olabildiğince temiz tutun; Türkiye’de tramer kaydı fiyatı doğrudan etkiliyor.',
+          'Beyaz, gri, siyah gibi yaygın renkler ikinci elde daha kolay satılıyor.',
+          'Yaygın motor ve donanım seçenekleri, nadir versiyonlara göre daha geniş alıcı kitlesine hitap ediyor.',
+          'Elektrikli otomobillerin içten yanmalılara göre daha hızlı değer kaybettiğini unutmayın.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'arkadan-itisli-ulasilabilir-otomobiller',
+    stats: ['surus', 'guvenilirlik', 'ikinciel'],
+    title: 'Arkadan İtişli, Ulaşılabilir Otomobiller',
+    subtitle: 'Gerçek sürüş keyfini makul bütçelerle yaşatan, arkadan itişli 10 otomobil',
+    description:
+      'Arkadan itişli, ulaşılabilir otomobiller: BMW 1 Serisi, 3 Serisi, Mazda MX-5, Kia Stinger, Ford Mustang ve daha fazlası. Türkiye’de makul bütçeyle alınabilecek en keyifli arkadan itişli otomobiller.',
+    date: '2026-10-05',
+    dateLabel: '5 Ekim 2026',
+    intro: [
+      'Bugün satılan otomobillerin büyük çoğunluğu önden çekişli. Bu, alan ve maliyet açısından mantıklı; ama sürüş keyfi söz konusu olduğunda arkadan itişin yeri başka. Ön tekerlekler yalnızca yön verirken arka tekerleklerin gücü yere aktarması, direksiyona daha saf bir his, virajlarda daha dengeli bir gövde ve gaz pedalıyla otomobili yönlendirebilme keyfi sağlıyor.',
+      'Bu rehberde, arkadan itişin keyfini makul bütçelerle, çoğunlukla ikinci el piyasasında yaşayabileceğiniz 10 otomobili topladık. Sıralamayı yaklaşık bütçeye göre, en ulaşılabilir olandan başlayarak yaptık.',
+    ],
+    method:
+      'Listedeki otomobillerin hepsi arkadan itişli. Sıralama bir başarı sıralaması değil; ikinci el piyasasındaki yaklaşık bütçeye göre, en ulaşılabilir olandan başlayarak düzenlendi.',
+    items: [
+      { car: 'bmw-1-serisi-2016', text: 'Arkadan itişe en uygun fiyatlı giriş kapılarından biri. Kompakt sınıfta neredeyse herkes önden çekişliyken 1 Serisi direksiyonda o dengeli BMW hissini veriyor. Ekonomik dizel motoru günlük kullanımı da kolaylaştırıyor; yalnız DPF ve F kasa BMW’lerdeki iç plastik erimesine dikkat etmek gerekiyor.' },
+      { car: 'bmw-2-serisi-coupe-2015', text: '218i Coupé, arkadan itişi şık bir coupé gövdesiyle sunuyor. Motoru ekonomik ve yeterli; asıl keyif şasinin dengesinden geliyor. İkinci elde mantıklı bütçelerle bulunabiliyor.' },
+      { car: 'mazda-mx-5-2016', text: 'Arkadan itişin en saf hâli: hafif bir roadster, mükemmel bir manuel şanzıman ve açık tavan. Gücü yüksek değil ama ihtiyacı da yok; MX-5 her virajı bir eğlenceye dönüştürüyor. Güvenilirliği de bonus.' },
+      { car: 'bmw-3-serisi-2013', text: 'F30 kasa 320i, arkadan itişli bir sedanın pratikliğini makul bir bütçeyle sunuyor. Ekonomik 1.6 motor günlük kullanımda yeterli; şasi ise sınıfının hâlâ en keyiflilerinden. Bakım geçmişi belli örnekleri tercih edin.' },
+      { car: 'mercedes-benz-c-serisi-2015', text: 'Arkadan itişin keyfini konforla birleştirmek isteyenler için C 200 d çok mantıklı. Sportif olmaktan çok rahat bir otomobil; ama arkadan itişli şasinin dengesi uzun yolda da kendini hissettiriyor. Üstelik çok az yakıyor.' },
+      { car: 'bmw-3-serisi-2012', text: '328i, performans arayanların arkadan itişli favorisi. 245 beygirlik motoru zaten çok güçlü, potansiyeli bunun da üzerinde. Düşük kilometreli ve bakımlı örneklerden ilerlemek şart.' },
+      { car: 'bmw-3-serisi-2019', text: 'G20 kasa 320i, bizim deneyimimize göre ufak modifikasyonlarla bir M otomobilinin seviyesine yaklaşabiliyor; üstelik yarı fiyatına. Standart hâliyle bile sınıfının en keyifli sedanlarından ve bakımı yapıldığında kronik sorunları yok denecek kadar az.' },
+      { car: 'kia-stinger-2019', text: 'Stinger, arkadan itişli bir gran turismoyu Avrupalı rakiplerinden çok daha uygun bir bütçeyle sunuyor. Karizmatik tasarımı, güçlü motoru ve geniş bagajıyla hem günlük kullanılabilir hem de keyifli.' },
+      { car: 'ford-mustang-2018', text: 'Muscle car ruhunu arkadan itişle birlikte yaşamak isteyenler için Mustang. 2.3 EcoBoost motor şaşırtıcı derecede güçlü; ikonik tasarımı ise her yerde başları çeviriyor.' },
+      { car: 'bmw-z4-2020', text: 'Listenin en pahalılarından ama ne olduğunu sorarsanız: çok ama çok başarılı. Rijit kasası, hafif gövdesi, 258 beygirlik motoru ve ZF’nin 8 ileri şanzımanıyla Z4 hem roadster keyfi hem de modern teknoloji sunuyor; yanlama ve drift işlerinde de son derece başarılı.' },
+    ],
+    sections: [
+      {
+        title: 'Elektrikli arkadan itişliler',
+        paragraphs: [
+          'Arkadan itiş yalnızca içten yanmalı otomobillere özgü değil. Birçok elektrikli otomobilin tek motorlu versiyonu arkadan itişli; anlık tork sayesinde bu otomobiller hem çevik hem de çok keyifli. Cupra Born, arkadan itişli Tesla Model Y ve BMW i4 bu açıdan dikkat çekici seçenekler.',
+        ],
+        cars: ['cupra-born-2023', 'tesla-model-y-2023', 'bmw-i4-2023'],
+      },
+      {
+        title: 'Arkadan itişli otomobil alırken bilmeniz gerekenler',
+        list: [
+          'Arkadan itişli otomobiller kar ve buzda önden çekişlilere göre daha dikkatli kullanım ister; kış lastiği çok önemli.',
+          'Elektronik denge sistemini (ESP) tamamen kapatmak yalnızca kapalı alanlarda ve pistte mantıklıdır.',
+          'Arka lastikler daha hızlı aşınabilir; lastik bütçesini hesaba katın.',
+          'İkinci el alırken diferansiyel, arka süspansiyon ve şanzıman geçmişini kontrol ettirin; drift amaçlı kullanılmış örneklerden uzak durun.',
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'en-guvenilir-otomobiller',
+    stats: ['guvenilirlik', 'ikinciel', 'yakit'],
+    title: 'En Güvenilir Otomobiller',
+    subtitle: 'Uzun yıllar sorunsuz kullanılabilecek, kronik sorunu az ve bakımı kolay otomobiller',
+    description:
+      'En güvenilir otomobiller: kronik sorunları az, uzun vadede dayanıklı ve bakımı kolay modeller. Toyota, Lexus, Honda, Mazda, Porsche, Suzuki ve Kia’dan güvenilirlik puanı en yüksek otomobiller.',
+    date: '2026-10-05',
+    dateLabel: '5 Ekim 2026',
+    intro: [
+      'Bir otomobilin ne kadar güvenilir olduğu, ilk yıllarda değil, garanti bittikten sonra ortaya çıkar. Kronik bir şanzıman ya da motor sorunu, satın alırken kazandığınız her şeyi tek bir faturada geri alabilir. Bu yüzden güvenilirlik, özellikle otomobilini uzun yıllar kullanmayı düşünenler için en önemli kriterlerden biri.',
+      'Bu rehberde, güvenilirlik puanımıza göre en sorunsuz otomobilleri seçtik. Toyota ve grubundaki Lexus’un güvenilirlikteki üstünlüğü bir sır değil; ama listeyi tek markadan ibaret bırakmak yerine, farklı markalardan güvenle önerebileceğimiz modelleri de dahil ettik.',
+    ],
+    method:
+      'Sıralamada incelemelerimizdeki Güvenilirlik puanını kullandık. Bu puan; bilinen kronik sorunları, motor, şanzıman, şasi ve yürüyen aksamın uzun vadeli dayanıklılığını değerlendiriyor. Listeyi çeşitlendirmek için aynı markadan en fazla iki model aldık; Lexus’u Toyota’dan ayrı bir marka olarak değerlendirdik.',
+    items: [
+      { car: 'lexus-es-2022', text: 'Lexus, güvenilirlik araştırmalarında yıllardır en üst sıralarda yer alıyor ve ES 300h bunun en iyi örneklerinden. Toyota’nın kanıtlanmış hibrit sistemi, kusursuz işçilikle birleşince ortaya hem lüks hem de neredeyse dert çıkarmayan bir sedan çıkıyor.' },
+      { car: 'toyota-hilux-2023', text: '“Kırılmaz” ünü boşuna değil. Hilux, zorlu koşullarda yüz binlerce kilometre çalışacak şekilde tasarlanmış basit ve sağlam bir mekaniğe sahip. Yüksek kilometreli örnekler bile güvenle alınabiliyor.' },
+      { car: 'toyota-corolla-hybrid-2026', text: 'Corolla Hybrid için “bakımını yap, gerisini unut” demek abartı olmaz. Toyota’nın hibrit sistemi dünyanın dört bir yanında taksi filolarında yüz binlerce kilometre yapıyor ve hâlâ şaşırtacak kadar az sorun çıkarıyor.' },
+      { car: 'honda-cr-v-2020', text: 'Honda’nın güvenilirliği Toyota’yla yarışıyor. CR-V, geniş kabini ve dört çekeriyle uzun yıllar sorunsuz kullanılabilecek bir aile SUV’u. Düzenli bakımla yüksek kilometrelere rahatlıkla ulaşıyor.' },
+      { car: 'mazda-mx-5-2016', text: 'Bir spor otomobilin güvenilir olabileceğinin en güzel kanıtı. MX-5’in basit atmosferik motoru ve manuel şanzımanı neredeyse hiç sorun çıkarmıyor; düşük bakım maliyetiyle uzun yıllar keyif veriyor.' },
+      { car: 'honda-hr-v-2023', text: 'HR-V’nin e:HEV hibrit sistemi, Honda’nın güvenilirlik geleneğini sürdürüyor. Basit ve dayanıklı yapısıyla şehir içinde yıllarca sorunsuz kullanılabilecek bir C-SUV.' },
+      { car: 'mazda-cx-5-2023', text: 'Mazda, turbo ve karmaşık şanzımanlar yerine atmosferik motor ve klasik tam otomatik şanzımanı tercih ederek güvenilirlikte fark yaratıyor. CX-5 bu felsefenin bir aile SUV’undaki en iyi örneği.' },
+      { car: 'porsche-911-carrera-s-2022', text: 'Bir süper spor otomobilin güvenilirlik listesinde yer alması şaşırtıcı gelebilir; ama 911, kalitesi ve sağlam mühendisliğiyle günlük kullanımda bile şaşırtıcı derecede sorunsuz. Bakımları pahalı olsa da kronik sorunları oldukça az.' },
+      { car: 'suzuki-swift-2026', text: 'Basitliğin gücü: Swift’in hafif yapısı ve sade mekaniği, uzun vadede çok az sorun çıkarıyor. Ucuz bakım ve parça maliyetiyle güvenilir bir ilk otomobil arayanlar için çok mantıklı.' },
+      { car: 'kia-niro-2023', text: 'Kia’nın uzun garantisi, markanın kendi ürünlerine olan güveninin bir göstergesi. Niro’nun hibrit sistemi hem verimli hem de dayanıklı; listeyi tamamlayan güçlü bir aile seçeneği.' },
+    ],
+    sections: [
+      {
+        title: 'Güvenilir bir otomobili nasıl anlarsınız?',
+        list: [
+          'Yeni ve karmaşık teknolojiler yerine kanıtlanmış motor ve şanzımanları tercih edin.',
+          'Atmosferik motorlar ve klasik tam otomatik şanzımanlar, uzun vadede genellikle turbo motorlar ve kuru kavramalı çift kavramalı şanzımanlardan daha az sorun çıkarır.',
+          'Satın almadan önce o modelin bilinen kronik sorunlarını araştırın; “Kronik Sorunu Bilinen Motorlar” rehberimiz bu konuda yardımcı olabilir.',
+          'En güvenilir otomobil bile bakımı ihmal edilirse sorun çıkarır; servis geçmişi en az model kadar önemlidir.',
+        ],
+      },
+    ],
+  },
 ];
 
 export function getGuide(slug) {
