@@ -89,7 +89,13 @@ export default function ComparePage() {
   const add = (slug) => go([...slugs, slug].slice(0, MAX_COMPARE));
   const remove = (slug) => go(slugs.filter((s) => s !== slug));
 
-  const cols = `minmax(8.5rem, 11rem) repeat(${Math.max(cars.length, 1)}, minmax(11rem, 1fr))`;
+  // Masaüstünde: solda başlık sütunu + araç sütunları.
+  // Mobilde: başlık satırın üstüne geçer, araçlar ekran genişliğine sığacak şekilde yan yana dizilir.
+  const n = Math.max(cars.length, 1);
+  const gridStyle = { '--n': n, '--cols': `minmax(8.5rem, 11rem) repeat(${n}, minmax(0, 1fr))` };
+  const gridCls =
+    'grid gap-x-3 sm:gap-x-4 [grid-template-columns:repeat(var(--n),minmax(0,1fr))] sm:[grid-template-columns:var(--cols)]';
+  const labelCls = 'col-span-full sm:col-span-1';
   const verdict = compareVerdict(cars);
 
   return (
@@ -116,22 +122,22 @@ export default function ComparePage() {
       )}
 
       {cars.length > 0 && (
-        <div className="mt-8 overflow-x-auto -mx-4 px-4">
-          <div className="min-w-max sm:min-w-0">
+        <div className="mt-8">
+          <div>
             {/* Araç başlıkları */}
-            <div className="grid gap-4 items-end pb-4 border-b border-rule" style={{ gridTemplateColumns: cols }}>
-              <div />
+            <div className={`${gridCls} items-end pb-4 border-b border-rule`} style={gridStyle}>
+              <div className="hidden sm:block" />
               {cars.map((c, i) => (
                 <div key={c.slug}>
-                  <CarImage car={c} className="h-28 bg-mist rounded-lg" />
+                  <CarImage car={c} className="h-20 sm:h-28 bg-mist rounded-lg" />
                   <div className="mt-3 flex items-start gap-2">
                     <span className="mt-1.5 w-3 h-3 rounded-full shrink-0" style={{ background: COMPARE_COLORS[i] }} aria-hidden="true" />
                     <div className="min-w-0">
-                      <Link to={`/inceleme/${c.slug}`} className="font-semibold leading-snug hover:text-link">{carName(c)}</Link>
-                      <p className="text-sm text-muted truncate">{c.version}</p>
+                      <Link to={`/inceleme/${c.slug}`} className="text-sm sm:text-base font-semibold leading-snug hover:text-link">{carName(c)}</Link>
+                      <p className="text-xs sm:text-sm text-muted truncate">{c.version}</p>
                     </div>
                   </div>
-                  <div className="mt-2 flex items-center justify-between gap-2">
+                  <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
                     <ScoreBadge score={c.score} size="md" />
                     <button type="button" onClick={() => remove(c.slug)} className="text-sm text-muted hover:text-ink">Çıkar</button>
                   </div>
@@ -142,6 +148,18 @@ export default function ComparePage() {
 
             {cars.length >= 2 && (
               <>
+                {/* Mobilde sayfa kayarken hangi sütunun hangi araç olduğu üstte görünür */}
+                <div
+                  className={`${gridCls} sm:hidden sticky top-28 z-10 bg-white/95 backdrop-blur border-b border-rule py-2 mt-2`}
+                  style={gridStyle}
+                >
+                  {cars.map((c, i) => (
+                    <div key={c.slug} className="flex items-center gap-1.5 min-w-0">
+                      <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ background: COMPARE_COLORS[i] }} aria-hidden="true" />
+                      <span className="text-xs font-semibold truncate">{c.make} {c.model}</span>
+                    </div>
+                  ))}
+                </div>
                 {verdict && (
                   <section className="mt-8 bg-mist rounded-xl p-5 sm:p-6 max-w-4xl" aria-labelledby="h-hangisi">
                     <h2 id="h-hangisi" className="font-display text-2xl font-bold">Hangisini almalı?</h2>
@@ -159,19 +177,19 @@ export default function ComparePage() {
                   {CRITERIA.map((cr) => {
                     const best = bestRating(cr.key, cars);
                     return (
-                      <div key={cr.key} className="grid gap-4 py-3 border-b border-rule items-center" style={{ gridTemplateColumns: cols }}>
-                        <div className="font-semibold">{cr.label}</div>
+                      <div key={cr.key} className={`${gridCls} gap-y-1 py-3 border-b border-rule items-center`} style={gridStyle}>
+                        <div className={`${labelCls} font-semibold text-sm sm:text-base`}>{cr.label}</div>
                         {cars.map((c, i) => (
                           <div key={c.slug} className={`tabular-nums ${best.includes(i) ? 'font-bold text-good' : ''}`}>
                             {formatScore(c.ratings[cr.key])}
-                            {best.includes(i) && <span className="ml-1.5 text-xs font-semibold">✓ önde</span>}
+                            {best.includes(i) && <span className="ml-1 text-xs font-semibold">✓<span className="hidden sm:inline"> önde</span></span>}
                           </div>
                         ))}
                       </div>
                     );
                   })}
-                  <div className="grid gap-4 py-3 border-b-2 border-ink items-center" style={{ gridTemplateColumns: cols }}>
-                    <div className="font-display text-lg font-bold">Genel puan</div>
+                  <div className={`${gridCls} gap-y-1 py-3 border-b-2 border-ink items-center`} style={gridStyle}>
+                    <div className={`${labelCls} font-display text-lg font-bold`}>Genel puan</div>
                     {cars.map((c) => <div key={c.slug} className="font-display text-lg font-bold tabular-nums">{formatScore(c.score)}</div>)}
                   </div>
                 </section>
@@ -181,10 +199,10 @@ export default function ComparePage() {
                   {SPEC_ROWS.map((row) => {
                     const best = bestIndexes(row, cars);
                     return (
-                      <div key={row.key} className="grid gap-4 py-3 border-b border-rule items-start text-[15px]" style={{ gridTemplateColumns: cols }}>
-                        <div className="text-muted">{row.label}</div>
+                      <div key={row.key} className={`${gridCls} gap-y-1 py-3 border-b border-rule items-start text-sm sm:text-[15px]`} style={gridStyle}>
+                        <div className={`${labelCls} text-muted`}>{row.label}</div>
                         {cars.map((c, i) => (
-                          <div key={c.slug} className={best.includes(i) ? 'font-bold text-good' : ''}>
+                          <div key={c.slug} className={`break-words ${best.includes(i) ? 'font-bold text-good' : ''}`}>
                             {row.show(c, priceLabel)}
                           </div>
                         ))}
@@ -195,18 +213,18 @@ export default function ComparePage() {
 
                 <section className="mt-10" aria-labelledby="h-arti">
                   <h2 id="h-arti" className="font-display text-2xl font-bold border-b border-rule pb-3">Artılar ve eksiler</h2>
-                  <div className="grid gap-4 py-4" style={{ gridTemplateColumns: cols }}>
-                    <div className="text-muted">Beğendiklerimiz</div>
+                  <div className={`${gridCls} gap-y-2 py-4`} style={gridStyle}>
+                    <div className={`${labelCls} text-muted`}>Beğendiklerimiz</div>
                     {cars.map((c) => (
-                      <ul key={c.slug} className="list-disc pl-5 space-y-1 text-[15px] marker:text-good">
+                      <ul key={c.slug} className="list-disc pl-4 sm:pl-5 space-y-1 text-sm sm:text-[15px] marker:text-good">
                         {c.pros.map((p) => <li key={p}>{p}</li>)}
                       </ul>
                     ))}
                   </div>
-                  <div className="grid gap-4 py-4 border-t border-rule" style={{ gridTemplateColumns: cols }}>
-                    <div className="text-muted">Beğenmediklerimiz</div>
+                  <div className={`${gridCls} gap-y-2 py-4 border-t border-rule`} style={gridStyle}>
+                    <div className={`${labelCls} text-muted`}>Beğenmediklerimiz</div>
                     {cars.map((c) => (
-                      <ul key={c.slug} className="list-disc pl-5 space-y-1 text-[15px] marker:text-bad">
+                      <ul key={c.slug} className="list-disc pl-4 sm:pl-5 space-y-1 text-sm sm:text-[15px] marker:text-bad">
                         {c.cons.length ? c.cons.map((p) => <li key={p}>{p}</li>) : <li className="list-none -ml-5 text-muted">Kayda değer bir eksik bulamadık.</li>}
                       </ul>
                     ))}
