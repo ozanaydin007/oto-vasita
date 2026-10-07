@@ -5,7 +5,7 @@ import { getCar, getCategory, carsInCategory } from '../data/cars.js';
 import { CRITERIA } from '../data/criteria.js';
 import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
 import { buildEditorial, buildReview } from '../lib/review.js';
-import CarImage, { PhotoCredit, InteriorPhoto } from '../components/CarImage.jsx';
+import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
 import { comparePath } from '../lib/compare.js';
 import StarRating from '../components/StarRating.jsx';
@@ -157,7 +157,6 @@ export default function ReviewPage() {
             <PhotoCredit car={car} className="mt-2" />
           </figcaption>
         </figure>
-        <InteriorPhoto car={car} />
       </header>
 
       <div className="mt-12 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] items-start">
