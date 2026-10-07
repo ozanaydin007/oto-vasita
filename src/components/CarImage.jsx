@@ -1,5 +1,5 @@
 import { useId, useState, useEffect } from 'react';
-import { useCarPhoto } from '../lib/wikiImage.js';
+import { useCarPhoto, useInteriorPhoto } from '../lib/wikiImage.js';
 
 // Gövde tiplerine göre yandan silüetler (fotoğrafı bulunamayan araçlar için)
 const BODIES = {
@@ -115,5 +115,31 @@ export default function CarImage({ car, className = '' }) {
         <Silhouette type={car.bodyType} label={label} />
       )}
     </div>
+  );
+}
+
+// İnceleme sayfasındaki iç mekân fotoğrafı (bulunamazsa hiç görünmez)
+export function InteriorPhoto({ car }) {
+  const photo = useInteriorPhoto(car);
+  const [failed, setFailed] = useState(false);
+  if (!photo || failed) return null;
+  return (
+    <figure className="mt-4">
+      <img
+        src={photo.src}
+        alt={`${car.year} ${car.make} ${car.model} iç mekân`}
+        loading="lazy"
+        decoding="async"
+        onError={() => setFailed(true)}
+        className="w-full h-56 sm:h-72 object-cover rounded-xl bg-mist"
+      />
+      <figcaption className="text-xs text-muted leading-snug mt-2">
+        <span className="font-semibold text-ink-soft">İç mekân.</span> Fotoğraf:{' '}
+        <a href={photo.page} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-link">
+          {photo.author}
+        </a>
+        {photo.license ? `, ${photo.license}` : ''}, Wikimedia Commons üzerinden. Görsel, incelenen versiyondan farklı bir donanım veya model yılına ait olabilir.
+      </figcaption>
+    </figure>
   );
 }
