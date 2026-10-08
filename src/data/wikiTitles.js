@@ -228,6 +228,7 @@ export const WIKI_FIX = {
   'mg-zs-2021': ['MG ZS', 'de:MG ZS', 'MG ZS (2017)'],
   'hyundai-accent-era-2008': ['de:Hyundai Accent (MC)', 'Hyundai Accent'],
   // Yanlış nesli gösterenler
+  'audi-a5-sedan-2026': ['Audi A5'],
   'bmw-2-serisi-gran-coupe-2025': ['de:BMW F74', 'de:BMW 2er Gran Coupé', 'BMW 2 Series Gran Coupé'],
   'bmw-3-serisi-2026': ['de:BMW G20', 'BMW 3 Series (G20)'],
   'skoda-superb-2020': ['de:Škoda Superb III', 'Škoda Superb'],
@@ -243,4 +244,21 @@ export const WIKI_FIX = {
 // Belirli bir Commons dosyası kullanmak istenenler (makaleden önce gelir)
 export const WIKI_FILES = {
   'cupra-formentor-2026': 'Cupra_Formentor_Facelift_IMG_0666.jpg',
+  'bmw-3-serisi-2026': 'BMW_G20_(2022)_IMG_7316.jpg',
+  'audi-a3-sedan-2021': 'Audi_A3_8Y_Sedan_IMG_3577.jpg',
+  'audi-s3-sportback-2021': 'Audi_S3_Sportback_(2024)_(54707448102).jpg',
+  'mercedes-amg-cla-45-s-2023': 'Mercedes-AMG_CLA_45_S_4MATIC+_(C118)_1X7A1736.jpg',
+  'audi-a5-sportback-2023': 'Audi_A5_Sportback_F5_FL_1X7A7086.jpg',
+  'audi-a4-sedan-2021': 'Audi_A4_B9_sedans_(FL)_1X7A6816.jpg',
+  'mercedes-amg-c-63-s-2021': 'MERCEDES-AMG_C_63_(W205).jpg',
+  'toyota-corolla-hybrid-2026': 'Toyota_Corolla_sedan_E210_hydrid.jpg',
+  'toyota-corolla-2021': 'TOYOTA_COROLLA_SEDAN_(E210)_China_(9).jpg',
+  'tesla-model-y-performance-2024': 'Tesla_Model_Y_1X7A6211.jpg',
+  'cupra-leon-2024': 'Cupra_Leon_Mk4_Facelift_DSC_8487.jpg',
+  'hyundai-i20-n-2022': 'Hyundai_i20_N_IMG_5400.jpg',
+  'mini-cooper-s-2018': '2018_Mini_Hatch_(F56)_Cooper_S_IMG_4393.jpg',
+  'seat-ibiza-2026': '2026_SEAT_Ibiza_FR_6F_Auto_Zuerich_2025_DSC_3589.jpg',
+  'opel-corsa-2026': '2023_Opel_Corsa_F_IMG_8800_(cropped).jpg',
+  'opel-corsa-2021': 'Opel_Corsa_F_IMG_2464.jpg',
+  'nissan-qashqai-2015': '2014_Nissan_Qashqai_(J11)_Ti_wagon_(16468730682).jpg',
 };
