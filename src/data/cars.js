@@ -1,5 +1,6 @@
 import { overallScore, weightedAverage, slugify } from '../lib/scoring.js';
 import { WIKI_TITLES, WIKI_FIX, WIKI_FILES } from './wikiTitles.js';
+import { EXTRA_SPECS } from './specsExtra.js';
 
 // ---------------------------------------------------------------------------
 // KATEGORİLER
@@ -3637,7 +3638,7 @@ const withScores = RAW_CARS.map((car) => {
     slug,
     wiki: WIKI_FIX[slug] ?? car.wiki ?? WIKI_TITLES[slug],
     wikiFile: car.wikiFile ?? WIKI_FILES[slug],
-    specs: { ...car.specs, menzil: car.specs?.menzil ?? electricRange(car) },
+    specs: { ...EXTRA_SPECS[slug], ...car.specs, menzil: car.specs?.menzil ?? electricRange(car) },
     score: overallScore(car.ratings),
   };
 });

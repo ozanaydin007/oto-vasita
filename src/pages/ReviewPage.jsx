@@ -15,8 +15,13 @@ import useTitle from '../lib/useTitle.js';
 
 const SPEC_LABELS = [
   ['motor', 'Motor ve güç'],
+  ['tork', 'Maksimum tork'],
+  ['cekis', 'Çekiş sistemi'],
   ['hizlanma', '0–100 km/s'],
+  ['azami', 'Azami sürat'],
   ['tuketim', 'Tüketim'],
+  ['depo', 'Yakıt deposu'],
+  ['agirlik', 'Boş ağırlık'],
   ['bagaj', 'Bagaj hacmi'],
 ];
 
@@ -219,6 +224,9 @@ export default function ReviewPage() {
                 ) : null
               )}
             </dl>
+            <p className="mt-3 text-xs text-muted leading-snug">
+              Teknik veriler üretici kataloglarına dayanan yaklaşık değerlerdir; versiyona, donanıma ve model yılına göre farklılık gösterebilir.
+            </p>
           </section>
         </div>
 
