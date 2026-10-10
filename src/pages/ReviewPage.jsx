@@ -7,6 +7,7 @@ import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
 import { buildEditorial, buildReview } from '../lib/review.js';
 import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
+import RadarChart from '../components/RadarChart.jsx';
 import { comparePath } from '../lib/compare.js';
 import StarRating from '../components/StarRating.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
@@ -16,6 +17,7 @@ import useTitle from '../lib/useTitle.js';
 const SPEC_LABELS = [
   ['motor', 'Motor ve güç'],
   ['tork', 'Maksimum tork'],
+  ['gucAgirlik', 'Güç/ağırlık'],
   ['cekis', 'Çekiş sistemi'],
   ['hizlanma', '0–100 km/s'],
   ['azami', 'Azami sürat'],
@@ -40,6 +42,9 @@ function Scorecard({ car }) {
           </span>
           <span className="font-display text-lg font-semibold text-star">{scoreVerdict(car.score)}</span>
         </div>
+      </div>
+      <div className="px-4 pt-5 pb-2 border-b border-rule">
+        <RadarChart cars={[car]} />
       </div>
       <ul className="divide-y divide-rule">
         {CRITERIA.map((c) => {

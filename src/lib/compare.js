@@ -80,6 +80,7 @@ export const SPEC_ROWS = [
   { key: 'hp', label: 'Motor gücü', better: 'high', value: (c) => c.hp, show: (c) => (c.hp != null ? `${c.hp} bg` : '—') },
   { key: 'motor', label: 'Motor', show: (c) => c.specs?.motor || '—' },
   { key: 'tork', label: 'Maksimum tork', better: 'high', value: (c) => num(c.specs?.tork), show: (c) => c.specs?.tork || '—' },
+  { key: 'gucAgirlik', label: 'Güç/ağırlık', better: 'high', value: (c) => c.specs?.gucAgirlikSayi ?? null, show: (c) => c.specs?.gucAgirlik || '—' },
   { key: 'cekis', label: 'Çekiş', show: (c) => c.specs?.cekis || '—' },
   { key: 'hizlanma', label: '0–100 km/s', better: 'low', value: (c) => numDec(c.specs?.hizlanma), show: (c) => c.specs?.hizlanma || '—' },
   { key: 'azami', label: 'Azami sürat', better: 'high', value: (c) => num(c.specs?.azami), show: (c) => c.specs?.azami || '—' },

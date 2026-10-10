@@ -33,7 +33,7 @@ export default function RadarChart({ cars }) {
 
   return (
     <figure>
-      <svg viewBox="0 0 400 350" className="w-full max-w-md mx-auto" role="img" aria-label="Puan karşılaştırma grafiği">
+      <svg viewBox="0 0 400 350" className="w-full max-w-md mx-auto" role="img" aria-label="Puan grafiği">
         {[6, 7, 8, 9, 10].map((v) => (
           <polygon key={v} points={ring(v)} fill="none" stroke="#d6d9de" strokeWidth="1" />
         ))}

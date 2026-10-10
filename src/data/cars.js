@@ -3627,6 +3627,35 @@ function electricRange(car) {
 }
 
 // ---------------------------------------------------------------------------
+// ÇEKİŞ ve GÜÇ/AĞIRLIK
+// ---------------------------------------------------------------------------
+export const DRIVE_LABELS = {
+  fwd: 'Önden çekiş (FWD)',
+  rwd: 'Arkadan itiş (RWD)',
+  awd: 'Sürekli dört çeker (AWD)',
+  '4wd': 'Dört çeker (4WD)',
+};
+
+function driveKey(text = '') {
+  if (/4WD/.test(text)) return '4wd';
+  if (/AWD/.test(text)) return 'awd';
+  if (/RWD/.test(text)) return 'rwd';
+  if (/FWD/.test(text)) return 'fwd';
+  return null;
+}
+
+// Beygir başına düşen ağırlık ve ton başına beygir
+function withPowerToWeight(car, specs) {
+  const kg = Number(String(specs.agirlik || '').replace(/\D/g, ''));
+  if (car.hp && kg) {
+    const perTon = Math.round(car.hp / (kg / 1000));
+    const kgPerHp = (kg / car.hp).toFixed(1).replace('.', ',');
+    return { ...specs, gucAgirlik: `${perTon} bg/ton (${kgPerHp} kg/bg)`, gucAgirlikSayi: perTon };
+  }
+  return specs;
+}
+
+// ---------------------------------------------------------------------------
 // Otomatik alanlar: slug, genel puan ve kategori içi sıra
 // ---------------------------------------------------------------------------
 const withScores = RAW_CARS.map((car) => {
@@ -3638,7 +3667,8 @@ const withScores = RAW_CARS.map((car) => {
     slug,
     wiki: WIKI_FIX[slug] ?? car.wiki ?? WIKI_TITLES[slug],
     wikiFile: car.wikiFile ?? WIKI_FILES[slug],
-    specs: { ...EXTRA_SPECS[slug], ...car.specs, menzil: car.specs?.menzil ?? electricRange(car) },
+    specs: withPowerToWeight(car, { ...EXTRA_SPECS[slug], ...car.specs, menzil: car.specs?.menzil ?? electricRange(car) }),
+    drive: driveKey(EXTRA_SPECS[slug]?.cekis ?? car.specs?.cekis),
     score: overallScore(car.ratings),
   };
 });

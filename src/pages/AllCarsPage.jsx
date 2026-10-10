@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { SlidersHorizontal, X } from 'lucide-react';
-import { CARS, CATEGORIES, getCategory } from '../data/cars.js';
+import { CARS, CATEGORIES, getCategory, DRIVE_LABELS } from '../data/cars.js';
 import { CRITERIA } from '../data/criteria.js';
 import { formatScore, priceLabel } from '../lib/scoring.js';
 import CarImage from '../components/CarImage.jsx';
@@ -24,13 +24,14 @@ const SORTS = [
   { key: 'fiyat', label: 'Fiyat (ucuzdan pahalıya)' },
   { key: 'fiyat-azalan', label: 'Fiyat (pahalıdan ucuza)' },
   { key: 'beygir', label: 'Motor gücü (güçlüden)' },
+  { key: 'gucagirlik', label: 'Güç/ağırlık oranı (yüksekten)' },
   { key: 'yil', label: 'Model yılı (yeniden eskiye)' },
   { key: 'menzil', label: 'Elektrikli menzil (uzundan)' },
   { key: 'marka', label: 'Marka ve model (A–Z)' },
   ...CRITERIA.map((c) => ({ key: `b-${c.key}`, label: `${c.label} puanı (yüksekten)` })),
 ];
 
-const LIST_KEYS = ['kat', 'marka', 'durum', 'yakit', 'vites', 'kasa'];
+const LIST_KEYS = ['kat', 'marka', 'durum', 'yakit', 'vites', 'kasa', 'cekis'];
 const NUM_KEYS = ['fmin', 'fmax', 'ymin', 'ymax', 'bg', 'puan', 'bp'];
 
 function readFilters(params) {
@@ -57,6 +58,7 @@ function matches(car, f, skip) {
   if (skip !== 'yakit' && f.yakit.length && !f.yakit.includes(car.fuel)) return false;
   if (skip !== 'vites' && f.vites.length && !f.vites.includes(car.gearbox)) return false;
   if (skip !== 'kasa' && f.kasa.length && !f.kasa.includes(car.bodyType)) return false;
+  if (skip !== 'cekis' && f.cekis.length && !f.cekis.includes(car.drive)) return false;
   if (f.fmin != null && (car.price == null || car.price < f.fmin)) return false;
   if (f.fmax != null && (car.price == null || car.price > f.fmax)) return false;
   if (f.ymin != null && car.year < f.ymin) return false;
@@ -83,6 +85,7 @@ function sortCars(list, key) {
     case 'fiyat': return out.sort((a, b) => nullsLast(a, b, (c) => c.price, 1) || tie(a, b));
     case 'fiyat-azalan': return out.sort((a, b) => nullsLast(a, b, (c) => c.price, -1) || tie(a, b));
     case 'beygir': return out.sort((a, b) => nullsLast(a, b, (c) => c.hp, -1) || tie(a, b));
+    case 'gucagirlik': return out.sort((a, b) => nullsLast(a, b, (c) => c.specs?.gucAgirlikSayi ?? null, -1) || tie(a, b));
     case 'yil': return out.sort((a, b) => b.year - a.year || tie(a, b));
     case 'menzil': {
       const km = (c) => (c.fuel === 'Elektrik' || c.fuel === 'Şarj edilebilir hibrit') ? Number((c.specs?.menzil?.match(/~?(\d+)/) || [])[1]) || null : null;
@@ -224,6 +227,7 @@ export default function AllCarsPage() {
   f.yakit.forEach((v) => chips.push({ label: v, clear: { yakit: f.yakit.filter((x) => x !== v) } }));
   f.vites.forEach((v) => chips.push({ label: v, clear: { vites: f.vites.filter((x) => x !== v) } }));
   f.kasa.forEach((v) => chips.push({ label: BODY_LABELS[v], clear: { kasa: f.kasa.filter((x) => x !== v) } }));
+  f.cekis.forEach((v) => chips.push({ label: DRIVE_LABELS[v] || v, clear: { cekis: f.cekis.filter((x) => x !== v) } }));
   if (f.fmin != null) chips.push({ label: `En az ${f.fmin.toLocaleString('tr-TR')} TL`, clear: { fmin: null } });
   if (f.fmax != null) chips.push({ label: `En çok ${f.fmax.toLocaleString('tr-TR')} TL`, clear: { fmax: null } });
   if (f.ymin != null) chips.push({ label: `${f.ymin} ve sonrası`, clear: { ymin: null } });
@@ -292,6 +296,14 @@ export default function AllCarsPage() {
           options={['Otomatik', 'Manuel'].map((x) => ({ value: x, label: x, count: count('vites', (c) => c.gearbox === x) }))}
           selected={f.vites}
           onToggle={(v) => toggle('vites', v)}
+        />
+      </Group>
+
+      <Group title="Çekiş sistemi">
+        <CheckList
+          options={Object.entries(DRIVE_LABELS).map(([k, label]) => ({ value: k, label, count: count('cekis', (c) => c.drive === k) }))}
+          selected={f.cekis}
+          onToggle={(v) => toggle('cekis', v)}
         />
       </Group>
 
