@@ -61,7 +61,6 @@ export default function RadarChart({ cars }) {
           />
         ))}
       </svg>
-      <figcaption className="text-xs text-muted text-center mt-1">Grafik, farkları daha net göstermek için 5–10 aralığını kullanır.</figcaption>
     </figure>
   );
 }

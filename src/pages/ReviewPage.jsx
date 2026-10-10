@@ -156,13 +156,16 @@ export default function ReviewPage() {
           <div className="mt-4">
             <CompareToggle car={car} />
           </div>
-          <p className="mt-5 text-[15px]">
-            <Link to={`/kategori/${category.slug}`} className="text-link hover:underline underline-offset-2">
-              {category.title}
-            </Link>{' '}
-            listesinde <strong className="font-semibold">{car.rank}. sırada</strong>
-          </p>
-          <p className="mt-1 text-[15px]">
+          {/* Sıralama yalnızca kategorisinin ilk 10'undaki araçlarda gösterilir */}
+          {car.rank <= 10 && (
+            <p className="mt-5 text-[15px]">
+              <Link to={`/kategori/${category.slug}`} className="text-link hover:underline underline-offset-2">
+                {category.title}
+              </Link>{' '}
+              listesinde <strong className="font-semibold">{car.rank}. sırada</strong>
+            </p>
+          )}
+          <p className={`${car.rank <= 10 ? 'mt-1' : 'mt-5'} text-[15px]`}>
             {car.price != null ? (
               <>Başlangıç fiyatı <strong className="font-semibold">{priceLabel(car)}</strong></>
             ) : (
