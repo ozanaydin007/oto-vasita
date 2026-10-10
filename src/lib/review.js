@@ -91,29 +91,12 @@ function rangeKm(car) {
 
 function powerSentence(car) {
   const hp = car.hp;
-  const s = seconds(car);
   if (hp == null) return '';
-  if (hp >= 400) {
-    return s
-      ? `${hp} beygirlik güç, 0–100 km/s hızlanmasını ${s} saniyede bitiriyor ve bu his gerçekten nefes kesici.`
-      : `${hp} beygirlik güç her gaz darbesinde sizi koltuğa yapıştırıyor.`;
-  }
-  if (hp >= 200) {
-    return s
-      ? `${hp} beygirlik motor 0–100 km/s’yi ${s} saniyede tamamlıyor ve her durumda güçlü hissettiriyor.`
-      : `${hp} beygirlik motor her durumda güçlü hissettiriyor.`;
-  }
-  if (hp >= 130) {
-    return s
-      ? `${hp} beygirlik motor 0–100 km/s’yi ${s} saniyede tamamlıyor; günlük kullanımda fazlasıyla yeterli.`
-      : `${hp} beygirlik motor günlük kullanımda fazlasıyla yeterli.`;
-  }
-  if (hp >= 100) {
-    return `${hp} beygirlik motor şehirde yeterli, ancak dolu araçla otoyolda sollama yaparken biraz planlı olmak gerekiyor.`;
-  }
-  return s
-    ? `${hp} beygirlik motor bu gövde için zayıf kalıyor; 0–100 km/s hızlanması ${s} saniye sürüyor.`
-    : `${hp} beygirlik motor bu gövde için zayıf kalıyor.`;
+  if (hp >= 400) return 'Gaza her dokunuşunuzda sizi koltuğa yapıştıran bir güç var; açık konuşalım, bu his insanı gerçekten bağımlı yapıyor.';
+  if (hp >= 200) return 'Motor her durumda güçlü hissettiriyor; sollamalar için hiç plan yapmanıza gerek kalmıyor.';
+  if (hp >= 130) return 'Motoru günlük kullanımda fazlasıyla yeterli; ne şehirde ne otoyolda “keşke biraz daha güçlü olsaydı” diyorsunuz.';
+  if (hp >= 100) return 'Motor şehirde yeterli, ama dolu bir araçla otoyolda sollama yaparken biraz planlı olmak gerekiyor.';
+  return 'Motor bu gövde için zayıf kalıyor; özellikle yokuşlarda ve dolu araçla bunu belirgin biçimde hissediyorsunuz.';
 }
 
 // ---------------------------------------------------------------------------
@@ -195,43 +178,43 @@ const TEXT = {
   tuketim: {
     mukemmel: [
       (c) => isEV(c)
-        ? `Enerji verimliliği olağanüstü. ${c.specs.tuketim} civarındaki tüketim sayesinde şarj istasyonu aramak aklınıza bile gelmiyor. ${rangeKm(c)}`
-        : `Arabayı kullanırken yakıt almayı neredeyse unutuyorsunuz, o kadar iyi. Ortalama tüketim ${c.specs.tuketim} civarında; bu rakam sınıfı için gerçekten etkileyici.`,
+        ? 'Enerji verimliliği olağanüstü; şarj istasyonu aramak aklınıza bile gelmiyor. Menzil kaygısını bu kadar az yaşatan elektrikli az bulunur.'
+        : 'Bu otomobili kullanırken yakıt almayı neredeyse unutuyorsunuz, o kadar az yakıyor. Sınıfı düşünüldüğünde tüketimi gerçekten etkileyici.',
       (c) => isEV(c)
-        ? `Sınıfının en verimli elektriklilerinden. ${c.specs.tuketim} civarındaki tüketimle menzil kaygısı yaşamıyorsunuz. ${rangeKm(c)}`
-        : `Deposunu doldurduktan sonra benzin istasyonlarının önünden umursamadan geçip gidiyorsunuz. ${c.specs.tuketim} civarındaki ortalama tüketim, işletme maliyetini en aza indiriyor.`,
+        ? 'Sınıfının en verimli elektriklilerinden; günlük kullanımda menzil hesabı yapmanıza gerek kalmıyor.'
+        : 'Deposunu doldurduktan sonra benzin istasyonlarının önünden umursamadan geçip gidiyorsunuz; işletme maliyeti en düşük otomobillerden biri.',
     ],
     cokiyi: [
       (c) => isEV(c)
-        ? `Enerji verimliliği çok iyi; ${c.specs.tuketim} civarındaki tüketim günlük kullanımda menzil hesabı yapmanızı gerektirmiyor. ${rangeKm(c)}`
-        : `Tüketim konusunda cüzdanınızı yormuyor. Karma kullanımda ${c.specs.tuketim} civarında değerler görmek mümkün.`,
+        ? 'Enerji verimliliği çok iyi; şehir içi ve kısa yolculuklarda menzil hesabı yapmanızı gerektirmiyor.'
+        : 'Tüketim konusunda cüzdanınızı yormuyor; karma kullanımda bile sınıfının en ekonomikleri arasında.',
       (c) => isEV(c)
-        ? `Verimlilik sınıfının üstünde. ${rangeKm(c)}`
-        : `Depo uzun süre dayanıyor; ${c.specs.tuketim} seviyesindeki ortalama tüketim, yakıt masrafını düşük tutuyor.`,
+        ? 'Verimliliği sınıfının üstünde; uzun yolda bile şarj molaları can sıkıcı olmuyor.'
+        : 'Depo uzun süre dayanıyor; yakıt masrafını düşük tutmak isteyenleri memnun edecek bir otomobil.',
     ],
     iyi: [
       (c) => isEV(c)
-        ? `Verimlilik iyi seviyede; ${c.specs.tuketim} civarındaki tüketimle günlük kullanım rahat. ${rangeKm(c)}`
-        : `Tüketim makul seviyede; karma kullanımda ${c.specs.tuketim} civarında bekleyebilirsiniz.`,
+        ? 'Verimlilik iyi seviyede; günlük kullanımda rahatça yetiyor, uzun yolda ise biraz planlama istiyor.'
+        : 'Tüketimi makul; ne şaşırtıyor ne de dert oluyor.',
     ],
     orta: [
       (c) => isEV(c)
-        ? `Verimlilik ortalama. ${c.specs.tuketim} civarındaki tüketim, gerçek kullanımda menzili açıklanan değerin altına çekiyor. ${rangeKm(c)}`
+        ? 'Verimlilik ortalama; gerçek kullanımda menzil açıklanan değerin belirgin şekilde altına inebiliyor.'
         : c.hp >= 400
-          ? `Bu performansın bir bedeli var: ${c.specs.tuketim} civarındaki tüketimi göze almak gerekiyor. Yine de gücüne göre şaşırtıcı derecede makul.`
-          : `Tüketim ortalama. ${c.specs.tuketim} civarındaki değerler kabul edilebilir, ama rakiplerin bir kısmı daha az yakıyor.`,
+          ? 'Bu performansın bir bedeli var ve tüketimi göze almak gerekiyor; yine de gücüne göre şaşırtıcı derecede makul.'
+          : 'Tüketimi ortalama; kabul edilebilir ama rakiplerin bir kısmı daha az yakıyor.',
     ],
     zayif: [
       (c) => isEV(c)
-        ? `Verimlilik bu otomobilin güçlü tarafı değil; ${c.specs.tuketim} civarındaki tüketim menzili hızla eritiyor. ${rangeKm(c)}`
+        ? 'Verimlilik bu otomobilin güçlü tarafı değil; hızlı sürüşte menzil gözle görülür biçimde eriyor.'
         : c.hp >= 400
-          ? `Bu performansın bedeli yakıt faturasında çıkıyor. Ortalama ${c.specs.tuketim} civarında; hızlı sürüşte bu rakam çok daha yükseğe çıkıyor.`
-          : `Yakıt tüketimi yüksek. ${c.specs.tuketim} civarındaki ortalama, özellikle şehir içinde benzin istasyonunu sık ziyaret etmenize neden oluyor.`,
+          ? 'Bu performansın bedeli yakıt faturasında çıkıyor; hızlı sürüşte tüketim çok daha yükseğe çıkıyor.'
+          : 'Yakıt tüketimi yüksek; özellikle şehir içinde benzin istasyonunu sık ziyaret ediyorsunuz.',
     ],
     kotu: [
       (c) => c.hp >= 400
-        ? `Tüketim tam bir süper otomobil tüketimi: ortalama ${c.specs.tuketim} ve hızlı sürüşte bunun çok üzerine çıkıyor. Bu otomobili alan birinin buna aldırmayacağını tahmin ediyoruz.`
-        : `Tüketim ciddi bir dezavantaj. ${c.specs.tuketim} seviyesindeki ortalamayla her gün kullanmak cüzdanı yoruyor.`,
+        ? 'Tüketim tam bir süper otomobil tüketimi; ama bu otomobili alan birinin buna aldıracağını sanmıyoruz.'
+        : 'Tüketim ciddi bir dezavantaj; her gün kullanmak cüzdanı yoruyor.',
     ],
   },
   malzeme: {
@@ -370,12 +353,12 @@ function sortedCriteria(car) {
 function verdict(car) {
   const s = car.score;
   const name = `${car.make} ${car.model}`;
-  if (s >= 9) return `Sonuç olarak ${name}, kategorisinin zirvesinde yer alan ve bizi neredeyse hiçbir konuda hayal kırıklığına uğratmayan bir otomobil. Gönül rahatlığıyla öneriyoruz.`;
-  if (s >= 8.3) return `Sonuç olarak ${name}, kolayca önerebileceğimiz ve sınıfının en iyileri arasında yer alan bir otomobil.`;
-  if (s >= 7.5) return `Sonuç olarak ${name}, güçlü yanları zayıf yanlarından ağır basan, mantıklı bir tercih.`;
-  if (s >= 6.5) return `Sonuç olarak ${name} belirli ihtiyaçlar için mantıklı olabilir, ama almadan önce rakiplerini de mutlaka test sürüşüyle deneyin.`;
-  if (s >= 5.5) return `Sonuç olarak ${name}, ancak bütçesi çok kısıtlı olanlara önerebileceğimiz bir otomobil.`;
-  return `Sonuç olarak ${name} günlük kullanım için önermediğimiz bir otomobil. Nostalji ya da çok düşük bütçe tek kriterinizse bir göz atılabilir.`;
+  if (s >= 9) return `Kısacası ${name}, kategorisinin zirvesinde ve bizi neredeyse hiçbir konuda hayal kırıklığına uğratmıyor. Bir arkadaşımız sorsa gözümüzü kırpmadan öneririz.`;
+  if (s >= 8.3) return `Kısacası ${name}, sınıfının en iyileri arasında ve gönül rahatlığıyla önerebileceğimiz bir otomobil.`;
+  if (s >= 7.5) return `Kısacası ${name}, güçlü yanları zayıf yanlarından ağır basan, mantıklı bir tercih. Bizce almadan önce eksilerinin sizin için ne kadar önemli olduğunu tartmanız yeterli.`;
+  if (s >= 6.5) return `Kısacası ${name} belirli ihtiyaçlar için mantıklı olabilir; ama almadan önce rakiplerini de mutlaka test sürüşüyle deneyin.`;
+  if (s >= 5.5) return `Kısacası ${name}, ancak bütçesi çok kısıtlı olanlara önerebileceğimiz bir otomobil.`;
+  return `Kısacası ${name} günlük kullanım için önermediğimiz bir otomobil. Nostalji ya da çok düşük bütçe tek kriterinizse bir göz atılabilir.`;
 }
 
 // Editörün görüşü altındaki ek paragraf

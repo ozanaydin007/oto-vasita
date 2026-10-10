@@ -79,7 +79,7 @@ function reviewParagraphs(car, review) {
   if (Array.isArray(car.longReview) && car.longReview.length) return car.longReview;
   const byKey = Object.fromEntries(review.sections.map((s) => [s.key, s.text]));
   return [
-    review.intro,
+    car.review?.giris ? review.intro : null,
     ...PARAGRAPH_GROUPS.map((g) => g.map((k) => byKey[k]).filter(Boolean).join(' ')),
     review.conclusion,
   ].filter(Boolean);

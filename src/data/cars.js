@@ -1047,7 +1047,7 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbodizel, 102 bg, 6 ileri manuel', hizlanma: '10,2 sn', tuketim: '3,8 L/100 km', bagaj: '309 L' },
     ratings: { surus: 7.7, guvenlik: 7.3, konfor: 7.4, tuketim: 10.0, malzeme: 7.0, tasarim: 7.8, fiyat: 8.4, teknoloji: 6.8, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Düz yolda 90 km/s’de 2,3 L/100 km’ye inen tüketim (kendi ölçümümüz)', 'Güçlü ara hızlanma (tork)', 'Hafif kasa ve dizel motorun mükemmel uyumu', 'Yumuşak ve hafif direksiyon'],
-    cons: ['Yaklaşık 40 litrelik küçük yakıt deposu', 'Fazla sade iç mekân (deri koltuk seçeneği fark yaratıyor)', 'Dizel motor rölantide sesli', 'Dar sürücü ayak boşluğu (botla sürmek zor)', 'Manuel vites geçişleri zaman zaman sarsıntılı', 'Multimedya ve CarPlay bağlantısı sık kopuyor', 'Uzun yol otomobili değil'],
+    cons: ['Fazla sade iç mekân (deri koltuk seçeneği fark yaratıyor)', 'Dar sürücü ayak boşluğu (botla sürmek zor)', 'Manuel vites geçişleri zaman zaman sarsıntılı', 'Multimedya ve CarPlay bağlantısı sık kopuyor'],
     review: {
       tuketim: 'Bu otomobilin en etkileyici yanı kesinlikle tüketimi. Düz yolda hızı 90 km/s’ye sabitlediğimizde motor 1.500 devir civarında dönüyor ve yol bilgisayarında 2,3 L/100 km gördük. Uzun ve düz bir yolda bu tür komik denebilecek rakamlara ulaşmak gerçekten mümkün. 1.5 dizel motor hafif kasayla birleşince ortaya inanılmaz bir sonuç çıkıyor. Tek eksik yakıt deposu: segmenti gereği yaklaşık 40 litre yakıt alabiliyorsunuz. 50–60 litrelik bir depoya sahip olsaydı, bu kombinasyon sizi ayda yalnızca bir kez akaryakıt istasyonuna götürecek kadar ekonomik olurdu.',
     },
