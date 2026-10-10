@@ -4,7 +4,7 @@ import { ThumbsUp, ThumbsDown, ChevronDown } from 'lucide-react';
 import { getCar, getCategory, carsInCategory } from '../data/cars.js';
 import { CRITERIA } from '../data/criteria.js';
 import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
-import { buildEditorial, buildReview } from '../lib/review.js';
+import { buildReview } from '../lib/review.js';
 import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
 import RadarChart from '../components/RadarChart.jsx';
@@ -65,6 +65,26 @@ function Scorecard({ car }) {
   );
 }
 
+// Tam inceleme tek, akıcı bir metin olarak gösterilir.
+// Araçta longReview (elle yazılmış uzun inceleme) varsa doğrudan o kullanılır;
+// yoksa başlıklar birbiriyle ilgili konulara göre paragraflarda birleştirilir.
+const PARAGRAPH_GROUPS = [
+  ['surus', 'tuketim'],
+  ['konfor', 'malzeme', 'tasarim'],
+  ['teknoloji', 'guvenlik'],
+  ['guvenilirlik', 'ikinciel', 'fiyat'],
+];
+
+function reviewParagraphs(car, review) {
+  if (Array.isArray(car.longReview) && car.longReview.length) return car.longReview;
+  const byKey = Object.fromEntries(review.sections.map((s) => [s.key, s.text]));
+  return [
+    review.intro,
+    ...PARAGRAPH_GROUPS.map((g) => g.map((k) => byKey[k]).filter(Boolean).join(' ')),
+    review.conclusion,
+  ].filter(Boolean);
+}
+
 function FullReview({ car, category }) {
   const [open, setOpen] = useState(false);
   useEffect(() => setOpen(false), [car.slug]);
@@ -84,21 +104,10 @@ function FullReview({ car, category }) {
       </button>
 
       {open && (
-        <div id="tam-inceleme" className="mt-6 border-l-2 border-star pl-5 sm:pl-6 space-y-6 max-w-prose">
-          <p className="text-[17px] leading-relaxed">{review.intro}</p>
-          {review.sections.map((s) => (
-            <section key={s.key}>
-              <h3 className="font-display text-xl font-bold flex items-baseline justify-between gap-4">
-                {s.label}
-                <span className="text-base font-semibold tabular-nums text-ink-soft">{formatScore(s.score)} / 10</span>
-              </h3>
-              <p className="mt-1.5 text-[17px] leading-relaxed text-ink-soft">{s.text}</p>
-            </section>
+        <div id="tam-inceleme" className="mt-6 border-l-2 border-star pl-5 sm:pl-6 space-y-5 max-w-prose">
+          {reviewParagraphs(car, review).map((t, i) => (
+            <p key={i} className="text-[17px] leading-relaxed">{t}</p>
           ))}
-          <section>
-            <h3 className="font-display text-xl font-bold">Sonuç</h3>
-            <p className="mt-1.5 text-[17px] leading-relaxed">{review.conclusion}</p>
-          </section>
         </div>
       )}
     </div>
@@ -174,9 +183,8 @@ export default function ReviewPage() {
           <section>
             <h2 className="font-display text-2xl font-bold mb-3">Editörün görüşü</h2>
             <p className="text-lg leading-relaxed max-w-prose">{car.summary}</p>
-            <p className="text-lg leading-relaxed text-ink-soft max-w-prose mt-4">{buildEditorial(car)}</p>
             {/* Tam inceleme yalnızca kişisel notu olan araçlarda gösterilir */}
-            {(car.review || car.reviewExtra) && <FullReview car={car} category={category} />}
+            {(car.longReview || car.review || car.reviewExtra) && <FullReview car={car} category={category} />}
           </section>
 
           <section className="grid sm:grid-cols-2 gap-6">

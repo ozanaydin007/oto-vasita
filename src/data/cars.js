@@ -1046,15 +1046,24 @@ const RAW_CARS = [
     fuel: 'Dizel', gearbox: 'Manuel', hp: 102,
     specs: { motor: '1.5L turbodizel, 102 bg, 6 ileri manuel', hizlanma: '10,2 sn', tuketim: '3,8 L/100 km', bagaj: '309 L' },
     ratings: { surus: 7.7, guvenlik: 7.3, konfor: 7.4, tuketim: 10.0, malzeme: 7.0, tasarim: 7.8, fiyat: 8.4, teknoloji: 6.8, guvenilirlik: 7.6, ikinciel: 8.0 },
-    pros: ['Düz yolda 90 km/s’de 2,3 L/100 km’ye inen tüketim (kendi ölçümümüz)', 'Güçlü ara hızlanma (tork)', 'Hafif kasa ve dizel motorun mükemmel uyumu'],
-    cons: ['Yaklaşık 40 litrelik küçük yakıt deposu', 'Edition donanım sade', 'Dizel motor rölantide sesli', 'Dar sürücü ayak boşluğu (botla sürmek zor)'],
+    pros: ['Düz yolda 90 km/s’de 2,3 L/100 km’ye inen tüketim (kendi ölçümümüz)', 'Güçlü ara hızlanma (tork)', 'Hafif kasa ve dizel motorun mükemmel uyumu', 'Yumuşak ve hafif direksiyon'],
+    cons: ['Yaklaşık 40 litrelik küçük yakıt deposu', 'Fazla sade iç mekân (deri koltuk seçeneği fark yaratıyor)', 'Dizel motor rölantide sesli', 'Dar sürücü ayak boşluğu (botla sürmek zor)', 'Manuel vites geçişleri zaman zaman sarsıntılı', 'Multimedya ve CarPlay bağlantısı sık kopuyor', 'Uzun yol otomobili değil'],
     review: {
       tuketim: 'Bu otomobilin en etkileyici yanı kesinlikle tüketimi. Düz yolda hızı 90 km/s’ye sabitlediğimizde motor 1.500 devir civarında dönüyor ve yol bilgisayarında 2,3 L/100 km gördük. Uzun ve düz bir yolda bu tür komik denebilecek rakamlara ulaşmak gerçekten mümkün. 1.5 dizel motor hafif kasayla birleşince ortaya inanılmaz bir sonuç çıkıyor. Tek eksik yakıt deposu: segmenti gereği yaklaşık 40 litre yakıt alabiliyorsunuz. 50–60 litrelik bir depoya sahip olsaydı, bu kombinasyon sizi ayda yalnızca bir kez akaryakıt istasyonuna götürecek kadar ekonomik olurdu.',
     },
     reviewExtra: {
       tasarim: 'Sürücü tarafında ayak boşluğu çok dar; özellikle manuel versiyonda pedal kullanımı zorlaşıyor ve bot gibi kalın tabanlı ayakkabılarla sürmek neredeyse imkânsız hâle geliyor.',
     },
-    summary: 'Yakıt masrafı ön planda olan, çok yol yapan kullanıcılar için ikinci elde akıllı bir şehir otomobili.',
+    longReview: [
+      'Opel Corsa 1.5D benim ilk otomobilim. Üç yıl boyunca kullanma şansım oldu ve birlikte 65 bin kilometreyi devirdik. Bu yüzden bu yazı kısa bir test sürüşünün değil, gerçek bir sahiplik deneyiminin ürünü; iyisiyle kötüsüyle bu otomobili her gün yaşayan birinin gözünden yazıldı.',
+      'Bu sınıftaki bir otomobilden insan ilk bakışta çok bir şey beklemiyor tabii. Ama ilk sürüşte beni en çok etkileyen şey direksiyonun yumuşaklığı oldu. Şehir içinde park ederken ve dar sokaklarda manevra yaparken bu hafiflik büyük kolaylık sağlıyor; otomobili kullanmak hiç yorucu gelmiyor.',
+      'Trafikte ve dur-kalkta ise manuel şanzıman işin rengini biraz değiştiriyor. Çoğu durumda bir otomatiğe göre daha fazla uğraştırıyor ve vites geçişleri de mükemmel değil; zaman zaman sarsıntılı olabiliyor. Açık konuşmak gerekirse uzun yol otomobili de değil. Kısa ve orta mesafelerde rahat, ama saatlerce otoyolda gitmek için tasarlanmış bir otomobil olmadığını hissettiriyor.',
+      'Bu otomobilin asıl olayı ise tüketimi. Tek kelimeyle insanüstü; ben bu kadar az yakan bir otomobil görmedim. Düz yolda hızı 90 km/s’ye sabitlediğimde motor 1.500 devir civarında dönüyor ve yol bilgisayarında 2,3 L/100 km gördüm. 1.5 dizel motor hafif kasayla birleşince ortaya gerçekten inanılmaz bir sonuç çıkıyor. Tek eksiği yaklaşık 40 litrelik yakıt deposu; 50–60 litrelik bir depo olsaydı ayda bir kez istasyona uğramak yeterli olurdu. Amacınız az tüketim ve ekonomik sürüşse bu otomobil mutlaka alınmalı, o kadar net.',
+      'İç mekân idare eder ama fazla sade; bu da bence bir eksi. Deri koltuk seçeneğiyle alınırsa kabin çok daha iyi bir hava kazanıyor. Bir de bu kasadaki Opel’lerin hepsinde ortak olan bir sorun var: sürücü tarafında ayak alanı çok sınırlı. Büyük ayakkabıyla, özellikle botla sürmek gerçekten zor; manuel versiyonda pedalları kullanırken bunu daha da çok hissediyorsunuz.',
+      'Üç yılda bazı tuhaf elektronik sorunlar da yaşadım. Bir gün multimedya sistemini açma tuşu içeri göçtü; iğneyle düzelttim ama garip bir deneyimdi. Multimedya zaman zaman kendiliğinden kapanıyordu ve Apple CarPlay bağlamak neredeyse imkânsızdı; bağlantı sürekli gidip geliyor, kesiliyordu. En ilginci de cam düğmelerinin bir dönem ters çalışmasıydı: açmaya basınca cam kapanıyor, kapamaya basınca açılıyordu. Bunlar büyük masraf çıkaran arızalar değildi ama alırken multimedya ve elektronik aksamı mutlaka kontrol etmenizi öneririm.',
+      'Bütün bunlara rağmen bu otomobille deneyimlerimin çoğu çok iyiydi. İlk otomobilim olduğu için bende yeri hep ayrı olacak. Kime önerdiğime gelince: tamamen bütçe dostu bir öğrenci otomobili. Yakıt masrafını en aza indirmek isteyen, çoğunlukla şehir içinde ve kısa mesafelerde kullanacak, ilk otomobilini arayan herkes için çok mantıklı bir seçim. Sık uzun yol yapanlar, otomatik şanzıman konforu ya da sorunsuz bir multimedya isteyenler ise başka bir alternatife bakmalı.',
+    ],
+    summary: 'İlk otomobilim olarak üç yılda 65 bin km yaptığım, tüketimiyle insanı şaşırtan, tamamen bütçe dostu bir öğrenci otomobili.',
   },
   {
     make: 'Porsche', model: 'Taycan', year: 2026, version: 'Taycan (arkadan itiş)',
