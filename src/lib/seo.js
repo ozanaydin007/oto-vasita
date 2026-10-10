@@ -36,6 +36,14 @@ const STATIC = {
     title: titled('Otomobil karşılaştır'),
     description: 'Otomobilleri puanları, teknik verileri, menzilleri, artıları ve eksileriyle yan yana karşılaştırın. En fazla 3 aracı aynı anda kıyaslayın.',
   },
+  '/arac-bulucu': {
+    title: titled('Araç bulucu: Bana uygun aracı bul'),
+    description: 'Bütçenize, kullanımınıza ve önceliklerinize göre adım adım sorularla size en uygun otomobili bulun. Sonuçlar uyum yüzdesiyle sıralanır.',
+  },
+  '/editorun-secimi': {
+    title: titled('Editörün seçimi'),
+    description: 'Her hafta öne çıkardığımız üç otomobil ve onları neden seçtiğimiz: OtoVaro editörünün haftalık seçimleri.',
+  },
   '/rehber': {
     title: titled('Rehber'),
     description: 'Otomobil seçerken işinize yarayacak listeler, karşılaştırmalar ve pratik bilgiler: en az yakan otomobiller ve daha fazlası.',
@@ -180,6 +188,8 @@ export function allRoutes() {
     '/gizlilik',
     '/cerez-politikasi',
     '/ara',
+    '/arac-bulucu',
+    '/editorun-secimi',
     '/karsilastir',
     ...POPULAR_COMPARISONS.map((p) => `/karsilastir/${p.join('-vs-')}`),
     '/rehber',

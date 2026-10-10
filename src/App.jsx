@@ -12,6 +12,8 @@ import SearchPage from './pages/SearchPage.jsx';
 import Methodology from './pages/Methodology.jsx';
 import About from './pages/About.jsx';
 import ComparePage from './pages/ComparePage.jsx';
+import CarFinderPage from './pages/CarFinderPage.jsx';
+import EditorPicksPage from './pages/EditorPicksPage.jsx';
 import CompareTray from './components/CompareTray.jsx';
 import GuidesPage from './pages/GuidesPage.jsx';
 import GuidePage from './pages/GuidePage.jsx';
@@ -47,6 +49,8 @@ export default function App() {
           <Route path="/inceleme/:slug" element={<ReviewPage />} />
           <Route path="/ara" element={<SearchPage />} />
           <Route path="/puanlama" element={<Methodology />} />
+          <Route path="/arac-bulucu" element={<CarFinderPage />} />
+          <Route path="/editorun-secimi" element={<EditorPicksPage />} />
           <Route path="/karsilastir" element={<ComparePage />} />
           <Route path="/karsilastir/:pair" element={<ComparePage />} />
           <Route path="/rehber" element={<GuidesPage />} />

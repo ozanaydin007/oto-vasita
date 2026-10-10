@@ -6,7 +6,7 @@
 // - sections: serbest metin bölümleri (başlık + paragraflar)
 // Yazılar da yayın sırasında hazır HTML olarak üretilir ve site haritasına eklenir.
 // ---------------------------------------------------------------------------
-export const GUIDES = [
+const GUIDE_LIST = [
   {
     slug: 'en-az-yakan-10-otomobil',
     stats: ['tuketimSpec', 'tuketimPuan', 'yakit'],
@@ -657,6 +657,11 @@ export const GUIDES = [
     ],
   },
 ];
+
+// En yeni rehber en üstte (aynı tarihtekilerde sonradan eklenen önce)
+export const GUIDES = GUIDE_LIST.map((g, i) => ({ g, i }))
+  .sort((a, b) => b.g.date.localeCompare(a.g.date) || b.i - a.i)
+  .map(({ g }) => g);
 
 export function getGuide(slug) {
   return GUIDES.find((g) => g.slug === slug);

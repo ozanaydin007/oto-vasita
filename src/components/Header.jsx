@@ -58,6 +58,7 @@ export default function Header() {
         <nav aria-label="Kategoriler" className="flex gap-6 overflow-x-auto -mb-px">
           <NavLink to="/" end className={navClass}>Sıralamalar</NavLink>
           <NavLink to="/araclar" className={navClass}>Tüm araçlar</NavLink>
+          <NavLink to="/arac-bulucu" className={navClass}>Araç bulucu</NavLink>
           <NavLink to="/karsilastir" className={navClass}>Karşılaştır</NavLink>
           <NavLink to="/rehber" className={navClass}>Rehber</NavLink>
           {CATEGORIES.map((c) => (
