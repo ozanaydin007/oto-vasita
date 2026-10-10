@@ -175,7 +175,8 @@ export default function ReviewPage() {
             <h2 className="font-display text-2xl font-bold mb-3">Editörün görüşü</h2>
             <p className="text-lg leading-relaxed max-w-prose">{car.summary}</p>
             <p className="text-lg leading-relaxed text-ink-soft max-w-prose mt-4">{buildEditorial(car)}</p>
-            <FullReview car={car} category={category} />
+            {/* Tam inceleme yalnızca kişisel notu olan araçlarda gösterilir */}
+            {(car.review || car.reviewExtra) && <FullReview car={car} category={category} />}
           </section>
 
           <section className="grid sm:grid-cols-2 gap-6">
