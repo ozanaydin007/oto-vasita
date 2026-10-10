@@ -555,6 +555,107 @@ export const GUIDES = [
       },
     ],
   },
+  {
+    slug: 'ikinci-el-arac-alirken-kontrol-listesi',
+    title: 'İkinci El Araç Alırken Kontrol Listesi',
+    subtitle: 'Tramer, ekspertiz, kilometre, kronik sorunlar ve test sürüşü: ikinci el otomobil alırken adım adım nelere bakmalısınız?',
+    description:
+      'İkinci el araç alırken kontrol listesi: tramer ve hasar kaydı sorgulama, ekspertiz, kilometre kontrolü, borç ve haciz sorgusu, kronik sorunlar, test sürüşü ve noterde güvenli satış.',
+    date: '2026-10-10',
+    dateLabel: '10 Ekim 2026',
+    intro: [
+      'İkinci el otomobil almak, doğru yapıldığında sıfır bir otomobile göre ciddi tasarruf sağlıyor. Ama yanlış bir seçim; boyası gizlenmiş bir hasar, düşürülmüş bir kilometre ya da kronik bir şanzıman sorunu yüzünden kısa sürede büyük bir masrafa dönüşebiliyor.',
+      'Bu rehberde, ilanı ilk gördüğünüz andan noterde imzaya kadar hangi adımları atmanız gerektiğini sırasıyla topladık. Listeyi telefonunuza kaydedip otomobile bakmaya giderken yanınızda götürebilirsiniz.',
+    ],
+    sections: [
+      {
+        title: '1. Önce modeli araştırın, sonra ilana bakın',
+        paragraphs: [
+          'İkinci el alırken en büyük hata, önce ilana âşık olup modeli sonra araştırmak. Hangi modeli almak istediğinizi belirledikten sonra o modelin, hatta o motor ve şanzıman kombinasyonunun bilinen zayıf noktalarını öğrenin. Aynı modelin bir motoru çok sağlamken diğeri sorunlu olabiliyor.',
+        ],
+        list: [
+          'Motorun ve şanzımanın tam adını öğrenin (ör. 1.2 PureTech, 1.5 eTSI, DQ200 DSG, N13).',
+          'O kombinasyonun bilinen kronik sorunlarını ve hangi kilometrede ortaya çıktığını araştırın.',
+          'Değişmesi gereken periyodik parçaların (triger kayışı, DPF, çift kütleli volan) yaklaşık maliyetini öğrenin.',
+          'Aynı model ve kilometredeki ilanların ortalama fiyatını not alın; çok ucuz ilan genellikle bir şey saklıyor.',
+        ],
+      },
+      {
+        title: '2. Tramer ve hasar kaydını sorgulayın',
+        paragraphs: [
+          'Türkiye’de sigorta şirketlerinin ödediği hasarlar kayıt altında tutuluyor ve bu kayıtlar, Sigorta Bilgi ve Gözetim Merkezi (SBM) ile e-Devlet üzerinden sorgulanabiliyor. Satıcıdan plaka ya da şasi numarasını isteyip sorguyu otomobile bakmaya gitmeden önce yapın.',
+          'Tramer kaydı tek başına her şeyi anlatmaz: Sigortaya yansıtılmadan, cepten yaptırılan onarımlar kayıtta görünmez. Bu yüzden düşük ya da sıfır tramer kaydı, ekspertizi atlamak için bir sebep değildir. Tersine, kayıttaki tutar ile ekspertizde görülen boya ve değişenlerin birbiriyle uyumlu olması önemlidir.',
+        ],
+      },
+      {
+        title: '3. Kilometreyi ve geçmişi doğrulayın',
+        list: [
+          'e-Devlet’teki araç muayene bilgilerinden, her muayenede kaydedilen kilometreleri kontrol edin. Kilometrenin bir muayeneden diğerine düşmesi büyük bir uyarı işaretidir.',
+          'Yetkili servis kayıtlarını isteyin; servis kayıtlarındaki kilometreler de tutarlı olmalı.',
+          'Direksiyon, vites topuzu, pedallar ve sürücü koltuğundaki aşınma ile kilometrenin uyumlu olup olmadığına bakın.',
+          'İki anahtar, kullanım kılavuzu ve bakım faturaları gibi detaylar, otomobile iyi bakıldığının işaretidir.',
+        ],
+      },
+      {
+        title: '4. Borç, haciz ve rehin kontrolü',
+        paragraphs: [
+          'Otomobilin üzerinde vergi borcu, trafik cezası, haciz ya da rehin kaydı olup olmadığını satıştan önce mutlaka öğrenin. Haciz veya rehin kaydı olan bir otomobilin satışı sorun yaratabilir. Bu bilgileri satıcıdan e-Devlet çıktısı olarak isteyebilir, satışın yapılacağı noterde de kontrol ettirebilirsiniz.',
+        ],
+      },
+      {
+        title: '5. Bağımsız ekspertiz yaptırın',
+        paragraphs: [
+          'Ekspertiz, ikinci el alımında harcayacağınız en değerli paradır. Satıcının önerdiği değil, sizin seçtiğiniz bağımsız ve güvenilir bir ekspertize gidin. Raporu yalnızca okumakla kalmayın; mümkünse kontrol sırasında orada bulunun ve sorularınızı sorun.',
+        ],
+        list: [
+          'Kaporta: Boyalı ve değişen parçalar, özellikle tavan, direkler ve şasi bölgesi.',
+          'Motor: Yağ kaçağı, kompresyon, soğutma sistemi ve egzozdan gelen duman.',
+          'Şanzıman: Vites geçişleri, kavrama ve çift kavramalı şanzımanlarda kalkış davranışı.',
+          'Alt takım: Süspansiyon, burçlar, amortisörler ve fren sistemi.',
+          'Elektronik: Arıza kodları (OBD), multimedya, kameralar, sensörler ve tüm düğmeler.',
+          'Lastikler: Diş derinliği, üretim tarihi ve düzensiz aşınma (rot-balans sorununun işareti).',
+        ],
+      },
+      {
+        title: '6. Kronik sorunları özellikle kontrol ettirin',
+        paragraphs: [
+          'Ekspertizde genel kontrolün yanında, o modelin bilinen kronik sorunlarını ayrıca kontrol ettirin. Örneğin kuru kavramalı DSG’li araçlarda kalkış titremesi ve vites geçişleri, PureTech motorlarda triger kayışının değişim geçmişi, dizel araçlarda DPF’nin durumu, bazı BMW’lerde zamanlama zinciri sesi bu listenin başında geliyor. Her modelin kendine özgü zayıf noktalarını incelemelerimizdeki Beğenmediklerimiz bölümünde ve kronik sorunlar rehberimizde bulabilirsiniz.',
+        ],
+        cars: ['volkswagen-golf-2021', 'peugeot-408-2024', 'bmw-3-serisi-2013'],
+      },
+      {
+        title: '7. Test sürüşünü acele etmeden yapın',
+        list: [
+          'Motoru mümkünse soğukken çalıştırın; ilk çalıştırmadaki sesler ve titreşimler çok şey anlatır.',
+          'Şehir içi, dur-kalk ve otoyol hızlarını kapsayan en az 20–30 dakikalık bir sürüş yapın.',
+          'Direksiyonu bıraktığınızda otomobilin bir tarafa çekip çekmediğine bakın.',
+          'Sert frenlemede direksiyonda titreme ve otomobilde savrulma olmamalı.',
+          'Bozuk yollarda süspansiyondan ve kabinden gelen sesleri dinleyin.',
+          'Klima, ısıtma, camlar, multimedya ve kameralar dahil bütün donanımları tek tek deneyin.',
+        ],
+      },
+      {
+        title: '8. Pazarlık ve noterde güvenli satış',
+        paragraphs: [
+          'Ekspertiz raporunda çıkan her eksik, pazarlıkta elinizi güçlendirir. Yakın zamanda değişmesi gereken parçaların (lastik, fren, triger, DPF gibi) maliyetini hesaplayıp fiyattan düşülmesini isteyin.',
+          'İkinci el otomobil satışı noterde yapılıyor. Büyük tutarları elden ya da satıcının hesabına önceden göndermek yerine, noterlerin sunduğu güvenli ödeme sistemini kullanmak; paranın, devir tamamlandığında satıcıya geçmesini sağlayarak sizi korur.',
+        ],
+      },
+      {
+        title: 'Kısa kontrol listesi',
+        list: [
+          'Modelin ve motorun kronik sorunlarını araştırdım.',
+          'Tramer ve hasar kaydını sorguladım.',
+          'Muayene kayıtlarından kilometreyi doğruladım.',
+          'Borç, haciz ve rehin kaydını kontrol ettim.',
+          'Bağımsız ekspertiz yaptırdım ve raporu okudum.',
+          'Kronik sorunları ayrıca kontrol ettirdim.',
+          'En az 20 dakikalık test sürüşü yaptım.',
+          'Satışı noterde, güvenli ödeme sistemiyle yapacağım.',
+        ],
+      },
+    ],
+  },
 ];
 
 export function getGuide(slug) {

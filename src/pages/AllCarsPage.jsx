@@ -172,7 +172,7 @@ function ResultRow({ car }) {
           </div>
         </div>
         <div className="col-span-2 sm:col-span-1 flex sm:flex-col items-center sm:items-end justify-between gap-2">
-          <ScoreBadge score={car.score} size="md" />
+          <ScoreBadge score={car.score} size="md" car={car} />
           <span className={`text-sm tabular-nums ${car.price != null ? 'font-semibold' : 'text-muted'}`}>
             {priceLabel(car)}
           </span>

@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
-import { CATEGORIES, CARS, carsInCategory } from '../data/cars.js';
+import { CATEGORIES, CARS, carsInCategory, getCar } from '../data/cars.js';
+import { EDITOR_PICKS } from '../data/editorPicks.js';
+import MiniRadar from '../components/MiniRadar.jsx';
 import { CRITERIA } from '../data/criteria.js';
 import { formatScore } from '../lib/scoring.js';
 import CarImage from '../components/CarImage.jsx';
@@ -40,6 +42,45 @@ function RankingColumn({ category }) {
   );
 }
 
+function EditorPicks() {
+  const picks = EDITOR_PICKS.items.map((p) => ({ ...p, car: getCar(p.car) })).filter((p) => p.car);
+  if (picks.length === 0) return null;
+  return (
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-4" aria-labelledby="h-secim">
+      <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-rule pb-3">
+        <h2 id="h-secim" className="font-display text-3xl font-extrabold tracking-tight">Editörün seçimi</h2>
+        <span className="text-sm text-muted">{EDITOR_PICKS.week}</span>
+      </div>
+      <ul className="mt-6 grid gap-6 md:grid-cols-3">
+        {picks.map(({ car, text }) => (
+          <li key={car.slug} className="border border-rule rounded-xl overflow-hidden flex flex-col">
+            <Link to={`/inceleme/${car.slug}`} tabIndex={-1} aria-hidden="true">
+              <CarImage car={car} className="h-44 bg-mist" />
+            </Link>
+            <div className="p-5 flex flex-col flex-1">
+              <div className="flex items-start justify-between gap-3">
+                <h3 className="font-display text-xl font-bold leading-tight">
+                  <Link to={`/inceleme/${car.slug}`} className="hover:text-link">
+                    {car.year} {car.make} {car.model}
+                  </Link>
+                </h3>
+                <MiniRadar car={car} size={52} />
+              </div>
+              <p className="mt-3 text-[15px] leading-relaxed text-ink-soft flex-1">“{text}”</p>
+              <div className="mt-4 flex items-center justify-between gap-3">
+                <ScoreBadge score={car.score} />
+                <Link to={`/inceleme/${car.slug}`} className="text-link hover:underline underline-offset-2 text-[15px] inline-flex items-center gap-0.5">
+                  İncelemeyi oku <ChevronRight className="w-4 h-4" aria-hidden="true" />
+                </Link>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 export default function Home() {
   useTitle(null);
   const top = [...CARS].sort((a, b) => b.score - a.score).slice(0, 6);
@@ -54,6 +95,8 @@ export default function Home() {
           Her aracı sürüşten ikinci el değerine 10 başlıkta, 10 üzerinden puanlıyoruz. Sıralamalar bu puanların ağırlıklı ortalamasına göre belirleniyor.
         </p>
       </div>
+
+      <EditorPicks />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-14">
         {CATEGORIES.map((c) => (
@@ -75,7 +118,7 @@ export default function Home() {
                   <p className="text-sm text-muted truncate">{car.version}</p>
                 </div>
                 <div className="flex flex-col items-end gap-1.5">
-                  <ScoreBadge score={car.score} />
+                  <ScoreBadge score={car.score} car={car} />
                   <StarRating value={car.score} size={12} className="hidden sm:inline-flex" />
                 </div>
               </Link>

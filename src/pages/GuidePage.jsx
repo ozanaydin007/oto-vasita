@@ -13,6 +13,8 @@ const score = (key) => (car) => `${formatScore(car.ratings[key])} / 10`;
 const STATS = {
   tuketimSpec: { label: 'Katalog tüketimi', value: (car) => car.specs.tuketim },
   tuketimPuan: { label: 'Tüketim puanı', value: score('tuketim') },
+  surus: { label: 'Sürüş puanı', value: score('surus') },
+  genel: { label: 'Genel puan', value: (car) => `${formatScore(car.score)} / 10` },
   yakit: { label: 'Yakıt', value: (car) => car.fuel },
   bagaj: { label: 'Bagaj', value: (car) => car.specs.bagaj },
   guvenlik: { label: 'Güvenlik puanı', value: score('guvenlik') },
@@ -83,7 +85,7 @@ export default function GuidePage() {
                 </dl>
                 <p className="mt-4 text-[17px] leading-relaxed">{item.text}</p>
                 <div className="mt-3 flex flex-wrap items-center gap-3 text-[15px]">
-                  <ScoreBadge score={car.score} />
+                  <ScoreBadge score={car.score} car={car} />
                   <span className="text-muted">genel puan</span>
                   <Link to={`/inceleme/${car.slug}`} className="text-link hover:underline underline-offset-2">
                     İncelemenin tamamını oku

@@ -49,7 +49,7 @@ export default function CategoryPage() {
                     {car.used && <span className="ml-2 inline-block text-xs font-medium text-ink border border-star rounded px-1.5 py-px align-middle">İkinci el</span>}
                   </p>
                 </div>
-                <ScoreBadge score={car.score} size="md" />
+                <ScoreBadge score={car.score} size="md" car={car} />
               </div>
               <StarRating value={car.score} size={15} className="mt-3" />
               <p className="text-ink-soft mt-3 leading-relaxed max-w-prose">{car.summary}</p>
