@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { QUESTIONS, findCars } from '../lib/finder.js';
+import { activeQuestions, findCars } from '../lib/finder.js';
 import CarImage from '../components/CarImage.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
@@ -12,11 +12,17 @@ export default function CarFinderPage() {
   useTitle('Araç bulucu: Bana uygun aracı bul');
   const [step, setStep] = useState(0); // 0: giriş, 1..n: sorular, n+1: sonuç
   const [answers, setAnswers] = useState({});
-  const n = QUESTIONS.length;
-  const q = QUESTIONS[step - 1];
+  const questions = activeQuestions(answers);
+  const n = questions.length;
+  const q = questions[step - 1];
 
   const choose = (value) => {
-    setAnswers((a) => ({ ...a, [q.id]: value }));
+    setAnswers((a) => {
+      const next = { ...a, [q.id]: value };
+      // Atlanan sorulara önceden verilmiş cevaplar sonucu etkilemesin
+      for (const k of Object.keys(next)) if (!activeQuestions(next).some((x) => x.id === k)) delete next[k];
+      return next;
+    });
     setStep((s) => s + 1);
     window.scrollTo?.({ top: 0, behavior: 'smooth' });
   };
@@ -53,6 +59,11 @@ export default function CarFinderPage() {
         <p className="text-ink-soft mt-3 text-lg leading-relaxed">
           Cevaplarınıza göre en uygun {results.length} otomobil. Uyum yüzdesi, sizin önemli dediğiniz başlıklardaki puanlarına göre hesaplandı.
         </p>
+        {results.length === 0 && (
+          <p className="mt-6 bg-mist rounded-lg px-4 py-3 text-[15px]">
+            Bu model yılı, bütçe ve durum seçimine uyan bir otomobil henüz sitemizde yok. Model yılı veya bütçe cevabınızı değiştirerek tekrar deneyebilirsiniz.
+          </p>
+        )}
         {relaxed.length > 0 && (
           <p className="mt-4 bg-mist rounded-lg px-4 py-3 text-[15px]">
             Tüm kriterlerinize birebir uyan yeterli otomobil bulamadığımız için şu tercihleri esnettik: {relaxed.join(' · ')}

@@ -656,6 +656,54 @@ const GUIDE_LIST = [
       },
     ],
   },
+  {
+    slug: 'uzun-yol-icin-en-konforlu-otomobiller',
+    stats: ['konfor', 'tuketim', 'guvenilirlik'],
+    title: 'Uzun Yol İçin En Konforlu Otomobiller',
+    subtitle: 'Saatlerce direksiyon başında olsanız bile sizi yormayan, sessiz, yumuşak ve uzun menzilli otomobiller',
+    description:
+      'Uzun yol için en konforlu otomobiller: Mercedes S Serisi, BMW i7, Mercedes EQS, Audi A8 L, Lexus ES, Škoda Superb ve daha fazlası. Süspansiyon, koltuk, ses yalıtımı ve menzile göre seçtik.',
+    date: '2026-10-11',
+    dateLabel: '11 Ekim 2026',
+    intro: [
+      'Uzun yolda bir otomobilin ne kadar hızlı olduğu değil, varış noktasında sizi ne kadar dinlenmiş bıraktığı önemlidir. Bozuk asfaltı silen bir süspansiyon, beli destekleyen koltuklar, rüzgar ve lastik sesini dışarıda bırakan bir kabin ve sık mola verdirmeyen bir menzil; 500 kilometrelik bir yolculuğu keyfe dönüştüren şeyler bunlar.',
+      'Bu rehberde konfor puanımızı esas alarak uzun yol için en iyi otomobilleri seçtik. Süper spor otomobilleri, konfor puanları yüksek olsa bile listeye almadık; çünkü amacımız gerçekten uzun yolda yaşanacak bir otomobil önermek. Listenin sonunda daha ulaşılabilir bütçeler için de seçenekler var.',
+    ],
+    method:
+      'Sıralamada incelemelerimizdeki Konfor puanını esas aldık; süspansiyon, koltuklar, ses yalıtımı ve uzun yol menzili gibi uzun yola özgü kriterleri de değerlendirdik. Aynı modelin farklı yıllarını tek sırada saydık.',
+    items: [
+      { car: 'mercedes-benz-s-serisi-2022', text: 'Uzun yol konforunun ölçü birimi. Yolu önceden tarayan aktif süspansiyonu kasisleri ve çukurları neredeyse tamamen siliyor, akustik camları ve yoğun ses yalıtımıyla kabin bir meditasyon odası kadar sessiz. Arkada oturanlar için de ön koltuktakiler kadar keyifli bir yolculuk sunan nadir otomobillerden.' },
+      { car: 'bmw-i7-2024', text: 'Arka koltukta seyahat edenler için belki de dünyanın en iyi otomobillerinden. Yatak pozisyonuna gelen arka koltuk, havalı süspansiyon ve kütüphane sessizliğindeki kabin uzun bir yolculuğu uyuyarak geçirmeyi mümkün kılıyor. Arka aks yönlendirmesi de bu dev sedanı otoyolda bir ray üzerinde gidiyormuş gibi sakinleştiriyor.' },
+      { car: 'mercedes-benz-eqs-2022', text: 'Elektrikli bir otomobilin uzun yolda en büyük sorunu menzil olur; EQS ise bu sorunu neredeyse ortadan kaldırıyor. Dikkatli bir sürüşle tek şarjla yaklaşık 650 kilometre gidebiliyor. Motor sesi olmadan, akıcı ve sessiz bir şekilde kilometreleri eritmek uzun yolda ayrı bir dinginlik veriyor.' },
+      { car: 'audi-a8-l-2020', text: 'Uzatılmış şasisi sayesinde arka diz mesafesi devasa; quattro dört çeker ve havalı süspansiyonla her yol ve hava koşulunda aynı sakinlikte ilerliyor. İç mekânın işçiliği uzun yolda her detayı fark etmenize zaman tanıyor.' },
+      { car: 'land-rover-range-rover-sport-2023', text: 'Yüksek oturma pozisyonu, yumuşak havalı süspansiyonu ve sessiz kabiniyle Range Rover Sport, bir SUV’dan bekleyebileceğiniz en lüks uzun yol deneyimini sunuyor. Asfalt bittiğinde bile konforu bırakmaması onu benzersiz kılıyor.' },
+      { car: 'volvo-xc90-2023', text: 'Volvo’nun koltukları uzun yolda bel ve sırtı en iyi destekleyenlerden. Geniş ve aydınlık kabini, sakin sürüş karakteri ve üstün güvenlik donanımıyla özellikle aileyle yapılan uzun yolculuklar için çok mantıklı bir seçim.' },
+      { car: 'audi-a7-sportback-2020', text: 'Konforu inanılmaz seviyede; ön ve arka diz mesafesi etkileyici. Düşük tüketimi sayesinde uzun yolda depo da uzun süre dayanıyor. Hem şık hem de yolculuğu keyfe dönüştüren bir gran turismo.' },
+      { car: 'lexus-es-2022', text: 'Hibrit sistemiyle otoyolda bile düşük tüketen, son derece sessiz ve yumuşak bir sedan. Lexus’un efsanevi güvenilirliği de uzun yolda en önemli şeyi, yani kafa rahatlığını sağlıyor.' },
+      { car: 'bmw-5-serisi-2026', text: 'Konforla sürüş keyfini en iyi dengeleyen iş sedanı. Uzun yolda sakin ve sessiz; ama virajlı bir dağ yoluna girdiğinizde BMW karakterini de hemen hissettiriyor. Gelişmiş sürüş destek sistemleri uzun otoyol yolculuklarında yorgunluğu belirgin şekilde azaltıyor.' },
+      { car: 'skoda-superb-2020', text: 'Listenin fiyat/konfor şampiyonu. Superb çok ama çok konforlu; bozuk yollarda bile hiçbir sıkıntı yaşatmıyor ve kabine sarsıntı taşımıyor. Dev arka koltuğu ve bagajıyla uzun aile yolculuklarının ideal otomobili. Bu fiyat seviyesinde böyle bir konfor sunan başka bir otomobil bulmak gerçekten zor.' },
+    ],
+    sections: [
+      {
+        title: 'Daha ulaşılabilir bütçeler için konforlu seçenekler',
+        paragraphs: [
+          'Uzun yol konforu için mutlaka lüks bir otomobil almak gerekmiyor. Yeni nesil Škoda Superb, Superb’ün konfor geleneğini sürdürüyor. Citroën C5 Aircross, kademeli hidrolik destekli süspansiyonuyla “uçan halı” hissine yaklaşan bir yolculuk sunuyor; yalnız virajlarda gövdeyi fazla yatırdığını bilmek gerekiyor. Peugeot 408 ise masajlı koltuklarıyla uzun yolda sürücüyü şımartan detaylar sunuyor.',
+        ],
+        cars: ['skoda-superb-2026', 'citroen-c5-aircross-2022', 'peugeot-408-2024'],
+      },
+      {
+        title: 'Uzun yol konforunu ne belirler?',
+        list: [
+          'Süspansiyon: Havalı ya da adaptif süspansiyonlar bozuk yolları çok daha iyi süzer. Büyük jant ve ince lastikler ise konforu düşürür.',
+          'Koltuklar: Bel desteği, ayarlanabilir uyluk desteği ve masaj fonksiyonu uzun yolda yorgunluğu belirgin şekilde azaltır.',
+          'Ses yalıtımı: Akustik camlar ve iyi kapı fitilleri rüzgar ve lastik sesini keser; sessiz bir kabin yorgunluğu doğrudan azaltır.',
+          'Sürüş destek sistemleri: Adaptif hız sabitleyici ve şerit takip asistanı otoyolda sürücünün yükünü hafifletir.',
+          'Menzil ve depo: Büyük yakıt deposu ya da uzun elektrikli menzil, mola sayısını ve planlama derdini azaltır.',
+          'Arka koltuk: Ailece yolculuk yapıyorsanız arka diz mesafesi ve arka klima çıkışları en az ön koltuk kadar önemlidir.',
+        ],
+      },
+    ],
+  },
 ];
 
 // En yeni rehber en üstte (aynı tarihtekilerde sonradan eklenen önce)

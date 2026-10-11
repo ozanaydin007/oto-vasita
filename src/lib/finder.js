@@ -20,6 +20,24 @@ export function bodyGroup(car) {
   return 'hatchback';
 }
 
+// İkinci el (ve fiyatı olmayan) araçlar için kaba piyasa değeri tahmini.
+// Yalnızca bütçe sorusunda kullanılır; sitede gösterilmez.
+const REF_PRICE = {
+  'sehir-hatchback': 1.5e6, 'kompakt-hatchback': 2.0e6, 'kompakt-sedan': 1.8e6, 'premium-sedan': 4.2e6,
+  'kucuk-suv': 2.0e6, 'aile-suv': 2.6e6, 'premium-suv': 5.5e6, spor: 6.0e6, 'arazi-pickup': 3.0e6, elektrikli: 2.5e6,
+};
+const EXOTIC = ['Ferrari', 'Lamborghini', 'Bentley', 'Aston Martin', 'McLaren', 'Rolls-Royce'];
+const PREMIUM_CATS = ['premium-sedan', 'premium-suv', 'spor'];
+export function estimatedValue(car) {
+  if (car.price != null) return car.price;
+  let v = REF_PRICE[car.category] ?? 2.0e6;
+  if (EXOTIC.includes(car.make)) v *= 4;
+  else if (car.make === 'Porsche') v *= 2.5;
+  else if (PREMIUM.includes(car.make) && !PREMIUM_CATS.includes(car.category)) v *= 1.5;
+  const age = Math.max(0, 2026 - car.year);
+  return v * Math.max(0.2, Math.pow(0.92, age));
+}
+
 const isHybrid = (c) => ['Hibrit', 'Hafif hibrit', 'Şarj edilebilir hibrit'].includes(c.fuel);
 const IMPORTANCE = [
   { value: 0, label: 'Hiç önemli değil' },
@@ -52,12 +70,12 @@ export const QUESTIONS = [
   },
   {
     id: 'butce',
-    title: 'Sıfır otomobil için bütçeniz ne kadar?',
-    hint: 'Liste fiyatı yalnızca sıfır otomobillerde var; ikinci el otomobiller bu sorudan etkilenmez.',
+    title: 'Bütçeniz ne kadar?',
+    hint: 'Sıfır otomobillerde liste fiyatını, ikinci el otomobillerde ise yaşına ve sınıfına göre tahmini piyasa değerini kullanıyoruz.',
     options: [
-      { value: 'b1', label: '1,5 milyon TL’ye kadar', filter: (c) => c.price == null || c.price <= 1500000 },
-      { value: 'b2', label: '1,5 – 2,5 milyon TL', filter: (c) => c.price == null || c.price <= 2500000 },
-      { value: 'b3', label: '2,5 – 4 milyon TL', filter: (c) => c.price == null || c.price <= 4000000 },
+      { value: 'b1', label: '1,5 milyon TL’ye kadar', filter: (c) => estimatedValue(c) <= 1500000 },
+      { value: 'b2', label: '1,5 – 2,5 milyon TL', filter: (c) => estimatedValue(c) <= 2500000 },
+      { value: 'b3', label: '2,5 – 4 milyon TL', filter: (c) => estimatedValue(c) <= 4000000 },
       { value: 'b4', label: '4 milyon TL ve üzeri', filter: () => true },
       { value: 'any', label: 'Fark etmez' },
     ],
@@ -88,6 +106,8 @@ export const QUESTIONS = [
   {
     id: 'vites',
     title: 'Vites tercihiniz?',
+    // Elektrikli otomobillerin hepsi otomatik olduğu için bu soru atlanır
+    skip: (a) => a.yakit === 'elektrik',
     options: [
       { value: 'otomatik', label: 'Otomatik', filter: (c) => c.gearbox === 'Otomatik' },
       { value: 'manuel', label: 'Manuel', filter: (c) => c.gearbox === 'Manuel' },
@@ -148,12 +168,15 @@ const LABELS = Object.fromEntries(CRITERIA.map((c) => [c.key, c.label]));
 // Cevaplara göre araçları puanlar. Katı filtrelerle hiç araç kalmazsa
 // filtreler sırayla gevşetilir ve kullanıcıya hangisinin gevşetildiği söylenir.
 export function findCars(answers, limit = 12) {
-  const chosen = QUESTIONS.map((q) => ({ q, o: q.options.find((o) => o.value === answers[q.id]) })).filter((x) => x.o);
+  const active = QUESTIONS.filter((q) => !q.skip?.(answers));
+  const chosen = active.map((q) => ({ q, o: q.options.find((o) => o.value === answers[q.id]) })).filter((x) => x.o);
   const weights = Object.fromEntries(CRITERIA.map((c) => [c.key, 1]));
   for (const { o } of chosen) for (const [k, v] of Object.entries(o.weights || {})) weights[k] += v;
   const totalW = Object.values(weights).reduce((a, b) => a + b, 0);
 
-  const RELAX_ORDER = ['butce', 'yil', 'cekis', 'kasa', 'vites', 'yakit', 'marka', 'durum'];
+  // Model yılı, bütçe ve sıfır/ikinci el tercihi asla esnetilmez;
+  // gerekirse yalnızca daha yumuşak tercihler sırayla gevşetilir.
+  const RELAX_ORDER = ['marka', 'cekis', 'vites', 'kasa', 'yakit'];
   const relaxed = [];
   const filters = () => chosen.filter(({ q, o }) => o.filter && !relaxed.includes(q.id));
   let pool = CARS.filter((c) => filters().every(({ o }) => o.filter(c)));
@@ -184,4 +207,9 @@ export function findCars(answers, limit = 12) {
     relaxed: relaxed.map((id) => QUESTIONS.find((q) => q.id === id).title),
     results: results.slice(0, limit).map((r) => ({ ...r, percent: Math.round(Math.min(99, (r.match / Math.max(top, 9.5)) * 97)) })),
   };
+}
+
+// Gösterilecek soru listesi (atlanan sorular hariç)
+export function activeQuestions(answers) {
+  return QUESTIONS.filter((q) => !q.skip?.(answers));
 }
