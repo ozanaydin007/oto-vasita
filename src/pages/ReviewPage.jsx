@@ -4,7 +4,6 @@ import { ThumbsUp, ThumbsDown, ChevronDown } from 'lucide-react';
 import { getCar, getCategory, carsInCategory } from '../data/cars.js';
 import { CRITERIA } from '../data/criteria.js';
 import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
-import { buildReview } from '../lib/review.js';
 import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
 import RadarChart from '../components/RadarChart.jsx';
@@ -75,20 +74,21 @@ const PARAGRAPH_GROUPS = [
   ['guvenilirlik', 'ikinciel', 'fiyat'],
 ];
 
-function reviewParagraphs(car, review) {
+function reviewParagraphs(car) {
+  // Yalnızca elle yazılmış içerik gösterilir; puanlardan üretilen otomatik
+  // cümleler kullanılmaz (bu bilgiler zaten puan karnesinde var).
   if (Array.isArray(car.longReview) && car.longReview.length) return car.longReview;
-  const byKey = Object.fromEntries(review.sections.map((s) => [s.key, s.text]));
+  const own = (k) => [car.review?.[k], car.reviewExtra?.[k]].filter(Boolean).join(' ');
   return [
-    car.review?.giris ? review.intro : null,
-    ...PARAGRAPH_GROUPS.map((g) => g.map((k) => byKey[k]).filter(Boolean).join(' ')),
-    review.conclusion,
+    car.review?.giris,
+    ...PARAGRAPH_GROUPS.map((g) => g.map(own).filter(Boolean).join(' ')),
+    car.review?.sonuc,
   ].filter(Boolean);
 }
 
 function FullReview({ car, category }) {
   const [open, setOpen] = useState(false);
   useEffect(() => setOpen(false), [car.slug]);
-  const review = buildReview(car, category);
 
   return (
     <div className="mt-6">
@@ -103,13 +103,12 @@ function FullReview({ car, category }) {
         <ChevronDown className={`w-4 h-4 transition-transform ${open ? 'rotate-180' : ''}`} aria-hidden="true" />
       </button>
 
-      {open && (
-        <div id="tam-inceleme" className="mt-6 border-l-2 border-star pl-5 sm:pl-6 space-y-5 max-w-prose">
-          {reviewParagraphs(car, review).map((t, i) => (
-            <p key={i} className="text-[17px] leading-relaxed">{t}</p>
-          ))}
-        </div>
-      )}
+      {/* Metin her zaman sayfada bulunur (arama motorları okuyabilsin); yalnızca görünürlüğü değişir */}
+      <div id="tam-inceleme" hidden={!open} className="mt-6 border-l-2 border-star pl-5 sm:pl-6 space-y-5 max-w-prose">
+        {reviewParagraphs(car).map((t, i) => (
+          <p key={i} className="text-[17px] leading-relaxed">{t}</p>
+        ))}
+      </div>
     </div>
   );
 }

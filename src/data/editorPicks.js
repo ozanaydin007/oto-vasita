@@ -9,11 +9,11 @@ export const EDITOR_WEEKS = [
     items: [
       {
         car: 'audi-a5-sedan-2026',
-        text: 'A4’ün yerini alan yeni nesil A5; quattro dört çekeri, ferah kabini ve ön yolcu ekranı gibi detaylarıyla premium sedan arayanların listesinde ilk sıralarda olmalı.',
+        text: 'Sürücünün göremediği yolcu ekranı, konforlu sürüşü ve her A5 gibi havalı tasarımıyla premium sedanlar arasında öne çıkıyor; tek sorum, A5’in sedan olması gerekip gerekmediği.',
       },
       {
         car: 'volvo-ex30-2026',
-        text: 'Volvo’nun en küçük elektriklisi; kompakt boyutlarına rağmen güçlü motoru, İskandinav sadeliğindeki kabini ve güvenlik odaklı yapısıyla şehirli sürücüler için çok cazip.',
+        text: 'Uyku modundan ön bagajdaki küçük desene kadar sürprizlerle dolu; baskın arkadan itiş karakteriyle sürmesi inanılmaz keyifli. Her hâliyle inanılmaz bir otomobil.',
       },
       {
         car: 'skoda-octavia-2026',

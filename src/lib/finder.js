@@ -49,22 +49,24 @@ const imp = (key) => IMPORTANCE.map((o) => ({ ...o, weights: { [key]: o.value } 
 
 export const QUESTIONS = [
   {
-    id: 'yil',
-    title: 'Hangi model yılı aralığındaki otomobillere bakalım?',
-    options: [
-      { value: 'y1', label: '1990–2000', filter: (c) => c.year >= 1990 && c.year < 2000 },
-      { value: 'y2', label: '2000–2010', filter: (c) => c.year >= 2000 && c.year < 2010 },
-      { value: 'y3', label: '2010–2020', filter: (c) => c.year >= 2010 && c.year < 2020 },
-      { value: 'y4', label: '2020 – bayiden sıfır', filter: (c) => c.year >= 2020 },
-      { value: 'any', label: 'Fark etmez' },
-    ],
-  },
-  {
     id: 'durum',
     title: 'Sıfır mı, ikinci el mi?',
     options: [
       { value: 'sifir', label: 'Sıfır', filter: (c) => !c.used },
       { value: 'ikinci', label: 'İkinci el', filter: (c) => c.used },
+      { value: 'any', label: 'Fark etmez' },
+    ],
+  },
+  {
+    id: 'yil',
+    title: 'Hangi model yılı aralığındaki ikinci el otomobillere bakalım?',
+    // Yalnızca ikinci el seçildiğinde sorulur
+    skip: (a) => a.durum !== 'ikinci',
+    options: [
+      { value: 'y1', label: '1990–2000', filter: (c) => c.year >= 1990 && c.year < 2000 },
+      { value: 'y2', label: '2000–2010', filter: (c) => c.year >= 2000 && c.year < 2010 },
+      { value: 'y3', label: '2010–2020', filter: (c) => c.year >= 2010 && c.year < 2020 },
+      { value: 'y4', label: '2020 ve sonrası', filter: (c) => c.year >= 2020 },
       { value: 'any', label: 'Fark etmez' },
     ],
   },
