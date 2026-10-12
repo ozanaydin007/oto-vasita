@@ -108,6 +108,12 @@ function FullReview({ car, category }) {
         {reviewParagraphs(car).map((t, i) => (
           <p key={i} className="text-[17px] leading-relaxed">{t}</p>
         ))}
+        {car.longReview && (
+          <p className="text-sm text-muted pt-2 border-t border-rule">
+            Bu inceleme, OtoVaro editörünün otomobili bizzat kullanma deneyimine dayanır.{' '}
+            <Link to="/hakkinda" className="text-link hover:underline underline-offset-2">Biz kimiz?</Link>
+          </p>
+        )}
       </div>
     </div>
   );

@@ -704,6 +704,50 @@ const GUIDE_LIST = [
       },
     ],
   },
+  {
+    slug: 'en-iyi-hot-hatch-otomobiller',
+    stats: ['surus', 'guvenilirlik', 'ikinciel'],
+    title: 'En İyi Hot Hatch Otomobiller',
+    subtitle: 'Hot hatch nedir, neden bu kadar sevilir ve Türkiye’de alınabilecek en keyifli hot hatch’ler hangileri?',
+    description:
+      'Hot hatch nedir? Honda Civic Type R, Volkswagen Golf R ve GTI, Audi S3, Hyundai i20 N, Polo GTI ve MINI Cooper S ile en iyi hot hatch otomobiller ve seçerken dikkat edilmesi gerekenler.',
+    date: '2026-10-11',
+    dateLabel: '11 Ekim 2026',
+    intro: [
+      'Hot hatch, en basit tanımıyla “güçlendirilmiş hatchback” demek. Üreticiler, gündelik kullanım için tasarlanmış pratik bir hatchback’i alıp ona çok daha güçlü bir motor, daha sert ve alçak bir süspansiyon, daha büyük frenler, daha keskin bir direksiyon ve sportif bir görünüm ekliyor. Ortaya çıkan otomobil; hafta içi işe, okula ya da markete giderken sıradan bir hatchback kadar kullanışlı, hafta sonu virajlı bir yolda ise gerçek bir spor otomobil kadar eğlenceli oluyor.',
+      'Hot hatch’leri bu kadar sevilen yapan şey de tam olarak bu ikili karakter: dört kapı, kullanışlı bir bagaj ve arka koltuk ile adrenalin aynı otomobilde. Üstelik genellikle aynı performanstaki coupé ya da spor otomobillerden çok daha ulaşılabilir fiyatlarla. Bu rehberde, sürüş puanımızı ve kendi deneyimlerimizi esas alarak en iyi hot hatch’leri sıraladık.',
+    ],
+    method:
+      'Sıralamada incelemelerimizdeki Sürüş puanını esas aldık; günlük kullanılabilirlik, güvenilirlik ve ikinci el değerini de değerlendirdik. Yalnızca hatchback gövdeli, performans odaklı versiyonları listeye aldık.',
+    items: [
+      { car: 'honda-civic-type-r-2023', text: 'Önden çekişli otomobillerin zirvesi. Dünyanın en iyi manuel şanzıman hislerinden birine, devir eşitleme sistemine ve 329 beygiri ön tekerleklere direksiyonu çekmeden aktaran bir ön aksa sahip. Pistte süper otomobilleri zorlarken günlük kullanımda da Honda güvenilirliğini koruyor. Hot hatch denince akla gelen ilk isim olmayı fazlasıyla hak ediyor.' },
+      { car: 'volkswagen-golf-r-2021', text: 'Dört çekerin gücü ve her havada güvenle, Golf R hot hatch dünyasının en çok yönlüsü. Arka aksa gücü dağıtan sistemi ve drift modu sayesinde hem kontrollü hem de oyunbaz olabiliyor. Kışın bile her gün kullanabileceğiniz en hızlı hatchback’lerden biri.' },
+      { car: 'audi-s3-sportback-2021', text: 'Kendi GPS ölçümlerimizde 0–100 km/s’yi sürekli 4,7–4,8 saniyede tamamladı. Quattro sayesinde bu performansı her kalkışta tekrar edebiliyor. Süspansiyonu sert ve iç mekânı A3 ile aynı; ama bu otomobil zaten performansı için alınıyor ve o konuda fazlasıyla tatmin ediyor.' },
+      { car: 'volkswagen-golf-gti-2022', text: 'Hot hatch kavramının babası. GTI, sürüş keyfiyle günlük konfor arasındaki dengeyi kırk yılı aşkın süredir en iyi kuran otomobil. Ekose desenli koltukları ve dengeli karakteriyle her gün kullanılacak bir hot hatch arayanlar için en mantıklı seçimlerden.' },
+      { car: 'hyundai-i20-n-2022', text: 'Spor egzoz sesi inanılmaz; ses değişimleri sürüşün her anında gülümsetiyor. Sürüş için ciddi bir AR-GE yapıldığı virajlarda hemen anlaşılıyor. İç mekânı normal i20’yi andırsa da fiyatı da i20’ye yakın olduğu için bu bir sorun değil. Fiyat başına keyifte listenin şampiyonu.' },
+      { car: 'volkswagen-polo-gti-2023', text: 'GTI ruhunu daha küçük ve daha ulaşılabilir bir gövdeye taşıyor. Güçlü motoru, olgun sürüşü ve ekose koltuklarıyla hem şehirde hem de virajlı yollarda keyifli; sert olmadan sportif bir karakter arayanlara hitap ediyor.' },
+      { car: 'mini-cooper-s-2018', text: 'Go-kart gibi keskin sürüşüyle MINI, hot hatch dünyasının en karakterlisi. Küçük boyutları, güçlü 2.0 motoru ve premium kabiniyle şehirde de virajda da çok eğlenceli. Bagajı küçük ve süspansiyonu sert; ama bu otomobili alan biri bunları zaten göze almış oluyor.' },
+    ],
+    sections: [
+      {
+        title: 'Elektrikli bir hot hatch: MG4 XPOWER',
+        paragraphs: [
+          'Elektrikli dünyada da hot hatch ruhu yaşıyor. MG4 XPOWER, iki elektrik motoru ve dört çekeriyle düz yolda gerçekten çok hızlı; gaz hissi süper ve tam bir şaka makinesi. Bu performansın bedeli biraz menzil ve ortalama bir direksiyon hissi; ama süper otomobil hızlanmasını bir hatchback fiyatına yaşamak isteyenler için eşsiz bir seçenek.',
+        ],
+        cars: ['mg-mg4-xpower-2024'],
+      },
+      {
+        title: 'Hot hatch alırken nelere dikkat etmeli?',
+        list: [
+          'Sert süspansiyon: Hot hatch’lerin çoğu konforu performansa feda eder. Bozuk yollarda günlük kullanımı mutlaka test sürüşünde deneyin.',
+          'Lastik ve fren maliyetleri: Yüksek performanslı lastikler ve büyük frenler daha hızlı aşınır ve daha pahalıdır.',
+          'Sigorta ve vergiler: Güçlü motorlar Türkiye’de daha yüksek ÖTV, MTV ve kasko anlamına gelir.',
+          'İkinci elde geçmiş: Pist ya da yazılım (chip tuning) geçmişi olan örneklerde şanzıman, debriyaj ve motor daha çok yıpranmış olabilir; bakım kayıtlarını ve ekspertizi mutlaka kontrol edin.',
+          'Manuel mi otomatik mi: Manuel şanzımanlar daha saf bir sürüş hissi verir; çift kavramalı otomatikler ise daha hızlıdır ve trafikte daha rahattır.',
+        ],
+      },
+    ],
+  },
 ];
 
 // En yeni rehber en üstte (aynı tarihtekilerde sonradan eklenen önce)

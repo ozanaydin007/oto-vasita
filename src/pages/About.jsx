@@ -14,6 +14,21 @@ export default function About() {
         incelemesi ve sıralaması sitemizde yer alıyor.
       </p>
 
+      <h2>Biz kimiz?</h2>
+      <p>
+        Otomobillere ilgimiz aslında çocukluktan itibaren başladı. Çocukken oyuncak araba koleksiyonları yapan
+        insanlardık. Sonradan bu tutku, arabaları incelemeye ve analiz etmeye dönüştü. Sitemize kendi
+        kullandığımız ve yakın çevremizin kullandığı arabaları eklemeye çalışıyoruz.
+      </p>
+      <p>
+        Siteyi de ilk başta kendi incelemelerimiz bir yerde dursun, kaybolmasın diye kurmuştuk; ancak sonradan
+        buralara kadar gelmeyi başardık. Bugün “Tam incelemeyi oku” bölümünde yer alan uzun incelemeler, otomobili
+        bizzat kullandığımız deneyimlere dayanıyor.
+      </p>
+      <p>
+        <strong>Kurucu ve editör:</strong> Ozan Ege Aydın
+      </p>
+
       <h2>Nasıl değerlendiriyoruz?</h2>
       <p>
         Her aracı sürüşten güvenlik ve konfora, tüketimden malzeme kalitesine, güvenilirlikten ikinci el değerine
