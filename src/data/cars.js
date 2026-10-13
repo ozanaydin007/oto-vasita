@@ -97,6 +97,12 @@ const RAW_CARS = [
     review: {
       tasarim: 'Yeni Clio’yu ilk gördüğünüzde bir şehir otomobiline baktığınıza inanmak zor. Keskin farları ve kaslı duruşuyla segmentinin en havalı tasarımlarından; kabinde de ucuzluk hissi neredeyse yok. Bursa’dan çıkan bir otomobilin bu kadar iddialı görünmesi ayrıca gurur verici.',
     },
+    faq: [
+      { q: 'Yeni Renault Clio nerede üretiliyor?', a: 'Clio, Türkiye’de Bursa’daki Renault fabrikasında üretiliyor.' },
+      { q: 'Clio kaç beygir, ne kadar yakıt tüketiyor?', a: 'İncelediğimiz TCe 115 versiyon 115 beygir güç üretiyor ve EDC otomatik şanzımanla sunuluyor. Üretici verilerine göre karma tüketimi yaklaşık 5,5 L/100 km.' },
+      { q: 'Clio’nun bagajı ne kadar?', a: 'Bagaj hacmi yaklaşık 391 litre; sınıfının en geniş bagajlarından.' },
+      { q: 'Clio’nun rakipleri hangileri?', a: 'Hyundai i20, Toyota Yaris, Peugeot 208, Opel Corsa, Seat Ibiza ve Citroën C3.' },
+    ],
     summary: 'Yerli üretimin fiyat avantajı, geniş bagajı ve yenilenen tasarımıyla şehir otomobili sınıfının en mantıklı tercihlerinden biri.',
   },
   {
@@ -285,6 +291,12 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Corolla Hybrid için “bakımını yap, gerisini unut” demek abartı olmaz. Toyota’nın hibrit sistemi dünyanın dört bir yanında taksi filolarında yüz binlerce kilometre yapıyor ve hâlâ şaşırtacak kadar az sorun çıkarıyor. Sakarya üretimi olması da parça bulmayı ayrıca kolaylaştırıyor.',
     },
+    faq: [
+      { q: 'Corolla Hybrid şarj edilir mi?', a: 'Hayır. Corolla Hybrid tam hibrit bir otomobil; batarya, frenleme ve benzinli motor sayesinde kendi kendine şarj oluyor. Dışarıdan prize takmanız gerekmiyor.' },
+      { q: 'Corolla Hybrid ne kadar yakıt tüketiyor?', a: 'Üretici verilerine göre karma tüketimi yaklaşık 4,5 L/100 km. Şehir içinde elektrik motorunun daha çok devreye girmesiyle tüketim daha da düşebiliyor.' },
+      { q: 'Corolla Hybrid nerede üretiliyor?', a: 'Corolla, Türkiye’de Sakarya’daki Toyota fabrikasında üretiliyor.' },
+      { q: 'Corolla Hybrid’in rakipleri hangileri?', a: 'Honda Civic e:HEV, Renault Megane Sedan, Fiat Egea Sedan ve Škoda Octavia.' },
+    ],
     summary: 'Kompakt sedan sınıfının verimlilik lideri. Dayanıklılığı ve düşük işletme giderleriyle aileler için en güvenli tercihlerden biri.',
   },
   {
@@ -302,6 +314,12 @@ const RAW_CARS = [
     reviewExtra: {
       guvenilirlik: '1.4 Fire atmosferik benzinli versiyonlarda, yüksek devirli ya da uzun süreli otoyol kullanımında üretici sınırları içinde kabul edilen ama kullanıcıyı şaşırtan belirgin bir yağ eksiltme huyu var. Tüm versiyonlarda ön amortisör takozları çabuk yıpranabiliyor; direksiyonu çevirirken ya da kasislerden geçerken “lokurtu” sesi yapabiliyor.',
     },
+    faq: [
+      { q: 'Egea Sedan 1.6 Multijet ne kadar yakıt tüketiyor?', a: 'İncelediğimiz 130 beygirlik 1.6 Multijet versiyonun üretici verilerine göre karma tüketimi yaklaşık 4,8 L/100 km.' },
+      { q: 'Egea Sedan’ın bagajı ne kadar?', a: 'Bagaj hacmi yaklaşık 520 litre; sınıfının en büyüklerinden.' },
+      { q: 'Egea’nın bilinen sorunları neler?', a: 'Ön süspansiyon takozları erken yıpranıp lokurtu sesi yapabiliyor ve yüksek hızlarda rüzgar ve yol sesi belirgin. 1.4 Fire benzinli versiyonlarda ise yağ eksiltme eğilimi biliniyor.' },
+      { q: 'Egea Sedan’ın rakipleri hangileri?', a: 'Renault Taliant, Renault Megane Sedan, Toyota Corolla ve Honda Civic.' },
+    ],
     summary: 'Türkiye’nin en tanıdık sedanı; yeni dizel motoruyla düşük tüketim ve geniş bagajı ulaşılabilir fiyatla sunuyor.',
   },
   {
@@ -580,8 +598,18 @@ const RAW_CARS = [
     fuel: 'Benzin', gearbox: 'Otomatik', hp: 115,
     specs: { motor: '1.0L turbo, 115 bg, DSG', hizlanma: '9,9 sn', tuketim: '5,5 L/100 km', bagaj: '400 L' },
     ratings: { surus: 7.7, guvenlik: 8.3, konfor: 8.1, tuketim: 8.2, malzeme: 7.5, tasarim: 7.3, fiyat: 8.5, teknoloji: 7.6, guvenilirlik: 8.0, ikinciel: 7.8 },
-    pros: ['Geniş arka koltuk', 'Konforlu süspansiyon', 'T-Cross’tan çok daha uygun fiyat', 'Akıllı detaylar (buz kazıyıcı)'],
+    pros: ['Geniş arka koltuk', 'Konforlu süspansiyon', 'T-Cross’tan çok daha uygun fiyat', 'Akıllı detaylar (buz kazıyıcı)', 'Canlı performans', 'Akıllı saklama çözümleri'],
     cons: ['Tasarımı sıradan', 'Sürüşte heyecan yok'],
+    longReview: [
+      'Škoda Kamiq, kompakt SUV sınıfında pratikliği, geniş kullanım alanı ve kolay sürüş özellikleriyle öne çıkıyor.',
+      'Günlük kullanımda canlı bir performans ve makul yakıt tüketimi sunuyor. İç mekânı ergonomik tasarımı ve akıllı saklama çözümleriyle tamamen işlevselliğe odaklı.',
+      'Kısacası Kamiq; T-Cross ile aynı altyapıyı daha uygun fiyata, daha geniş bir arka koltuk ve Škoda’nın akıllı detaylarıyla sunan, aileler için çok mantıklı bir küçük SUV.',
+    ],
+    faq: [
+      { q: 'Škoda Kamiq ile Volkswagen T-Cross arasındaki fark ne?', a: 'İkisi aynı teknik altyapıyı ve motoru paylaşıyor. Kamiq genellikle daha uygun fiyatlı, arka koltuğu daha geniş ve Škoda’nın akıllı detaylarına sahip; T-Cross ise kayar arka koltuğu ve marka algısıyla öne çıkıyor.' },
+      { q: 'Kamiq kaç beygir, ne kadar yakıt tüketiyor?', a: 'İncelediğimiz 1.0 TSI versiyon 115 beygir güç üretiyor ve DSG otomatik şanzımanla sunuluyor. Üretici verilerine göre karma tüketimi yaklaşık 5,5 L/100 km.' },
+      { q: 'Kamiq’in bagajı ne kadar?', a: 'Bagaj hacmi yaklaşık 400 litre.' },
+    ],
     summary: 'T-Cross’un mekaniğini daha fazla alan ve yaklaşık 850 bin TL daha düşük fiyatla sunan mantıklı küçük SUV.',
   },
   {
@@ -1082,6 +1110,17 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'C 200 d, premium sedan sınıfında konforu, prestiji ve kendi döneminin modern teknolojilerini bir araya getiriyor.',
+      'Dizel motor uzun mesafelerde yakıt ekonomisine odaklanırken günlük sürüş için yeterli çekiş sağlıyor. Hızlı bir otomobil değil, ama sakin ve verimli.',
+      'Kaliteli iç mekân tasarımı, ekranları ve sürüş destek sistemleri öne çıkan özellikleri arasında. Dengeli şasi yapısı da konfor ile yol tutuşu arasında iyi bir denge kuruyor.',
+      'Kısacası C 200 d; premium bir sedanı düşük yakıt tüketimiyle kullanmak isteyenler için ikinci elde mantıklı bir seçim. Yaşı gereği multimedya artık güncel değil ve uzun süreli kullanımda trim sesleri ortaya çıkabiliyor.',
+    ],
+    faq: [
+      { q: 'C 200 d ne kadar yakıt tüketiyor?', a: 'Üretici verilerine göre karma tüketimi yaklaşık 4,4 L/100 km; premium bir sedan için çok düşük.' },
+      { q: 'C 200 d’deki 1.6 dizel motor nereden geliyor?', a: 'Bu versiyondaki 1.6 litrelik dizel motor, Renault ile yapılan iş birliği kapsamında geliştirilmiş bir motor. Yakıt ekonomisi çok iyi, ama performans beklentisini düşük tutmak gerekiyor.' },
+      { q: 'C Serisi’nin rakipleri hangileri?', a: 'BMW 3 Serisi, Audi A4 ve Volvo S60.' },
+    ],
     summary: 'W205 kasanın Türkiye’ye özel 1.6 dizel versiyonu; ikinci elde premium konforu düşük yakıt masrafıyla sunan mantıklı bir tercih.',
   },
   {
@@ -3734,8 +3773,20 @@ const RAW_CARS = [
     wiki: ['Renault Taliant', 'de:Renault Taliant'],
     specs: { motor: '1.0L turbo benzin, 90 bg, X-Tronic CVT', hizlanma: '13,0 sn', tuketim: '5,6 L/100 km', bagaj: '628 L', tork: '142 Nm', azami: '170 km/s', depo: '50 L', agirlik: '1.150 kg', cekis: 'Önden çekiş (FWD)' },
     ratings: { surus: 6.8, guvenlik: 6.8, konfor: 7.2, tuketim: 8.0, malzeme: 6.2, tasarim: 7.0, fiyat: 8.8, teknoloji: 6.8, guvenilirlik: 7.8, ikinciel: 8.6 },
-    pros: ['Sınıfının en büyük bagajlarından', 'Uygun fiyatlı otomatik sedan', 'Bursa üretimi, kolay servis ve parça'],
+    pros: ['Sınıfının en büyük bagajlarından', 'Uygun fiyatlı otomatik sedan', 'Bursa üretimi, kolay servis ve parça', 'Vites geçişlerini hissettirmeyen CVT', 'Hafif ve kolay direksiyon'],
     cons: ['Motor dolu araçta zayıf kalıyor', 'Sade kabin malzemeleri'],
+    longReview: [
+      'Renault Taliant, ekonomik kullanım ve günlük ulaşım ihtiyaçları için tasarlanmış kompakt bir sedan. 1.0 TCe turbo benzinli motoru, düşük hacmine rağmen şehir içi kullanımda yeterli performans verdi.',
+      'CVT otomatik şanzıman vites geçişlerini hiç hissettirmiyor; trafikte sürüş son derece akıcı. Hafif direksiyonu ve kolay kontrol edilebilir yapısı da özellikle şehir trafiğinde büyük avantaj sağlıyor.',
+      'Geniş bagaj hacmi aile kullanımı ve günlük ihtiyaçlar açısından çok iyi. İç mekân malzemeleri ise daha çok maliyet odaklı; lüks bir his beklememek gerekiyor.',
+      'Kısacası Taliant, uygun işletme maliyetleri ve pratikliğiyle öne çıkan, bütçesini zorlamadan otomatik vitesli yeni bir sedan isteyenler için mantıklı bir seçim.',
+    ],
+    faq: [
+      { q: 'Renault Taliant kaç beygir, ne kadar yakıt tüketiyor?', a: 'İncelediğimiz 1.0 TCe versiyon 90 beygir güç üretiyor ve X-Tronic CVT otomatik şanzımanla sunuluyor. Üretici verilerine göre karma tüketimi yaklaşık 5,6 L/100 km.' },
+      { q: 'Taliant’ın bagajı ne kadar?', a: 'Bagaj hacmi yaklaşık 628 litre; bu, sınıfının en büyük bagajlarından biri.' },
+      { q: 'Taliant nerede üretiliyor?', a: 'Taliant, Türkiye’de Bursa’daki Renault fabrikasında üretiliyor; bu da parça ve servis tarafında avantaj sağlıyor.' },
+      { q: 'Taliant’ın rakipleri hangileri?', a: 'En yakın rakibi Fiat Egea Sedan. Bütçeyi biraz artırabilenler Renault Megane Sedan’a da bakabilir.' },
+    ],
     summary: 'Bütçesi sınırlı ama geniş bagajlı, otomatik vitesli yeni bir sedan arayanlar için en mantıklı seçeneklerden.',
   },
   {
@@ -3789,8 +3840,19 @@ const RAW_CARS = [
     wiki: ['de:Nissan Juke (F16)', 'Nissan Juke'],
     specs: { motor: '1.0L turbo benzin, 114 bg, 7 ileri DCT', hizlanma: '10,7 sn', tuketim: '6,0 L/100 km', bagaj: '422 L', tork: '200 Nm', azami: '180 km/s', depo: '46 L', agirlik: '1.250 kg', cekis: 'Önden çekiş (FWD)' },
     ratings: { surus: 7.6, guvenlik: 7.8, konfor: 7.2, tuketim: 7.6, malzeme: 7.2, tasarim: 8.4, fiyat: 7.2, teknoloji: 7.6, guvenilirlik: 7.6, ikinciel: 7.4 },
-    pros: ['Dikkat çekici, sportif tasarım', 'Keyifli sürüş karakteri', 'Sınıfı için geniş bagaj'],
-    cons: ['Arka görüş ve arka başüstü sınırlı', 'Sert süspansiyon'],
+    pros: ['Diğer crossoverlardan ayrışan sıra dışı tasarım', 'Keyifli sürüş karakteri'],
+    cons: ['Arka görüş ve arka başüstü sınırlı', 'Sert süspansiyon', 'Arka koltuk ve bagaj bazı rakiplerine göre sınırlı'],
+    longReview: [
+      'Nissan Juke, sıra dışı tasarımıyla küçük crossover modellerinden hemen ayrılıyor. Yine de tasarım konusunda bugün segmentin en önünde olduğunu söyleyemem; farklı ama herkesin beğenisine hitap eden bir çizgi değil.',
+      'Yerden yüksek yapısı şehir içinde sürüş ve park kolaylığı sağlıyor. Performansı motor ve şanzıman seçeneğine göre değişse de benzinli versiyonlar günlük kullanım için yeterli.',
+      'Kompakt boyutları dar sokaklarda avantaj sağlarken arka koltuk ve bagaj alanı bazı rakiplerine göre daha sınırlı kalabiliyor.',
+      'Kısacası Juke; farklı görünmek isteyen ve şehir içi kullanıma uygun bir crossover arayanlar için bir seçenek olabilir.',
+    ],
+    faq: [
+      { q: 'Nissan Juke kaç beygir, ne kadar yakıt tüketiyor?', a: 'İncelediğimiz 1.0 DIG-T versiyon 114 beygir güç üretiyor ve 7 ileri DCT otomatik şanzımanla sunuluyor. Üretici verilerine göre karma tüketimi yaklaşık 6,0 L/100 km.' },
+      { q: 'Juke aileler için uygun mu?', a: 'Arka koltuk ve bagaj bazı rakiplerine göre daha sınırlı. Küçük bir aile ya da çift için yeterli; kalabalık aileler Škoda Kamiq veya Citroën C3 Aircross gibi daha geniş modellere bakmalı.' },
+      { q: 'Juke’un rakipleri hangileri?', a: 'Opel Mokka, Peugeot 2008, Renault Captur, Ford Puma ve Toyota Yaris Cross.' },
+    ],
     summary: 'Sınıfının en dikkat çekici tasarımlarından birini keyifli bir sürüşle birleştiren küçük SUV.',
   },
   {
@@ -3800,8 +3862,19 @@ const RAW_CARS = [
     wiki: ['Kia Stonic', 'de:Kia Stonic'],
     specs: { motor: '1.0L turbo benzin, 100 bg, 7 ileri DCT', hizlanma: '11,9 sn', tuketim: '5,6 L/100 km', bagaj: '352 L', tork: '172 Nm', azami: '180 km/s', depo: '45 L', agirlik: '1.200 kg', cekis: 'Önden çekiş (FWD)' },
     ratings: { surus: 7.2, guvenlik: 7.2, konfor: 7.2, tuketim: 8.0, malzeme: 6.8, tasarim: 7.4, fiyat: 8.0, teknoloji: 7.6, guvenilirlik: 8.0, ikinciel: 7.6 },
-    pros: ['Uzun üretici garantisi', 'Kolay kullanılan, sorunsuz bir şehir SUV’u', 'Zengin donanım'],
-    cons: ['Bagaj küçük', 'Motor otoyolda zorlanabiliyor'],
+    pros: ['Uzun üretici garantisi', 'Kolay kullanılan, sorunsuz bir şehir SUV’u', 'Zengin donanım', 'Hafif direksiyon ve kolay kontrol', 'Hoş motor sesi'],
+    cons: ['Bagaj küçük', 'Motor otoyolda zorlanabiliyor', 'İç mekânda sert plastikler'],
+    longReview: [
+      'Kia Stonic, sportif tasarımıyla şehir içi kullanıma odaklanan bir crossover. Geleneksel hatchback otomobillere kıyasla daha farklı bir kullanım hissi sunuyor.',
+      'Direksiyonunun hafifliği ve gövdesinin kolay kontrol edilebilmesi yoğun trafikte büyük avantaj. Hem ekonomik hem de sportif bir karakteri var; motor sesi de hoş.',
+      'İç mekânda sert plastik malzemeler kullanılıyor. Arka koltuk ve bagaj kapasitesi ise büyük ailelerin ihtiyaçları için sınırlı kalıyor.',
+      'Kısacası Stonic, şehirde ekonomik ve keyifli bir crossover arayan küçük aileler ya da tek başına kullanacaklar için mantıklı bir seçim; uzun garantisi de ayrı bir güvence.',
+    ],
+    faq: [
+      { q: 'Kia Stonic kaç beygir, ne kadar yakıt tüketiyor?', a: 'İncelediğimiz 1.0 T-GDI versiyon 100 beygir güç üretiyor ve 7 ileri DCT otomatik şanzımanla sunuluyor. Üretici verilerine göre karma tüketimi yaklaşık 5,6 L/100 km.' },
+      { q: 'Stonic’in bagajı ne kadar?', a: 'Bagaj hacmi yaklaşık 352 litre; şehir kullanımı için yeterli ama büyük aileler için sınırlı.' },
+      { q: 'Stonic’in rakipleri hangileri?', a: 'Hyundai Bayon, Volkswagen T-Cross, Seat Arona, Renault Captur ve Toyota Yaris Cross.' },
+    ],
     summary: 'Uzun garantisi, zengin donanımı ve kolay kullanımıyla şehir için sorunsuz bir küçük SUV.',
   },
   {
@@ -3811,8 +3884,18 @@ const RAW_CARS = [
     wiki: ['de:Kia Picanto (JA)', 'Kia Picanto'],
     specs: { motor: '1.2L atmosferik benzin, 84 bg, 5 ileri AMT', hizlanma: '13,7 sn', tuketim: '5,4 L/100 km', bagaj: '255 L', tork: '117 Nm', azami: '161 km/s', depo: '35 L', agirlik: '1.000 kg', cekis: 'Önden çekiş (FWD)' },
     ratings: { surus: 6.6, guvenlik: 6.4, konfor: 6.8, tuketim: 8.4, malzeme: 6.6, tasarim: 7.4, fiyat: 8.4, teknoloji: 7.2, guvenilirlik: 8.4, ikinciel: 8.2 },
-    pros: ['Şehirde park etmesi çok kolay', 'Uzun üretici garantisi', 'Basit ve dayanıklı atmosferik motor'],
+    pros: ['Şehirde park etmesi çok kolay', 'Uzun üretici garantisi', 'Basit ve dayanıklı atmosferik motor', 'Yeni sürücüler için çok kolay kullanım'],
     cons: ['Otoyolda zayıf ve gürültülü', 'Robotize şanzıman geçişleri yavaş'],
+    longReview: [
+      'Kia Picanto, küçük boyutlarıyla özellikle şehir içi kullanım için geliştirilmiş pratik bir otomobil. Dar sokaklarda ilerlemek ve park yeri bulmak oldukça kolay.',
+      'Kolay kullanımı yeni sürücüler için büyük avantaj. Küçük hacimli motoru ise otoyol hızlarında sınırlı kalabiliyor; uzun yol bu otomobilin işi değil.',
+      'Kısacası Picanto; düşük kullanım maliyeti ve şehir içi pratikliğiyle ilk otomobilini arayanlar ya da şehirde ikinci bir otomobil isteyenler için çok mantıklı.',
+    ],
+    faq: [
+      { q: 'Kia Picanto kaç beygir, ne kadar yakıt tüketiyor?', a: 'İncelediğimiz 1.2 versiyon 84 beygir güç üretiyor ve robotize (AMT) otomatik şanzımanla sunuluyor. Üretici verilerine göre karma tüketimi yaklaşık 5,4 L/100 km.' },
+      { q: 'Picanto yeni sürücüler için uygun mu?', a: 'Evet. Küçük boyutları, kolay park edilmesi ve basit kullanımıyla ilk otomobil için çok uygun. Yalnız otoyol hızlarında motorun sınırlı kaldığını bilmek gerekiyor.' },
+      { q: 'Picanto’nun rakipleri hangileri?', a: 'Hyundai i10 ve Fiat Panda. Biraz daha büyük bir otomobil isteyenler Dacia Sandero’ya da bakabilir.' },
+    ],
     summary: 'Şehirde kullanmak için en pratik ve en ekonomik yeni otomobillerden; uzun yol ise onun işi değil.',
   },
   {
@@ -3911,7 +3994,18 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbodizel, 95 bg, 5 ileri manuel', hizlanma: '12,7 sn', tuketim: '4,0 L/100 km', bagaj: '520 L', tork: '200 Nm', azami: '180 km/s', depo: '50 L', agirlik: '1.200 kg', cekis: 'Önden çekiş (FWD)' },
     ratings: { surus: 6.6, guvenlik: 6.6, konfor: 7.0, tuketim: 9.0, malzeme: 6.0, tasarim: 7.0, fiyat: 8.6, teknoloji: 6.6, guvenilirlik: 7.4, ikinciel: 9.0 },
     pros: ['Çok düşük tüketim', 'Dev bagaj', 'İkinci elde çok hızlı satılıyor'],
-    cons: ['Sade kabin ve donanım', 'Ön süspansiyon takozları erken yıpranabiliyor'],
+    cons: ['Sade kabin ve donanım', 'Ön süspansiyon takozları erken yıpranabiliyor', 'Performansı atak değil'],
+    longReview: [
+      'Fiat Egea Sedan; uygun fiyatlı kullanımı, geniş bagaj hacmi ve ekonomik dizel motoruyla Türkiye pazarında en yaygın tercih edilen modellerden biri.',
+      '1.3 Multijet motor özellikle sakin kullanımda çok düşük yakıt tüketimi sağlayabiliyor. Performansı ise atak değil; sollamalarda planlı olmak gerekiyor.',
+      'İç mekânda malzeme kalitesi mütevazı. Yaygın servis ağı ve parça bulunabilirliği ise işletme maliyetlerini yönetmeyi çok kolaylaştırıyor.',
+      'Kısacası Egea Sedan; ekonomi, bagaj ve satma kolaylığını her şeyin önünde tutanlar için ikinci elde en mantıklı seçeneklerden.',
+    ],
+    faq: [
+      { q: 'Egea 1.3 Multijet ne kadar yakıt tüketiyor?', a: 'Üretici verilerine göre karma tüketimi yaklaşık 4,0 L/100 km; sakin kullanımda bunun da altına inebiliyor.' },
+      { q: 'Egea’nın bilinen sorunları neler?', a: 'Ön süspansiyon takozları erken yıpranıp lokurtu sesi yapabiliyor. 1.4 Fire benzinli versiyonlarda ise yağ eksiltme eğilimi biliniyor. Dizel versiyonlarda partikül filtresinin durumunu da kontrol ettirmekte fayda var.' },
+      { q: 'Egea’nın rakipleri hangileri?', a: 'Renault Megane Sedan, Renault Taliant, Toyota Corolla ve Hyundai Elantra.' },
+    ],
     summary: 'Ekonomisi, bagajı ve satma kolaylığıyla ikinci elde bütçe dostu aile sedanı arayanların ilk durağı.',
   },
   {
@@ -3921,8 +4015,20 @@ const RAW_CARS = [
     wiki: ['Volkswagen Passat (B8)', 'de:VW Passat B8'],
     specs: { motor: '1.6L turbodizel, 120 bg, 7 ileri DSG', hizlanma: '10,8 sn', tuketim: '4,4 L/100 km', bagaj: '586 L', tork: '250 Nm', azami: '206 km/s', depo: '66 L', agirlik: '1.500 kg', cekis: 'Önden çekiş (FWD)' },
     ratings: { surus: 7.6, guvenlik: 8.6, konfor: 8.6, tuketim: 8.6, malzeme: 8.0, tasarim: 8.0, fiyat: 7.8, teknoloji: 7.8, guvenilirlik: 7.4, ikinciel: 9.0 },
-    pros: ['Uzun yolda çok konforlu ve sessiz', 'Çok düşük tüketim ve büyük depo', 'İkinci elde çok aranan model'],
+    pros: ['Uzun yolda çok konforlu ve sessiz', 'Çok düşük tüketim ve büyük depo', 'İkinci elde çok aranan model', 'Hızlı ve akıcı DSG vites geçişleri', 'Üst seviye yalıtım'],
     cons: ['DQ200 DSG şanzımanın geçmişi kontrol edilmeli', 'DPF şehir içi kullanımda tıkanabiliyor'],
+    longReview: [
+      'Passat; geniş iç mekânı, konforlu sürüşü ve ciddi tasarımıyla öne çıkıyor. Uzun yolda yakıt tüketimi çok düşük ve büyük deposuyla tek seferde çok uzağa gidebiliyorsunuz.',
+      'DSG çift kavramalı otomatik şanzıman hızlı ve akıcı vites geçişleri sunuyor. Geniş arka koltuk alanı ve büyük bagaj hacmi aileler ve sık seyahat edenler için önemli avantajlar. Yalıtımı ve uzun yol konforu modelin en güçlü yönleri; açık konuşmak gerekirse çoook konforlu.',
+      'Bununla birlikte DSG şanzıman, dizel motorun emisyon sistemi (DPF ve EGR) ve genel bakım geçmişi ikinci el alımında dikkatle incelenmeli.',
+      'Kısacası Passat; konfor, genişlik ve ekonomik uzun yol kullanımı isteyenler için çok iyi bir seçim.',
+    ],
+    faq: [
+      { q: '2016 Passat 1.6 TDI ne kadar yakıt tüketiyor?', a: 'Üretici verilerine göre karma tüketimi yaklaşık 4,4 L/100 km; uzun yolda bunun da altına inebiliyor. 66 litrelik deposuyla tek depoda çok uzun mesafeler gidilebiliyor.' },
+      { q: 'Passat’ın DSG şanzımanı sorunlu mu?', a: 'Bu versiyondaki 7 ileri kuru kavramalı DSG (DQ200), bakımı ihmal edildiğinde kavrama ve mekatronik sorunlarıyla biliniyor. İkinci el alırken şanzımanın servis geçmişini ve kalkıştaki davranışını mutlaka kontrol ettirin.' },
+      { q: 'İkinci el Passat alırken nelere dikkat etmeli?', a: 'DSG şanzımanın durumu, dizel partikül filtresi (DPF) ve EGR sistemi ile genel bakım geçmişi en önemli kontrol noktaları. Şehir içinde kısa mesafeli kullanılmış örneklerde DPF tıkanması daha sık görülüyor.' },
+      { q: 'Passat’ın rakipleri hangileri?', a: 'Škoda Superb, Toyota Camry sınıfındaki sedanlar ve bir alt segmentte Renault Megane Sedan ile Honda Civic.' },
+    ],
     summary: 'Konforu, düşük tüketimi ve güçlü ikinci el talebiyle Türkiye’nin en sevilen makam sedanlarından.',
   },
   {
@@ -3933,7 +4039,18 @@ const RAW_CARS = [
     specs: { motor: '1.6L atmosferik benzin, 132 bg, CVT', hizlanma: '11,1 sn', tuketim: '6,0 L/100 km', bagaj: '452 L', tork: '160 Nm', azami: '195 km/s', depo: '50 L', agirlik: '1.270 kg', cekis: 'Önden çekiş (FWD)' },
     ratings: { surus: 7.0, guvenlik: 7.8, konfor: 7.6, tuketim: 7.6, malzeme: 7.0, tasarim: 7.2, fiyat: 8.0, teknoloji: 6.8, guvenilirlik: 9.2, ikinciel: 9.2 },
     pros: ['Neredeyse sorunsuz mekanik', 'Değerini çok iyi koruyor', 'Geniş arka koltuk'],
-    cons: ['Sürüşü heyecansız', 'Multimedya yaşını hissettiriyor'],
+    cons: ['Sürüşü heyecansız', 'Multimedya yaşını hissettiriyor', 'Hızlanmada sesli ve güçsüz hissettiriyor'],
+    longReview: [
+      'Corolla’nın en büyük gücü dayanıklılık algısı, kullanım kolaylığı ve geniş servis ağı.',
+      'CVT şanzıman vites geçişlerini hissettirmeden konforlu bir sürüş sağlıyor; ancak hızlanma sırasında motor sesi kötü ve otomobil güçsüz hissettiriyor.',
+      'İç mekânı gösterişten çok işlevsel. Arka koltuk alanı ve bagaj hacmi aile kullanımına uygun. Düzenli bakımla çok uzun süre kullanılabilmesi ve yaygın yedek parça imkânları önemli avantajlar.',
+      'Kısacası Corolla; sorunsuzluk, pratiklik ve ikinci el piyasasında kolay alınıp satılabilmesiyle güvenli bir tercih.',
+    ],
+    faq: [
+      { q: '2017 Corolla 1.6’nın kronik sorunu var mı?', a: 'Bu motor ve şanzıman kombinasyonu bilinen ciddi bir kronik sorunla anılmıyor; düzenli bakımla çok uzun süre sorunsuz kullanılabiliyor. Yine de alırken CVT şanzımanın bakım geçmişini kontrol etmek faydalı.' },
+      { q: 'Corolla 1.6 ne kadar yakıt tüketiyor?', a: 'Üretici verilerine göre karma tüketimi yaklaşık 6,0 L/100 km.' },
+      { q: '2017 Corolla’nın rakipleri hangileri?', a: 'Honda Civic, Renault Megane Sedan, Fiat Egea Sedan ve Ford Focus Sedan.' },
+    ],
     summary: 'Sorunsuz, değerini koruyan ve kolay satılan bir ikinci el sedan arayanlar için en güvenli seçeneklerden.',
   },
   {
@@ -3944,7 +4061,18 @@ const RAW_CARS = [
     specs: { motor: '1.5L turbodizel, 120 bg, 6 ileri Powershift', hizlanma: '10,5 sn', tuketim: '4,0 L/100 km', bagaj: '421 L', tork: '270 Nm', azami: '193 km/s', depo: '55 L', agirlik: '1.350 kg', cekis: 'Önden çekiş (FWD)' },
     ratings: { surus: 8.0, guvenlik: 7.8, konfor: 7.4, tuketim: 8.8, malzeme: 6.8, tasarim: 7.2, fiyat: 8.2, teknoloji: 7.0, guvenilirlik: 7.2, ikinciel: 8.4 },
     pros: ['Sınıfının en keyifli yol tutuşlarından', 'Çok düşük dizel tüketimi', 'Uygun ikinci el fiyatı'],
-    cons: ['Powershift şanzımanın bakım geçmişi kontrol edilmeli', 'Arka koltuk ve kabin dar'],
+    cons: ['Powershift şanzımanın bakım geçmişi kontrol edilmeli', 'Arka koltuk ve kabin dar', 'Sert süspansiyon', 'DPF, turbo ve enjeksiyon sistemi kontrol edilmeli'],
+    longReview: [
+      '2016 Ford Focus Sedan, yol tutuşu ve sürüş dinamikleriyle sınıfındaki birçok rakibinden ayrılıyor. Dengeli şasisi ve direksiyon tepkileri virajlı yollarda sürücüye güven veriyor. Süspansiyonu ise sert.',
+      '1.5 TDCi dizel motor özellikle uzun mesafelerde ekonomik kullanım sunuyor. Sedan gövde de günlük ihtiyaçlar için kullanışlı bir bagaj alanı sağlıyor.',
+      'İkinci el alırken dizel partikül filtresi, turbo ve enjeksiyon sistemi gibi parçaların durumu mutlaka kontrol edilmeli.',
+      'Kısacası Focus Sedan; sürüş keyfiyle yakıt ekonomisini bir arada isteyen sürücüler için dikkat çekici bir model.',
+    ],
+    faq: [
+      { q: '2016 Focus 1.5 TDCi ne kadar yakıt tüketiyor?', a: 'Üretici verilerine göre karma tüketimi yaklaşık 4,0 L/100 km; özellikle uzun yolda çok ekonomik.' },
+      { q: 'Focus’un Powershift şanzımanı sorunlu mu?', a: 'Powershift şanzımanlar, özellikle benzinli versiyonlardaki kuru kavramalı tipleri, kavrama ve titreme sorunlarıyla biliniyor. Dizel versiyonlarda da bakım geçmişini ve kalkıştaki davranışını mutlaka kontrol ettirin.' },
+      { q: 'Focus Sedan’ın rakipleri hangileri?', a: 'Renault Megane Sedan, Toyota Corolla, Honda Civic ve Fiat Egea Sedan.' },
+    ],
     summary: 'Keyifli yol tutuşu ve düşük tüketimiyle ikinci elde sürüşü seven aileler için mantıklı bir sedan.',
   },
 ];
