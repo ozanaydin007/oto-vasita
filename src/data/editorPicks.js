@@ -5,6 +5,23 @@
 // ---------------------------------------------------------------------------
 export const EDITOR_WEEKS = [
   {
+    week: '13 Ekim 2026 haftası',
+    items: [
+      {
+        car: 'mercedes-benz-e-serisi-2026',
+        text: 'Vergi avantajlı 1.5 motoruyla E-Serisi konforuna daha erişilebilir bir yoldan ulaşmanın yolu; Superscreen’i, yalıtımı ve süspansiyonuyla gerçek bir uzun yol otomobili. Yalnız performans beklentinizi düşük tutun.',
+      },
+      {
+        car: 'bmw-3-serisi-2026',
+        text: 'F30’a göre biraz daha “normal” bir otomobil olsa da arkadan itişi, net direksiyonu ve kusursuz şanzımanıyla sürüş keyfi arayanlar için sınıfının hâlâ en mantıklı sedanı.',
+      },
+      {
+        car: 'mercedes-benz-c-serisi-2026',
+        text: 'Mini S-Serisi etkisi yaratan kabini ve gece ayrı bir şov sunan ambiyansıyla sınıfının en lüks hissettiren sedanı; ön takım ve ekran sorunlarını bilerek alınmalı.',
+      },
+    ],
+  },
+  {
     week: '10 Ekim 2026 haftası',
     items: [
       {

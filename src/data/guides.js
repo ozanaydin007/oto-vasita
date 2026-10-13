@@ -748,6 +748,111 @@ const GUIDE_LIST = [
       },
     ],
   },
+  {
+    slug: 'porsche-dili-model-isimleri-ne-anlama-geliyor',
+    title: 'Porsche Dili: 4, 4S, GTS, Turbo S, GT3, GT3 RS, Weissach ve PDK Ne Anlama Geliyor?',
+    subtitle: 'Porsche’nin model isimlerindeki harf ve kısaltmaları tek tek açıklıyoruz; hangi versiyonun ne sunduğunu ve kime uygun olduğunu anlatıyoruz',
+    description:
+      'Porsche model isimleri ne anlama geliyor? Carrera, 4, S, 4S, T, GTS, Turbo, Turbo S, GT3, GT3 RS, Weissach Paketi, PDK, E-Hybrid ve Performance Battery Plus kısaltmalarının anlamı.',
+    date: '2026-10-13',
+    dateLabel: '13 Ekim 2026',
+    intro: [
+      'Porsche’nin model isimleri ilk bakışta bir şifre gibi görünür: 911 Carrera 4S, Taycan 4S Performance Battery Plus, 911 GT3 RS Weissach Paketi… Ama bu isimlerin her harfi belirli bir anlam taşıyor ve otomobilin karakterini, gücünü, çekiş sistemini ya da odak noktasını doğrudan anlatıyor.',
+      'Bu rehberde Porsche dilini çözüyoruz. Bir Porsche ilanına ya da fiyat listesine baktığınızda hangi versiyonun ne sunduğunu artık tek bakışta anlayabileceksiniz.',
+    ],
+    sections: [
+      {
+        title: 'Carrera: 911’in temel versiyonu',
+        paragraphs: [
+          'Carrera adı, Porsche’nin 1950’lerde Meksika’daki efsanevi Carrera Panamericana yarışında elde ettiği başarılardan geliyor. Bugün 911 ailesinin temel versiyonunu ifade ediyor. “911 Carrera” dendiğinde arkadan itişli, ailenin giriş seviyesindeki modeli anlaşılır. Giriş seviyesi olması sizi yanıltmasın: temel bir Carrera bile çok güçlü ve son derece yetenekli bir spor otomobil.',
+        ],
+      },
+      {
+        title: '4: Dört çeker',
+        paragraphs: [
+          'İsimdeki “4” rakamı dört çekeri ifade ediyor. 911 Carrera 4, Taycan 4 gibi modellerde güç dört tekerleğe birden aktarılıyor. Dört çeker; ıslak ve kaygan zeminde çok daha fazla güven, kalkışta daha iyi çekiş ve her havada kullanılabilirlik sağlıyor. Arkadan itişli versiyonlar ise biraz daha hafif ve sürüş karakteri olarak daha oyunbaz.',
+        ],
+      },
+      {
+        title: 'S ve 4S: Daha güçlü',
+        paragraphs: [
+          '“S” harfi, aynı modelin daha güçlü versiyonunu gösteriyor. 911 Carrera S, temel Carrera’dan daha fazla beygire, daha güçlü frenlere ve daha zengin donanıma sahip. “4S” ise bu güçlü versiyonun dört çekerli hâli: hem daha fazla güç hem de dört çekerin güveni. Günlük kullanım ve performans arasında en dengeli versiyonlardan biri olduğu için en çok tercih edilenler arasında.',
+        ],
+        cars: ['porsche-911-carrera-s-2022', 'porsche-macan-2021'],
+      },
+      {
+        title: 'T: Touring, saf sürüş odaklı',
+        paragraphs: [
+          '“T” versiyonları, Touring’in kısaltması. Genellikle temel motoru kullanır ama daha hafif tutulur, daha kısa vites oranlarına ve sürüşe odaklı bir donanıma sahiptir. Gösterişten çok sürüş hissini önemseyen, saf bir Porsche deneyimi arayanlar için tasarlanmıştır.',
+        ],
+      },
+      {
+        title: 'GTS: Gran Turismo Sport',
+        paragraphs: [
+          'GTS, Gran Turismo Sport’un kısaltması ve S ile Turbo arasında konumlanıyor. S’ten daha güçlü bir motor, sportif süspansiyon, daha agresif bir görünüm ve sportif donanımlar standart olarak geliyor. Birçok Porsche tutkunu GTS’i, gündelik kullanılabilirlik ile performans arasındaki en tatlı nokta olarak görür.',
+        ],
+      },
+      {
+        title: 'Turbo ve Turbo S: Zirvedeki yol otomobilleri',
+        paragraphs: [
+          'Turbo ve Turbo S, Porsche’nin her model ailesindeki en güçlü ve en lüks yol versiyonları. 911 Turbo S, dört çeker, aktif aerodinamik ve olağanüstü hızlanmasıyla her gün kullanılabilen bir süper otomobil. Turbo S, Turbo’nun daha da güçlü ve daha donanımlı hâli.',
+          'İlginç bir detay: Taycan ve elektrikli Macan gibi elektrikli Porsche’lerde de “Turbo” ve “Turbo S” isimleri kullanılıyor; oysa bu otomobillerde turbo yok. Burada isim, artık bir teknolojiyi değil, ailenin en güçlü versiyonunu ifade ediyor.',
+        ],
+        cars: ['porsche-911-turbo-s-2022'],
+      },
+      {
+        title: 'GT3: Pistten yola',
+        paragraphs: [
+          'GT3, Porsche’nin motor sporları birimi tarafından geliştirilen, piste odaklı bir 911. Yüksek devirli atmosferik motoru, büyük arka kanadı, sert süspansiyonu ve keskin direksiyonuyla bir yarış otomobilinin yola çıkabilen hâli gibi. Sınırlı üretim ve atmosferik motorların giderek azalması nedeniyle ikinci el piyasasında değerini olağanüstü koruyor.',
+        ],
+        cars: ['porsche-911-gt3-2023'],
+      },
+      {
+        title: 'GT3 RS: Rennsport, en uç hâli',
+        paragraphs: [
+          'RS, Almanca “Rennsport”, yani “yarış sporu” anlamına geliyor. GT3 RS, GT3’ün daha da uç noktaya taşınmış hâli: çok daha agresif aerodinamik paketi, devasa kanadı, daha fazla yere basma kuvveti ve daha hafif yapısıyla tamamen pist performansına odaklanıyor. Günlük kullanımdan çok pist günleri için tasarlanmış bir otomobil.',
+        ],
+      },
+      {
+        title: 'Weissach Paketi: Daha hafif, daha hızlı',
+        paragraphs: [
+          'Weissach, Porsche’nin Almanya’daki araştırma ve geliştirme merkezinin adı. Weissach Paketi; karbon fiber parçalar, hafif jantlar ve çeşitli hafifletme detaylarıyla otomobilin ağırlığını azaltan bir opsiyon paketi. Genellikle GT3 RS, 718 Spyder RS ve bazı özel modellerde sunuluyor. Biraz daha hafiflik ve pistte biraz daha iyi tur süreleri için oldukça ciddi bir ek ücret ödeniyor.',
+        ],
+      },
+      {
+        title: 'PDK: Porsche’nin çift kavramalı şanzımanı',
+        paragraphs: [
+          'PDK, Almanca “Porsche Doppelkupplung”, yani “Porsche çift kavrama” anlamına geliyor. Bir sonraki vitesi önceden hazırlayan çift kavramalı yapısı sayesinde vites geçişleri milisaniyeler içinde, neredeyse kesintisiz gerçekleşiyor. Hem günlük kullanımda konforlu bir otomatik gibi davranıyor hem de pistte manuel şanzımandan daha hızlı tur süreleri sağlıyor. Bazı modellerde manuel şanzıman da tercih edilebiliyor.',
+        ],
+        cars: ['porsche-718-cayman-2023'],
+      },
+      {
+        title: 'E-Hybrid ve Performance Battery Plus',
+        paragraphs: [
+          'E-Hybrid, Cayenne ve Panamera gibi modellerde kullanılan şarj edilebilir hibrit versiyonları ifade ediyor; benzinli motora bir elektrik motoru ve şarj edilebilir bir batarya eşlik ediyor.',
+          'Performance Battery Plus ise elektrikli Taycan’da sunulan daha büyük batarya seçeneği. Örneğin “Taycan 4S Performance Battery Plus”, dört çekerli ve güçlü 4S versiyonunun daha büyük bataryalı, dolayısıyla daha uzun menzilli ve biraz daha güçlü hâli anlamına geliyor.',
+        ],
+        cars: ['porsche-taycan-2022', 'porsche-taycan-2026'],
+      },
+      {
+        title: 'Kısa sözlük',
+        list: [
+          'Carrera: 911’in temel, arkadan itişli versiyonu',
+          '4: Dört çeker',
+          'S / 4S: Daha güçlü versiyon / daha güçlü ve dört çekerli versiyon',
+          'T: Touring; hafif ve saf sürüş odaklı',
+          'GTS: Gran Turismo Sport; S ile Turbo arasında, sportif donanımlı',
+          'Turbo / Turbo S: Ailenin en güçlü ve en lüks yol versiyonları (elektriklilerde de kullanılıyor)',
+          'GT3: Piste odaklı, atmosferik motorlu 911',
+          'GT3 RS: Rennsport; GT3’ün en uç, aerodinamik odaklı hâli',
+          'Weissach Paketi: Karbon ve hafif parçalarla ağırlık azaltma paketi',
+          'PDK: Porsche’nin çift kavramalı otomatik şanzımanı',
+          'E-Hybrid: Şarj edilebilir hibrit',
+          'Performance Battery Plus: Taycan’da daha büyük batarya seçeneği',
+        ],
+      },
+    ],
+  },
 ];
 
 // En yeni rehber en üstte (aynı tarihtekilerde sonradan eklenen önce)

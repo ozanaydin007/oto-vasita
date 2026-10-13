@@ -97,6 +97,12 @@ const RAW_CARS = [
     review: {
       tasarim: 'Yeni Clio’yu ilk gördüğünüzde bir şehir otomobiline baktığınıza inanmak zor. Keskin farları ve kaslı duruşuyla segmentinin en havalı tasarımlarından; kabinde de ucuzluk hissi neredeyse yok. Bursa’dan çıkan bir otomobilin bu kadar iddialı görünmesi ayrıca gurur verici.',
     },
+    longReview: [
+      'Yeni Clio’yu ilk gördüğünüzde bir şehir otomobiline baktığınıza inanmak zor. Keskin farları ve kaslı duruşuyla segmentinin en havalı tasarımlarından; Bursa’dan çıkan bir otomobilin bu kadar iddialı görünmesi ayrıca gurur verici.',
+      'Şehir içinde oldukça pratik bir kullanım sunuyor. Kompakt boyutları sayesinde park etmek kolay, trafikte manevra yapmak zahmetsiz. İç mekânı günlük ihtiyaçları rahatça karşılıyor ve kabinde ucuzluk hissi neredeyse yok.',
+      'Uygun kullanım maliyetleriyle çok geniş bir kitleye hitap ediyor. Arka koltuk diz mesafesi biraz dar; EDC şanzıman da düşük hızlarda zaman zaman sarsıntılı olabiliyor.',
+      'Kısacası Clio; şehirde pratik, tasarımı güçlü ve işletmesi ucuz bir otomobil arayan herkes için sınıfının en mantıklı seçeneklerinden.',
+    ],
     faq: [
       { q: 'Yeni Renault Clio nerede üretiliyor?', a: 'Clio, Türkiye’de Bursa’daki Renault fabrikasında üretiliyor.' },
       { q: 'Clio kaç beygir, ne kadar yakıt tüketiyor?', a: 'İncelediğimiz TCe 115 versiyon 115 beygir güç üretiyor ve EDC otomatik şanzımanla sunuluyor. Üretici verilerine göre karma tüketimi yaklaşık 5,5 L/100 km.' },
@@ -113,6 +119,12 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 9.0, konfor: 7.2, tuketim: 9.8, malzeme: 7.2, tasarim: 7.8, fiyat: 7.2, teknoloji: 7.6, guvenilirlik: 9.4, ikinciel: 8.8 },
     pros: ['Şehir içinde rakipsiz yakıt tüketimi', 'Güçlü standart güvenlik paketi', 'Toyota hibrit dayanıklılığı', 'Şehir içinde çoğunlukla elektrikle ilerleyen sessiz sürüş'],
     cons: ['Küçük bagaj ve dar arka koltuk', 'Sınıfının en pahalılarından'],
+    longReview: [
+      'Yaris, küçük boyutlarıyla şehir hayatına tam uyum sağlıyor. Direksiyonu hafif ve kullanımı çok kolay; trafikte ve park ederken hiç yormuyor.',
+      'Hibrit sistemi sayesinde şehir içinde çoğu zaman elektrikle, sessizce ilerliyor ve yakıt tüketimi rakipsiz. Bir yandan da sportif bir karakteri var; virajlarda çevik ve keyifli.',
+      'İç mekânı kompakt ama işlevsel. Bagaj ve arka koltuk ise sınıfının küçükleri arasında; kalabalık bir aile için dar kalabilir.',
+      'Kısacası Yaris; şehirde yaşayan, düşük yakıt tüketimi ve Toyota güvenilirliği isteyenler için çok güçlü bir seçim. Tek dezavantajı, sınıfının pahalılarından olması.',
+    ],
     summary: 'Şehirde neredeyse elektrikli kadar ekonomik; alan yerine düşük yakıt masrafını seçenlerin otomobili.',
   },
   {
@@ -126,6 +138,12 @@ const RAW_CARS = [
     review: {
       konfor: 'i20’nin kabini bir şehir otomobili için gerçekten ferah; arkaya geçen bir yetişkin bile dizlerinden pek şikâyet etmiyor. Yumuşak süspansiyon ayarı da şehrin çukurlu sokaklarında işinizi epey kolaylaştırıyor.',
     },
+    longReview: [
+      'i20 şehir içinde rahatça hareket ediyor ve kolayca park ediliyor. İç mekânı kullanışlı bir düzende; dijital göstergesi ve donanımıyla da modern hissettiriyor.',
+      'Kabini bir şehir otomobili için gerçekten ferah; arkaya geçen bir yetişkin bile dizlerinden pek şikâyet etmiyor. Yumuşak süspansiyon ayarı şehrin çukurlu sokaklarında işinizi epey kolaylaştırıyor.',
+      'Motoru ise çok güçlü değil. 90 beygir şehirde yeterli olsa da dolu bir araçla otoyolda ve sollamalarda biraz planlı olmak gerekiyor.',
+      'Kısacası i20; İzmit üretimi, geniş kabini ve zengin donanımıyla şehirde pratik ve konforlu bir otomobil isteyenler için mantıklı bir tercih.',
+    ],
     summary: 'Geniş kabini ve bol donanımıyla dengeli bir şehir otomobili; Türkiye’ye özel 90 bg motor ise ancak yetiyor.',
   },
   {
@@ -145,10 +163,15 @@ const RAW_CARS = [
     specs: { motor: '1.2L turbo hafif hibrit, 136 bg', hizlanma: '8,9 sn', tuketim: '4,9 L/100 km', bagaj: '309 L' },
     ratings: { surus: 8.0, guvenlik: 7.4, konfor: 7.6, tuketim: 8.6, malzeme: 7.3, tasarim: 7.8, fiyat: 8.2, teknoloji: 7.7, guvenilirlik: 7.4, ikinciel: 7.6 },
     pros: ['Sınıfına göre güçlü hibrit motor', 'Düşük tüketim', 'Klasik, kullanışlı gösterge düzeni'],
-    cons: ['Arka koltuk ve bagaj ortalama', 'Kabinde sert plastikler', 'Dar sürücü ayak boşluğu (botla sürmek zor)'],
+    cons: ['Arka koltuk ve bagaj ortalama', 'Kabinde sert plastikler', 'Dar sürücü ayak boşluğu (botla sürmek zor)', 'İç mekân temel ihtiyaçların ötesine geçmiyor'],
     reviewExtra: {
       tasarim: 'Sürücü tarafında ayak boşluğu çok dar; özellikle manuel versiyonda pedal kullanımı zorlaşıyor ve bot gibi kalın tabanlı ayakkabılarla sürmek neredeyse imkânsız hâle geliyor.',
     },
+    longReview: [
+      'Yeni Corsa keskin hatlarıyla sportif bir görünüm sunuyor. Hibrit motoru sınıfına göre güçlü ve tüketimi düşük.',
+      'İç mekânı temel ihtiyaçları karşılayacak seviyede; fazlası yok. Kabinde sert plastikler var. Bu kasadaki Opel’lerde ortak olan dar sürücü ayak boşluğu da burada devam ediyor; kalın tabanlı ayakkabılarla sürmek zor.',
+      'Kısacası Corsa; güçlü ve ekonomik bir hibrit motoru şık bir gövdede isteyenler için mantıklı, ama iç mekânından fazlasını beklememek gerekiyor.',
+    ],
     summary: 'Hafif hibrit motoruyla hem canlı hem ekonomik; fiyat/performans dengesi çok güçlü bir şehir otomobili.',
   },
   {
@@ -197,6 +220,12 @@ const RAW_CARS = [
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
       surus: 'Golf’ün şasisi hâlâ sınıfının referansı; virajda dengeli, uzun yolda sakin. 1.5 eTSI motor da başarılı: yüksek güce rahatça ulaşıyor ve segmenti için çok tatmin edici. Yalnız düşük devirlerdeki tork karakteristiği nedeniyle düz yolda kalkışta bile ciddi bir sarma sorunu yaşanabiliyor; şehir içi dur-kalkta bunu belirgin şekilde hissediyorsunuz.',
     },
+    longReview: [
+      'Golf sade ama modern tasarımıyla dikkat çekiyor. Dengeli sürüş karakteriyle hem şehirde hem de uzun yolda rahat hissettiriyor; şasisi hâlâ sınıfının referansı.',
+      'İç mekânı kullanışlı ve düzenli. Makyajla gelen aydınlatmalı kontroller ve yeni yazılım, önceki neslin en çok eleştirilen noktalarını büyük ölçüde düzeltmiş. Motor seçenekleri de farklı performans beklentilerini karşılıyor; 1.5 eTSI yüksek güce rahatça ulaşıyor.',
+      'Yalnız bu motorun düşük devirlerdeki tork karakteristiği nedeniyle kalkışta belirgin bir sarma yaşanabiliyor. Güvenilirlik tarafında da bilinmesi gereken üç nokta var: DQ200 şanzıman, vites kolu arızaları ve 48V hafif hibrit akü sorunları. Garantisi devam eden bir örnek ya da uzatılmış garanti mantıklı olabilir.',
+      'Kısacası Golf; kaliteli, olgun ve dengeli bir kompakt otomobil arayanlara hitap ediyor. Bedeli ise sınıfının en yüksek fiyatlarından biri.',
+    ],
     summary: 'Kompakt sınıfın ölçü birimi olmaya devam ediyor; her konuda iyi ama bedeli yüksek.',
   },
   {
@@ -372,6 +401,12 @@ const RAW_CARS = [
       guvenilirlik: 'Bilinen bir sorun direksiyon kutusunda: zamanla aşırı sertleşme ve takılma hissi (EPS direksiyon dişlisi) görülebiliyor; düz yolda giderken sürekli küçük düzeltmeler yapma ihtiyacı doğabiliyor.',
       konfor: '110 km/s ve üzerindeki hızlarda A sütunu ve aynalardan kabine belirgin bir rüzgar sesi geliyor.',
     },
+    longReview: [
+      'Civic, sportif tasarımıyla ilk bakışta öne çıkıyor; içinde ve dışında spor otomobil havası mevcut. Direksiyonuna geçtiğinizde neden yıllardır bu kadar sevildiğini hemen anlıyorsunuz.',
+      'Şasi virajlara iştahla giriyor, 1.5 turbo motor her devirde canlı ve akıcı bir sürüş sunuyor. Kabin geniş, oturma pozisyonu rahat; bir aile sedanından bu kadar keyif almak gerçekten nadir. Bagajı da günlük ihtiyaçları rahatça karşılıyor.',
+      'Bilmeniz gereken iki nokta var. Direksiyon kutusunda zamanla sertleşme ve takılma hissi görülebiliyor; düz yolda sürekli küçük düzeltmeler yapma ihtiyacı doğabiliyor. Ayrıca 110 km/s üzerindeki hızlarda A sütunu ve aynalardan kabine belirgin bir rüzgar sesi geliyor.',
+      'Kısacası Civic; tasarım, sürüş keyfi ve konforu bir arada isteyenlere hitap ediyor. Honda’nın güvenilirliği ve güçlü ikinci el değeri de cabası.',
+    ],
     summary: 'Sedan pratikliğini gerçek sürüş keyfiyle birleştiren, Türkiye’de yıllardır sevilen bir tercih.',
   },
   {
@@ -390,6 +425,12 @@ const RAW_CARS = [
       teknoloji: 'Dijital kokpitte “Seyahat Asistanı devre dışı” uyarısı, direksiyondaki kapasitif sensörlerin hassasiyet kaybı nedeniyle sürekli bip sesiyle ekrana gelebiliyor. Ayakla bagaj açma (sanal pedal) sistemi de kararsız çalışabiliyor.',
       konfor: 'Arka süspansiyonda torsiyon çubuğu kullanan versiyonlarda (özellikle 1.0 eTSI) arka kısım bozuk yollarda fazla zıplayabiliyor; arka kapı fitillerinden gıcırtı sesleri gelebiliyor.',
     },
+    longReview: [
+      'Octavia geniş iç hacmiyle dikkat çekiyor. Arka koltuğa oturan herkes önce dizlerinin önündeki boşluğa şaşırıyor; 600 litrelik bagajıyla da gerçekten çok kullanışlı.',
+      'Uzun yolda konforlu ve dengeli ilerliyor. Çoğu Škoda’da olduğu gibi açık konuşayım: bu otomobil çok konforlu. Yakıt kapağındaki buz kazıyıcı gibi akıllı detaylar da ailelerin hayatını gerçekten kolaylaştırıyor.',
+      'Bilinmesi gerekenler: 1.5 motorlu versiyonlarda DQ200 şanzıman, vites kolu ve 48V akü riskleri var. Dijital kokpitte Seyahat Asistanı uyarısının sürekli bip sesiyle ekrana gelmesi de kullanıcıların sık yaşadığı bir sorun.',
+      'Kısacası Octavia; geniş, konforlu ve pratik bir aile otomobili arayanlar için segmentin en mantıklı seçimlerinden.',
+    ],
     summary: 'Kompakt fiyatına orta sınıf sedan alanı. Aileler için sınıfının en dengeli paketlerinden biri.',
   },
   {
@@ -431,7 +472,7 @@ const RAW_CARS = [
     specs: { motor: '1.6L turbo, 170 bg (Türkiye’ye özel)', hizlanma: '8,1 sn', tuketim: '6,4 L/100 km', bagaj: '480 L' },
     ratings: { surus: 9.3, guvenlik: 9.2, konfor: 8.7, tuketim: 7.8, malzeme: 9.1, tasarim: 8.6, fiyat: 6.4, teknoloji: 8.9, guvenilirlik: 8.0, ikinciel: 9.0 },
     pros: ['Sınıfının en iyi sürüş dinamikleri', 'Mükemmel şanzıman ve direksiyon', 'Kavisli ekran ve iDrive'],
-    cons: ['1.6 motor şasinin hakkını tam veremiyor', 'M Sport süspansiyon kötü yolda sert', 'Sert süspansiyon ve run-flat lastik kaynaklı konfor kaybı', 'Soğutma sistemi bileşenlerinde erken yıpranma ve sızıntı riski'],
+    cons: ['1.6 motor şasinin hakkını tam veremiyor', 'M Sport süspansiyon kötü yolda sert', 'Sert süspansiyon ve run-flat lastik kaynaklı konfor kaybı', 'Soğutma sistemi bileşenlerinde erken yıpranma ve sızıntı riski', 'F30’a göre daha az “saf sürücü otomobili”'],
     review: {
       surus: 'Türkiye’ye özel 1.6 motor kâğıt üzerinde mütevazı görünse de 3 Serisi’nin şasisi her şeyi affettiriyor. Arkadan itişin verdiği o dengeli his, keskin direksiyon ve kusursuz 8 ileri şanzıman; virajlı bir yolda bu otomobilin neden hâlâ sınıfının referansı olduğunu çok net anlıyorsunuz.',
     },
@@ -439,6 +480,12 @@ const RAW_CARS = [
       konfor: 'Run-flat (patlamayan) lastiklerle sert süspansiyon birleşince şehir içi çukurlarda kabine aşırı darbe iletebiliyor. Ön konsoldaki orta havalandırma ızgaralarından tıkırtı sesleri de gelebiliyor.',
       guvenilirlik: 'Soğutma sistemi hortumlarında ve genleşme tankında (yedek su deposu) erken yaşta çatlama ve su eksiltme eğilimi görülebiliyor; su seviyesini düzenli kontrol edin.',
     },
+    longReview: [
+      '3 Serisi’nin en güçlü yanı hâlâ sportif sürüş karakteri. Direksiyonu sürücüye kontrollü ve net bir his veriyor; arkadan itişin dengesi ve kusursuz 8 ileri şanzımanla virajlı bir yolda neden sınıfının referansı olduğunu hemen anlıyorsunuz.',
+      'Türkiye’ye özel 1.6 motor günlük kullanımda canlı bir performans sunuyor. Kabin kaliteli ve modern bir görünüm taşıyor; kavisli ekran ve iDrive kullanımı keyifli.',
+      'Şunu da söylemeliyim: BMW bu kasayla F30’dan ayrılarak saf bir sürücü otomobilinden biraz daha “normal” bir otomobile dönüştü. Ama çağımızın gereklilikleri diyelim, yapacak bir şey yok. Run-flat lastikler ve sert süspansiyon şehir içi çukurlarda kabine darbe iletebiliyor; soğutma sistemi hortumları ve genleşme tankında da erken çatlama eğilimi görülebiliyor, su seviyesini düzenli kontrol edin.',
+      'Kısacası 3 Serisi; sürüş keyfine önem veren herkes için sınıfının hâlâ en mantıklı sedanı.',
+    ],
     summary: 'Türkiye’ye özel 1.6 motoruyla bile sürücü odaklı premium sedanın referansı. Direksiyon başında olmayı sevenler için ilk tercih.',
   },
   {
@@ -504,11 +551,17 @@ const RAW_CARS = [
     fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 170,
     specs: { motor: '1.5L turbo hafif hibrit, 170 bg', hizlanma: '9,0 sn', tuketim: '6,9 L/100 km', bagaj: '540 L' },
     ratings: { surus: 8.5, guvenlik: 9.8, konfor: 9.6, tuketim: 7.5, malzeme: 9.5, tasarim: 9.1, fiyat: 6.0, teknoloji: 9.8, guvenilirlik: 7.6, ikinciel: 8.6 },
-    pros: ['Sınıfının en konforlu sürüşü', 'MBUX Superscreen ve üst düzey teknoloji', 'Çok yüksek güvenlik', 'Ön yolcu ekranlı MBUX Superscreen seçeneği', 'Görüntülü görüşme için kabin kamerası'],
-    cons: ['Giriş motoru ağır gövdede zorlanıyor', 'Fiyatı çok yüksek', 'Uzun süreli kullanımda trim sesleri'],
+    pros: ['Sınıfının en konforlu sürüşü', 'MBUX Superscreen ve üst düzey teknoloji', 'Çok yüksek güvenlik', 'Ön yolcu ekranlı MBUX Superscreen seçeneği', 'Görüntülü görüşme için kabin kamerası', 'Vergi avantajlı 1.5 motorla E-Serisi konforu'],
+    cons: ['Giriş motoru ağır gövdede zorlanıyor', 'Fiyatı çok yüksek', 'Uzun süreli kullanımda trim sesleri', '540 L bagaj artık rakiplerin gerisinde'],
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'E 180, Türkiye’deki vergi dilimi avantajı sayesinde E-Serisi konforuna çok daha erişilebilir bir motor hacmiyle ulaşmanın yolu.',
+      'Geniş ve dijital kokpit teknolojileri (MBUX Superscreen seçenekleri), üst düzey kabin yalıtımı ve konforlu süspansiyon yapısı sunuyor. Uzun yolda gerçek bir E-Serisi gibi sakin ve sessiz.',
+      'Ama 1.5 litrelik motor, aracın ağır gövdesinden dolayı performans odaklı sürücüleri tatmin etmeyecektir; sınıfındaki dizel ya da büyük hibrit rakiplerine göre ara hızlanmalarda net şekilde daha yavaş. 540 litrelik bagaj da artık rakiplerin büyük bagajları karşısında eskisi kadar iyi değil. Mercedes’lerde olduğu gibi uzun süreli kullanımda trim sesleri de ortaya çıkabiliyor.',
+      'Kısacası E 180; performanstan çok konfor, teknoloji ve prestij arayanlar için mantıklı bir giriş kapısı.',
+    ],
     summary: 'Konfor ve teknolojinin zirvesi; sürüş keyfinden çok huzurlu seyahat arayanlar için.',
   },
 
@@ -531,8 +584,14 @@ const RAW_CARS = [
     fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 145,
     specs: { motor: '1.2L turbo hafif hibrit, 145 bg', hizlanma: '9,2 sn', tuketim: '5,3 L/100 km', bagaj: '434 L' },
     ratings: { surus: 7.9, guvenlik: 7.6, konfor: 7.9, tuketim: 8.3, malzeme: 8.0, tasarim: 8.9, fiyat: 7.4, teknoloji: 8.1, guvenilirlik: 7.4, ikinciel: 7.8 },
-    pros: ['Sınıfının en premium görünen kabini', 'Hafif hibritle iyi tüketim', 'Çevik sürüş', 'Bir üst sınıf hissi veren i-Cockpit'],
+    pros: ['Sınıfının en premium görünen kabini', 'Hafif hibritle iyi tüketim', 'Çevik sürüş', 'Bir üst sınıf hissi veren i-Cockpit', 'Yeni nesil Peugeot’lara göre daha uygun fiyat'],
     cons: ['GT donanımda fiyat yüksek', 'Arka koltuk rakiplerden dar'],
+    longReview: [
+      'Peugeot son zamanlarda gerçekten kendini aştı ve 2008 de bunun bir parçası. Keskin tasarımıyla yolda kolayca fark ediliyor.',
+      'Yüksek sürüş pozisyonu yola hâkimiyet hissi veriyor. İç mekânı modern bir görünüm taşıyor; i-Cockpit düzeni bir üst sınıf hissi veriyor. Bagajı günlük kullanım için yeterli, arka koltuk ise rakiplerine göre biraz dar.',
+      'Peugeot’nun en yeni kasalarının belki biraz gerisinde kalıyor; ama fiyatı da onlara göre daha uygun.',
+      'Kısacası 2008; şık ve kompakt bir SUV isteyenlere çok iyi uyuyor.',
+    ],
     summary: 'Görünüşü ve kabin kalitesiyle öne çıkan, kendini bir üst sınıf gibi hissettiren küçük SUV.',
   },
   {
@@ -738,6 +797,12 @@ const RAW_CARS = [
       guvenilirlik: '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
       tuketim: '1.6 T-GDI benzinli motor, performansına oranla şehir içi dur-kalk trafikte beklenenden yüksek yakıt tüketimine ulaşabiliyor.',
     },
+    longReview: [
+      'Tucson, dikkat çekici ön tasarımıyla öne çıkıyor. Parametrik ızgarası ve kapalıyken gizlenen gündüz farları onu yolda hemen tanınır kılıyor; kabinde de aynı modern hava devam ediyor.',
+      'Geniş kabini aile kullanımını kolaylaştırıyor, koltukları uzun yolculuklarda rahatlık sağlıyor. Motoru da şu ana kadar denediğim Tucson’ların en güçlüsü; ara hızlanmalarda ve sollamalarda hiç zorlanmıyor.',
+      'Bilinmesi gerekenler: 7 ileri DCT şanzıman yoğun dur-kalk trafikte ısınma uyarısı verebiliyor ve kalkışlarda titreyebiliyor. Benzinli motorun şehir içi tüketimi de performansına oranla yüksek.',
+      'Kısacası geniş ve modern bir SUV arıyorsanız Tucson kesinlikle değerlendirilmeli. Açıkçası ben de artık ciddi ciddi Tucson’a bakmayı düşünüyorum.',
+    ],
     summary: 'Donanım, tasarım ve alanı iyi fiyatla sunan, sınıfının en dengeli paketlerinden.',
   },
   {
@@ -899,6 +964,12 @@ const RAW_CARS = [
     ratings: { surus: 8.3, guvenlik: 9.8, konfor: 9.2, tuketim: 7.2, malzeme: 9.2, tasarim: 9.1, fiyat: 6.7, teknoloji: 8.9, guvenilirlik: 7.8, ikinciel: 7.6 },
     pros: ['Sınıfının en güvenli otomobillerinden', 'Güçlü motor ve dört çeker', 'Çok rahat koltuklar', 'Arka koltuğa entegre çocuk yükselticisi seçeneği'],
     cons: ['Tüketim yüksek', '2.0 motor nedeniyle yüksek ÖTV'],
+    longReview: [
+      'XC60, sade ve premium tasarımıyla öne çıkıyor. İç mekânı kaliteli malzemelerle şık bir görünüm sunuyor; koltukları da çok rahat.',
+      'Konfor odaklı sürüşü uzun yolculukları kolaylaştırıyor ve sürüşü gerçekten çok güzel. Güvenlik teknolojilerine ne kadar önem verildiğini direksiyona geçer geçmez anlıyorsunuz; bu konuda çok çok önde. Zaten markanın pazarlama stratejisi tam olarak bu.',
+      'Tüketimi ise düşük değil; 2.0 motor nedeniyle vergisi de yüksek.',
+      'Kısacası konforlu ve prestijli bir SUV istiyorsanız kesinlikle bakmanız gereken otomobillerden.',
+    ],
     summary: 'Rakipleri 1.6 altına inerken güçlü 2.0 motoru ve dört çekeriyle kalan, güvenlik ve huzur arayanlar için bir SUV.',
   },
   {
@@ -1905,6 +1976,12 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
     },
+    longReview: [
+      'A3 Sedan, sade ve şık tasarımıyla dikkat çekiyor. İç mekânı Virtual Cockpit ve modern ekranlarıyla kaliteli bir görünüm sunuyor.',
+      'Sürüşü dengeli ve kontrollü hissettiriyor; olgun ve sessiz bir karakteri var. Kompakt bir sedan olması şehir içinde de avantaj sağlıyor.',
+      'Güvenilirlik tarafında 1.5 motorlu otomobillerde bilinen üç kronik noktayı hatırlatmakta fayda var: DQ200 şanzıman, vites kolu arızaları ve 48V hafif hibrit akü sorunları. Garantili ya da uzatılmış garantili bir örnek tercih etmek mantıklı.',
+      'Kısacası A3 Sedan; kompakt boyutlarda premium bir sedan isteyenlere hitap ediyor.',
+    ],
     summary: 'Premium kaliteyi kompakt bir sedanda sunan, şehirde çevik ve uzun yolda olgun bir otomobil.',
   },
   {
@@ -2590,10 +2667,16 @@ const RAW_CARS = [
     specs: { motor: '1.3L turbo benzin, 163 bg, 7G-DCT', hizlanma: '8,2 sn', tuketim: '5,9 L/100 km', bagaj: '370 L' },
     ratings: { surus: 8.0, guvenlik: 9.2, konfor: 7.8, tuketim: 8.0, malzeme: 8.4, tasarim: 8.6, fiyat: 7.0, teknoloji: 9.0, guvenilirlik: 7.6, ikinciel: 8.4 },
     pros: ['Çift ekranlı etkileyici kabin', 'Kompakt sınıfta premium his', 'MBUX sesli asistan'],
-    cons: ['Sert süspansiyon', 'Arka koltuk sınırlı', 'Uzun süreli kullanımda trim sesleri'],
+    cons: ['Sert süspansiyon', 'Arka koltuk sınırlı', 'Uzun süreli kullanımda trim sesleri', 'Rakiplerinden belirgin şekilde ayrışmıyor'],
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'A Serisi kompakt bir gövdede premium bir deneyim sunuyor. İç mekânındaki çift ekran çok modern duruyor, dış tasarımı da sportif ve dinamik.',
+      'Şehir içinde kullanımı oldukça kolay; şık ve prestijli bir otomobil. Motoru rakiplerinden biraz daha güçlü, ama kayda değer bir fark yaratmıyor. Süspansiyonu sert ve arka koltuk sınırlı; uzun süreli kullanımda da Mercedes’lerde olduğu gibi trim sesleri ortaya çıkabiliyor.',
+      'Açık konuşmak gerekirse rakiplerinden ayrışacak çok fazla bir yanı yok. “A3 mü, 1 Serisi mi, Golf mü, A Serisi mi?” sorusunun net bir cevabı da bence yok; her zaman kişinin neyi önemsediğinde bitiyor.',
+      'Kısacası A Serisi; kabin teknolojisi ve Mercedes yıldızı sizin için öncelikliyse doğru seçim.',
+    ],
     summary: 'Kompakt boyutlarda Mercedes deneyimi; kabin teknolojisiyle sınıfının en etkileyicilerinden.',
   },
   {
@@ -4074,6 +4157,22 @@ const RAW_CARS = [
       { q: 'Focus Sedan’ın rakipleri hangileri?', a: 'Renault Megane Sedan, Toyota Corolla, Honda Civic ve Fiat Egea Sedan.' },
     ],
     summary: 'Keyifli yol tutuşu ve düşük tüketimiyle ikinci elde sürüşü seven aileler için mantıklı bir sedan.',
+  },
+  {
+    make: 'Fiat', model: '500', year: 2021, version: '1.0 Hybrid 70 Dolcevita',
+    category: 'sehir-hatchback', bodyType: 'fastback', price: null, used: true,
+    fuel: 'Hafif hibrit', gearbox: 'Manuel', hp: 70,
+    wiki: ['Fiat 500 (2007)', 'de:Fiat 500 (2007)'],
+    specs: { motor: '1.0L atmosferik hafif hibrit, 70 bg, 6 ileri manuel', hizlanma: '13,8 sn', tuketim: '5,3 L/100 km', bagaj: '185 L', tork: '92 Nm', azami: '167 km/s', depo: '35 L', agirlik: '940 kg', cekis: 'Önden çekiş (FWD)' },
+    ratings: { surus: 6.6, guvenlik: 6.0, konfor: 6.6, tuketim: 8.0, malzeme: 7.0, tasarim: 9.0, fiyat: 7.0, teknoloji: 6.8, guvenilirlik: 7.4, ikinciel: 8.0 },
+    pros: ['Diğer küçük otomobillerden ayrışan retro tasarım', 'Dar sokaklarda ve parkta çok kolay', 'Şirin ve kendine özgü iç mekân'],
+    cons: ['Çok küçük bagaj ve arka koltuk', 'Otoyolda motor zayıf kalıyor'],
+    longReview: [
+      'Fiat 500, retro tasarımıyla diğer küçük otomobillerden hemen ayrılıyor. Dar sokaklarda rahatça hareket ediyor; küçük boyutları park etmeyi çok kolaylaştırıyor.',
+      'İç mekânı şirin ve kendine özgü bir tarz taşıyor. Bagaj ve arka koltuk ise çok küçük; bu otomobil daha çok tek başına ya da iki kişi kullanım için.',
+      'Kısacası şehir içinde tarz sahibi bir otomobil istiyorsanız ama herkes gibi Clio ya da Egea almak istemiyorsanız Fiat 500 iyi bir seçenek olabilir.',
+    ],
+    summary: 'Şehirde tarz sahibi bir otomobil isteyen ama herkes gibi Clio ya da Egea almak istemeyenler için retro ve şirin bir seçenek.',
   },
 ];
 
