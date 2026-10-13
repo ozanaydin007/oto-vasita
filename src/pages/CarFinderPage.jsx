@@ -7,11 +7,13 @@ import ScoreBadge from '../components/ScoreBadge.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
 import { priceLabel } from '../lib/scoring.js';
 import useTitle from '../lib/useTitle.js';
+import RadarFinder from '../components/RadarFinder.jsx';
 
 export default function CarFinderPage() {
   useTitle('Araç bulucu: Bana uygun aracı bul');
   const [step, setStep] = useState(0); // 0: giriş, 1..n: sorular, n+1: sonuç
   const [answers, setAnswers] = useState({});
+  const [mode, setMode] = useState(null); // null: seçim ekranı, 'quiz', 'radar'
   const questions = activeQuestions(answers);
   const n = questions.length;
   const q = questions[step - 1];
@@ -29,7 +31,43 @@ export default function CarFinderPage() {
   const restart = () => {
     setAnswers({});
     setStep(0);
+    setMode(null);
   };
+
+  if (mode === 'radar') return <RadarFinder onBack={() => setMode(null)} />;
+
+  if (mode === null) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-8">
+        <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight">Bana uygun aracı bul</h1>
+        <p className="text-ink-soft mt-4 text-lg leading-relaxed">Size uygun otomobili iki farklı yoldan bulabilirsiniz.</p>
+        <div className="mt-8 grid gap-5 md:grid-cols-2">
+          <button
+            type="button"
+            onClick={() => { setMode('quiz'); setStep(1); }}
+            className="text-left border border-rule rounded-xl p-6 hover:border-ink hover:bg-mist transition-colors"
+          >
+            <span className="font-display text-2xl font-bold">Soru-cevap ile bul</span>
+            <span className="block mt-2 text-ink-soft leading-relaxed">
+              Bütçeniz, kullanımınız ve öncelikleriniz hakkında adım adım soruları cevaplayın; size en uygun otomobilleri uyum yüzdesiyle sıralayalım.
+            </span>
+            <span className="block mt-4 text-link font-semibold">Teste başla →</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setMode('radar')}
+            className="text-left border border-rule rounded-xl p-6 hover:border-ink hover:bg-mist transition-colors"
+          >
+            <span className="font-display text-2xl font-bold">Radar ile kendin ayarla</span>
+            <span className="block mt-2 text-ink-soft leading-relaxed">
+              10 başlıklı radar grafiğimizdeki noktaları sürükleyerek hayalinizdeki otomobilin şeklini çizin; o şekle en çok uyan otomobilleri anında görün.
+            </span>
+            <span className="block mt-4 text-link font-semibold">Radarı aç →</span>
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (step === 0) {
     return (

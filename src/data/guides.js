@@ -853,6 +853,46 @@ const GUIDE_LIST = [
       },
     ],
   },
+  {
+    slug: '1-milyon-tlye-alinabilecek-en-iyi-ikinci-el-otomobiller',
+    stats: ['tuketimPuan', 'guvenilirlik', 'ikinciel'],
+    title: '1 Milyon TL’ye Alınabilecek En İyi İkinci El Otomobiller',
+    subtitle: 'Yaklaşık 1 milyon TL bütçeyle alınabilecek, ekonomik, güvenilir ve keyifli ikinci el otomobiller',
+    description:
+      '1 milyon TL’ye alınabilecek en iyi ikinci el otomobiller: Renault Clio, Megane Sedan, Toyota Corolla, Ford Focus, Opel Corsa, Fiat Egea, BMW 320i, Seat Ibiza, Honda Jazz ve VW Jetta.',
+    date: '2026-10-13',
+    dateLabel: '13 Ekim 2026',
+    intro: [
+      '1 milyon TL, bugün sıfır bir otomobil için yeterli bir bütçe değil; ama ikinci el piyasasında hâlâ çok mantıklı seçenekler sunuyor. Doğru modeli ve doğru örneği seçtiğinizde, düşük tüketimli, güvenilir ve satarken de kolay alıcı bulan bir otomobile sahip olabilirsiniz.',
+      'Bu rehberde, yaklaşık 1 milyon TL bütçeyle bulunabilecek en iyi ikinci el otomobilleri seçtik. Listede şehir otomobillerinden aile sedanlarına, hatta arkadan itişli bir BMW’ye kadar farklı ihtiyaçlara uygun seçenekler var. Fiyatlar kilometreye, hasar kaydına ve donanıma göre değişiyor; listeyi Ekim 2026 ilan piyasasını göz önünde bulundurarak hazırladık.',
+    ],
+    method:
+      'Listeyi incelemelerimizdeki genel puanlara, güvenilirlik ve ikinci el puanlarına ve kendi kullanım deneyimlerimize göre hazırladık. Fiyatlar ilan piyasasına göre yaklaşık değerlerdir ve hızla değişebilir.',
+    items: [
+      { car: 'renault-clio-2020', text: 'Bu bütçede bizim favorimiz. 1.3 TCe motoru nefes kesen bir performans sunuyor; hafif kasası sayesinde kendinden güçlü bazı otomobillerden bile daha hızlı hissettiriyor. Otomatik şanzımanı, modern kabini ve kolay satılmasıyla fiyat/performans açısından rakipsiz.' },
+      { car: 'renault-megane-sedan-2018', text: 'Düşük dizel tüketimi, geniş bagajı ve otomatik şanzımanıyla bu bütçenin en mantıklı aile sedanlarından. Bursa üretimi olduğu için parçası ucuz ve kolay bulunuyor. Almadan önce EDC şanzımanın ve DPF’nin durumunu kontrol ettirin.' },
+      { car: 'toyota-corolla-2017', text: 'Sorunsuzluk denince akla gelen ilk isim. Düzenli bakımla çok uzun süre kullanılabiliyor ve ikinci elde çok kolay satılıyor. Hızlanmada sesli ve biraz güçsüz hissettirse de kafa rahatlığı isteyenler için en güvenli seçim.' },
+      { car: 'ford-focus-sedan-2016', text: 'Bu bütçede yol tutuşu en keyifli sedanlardan biri. 1.5 TDCi motoru uzun yolda çok az yakıyor. Süspansiyonu sert; ikinci el alırken DPF, turbo ve Powershift şanzımanın geçmişini mutlaka kontrol ettirin.' },
+      { car: 'opel-corsa-2021', text: 'Kendi ilk otomobilim olarak üç yılda 65 bin kilometre kullandım: tüketimi insanüstü, direksiyonu yumuşak ve tamamen bütçe dostu. Manuel şanzımanı ve sade kabini bir eksi; ama ekonomi sizin için her şeyden önemliyse rakibi yok.' },
+      { car: 'fiat-egea-sedan-2018', text: 'Türkiye’nin en yaygın aile sedanlarından biri olmasının bir sebebi var: çok düşük tüketim, dev bagaj ve satması sabah simit almak kadar kolay. Performansı atak değil ve kabini sade; ama ucuz bakımıyla cüzdanı en az yoran seçeneklerden.' },
+      { car: 'bmw-3-serisi-2013', text: 'Bu bütçeyle arkadan itişli bir BMW’ye ulaşmanın yolu. Zamanının önünde tasarımı ve sürüş keyfiyle çok cazip; ama dikkat: N13 motor kronik sorunlarıyla biliniyor. Bakım geçmişi belli olmayan örneklerden uzak durun ve bütçeniz elverirse N20 motorlu versiyonlara bakın.' },
+      { car: 'seat-ibiza-2020', text: 'Keyifli sürüşü, canlı 1.0 TSI motoru ve hızlı DSG şanzımanıyla genç sürücüler için çok eğlenceli bir şehir otomobili. FR donanımın sportif görünümü de cabası. DSG’nin bakım geçmişine dikkat edin.' },
+      { car: 'honda-jazz-2019', text: 'Honda güvenilirliği ve sinema koltuğu gibi kalkan “sihirli” arka koltuklarıyla küçük boyutlarına rağmen inanılmaz pratik. Sorunsuz ve uzun ömürlü bir şehir otomobili arayanlar için çok mantıklı.' },
+      { car: 'volkswagen-jetta-2017', text: 'Geniş kabini, büyük bagajı, düşük dizel tüketimi ve otomatik şanzımanıyla Passat’a bütçe yetmeyenler için olgun bir alternatif. DSG şanzımanın ve dizel emisyon sisteminin durumunu kontrol ettirmek şart.' },
+    ],
+    sections: [
+      {
+        title: 'Bu bütçede ikinci el alırken dikkat edilmesi gerekenler',
+        list: [
+          'Kilometre ve yaş dengesini gözetin: Çok düşük fiyatlı ilanlar genellikle yüksek kilometre, ağır hasar ya da gizli bir sorun saklar.',
+          'Dizel otomobillerde DPF’nin, çift kavramalı otomatiklerde (DSG, EDC, Powershift) şanzımanın bakım geçmişi kritik.',
+          'Tramer kaydını sorgulayın ve bağımsız ekspertiz yaptırmadan karar vermeyin.',
+          'Yakın zamanda değişmesi gereken parçaları (triger, lastik, fren, debriyaj) pazarlıkta fiyattan düşün.',
+          'Adım adım kontrol listesi için “İkinci El Araç Alırken Kontrol Listesi” rehberimize göz atabilirsiniz.',
+        ],
+      },
+    ],
+  },
 ];
 
 // En yeni rehber en üstte (aynı tarihtekilerde sonradan eklenen önce)
