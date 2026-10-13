@@ -69,9 +69,11 @@ const STATIC = {
 
 function reviewSeo(car) {
   const category = getCategory(car.category);
-  const title = titled(`${car.year} ${car.make} ${car.model} incelemesi`);
+  // Arama sonuçlarında daha davetkâr bir başlık: inceleme + artılar/eksiler + puan
+  const title = titled(car.seoTitle || `${car.year} ${car.make} ${car.model} İnceleme: Artıları, Eksileri ve Puanı`);
   const description = clip(
-    `${car.year} ${car.make} ${car.model} ${car.version} incelemesi: 10 başlıkta ${fmt(car.score)}/10 puan. ${car.summary}`
+    car.seoDescription ||
+      `${car.year} ${car.make} ${car.model} ${car.version}: ${fmt(car.score)}/10 puan, artıları ve eksileri, teknik veriler ve rakipleri. ${car.summary}`
   );
   const url = `${SITE_URL}/inceleme/${car.slug}`;
   const jsonLd = [
@@ -92,6 +94,15 @@ function reviewSeo(car) {
       },
       reviewRating: { '@type': 'Rating', ratingValue: car.score, bestRating: 10, worstRating: 0 },
     },
+    ...(car.faq?.length
+      ? [
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: car.faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+          },
+        ]
+      : []),
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',

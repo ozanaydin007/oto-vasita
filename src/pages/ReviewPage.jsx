@@ -255,6 +255,22 @@ export default function ReviewPage() {
         <Scorecard car={car} />
       </div>
 
+      {car.faq?.length > 0 && (
+        <section className="mt-16 max-w-3xl" aria-labelledby="h-sss">
+          <h2 id="h-sss" className="font-display text-2xl font-bold border-b border-rule pb-3">
+            {car.make} {car.model} hakkında sık sorulan sorular
+          </h2>
+          <dl className="mt-2 divide-y divide-rule">
+            {car.faq.map(({ q, a }) => (
+              <div key={q} className="py-4">
+                <dt className="font-semibold text-[17px]">{q}</dt>
+                <dd className="mt-1.5 text-[16px] leading-relaxed text-ink-soft">{a}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
+
       {rivals.length > 0 && (
         <section className="mt-16" aria-labelledby="h-rivals">
           <h2 id="h-rivals" className="font-display text-2xl font-bold border-b border-rule pb-3">
