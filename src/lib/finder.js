@@ -1,5 +1,6 @@
 import { CARS } from '../data/cars.js';
 import { CRITERIA } from '../data/criteria.js';
+import { BANDS, PRICE_BANDS, GUESS_BANDS } from '../data/priceBands.js';
 
 // ---------------------------------------------------------------------------
 // ARAÇ BULUCU — sorular ve eşleştirme
@@ -23,17 +24,22 @@ export function bodyGroup(car) {
 // İkinci el (ve fiyatı olmayan) araçlar için kaba piyasa değeri tahmini.
 // Yalnızca bütçe sorusunda kullanılır; sitede gösterilmez.
 const REF_PRICE = {
-  'sehir-hatchback': 1.5e6, 'kompakt-hatchback': 2.0e6, 'kompakt-sedan': 1.8e6, 'premium-sedan': 4.2e6,
-  'kucuk-suv': 2.0e6, 'aile-suv': 2.6e6, 'premium-suv': 5.5e6, spor: 6.0e6, 'arazi-pickup': 3.0e6, elektrikli: 2.5e6,
+  'sehir-hatchback': 1.5e6, 'kompakt-hatchback': 2.0e6, 'kompakt-sedan': 1.8e6, 'premium-sedan': 6.0e6,
+  'kucuk-suv': 2.0e6, 'aile-suv': 2.6e6, 'premium-suv': 8.0e6, spor: 8.0e6, 'arazi-pickup': 3.0e6, elektrikli: 2.5e6,
 };
 const EXOTIC = ['Ferrari', 'Lamborghini', 'Bentley', 'Aston Martin', 'McLaren', 'Rolls-Royce'];
 const PREMIUM_CATS = ['premium-sedan', 'premium-suv', 'spor'];
 export function estimatedValue(car) {
   if (car.price != null) return car.price;
+  const band = PRICE_BANDS[car.slug] || GUESS_BANDS[car.slug];
+  if (band) return BANDS[band].mid;
   let v = REF_PRICE[car.category] ?? 2.0e6;
+  // Premium sınıftaki ama premium olmayan markalar (Passat, 508, DS 9 gibi) daha uygun
+  if (PREMIUM_CATS.includes(car.category) && !PREMIUM.includes(car.make) && !EXOTIC.includes(car.make) && car.make !== 'Maserati') v = 3.0e6;
   if (EXOTIC.includes(car.make)) v *= 4;
+  else if (car.make === 'Maserati') v *= 1.5;
   else if (car.make === 'Porsche') v *= 2.5;
-  else if (PREMIUM.includes(car.make) && !PREMIUM_CATS.includes(car.category)) v *= 1.5;
+  else if (PREMIUM.includes(car.make) && !PREMIUM_CATS.includes(car.category)) v *= 1.8;
   const age = Math.max(0, 2026 - car.year);
   return v * Math.max(0.2, Math.pow(0.92, age));
 }
