@@ -26,4 +26,10 @@ export const POPULAR_COMPARISONS = [
   ['bmw-3-serisi-2019', 'mercedes-benz-c-serisi-2020', 'audi-a4-sedan-2021'],
   ['tesla-model-y-2026', 'byd-sealion-7-2026'],
   ['porsche-911-turbo-s-2022', 'audi-r8-2023'],
+  ['renault-taliant-2026', 'fiat-egea-sedan-2026'],
+  ['volkswagen-t-cross-2026', 'volkswagen-taigo-2026', 'seat-arona-2026'],
+  ['nissan-juke-2026', 'opel-mokka-2026', 'peugeot-2008-2026'],
+  ['dacia-bigster-2026', 'renault-duster-2026'],
+  ['honda-civic-sedan-2018', 'toyota-corolla-2017', 'renault-megane-sedan-2018'],
+  ['fiat-egea-sedan-2018', 'renault-megane-sedan-2018'],
 ];
