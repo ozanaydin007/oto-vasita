@@ -1,7 +1,8 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { CATEGORIES, CARS, carsInCategory, getCar } from '../data/cars.js';
-import { EDITOR_PICKS } from '../data/editorPicks.js';
+import { EDITOR_WEEKS } from '../data/editorPicks.js';
 import EditorPickCard from '../components/EditorPickCard.jsx';
 import { CRITERIA } from '../data/criteria.js';
 import { formatScore } from '../lib/scoring.js';
@@ -43,22 +44,80 @@ function RankingColumn({ category }) {
 }
 
 function EditorPicks() {
-  const picks = EDITOR_PICKS.items.map((p) => ({ ...p, car: getCar(p.car) })).filter((p) => p.car);
-  if (picks.length === 0) return null;
+  // 0 = bu hafta; sol ok daha eski haftalara, sağ ok yeniye götürür
+  const [index, setIndex] = useState(0);
+  const weeks = EDITOR_WEEKS.map((w) => ({
+    ...w,
+    picks: w.items.map((p) => ({ ...p, car: getCar(p.car) })).filter((p) => p.car),
+  })).filter((w) => w.picks.length);
+  if (weeks.length === 0) return null;
+  const canOlder = index < weeks.length - 1;
+  const canNewer = index > 0;
+  const arrow =
+    'w-10 h-10 rounded-full border border-rule inline-flex items-center justify-center transition-colors disabled:opacity-30 disabled:cursor-not-allowed enabled:hover:border-ink enabled:hover:bg-mist';
+
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-4" aria-labelledby="h-secim">
-      <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-b border-rule pb-3">
+      <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 border-b border-rule pb-3">
         <h2 id="h-secim" className="font-display text-3xl font-extrabold tracking-tight">Editörün seçimi</h2>
-        <div className="flex items-baseline gap-4 text-sm">
-          <span className="text-muted">{EDITOR_PICKS.week}</span>
-          <Link to="/editorun-secimi" className="text-link hover:underline underline-offset-2 inline-flex items-center gap-0.5">
-            Geçmiş haftaların araçları <ChevronRight className="w-4 h-4" aria-hidden="true" />
+        <div className="flex items-center gap-3">
+          <button type="button" className={arrow} onClick={() => setIndex((i) => i + 1)} disabled={!canOlder} aria-label="Önceki haftanın seçimleri">
+            <ChevronLeft className="w-5 h-5" aria-hidden="true" />
+          </button>
+          <span className="text-sm text-muted min-w-[9.5rem] text-center" aria-live="polite">
+            {weeks[index].week}
+            {index === 0 && <span className="ml-1.5 text-xs font-semibold bg-star text-ink rounded px-1.5 py-0.5">Bu hafta</span>}
+          </span>
+          <button type="button" className={arrow} onClick={() => setIndex((i) => i - 1)} disabled={!canNewer} aria-label="Sonraki haftanın seçimleri">
+            <ChevronRight className="w-5 h-5" aria-hidden="true" />
+          </button>
+        </div>
+      </div>
+      <div className="mt-6 overflow-hidden">
+        <div className="flex transition-transform duration-500 ease-out" style={{ transform: `translateX(-${index * 100}%)` }}>
+          {weeks.map((w, i) => (
+            <div key={w.week} className="min-w-full" aria-hidden={i !== index} inert={i !== index || undefined}>
+              <ul className="grid gap-6 md:grid-cols-3">
+                {w.picks.map(({ car, text }) => <EditorPickCard key={car.slug} car={car} text={text} />)}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// Ana sayfada araç bulucu ve karşılaştırmayı öne çıkaran kartlar
+function ToolCards() {
+  const card = 'flex flex-col sm:flex-row sm:items-center justify-between gap-4 border border-rule rounded-xl p-5 sm:p-6 bg-mist';
+  const btn = 'shrink-0 inline-flex items-center gap-1 bg-ink text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-ink-soft';
+  return (
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-4" aria-label="Araç bulucu ve karşılaştırma">
+      <div className="grid gap-4 md:grid-cols-2">
+        <div className={card}>
+          <div>
+            <h2 className="font-display text-xl font-bold">Araç bulucu</h2>
+            <p className="mt-1 text-ink-soft leading-relaxed">
+              İstediğiniz aracı bulmanıza yardımcı olalım. Birkaç soruyu cevaplayın ya da radarımızı kendiniz ayarlayın.
+            </p>
+          </div>
+          <Link to="/arac-bulucu" className={btn}>
+            Aracımı bul <ChevronRight className="w-4 h-4" aria-hidden="true" />
+          </Link>
+        </div>
+        <div className={card}>
+          <div>
+            <h2 className="font-display text-xl font-bold">Araç karşılaştırma</h2>
+            <p className="mt-1 text-ink-soft leading-relaxed">
+              Aklınızdaki otomobilleri yan yana koyun; puanları, teknik verileri ve artı-eksileri tek ekranda görün.
+            </p>
+          </div>
+          <Link to="/karsilastir" className={btn}>
+            Karşılaştır <ChevronRight className="w-4 h-4" aria-hidden="true" />
           </Link>
         </div>
       </div>
-      <ul className="mt-6 grid gap-6 md:grid-cols-3">
-        {picks.map(({ car, text }) => <EditorPickCard key={car.slug} car={car} text={text} />)}
-      </ul>
     </section>
   );
 }
@@ -77,6 +136,8 @@ export default function Home() {
           Her aracı sürüşten ikinci el değerine 10 başlıkta, 10 üzerinden puanlıyoruz. Sıralamalar bu puanların ağırlıklı ortalamasına göre belirleniyor.
         </p>
       </div>
+
+      <ToolCards />
 
       <EditorPicks />
 
