@@ -893,6 +893,99 @@ const GUIDE_LIST = [
       },
     ],
   },
+  {
+    slug: 'lastik-secimi-rehberi',
+    title: 'Lastik Seçiminin Önemi: Hangi Yolda Hangi Lastik Kullanılmalı?',
+    subtitle: 'Yaz, kış, dört mevsim, run-flat, performans ve arazi lastikleri: farkları, avantajları ve hangi kullanıcıya uygun oldukları',
+    description:
+      'Lastik seçimi rehberi: yaz lastiği, kış (kar) lastiği, dört mevsim lastik, run-flat, performans, arazi ve elektrikli araç lastikleri arasındaki farklar; lastik ölçüsü ve etiket okuma, diş derinliği ve üretim tarihi.',
+    date: '2026-10-14',
+    dateLabel: '14 Ekim 2026',
+    intro: [
+      'Otomobilinizin yolla temas eden tek parçası lastikleri. Toplamda bir kartpostal büyüklüğündeki dört temas yüzeyi; frenlemeden viraj tutuşuna, yakıt tüketiminden kabin sessizliğine kadar her şeyi doğrudan etkiliyor. En gelişmiş güvenlik sistemleri bile ancak lastiğin sağladığı tutunma kadar etkili olabiliyor.',
+      'Bu rehberde lastik türlerini, hangi koşulda hangisinin kullanılması gerektiğini ve lastik alırken dikkat etmeniz gereken detayları anlatıyoruz.',
+    ],
+    sections: [
+      {
+        title: '1. Yaz lastiği',
+        paragraphs: [
+          'Yaz lastikleri, hava sıcaklığı yaklaşık 7°C’nin üzerindeyken en iyi performansı veren lastiklerdir. Daha sert bir hamura ve daha az diş yarığına sahip oldukları için kuru ve ıslak asfaltta kısa fren mesafesi, keskin direksiyon tepkisi ve düşük yuvarlanma direnci sunarlar.',
+          'Soğuk havada ise hamurları sertleşir ve tutunmaları belirgin şekilde azalır; karda ve buzda kesinlikle güvenli değildir. Kışları ılık geçen bölgelerde yıl boyu kullanılabilirler, ama soğuk iklimlerde mutlaka kış lastiğiyle birlikte kullanılmalıdırlar.',
+        ],
+      },
+      {
+        title: '2. Kış (kar) lastiği',
+        paragraphs: [
+          'Kış lastikleri, 7°C’nin altındaki sıcaklıklarda yumuşak kalan özel bir hamura ve karı, çamuru tutan derin diş yapısına sahiptir. Lastik yüzeyindeki çok sayıda ince kanal (lamel), karda ve ıslak soğuk zeminde tutunmayı artırır. Kışın, yaz lastiğine göre fren mesafesini ciddi şekilde kısaltırlar.',
+          'Yan yüzeyindeki dağ ve kar tanesi sembolü (3PMSF), lastiğin kış koşullarında test edilip onaylandığını gösterir. Yalnızca “M+S” (çamur ve kar) ibaresi tek başına gerçek bir kış lastiği olduğu anlamına gelmez. Türkiye’de kış lastiği ticari araçlar için belirli tarihler arasında zorunlu; özel otomobiller için zorunlu olmasa da soğuk ve karlı bölgelerde şiddetle öneriliyor. Güncel kuralları her sezon kontrol etmekte fayda var.',
+        ],
+      },
+      {
+        title: '3. Dört mevsim lastik',
+        paragraphs: [
+          'Dört mevsim lastikler, yaz ve kış lastiklerinin özelliklerini tek bir lastikte birleştirmeye çalışır. Ilıman iklimde yaşayan, karla nadiren karşılaşan ve lastik değiştirme zahmetine girmek istemeyen sürücüler için pratik bir çözümdür. 3PMSF sembolü taşıyan modeller hafif kış koşullarında da yasal ve güvenlidir.',
+          'Bedeli ise her iki uçta da uzman lastiklerin gerisinde kalmaktır: sıcak yazlarda yaz lastiği kadar keskin değil, sert kışlarda da kış lastiği kadar güvenli değildir. Şehir içinde yaşayan ve kışı ılık geçen bölgelerdeki sürücüler için en mantıklı seçenek olabilir.',
+        ],
+      },
+      {
+        title: '4. Run-flat (patlamaya dayanıklı) lastikler',
+        paragraphs: [
+          'Run-flat lastikler, güçlendirilmiş yan duvarları sayesinde hava kaybettiklerinde bile otomobilin belirli bir mesafeyi (genellikle yaklaşık 80 km’yi, 80 km/s’nin altındaki hızlarla) gitmesine izin verir. Böylece yol kenarında lastik değiştirmek zorunda kalmazsınız ve otomobilde stepneye gerek kalmaz. BMW başta olmak üzere bazı markalar run-flat lastikleri standart olarak kullanıyor.',
+          'Dezavantajı konfor. Sert yan duvarları nedeniyle bozuk yollarda ve çukurlarda kabine daha fazla darbe iletirler; incelemelerimizde BMW 3 Serisi’nde bunu ayrıca belirtmiştik. Ayrıca normal lastiklere göre daha pahalıdırlar ve her lastikçide tamir edilemeyebilirler. Run-flat lastikler yalnızca lastik basınç izleme sistemi olan otomobillerde kullanılmalıdır.',
+        ],
+        cars: ['bmw-3-serisi-2026'],
+      },
+      {
+        title: '5. Performans (UHP) lastikleri',
+        paragraphs: [
+          'Ultra yüksek performans lastikleri, spor otomobiller ve güçlü sedanlar için tasarlanır. Çok yumuşak hamurları ve geniş temas yüzeyleriyle kuru zeminde olağanüstü tutunma ve keskin direksiyon tepkisi sağlarlar. Ancak daha hızlı aşınırlar, daha gürültülüdürler ve fiyatları yüksektir. Hot hatch ya da spor otomobil kullanıyorsanız, otomobilin performansından gerçekten yararlanabilmek için bu lastikler önemlidir.',
+        ],
+        cars: ['honda-civic-type-r-2023', 'porsche-911-gt3-2023'],
+      },
+      {
+        title: '6. Arazi lastikleri (A/T ve M/T)',
+        paragraphs: [
+          'Pick-up ve arazi araçları için iki ana tür vardır. A/T (All Terrain) lastikler hem asfaltta hem de toprak, çakıl gibi zeminlerde dengeli bir performans sunar; çoğu kullanıcı için en mantıklı seçimdir. M/T (Mud Terrain) lastikler ise çok derin ve iri dişleriyle çamurda ve zorlu arazide üstündür, ama asfaltta gürültülü ve daha az konforludur.',
+        ],
+        cars: ['toyota-hilux-2023', 'ford-ranger-2023'],
+      },
+      {
+        title: '7. Elektrikli otomobil lastikleri',
+        paragraphs: [
+          'Elektrikli otomobiller, ağır bataryaları ve anlık torkları nedeniyle lastikleri daha hızlı aşındırabilir. Elektrikli araçlar için geliştirilen lastikler daha yüksek yük taşıma kapasitesine, düşük yuvarlanma direncine (menzili artırmak için) ve motor sesi olmadığından daha belirgin duyulan yol gürültüsünü azaltmak için ses sönümleyici iç yapılara sahiptir. Elektrikli bir otomobilde yanlış lastik seçimi menzili gözle görülür şekilde düşürebilir.',
+        ],
+      },
+      {
+        title: 'Lastik ölçüsünü ve etiketini okumak',
+        paragraphs: [
+          'Lastiğin yan yüzeyindeki “205/55 R16 91V” gibi bir ifadede 205 lastiğin milimetre cinsinden genişliğini, 55 yan duvar yüksekliğinin genişliğe oranını (yüzde), R radyal yapıyı, 16 jant çapını (inç), 91 yük endeksini ve V hız sembolünü gösterir. Yeni lastik alırken otomobilinizin kullanım kılavuzunda belirtilen ölçü, yük endeksi ve hız sembolüne uymanız gerekir.',
+          'Lastik etiketi ise üç önemli bilgi verir: yakıt verimliliği (yuvarlanma direnci), ıslak zeminde fren performansı ve dışarıya yayılan gürültü seviyesi. Özellikle ıslak zemin sınıfı güvenlik açısından en önemli değerdir.',
+        ],
+      },
+      {
+        title: 'Lastik alırken ve kullanırken kontrol listesi',
+        list: [
+          'Üretim tarihi: Yan yüzeydeki dört haneli DOT kodunun ilk iki hanesi haftayı, son iki hanesi yılı gösterir (ör. 3825 → 2025’in 38. haftası). Çok uzun süre depoda beklemiş lastiklerden kaçının.',
+          'Diş derinliği: Yasal alt sınır 1,6 mm’dir; ama güvenlik açısından yaz lastiklerini 3 mm, kış lastiklerini 4 mm civarında değiştirmek önerilir.',
+          'Yaş: Dişi bitmese bile lastik hamuru zamanla sertleşir; 6–10 yaşındaki lastiklerin durumunu bir uzmana kontrol ettirin.',
+          'Basınç: Ayda bir ve uzun yol öncesinde lastik basıncını soğukken kontrol edin. Düşük basınç hem tüketimi artırır hem de lastiği hızlı aşındırır.',
+          'Rot-balans: Düzensiz aşınma, direksiyonun bir tarafa çekmesi ya da titreme varsa rot-balans ayarı yaptırın.',
+          'Dört lastik aynı olmalı: Özellikle dört çekerli otomobillerde farklı marka, model ya da aşınmadaki lastikler çekiş sistemine zarar verebilir.',
+          'İkinci el lastikten kaçının: Geçmişini bilmediğiniz bir lastik, içten hasarlı olabilir.',
+        ],
+      },
+      {
+        title: 'Hangi sürücüye hangi lastik?',
+        list: [
+          'Kışı ılık geçen bir şehirde yaşıyor ve çoğunlukla şehir içinde kullanıyorsanız: Kaliteli bir dört mevsim lastik.',
+          'Kışı soğuk ve karlı bir bölgede yaşıyorsanız: Yaz ve kış lastiği olarak iki ayrı takım.',
+          'Spor otomobil ya da hot hatch kullanıyorsanız: Yazın performans (UHP) lastiği, kışın kaliteli bir kış lastiği.',
+          'Elektrikli otomobil kullanıyorsanız: Elektrikli araçlara uygun, düşük yuvarlanma dirençli ve sessiz lastikler.',
+          'Sık sık arazi ve toprak yola giriyorsanız: A/T arazi lastikleri.',
+        ],
+      },
+    ],
+  },
 ];
 
 // En yeni rehber en üstte (aynı tarihtekilerde sonradan eklenen önce)
