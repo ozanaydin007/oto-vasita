@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { PHOTOS } from '../data/photos.js';
 
 // ---------------------------------------------------------------------------
 // Wikipedia / Wikimedia Commons'tan araç fotoğrafı yükleyici
@@ -29,7 +30,9 @@ const chunks = (arr, n) => Array.from({ length: Math.ceil(arr.length / n) }, (_,
 
 async function getJSON(base, params) {
   const url = `${base}?${new URLSearchParams({ format: 'json', formatversion: '2', origin: '*', ...params })}`;
-  const res = await fetch(url);
+  // Yayın sırasında (Node) Wikimedia'nın istediği tanıtıcı başlık gönderilir; tarayıcıda gerek yok
+  const headers = typeof window === 'undefined' ? { 'User-Agent': 'OtoVaroBuild/1.0 (https://otovaro.com; iletisim@otovaro.com)' } : undefined;
+  const res = await fetch(url, headers ? { headers } : undefined);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }
@@ -158,16 +161,35 @@ function load(titles, file) {
 }
 
 // Bir araç için fotoğraf bilgisi. Kendi fotoğrafı (image) varsa onu kullanır.
+// Yayın sırasında önceden çözülmüş fotoğraf (scripts/fetch-photos.mjs). Varsa API'ye hiç gidilmez;
+// böylece fotoğraf hazır HTML'de yer alır ve Google da görebilir.
+const prebuilt = (car) => (car.image ? { src: car.image, own: true } : PHOTOS[car.slug] || null);
+
+// Yayın betiği için: tüm araçların fotoğraflarını toplu olarak çözer
+export async function resolveAllPhotos(cars) {
+  const out = {};
+  await Promise.all(
+    cars.map(async (car) => {
+      const titles = car.wiki ? (Array.isArray(car.wiki) ? car.wiki : [car.wiki]) : [];
+      if (!titles.length && !car.wikiFile) return;
+      const p = await load(titles, car.wikiFile);
+      if (p) out[car.slug] = p;
+    })
+  );
+  return out;
+}
+
 export function useCarPhoto(car) {
-  const own = car.image ? { src: car.image, own: true } : null;
+  const own = prebuilt(car);
   const titles = car.wiki ? (Array.isArray(car.wiki) ? car.wiki : [car.wiki]) : [];
   const title = titles.join('|');
   const file = car.wikiFile;
   const [photo, setPhoto] = useState(own);
 
   useEffect(() => {
-    if (car.image) {
-      setPhoto({ src: car.image, own: true });
+    const ready = prebuilt(car);
+    if (ready) {
+      setPhoto(ready);
       return undefined;
     }
     if (!title && !file) {
@@ -180,7 +202,7 @@ export function useCarPhoto(car) {
     return () => {
       alive = false;
     };
-  }, [car.image, title, file]);
+  }, [car.image, car.slug, title, file]);
 
   return photo;
 }
