@@ -4204,6 +4204,77 @@ const RAW_CARS = [
     ],
     summary: 'Şehirde tarz sahibi bir otomobil isteyen ama herkes gibi Clio ya da Egea almak istemeyenler için retro ve şirin bir seçenek.',
   },
+  // =========================================================================
+  // EK ARAÇLAR 14
+  // =========================================================================
+  {
+    make: 'Citroën', model: 'C5 Aircross', year: 2026, version: '1.2 Hybrid 145 e-DCS6 Max',
+    category: 'aile-suv', bodyType: 'suv', price: null, used: false,
+    fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 145,
+    wiki: ['de:Citroën C5 Aircross (2025)', 'Citroën C5 Aircross'],
+    specs: { motor: '1.2L turbo hafif hibrit, 145 bg, 6 ileri e-DCS6', hizlanma: '10,2 sn', tuketim: '5,4 L/100 km', bagaj: '565 L', tork: '230 Nm', azami: '195 km/s', depo: '55 L', agirlik: '1.550 kg', cekis: 'Önden çekiş (FWD)' },
+    ratings: { surus: 7.4, guvenlik: 8.2, konfor: 8.8, tuketim: 8.2, malzeme: 7.6, tasarim: 8.4, fiyat: 8.0, teknoloji: 8.4, guvenilirlik: 7.0, ikinciel: 7.2 },
+    pros: ['Çok dolu donanım: ön-arka koltuk ve direksiyon ısıtma, ön koltuk soğutma ve masaj', '360 derece kamera', 'Otomobile güzel bir görünüm katan adaptif Matrix farlar', 'Sesi çok net veren 6 hoparlörlü ses sistemi', 'Sportif alüminyum pedallar'],
+    cons: ['Hibrit sistemin uzun vadeli güvenilirliği henüz kanıtlanmadı'],
+    longReview: [
+      'Yeni C5 Aircross’un en güçlü yanı, kısacası çok dolu olması. Ön ve arka koltuk ısıtması, direksiyon ısıtması, ön koltuk soğutması ve masaj fonksiyonu; bu sınıfta bu kadar zengin bir konfor donanımını bir arada görmek gerçekten şaşırtıcı.',
+      'Teknoloji tarafı da güçlü. 360 derece kamera park ederken ve dar alanlarda çok işe yarıyor. Adaptif Matrix farlar hem gece sürüşünde güven veriyor hem de otomobile çok güzel bir görünüm katıyor.',
+      'Kabinde 6 hoparlörlü ses sistemi var; ses çok net geliyor. Alüminyum pedallar da iç mekâna sportif bir hava katıyor.',
+      '1.2 litrelik 145 beygirlik hafif hibrit motor günlük kullanımda yeterli ve ekonomik. Kısacası C5 Aircross; konforu ve donanımı her şeyin önünde tutan aileler için çok cazip bir SUV.',
+    ],
+    summary: 'Isıtmadan masaja, 360 derece kameradan Matrix farlara kadar dopdolu donanımıyla sınıfının en zengin aile SUV’larından.',
+  },
+  {
+    make: 'BMW', model: 'iX3', year: 2026, version: '50 xDrive',
+    category: 'elektrikli', bodyType: 'suv', price: null, used: false,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 469,
+    wiki: ['de:BMW iX3 (NA5)', 'BMW iX3 (NA5)', 'BMW iX3'],
+    specs: { motor: '469 bg, dört çeker, ~794 km WLTP', hizlanma: '4,9 sn', tuketim: '15,1 kWh/100 km', bagaj: '520 L + 58 L ön', tork: '645 Nm', azami: '210 km/s', depo: 'Yok (elektrikli)', agirlik: '2.360 kg', cekis: 'Sürekli dört çeker (AWD)' },
+    ratings: { surus: 9.0, guvenlik: 9.4, konfor: 9.0, tuketim: 9.6, malzeme: 9.0, tasarim: 8.8, fiyat: 7.8, teknoloji: 9.6, guvenilirlik: 8.0, ikinciel: 7.4 },
+    pros: ['Yaklaşık 794 km menzil', 'Yeni nesil hızlı şarjla yaklaşık 21 dakikada şarj', 'Elektrikli için yüksek 210 km/s azami sürat', 'Head-Up Display, masajlı ve ısıtmalı koltuklar, Harman Kardon ses sistemi'],
+    cons: ['Bazı donanımlar opsiyonel', 'Büyük jantlar (20–22 inç) konforu ve menzili etkileyebilir'],
+    longReview: [
+      'Yeni BMW iX3’ün en havalı özelliği menzili. Yaklaşık 794 km gibi bir menzil, elektrikli otomobillerdeki menzil kaygısını neredeyse tamamen ortadan kaldırıyor. Üstelik yeni nesil hızlı şarj sayesinde yaklaşık 21 dakikada şarj olabiliyor; uzun yolda bir kahve molası yetiyor.',
+      'Azami süratin 210 km/s’de limitörle sınırlandırılmış olması elektrikli bir otomobil için çok iyi bir veri. Standart jantlar 20 inç, yani zaten oldukça büyük; opsiyonla 22 inçe kadar büyütebiliyorsunuz. Yalnız jant büyüdükçe konfor ve menzil biraz etkilenebilir.',
+      'Donanım tarafında Head-Up Display, ısıtmalı ve masajlı koltuklar, kablosuz şarj ve Harman Kardon HiFi ses sistemi gibi özellikler bulunuyor; bazı donanımlar opsiyonel.',
+      'Kısacası yeni iX3 çok dolu ve kesinlikle ciddi ciddi bakılması gerektiğini düşündüğümüz bir otomobil.',
+    ],
+    summary: 'Yaklaşık 794 km menzili, 21 dakikalık hızlı şarjı ve dopdolu donanımıyla kesinlikle ciddi ciddi bakılması gereken yeni nesil bir elektrikli SUV.',
+  },
+  {
+    make: 'Audi', model: 'Q4 e-tron', year: 2025, version: '40 e-tron',
+    category: 'elektrikli', bodyType: 'suv', price: null, used: false,
+    fuel: 'Elektrik', gearbox: 'Otomatik', hp: 204,
+    wiki: ['Audi Q4 e-tron', 'de:Audi Q4 e-tron'],
+    specs: { motor: '204 bg, arkadan itiş, ~400 km WLTP', hizlanma: '8,5 sn', tuketim: '17,0 kWh/100 km', bagaj: '520 L', tork: '310 Nm', azami: '160 km/s', depo: 'Yok (elektrikli)', agirlik: '2.100 kg', cekis: 'Arkadan itiş (RWD)' },
+    ratings: { surus: 7.8, guvenlik: 9.0, konfor: 8.4, tuketim: 8.4, malzeme: 7.4, tasarim: 8.4, fiyat: 7.4, teknoloji: 8.6, guvenilirlik: 7.6, ikinciel: 7.2 },
+    pros: ['Sakin ve şık görünüm', 'Isıtmalı deri direksiyon ve ön koltuklar, elektrikli bagaj, cam tavan, far yıkama', 'Güzel ambiyans aydınlatması', 'Yaklaşık 22 dakikada hızlı şarj'],
+    cons: ['İç mekânda gereğinden fazla sert plastik', 'Dokunmatiği bozulabilen SOS paneli', '400 km menzil biraz kısa'],
+    longReview: [
+      'Q4 e-tron ilk bakışta güzel bir görünüme ve sakin bir havaya sahip. İçine girdiğinizde ısıtmalı deri direksiyon, ısıtmalı ön koltuklar, elektrikli bagaj, cam tavan, far yıkama ve güzel bir ambiyans aydınlatması karşınıza çıkıyor.',
+      'Bu özellikleri barındırırken iç kısımda maalesef olması gerekenden biraz fazla sert plastik kullanılmış. Ayrıca Cupra Formentor’da da bulunan ve dokunmatiği kronik olarak sorun çıkarabilen SOS paneli bu otomobilde de var; bu panelin dokunmatiğinin bozulma ihtimali mevcut.',
+      '204 beygir yeterli; 400 km menzil ise biraz az. 286 beygirlik 45 e-tron’u tercih ederseniz menzil yaklaşık 551 km’ye, uzun menzilli versiyonu tercih ettiğinizde ise yaklaşık 605 km’ye kadar çıkabiliyor. Neyse ki bu modelde de hızlı şarjla yaklaşık 22 dakikada şarj olabilmesi oldukça başarılı.',
+      'Kısacası Q4 e-tron; şık, sakin ve iyi donanımlı bir premium elektrikli SUV arayanlar için iyi bir seçim. Uzun yol yapıyorsanız daha uzun menzilli versiyonlara bakmanızı öneririm.',
+    ],
+    summary: 'Şık, sakin ve iyi donanımlı bir premium elektrikli SUV; menzil ve kabindeki sert plastikler ise zayıf yanları.',
+  },
+  {
+    make: 'BMW', model: 'X3', year: 2022, version: 'sDrive20i M Sport',
+    category: 'premium-suv', bodyType: 'suv', price: null, used: true,
+    fuel: 'Benzin', gearbox: 'Otomatik', hp: 170,
+    wiki: ['de:BMW G01', 'BMW X3 (G01)'],
+    specs: { motor: '1.6L turbo benzin, 170 bg, 8 ileri otomatik, arkadan itiş', hizlanma: '9,4 sn', tuketim: '7,2 L/100 km', bagaj: '550 L', tork: '250 Nm', azami: '205 km/s', depo: '65 L', agirlik: '1.750 kg', cekis: 'Arkadan itiş (RWD)' },
+    ratings: { surus: 8.4, guvenlik: 9.0, konfor: 8.4, tuketim: 8.7, malzeme: 8.8, tasarim: 9.2, fiyat: 7.0, teknoloji: 8.8, guvenilirlik: 8.0, ikinciel: 8.4 },
+    pros: ['Çok başarılı tasarım', 'Panoramik açılır cam tavan ve hayalet gösterge', 'Uzun-kısa ayarını otomatik yapan adaptif LED farlar', '19 inç M Sport jantlar ve otomatik park'],
+    cons: ['Rakiplerine göre biraz daha pahalı'],
+    longReview: [
+      'X3’te ilk dikkatimizi çeken şey tasarımı oldu; gerçekten çok çok başarılı. Yolda hem güçlü hem de zarif bir duruşu var.',
+      'Donanım çok zengin: panoramik açılır cam tavan, hayalet gösterge (Head-Up Display), anahtarsız giriş ve çalıştırma, otomatik bagaj, kör nokta ve şerit takip asistanları, ısıtmalı koltuklar, ambiyans aydınlatması ve otomatik park etme özelliği. Adaptif LED farlar uzun ve kısa far ayarını da otomatik yapıyor. Bu donanımda otomobil 19 inç M Sport jantlarla geliyor.',
+      'Bizce bu otomobil için en mantıklısı M Sport donanımı tercih etmek; hem görünüm hem de sürüş açısından otomobile çok yakışıyor.',
+      'Tek sıkıntı olabilecek durum, rakiplerine oranla biraz daha pahalı olması. Bu onu geride bırakır mı? Tabii ki hayır.',
+    ],
+    summary: 'Çok başarılı tasarımı ve zengin M Sport donanımıyla öne çıkan, arkadan itişli bir premium SUV; tek eksiği rakiplerinden biraz pahalı olması.',
+  },
 ];
 
 // ---------------------------------------------------------------------------
