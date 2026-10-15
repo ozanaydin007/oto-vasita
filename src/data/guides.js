@@ -993,6 +993,13 @@ export const GUIDES = GUIDE_LIST.map((g, i) => ({ g, i }))
   .sort((a, b) => b.g.date.localeCompare(a.g.date) || b.i - a.i)
   .map(({ g }) => g);
 
+// Bir aracın geçtiği rehberler (inceleme sayfasındaki "İlgili rehberler" için)
+export function guidesForCar(slug) {
+  return GUIDES.filter(
+    (g) => (g.items || []).some((it) => it.car === slug) || (g.sections || []).some((s) => (s.cars || []).includes(slug))
+  );
+}
+
 export function getGuide(slug) {
   return GUIDES.find((g) => g.slug === slug);
 }

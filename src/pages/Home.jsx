@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { CATEGORIES, CARS, carsInCategory, getCar } from '../data/cars.js';
 import { EDITOR_WEEKS } from '../data/editorPicks.js';
+import { GUIDES } from '../data/guides.js';
 import EditorPickCard from '../components/EditorPickCard.jsx';
 import { CRITERIA } from '../data/criteria.js';
 import { formatScore } from '../lib/scoring.js';
@@ -122,6 +123,32 @@ function ToolCards() {
   );
 }
 
+// Ana sayfada en yeni rehberler
+function LatestGuides() {
+  const list = GUIDES.slice(0, 6);
+  return (
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8" aria-labelledby="h-rehberler">
+      <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-rule pb-3">
+        <h2 id="h-rehberler" className="font-display text-3xl font-extrabold tracking-tight">Rehberler</h2>
+        <Link to="/rehber" className="text-link hover:underline underline-offset-2 text-[15px] inline-flex items-center gap-0.5">
+          Tüm rehberler <ChevronRight className="w-4 h-4" aria-hidden="true" />
+        </Link>
+      </div>
+      <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {list.map((g) => (
+          <li key={g.slug}>
+            <Link to={`/rehber/${g.slug}`} className="group block border border-rule rounded-xl p-5 h-full hover:border-ink">
+              <p className="text-xs text-muted">{g.dateLabel}</p>
+              <h3 className="mt-1 font-display text-lg font-bold leading-snug group-hover:text-link">{g.title}</h3>
+              <p className="mt-2 text-sm text-ink-soft leading-relaxed line-clamp-3">{g.subtitle}</p>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 export default function Home() {
   useTitle(null);
   const top = [...CARS].sort((a, b) => b.score - a.score).slice(0, 6);
@@ -146,6 +173,8 @@ export default function Home() {
           <RankingColumn key={c.slug} category={c} />
         ))}
       </div>
+
+      <LatestGuides />
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 mt-10" aria-labelledby="h-top">
         <h2 id="h-top" className="font-display text-3xl font-extrabold tracking-tight border-b border-rule pb-3">

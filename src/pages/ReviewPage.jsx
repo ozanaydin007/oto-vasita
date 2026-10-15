@@ -7,6 +7,8 @@ import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
 import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
 import RadarChart from '../components/RadarChart.jsx';
+import { guidesForCar } from '../data/guides.js';
+import { POPULAR_COMPARISONS } from '../data/comparisons.js';
 import { comparePath } from '../lib/compare.js';
 import StarRating from '../components/StarRating.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
@@ -116,6 +118,40 @@ function FullReview({ car, category }) {
         )}
       </div>
     </div>
+  );
+}
+
+// Aracın geçtiği rehberler ve hazır karşılaştırmalar (okuyucu ve Google için iç bağlantılar)
+function RelatedLinks({ car }) {
+  const guides = guidesForCar(car.slug);
+  const comps = POPULAR_COMPARISONS.filter((p) => p.includes(car.slug))
+    .map((p) => p.map(getCar).filter(Boolean))
+    .filter((p) => p.length >= 2);
+  if (!guides.length && !comps.length) return null;
+  return (
+    <section className="mt-16" aria-labelledby="h-ilgili">
+      <h2 id="h-ilgili" className="font-display text-2xl font-bold border-b border-rule pb-3">
+        {car.make} {car.model} ile ilgili yazılar
+      </h2>
+      <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+        {guides.map((g) => (
+          <li key={g.slug}>
+            <Link to={`/rehber/${g.slug}`} className="block border border-rule rounded-lg px-4 py-3 hover:border-ink hover:bg-mist">
+              <span className="text-xs text-muted">Rehber</span>
+              <span className="block font-medium leading-snug">{g.title}</span>
+            </Link>
+          </li>
+        ))}
+        {comps.map((cars) => (
+          <li key={cars.map((c) => c.slug).join()}>
+            <Link to={`/karsilastir/${cars.map((c) => c.slug).join('-vs-')}`} className="block border border-rule rounded-lg px-4 py-3 hover:border-ink hover:bg-mist">
+              <span className="text-xs text-muted">Karşılaştırma</span>
+              <span className="block font-medium leading-snug">{cars.map((c) => `${c.make} ${c.model}`).join(' vs ')}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
@@ -270,6 +306,8 @@ export default function ReviewPage() {
           </dl>
         </section>
       )}
+
+      <RelatedLinks car={car} />
 
       {rivals.length > 0 && (
         <section className="mt-16" aria-labelledby="h-rivals">
