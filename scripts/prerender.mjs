@@ -86,7 +86,7 @@ fs.writeFileSync(path.join(dist, 'sitemap.xml'), sitemap);
 
 fs.writeFileSync(
   path.join(dist, 'robots.txt'),
-  `User-agent: *\nAllow: /\nDisallow: /ara\n\nSitemap: ${SITE_URL}/sitemap.xml\n`
+  `User-agent: *\nAllow: /\nDisallow: /ara$\nDisallow: /ara?\nDisallow: /ara/\n\nSitemap: ${SITE_URL}/sitemap.xml\n`
 );
 
 console.log(`✓ ${count} sayfa HTML olarak üretildi, sitemap.xml (${indexable.length} adres) ve robots.txt yazıldı.`);
