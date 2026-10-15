@@ -215,7 +215,7 @@ export const EXTRA_SPECS = {
   'mercedes-benz-c-serisi-2020': { tork: '280 Nm', azami: '239 km/s', depo: '66 L', agirlik: '1.550 kg', cekis: 'Arkadan itiş (RWD)' },
   'mercedes-benz-cla-2020': { tork: '250 Nm', azami: '229 km/s', depo: '43 L', agirlik: '1.400 kg', cekis: 'Önden çekiş (FWD)' },
   'bmw-2-serisi-gran-coupe-2022': { tork: '220 Nm', azami: '215 km/s', depo: '50 L', agirlik: '1.360 kg', cekis: 'Önden çekiş (FWD)' },
-  'audi-a4-sedan-2021': { tork: '270 Nm', azami: '225 km/s', depo: '54 L', agirlik: '1.500 kg', cekis: 'Önden çekiş (FWD)' },
+  'audi-a4-sedan-2021': { tork: '400 Nm', azami: '241 km/s', depo: '54 L', agirlik: '1.580 kg', cekis: 'Önden çekiş (FWD)' },
   'bmw-5-serisi-2021': { tork: '250 Nm', azami: '225 km/s', depo: '68 L', agirlik: '1.600 kg', cekis: 'Arkadan itiş (RWD)' },
   'mercedes-benz-e-serisi-2020': { tork: '250 Nm', azami: '223 km/s', depo: '66 L', agirlik: '1.650 kg', cekis: 'Arkadan itiş (RWD)' },
   'volvo-s90-2022': { tork: '350 Nm', azami: '180 km/s', depo: '60 L', agirlik: '1.800 kg', cekis: 'Önden çekiş (FWD)' },
