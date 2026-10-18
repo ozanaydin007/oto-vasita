@@ -5,6 +5,23 @@
 // ---------------------------------------------------------------------------
 export const EDITOR_WEEKS = [
   {
+    week: '19 Ekim 2026 haftası',
+    items: [
+      {
+        car: 'bmw-ix3-2026',
+        text: 'Yaklaşık 794 km menzili ve 21 dakikalık hızlı şarjıyla elektriklide menzil kaygısını neredeyse bitiren, dopdolu bir SUV; kesinlikle ciddi ciddi bakılması gereken bir otomobil.',
+      },
+      {
+        car: 'cupra-formentor-2026',
+        text: 'Agresif tasarımı ve keskin direksiyonuyla sınıfının en karakterli crossover’larından; sert arka süspansiyonunu ve ekran donmalarını bilerek alınmalı.',
+      },
+      {
+        car: 'tesla-model-y-2026',
+        text: 'Geçtiğimiz günlerde Elon Musk’ın SpaceX iticileriyle havalanabilen yeni Roadster’ı “uçan araba” olarak tanıtmasıyla markanın iddiasını bir kez daha görmüş olduk. Uçamayan arabalar arasında ise Model Y oldukça iyi bir seçim.',
+      },
+    ],
+  },
+  {
     week: '13 Ekim 2026 haftası',
     items: [
       {
