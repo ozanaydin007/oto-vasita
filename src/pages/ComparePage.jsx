@@ -170,6 +170,16 @@ export default function ComparePage() {
                 <section className="mt-10" aria-labelledby="h-radar">
                   <h2 id="h-radar" className="font-display text-2xl font-bold mb-2">Puan grafiği</h2>
                   <RadarChart cars={cars} />
+                  <ul className="mt-2 flex flex-wrap justify-center gap-x-6 gap-y-2" aria-label="Grafikteki renklerin anlamı">
+                    {cars.map((c, i) => (
+                      <li key={c.slug} className="inline-flex items-center gap-2 text-sm">
+                        <span className="w-4 h-4 rounded-sm shrink-0" style={{ background: COMPARE_COLORS[i] }} aria-hidden="true" />
+                        <span>
+                          <span className="font-semibold">{['Siyah', 'Sarı', 'Mavi'][i]}:</span> {c.year} {c.make} {c.model}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
                 </section>
 
                 <section className="mt-10" aria-labelledby="h-karne">

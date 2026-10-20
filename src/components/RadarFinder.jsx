@@ -7,6 +7,7 @@ import CarImage from './CarImage.jsx';
 import ScoreBadge from './ScoreBadge.jsx';
 import CompareToggle from './CompareToggle.jsx';
 import { priceLabel } from '../lib/scoring.js';
+import { useSessionState } from '../lib/sessionState.js';
 
 // ---------------------------------------------------------------------------
 // RADAR İLE ARAÇ BUL
@@ -135,6 +136,13 @@ export default function RadarFinder({ onBack }) {
   const [durum, setDurum] = useState('');
   const [butce, setButce] = useState('');
   const [kasa, setKasa] = useState('');
+  // Bir araca gidip geri dönüldüğünde ayarlar korunur
+  useSessionState('otovaro-radar', { values, durum, butce, kasa }, (s) => {
+    if (s?.values) setValues({ ...neutralValues(), ...s.values });
+    if (typeof s?.durum === 'string') setDurum(s.durum);
+    if (typeof s?.butce === 'string') setButce(s.butce);
+    if (typeof s?.kasa === 'string') setKasa(s.kasa);
+  });
   const setOne = (k, v) => setValues((s) => ({ ...s, [k]: v }));
   const results = useMemo(
     () => matchCars(values, { durum, butce: butce ? Number(butce) : null, kasa }),

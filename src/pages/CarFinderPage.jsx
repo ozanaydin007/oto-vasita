@@ -8,12 +8,21 @@ import CompareToggle from '../components/CompareToggle.jsx';
 import { priceLabel } from '../lib/scoring.js';
 import useTitle from '../lib/useTitle.js';
 import RadarFinder from '../components/RadarFinder.jsx';
+import { useSessionState, clearSessionState } from '../lib/sessionState.js';
 
 export default function CarFinderPage() {
   useTitle('Araç bulucu: Bana uygun aracı bul');
   const [step, setStep] = useState(0); // 0: giriş, 1..n: sorular, n+1: sonuç
   const [answers, setAnswers] = useState({});
   const [mode, setMode] = useState(null); // null: seçim ekranı, 'quiz', 'radar'
+  // Sonuçlardan bir araca gidip geri dönüldüğünde test kaldığı yerden devam eder
+  useSessionState('otovaro-bulucu', { step, answers, mode }, (s) => {
+    if (s && typeof s === 'object') {
+      setStep(s.step ?? 0);
+      setAnswers(s.answers ?? {});
+      setMode(s.mode ?? null);
+    }
+  });
   const questions = activeQuestions(answers);
   const n = questions.length;
   const q = questions[step - 1];
@@ -32,9 +41,11 @@ export default function CarFinderPage() {
     setAnswers({});
     setStep(0);
     setMode(null);
+    clearSessionState('otovaro-bulucu');
+    clearSessionState('otovaro-radar');
   };
 
-  if (mode === 'radar') return <RadarFinder onBack={() => setMode(null)} />;
+  if (mode === 'radar') return <RadarFinder onBack={() => { setMode(null); clearSessionState('otovaro-radar'); }} />;
 
   if (mode === null) {
     return (
