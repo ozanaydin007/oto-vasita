@@ -89,4 +89,10 @@ fs.writeFileSync(
   `User-agent: *\nAllow: /\nDisallow: /ara$\nDisallow: /ara?\nDisallow: /ara/\n\nSitemap: ${SITE_URL}/sitemap.xml\n`
 );
 
+// Gizli araçların eski adreslerini kategori sayfalarına kalıcı yönlendir (Cloudflare Pages _redirects)
+const { HIDDEN_CARS } = await import(pathToFileURL(path.join(root, 'src/data/cars.js')).href);
+const redirects = HIDDEN_CARS.map((c) => `/inceleme/${c.slug}  /kategori/${c.category}  301`);
+const existing = fs.existsSync(path.join(dist, '_redirects')) ? fs.readFileSync(path.join(dist, '_redirects'), 'utf8').trim() + '\n' : '';
+fs.writeFileSync(path.join(dist, '_redirects'), existing + redirects.join('\n') + '\n');
+
 console.log(`✓ ${count} sayfa HTML olarak üretildi, sitemap.xml (${indexable.length} adres) ve robots.txt yazıldı.`);

@@ -1,6 +1,7 @@
 import { overallScore, weightedAverage, slugify } from '../lib/scoring.js';
 import { WIKI_TITLES, WIKI_FIX, WIKI_FILES } from './wikiTitles.js';
 import { EXTRA_SPECS } from './specsExtra.js';
+import { HIDDEN_SLUGS } from './hiddenCars.js';
 
 // ---------------------------------------------------------------------------
 // KATEGORİLER
@@ -4600,15 +4601,20 @@ const withScores = RAW_CARS.map((car) => {
 // Eşit genel puanda, yuvarlanmamış ağırlıklı ortalaması yüksek olan öne geçer.
 const exactTotal = (c) => weightedAverage(c.ratings);
 
+// Gizli araçlar (hiddenCars.js) sitede yayınlanmaz; sıralamalar yalnızca görünen araçlarla hesaplanır
+const HIDDEN = new Set(HIDDEN_SLUGS);
+const visibleCars = withScores.filter((c) => !HIDDEN.has(c.slug));
+export const HIDDEN_CARS = withScores.filter((c) => HIDDEN.has(c.slug)).map(({ slug, category }) => ({ slug, category }));
+
 const rankMap = new Map();
 for (const cat of CATEGORIES) {
-  withScores
+  visibleCars
     .filter((c) => c.category === cat.slug)
     .sort((a, b) => b.score - a.score || exactTotal(b) - exactTotal(a))
     .forEach((c, i) => rankMap.set(c.slug, i + 1));
 }
 
-export const CARS = withScores.map((c) => ({ ...c, rank: rankMap.get(c.slug) }));
+export const CARS = visibleCars.map((c) => ({ ...c, rank: rankMap.get(c.slug) }));
 
 export function getCategory(slug) {
   return CATEGORIES.find((c) => c.slug === slug);

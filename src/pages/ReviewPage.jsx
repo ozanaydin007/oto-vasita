@@ -124,9 +124,8 @@ function FullReview({ car, category }) {
 // Aracın geçtiği rehberler ve hazır karşılaştırmalar (okuyucu ve Google için iç bağlantılar)
 function RelatedLinks({ car }) {
   const guides = guidesForCar(car.slug);
-  const comps = POPULAR_COMPARISONS.filter((p) => p.includes(car.slug))
-    .map((p) => p.map(getCar).filter(Boolean))
-    .filter((p) => p.length >= 2);
+  const comps = POPULAR_COMPARISONS.filter((p) => p.includes(car.slug) && p.every((x) => getCar(x)))
+    .map((p) => p.map(getCar));
   if (!guides.length && !comps.length) return null;
   return (
     <section className="mt-16" aria-labelledby="h-ilgili">

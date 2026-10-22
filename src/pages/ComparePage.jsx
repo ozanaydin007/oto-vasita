@@ -57,7 +57,7 @@ function CarPicker({ selected, onAdd }) {
 }
 
 function PopularList({ exclude }) {
-  const items = POPULAR_COMPARISONS.filter((p) => p.join() !== exclude).map((p) => p.map(getCar).filter(Boolean)).filter((p) => p.length >= 2);
+  const items = POPULAR_COMPARISONS.filter((p) => p.join() !== exclude && p.every((x) => getCar(x))).map((p) => p.map(getCar));
   return (
     <section className="mt-14" aria-labelledby="h-populer">
       <h2 id="h-populer" className="font-display text-2xl font-bold border-b border-rule pb-3">Popüler karşılaştırmalar</h2>

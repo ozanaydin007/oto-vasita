@@ -202,7 +202,7 @@ export function allRoutes() {
     '/arac-bulucu',
     '/editorun-secimi',
     '/karsilastir',
-    ...POPULAR_COMPARISONS.map((p) => `/karsilastir/${p.join('-vs-')}`),
+    ...POPULAR_COMPARISONS.filter((p) => p.every((s) => getCar(s))).map((p) => `/karsilastir/${p.join('-vs-')}`),
     '/rehber',
     ...GUIDES.map((g) => `/rehber/${g.slug}`),
     ...CATEGORIES.map((c) => `/kategori/${c.slug}`),
