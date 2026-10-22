@@ -279,6 +279,13 @@ const RAW_CARS = [
     ratings: { surus: 7.9, guvenlik: 8.8, konfor: 8.0, tuketim: 9.5, malzeme: 7.8, tasarim: 8.0, fiyat: 7.4, teknoloji: 7.6, guvenilirlik: 9.4, ikinciel: 8.4 },
     pros: ['Çok düşük tüketim', 'Yüksek güvenilirlik', 'Sessiz şehir içi sürüş'],
     cons: ['Küçük bagaj', 'Arka koltuk dar'],
+    longReview: [
+      'Corolla Hatchback, adının taşıdığı güvenilirlik mirasını bu sefer daha genç ve dinamik bir gövdeyle sunuyor. Avrupa’da satılan Corolla Hatchback’ler İngiltere’deki Burnaston fabrikasında üretiliyor; Türkiye’de üretilen sedan kardeşinden tasarım ve karakter olarak belirgin şekilde ayrılıyor.',
+      'Toyota’nın beşinci nesil hibrit sistemi, şehir içinde zamanın büyük bölümünde otomobili yalnızca elektrikle hareket ettiriyor. Trafik ışığında beklerken, düşük hızda park yeri ararken ya da yavaş trafikte ilerlerken motor çoğu zaman tamamen susuyor. Kabinde yalnızca lastik ve rüzgar sesini duyuyorsunuz. Hibrit sistem dışarıdan hiç şarj edilmiyor; frenlemeden ve motorun fazla gücünden kendi kendini şarj ediyor.',
+      'Kabinde dijital gösterge ve dokunmatik ekran var; Apple CarPlay ve Android Auto kablosuz olarak destekleniyor. Toyota Safety Sense paketi standart. Adaptif hız sabitleyici, şerit takip, kavşaklarda dönerken karşıdan gelen yayaları ve araçları algılayan sistem ve trafik işareti tanıma gibi özellikler tüm donanımlarda var.',
+      'Daha sportif bir görünüm isteyenler için GR Sport donanımı, Toyota’nın motor sporları bölümünden ilham alan tamponlar, iki renkli kaplamalar ve sportif koltuklar sunuyor. Ama sürüş karakteri yine sakin ve rahat. Corolla hızlı değil, keyifli ve zahmetsiz olmak için tasarlanmış.',
+      'Hatchback gövdenin bedeli bagaj ve arka koltukta ödeniyor. Bagaj, hibrit batarya nedeniyle sınıf ortalamasının altında. Arka koltukta diz mesafesi de uzun boylular için sınırlı. Daha fazla alan istiyorsanız aynı sistemi kullanan Corolla Sedan’a ya da Corolla Touring Sports’a bakmak mantıklı.',
+    ],
     summary: 'Sedan kardeşinin verimliliğini daha kompakt ve biraz daha sportif bir gövdeyle sunuyor.',
   },
   {
@@ -434,6 +441,13 @@ const RAW_CARS = [
     ratings: { surus: 7.4, guvenlik: 7.4, konfor: 8.8, tuketim: 8.4, malzeme: 7.2, tasarim: 8.0, fiyat: 8.2, teknoloji: 7.5, guvenilirlik: 7.4, ikinciel: 6.8 },
     pros: ['Sınıfının en yumuşak süspansiyonu', 'Rahat Advanced Comfort koltuklar', 'Geniş bagaj', 'Geniş arka diz mesafesi'],
     cons: ['Yol tutuşu sportif değil', 'Arka görüş sınırlı'],
+    longReview: [
+      'C4 X, kolay sınıflandırılamayan otomobillerden. Arkası bir sedan gibi uzun ve fastback, gövdesi bir crossover gibi yüksek, burnu ise bir hatchback gibi kısa. Citroën bu gövdeyi özellikle sedan sevilen ama SUV havası da isteyen pazarlar için tasarladı; Türkiye de bunların başında geliyor. Otomobil İspanya’nın Madrid şehrindeki fabrikada üretiliyor.',
+      'C4 X’in asıl farkı konforu. Citroën’in Advanced Comfort adını verdiği süspansiyon, amortisörlerin içine yerleştirilmiş ikinci bir hidrolik durdurucuyla çalışıyor. Bu sistem, büyük çukurlarda ve kasislerde süspansiyonun sert bir şekilde dayanmasını önleyerek sarsıntıyı yumuşatıyor. Citroën’in efsanevi hidropnömatik süspansiyonlu otomobillerinin hissini daha basit bir yapıyla yakalamaya çalışıyor. Advanced Comfort koltuklar da yoğun süngerleriyle bir koltuktan çok bir kanepeye oturuyormuş hissi veriyor.',
+      'Kabinde ilginç bir detay var: Ön yolcunun önündeki torpidoda bir tablet tutucu bulunuyor. Tableti buraya sabitleyip yolcunun film izlemesini sağlayabiliyorsunuz. Hemen altında da kayarak açılan bir çekmece var. Uzun yolda yolcuyu eğlendirmek için çok pratik bir çözüm.',
+      'Fastback gövde, bagajı bu boyuttaki hatchback’lerden çok daha büyük yapıyor. Arka diz mesafesi de geniş. Bedeli ise arka görüş: Eğimli arka cam ve kalın arka direkler nedeniyle arka görüş oldukça kısıtlı. Geri görüş kamerası ve park sensörleri neredeyse zorunlu.',
+      'Sürüşte C4 X sportif bir iddia taşımıyor; virajlarda gövde biraz yatıyor ve direksiyon hafif. Ama zaten amacı bu değil. Bozuk yolların çok olduğu şehirlerde ve uzun otoyol yolculuklarında, bu fiyat seviyesinde bu kadar konforlu çok az otomobil var.',
+    ],
     summary: 'Konforu her şeyin önüne koyanlar için tasarlanmış, farklı görünümlü bir sedan-crossover karışımı.',
   },
   {
@@ -533,6 +547,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Bu otomobilde 1.5 eTSI motor, Golf gibi kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında. Buna hafif hibrit sistemin 48V aküsünde yaşanabilen sorunlar da ekleniyor; bu arızaların ne zaman ortaya çıkacağı belirsiz ve kalıcı bir çözümleri pek yok. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
     },
+    longReview: [
+      'Bu otomobilde 1.5 eTSI motor, Golf gibi kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında. Buna hafif hibrit sistemin 48V aküsünde yaşanabilen sorunlar da ekleniyor; bu arızaların ne zaman ortaya çıkacağı belirsiz ve kalıcı bir çözümleri pek yok. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
+      'Yeni Superb’ün hikâyesi, Volkswagen grubunun yaptığı ilginç bir iş bölümüyle başlıyor. Bu nesilde Passat yalnızca station wagon gövdeyle üretilirken, sedan görünümlü ama bagaj kapağı arka camla birlikte açılan liftback gövdeyi Superb üstlendi. İki otomobil Slovakya’nın Bratislava şehrinde aynı fabrikadan çıkıyor. Yani Superb, artık bu sınıfta grubun “büyük aile sedanı” sorumluluğunu tek başına taşıyor.',
+      'Kabinde Škoda’nın en akıllıca buluşlarından biri karşılıyor sizi: Smart Dials. Orta konsolda, her birinin içinde küçük bir ekran bulunan üç fiziksel döner düğme var. Kenardakiler sıcaklık ve koltuk ısıtma ya da havalandırma gibi ayarları yönetiyor. Ortadaki düğmeye bastıkça işlevi değişiyor; ses seviyesinden fan hızına, sürüş modundan navigasyon yakınlaştırmasına kadar farklı görevler üstlenebiliyor. Dokunmatik ekranlara ve kaydırmalı panellere boğulmuş rakiplerin yanında, sürüş sırasında gözünüzü yoldan ayırmadan ayar yapabilmek gerçek bir lüks.',
+      'Vites kolu da bu nesilde orta konsoldan kalktı ve direksiyonun sağ arkasına küçük bir kol olarak taşındı. Böylece açılan alanda soğutmalı kablosuz şarj bölmesi ve geniş saklama gözleri var. Telefonun uzun yolda ısınıp şarjı kesmesini önleyen bu soğutma, küçük ama gerçekten işe yarayan bir detay. Škoda’nın klasikleri de yerinde: Her iki ön kapının içinde şemsiye, yakıt kapağının arkasında buz kazıyıcı, bagajda eşyaları sabitlemeye yarayan ağlar ve kancalar.',
+      'Koltuklar bu otomobilin gizli kozu. Üst donanımlarda masaj fonksiyonu, havalandırma ve uzun yolda belin yorulmasını önleyen ergonomik destekler sunuluyor. Arka koltuk ise sınıfının en geniş arka koltuklarından biri; bacak bacak üstüne atıp oturabileceğiniz bir diz mesafesi var. Bu yüzden Superb, Türkiye’de makam otomobili olarak da sık tercih ediliyor.',
+      'Sürüşte Superb sakin ve olgun. Opsiyonel adaptif süspansiyon, sönümlemeyi yol durumuna göre ayarlayarak bozuk yollarda kabine neredeyse hiç sarsıntı taşımıyor. Matrix LED farlar gece uzun yolda karşıdan gelen aracı rahatsız etmeden yolu aydınlatıyor. Büyük gövdeye rağmen hafif hibrit motor şehir içinde yeterli. Yalnız otoyolda sollama yaparken dolu bir araçla motorun sınırda kaldığını hissedebiliyorsunuz.',
+    ],
     summary: 'Premium markaların fiyatının çok altında, onlarla yarışan konfor ve alan sunan akıllı bir tercih.',
   },
   {
@@ -689,6 +711,12 @@ const RAW_CARS = [
     ratings: { surus: 7.3, guvenlik: 7.2, konfor: 7.8, tuketim: 8.3, malzeme: 7.0, tasarim: 7.9, fiyat: 8.4, teknoloji: 7.5, guvenilirlik: 7.4, ikinciel: 7.0 },
     pros: ['Geniş ve pratik kabin', 'Güçlü hibrit motor', 'Fiyatına göre büyük gövde'],
     cons: ['Kabinde sert malzemeler', 'Sürüş dinamikleri sıradan'],
+    longReview: [
+      'Frontera adı, 1990’larda Opel’in arazi aracı olarak bilinen bir modeline aitti. Yeni Frontera ise bu adı çok farklı bir otomobilde yeniden canlandırıyor: Arazi aracı değil, geniş kabinli ve uygun fiyatlı bir aile SUV’u. Stellantis grubunun Citroën C3 Aircross ile paylaştığı altyapıyı kullanan Frontera, Slovakya’daki fabrikada üretiliyor.',
+      'Opel’in Frontera’da öne çıkardığı en ilginç detaylardan biri “Intelli-Seat” adını verdiği koltuklar. Oturma minderinin ortasında bir oluk bulunuyor; bu oluk, uzun yolculuklarda kuyruk sokumuna binen baskıyı azaltmak için tasarlanmış. Kâğıt üzerinde küçük bir detay gibi görünse de uzun yolda gerçekten fark ediliyor. Kabin, yüksek tavanı ve geniş camlarıyla aydınlık ve ferah; arka koltuk ve bagaj da bu fiyat seviyesinde şaşırtıcı derecede büyük.',
+      'Frontera’nın bir diğer ilginç yanı, bazı donanımlarda klasik multimedya ekranı yerine telefonunuzu yerleştirdiğiniz bir yuva sunması. Telefonunuz, Opel’in uygulamasıyla otomobilin ekranı gibi çalışıyor; navigasyon, müzik ve araç ayarlarını oradan yönetiyorsunuz. Üst donanımlarda ise çift büyük ekran var. Bu esneklik, fiyatı düşük tutmanın akıllıca bir yolu.',
+      'Kabinde sert plastikler yoğun; malzeme kalitesi fiyatına uygun ama premium bir his beklememek gerekiyor. Sürüş dinamikleri de sıradan, yani sportif bir otomobil değil. Ama Frontera zaten bunu hedeflemiyor. Bütçesini zorlamadan geniş, pratik ve modern bir aile SUV’u arayanlar için, özellikle aynı paraya daha küçük rakiplere bakıldığında, çok güçlü bir seçenek.',
+    ],
     summary: 'Fiyatına göre sunduğu alan ve hafif hibrit motoruyla aileler için mantıklı, yeni bir küçük SUV.',
   },
   {
@@ -846,6 +874,15 @@ const RAW_CARS = [
       surus: 'e-POWER’da motor yalnızca jeneratör olarak çalıştığı için dik rampalarda gaza basıldığında motor devri ve sesi hızla artıyor, ama hızlanma bu sesle senkronize olmuyor; CVT benzeri bir his yaratıyor.',
       teknoloji: 'Akıllı dikiz aynası ve şerit takip kamerası, ön camda aşırı buğulanma veya aşırı sıcaklık durumlarında kendini kapatarak güvenlik sistemlerini devre dışı bırakabiliyor.',
     },
+    longReview: [
+      'e-Power sistemi Qashqai’ye elektrikli bir otomobil gibi sessiz ve akıcı bir hızlanma kazandırıyor. Benzinli motor yalnızca jeneratör olarak çalıştığı için şehir içinde vites değişimi hissi hiç yok; ilk kez kullananların çoğu buna şaşırıyor. e-POWER’da motor yalnızca jeneratör olarak çalıştığı için dik rampalarda gaza basıldığında motor devri ve sesi hızla artıyor, ama hızlanma bu sesle senkronize olmuyor; CVT benzeri bir his yaratıyor.',
+      'Akıllı dikiz aynası ve şerit takip kamerası, ön camda aşırı buğulanma veya aşırı sıcaklık durumlarında kendini kapatarak güvenlik sistemlerini devre dışı bırakabiliyor.',
+      'Qashqai, Avrupa’da “crossover” kavramını yaratan otomobil olarak biliniyor. 2007’de ilk nesil çıktığında hatchback ile SUV arasında bir şey arayan sürücüler için yeni bir sınıf açmıştı. Bugünkü neslin en ilginç tarafı ise motor sistemi.',
+      'e-POWER, klasik bir hibritten farklı çalışıyor. Tekerlekleri her zaman elektrik motoru döndürüyor; benzinli motor ise yalnızca bataryayı şarj eden bir jeneratör. Bu jeneratör motorunun kendisi de mühendislik açısından ilginç: Nissan’ın değişken sıkıştırma oranlı VC-Turbo motoru. Bu motor, pistonun hareket mesafesini değiştirebilen özel bir mekanizmayla sıkıştırma oranını çalışma koşuluna göre ayarlayabiliyor. Sonuçta bir elektrikli otomobil gibi sürülen, ama hiç şarj edilmesi gerekmeyen bir otomobil ortaya çıkıyor.',
+      'e-Pedal Step adlı tek pedal modu açıldığında, gaz pedalından ayağınızı çektiğiniz anda otomobil güçlü bir şekilde yavaşlıyor. Şehir içi dur-kalk trafikte fren pedalını çok daha az kullanıyorsunuz; alıştıktan sonra bundan vazgeçmek zor.',
+      'Makyajlı kasayla birlikte multimedya sistemine Google Haritalar ve Google Asistan dahil Google tabanlı bir altyapı geldi. Sürüş sırasında navigasyonu yönetmek bir telefon kadar kolay. 360 derece kamera sistemi otomobili yukarıdan ve üç boyutlu açılardan gösterebiliyor; dar otoparklarda çok işe yarıyor. Panoramik cam tavan kabini ferahlatıyor, opsiyonel Bose ses sistemi de sürücü koltuğunun kafalığına yerleştirilen hoparlörlerle sesi sürücünün etrafına yayıyor.',
+      'Kabin kalitesi sınıf ortalamasının üzerinde; yumuşak dokulu yüzeyler ve kaliteli dikişler, Qashqai’yi bu sınıfta premium’a en yakın otomobillerden biri yapıyor. Arka koltuk ve bagaj aileler için yeterli.',
+    ],
     summary: 'e-POWER sistemiyle şehirde çok keyifli; mild hybrid versiyonu ise daha mantıklı bir fiyat sunuyor.',
   },
   {
@@ -1160,6 +1197,13 @@ const RAW_CARS = [
     ratings: { surus: 7.9, guvenlik: 9.0, konfor: 8.4, tuketim: 8.3, malzeme: 7.9, tasarim: 8.2, fiyat: 7.2, teknoloji: 8.4, guvenilirlik: 7.8, ikinciel: 6.8 },
     pros: ['Pratik ve geniş kabin', 'Olgun sürüş', 'Fiziksel tuşları koruyan kullanışlı arayüz', 'Bagaj kapağında buz kazıyıcı'],
     cons: ['Fiyatına göre menzil ortalama', 'Hızlı şarj rakiplerin gerisinde'],
+    longReview: [
+      'Elroq, Škoda’nın yeni tasarım dilini taşıyan ilk otomobil. Ön tarafta artık klasik ızgara ve kanatlı ok logosu yok; onun yerine “Tech-Deck” adı verilen siyah bir yüzey ve büyük harflerle yazılmış Škoda yazısı var. Çekya’daki Mladá Boleslav fabrikasında üretilen Elroq, Enyaq’ın daha kompakt kardeşi olarak Volkswagen grubunun elektrikli altyapısını kullanıyor.',
+      'Škoda’nın elektrikli otomobillerde bile akıllı detaylardan vazgeçmediğini görmek hoş. Bagaj kapağının iç tarafında bir buz kazıyıcı saklı. Bagaj tabanının altında şarj kablolarını düzenli tutan bir bölme, bagajda da eşyaların kaymasını engelleyen bölücüler var. Arka koltukta zemin tamamen düz; ortada oturan yolcunun ayaklarını koyacak bir şaft tüneli yok. Bu, aynı boyuttaki içten yanmalı SUV’lara göre arka koltuğu belirgin şekilde daha kullanışlı kılıyor.',
+      'Kabinde büyük bir dokunmatik ekran var, ama Škoda burada da fiziksel tuşlardan tamamen vazgeçmemiş. Ekranın altındaki kısayol düğmeleriyle klimaya ve sık kullanılan menülere tek dokunuşla ulaşabiliyorsunuz. Sesli asistan Laura, yapay zekâ destekli altyapısı sayesinde daha doğal konuşmaları anlayabiliyor.',
+      'Sürüşte Elroq, elektriklilerin bilinen avantajlarını sunuyor: sessiz, akıcı ve anında tork veren bir motor. Rejeneratif frenleme seviyesini direksiyondaki kulakçıklarla ayarlayabiliyorsunuz; en yüksek seviyede şehir içinde fren pedalına neredeyse hiç dokunmadan sürmek mümkün. Arkadan itişli yapısı da dar sokaklarda çok küçük bir dönüş çapı sağlıyor.',
+      'Zayıf yanları menzil ve şarj hızı. Bu versiyonun menzili ve en yüksek hızlı şarj gücü, bazı rakiplerinin gerisinde. Uzun yolu sık yapıyorsanız daha büyük bataryalı versiyonları değerlendirmek mantıklı.',
+    ],
     summary: 'Skoda pratikliğini elektrikli kompakt SUV’a taşıyan mantıklı bir aile otomobili.',
   },
   // =========================================================================
@@ -1570,6 +1614,12 @@ const RAW_CARS = [
     ratings: { surus: 6.2, guvenlik: 6.4, konfor: 6.6, tuketim: 7.8, malzeme: 5.4, tasarim: 5.4, fiyat: 6.6, teknoloji: 3.6, guvenilirlik: 7.4, ikinciel: 8.2 },
     pros: ['Çok düşük dizel tüketimi', 'Geniş bagaj ve arka koltuk', 'Parçası bol ve ucuz'],
     cons: ['Güçsüz motor, ağır gövde', 'Eskimiş kabin ve neredeyse hiç teknoloji yok'],
+    longReview: [
+      'Fluence, Türkiye’de 2010’ların başında en çok satan sedanlardan biriydi ve bunun önemli bir sebebi vardı: Bursa’daki Oyak Renault fabrikasında üretiliyordu. Bu da hem fiyatını rekabetçi tutuyordu hem de bugün parça ve usta bulmayı çok kolaylaştırıyor. Yollarda hâlâ bu kadar çok Fluence görmenizin sebebi bu.',
+      'Otomobilin en çok övülen yanı genişliği. Arka koltuk o dönemin sınıfı için çok genişti; bagaj da büyük ailelerin bavullarını rahatça alıyordu. Bu yüzden Fluence, taksi ve filo kullanımında da çok tercih edildi. İkinci el alırken aracın geçmişinde taksi ya da filo kullanımı olup olmadığını öğrenmek bu yüzden önemli.',
+      'Renault’nun o yıllardaki imzası olan kartlı anahtar sistemi, Fluence’ta da bulunuyor. Anahtar yerine cebinizde taşıdığınız kartla kapıları açabiliyor ve otomobili düğmeyle çalıştırabiliyorsunuz. İlginç bir tarihsel not da şu: Fluence’ın Z.E. adında tamamen elektrikli bir versiyonu da üretildi. Bu versiyon, bataryanın istasyonlarda dakikalar içinde dolu bir bataryayla değiştirilmesi fikri üzerine kurulmuştu. Fikir tutmadı, ama Fluence’ı elektrikli otomobil tarihinin ilginç sayfalarından biri yaptı.',
+      '1.5 dCi motor ekonomisiyle efsaneleşmiş bir motor; sakin kullanımda çok az yakıyor. Ama bilinmesi gereken bir zayıf noktası var: Yağ bakımı ihmal edildiğinde ya da yağ seviyesi düştüğünde kol yatağı kuşinetlerinin dönmesi bu motorun bilinen kronik sorunlarından. İkinci el alırken yağ bakım geçmişini mutlaka kontrol edin; enjektörlerin durumunu da ekspertizde ölçtürün. Güçsüz motoru ve eskimiş kabiniyle sürüş keyfi vaat etmiyor, ama ucuz, geniş ve ekonomik bir aile sedanı arayanlar için hâlâ mantıklı.',
+    ],
     summary: 'Bir dönemin filo klasiği; ekonomik ama yavaş, sade ve artık çok eskimiş bir sedan.',
   },
   {
@@ -1906,6 +1956,12 @@ const RAW_CARS = [
     ratings: { surus: 6.6, guvenlik: 7.2, konfor: 6.8, tuketim: 5.4, malzeme: 6.2, tasarim: 6.6, fiyat: 6.4, teknoloji: 4.6, guvenilirlik: 6.6, ikinciel: 7.0 },
     pros: ['Sağlam ve güvenli gövde', 'Rahat koltuklar', 'Uygun ikinci el fiyatı'],
     cons: ['Ağır gövde ve yavaş şanzıman', 'Yüksek tüketim'],
+    longReview: [
+      'Astra J, Opel’in 2010’ların başında Golf ve Focus’a meydan okumak için geliştirdiği nesil. O dönemin Opel’leri için alışılmadık derecede iddialı bir tasarım ve ağır, sağlam bir gövdeyle geldi. Bu ağırlık bugün ikinci el piyasasında hem bir avantaj hem de bir dezavantaj: Otomobil yolda sağlam ve güven veren bir his bırakıyor, ama 1.6 atmosferik motor bu gövdeyi taşırken zorlanıyor ve tüketim beklenenden yüksek çıkıyor.',
+      'Opel bu nesilde birkaç ilginç teknolojiye yer verdi. FlexRide adlı adaptif süspansiyon seçeneği, tek tuşla süspansiyonu daha konforlu ya da daha sportif bir ayara geçirebiliyordu. AFL+ adaptif farlar, hıza ve yol tipine göre ışık huzmesini değiştirerek şehir içinde geniş, otoyolda uzun bir aydınlatma sağlıyordu. Sırt ağrısı çekenlerin ilgisini çekecek bir detay da AGR sertifikalı ergonomik koltuk seçeneğiydi. Alman sırt sağlığı derneğinin onayını taşıyan bu koltuklar, uzun yolda belin yorulmasını belirgin şekilde azaltıyor.',
+      'Kabinin en çok eleştirilen yanı ise orta konsol. Opel o dönemde neredeyse her işlev için ayrı bir düğme koymayı tercih etmişti; ortaya çok sayıda küçük ve birbirine benzeyen düğmenin bulunduğu kalabalık bir panel çıktı. Alışmak zaman alıyor, ama bir kez öğrendiğinizde ekranlara bakmadan her şeyi yapabildiğiniz bir düzen de sunuyor.',
+      'Altı ileri tam otomatik şanzıman, çift kavramalı rakiplerine göre daha yavaş ama dur-kalk trafikte daha sarsıntısız. İkinci el alırken bu motorda termostat yuvası ve yağ soğutucu contalarından sızıntı olup olmadığına, triger kayışının zamanında değişip değişmediğine ve şanzıman yağının hiç değiştirilip değiştirilmediğine mutlaka baktırın. Yaşına göre doğru bakılmış bir Astra J, uygun fiyatlı, geniş ve güvenli bir aile otomobili olabilir.',
+    ],
     summary: 'Sağlam ve güvenli ama ağır, yavaş ve fazla yakan bir kompakt.',
   },
   {
@@ -2516,6 +2572,12 @@ const RAW_CARS = [
     ratings: { surus: 6.2, guvenlik: 8.2, konfor: 5.8, tuketim: 6.4, malzeme: 6.4, tasarim: 7.4, fiyat: 7.2, teknoloji: 6.0, guvenilirlik: 9.6, ikinciel: 9.2 },
     pros: ['Efsanevi dayanıklılık', 'Yüksek ikinci el değeri', 'Güçlü arazi yeteneği', 'Neredeyse her yerde servis ve parça bulunabilmesi', '700 mm su geçiş derinliği'],
     cons: ['Asfaltta sarsıntılı ve gürültülü', 'Yavaş ve güçsüz motor'],
+    longReview: [
+      'Hilux’ın dayanıklılık ünü bir pazarlama sloganı değil; otomobil dünyasının en ünlü işkence testlerinden birinde kanıtlanmış bir gerçek. İngiliz otomobil programı Top Gear, yıllar önce eski bir Hilux’ı ağaca çarptırdı, denizin altında bıraktı, üstüne karavan düşürdü, yaktı ve sonunda yıkılan bir binanın tepesine koydu. Basit tamirlerden sonra otomobil hâlâ çalışıyordu. Bu hikâye, Hilux’ın neden bugün hâlâ dünyanın en zorlu coğrafyalarında tercih edildiğini çok iyi anlatıyor.',
+      'Bu dayanıklılığın sırrı, Hilux’ın klasik ve sağlam yapısında. Şasi üzerine oturtulmuş gövde, arkada yaprak yaylar ve basit ama güçlü bir mekanik. Dört çeker sistem, ihtiyaç duyduğunuzda devreye aldığınız bir yapıda; arazide düşük vites oranı ve arka diferansiyel kilidiyle çok zorlu yokuşları ve çamurlu yolları aşabiliyor. Dik inişlerde otomobilin hızını kendisi sabit tutan iniş destek sistemi de arazide sürücünün işini çok kolaylaştırıyor.',
+      'Kasası yaklaşık bir ton yük taşıyabiliyor. Bu yüzden Hilux, çiftçilerden inşaat firmalarına, kamu kurumlarından doğa tutkunlarına kadar çok geniş bir kitlenin işini görüyor. Türkiye’de neredeyse her şehirde servis ve parça bulunabilmesi de bu kitle için en büyük güvence.',
+      'Bu mekaniğin asfalttaki bedeli ise konfor. Arkadaki yaprak yaylar, özellikle kasa boşken bozuk yollarda arka tarafı zıplatıyor ve kabine sarsıntı taşıyor. Motor dayanıklı ama hızlı değil; otoyolda sollama yaparken planlı olmak gerekiyor. Kabin sade ve dayanıklı malzemelerle döşenmiş; bir binek otomobilin konforunu beklememek gerekiyor. Hilux’ı bir aile otomobili olarak değil, ömür boyu sorun çıkarmayacak bir iş arkadaşı olarak düşünmek en doğrusu. İkinci el değerini de bu yüzden olağanüstü iyi koruyor.',
+    ],
     summary: 'Kırılmaz olarak bilinen iş aracı; konfor değil dayanıklılık arayanlar için.',
   },
   {
@@ -2583,6 +2645,12 @@ const RAW_CARS = [
     ratings: { surus: 9.0, guvenlik: 8.4, konfor: 7.6, tuketim: 6.8, malzeme: 7.8, tasarim: 8.2, fiyat: 7.4, teknoloji: 8.3, guvenilirlik: 7.6, ikinciel: 7.8 },
     pros: ['Sınıfının en güçlü şehir otomobillerinden', 'Olgun ve güvenli yol tutuş', 'Günlük kullanıma uygun pratiklik', 'Ekose desenli GTI koltukları'],
     cons: ['Yüksek ÖTV nedeniyle pahalı', 'Sert süspansiyon'],
+    longReview: [
+      'Polo GTI, Golf GTI’ın ruhunu bir küçük sınıfa taşıma fikrinin ürünü. Altında Golf GTI’la aynı motor ailesinden gelen 2.0 TSI var; bu da onu sınıfının en güçlü şehir otomobillerinden biri yapıyor. İspanya’daki Pamplona fabrikasında, normal Polo’larla aynı hatta üretiliyor ama karakteri bambaşka.',
+      'GTI geleneğinin bütün imzaları burada da var. Koltuklarda 1976’daki ilk Golf GTI’dan beri süregelen ekose desen, ön ızgarada boydan boya uzanan kırmızı şerit ve makyajla birlikte bu şeridin içine yerleştirilen LED ışık çizgisi, kapı eşiklerindeki GTI yazıları ve kırmızı dikişler… Polo GTI, küçük olmasına rağmen yolda GTI olduğunu hemen belli ediyor.',
+      'Sürüş tarafında Volkswagen’in elektronik diferansiyel kilidi XDS, virajdan çıkarken içteki tekerleği hafifçe frenleyerek gücün yere daha iyi aktarılmasını ve önden çekişli otomobillerde sık görülen savrulma hissinin azalmasını sağlıyor. Opsiyonel Sport Select adaptif süspansiyon, tek tuşla daha konforlu ya da daha sert bir ayara geçebiliyor; bozuk Türkiye yollarında konfor moduna almak hayat kurtarıyor.',
+      'Polo GTI’ın en güçlü yanı, sportifliği gündelik hayattan hiç ödün vermeden sunması. Dört kapısı, kullanışlı bagajı ve olgun sürüşüyle her gün işe gidip gelebileceğiniz, hafta sonu da virajlı bir yolda gülümseyebileceğiniz bir otomobil. Bedeli ise yüksek motor hacminin getirdiği yüksek ÖTV; aynı paraya bir üst sınıftan daha büyük bir otomobil alabiliyorsunuz. Tercih tamamen ne aradığınıza bağlı: Boyut ve konfor mu, yoksa küçük bir gövdede büyük bir sürüş keyfi mi?',
+    ],
     summary: 'Polo’nun olgunluğunu gerçek bir hot hatch performansıyla birleştiren, her gün kullanılabilen bir oyuncak.',
   },
   {
@@ -2642,6 +2710,13 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
     },
+    longReview: [
+      'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
+      'Karoq, Škoda’nın “Simply Clever” felsefesinin bir aile SUV’unda nasıl hayata geçtiğinin en iyi örneklerinden. Çek Cumhuriyeti’ndeki fabrikalarda üretilen otomobil, ilk bakışta sade ve iddiasız bir tasarıma sahip; ama içine girip kullanmaya başladığınızda ne kadar düşünülmüş olduğunu anlıyorsunuz.',
+      'Bunun en güzel örneği VarioFlex arka koltuklar. Arka sıra, üç ayrı koltuktan oluşuyor; her birini ayrı ayrı ileri-geri kaydırabiliyor, sırtlarını yatırabiliyor, hatta tamamen yerinden söküp otomobilden çıkarabiliyorsunuz. Koltukları söktüğünüzde Karoq neredeyse küçük bir panelvana dönüşüyor; taşınma ya da büyük eşya alışverişi için çok pratik. Bagajın yan duvarında ise yerinden çıkarılıp el feneri olarak kullanılabilen bir LED lamba var; karanlıkta lastik değiştirirken ya da bagajda bir şey ararken çok işe yarıyor.',
+      'Sportline donanımı Karoq’a daha sportif bir hava katıyor: siyah ayna kapakları ve detaylar, büyük jantlar, yan destekleri belirgin sportif koltuklar ve sportif direksiyon. Üst donanımlarda ayağınızı bagajın altında sallayarak bagaj kapağını açabildiğiniz sanal pedal ve dijital gösterge paneli bulunuyor.',
+      'Sürüşte Karoq dengeli ve güven verici. Motor, dolu bir araçla bile rahat hızlanıyor; süspansiyon da konfor ile yol tutuşu arasında iyi bir orta nokta bulmuş. Bagaj, sınıfının en kullanışlılarından; arka koltuk da aileler için yeterince geniş. Karoq’u seçmenin asıl sebebi, pratik detaylarla dolu bir kabin ve Škoda’nın bu sınıftaki fiyat avantajı. Tasarımda heyecan arıyorsanız başka yerlere bakmanız gerekebilir; ama her gün işinizi kolaylaştıracak bir aile SUV’u arıyorsanız Karoq çok mantıklı.',
+    ],
     summary: 'Pratiklik, sürüş ve fiyat dengesinde C-SUV sınıfının en mantıklı seçeneklerinden biri.',
   },
   {
@@ -3477,6 +3552,12 @@ const RAW_CARS = [
     ratings: { surus: 6.7, guvenlik: 8.6, konfor: 6.5, tuketim: 6.2, malzeme: 6.9, tasarim: 7.7, fiyat: 6.9, teknoloji: 7.7, guvenilirlik: 7.4, ikinciel: 8.4 },
     pros: ['Sınıfının en teknolojik pick-up’larından', 'Güçlü arazi yeteneği', 'İkinci elde çok aranıyor', 'Kasa aydınlatması ve pratik kasa detayları', '800 mm su geçiş derinliği'],
     cons: ['Asfaltta sarsıntılı', 'Tüketim yüksek'],
+    longReview: [
+      'Yeni nesil Ranger, Ford’un Avustralya’daki mühendislik merkezinde geliştirildi. Avustralya’nın zorlu iç bölgelerinde test edilen bu otomobil, pick-up sınıfında teknoloji ve konforun çıtasını belirgin şekilde yükseltti. Ranger’ın altyapısı o kadar başarılı bulundu ki Volkswagen yeni nesil Amarok’u da bu otomobilin üzerine kurdu.',
+      'Ranger’ı rakiplerinden ayıran şey, bir iş aracını gerçekten kullanan insanlar düşünülerek eklenmiş detaylar. Arka tamponun köşelerinde kasaya çıkmayı kolaylaştıran basamaklar var. Kasa kapağının üst yüzeyinde bir cetvel ve kerestelerle tahtaları sabitlemek için işkence yuvaları bulunuyor; kapak adeta bir çalışma tezgâhına dönüşüyor. “Zone Lighting” adı verilen sistem, otomobilin çevresini dört bir yandan aydınlatarak gece kamp kurarken ya da karanlıkta yük indirirken çok işe yarıyor. Kasa içi aydınlatma da cabası.',
+      'Kabinde dikey duran büyük bir dokunmatik ekran ve dijital gösterge var; bir pick-up’tan çok bir SUV kabinine oturuyormuş gibi hissediyorsunuz. Ekran üzerinden arazi modlarını, dört çeker sistemini ve arazi kameralarını yönetebiliyorsunuz. Wildtrak donanımında dört çeker sistemin otomatik modu, yol koşullarına göre gücü dört tekere kendisi dağıtıyor; asfaltta da güvenle kullanılabiliyor. 10 ileri otomatik şanzıman da motoru hep doğru devirde tutuyor.',
+      'Bütün bu konfora rağmen Ranger hâlâ bir pick-up. Boş kasayla bozuk yollarda arka taraf sarsıntılı ve büyük gövde şehirde park ederken zorlayıcı. Tüketimi de bir SUV’a göre yüksek. Ama hem iş hem aile hem de doğa için tek bir otomobil arıyorsanız, Ranger bu sınıfın en çok yönlü seçeneklerinden biri; ikinci elde de çok aranıyor.',
+    ],
     summary: 'Yeni nesil Ranger; teknoloji ve arazi yeteneğini dengeli sunan güçlü bir iş aracı.',
   },
   {
@@ -3488,6 +3569,12 @@ const RAW_CARS = [
     ratings: { surus: 6.6, guvenlik: 7.8, konfor: 6.8, tuketim: 6.4, malzeme: 6.8, tasarim: 7.0, fiyat: 7.4, teknoloji: 6.8, guvenilirlik: 7.8, ikinciel: 7.0 },
     pros: ['Arka helezon yaylarla sınıfına göre konforlu', 'Güçlü motor', 'Dayanıklı mekanik'],
     cons: ['Kabin yaşını hissettiriyor', 'Nissan pick-up üretimini Avrupa’da bitirdi'],
+    longReview: [
+      'Navara, pick-up sınıfında farklı bir mühendislik tercihiyle öne çıkıyor. Rakiplerinin büyük çoğunluğu arkada iş araçlarının klasik yaprak yaylarını kullanırken, Navara’nın dört çeker versiyonları arkada helezon yaylı çok bağlantılı bir süspansiyona sahip. Bu yapı, asfaltta ve bozuk yollarda Navara’yı sınıfının en konforlu pick-up’larından biri yapıyor; boş kasayla sürerken bile arka taraf rakipleri kadar zıplamıyor.',
+      'Navara’nın ne kadar sağlam bir altyapıya sahip olduğunu gösteren ilginç bir detay da var: Mercedes-Benz, premium pick-up’ı X-Class’ı Navara’nın altyapısı üzerine kurdu. Yani Mercedes yıldızı taşıyan bir pick-up, mekanik olarak büyük ölçüde Navara’ydı.',
+      'Motoru, Renault-Nissan iş birliğinden gelen çift turbolu 2.3 dCi. Düşük devirlerden güçlü bir çekiş sunuyor; 7 ileri otomatik şanzımanla birlikte hem yük taşırken hem de otoyolda rahat. Platinum donanımda otomobili yukarıdan görüyormuş gibi gösteren 360 derece kamera sistemi, arazide kayaların ve çukurların arasından geçerken ve şehirde park ederken çok işe yarıyor.',
+      'Navara’nın zayıf yanı yaşı. Kabin tasarımı ve multimedya sistemi rakiplerinin yeni nesilleri karşısında eski kalıyor. Nissan’ın Avrupa’da pick-up üretimini sonlandırmış olması da ileride bazı parçaların bulunabilirliği konusunda soru işareti yaratabiliyor; ikinci el alırken bölgenizdeki servis ve parça durumunu kontrol etmek mantıklı. Buna karşılık konforlu süspansiyonu, güçlü motoru ve dayanıklı mekaniğiyle, pick-up’ını aileyle de kullanacak biri için çok mantıklı bir ikinci el seçenek.',
+    ],
     summary: 'Sınıfına göre konforlu ve güçlü bir pick-up; teknolojide yeni rakiplerin gerisinde.',
   },
   {
@@ -4030,6 +4117,13 @@ const RAW_CARS = [
       malzeme: 'Kabindeki malzeme kalitesi, deri işçiliği ve sade lüks felsefesi; Audi ve BMW gibi premium Alman rakipleri kıskandıracak kadar pürüzsüz ve minimalist bir premium algı sunuyor.',
       konfor: 'Ses yalıtımı sınıfının en başarılılarından; lastik ve yol sesi kabine çok az ulaşıyor ve sınıfının en sessiz yuvarlanma konforlarından birini sunuyor.',
     },
+    longReview: [
+      'Ses yalıtımı sınıfının en başarılılarından; lastik ve yol sesi kabine çok az ulaşıyor ve sınıfının en sessiz yuvarlanma konforlarından birini sunuyor. Kabindeki malzeme kalitesi, deri işçiliği ve sade lüks felsefesi; Audi ve BMW gibi premium Alman rakipleri kıskandıracak kadar pürüzsüz ve minimalist bir premium algı sunuyor.',
+      'Mazda 3’ün tasarımına yakından baktığınızda ilginç bir şey fark ediyorsunuz: Yan yüzeylerde neredeyse hiç keskin çizgi yok. Mazda’nın tasarımcıları, “Kodo” adını verdikleri tasarım felsefesinde çizgiler yerine ışık yansımalarıyla oynamayı tercih etmişler. Otomobilin yan yüzeyi, çevresindeki ışığı ve manzarayı yansıtırken farklı açılardan bakıldığında sürekli değişen bir görüntü oluşturuyor. Bu yüzden Mazda 3, sınıfının en zarif ve en sanatsal otomobillerinden biri olarak görülüyor.',
+      'Mazda’nın insan odaklı yaklaşımı kabinde de kendini gösteriyor. Multimedya ekranı bilinçli olarak dokunmatik değil; sürüş sırasında ekrana uzanmak yerine orta konsoldaki döner kumandayı kullanıyorsunuz. Mazda bunu, sürücünün dikkatini yoldan ayırmamak için yaptığını söylüyor ve gerçekten de birkaç gün sonra ekranlara bakmadan her şeyi yönetebildiğinizi fark ediyorsunuz. Ekran da sürücünün gözünü yoldan minimum seviyede ayıracak şekilde torpidonun üst kısmına, uzağa yerleştirilmiş.',
+      'Mazda’nın “Jinba Ittai” yani “at ile binicinin bir olması” felsefesi sürüşte hissediliyor. Direksiyon doğal ve tutarlı; otomobil sürücünün ne yapmak istediğini sanki önceden anlıyor. Üst donanımlarda Bose ses sistemi ve sürücünün yorgunluğunu takip eden kamera bulunuyor. Atmosferik motor ve klasik tam otomatik şanzıman da turbolu ve çift kavramalı rakiplerin aksine çok basit ve dayanıklı bir mekanik sunuyor; uzun vadede güvenilirliğin önemli sebeplerinden biri bu.',
+      'Bu zarif tasarımın bedeli arka koltukta ve arka görüşte ödeniyor. Kalın arka direkler ve küçük arka cam nedeniyle arka görüş oldukça sınırlı; arka koltuk da uzun boylular için dar ve karanlık. Bagaj da sınıf ortalamasında. Ama premium bir kabin hissini, zarif bir tasarımı ve sorunsuz bir mekaniği bir arada isteyen biri için Mazda 3, Alman rakiplerine çok daha uygun fiyatlı ve karakterli bir alternatif.',
+    ],
     summary: 'Premium markaları kıskandıran kabin kalitesi ve sessizliğiyle kompakt sınıfın en zarif seçeneklerinden.',
   },
   {
@@ -4208,6 +4302,12 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 7.6, konfor: 7.4, tuketim: 8.2, malzeme: 7.2, tasarim: 8.6, fiyat: 7.4, teknoloji: 7.8, guvenilirlik: 6.8, ikinciel: 7.4 },
     pros: ['Sınıfının en karakterli tasarımlarından', 'Canlı ve ekonomik hibrit motor', 'Dijital kokpit'],
     cons: ['Bagaj ve arka koltuk sınırlı', 'Hibrit sistemin uzun vadeli güvenilirliği henüz kanıtlanmadı'],
+    longReview: [
+      'Mokka, Opel’in yeni tasarım dilini ilk taşıyan otomobil olarak markanın tarihinde özel bir yere sahip. Ön taraftaki parlak siyah “Vizor” paneli, farları, ızgarayı ve yeniden çizilen yıldırım (Blitz) logosunu tek bir yüzeyde topluyor. Bugün Corsa’dan Astra’ya kadar bütün Opel’lerde gördüğünüz bu yüz, ilk kez Mokka’da ortaya çıktı. Önceki nesle göre belirgin şekilde daha kısa, daha alçak ve daha hafif olan gövde de otomobile şehirde çevik ve sportif bir duruş kazandırıyor.',
+      'Kabinde Opel’in “Pure Panel” adını verdiği düzen var: Dijital gösterge ve multimedya ekranı, sürücüye doğru açılı tek bir siyah yüzeyin içinde yan yana duruyor. Opel burada bilinçli bir tercih yapmış; klima için hâlâ fiziksel düğmeler var ve en sık kullanılan işlevlere ekran menülerinde kaybolmadan ulaşabiliyorsunuz. Üst donanımlarda Intelli-Lux LED Matrix farlar, karşıdan gelen aracı algılayıp onu ışık huzmesinin dışında bırakırken yolun geri kalanını uzun farla aydınlatmaya devam ediyor.',
+      'Hafif hibrit sistem, düşük hızlarda ve park manevralarında kısa süreliğine yalnızca elektrikle ilerleyebiliyor. Şehir içi dur-kalk trafikte motorun daha az devreye girmesi hem tüketimi düşürüyor hem de kabini sessizleştiriyor. Çift kavramalı şanzıman da bu motorla uyumlu ve akıcı çalışıyor.',
+      'Mokka’nın bedeli alan konusunda ödeniyor. Kompakt ve şık gövde, arka koltukta uzun boylular için sınırlı bir diz ve baş mesafesi bırakıyor; bagaj da sınıfın ortalamasının altında kalıyor. Bu yüzden Mokka’yı daha çok tek başına ya da çift olarak kullanacak, otomobilinde stil ve karakter arayan sürücüler için düşünmek mantıklı. Aynı altyapıyı paylaşan Peugeot 2008 ile karşılaştırdığınızda Mokka daha cesur bir tasarım, 2008 ise biraz daha fazla alan sunuyor.',
+    ],
     summary: 'Cesur tasarımı ve canlı hibrit motoruyla öne çıkan, şehir için şık bir küçük SUV; bagajı ise sınırlı.',
   },
   {
