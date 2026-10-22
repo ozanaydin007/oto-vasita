@@ -1154,7 +1154,7 @@ const RAW_CARS = [
     fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg, S tronic', hizlanma: '8,4 sn', tuketim: '5,4 L/100 km', bagaj: '380 L' },
     ratings: { surus: 8.6, guvenlik: 9.0, konfor: 8.3, tuketim: 8.1, malzeme: 8.6, tasarim: 8.3, fiyat: 7.1, teknoloji: 8.7, guvenilirlik: 7.2, ikinciel: 8.4 },
-    pros: ['Premium marka kalitesi kompakt boyutlarda', 'Virtual Cockpit ve olgun sürüş', 'Hafif hibritle düşük tüketim', 'En hızlı 1.5 eTSI’lardan biri (daha hafif kasa)', 'ACC kapalıyken de öndeki araca yaklaşınca motor freni yapan akıllı sürüş yazılımı', 'Sürüş ve güvenlik ayarlarını profile kaydediyor', 'Rüzgar sesi neredeyse hiç yok'],
+    pros: ['Premium marka kalitesi kompakt boyutlarda', 'Virtual Cockpit ve olgun sürüş', 'Hafif hibritle düşük tüketim', 'En hızlı 1.5 eTSI’lardan biri (daha hafif kasa)', 'ACC kapalıyken de öndeki araca yaklaşınca motor freni yapan akıllı sürüş yazılımı'],
     cons: ['Kapı ve alt panellerde sert plastikler', 'Kronik riskler: DQ200 şanzıman, vites kolu ve 48V akü', 'S line donanım sunduklarına göre pahalı'],
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
@@ -1401,6 +1401,11 @@ const RAW_CARS = [
     ratings: { surus: 9.5, guvenlik: 9.5, konfor: 8.4, tuketim: 8.4, malzeme: 8.8, tasarim: 8.7, fiyat: 7.4, teknoloji: 9.1, guvenilirlik: 7.8, ikinciel: 7.4 },
     pros: ['Güçlü motor ve dört çeker', 'Günlük kullanıma uygun dört kapı', 'Zengin teknoloji'],
     cons: ['Önden çekiş tabanlı şasi klasik BMW hissini vermiyor', 'Sert süspansiyon'],
+    longReview: [
+      'M235i, kompakt Gran Coupé gövdesinde ciddi bir performans sunuyor. Önden çekiş tabanlı bir platforma dayansa da xDrive dört çeker sistemi ve önde mekanik kilitli diferansiyel sayesinde virajlardan güçlü ve kararlı çıkıyor.',
+      'BMW, tekerlek kaymasını motor kontrolüne entegre ederek çok daha hızlı müdahale eden bir sistem (ARB) kullanıyor. Bu da önden çekişli otomobillerdeki direksiyonun çekmesi hissini büyük ölçüde azaltıyor. Çerçevesiz kapılar ve kalkış kontrolü (Launch Control) de otomobile sportif bir karakter katıyor.',
+      'Dört kapısı ve kullanışlı bagajıyla günlük hayatta pratik bir otomobil. Yalnız klasik arkadan itişli BMW hissini burada bulamıyorsunuz; süspansiyonu da şehir içinde serte kaçıyor.',
+    ],
     summary: 'Kompakt bir gövdede güçlü performans; pratik bir spor sedan arayanlar için.',
   },
   {
@@ -1414,6 +1419,11 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'CLA 45 S’in kalbinde dünyanın en güçlü seri üretim dört silindirli motorlarından biri var. AMG’nin “Bir adam, bir motor” felsefesiyle her motor tek bir usta tarafından elle monte ediliyor ve motorun üzerinde o ustanın imzalı plakası bulunuyor.',
+      'AMG Performance 4MATIC+ dört çeker sistemi, arka aksta her tekerleğe gücü ayrı ayrı dağıtabilen iki kavramalı bir yapıya sahip. Bu sayede otomobil virajlarda arkadan itiyormuş gibi davranabiliyor; hatta bir drift modu bile var.',
+      'Şehirde ise sert ve yorucu bir otomobil. Yüksek kullanım maliyetini de hesaba katmak gerekiyor. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor.',
+    ],
     summary: 'Kompakt bir sedanın içine sıkıştırılmış süper otomobil performansı.',
   },
   {
@@ -1439,6 +1449,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.4, konfor: 8.6, tuketim: 8.0, malzeme: 9.4, tasarim: 9.8, fiyat: 7.8, teknoloji: 8.4, guvenilirlik: 6.8, ikinciel: 6.0 },
     pros: ['Yaşayan en güzel spor otomobil tasarımlarından', 'Dengeli arkadan itiş şasi', 'Sınıfına göre uygun ikinci el fiyatı', 'Çalışınca yükselen orta havalandırma ızgarası'],
     cons: ['Dört silindir, V6/V8 kadar karakterli değil', 'Üretimi sona erdi; parça ve servis maliyeti'],
+    longReview: [
+      'F-Type, yaşayan en güzel spor otomobil tasarımlarından biri olarak kabul ediliyor. Kapı kolları gövdeye gömülü duruyor ve otomobile yaklaştığınızda dışarı çıkıyor. Hızlandıkça yükselen arka spoyler ve çalıştırınca yükselen orta havalandırma ızgarası da tiyatro gibi detaylar.',
+      'Arkadan itişli şasi son derece dengeli ve sürmesi keyifli. Ayarlanabilir sportif egzoz, tek tuşla otomobilin sesini değiştiriyor.',
+      'Bu versiyondaki dört silindirli motor ise V6 ve V8 versiyonlar kadar karakterli değil. F-Type, Jaguar’ın son içten yanmalı spor otomobili olarak üretimden kalktı. İkinci el fiyatları cazip olsa da parça ve servis maliyetlerini önceden araştırmak gerekiyor.',
+    ],
     summary: 'Jaguar’ın son saf spor otomobili; tasarımıyla alınan, sürüşüyle de hayal kırıklığı yaşatmayan bir coupé.',
   },
   {
@@ -1465,6 +1480,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.5, konfor: 8.7, tuketim: 5.3, malzeme: 9.8, tasarim: 9.8, fiyat: 7.4, teknoloji: 9.4, guvenilirlik: 8.0, ikinciel: 8.4 },
     pros: ['8.700 devire dönen atmosferik V10', 'Günlük kullanılabilen süper otomobil', 'Efsanevi ses', 'Dört çekerle güvenli ve öngörülebilir karakter', 'Motoru sergileyen cam kapak'],
     cons: ['Çok yüksek tüketim ve bakım maliyeti'],
+    longReview: [
+      'R8, Audi’nin son içten yanmalı süper otomobili ve bu onu şimdiden özel kılıyor. Kalbinde Lamborghini Huracán ile paylaşılan atmosferik V10 var. Turbo motorların hâkim olduğu bir dünyada çok yüksek devirlere dönen bu motorun sesi efsanevi.',
+      'Her R8, Audi Sport’un Böllinger Höfe’deki özel tesisinde büyük ölçüde elle üretiliyor. Motor, arka camın altından sergileniyor. Kabinde orta ekran yok; bütün bilgiler sürücünün önündeki dijital göstergede. Bu da kokpiti tamamen sürücüye odaklıyor.',
+      'Quattro dört çeker sayesinde güvenli ve öngörülebilir bir karakteri var; süper otomobiller arasında en kolay günlük kullanılanlardan biri. Bedeli ise çok yüksek tüketim ve bakım maliyetleri.',
+    ],
     summary: 'Atmosferik V10 çağının son temsilcilerinden; üretimi 2024’te bitti ve koleksiyon değeri artıyor.',
   },
   {
@@ -1661,6 +1681,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.5, konfor: 8.7, tuketim: 7.0, malzeme: 9.7, tasarim: 9.8, fiyat: 8.0, teknoloji: 9.3, guvenilirlik: 9.0, ikinciel: 9.4 },
     pros: ['Kusursuz direksiyon ve fren hissi', 'Günlük kullanılabilen gerçek spor otomobil', 'Olağanüstü değer koruma', 'Arka aks yönlendirme seçeneği'],
     cons: ['Arka koltuklar yalnızca çocuklar için', 'Opsiyonlarla fiyat hızla artıyor'],
+    longReview: [
+      '911 Carrera S, günlük kullanılabilen gerçek spor otomobilin tanımı. Direksiyon ve fren hissi kusursuz; otomobil sürücüye yolla ilgili her bilgiyi doğrudan aktarıyor.',
+      'Bu nesille gelen ıslak zemin modu ilginç bir detay: Otomobil yolun ıslak olduğunu tekerlek yuvalarındaki sensörlerle algılıyor ve sürücüye ıslak moda geçmesini öneriyor. Sport Chrono paketiyle gelen direksiyondaki sürüş modu çevirmeli düğmesi ve arka aks yönlendirme seçeneği sürüş deneyimini daha da keskinleştiriyor.',
+      'Değerini olağanüstü iyi koruyor. Arka koltuklar ise yalnızca çocuklar ya da çanta koymak için; opsiyon listesi de çok uzun ve fiyat hızla yükseliyor.',
+    ],
     summary: 'Spor otomobilin ölçü birimi; hem pistte hem günlük hayatta ikna eden nadir otomobillerden.',
   },
   {
@@ -1671,6 +1696,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.5, konfor: 8.4, tuketim: 7.1, malzeme: 9.3, tasarim: 8.6, fiyat: 7.9, teknoloji: 9.3, guvenilirlik: 8.0, ikinciel: 8.6 },
     pros: ['Pist odaklı güçlü motor', 'Arkadan itiş moduna geçebilen dört çeker', 'Dört kapılı pratiklik', 'Sınıfının en keskin direksiyonlarından', 'M Drive profilleriyle tek tuşla değişen karakter', '10 kademeli ayarlanabilir M Traction Control', 'Kaymaları puanlayan M Drift Analyser'],
     cons: ['Tartışmalı büyük ön ızgara'],
+    longReview: [
+      'M3, dört kapılı bir sedanda pist seviyesinde performans sunuyor. M xDrive dört çeker sistemi, tek tuşla ön aksı devre dışı bırakıp saf arkadan itişli bir otomobile dönüşebiliyor.',
+      'Pistte ve kapalı alanlarda eğlenmek isteyenler için ilginç araçları var. Kaymaları puanlayan M Drift Analyser, tur sürelerini kaydeden M Laptimer ve 10 kademeli M Traction Control ile kayma miktarını kendi seviyenize göre ayarlayabiliyorsunuz. Opsiyonel karbon kova koltuklar da otomobile yarış havası katıyor.',
+      'Dört kapısıyla günlük hayatta pratik bir otomobil. En çok tartışılan yanı ise büyük, dikey ön ızgarası; herkesin beğenisine hitap etmiyor.',
+    ],
     summary: 'Süper spor otomobil performansını dört kapılı bir sedanda sunuyor.',
   },
   {
@@ -1681,6 +1711,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.8, konfor: 9.3, tuketim: 6.3, malzeme: 9.8, tasarim: 9.8, fiyat: 8.4, teknoloji: 9.7, guvenilirlik: 7.6, ikinciel: 7.6 },
     pros: ['Süper otomobil performansı ile station wagon pratikliği', 'Her havada quattro güveni', 'Agresif ve karizmatik tasarım', 'Havalı süspansiyonla uzun yolda konforlu', 'Lazer destekli Matrix LED far seçeneği', 'Silindir kapatma sistemiyle tüketim tasarrufu'],
     cons: ['Çok yüksek tüketim'],
+    longReview: [
+      'RS 6 Avant, süper otomobil performansını bir station wagon gövdesinde sunuyor. Bu nesilde A6 Avant ile yalnızca tavan, ön kapılar ve bagaj kapağı ortak; geri kalan bütün gövde panelleri, genişletilmiş çamurluklar dahil, RS 6’ya özel.',
+      'V8 motoru, düşük yükte bazı silindirleri devre dışı bırakarak tüketimden tasarruf edebiliyor. Quattro dört çeker sayesinde her havada güvenle kullanılabiliyor; havalı süspansiyonla uzun yolda da şaşırtıcı derecede konforlu.',
+      'Dev bagajı ve geniş kabiniyle aile otomobili olarak kullanılabilen en hızlı otomobillerden biri. Bedeli ise çok yüksek tüketim.',
+    ],
     summary: 'Aile otomobili kılığında bir süper otomobil; hem bagajı hem motoru dev.',
   },
   {
@@ -1946,6 +1981,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 10.0, konfor: 9.4, tuketim: 5.6, malzeme: 9.8, tasarim: 9.8, fiyat: 7.0, teknoloji: 9.8, guvenilirlik: 8.0, ikinciel: 8.6 },
     pros: ['Ferrari’nin en güçlü V8 motorlarından', 'Şaşırtıcı derecede kolay sürülen şasi', 'Nefes kesici tasarım', 'Kusursuz çalışan çift kavramalı şanzıman', 'Direksiyondaki Manettino sürüş modu seçicisi'],
     cons: ['Çok yüksek bakım ve sigorta maliyeti'],
+    longReview: [
+      'F8 Tributo, Ferrari’nin orta motorlu V8 geleneğinin en güçlü temsilcilerinden. Motoru, piste odaklı 488 Pista’dan geliyor.',
+      'Tasarımında efsanevi F40’a selam veren bir detay var: Motorun üzerindeki şeffaf, panjurlu motor kapağı. Ön tampondaki “S-Duct” adı verilen hava kanalı, havayı kaputun üzerinden yönlendirerek ön aksa yere basma kuvveti kazandırıyor.',
+      'Bu kadar güce rağmen F8 şaşırtıcı derecede kolay sürülüyor. Ferrari’nin kayma açısını kontrol eden elektronik sistemleri, sürücüyü sınırlara yaklaştırırken güvende tutuyor. Direksiyondaki Manettino ile otomobilin karakterini anında değiştirebiliyorsunuz. Bedeli ise çok yüksek bakım ve sigorta maliyetleri.',
+    ],
     summary: 'Orta motorlu V8 Ferrari geleneğinin zirvesi; hem pistte hem yolda ikna edici.',
   },
   {
@@ -1956,6 +1996,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 10.0, konfor: 9.6, tuketim: 6.5, malzeme: 9.8, tasarim: 9.8, fiyat: 7.2, teknoloji: 9.8, guvenilirlik: 8.0, ikinciel: 8.2 },
     pros: ['Modern bir klasik gibi zarif tasarım', 'Günlük kullanıma uygun konfor', 'Güçlü ve karakterli V8', 'Sınıfının en şık kabinlerinden', 'Ön yolcu ekranı', 'Direksiyondaki Manettino sürüş modu seçicisi'],
     cons: ['Dokunmatik direksiyon tuşları'],
+    longReview: [
+      'Roma, modern bir klasik gibi zarif tasarımıyla Ferrari’nin en şık otomobillerinden. Ferrari onu 1950’ler ve 60’ların Roma’sındaki “La Dolce Vita” yaşam tarzından ilham alarak tasarladığını söylüyor.',
+      'Kabinde ön yolcunun da kendi ekranı var; sürüş verilerini yolcu da takip edebiliyor. Arka cama entegre aktif spoyler, hıza göre konumunu değiştiriyor. Direksiyondaki Manettino’da ıslak zemin modu da bulunuyor.',
+      'Günlük kullanıma uygun konforuyla bir gran turismo karakteri taşıyor. Zayıf noktası ise direksiyondaki dokunmatik tuşlar; sürüş sırasında kullanmak zorlaşabiliyor.',
+    ],
     summary: 'Ferrari’nin en şık ve en kullanışlı modellerinden; uzun yolları seven bir gran turismo.',
   },
   {
@@ -1966,6 +2011,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 10.0, konfor: 9.8, tuketim: 5.1, malzeme: 9.8, tasarim: 9.8, fiyat: 7.2, teknoloji: 9.8, guvenilirlik: 7.8, ikinciel: 8.4 },
     pros: ['Atmosferik V10’un eşsiz sesi', 'Dört çekerle her koşulda güven', 'Tam bir süper otomobil görünümü', 'Işık hızında çalışan şanzıman', 'Kırmızı kapaklı çalıştırma düğmesi'],
     cons: ['Çok yüksek tüketim'],
+    longReview: [
+      'Huracán EVO, atmosferik V10 motorunun eşsiz sesiyle tam bir süper otomobil. Kırmızı kapağı kaldırıp çalıştırma düğmesine bastığınız anda başlayan tören bile bir deneyim.',
+      'EVO ile gelen öngörülü sürüş dinamiği sistemi, otomobilin bir sonraki hareketini önceden tahmin ederek dört çekeri, arka aks yönlendirmesini ve süspansiyonu aynı anda yönetiyor. Bu sayede bu kadar güçlü bir otomobil şaşırtıcı derecede kontrol edilebilir oluyor.',
+      'Strada, Sport ve Corsa sürüş modlarıyla otomobilin karakteri tamamen değişiyor. Bedeli ise çok yüksek tüketim ve bakım maliyetleri.',
+    ],
     summary: 'Atmosferik V10 çağının en heyecan verici süper otomobillerinden biri.',
   },
   {
@@ -1991,6 +2041,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.7, konfor: 9.8, tuketim: 6.4, malzeme: 9.8, tasarim: 9.8, fiyat: 6.8, teknoloji: 9.3, guvenilirlik: 6.6, ikinciel: 5.8 },
     pros: ['Yaşayan en güzel GT tasarımlarından', 'Uzun yolda çok konforlu', 'Güçlü ve dengeli V8', 'El işçiliği hissettiren kabin', 'Tek parça açılan clamshell kaput'],
     cons: ['Multimedya eski Mercedes sistemine dayanıyor'],
+    longReview: [
+      'DB11, yaşayan en güzel gran turismo tasarımlarından biri. Kaputun tek parça hâlinde, çamurluklarla birlikte açılan “clamshell” yapısı bu tasarımın imzalarından.',
+      'Arkada görünür bir spoyler yok, ama arka direklerden alınan hava gövdenin içinden geçirilip bagaj kapağından üflenerek görünmez bir spoyler gibi çalışıyor. Aston Martin buna “Aeroblade” diyor. V8 motoru ise Mercedes-AMG ile iş birliğinden geliyor ve güçlü, dengeli bir karakter sunuyor.',
+      'Uzun yolda çok konforlu ve kabini el işçiliği hissi veriyor. Zayıf noktası multimedya sistemi; eski bir Mercedes sistemine dayandığı için yaşını belli ediyor.',
+    ],
     summary: 'İngiliz zarafetini güçlü bir V8 ile birleştiren klasik bir gran turismo.',
   },
   {
@@ -2001,6 +2056,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.8, konfor: 8.7, tuketim: 6.4, malzeme: 9.8, tasarim: 9.8, fiyat: 7.0, teknoloji: 9.0, guvenilirlik: 6.8, ikinciel: 6.0 },
     pros: ['Keskin ve çevik şasi', 'Kaslı ve agresif tasarım', 'Güçlü V8 sesi', 'Ön orta motor düzeniyle ideal ağırlık dağılımı'],
     cons: ['Kabin kalitesi fiyatına göre zayıf', 'Sert süspansiyon'],
+    longReview: [
+      'Vantage, Aston Martin’in daha keskin ve daha çevik spor otomobili. Motoru ön aksın arkasında konumlandıran ön orta motor düzeni, ideale yakın bir ağırlık dağılımı sağlıyor.',
+      'Elektronik kontrollü arka diferansiyel virajda gücü iki tekerlek arasında dağıtarak otomobilin çok keskin dönmesine yardımcı oluyor. Kaslı ve agresif tasarımı ve güçlü V8 sesiyle yolda gerçekten dikkat çekiyor.',
+      'Kabin kalitesi ise fiyatına göre zayıf kalıyor; süspansiyon da günlük kullanımda serte kaçıyor.',
+    ],
     summary: 'Aston Martin’in en sportif modeli; 911’e duygusal ve gösterişli bir alternatif.',
   },
   {
@@ -2011,6 +2071,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 10.0, konfor: 9.8, tuketim: 6.0, malzeme: 9.8, tasarim: 9.8, fiyat: 6.8, teknoloji: 9.8, guvenilirlik: 7.0, ikinciel: 6.2 },
     pros: ['Kusursuz el işçiliği ve malzeme kalitesi', 'Olağanüstü uzun yol konforu', 'Dönen ekranlı gösterişli kabin', 'Dört çekerle her koşulda güven', 'Mulliner kişiselleştirme seçenekleri'],
     cons: ['Çok yüksek kullanım maliyeti'],
+    longReview: [
+      'Continental GT, kusursuz el işçiliği ve malzeme kalitesiyle gran turismo sınıfının zirvesinde. Kabindeki en ünlü detay, döner ekran: Bir düğmeyle torpidodaki panel dönüyor ve ekran yerine üç analog gösterge ya da tamamen ahşap kaplama bir yüzey ortaya çıkıyor.',
+      'Bentley’nin 48 voltluk aktif viraj denge sistemi, virajlarda gövdenin yatmasını neredeyse tamamen engelliyor. Dört çekerle her koşulda güven veriyor; uzun yol konforu olağanüstü. Mulliner kişiselleştirme seçenekleriyle neredeyse her detay müşteriye göre şekillendirilebiliyor.',
+      'Bedeli ise çok yüksek kullanım ve bakım maliyetleri.',
+    ],
     summary: 'Lüks ve performansı en zarif şekilde birleştiren, kıtalar arası bir gran turismo.',
   },
   {
@@ -2036,6 +2101,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 10.0, konfor: 9.4, tuketim: 6.3, malzeme: 9.8, tasarim: 9.8, fiyat: 7.0, teknoloji: 9.8, guvenilirlik: 7.0, ikinciel: 6.6 },
     pros: ['Formula 1 teknolojili Nettuno motoru', 'Karbon gövde ve çarpıcı tasarım', 'Hafif gövdeyle çok çevik yol tutuş', 'Rakiplerine göre daha makul fiyat', 'Kelebek kapılar'],
     cons: ['Kabin detayları rakiplerin gerisinde'],
+    longReview: [
+      'MC20, Maserati’nin yaklaşık 20 yıl sonra kendi geliştirdiği ilk motorla gelen otomobili. “Nettuno” adlı V6 motor, Formula 1’den gelen ön yanma odası teknolojisini kullanıyor.',
+      'Gövdesi, yarış otomobilleri üreten Dallara ile birlikte geliştirilen karbon fiber bir monokok. Bu hafiflik otomobili çok çevik kılıyor. Yukarı doğru açılan kelebek kapılar da onu yolda bir yarış otomobili gibi gösteriyor.',
+      'Rakiplerine göre daha makul bir fiyatla gelmesi büyük avantaj. Kabin detayları ise Ferrari ve Lamborghini rakiplerinin gerisinde kalıyor.',
+    ],
     summary: 'Maserati’nin süper otomobil dünyasına güçlü dönüşü; tasarımı ve performansıyla etkileyici.',
   },
   {
@@ -2057,7 +2127,7 @@ const RAW_CARS = [
     fuel: 'Hafif hibrit', gearbox: 'Otomatik', hp: 150,
     specs: { motor: '1.5L turbo hafif hibrit, 150 bg, S tronic', hizlanma: '8,4 sn', tuketim: '5,4 L/100 km', bagaj: '425 L' },
     ratings: { surus: 8.4, guvenlik: 8.8, konfor: 8.4, tuketim: 8.1, malzeme: 8.6, tasarim: 8.4, fiyat: 7.3, teknoloji: 8.6, guvenilirlik: 7.2, ikinciel: 8.6 },
-    pros: ['Virtual Cockpit ve modern kabin', 'Olgun, sessiz sürüş', 'Düşük tüketim', 'ACC kapalıyken de öndeki araca yaklaşınca motor freni yapan akıllı sürüş yazılımı', 'Sürüş ve güvenlik ayarlarını profile kaydediyor', 'Rüzgar sesi neredeyse hiç yok'],
+    pros: ['Virtual Cockpit ve modern kabin', 'Olgun, sessiz sürüş', 'Düşük tüketim', 'ACC kapalıyken de öndeki araca yaklaşınca motor freni yapan akıllı sürüş yazılımı'],
     cons: ['Kapı panellerinde sert plastikler', 'Arka görüş dar', 'Kronik riskler: DQ200 şanzıman, vites kolu ve 48V akü', 'S line donanım sunduklarına göre pahalı'],
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
@@ -2146,6 +2216,11 @@ const RAW_CARS = [
     review: {
       surus: '911 Turbo S’in gazına sonuna kadar bastığınız ilk anı unutmanız mümkün değil. 650 beygirlik güç dört tekere öyle kusursuz dağıtılıyor ki otomobil yere yapışıp fırlıyor; buna rağmen trafikte sıradan bir otomobil kadar uysal.',
     },
+    longReview: [
+      '911 Turbo S’in gazına sonuna kadar bastığınız ilk anı unutmanız mümkün değil. Güç dört tekere öyle kusursuz dağıtılıyor ki otomobil yere yapışıp fırlıyor; buna rağmen trafikte sıradan bir otomobil kadar uysal.',
+      'Hıza ve sürüş moduna göre konumunu değiştiren aktif ön spoyler ve arka kanat, otomobilin hem hızlı hem de dengeli kalmasını sağlıyor. Arka aks yönlendirmesi ve karbon seramik frenler standart.',
+      'Her havada ve her yolda kullanılabilen, sınıfına göre şaşırtıcı derecede konforlu bir süper otomobil. İşçiliği kusursuz ve değerini çok iyi koruyor.',
+    ],
     summary: 'Günlük kullanılabilen en hızlı otomobillerden; performans, konfor ve kaliteyi kusursuz dengeleyen bir başyapıt.',
   },
   {
@@ -3285,6 +3360,11 @@ const RAW_CARS = [
       teknoloji: 'Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.',
       tasarim: 'Gece sürüşlerinde klima ve ses kontrolünü sağlayan dokunmatik panellerin (slider) aydınlatması olmadığı için kullanmak zorlaşıyor.',
     },
+    longReview: [
+      'Golf R, günlük kullanılabilir bir süper hatchback. 4MOTION dört çeker sistemi, arka aksta gücü sağ ve sol tekerleğe ayrı ayrı dağıtabiliyor. Bu sayede virajlarda otomobil arkadan itiyormuş gibi dönebiliyor; hatta bir drift modu da var.',
+      'Akrapovič egzoz seçeneği, otomobile çok daha karakterli bir ses kazandırıyor.',
+      'Teknoloji tarafında ise sekizinci nesil Golf’ün bilinen zayıflıkları var. Multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı uyarısı ekranda sürekli hata verebiliyor. Gece sürüşlerinde de klima ve ses kontrolündeki dokunmatik panellerin aydınlatması olmadığı için kullanmak zorlaşıyor.',
+    ],
     summary: 'Golf’ün en hızlısı; her havada kullanılabilen ve istendiğinde çok hızlı bir kompakt.',
   },
   {
@@ -3296,6 +3376,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.5, konfor: 8.3, tuketim: 7.1, malzeme: 9.3, tasarim: 8.7, fiyat: 7.9, teknoloji: 9.3, guvenilirlik: 8.0, ikinciel: 8.6 },
     pros: ['Pist odaklı güçlü motor', 'Arkadan itiş moduna geçebilen dört çeker', 'Keskin direksiyon', 'M Drive profilleriyle tek tuşla değişen karakter', '10 kademeli ayarlanabilir M Traction Control', 'Kaymaları puanlayan M Drift Analyser'],
     cons: ['Tartışmalı ön ızgara', 'Sert süspansiyon'],
+    longReview: [
+      'M4, M3’ün coupé kardeşi. Aynı güçlü motoru ve tek tuşla arkadan itişe geçebilen M xDrive sistemini, daha alçak ve daha sportif bir gövdede sunuyor.',
+      'M Drift Analyser, M Laptimer ve 10 kademeli M Traction Control gibi pist araçları burada da var. Lazer destekli uzun far seçeneği gece sürüşlerinde çok uzağı aydınlatıyor.',
+      'Keskin direksiyonuyla sınıfının en keyifli otomobillerinden. Büyük ön ızgarası ise tartışmalı; süspansiyonu da günlük kullanımda sert.',
+    ],
     summary: 'M3’ün coupé kardeşi; performansta süper otomobillerle yarışıyor.',
   },
   {
@@ -3307,6 +3392,11 @@ const RAW_CARS = [
     ratings: { surus: 9.4, guvenlik: 9.0, konfor: 7.8, tuketim: 7.0, malzeme: 8.8, tasarim: 9.0, fiyat: 7.4, teknoloji: 8.4, guvenilirlik: 7.4, ikinciel: 7.6 },
     pros: ['Gürleyen V8 ve eşsiz ses', 'Güçlü performans', 'Lüks kabin', 'Pist sürelerini kaydeden AMG Track Pace', 'Yeni nesilde terk edilen V8 motor'],
     cons: ['Yüksek tüketim', 'Arkadan itişle ıslak zeminde dikkat istiyor', 'Uzun süreli kullanımda trim sesleri'],
+    longReview: [
+      'C 63 S, gürleyen V8 motoru ve eşsiz sesiyle sınıfının en karakterli sedanlarından. Bu motor da AMG’nin “Bir adam, bir motor” felsefesiyle elle monte ediliyor.',
+      'Bu nesil özellikle değerli: Yeni nesil C 63, V8’i bırakıp dört silindirli hibrit bir motora geçti. Yani bu otomobil, V8 motorlu son C 63’lerden biri. Islak kavramalı 9 ileri şanzıman, vites geçişlerini çok hızlı yapıyor. Pist sürelerini kaydeden AMG Track Pace de kabindeki ilginç detaylardan.',
+      'Arkadan itişli yapısı nedeniyle ıslak zeminde dikkat istiyor. Tüketimi yüksek. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda trim sesleri ortaya çıkabiliyor.',
+    ],
     summary: 'V8 çağının son büyük sportif sedanlarından; sesi ve karakteriyle unutulmaz.',
   },
   {
@@ -3318,6 +3408,11 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.3, konfor: 7.8, tuketim: 5.6, malzeme: 9.4, tasarim: 9.4, fiyat: 8.0, teknoloji: 9.0, guvenilirlik: 9.2, ikinciel: 10.0 },
     pros: ['9.000 devire dönen atmosferik motor', 'Pist seviyesinde yol tutuş', 'Değerini koruyan, hatta artıran bir model', 'Kuğu boynu taşıyıcılı dev arka kanat'],
     cons: ['Sert ve gürültülü günlük kullanım', 'Neredeyse sıfır pratiklik'],
+    longReview: [
+      'GT3, 911’in pist için yaratılmış hâli. Çok yüksek devirlere dönen atmosferik motoru bugün nadir bulunan bir deneyim sunuyor.',
+      'Bu nesilde ön süspansiyon, 911’in yarış otomobili 911 RSR’dan gelen çift salıncaklı bir yapıya geçti. Bu, yol 911’lerinde bir ilk. Kuğu boynu taşıyıcılı dev arka kanadı da yere basma kuvvetini artırıyor. Dijital göstergede sürücüye yalnızca gerekli bilgileri gösteren sade bir pist ekranı modu bulunuyor.',
+      'Değerini koruyan, hatta artıran bir model. Günlük kullanımda ise sert ve gürültülü; pratiklik neredeyse sıfır.',
+    ],
     summary: 'Pist için doğmuş ama yolda da kullanılabilen, sürüş tutkunlarının zirve noktası.',
   },
   {
@@ -3329,6 +3424,11 @@ const RAW_CARS = [
     ratings: { surus: 9.2, guvenlik: 8.8, konfor: 7.2, tuketim: 7.5, malzeme: 8.4, tasarim: 8.8, fiyat: 7.4, teknoloji: 8.2, guvenilirlik: 8.0, ikinciel: 8.4 },
     pros: ['Eşsiz 5 silindir sesi', 'Her havada quattro güveni', 'Kompakt ve çok hızlı'],
     cons: ['Arka koltuk sembolik', 'Sert süspansiyon'],
+    longReview: [
+      'TT RS’in kalbinde Audi’nin efsanevi beş silindirli turbo motoru var. Bu motor defalarca “Yılın Motoru” ödülü kazandı ve eşsiz sesiyle tanınıyor.',
+      'TT, Audi’nin dijital göstergesini (Virtual Cockpit) ilk kullanan otomobillerinden. Bu otomobilde orta ekran yok; her şey sürücünün önündeki ekranda. Klima ayarları da havalandırma ızgaralarının ortasındaki düğmelere entegre edilmiş; çok akıllıca ve şık bir detay.',
+      'Quattro dört çeker sayesinde her havada güvenli ve kompakt boyutlarına göre çok hızlı. Arka koltuk sembolik, süspansiyonu da sert.',
+    ],
     summary: 'Beş silindirli motorunun sesiyle hatırlanacak, kompakt ve çok hızlı bir coupé.',
   },
   {
@@ -3344,6 +3444,11 @@ const RAW_CARS = [
       konfor: 'Agresif ve sportif tasarımını destekleyen keskin direksiyon tepkileri var; ancak MINI Cooper kadar olmasa da arka süspansiyon geometrisi sert, arka yolcular bunu hissediyor.',
       teknoloji: 'Golf 8’e benzer şekilde multimedya ekranı tamamen kapanabiliyor ya da donabiliyor; dijital göstergede anlık veri kayıpları yaşanabiliyor.',
     },
+    longReview: [
+      'Formentor VZ, Cupra’nın kendi tasarımıyla geliştirdiği ilk modellerden biri; agresif ve sportif tasarımı en büyük kozu. Direksiyondaki ayrı Cupra düğmeleri, sürüş modlarına ve motor başlatmaya tek dokunuşla ulaşmanızı sağlıyor.',
+      'Güçlü motor ve 4Drive dört çeker sistemiyle keskin direksiyon tepkileri sunuyor. Ancak MINI Cooper kadar olmasa da arka süspansiyon geometrisi sert; arka yolcular bunu hissediyor.',
+      'Teknoloji tarafında Golf 8’e benzer şekilde multimedya ekranı tamamen kapanabiliyor ya da donabiliyor; dijital göstergede anlık veri kayıpları yaşanabiliyor. Tüketimi de yüksek.',
+    ],
     summary: 'SUV gövdesinde hot hatch performansı; tasarımı ve hızıyla etkileyici.',
   },
   {
@@ -3552,6 +3657,11 @@ const RAW_CARS = [
     ratings: { surus: 8.4, guvenlik: 7.6, konfor: 6.8, tuketim: 8.5, malzeme: 7.8, tasarim: 8.8, fiyat: 7.6, teknoloji: 5.8, guvenilirlik: 6.8, ikinciel: 6.8 },
     pros: ['Zamansız ve şık tasarım', 'Güçlü ve karakterli 2.0 TFSI motor', 'Keyifli manuel şanzıman'],
     cons: ['Yaşı nedeniyle eskimiş teknoloji', 'Yağ tüketimi ve zamanlama zinciri gibi yaşa bağlı riskler'],
+    longReview: [
+      'İkinci nesil TT, zamansız ve şık tasarımıyla hâlâ yolda dikkat çekiyor. Gövdesi alüminyum ve çeliğin birlikte kullanıldığı hafif bir yapıya sahip.',
+      'Belirli bir hızın üzerinde otomatik olarak yükselen arka spoyler bu nesilde de var. Opsiyonel manyetik süspansiyon (Magnetic Ride), sönümlemeyi saniyede yüzlerce kez ayarlayarak konfor ile yol tutuşu arasında çok iyi bir denge kuruyor. Manuel şanzıman ve karakterli motoru da sürüşü keyifli kılıyor.',
+      'Yaşı nedeniyle teknolojisi eskimiş. Yağ tüketimi ve zamanlama zinciri gibi yaşa bağlı riskler de var; ikinci el alırken bakım geçmişi mutlaka kontrol edilmeli.',
+    ],
     summary: 'Tasarımıyla hâlâ başları çeviren, manuel şanzımanıyla keyifli bir klasikleşme adayı; bakım geçmişi çok önemli.',
   },
   {
@@ -3714,6 +3824,11 @@ const RAW_CARS = [
       surus: 'Tank desek yerinde olur; muazzam bir otomobil. 340 beygirlik sıralı altı silindir ve xDrive ile hem çok hızlı hem de her koşulda kayaya oturmuş gibi güven veriyor. Bir eksiğini bulmaya çok uğraştık ama bulamadık.',
       teknoloji: 'Hızlı, donanımlı ve teknolojik; hatta anahtarı bile çok güzel ve teknolojik. Harman Kardon ses sistemiyle kabin adeta muazzam bir orkestrayı barındırıyor.',
     },
+    longReview: [
+      'Tank desek yerinde olur; muazzam bir otomobil. Sıralı altı silindir motor ve xDrive ile hem çok hızlı hem de her koşulda kayaya oturmuş gibi güven veriyor. Bir eksiğini bulmaya çok uğraştık ama bulamadık.',
+      'Hızlı, donanımlı ve teknolojik; hatta anahtarı bile çok güzel ve teknolojik. Harman Kardon ses sistemiyle kabin adeta muazzam bir orkestrayı barındırıyor. Kristal vites topuzu da kabine ayrı bir lüks katıyor.',
+      'Tek eksi olarak sayabildiğimiz şey fiyatı.',
+    ],
     summary: 'Tank desek yerinde olur: muazzam bir otomobil. Bir eksiğini bulmak için çok uğraştık ama bulamadık.',
   },
   {
@@ -3747,6 +3862,11 @@ const RAW_CARS = [
       surus: 'Çok ama çok başarılı, inanılmaz bir otomobil. Roadster tarzı küçük, klasik Z4 havası mı desek, o havayla birleşen yeni teknoloji mi, kasanın rijitliği mi, yoksa hafif kasasıyla 258 beygirin aslında bu araba için gayet yeterli olması mı; hangisini öne çıkaracağımızı bilemedik. Kasa ve arka kısım çok dayanıklı; uzun soluklu yanlama ve drift işlerinde başarılı. Katalogda 0–100 km/s 5,4 saniye görünüyor ama otomobil bize kesinlikle daha hızlı hissettirdi.',
       guvenilirlik: 'ZF’nin 8 ileri şanzımanıyla geldiğini söylemekte fayda var; piyasadaki en hızlı ve en başarılı şanzımanlardan biri. Çok yaygın bir kronik sorunu da yok. Sanırım bu otomobilin çok bir eksiği yok.',
     },
+    longReview: [
+      'Çok ama çok başarılı, inanılmaz bir otomobil. Roadster tarzı küçük, klasik Z4 havası mı desek, o havayla birleşen yeni teknoloji mi, kasanın rijitliği mi, yoksa hafif kasasıyla 258 beygirin aslında bu araba için gayet yeterli olması mı; hangisini öne çıkaracağımızı bilemedik.',
+      'Kasa ve arka kısım çok dayanıklı; uzun soluklu yanlama ve drift işlerinde başarılı. Katalogda verilen hızlanma süresine rağmen otomobil bize kesinlikle daha hızlı hissettirdi. Elektrikli kumaş tavanı birkaç saniyede açılıyor.',
+      'ZF’nin 8 ileri şanzımanıyla geldiğini söylemekte fayda var; piyasadaki en hızlı ve en başarılı şanzımanlardan biri. Çok yaygın bir kronik sorunu da yok. Sanırım bu otomobilin çok bir eksiği yok; tek fedakârlık iki kişilik kabini ve küçük bagajı.',
+    ],
     summary: 'Çok ama çok başarılı, inanılmaz bir roadster; klasik Z4 havasını yeni teknolojiyle birleştiriyor ve neredeyse hiç eksiği yok.',
   },
   {
@@ -3834,6 +3954,11 @@ const RAW_CARS = [
       guvenilirlik: 'Geri vitese takıldığında arka kamera açılmayabiliyor ya da ekranda çizgiler çıkabiliyor. Bunun sebebi çoğunlukla bagaj kapağından geçen ana kablo tesisatının, bagaj her açılıp kapandığında menteşe kenarına sürtünerek zamanla kopması.',
       konfor: 'Geniş dış boyutlarına rağmen arka tavan eğimi o kadar basık ki, arkaya oturan yetişkinlerin başı doğrudan arka cama değebiliyor; yazın güneşte bu ayrı bir eziyete dönüşüyor.',
     },
+    longReview: [
+      'Mustang, ikonik muscle car tasarımını arkadan itişli eğlenceli bir sürüşle birleştiriyor. Makyajlı kasayla gelen tamamen dijital gösterge paneli, sürüş moduna göre görünümünü değiştiriyor.',
+      'Pist için ilginç özellikleri var. “Line-lock” özelliği ön frenleri kilitleyip arka lastikleri döndürerek lastikleri ısıtmanızı sağlıyor. Track Apps ile ivmelenme ve fren performansınızı ölçebiliyorsunuz.',
+      'Geri vitese takıldığında arka kamera açılmayabiliyor ya da ekranda çizgiler çıkabiliyor. Bunun sebebi çoğunlukla bagaj kapağından geçen ana kablo tesisatının, bagaj her açılıp kapandığında menteşe kenarına sürtünerek zamanla kopması. Geniş dış boyutlarına rağmen arka tavan eğimi o kadar basık ki, arkaya oturan yetişkinlerin başı doğrudan arka cama değebiliyor; yazın güneşte bu ayrı bir eziyete dönüşüyor.',
+    ],
     summary: 'Muscle car ruhunu günlük kullanılabilir bir pakette sunuyor; arka koltuk ve bazı elektrik sorunları zayıf halkası.',
   },
   {
@@ -3849,6 +3974,11 @@ const RAW_CARS = [
       konfor: 'Liftback yapıdaki büyük bagaj kapağının kilit mekanizması bozuk yollarda mikro esnemeler yapabiliyor ve arkadan kabine sürekli bir gıcırtı/lokurtu sesi dolabiliyor. Kullanıcılar bunu çoğunlukla kilit mekanizmasına bez bant sararak çözüyor.',
       guvenilirlik: 'Brembo kaliperlere rağmen fabrikasyon balatalar agresif kullanımda disk yüzeyinde düzensiz balata kalıntısı bırakabiliyor; bu da diskte yamulma hissi ve direksiyonda titreme yaratıyor.',
     },
+    longReview: [
+      'Stinger, Kia’nın Avrupalı rakiplerine meydan okuyan gran turismosu. Tasarımı Peter Schreyer’in ekibinden çıktı; sürüş dinamikleri ise BMW’nin M bölümünün eski şefi Albert Biermann yönetiminde, Nürburgring pistinde geliştirildi.',
+      'Arkadan itişli şasisi keyifli bir sürüş sunuyor. Liftback yapısı sayesinde bagaj kapağı camla birlikte açılıyor ve bagaja ulaşım çok kolay. Fiyatına göre donanımı da çok zengin.',
+      'Ama bu liftback yapının bir bedeli var. Büyük bagaj kapağının kilit mekanizması bozuk yollarda mikro esnemeler yapabiliyor ve arkadan kabine sürekli bir gıcırtı ya da lokurtu sesi dolabiliyor; kullanıcılar bunu çoğunlukla kilit mekanizmasına bez bant sararak çözüyor. Brembo kaliperlere rağmen fabrikasyon balatalar agresif kullanımda disk yüzeyinde düzensiz balata kalıntısı bırakabiliyor; bu da diskte yamulma hissi ve direksiyonda titreme yaratıyor.',
+    ],
     summary: 'Avrupalı rakiplerine meydan okuyan karizmatik bir GT; birkaç kronik ses ve fren sorunu dışında çok tatmin edici.',
   },
   {
@@ -3863,6 +3993,11 @@ const RAW_CARS = [
     reviewExtra: {
       surus: 'Dünyanın en iyi manuel şanzıman yollarından birine sahip: vites topuzunun milimetrik ve kemikli geçişleri saf bir mekanik sanat eseri hissi uyandırıyor. Devir eşitleme (Rev-Match) sistemi vites düşürürken motor sesini kusursuz ayarlıyor. Ön akstaki çift eksenli süspansiyon ve mekanik kilitli diferansiyel sayesinde 329 beygiri ön tekerleklere iletirken direksiyon sağa sola çekmiyor; pist sürelerinde süper sporları geride bırakabiliyor.',
     },
+    longReview: [
+      'Type R, dünyanın en iyi manuel şanzıman yollarından birine sahip: Vites topuzunun milimetrik ve kemikli geçişleri saf bir mekanik sanat eseri hissi uyandırıyor. Devir eşitleme sistemi, vites düşürürken motor devrini kusursuz ayarlıyor.',
+      'Ön akstaki çift eksenli süspansiyon ve mekanik kilitli diferansiyel sayesinde bu gücü ön tekerleklere iletirken direksiyon sağa sola çekmiyor; pist sürelerinde süper sporları geride bırakabiliyor. LogR uygulamasıyla pist verilerinizi kaydedip sürüşünüzü analiz edebiliyorsunuz.',
+      'Kırmızı yarış koltukları kabine tam bir yarış otomobili havası katıyor. Süspansiyonu sert; yüksek ÖTV nedeniyle de pahalı. Ama Honda güvenilirliği ve güçlü ikinci el değeri bu bedeli hafifletiyor.',
+    ],
     summary: 'Önden çekişli otomobillerin zirvesi: pistte süper sporları zorlayan, ama günlük kullanılabilen bir mühendislik harikası.',
   },
   {
@@ -3893,6 +4028,11 @@ const RAW_CARS = [
       surus: 'M xDrive dört çeker sistemi akılalmaz bir esneklik sunuyor: tek tuşla ön aksı tamamen devre dışı bırakıp (2WD modu) saf arkadan itişli bir drift canavarına dönüşebiliyor, istendiğinde ise 4WD Sport modunda 600’ü aşkın beygiri asfalta kayıpsız aktarıyor.',
       konfor: 'Pist sürelerinde süper sporlarla yarışabilen performansına tezat olarak, konfor moduna alındığında dört yetişkini uzun yolculuklarda lüks ve sessiz bir iş sedanı konforunda taşıyabiliyor.',
     },
+    longReview: [
+      'M xDrive dört çeker sistemi akıl almaz bir esneklik sunuyor. Tek tuşla ön aksı tamamen devre dışı bırakıp saf arkadan itişli bir drift canavarına dönüşebiliyor; istendiğinde ise dört çeker sport modunda bütün gücü asfalta kayıpsız aktarıyor.',
+      'Direksiyondaki kırmızı M1 ve M2 tuşları, kendi ayarladığınız iki farklı sürüş profilini tek dokunuşla çağırmanızı sağlıyor. Biri günlük kullanım, diğeri pist için kurulabiliyor.',
+      'Pist sürelerinde süper sporlarla yarışabilen performansına tezat olarak, konfor moduna alındığında dört yetişkini uzun yolculuklarda lüks ve sessiz bir iş sedanı konforunda taşıyabiliyor. Bedeli ise yüksek tüketim ve bakım maliyeti.',
+    ],
     summary: 'Süper spor performansını lüks bir iş sedanının konforuyla birleştiren, çift karakterli bir efsane.',
   },
   {
@@ -3922,6 +4062,11 @@ const RAW_CARS = [
       surus: 'Dört kapılı pratik bir gövdeye sahip olmasına rağmen AMG mühendisleri şasiyi o kadar rijit ve keskin tasarlamış ki, direksiyonu milimetrik çevirdiğinizde bile arkada büyük bir gövde olduğunu unutturan saf bir spor otomobil çevikliği hissediyorsunuz. Gaza basıldığında kabine dolan hırıltılı AMG egzoz sesi de ayrı bir keyif.',
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Dört kapılı pratik bir gövdeye sahip olmasına rağmen AMG mühendisleri şasiyi o kadar rijit ve keskin tasarlamış ki, direksiyonu milimetrik çevirdiğinizde bile arkada büyük bir gövde olduğunu unutturan saf bir spor otomobil çevikliği hissediyorsunuz. Gaza basıldığında kabine dolan hırıltılı AMG egzoz sesi de ayrı bir keyif.',
+      'Orta konsoldaki küçük ekranlı tuşlar, sürüş modlarını ve egzoz ayarlarını tek dokunuşla değiştirmenizi sağlıyor; her tuş kendi işlevini kendi ekranında gösteriyor. Arka aks yönlendirmesi de bu büyük gövdeyi şehirde daha çevik kılıyor.',
+      'Çok yüksek tüketimi var. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor.',
+    ],
     summary: 'Dört kapılı pratik bir gövdede saf bir spor otomobil çevikliği ve AMG’nin unutulmaz sesi.',
   },
   // =========================================================================

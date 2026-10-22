@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { CATEGORIES, CARS, carsInCategory, getCar } from '../data/cars.js';
+import { CATEGORIES, carsInCategory, getCar } from '../data/cars.js';
 import { EDITOR_WEEKS } from '../data/editorPicks.js';
 import { GUIDES } from '../data/guides.js';
 import EditorPickCard from '../components/EditorPickCard.jsx';
@@ -149,19 +149,27 @@ function LatestGuides() {
   );
 }
 
+// "Öne çıkan araçlar" listesi: sıralamayı değiştirmek için bu listeyi düzenleyin
+const FEATURED = [
+  'bmw-3-serisi-2019',
+  'audi-a3-sportback-2024',
+  'audi-a5-sedan-2026',
+  'bmw-5-serisi-2026',
+  'mercedes-benz-e-serisi-2026',
+  'porsche-panamera-2026',
+];
+
 export default function Home() {
   useTitle(null);
-  const top = [...CARS].sort((a, b) => b.score - a.score).slice(0, 6);
+  // Ana sayfada öne çıkan araçlar (elle seçilir)
+  const featured = FEATURED.map(getCar).filter(Boolean);
 
   return (
     <>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-10 pb-4">
         <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight">
-          2026 otomobil sıralamaları
+          Bağımsız Otomobil İncelemeleri
         </h1>
-        <p className="text-ink-soft mt-3 max-w-2xl text-lg leading-relaxed">
-          Her aracı sürüşten ikinci el değerine 10 başlıkta, 10 üzerinden puanlıyoruz. Sıralamalar bu puanların ağırlıklı ortalamasına göre belirleniyor.
-        </p>
       </div>
 
       <ToolCards />
@@ -178,10 +186,10 @@ export default function Home() {
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 mt-10" aria-labelledby="h-top">
         <h2 id="h-top" className="font-display text-3xl font-extrabold tracking-tight border-b border-rule pb-3">
-          En yüksek puanı alanlar
+          Öne çıkan araçlar
         </h2>
         <ul className="divide-y divide-rule">
-          {top.map((car) => (
+          {featured.map((car) => (
             <li key={car.slug}>
               <Link to={`/inceleme/${car.slug}`} className="group grid grid-cols-[88px_1fr_auto] sm:grid-cols-[140px_1fr_auto] items-center gap-4 sm:gap-6 py-4">
                 <CarImage car={car} className="h-12 sm:h-16" />
