@@ -323,6 +323,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Corolla Hybrid için “bakımını yap, gerisini unut” demek abartı olmaz. Toyota’nın hibrit sistemi dünyanın dört bir yanında taksi filolarında yüz binlerce kilometre yapıyor ve hâlâ şaşırtacak kadar az sorun çıkarıyor. Sakarya üretimi olması da parça bulmayı ayrıca kolaylaştırıyor.',
     },
+    longReview: [
+      'Corolla Hybrid için “bakımını yap, gerisini unut” demek abartı olmaz. Toyota’nın hibrit sistemi dünyanın dört bir yanında taksi filolarında yüz binlerce kilometre yapıyor ve hâlâ şaşırtacak kadar az sorun çıkarıyor. Sakarya üretimi olması da parça bulmayı ayrıca kolaylaştırıyor.',
+      'Corolla, otomobil tarihinin en çok satan modeli unvanını taşıyor; 1966’dan bu yana dünya genelinde elli milyondan fazla satıldı. Türkiye için bu otomobilin ayrı bir anlamı var: Corolla Sedan, Sakarya’daki Toyota fabrikasında üretiliyor ve buradan dünyanın pek çok ülkesine ihraç ediliyor. Yani yolda gördüğünüz Corolla’ların önemli bir kısmı, aslında Türkiye’de üretilmiş otomobiller.',
+      'Corolla Hybrid’in kalbinde Toyota’nın beşinci nesil hibrit sistemi var. Bu sistem, şehir içinde zamanın büyük bölümünde otomobili yalnızca elektrikle hareket ettiriyor; trafik ışığında beklerken ve yavaş trafikte motor çoğu zaman tamamen susuyor. Dışarıdan hiç şarj edilmiyor; frenlemeden ve motorun fazla gücünden kendi kendini şarj ediyor. Bu yüzden şehir içinde, birçok dizelden bile daha az yakıyor.',
+      'Güvenlik tarafında Toyota Safety Sense paketi bütün donanımlarda standart. Adaptif hız sabitleyici, şerit takip asistanı, trafik işareti tanıma ve kavşaklarda dönerken karşıdan gelen araçları ve yayaları algılayan otomatik fren sistemi, Corolla’yı bu fiyat seviyesinde en güvenli sedanlardan biri yapıyor. Dijital gösterge ve kablosuz Apple CarPlay ve Android Auto desteği de kabini güncel tutuyor.',
+      'Sürüş karakteri sakin ve rahat. Süspansiyon bozuk yolları iyi süzüyor, kabin şehir içinde çok sessiz. Ani gaz verdiğinizde ise e-CVT şanzıman motoru yüksek devirde tutup belirgin bir motor sesi çıkarabiliyor; Corolla hızlı sürüş için değil, zahmetsiz ve ekonomik sürüş için tasarlanmış.',
+      'Bu sedanın en büyük kozu, uzun vadede neredeyse hiç sorun çıkarmaması ve ikinci elde değerini olağanüstü korumasıdır. Taksi filolarında yüz binlerce kilometre yapan Corolla hibritlerin batarya ve şanzıman sorunu yaşamadan çalışmaya devam etmesi, bu otomobilin neden bu kadar sevildiğini çok iyi anlatıyor.',
+    ],
     faq: [
       { q: 'Corolla Hybrid şarj edilir mi?', a: 'Hayır. Corolla Hybrid tam hibrit bir otomobil; batarya, frenleme ve benzinli motor sayesinde kendi kendine şarj oluyor. Dışarıdan prize takmanız gerekmiyor.' },
       { q: 'Corolla Hybrid ne kadar yakıt tüketiyor?', a: 'Üretici verilerine göre karma tüketimi yaklaşık 4,5 L/100 km. Şehir içinde elektrik motorunun daha çok devreye girmesiyle tüketim daha da düşebiliyor.' },
@@ -642,6 +650,13 @@ const RAW_CARS = [
     ratings: { surus: 7.0, guvenlik: 7.4, konfor: 7.6, tuketim: 8.1, malzeme: 7.1, tasarim: 7.5, fiyat: 8.0, teknoloji: 7.9, guvenilirlik: 8.4, ikinciel: 8.0 },
     pros: ['İzmit üretimi', 'Geniş bagaj', 'Zengin donanım', 'Bose ses sistemi seçeneği'],
     cons: ['90 bg ile performans zayıf', 'Gerçek bir SUV duruşu yok'],
+    longReview: [
+      'Bayon, Türkiye için ayrı bir anlam taşıyan otomobillerden: Hyundai’nin İzmit’teki fabrikasında üretiliyor ve buradan Avrupa’nın dört bir yanına ihraç ediliyor. Adını Fransa’nın güneybatısındaki Bayonne şehrinden alıyor; Hyundai, Avrupa için tasarladığı bu küçük crossover’a bilerek bir Avrupa şehrinin adını vermiş.',
+      'Bayon, i20 ile aynı altyapıyı paylaşıyor, ama ondan daha yüksek bir gövdeye ve daha büyük bir bagaja sahip. Bagaj, bu sınıfın en genişlerinden biri; çift katlı bagaj tabanı sayesinde eşyalarınızı farklı seviyelerde düzenleyebiliyorsunuz. Arka koltuk da şehir kullanımı için yeterince geniş.',
+      'Kabinde iki büyük ekran var: dijital gösterge ve multimedya ekranı. Hyundai’nin Bluelink uygulamasıyla otomobilin kapılarını telefondan kilitleyebiliyor, konumunu görebiliyor ve araç durumunu takip edebiliyorsunuz. Üst donanımlarda sunulan Bose ses sistemi, bu sınıfta pek rastlanmayan bir ses kalitesi sunuyor. Kör nokta uyarısı, şerit takip ve otomatik acil fren gibi sürüş destek sistemleri de donanımda yer alıyor.',
+      'Bayon’un tasarımındaki en ilginç detay, arka lambalar. Ok ucu şeklindeki ince lambalar, aralarındaki ince bir ışık çizgisiyle birleşiyor ve otomobile arkadan bakıldığında belirgin bir karakter kazandırıyor.',
+      'Zayıf yanı motor. Küçük turbo motor şehir içinde yeterli, ama dolu araçla otoyolda ve yokuşlarda zorlanıyor. Bayon’un bir SUV gibi değil, daha yüksek oturma pozisyonuna sahip pratik bir şehir otomobili olarak görülmesi gerekiyor. Bu açıdan bakıldığında, İzmit üretiminin getirdiği servis ve parça avantajıyla birlikte çok mantıklı bir seçim.',
+    ],
     summary: 'i20 altyapısını daha yüksek duruş ve bagajla sunan, bütçe dostu bir küçük SUV.',
   },
   {
@@ -937,6 +952,15 @@ const RAW_CARS = [
       konfor: 'Agresif ve sportif tasarımını destekleyen keskin direksiyon tepkileri var; ancak MINI Cooper kadar olmasa da arka süspansiyon geometrisi sert, arka yolcular bunu hissediyor.',
       teknoloji: 'Golf 8’e benzer şekilde multimedya ekranı tamamen kapanabiliyor ya da donabiliyor; dijital göstergede anlık veri kayıpları yaşanabiliyor.',
     },
+    longReview: [
+      'Agresif ve sportif tasarımını destekleyen keskin direksiyon tepkileri var; ancak MINI Cooper kadar olmasa da arka süspansiyon geometrisi sert, arka yolcular bunu hissediyor.',
+      'Golf 8’e benzer şekilde multimedya ekranı tamamen kapanabiliyor ya da donabiliyor; dijital göstergede anlık veri kayıpları yaşanabiliyor.',
+      'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
+      'Formentor, Cupra markasının yalnızca kendisi için tasarlanmış ilk modeli olarak markanın tarihinde özel bir yere sahip. İspanya’nın Martorell şehrinde tasarlanıp üretilen otomobil, makyajla birlikte daha da agresif bir yüze kavuştu. Ön tarafta keskin üçgen LED farlar, arka tarafta ise boydan boya uzanan lamba şeridinin ortasında ışıklı bir Cupra logosu var. Gece Formentor’u uzaktan tanımak artık çok kolay.',
+      'Makyajla gelen en önemli değişikliklerden biri kabinde. Önceki versiyonda gece görülemeyen dokunmatik ses ve klima kaydırma panelleri artık aydınlatmalı; kullanıcıların en çok şikâyet ettiği noktalardan biri düzeltildi. Büyük multimedya ekranının yazılımı da daha hızlı ve daha kararlı hâle getirildi. Üst donanımlarda Sennheiser imzalı ses sistemi bulunuyor.',
+      'Direksiyonda iki ayrı Cupra düğmesi var: Biri motoru çalıştırıyor, diğeri sürüş modları arasında geçiş yapıyor. Bu küçük detay otomobile bir spor otomobil havası katıyor. Bakır renkli detaylar, sportif koltuklar ve alçak sürüş pozisyonu da bu havayı tamamlıyor; Formentor’da bir SUV’dan çok bir hatchback’e oturuyormuş gibi hissediyorsunuz.',
+      'Sürüşte Formentor sınıfının en keskin otomobillerinden biri. Direksiyon hızlı ve net, gövde virajlarda dengeli. Bu sportifliğin bedeli ise konfor: Süspansiyon sert, özellikle arka yolcular bozuk yollarda bunu hissediyor. Bagaj ve arka koltuk da bir aile SUV’una göre ortalama. Formentor’u bir aile otomobili olarak değil, SUV pratikliğiyle sportif bir otomobil isteyenlere hitap eden karakterli bir crossover olarak düşünmek en doğrusu.',
+    ],
     summary: 'SUV olmaktan çok yükseltilmiş bir hot-hatch; aile ihtiyacından çok sürüş keyfi arayanlar için.',
   },
 
@@ -1100,6 +1124,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 7.4, konfor: 7.8, tuketim: 8.3, malzeme: 7.8, tasarim: 9.0, fiyat: 8.2, teknoloji: 8.0, guvenilirlik: 7.6, ikinciel: 6.6 },
     pros: ['Sınıfının en şık tasarımlarından', 'Çevik şehir sürüşü', 'Şehir için yeterli menzil'],
     cons: ['Arka yaşam alanı sınırlı', 'Hızlı şarj gücü ortalama'],
+    longReview: [
+      'e-208, Avrupa’nın en çok satan elektrikli şehir otomobilleri arasında uzun süre zirvede kaldı. Bunun en büyük sebebi, elektrikli olmasına rağmen benzinli 208 ile neredeyse birebir aynı görünmesi ve aynı kabini sunması. Elektrikli otomobile geçmek isteyen ama “farklı” bir otomobil kullanmak istemeyenler için çok doğal bir geçiş sağlıyor.',
+      'Makyajla birlikte e-208’in yüzü değişti. Ön tarafta artık aslan pençesinden ilham alan üç dikey LED çizgi var; arka lambalarda da aynı pençe izi motifi devam ediyor. Yeni Peugeot logosu da ızgaranın ortasında yerini aldı.',
+      'Kabinde Peugeot’nun i-Cockpit düzeni var: Küçük çaplı bir direksiyon ve direksiyonun üzerinden bakılan bir gösterge paneli. GT donanımında bu gösterge 3D; bilgiler iki katmanlı bir ekranda gösteriliyor ve önemli uyarılar, örneğin hız ya da navigasyon yönlendirmesi, öndeki katmanda adeta havada asılıymış gibi duruyor. Küçük direksiyon, şehir içinde otomobili çok çevik ve oyuncak gibi hissettiriyor.',
+      'Şehirde e-208 tam bir elektrikli şehir otomobili: sessiz, anında tepki veren ve park etmesi kolay. Opsiyonel ısı pompası, kışın kabini ısıtırken bataryadan daha az enerji harcayarak menzil kaybını azaltıyor. Türkiye gibi kışları soğuk geçen bölgelerde bu donanım gerçekten fark yaratıyor.',
+      'Zayıf yanları arka koltuk ve hızlı şarj. Arkada uzun boylu yetişkinler için diz mesafesi sınırlı; hızlı şarj gücü de yeni rakiplerine göre ortalama. Uzun yolu sık yapmıyorsanız ve şıklıkla pratikliği bir arada istiyorsanız, e-208 hâlâ çok mantıklı bir elektrikli seçim.',
+    ],
     summary: 'Türkiye’de 208 ailesinin öne çıkan versiyonu; şehirde şık ve keyifli bir elektrikli.',
   },
   {
@@ -1110,6 +1141,13 @@ const RAW_CARS = [
     ratings: { surus: 8.4, guvenlik: 8.0, konfor: 7.8, tuketim: 8.6, malzeme: 7.6, tasarim: 9.4, fiyat: 8.3, teknoloji: 8.5, guvenilirlik: 7.6, ikinciel: 7.0 },
     pros: ['Retro ve karakterli tasarım', 'Eğlenceli, çevik sürüş', 'Google tabanlı multimedya', 'Kaputtaki logoda şarj göstergesi gibi sevimli retro detaylar', 'Çift yönlü şarj (V2G) desteği'],
     cons: ['Arka koltuk dar', 'Bagaj küçük'],
+    longReview: [
+      'Renault 5 E-Tech, otomobil dünyasının son yıllarda gördüğü en başarılı retro dönüşlerinden biri. 1972’de çıkan ve Avrupa’nın en sevilen küçük otomobillerinden biri olan orijinal R5’in çizgilerini neredeyse birebir koruyor, ama altında tamamen elektrikli, modern bir platform taşıyor. Kaputun üzerindeki “5” yazısının şarj durumunu gösteren bir ışık göstergesine dönüştürülmesi, arka çamurluklardaki şişkinlikler, arka camın etrafındaki siyah çerçeve ve kare farlar… Hepsi orijinal otomobile ve efsanevi R5 Turbo’ya göz kırpıyor.',
+      'Otomobil, Fransa’nın kuzeyinde Renault’nun elektrikli otomobil merkezine dönüştürdüğü Douai fabrikasında üretiliyor. Bu da R5’i Avrupa’da üretilen, görece uygun fiyatlı elektrikli otomobiller arasında özel bir yere koyuyor.',
+      'Kabin de tasarım kadar eğlenceli. Koltuklar R5 Turbo’nun koltuklarından ilham alıyor; torpido ve kapılarda kot kumaşını andıran geri dönüştürülmüş tekstiller kullanılıyor. Renault’nun tanıtımda gururla gösterdiği küçük bir detay da var: Orta konsoldaki bir aksesuar yuvası, Fransa’nın simgesi baget ekmeği taşımak için tasarlandı. Multimedya sistemi Google tabanlı; Google Haritalar, şarj durumunu ve yol üzerindeki istasyonları hesaba katarak rota planlıyor. Renault ayrıca “Reno” adını verdiği yapay zekâ destekli bir sesli asistan karakterini de bu otomobille tanıttı.',
+      'Sürüşte R5, adının hakkını veriyor. Kısa gövdesi, alçak ağırlık merkezi ve hızlı direksiyonuyla şehirde çok çevik; dar sokaklarda ve park ederken tam bir şehir otomobili. Tek pedal sürüş modunda gaz pedalını bıraktığınızda otomobil güçlü bir şekilde yavaşlıyor; şehir içi trafikte fren pedalına çok daha az dokunuyorsunuz. Çift yönlü şarj desteği sayesinde uygun altyapıyla otomobilin bataryasından evinize ya da şebekeye elektrik verilebiliyor.',
+      'R5’in zayıf yanları, tasarımının getirdiği kompakt boyutlardan kaynaklanıyor. Arka koltuk yetişkinler için kısa yolculuklarda yeterli ama uzun yolda dar; bagaj da küçük bir aile için sınırda. Bu yüzden R5’i ikinci otomobil ya da şehirde yaşayan bekâr veya çiftler için düşünmek en mantıklısı. Ama karakteri, tasarımı ve sürüş keyfiyle bugün satın alınabilecek en sevimli elektrikli otomobillerden biri olduğu kesin.',
+    ],
     summary: 'Tasarımıyla göz dolduran, şehirde sürmesi çok keyifli ve fiyatı makul bir elektrikli hatchback.',
   },
   {
@@ -1531,6 +1569,15 @@ const RAW_CARS = [
       tasarim: 'Bu otomobilin asıl olayı tasarımı. Hızlandıkça açılan arka oynar spoiler detayı ve agresif görüntüsüyle yolda gerçekten fark ediliyor.',
       konfor: 'Konforu inanılmaz seviyede. Ön ve arka diz mesafesi etkileyici; uzun yolda ön koltukta da arka koltukta da kimse yorulmuyor.',
     },
+    longReview: [
+      'Segmentine göre biraz ağır bir kasası olduğu için performansından açıkçası biraz şüpheliydik, ama hiç de kötü değil. 204 beygirlik dizel şasiyi rahatça taşıyor ve tatmin edici denebilecek bir performans sunuyor. Tüketimi de düşük, performansı da iyi; bu boyutta bir otomobil için ikisini birlikte sunması gerçekten başarılı.',
+      'Konforu inanılmaz seviyede. Ön ve arka diz mesafesi etkileyici; uzun yolda ön koltukta da arka koltukta da kimse yorulmuyor. Bu otomobilin asıl olayı tasarımı. Hızlandıkça açılan arka oynar spoiler detayı ve agresif görüntüsüyle yolda gerçekten fark ediliyor.',
+      'A7 Sportback’in kabinine girdiğinizde Audi’nin bu nesilde teknolojiye ne kadar önem verdiğini hemen görüyorsunuz. Orta konsolda alt alta iki büyük dokunmatik ekran var: Üstteki multimedya ve navigasyonu, alttaki klima ve konfor ayarlarını yönetiyor. Ekranlara dokunduğunuzda gerçek bir düğmeye basıyormuş gibi hafif bir titreşim ve tık sesi geri bildirimi alıyorsunuz. Bu, dokunmatik ekranların “bastım mı, basmadım mı” belirsizliğini büyük ölçüde azaltıyor. Alt ekrana el yazısıyla adres bile yazabiliyorsunuz.',
+      'A7’nin ışıklarla bir ilişkisi var. Opsiyonel HD Matrix LED farlar, karşıdan gelen aracı ışık huzmesinin dışında bırakırken yolun geri kalanını uzun farla aydınlatıyor. Otomobili kilitlediğinizde ya da açtığınızda ön ve arka lambalar kısa bir ışık animasyonu oynatıyor; arka lambaları boydan boya birleştiren LED şerit de gece A7’yi uzaktan tanınır kılıyor.',
+      'Liftback gövde, bu otomobilin en akıllı tasarım tercihlerinden biri. Dışarıdan bir coupé gibi görünen A7’nin bagaj kapağı, arka camla birlikte tamamen yukarı açılıyor. Bu da büyük bavulları ya da hantal eşyaları yüklemeyi bir sedana göre çok daha kolay hâle getiriyor; arka koltuklar katlandığında da çok geniş bir yükleme alanı oluşuyor.',
+      'Hafif hibrit sistem, otoyolda gazdan ayağınızı çektiğinizde motoru tamamen kapatıp otomobili bir süre süzülerek ilerletebiliyor; sonra fark ettirmeden yeniden çalıştırıyor. Uzun yolda düşük tüketimin sırlarından biri bu. Seçenek olarak sunulan arka aks yönlendirmesi de bu uzun gövdeyi şehirde daha çevik, otoyolda daha dengeli kılıyor.',
+      'A7, Almanya’nın Neckarsulm şehrindeki Audi fabrikasında, A6 ve A8 ile aynı çatı altında üretiliyor. Bu kardeşlerinden farkı, aynı konfor ve teknolojiyi çok daha çarpıcı bir tasarımla sunması. Bedeli ise eğimli tavanın arka koltukta uzun boylulardan aldığı biraz başüstü mesafesi ve opsiyonlarla hızla yükselen fiyat.',
+    ],
     summary: 'Üst sınıf konfor ve teknolojiyi en şık gövdelerden birinde, makul yakıt masrafıyla sunuyor.',
   },
   {
@@ -1650,6 +1697,13 @@ const RAW_CARS = [
     ratings: { surus: 6.6, guvenlik: 7.0, konfor: 6.4, tuketim: 5.4, malzeme: 5.6, tasarim: 6.2, fiyat: 6.4, teknoloji: 4.4, guvenilirlik: 6.8, ikinciel: 6.2 },
     pros: ['Sağlam gövde ve iyi çarpışma güvenliği', 'Olgun yol tutuş', 'Geniş kabin'],
     cons: ['Yüksek yakıt tüketimi', 'Chevrolet Türkiye’den çekildiği için servis ve parça sorunu'],
+    longReview: [
+      'Cruze, Chevrolet’nin Avrupa’dan ve Türkiye’den çekilmeden önceki son başarılı modellerinden biriydi. Güney Kore’de GM Kore tarafından üretilen otomobil, Opel Astra J ile aynı altyapıyı paylaşıyor. Bu ortaklık bugün ikinci el alıcıları için önemli bir avantaja dönüşüyor: Birçok mekanik parça Opel ile ortak olduğu için, Chevrolet’nin Türkiye’den çekilmesine rağmen yedek parça bulmak sanıldığı kadar zor değil.',
+      'Cruze, güvenlik konusunda döneminin en iddialı otomobillerinden biriydi. Avrupa’nın bağımsız çarpışma testlerinde en yüksek puan olan beş yıldız almıştı; sağlam gövdesi ve yeterli hava yastıklarıyla bugün bile güven veriyor. Geniş kabini ve büyük bagajıyla da bir aile sedanından beklenenleri karşılıyor.',
+      'Sürüşte Cruze olgun ve dengeli bir otomobil. Süspansiyon bozuk yollarda konforlu, yüksek hızlarda gövde sağlam ve sakin. Ancak ağır gövde 1.6 atmosferik motoru zorluyor; özellikle dolu araçla yokuş yukarı ve sollamalarda motorun yetersizliğini hissediyorsunuz. Bu da yakıt tüketimini beklenenin üzerine çıkarıyor.',
+      'Altı ileri otomatik şanzıman, bu otomobilin ikinci el alırken en dikkat edilmesi gereken parçası. Bu şanzımanda vites geçişlerinde sertlik ve gecikme şikâyetleri sık görülüyor; şanzıman yağının hiç değiştirilmemiş olması sorunları büyütüyor. Test sürüşünde özellikle düşük viteslerdeki geçişlere dikkat edin ve şanzıman yağı bakım geçmişini mutlaka sorun.',
+      'Kabin bugünün gözüyle sade ve teknolojiden yoksun; ama düğmeleri büyük ve kullanımı kolay. Uygun fiyatlı, geniş ve güvenli bir ikinci el sedan arıyorsanız ve servis konusunda bağımsız bir ustaya güvenebiliyorsanız, Cruze hâlâ mantıklı bir seçenek olabilir.',
+    ],
     summary: 'Sağlam bir otomobil ama susuz motoru ve markanın pazardan çekilmesi onu riskli bir ikinci el yapıyor.',
   },
   {
@@ -1946,6 +2000,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 6.4, konfor: 6.2, tuketim: 7.6, malzeme: 5.4, tasarim: 5.4, fiyat: 7.0, teknoloji: 3.6, guvenilirlik: 7.2, ikinciel: 7.8 },
     pros: ['Sınıfının en iyi yol tutuşlarından', 'Ekonomik dizel', 'Yaygın parça ve servis'],
     cons: ['Kabin kalitesi ve teknolojisi çok eski', 'Ses yalıtımı zayıf'],
+    longReview: [
+      'Üçüncü nesil Focus, 2011’de çıktığında sınıfının en teknolojik otomobillerinden biriydi. Bugün ikinci el piyasasında bu otomobile bakan biri, o dönem için ne kadar ileri olduğunu görünce şaşırabilir. Ford, Focus’ı yalnızca Avrupa için değil, dünyanın her yerinde satılacak tek bir küresel otomobil olarak tasarlamıştı.',
+      'Focus’ın efsanevi yol tutuşu bu nesilde yeni bir teknolojiyle desteklendi: Torque Vectoring Control. Bu sistem, virajda içteki ön tekerleği hafifçe frenleyerek otomobilin virajın içine doğru daha istekli dönmesini sağlıyor. Sonuçta Focus, bir aile sedanından beklemeyeceğiniz kadar keskin ve keyifli bir sürüş sunuyor. Bu, onu yıllarca sınıfının sürüş referansı yaptı.',
+      'Teknoloji tarafında da Focus o dönem için öncüydü. Şehir içi düşük hızlarda önündeki araca çarpmak üzere olduğunuzu algılayıp otomatik fren yapan Active City Stop, paralel park yerine direksiyonu kendisi çeviren Active Park Assist ve sesli komutlarla telefonu ve müziği yönetebildiğiniz SYNC sistemi, bu nesilde sunulan donanımlar arasındaydı. Bu donanımların hangilerinin aldığınız araçta olduğunu kontrol etmek ikinci el alımında önemli.',
+      '1.6 TDCi motor ekonomisiyle biliniyor, ama ikinci el alırken dikkat edilmesi gereken noktaları var. Turboyu besleyen yağ hattındaki süzgecin tıkanması, bu motorda bilinen turbo arızalarının başlıca sebebi; yağ bakımının zamanında ve doğru yağla yapılmış olması bu yüzden çok önemli. Şehir içinde kısa mesafelerde kullanılmış örneklerde dizel partikül filtresinin tıkanması ve çift kütleli volanın yıpranması da kontrol edilmesi gereken noktalar.',
+      'Kabin ise bugünün gözüyle bakıldığında yaşını belli ediyor: çok sayıda küçük düğmenin bulunduğu kalabalık bir orta konsol, küçük bir ekran ve zayıf ses yalıtımı. Ama doğru bakılmış bir örnek bulursanız, Focus hâlâ bu bütçede sürmekten en çok keyif alacağınız sedanlardan biri.',
+    ],
     summary: 'Yaşına rağmen iyi sürüş dinamikleri sunuyor; konfor ve donanım artık çok geride.',
   },
   {
@@ -2813,6 +2874,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 8.8, konfor: 8.4, tuketim: 8.4, malzeme: 8.0, tasarim: 8.4, fiyat: 7.4, teknoloji: 8.8, guvenilirlik: 8.4, ikinciel: 8.4 },
     pros: ['Güçlü ve verimli hibrit', 'Kavisli çift ekranlı modern kabin', 'Geniş arka koltuk'],
     cons: ['Sert yollarda sarsıntı', 'Fiyatı yüksek'],
+    longReview: [
+      'Beşinci nesil Sportage’in Avrupa versiyonu ilginç bir özelliğe sahip: Kia, bu otomobili Avrupa için özel olarak, dünyanın geri kalanında satılan versiyondan daha kısa bir gövdeyle tasarladı. Slovakya’nın Žilina şehrindeki fabrikada üretilen Avrupa Sportage’ı, Avrupa şehirlerinin dar sokaklarına ve park yerlerine daha uygun boyutlara sahip. Buna rağmen kabin ve bagaj sınıfının en genişlerinden.',
+      'Kabine girdiğinizde ilk dikkatinizi çeken, sürücünün önünden orta konsola kadar kesintisiz uzanan kavisli ekran paneli. Dijital gösterge ve multimedya ekranı tek bir cam yüzeyin altında birleşiyor. Altındaki dokunmatik panel ise akıllıca bir çözüm: Tek bir tuşa bastığınızda panel, klima kontrolleri ile multimedya kısayolları arasında geçiş yapıyor; aynı düğmeler iki farklı işlevi üstleniyor.',
+      'Sinyal verdiğinizde gösterge panelinde o taraftaki aynanın altındaki kameranın görüntüsünün belirmesi, Sportage’in en sevilen güvenlik detaylarından. Şerit değiştirirken kör noktadaki aracı doğrudan önünüzdeki ekranda görüyorsunuz. 360 derece kamera ve uzaktan otomatik park özelliği gibi donanımlar da üst donanımlarda sunuluyor.',
+      'Tam hibrit sistem, turbo benzinli motoru bir elektrik motoruyla birleştirerek hem güçlü hem verimli bir sürüş sunuyor. Kia burada çift kavramalı şanzıman yerine klasik tam otomatik şanzıman kullanmış; bu da dur-kalk trafikte daha yumuşak ve sarsıntısız bir sürüş sağlıyor. Şehir içinde düşük hızlarda otomobil sık sık yalnızca elektrikle ilerleyebiliyor.',
+      'Sportage’in zayıf yanı süspansiyonu. Büyük jantlarla birlikte bozuk yollarda kabine sarsıntı taşıyabiliyor. Fiyatı da artık sınıfın üst sınırına yaklaştı. Ama uzun garantisi, geniş kabini, zengin donanımı ve verimli hibrit sistemiyle aileler için hâlâ en mantıklı C-SUV seçeneklerinden biri.',
+    ],
     summary: 'Hibrit versiyonuyla Sportage, performans ve verimliliği aynı anda sunan en dengeli aile SUV’larından.',
   },
   // =========================================================================
@@ -3228,6 +3296,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 8.8, konfor: 7.2, tuketim: 9.6, malzeme: 7.0, tasarim: 7.8, fiyat: 7.8, teknoloji: 7.6, guvenilirlik: 9.4, ikinciel: 8.8 },
     pros: ['Çok düşük tüketim', 'Toyota güvenilirliği', 'Güçlü ikinci el talebi'],
     cons: ['Kabin malzemeleri sade', 'Hızlanmada motor sesi'],
+    longReview: [
+      'Yaris Cross, Toyota’nın Avrupa için özel olarak geliştirdiği bir küçük SUV ve Fransa’nın Valenciennes şehrindeki Toyota fabrikasında üretiliyor. Yaris ile aynı altyapıyı paylaşıyor, ama daha yüksek bir gövde ve daha büyük bir bagajla şehir hayatına daha pratik bir çözüm sunuyor.',
+      'Bagaj, bu otomobilin en akıllı yanlarından biri. Arka koltuklar üç parçaya bölünerek katlanabiliyor; ortadaki dar bölümü katlayıp iki yandaki koltukları açık bırakarak kayak gibi uzun eşyaları taşırken iki arka yolcuya da yer bırakabiliyorsunuz. Bagaj tabanı da iki farklı yüksekliğe ayarlanabiliyor ve ikiye bölünebiliyor; ıslak ya da kirli eşyaları bir tarafta, temizleri diğer tarafta taşıyabiliyorsunuz.',
+      'Bu sınıfta pek rastlanmayan bir seçenek de dört çeker. AWD-i adlı sistem, arka aksa yerleştirilen ayrı bir elektrik motoruyla kaygan zeminlerde ve kalkışlarda arka tekerlere de güç veriyor. Karlı ve yağmurlu bölgelerde yaşayanlar için küçük bir SUV’da bulunması çok değerli bir özellik. Üst donanımlarda sunulan ön cama yansıtmalı gösterge de bu sınıfta nadir görülen bir donanım.',
+      'Hibrit sistem şehir içinde zamanın büyük bölümünde otomobili elektrikle hareket ettiriyor ve tüketimi çok düşük tutuyor. Ani hızlanmalarda ise motor sesi kabine belirgin şekilde doluyor; sakin sürüşte bu neredeyse hiç fark edilmiyor.',
+      'Kabin malzemeleri sade ve sert plastikler ağırlıkta; premium bir his beklememek gerekiyor. Ama Toyota’nın efsanevi güvenilirliği, çok düşük tüketim ve ikinci elde güçlü talep, Yaris Cross’u şehirde yaşayan ve sorunsuz bir otomobil isteyenler için en mantıklı küçük SUV’lardan biri yapıyor.',
+    ],
     summary: 'Makyaj öncesi Yaris Cross; düşük tüketimi ve sorunsuzluğuyla ikinci elde çok mantıklı.',
   },
   {
@@ -4432,6 +4507,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.0, konfor: 7.4, tuketim: 8.0, malzeme: 6.8, tasarim: 7.8, fiyat: 7.8, teknoloji: 7.6, guvenilirlik: 7.8, ikinciel: 8.0 },
     pros: ['Sınıfının en keyifli sürüşlerinden', 'T-Cross’tan daha uygun fiyat', 'FR donanımın sportif görünümü'],
     cons: ['Fiyatına göre sert plastikler', 'Sert süspansiyon'],
+    longReview: [
+      'Arona, İspanya’nın Martorell şehrindeki fabrikada üretiliyor ve adını Kanarya Adaları’ndaki Tenerife’de bulunan bir kasabadan alıyor. Seat’in küçük SUV’u, Volkswagen grubunun küçük otomobil altyapısını Polo, T-Cross ve Kamiq ile paylaşıyor. Bu kardeşlerinden farkı, daha genç ve sportif bir karakter sunması ve genellikle daha uygun fiyatlı olması.',
+      'FR donanımı Arona’nın karakterini en iyi yansıtan versiyon. Daha sportif tamponlar, iki renkli tavan seçeneği, büyük jantlar ve arka direkte Arona yazısının yer aldığı bir detay otomobili yolda dikkat çekici kılıyor. Kabinde sportif koltuklar, dijital gösterge ve torpidonun üstünde serbest duran büyük bir multimedya ekranı var. Sürüş profili seçimiyle direksiyon ağırlığını ve motor tepkisini kendi tercihinize göre ayarlayabiliyorsunuz.',
+      'Sürüşte Arona sınıfının en keyifli otomobillerinden biri. Direksiyon hızlı, gövde virajlarda dengeli; küçük turbo motor ve çift kavramalı şanzıman şehir içinde canlı bir performans sunuyor. Alçak ağırlık merkezi sayesinde bir SUV’dan çok bir hatchback gibi hissettiriyor.',
+      'Bagaj, bu boyuttaki bir otomobil için cömert; çift katlı bagaj tabanı da kullanımı esnek hâle getiriyor. Arka koltuk da şehir kullanımı ve kısa yolculuklar için yeterli.',
+      'Arona’nın zayıf noktası kabin malzemeleri. Torpido ve kapı yüzeylerinde sert plastikler yoğun; fiyatına göre premium bir his beklememek gerekiyor. FR donanımın sert süspansiyonu da bozuk yollarda kabine sarsıntı taşıyabiliyor. Ama T-Cross ile aynı mekanik güvenceyi daha sportif bir karakterle ve daha uygun bir fiyatla arıyorsanız, Arona çok mantıklı bir alternatif.',
+    ],
     summary: 'T-Cross ile aynı altyapıyı daha sportif bir karakterle ve daha uygun fiyata sunan, sürmesi keyifli bir küçük SUV.',
   },
   {
