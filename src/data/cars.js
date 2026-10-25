@@ -1111,6 +1111,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Bu otomobilde 1.5 motor, kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında; bu arızaların ne zaman ortaya çıkacağı belirsiz. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
     },
+    longReview: [
+      'Bu otomobilde 1.5 motor, kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında; bu arızaların ne zaman ortaya çıkacağı belirsiz. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
+      'Üçüncü nesil Q3, Macaristan’ın Győr şehrindeki Audi fabrikasında üretiliyor. Bu nesille birlikte Audi, kompakt SUV’unu teknoloji açısından bir üst sınıfa taşımayı hedeflemiş; özellikle ışık teknolojisi ve kabin düzeni dikkat çekiyor.',
+      'Q3’ün ön farlarında ilginç bir özellik var: Matrix LED farların gündüz farı imzasını, multimedya ekranından seçebileceğiniz farklı ışık desenleri arasından kendiniz belirleyebiliyorsunuz. Arka lambalarda da benzer bir dijital ışık imzası sunuluyor. Bu, otomobilinizi yolda biraz daha kişisel hâle getiren eğlenceli bir detay.',
+      'Kabinde en büyük değişiklik vites seçicinin direksiyonun arkasına, küçük bir kola taşınması. Orta konsoldaki geleneksel vites kolu kalkınca açılan alanda geniş saklama bölmeleri ve kablosuz şarj yeri var; kabin çok daha ferah hissettiriyor. Dijital gösterge ve büyük multimedya ekranı da kabini güncel tutuyor. Arka koltuk ileri-geri kaydırılabiliyor; bagaj ile arka diz mesafesi arasında ihtiyaca göre denge kurabiliyorsunuz.',
+      'Sürüşte Q3 sessiz ve olgun. Kabin yalıtımı sınıfının en iyilerinden; otoyolda rüzgar ve yol sesi çok düşük. Giriş motoru ise bu gövde için sınırlı kalıyor; dolu araçla otoyolda ve sollamalarda zorlandığını hissedebiliyorsunuz.',
+      'Q3’ün zayıf yanı, Audi’lerde her zaman olduğu gibi pahalı opsiyonlar. Temel donanımla aldığınız otomobil ile katalogdaki fotoğraflarda gördüğünüz otomobil arasında ciddi bir fiyat farkı olabiliyor. Ama kaliteli kabini, yeni teknolojisi ve güçlü ikinci el talebiyle, premium kompakt SUV arayanlar için çok mantıklı bir seçim.',
+    ],
     summary: 'Yeni neslinde teknoloji ve kalite çıtasını yükselten, dengeli bir premium kompakt SUV.',
   },
   {
@@ -1816,6 +1824,13 @@ const RAW_CARS = [
     ratings: { surus: 5.5, guvenlik: 5.3, konfor: 5.9, tuketim: 7.8, malzeme: 4.7, tasarim: 5.3, fiyat: 7.0, teknoloji: 3.9, guvenilirlik: 7.6, ikinciel: 7.6 },
     pros: ['Çok düşük yakıt tüketimi', 'Büyük bagaj', 'Dayanıklı dizel motor'],
     cons: ['Sert plastiklerle dolu sade kabin', 'Zayıf ses yalıtımı'],
+    longReview: [
+      '301, Peugeot’nun gelişmekte olan pazarlar için özel olarak tasarladığı bir sedan ve İspanya’nın Vigo şehrindeki fabrikada üretiliyor. Tasarım hedefi açıktı: Bozuk yollara dayanıklı, ucuz bakımlı, geniş ve ekonomik bir aile otomobili. Bu yüzden 301, Türkiye’de özellikle filo ve taksi kullanımında çok tercih edildi.',
+      'Bu hedefin en somut göstergesi yerden yükseklik. 301, bozuk yollarda ve yüksek kaldırımlarda alt takımın zarar görmemesi için normal sedanlara göre daha yüksek tutuldu. Süspansiyon da kötü yol koşullarına dayanacak şekilde sağlam ayarlandı. Türkiye’nin köy yollarında ve çukurlu şehir sokaklarında bunun faydasını görüyorsunuz.',
+      'Dizel motor, 301’in en güçlü yanı. Basit, dayanıklı ve inanılmaz derecede ekonomik; sakin kullanımda çok az yakıyor. Doğru bakılmış bir örnekte yüz binlerce kilometre sorunsuz çalışabiliyor. Bagaj ise sınıfının en büyüklerinden; büyük ailelerin tatil bavullarını rahatça alıyor. Arka koltuk da geniş.',
+      'Bu dayanıklılık ve ekonominin bedeli kabinde ödeniyor. Kabin sert plastiklerle dolu, ses yalıtımı zayıf; otoyolda motor ve yol sesi kabine belirgin şekilde geliyor. Donanım da sade.',
+      'İkinci el alırken aracın filo ya da taksi geçmişini, kilometresini ve dizel enjektörlerin durumunu kontrol ettirin. Doğru bir örnek bulursanız, 301 bütçesini zorlamadan geniş, ekonomik ve dayanıklı bir sedan arayanlar için çok mantıklı bir seçim.',
+    ],
     summary: 'Gelişmekte olan pazarlar için tasarlanmış bütçe sedanı; ekonomik ama konfor ve kalite beklememek gerek.',
   },
   {
@@ -2435,6 +2450,13 @@ const RAW_CARS = [
     ratings: { surus: 7.9, guvenlik: 7.7, konfor: 6.9, tuketim: 7.0, malzeme: 8.1, tasarim: 7.9, fiyat: 6.0, teknoloji: 5.5, guvenilirlik: 6.8, ikinciel: 7.4 },
     pros: ['Sınıfına göre kaliteli kabin', 'Canlı motor ve hızlı şanzıman', 'Hâlâ şık görünen tasarım'],
     cons: ['Kuru kavramalı S tronic’in bakım riski', 'Sert süspansiyon ve dar arka koltuk'],
+    longReview: [
+      'A1, Audi’nin ilk premium şehir otomobiliydi ve Belçika’nın Brüksel şehrindeki fabrikada üretildi. Volkswagen Polo ile aynı altyapıyı paylaşan A1, bu küçük gövdeye Audi’nin kalite anlayışını taşımayı hedefliyordu ve büyük ölçüde başardı.',
+      'A1’in tasarımındaki en karakteristik detay, tavanın kenarından geçen ve gövdeden farklı bir renge boyanabilen kemer. Siyah gövdeli bir A1’de gümüş, beyaz gövdelide kırmızı bir kemer otomobile çok genç ve kişisel bir görünüm kazandırıyordu. Kabinde de ilginç bir detay vardı: Multimedya ekranı, kullanılmadığında torpidonun içine geri çekilebiliyordu.',
+      'Kabin kalitesi, döneminin şehir otomobilleri için çok yüksekti. Yuvarlak, türbin görünümlü havalandırma ızgaraları, yumuşak dokulu yüzeyler ve sağlam montaj, A1’i Polo’dan belirgin şekilde ayırıyordu. Bugün bile kabin şaşırtıcı derecede kaliteli hissettiriyor.',
+      'Turbo benzinli motor ve çift kavramalı S tronic şanzıman, A1’e canlı bir performans kazandırıyor. Ama ikinci el alırken bu iki parçaya çok dikkat etmek gerekiyor. Bu nesil 1.4 TFSI motorlarda zamanlama zincirinin uzaması ve gergi sorunları biliniyor; kuru kavramalı yedi ileri S tronic de mekatronik ve kavrama arızalarıyla anılıyor. Bakım geçmişi belli olmayan örneklerden uzak durmak gerekiyor.',
+      'Sert süspansiyon ve dar arka koltuk da A1’in zayıf yanları. Ama hâlâ şık görünen tasarımı ve kaliteli kabiniyle, doğru bakılmış bir örnek, şehirde premium bir küçük otomobil isteyenler için cazip bir ikinci el seçenek.',
+    ],
     summary: 'Premium şehir otomobili fikrinin ilk örneklerinden; şık ve canlı ama yaşı ve şanzıman riski göz önünde bulundurulmalı.',
   },
   {
@@ -2535,6 +2557,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Bu otomobilde 1.5 eTSI motor, Golf gibi kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında. Buna hafif hibrit sistemin 48V aküsünde yaşanabilen sorunlar da ekleniyor; bu arızaların ne zaman ortaya çıkacağı belirsiz ve kalıcı bir çözümleri pek yok. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
     },
+    longReview: [
+      'Bu otomobilde 1.5 eTSI motor, Golf gibi kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında. Buna hafif hibrit sistemin 48V aküsünde yaşanabilen sorunlar da ekleniyor; bu arızaların ne zaman ortaya çıkacağı belirsiz ve kalıcı bir çözümleri pek yok. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
+      'Terramar, adını İspanya’nın Sitges kasabası yakınındaki tarihi Terramar yarış pistinden alıyor. 1923’te açılan bu eğimli viraja sahip pist, Avrupa’nın en eski yarış pistlerinden biri. Cupra, sportif SUV’una bu adı vererek markanın yarış kökenlerine selam veriyor. Otomobil, Audi Q3 ile aynı altyapıyı paylaşıyor ve Macaristan’ın Győr şehrindeki Audi fabrikasında üretiliyor.',
+      'Dış tasarımda Cupra’nın yeni yüzü öne çıkıyor: köpekbalığı burnu biçimindeki ön taraf, üçgen biçimli LED farlar ve arka lambaları boydan boya birleştiren ışık şeridinin ortasında ışıklı Cupra logosu. Terramar, yolda bir aile SUV’undan çok sportif bir crossover gibi duruyor.',
+      'Kabinde bakır renkli detaylar, sportif koltuklar ve büyük multimedya ekranı var. Direksiyonda Cupra’nın imzası olan iki ayrı düğme bulunuyor: Biri motoru çalıştırıyor, diğeri sürüş modları arasında geçiş yapıyor. Bagaj sınıfının en genişlerinden; arka koltuk da aileler için yeterli.',
+      'Sürüşte Terramar, SUV sınıfının en sportif otomobillerinden biri. Direksiyon hızlı ve net, gövde virajlarda dengeli. Bu sportifliğin bedeli ise sert süspansiyon; bozuk yollarda kabine sarsıntı taşıyabiliyor.',
+      'Dokunmatik ağırlıklı kontroller sürüş sırasında biraz dikkat istiyor. Daha önce bahsettiğimiz 48V akü ve DQ381 mekatronik riskleri de göz önünde bulundurulmalı. Ama tasarımı, sportif sürüşü ve geniş bagajıyla, aile SUV’u pratikliğinden vazgeçmeden karakterli bir otomobil isteyenler için çok cazip.',
+    ],
     summary: 'Tiguan altyapısını daha sportif bir karakter ve cesur bir tasarımla sunan aile SUV’u.',
   },
   {
@@ -2603,6 +2633,15 @@ const RAW_CARS = [
       tasarim: 'İç tasarıma alışmak biraz uzun sürebiliyor; çok alışılagelmiş bir tasarım değil. Ama dışarıdan baktığınızda yine MINI Cooper’ın o eski efsane kasasını görüyorsunuz.',
       teknoloji: 'İçinde çok çok keyifli “oyuncaklar” bulunuyor: yuvarlak OLED ekran, farklı sürüş modlarında değişen ışık ve ses efektleri gibi detaylar her yolculuğu eğlenceli hâle getiriyor.',
     },
+    longReview: [
+      'Garip bir şekilde bu MINI, 1.5 eTSI motorlu rakiplerinden daha hızlı. Aslında çok da gariplik yok; kasası daha hafif, motoru daha güçlü. Yine de o dişli rakiplerinden sıyrılması hayret verici.',
+      'İç tasarıma alışmak biraz uzun sürebiliyor; çok alışılagelmiş bir tasarım değil. Ama dışarıdan baktığınızda yine MINI Cooper’ın o eski efsane kasasını görüyorsunuz.',
+      'İçinde çok çok keyifli “oyuncaklar” bulunuyor: yuvarlak OLED ekran, farklı sürüş modlarında değişen ışık ve ses efektleri gibi detaylar her yolculuğu eğlenceli hâle getiriyor.',
+      'Yeni nesil MINI, İngiltere’nin Oxford şehrindeki tarihi MINI fabrikasında üretiliyor ve markanın bugüne kadarki en cesur kabin tasarımını sunuyor. Torpidonun ortasında, sinema perdesi gibi duran büyük yuvarlak bir OLED ekran var. Bu ekran hem gösterge paneli hem de multimedya ekranı görevini üstleniyor; MINI’nin 1959’daki ilk modelindeki ortadaki yuvarlak göstergeye modern bir selam.',
+      'Kabinin en ilginç detaylarından biri, torpidoyu kaplayan geri dönüştürülmüş örgü kumaş. Seçtiğiniz sürüş moduna göre bu kumaşın üzerine farklı renk ve desenlerde ışıklar yansıtılıyor; ekrandaki grafikler, ambiyans aydınlatması ve hatta motor sesi bile moda göre değişiyor. MINI bunlara “Deneyim Modları” diyor. Ekranın altında ise MINI’nin klasik geçiş düğmeleri var; motoru, eski bir uçak kokpitindeki gibi bir mandal düğmeyi çevirerek çalıştırıyorsunuz.',
+      'MINI’nin efsanevi “go-kart” hissi bu nesilde de korunuyor. Kısa gövde, geniş iz genişliği ve çok hızlı direksiyon, otomobili dar sokaklarda ve virajlı yollarda çok eğlenceli kılıyor. Turbo motor ve çift kavramalı şanzıman da bu küçük gövdeyi şaşırtıcı bir çeviklikle taşıyor.',
+      'Bu karakterin bedeli alan. Bagaj çok küçük, arka koltuk da yetişkinler için kısa yolculuklarda bile dar. MINI’yi bir aile otomobili olarak değil, şehirde yaşayan ve otomobilinin karakterine önem veren biri için bir kişilik ifadesi olarak düşünmek en doğrusu.',
+    ],
     summary: 'Mantıktan çok keyifle alınan, şehirde en eğlenceli otomobillerden biri.',
   },
   {
@@ -2747,6 +2786,14 @@ const RAW_CARS = [
       konfor: 'Çerçevesiz kapıların estetiğine karşın, 130 km/s üzerindeki hızlarda yan camlar rüzgar basıncıyla milimetrik olarak esneyebiliyor ve kabine sürekli bir rüzgar üflemesi sesi geliyor.',
       tasarim: 'Kablosuz şarj alanı vites konsolunun altına gizlenmiş; sürüş sırasında telefonu oraya koymak ya da almak kör noktada kaldığı için dikkat dağıtıyor.',
     },
+    longReview: [
+      'Çerçevesiz kapıların estetiğine karşın, 130 km/s üzerindeki hızlarda yan camlar rüzgar basıncıyla milimetrik olarak esneyebiliyor ve kabine sürekli bir rüzgar üflemesi sesi geliyor. Kablosuz şarj alanı vites konsolunun altına gizlenmiş; sürüş sırasında telefonu oraya koymak ya da almak kör noktada kaldığı için dikkat dağıtıyor.',
+      '508, Peugeot’nun klasik aile sedanı kalıbını tamamen kırdığı otomobil. Fransa’nın Mulhouse şehrindeki fabrikada üretilen 508, önceki neslin ağırbaşlı sedan gövdesini bırakıp alçak, uzun ve coupé gibi eğimli bir siluete kavuştu. Bagaj kapağı arka camla birlikte açılan liftback yapısı da bu şık görünüşün arkasında büyük bir pratiklik saklıyor.',
+      'Tasarımın en dikkat çekici detaylarından biri çerçevesiz kapı camları. Kapıyı açtığınızda camların üstünde metal bir çerçeve olmaması, 508’e bir coupé havası veriyor. Ön taraftaki aslan dişi gibi uzanan gündüz farları da otomobili yolda hemen tanınır kılıyor.',
+      '508’in bu sınıfta pek rastlanmayan bir donanımı gece görüş kamerası. Ön ızgaraya yerleştirilen kızılötesi kamera, farların aydınlatamadığı mesafelerdeki yayaları ve hayvanları algılayıp gösterge panelinde sürücüye gösteriyor. Karanlık köy yollarında ve otoyollarda gerçek bir güvenlik kazancı.',
+      'Dizel motor ve 8 ileri tam otomatik şanzıman, uzun yolda çok düşük bir tüketim sağlıyor. Kabin kalitesi de Peugeot’nun son yıllardaki yükselişini yansıtıyor; yumuşak yüzeyler, kaliteli dikişler ve premium bir atmosfer.',
+      'Bu şık tasarımın bedeli arka koltukta ödeniyor. Eğimli tavan, uzun boylu arka yolcuların başüstü mesafesini azaltıyor; kapı girişi de alçak olduğu için binip inerken başınızı eğmeniz gerekiyor. Ama tasarımı, düşük tüketimi ve kaliteli kabiniyle, Alman rakiplerine farklı ve şık bir alternatif arayanlar için çok cazip.',
+    ],
     summary: 'Tasarımıyla D segmentini sallayan, ekonomik ve kaliteli bir fastback sedan.',
   },
   {
@@ -2787,6 +2834,13 @@ const RAW_CARS = [
     ratings: { surus: 6.3, guvenlik: 7.5, konfor: 6.5, tuketim: 6.8, malzeme: 5.5, tasarim: 6.1, fiyat: 6.8, teknoloji: 5.8, guvenilirlik: 7.0, ikinciel: 5.2 },
     pros: ['Uygun fiyatlı elektrikli SUV', 'Geniş kabin ve bagaj', 'Güçlü garanti'],
     cons: ['Çok kısa menzil', 'Ucuz kabin malzemeleri'],
+    longReview: [
+      'ZS EV, Avrupa’da uygun fiyatlı elektrikli SUV dönemini başlatan otomobillerden biri. Çıktığında bu fiyata bu boyutta bir elektrikli SUV bulmak neredeyse imkânsızdı; bu yüzden birçok kişinin elektrikli otomobile ilk adımı oldu.',
+      'ZS EV’nin ilginç bir tasarım detayı şarj soketinin yeri. Soket, ön ızgaradaki MG logosunun arkasına gizlenmiş; logoyu bir kapak gibi açarak şarj kablosunu takıyorsunuz. Bu, otomobilin yandan bakıldığında içten yanmalı ZS’den neredeyse hiç ayırt edilememesini sağlıyor.',
+      'Kabin, ZS’nin benzinli versiyonuyla aynı ve bu boyuttaki bir SUV için oldukça geniş. Arka koltuk aileler için yeterli; bagaj da elektrikli olmasına rağmen batarya yüzünden fazla küçülmemiş. MG’nin Avrupa’da sunduğu uzun garanti de bu otomobilin en güçlü satış argümanlarından biriydi.',
+      'ZS EV’nin en büyük zayıflığı menzil. Bu nesildeki küçük batarya, özellikle kışın ve otoyol hızlarında gerçek kullanımda menzili ciddi şekilde düşürüyor. Bu otomobili şehir içinde, evde ya da işte düzenli şarj edilebilecek bir ortamda kullanmak en mantıklısı; uzun yolda sık şarj molası vermeniz gerekecek.',
+      'Kabin malzemeleri ucuz ve sert plastikler ağırlıkta. İkinci el alırken bataryanın sağlık durumunu bir servis raporuyla kontrol ettirmek çok önemli. Doğru bir örnek bulursanız, şehir içi kullanım için çok düşük işletme maliyetli bir elektrikli SUV’a uygun bir fiyata sahip olabilirsiniz.',
+    ],
     summary: 'Elektrikliye uygun fiyatlı bir giriş; kısa menzili onu yalnızca şehir içi kullanıma uygun kılıyor.',
   },
   {
@@ -2854,6 +2908,13 @@ const RAW_CARS = [
     ratings: { surus: 7.4, guvenlik: 8.6, konfor: 7.6, tuketim: 9.0, malzeme: 7.8, tasarim: 8.0, fiyat: 6.8, teknoloji: 6.7, guvenilirlik: 9.2, ikinciel: 7.8 },
     pros: ['Çok düşük tüketim', 'Magic Seat esnek koltuklar', 'Honda güvenilirliği'],
     cons: ['Küçük bagaj', 'Yüksek fiyat ve sade multimedya'],
+    longReview: [
+      'Üçüncü nesil HR-V, Honda’nın e:HEV hibrit sistemiyle geliyor ve bu sistem diğer hibritlerden farklı çalışıyor. Şehir içinde ve düşük hızlarda tekerlekleri her zaman elektrik motoru döndürüyor; benzinli motor ise çoğu zaman yalnızca bataryayı şarj eden bir jeneratör görevi görüyor. Yalnızca otoyolda, verimli olduğu hızlarda benzinli motor doğrudan tekerleklere güç veriyor. Sonuçta HR-V, bir elektrikli otomobil gibi sessiz ve akıcı, ama hiç şarj gerektirmeyen bir sürüş sunuyor.',
+      'HR-V’nin en sevilen pratik özelliği Magic Seat. Arka koltukların oturma minderleri sinema koltukları gibi yukarı kaldırılabiliyor; bu sayede arka koltukların önünde, yerden tavana kadar uzanan bir yükleme alanı oluşuyor. Büyük bir bitki, bisiklet ya da uzun bir eşyayı dik olarak taşıyabiliyorsunuz.',
+      'Kabinde Honda’nın ilginç bir klima çözümü var: Ön panelin üst köşelerindeki L biçimli havalandırma ızgaraları, havayı doğrudan yolcuların yüzüne değil, tavan boyunca bir perde gibi yayıyor. Bu, kabinin daha eşit şekilde ısınıp soğumasını sağlıyor ve uzun yolda yüze doğrudan hava gelmesinin verdiği rahatsızlığı ortadan kaldırıyor.',
+      'Honda Sensing güvenlik paketi standart; adaptif hız sabitleyici ve şerit takip gibi sistemler bütün donanımlarda var. Tüketim, bu boyuttaki bir SUV için olağanüstü düşük.',
+      'HR-V’nin zayıf yanları küçük bagaj ve sade multimedya. Hibrit batarya nedeniyle bagaj sınıf ortalamasının altında; multimedya sistemi de rakiplerine göre yavaş. Fiyatı da sınıfın üst sınırında. Ama düşük tüketimi, esnek kabini ve Honda güvenilirliğiyle uzun vadede çok mantıklı bir seçim.',
+    ],
     summary: 'Verimli ve güvenilir bir hibrit SUV; bagajı ve fiyat/donanım dengesi zayıf halkası.',
   },
   {
@@ -2903,6 +2964,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.0, konfor: 7.8, tuketim: 9.4, malzeme: 7.6, tasarim: 8.4, fiyat: 7.6, teknoloji: 7.8, guvenilirlik: 7.6, ikinciel: 7.8 },
     pros: ['Şehirde çok düşük tüketim', 'Güçlü ve akıcı hibrit sistem', 'Şık tasarım'],
     cons: ['Hibrit batarya bagajı küçültüyor', 'Arka koltuk dar'],
+    longReview: [
+      'Clio E-Tech’in hibrit sistemi, Renault’nun Formula 1’deki deneyiminden ilham alıyor. Sistemin kalbinde, yarış otomobillerindeki köpek dişli vites mekanizmalarına benzeyen, debriyajı olmayan çok modlu bir şanzıman var. Benzinli motor ve iki elektrik motoru bu şanzıman üzerinden birlikte çalışıyor; sistem sürüş koşuluna göre en verimli kombinasyonu kendisi seçiyor.',
+      'Şehir içinde Clio E-Tech, zamanın büyük bölümünde yalnızca elektrikle ilerliyor. Kalkışlarda ve düşük hızlarda motor çoğu zaman tamamen susuyor; bu da şehir içi tüketimi hibrit olmayan rakiplerinin çok altına indiriyor. Elektrik motorunun anında verdiği tork sayesinde trafik ışıklarından kalkışlar da çok canlı.',
+      'Hibrit sistem, normal Clio’dan çok daha güçlü bir toplam güç sunuyor. Bu da otoyolda ve sollamalarda Clio E-Tech’i sınıfının en rahat otomobillerinden biri yapıyor. Vites geçişleri, alışılmış otomatik şanzımanlardan biraz farklı hissettirebiliyor; ama birkaç gün sonra bu karaktere alışıyorsunuz.',
+      'Kabin, beşinci nesil Clio’nun kaliteli kabini: yumuşak dokulu yüzeyler, dikey multimedya ekranı ve dijital gösterge. Şık dış tasarım da yerinde.',
+      'Hibrit bataryanın bedeli bagajda ödeniyor; bagaj normal Clio’ya göre belirgin şekilde küçük. Arka koltuk da uzun boylu yetişkinler için dar. Ama şehirde yaşayan ve çok düşük tüketimli, güçlü bir küçük otomobil isteyenler için Clio E-Tech çok mantıklı bir seçim.',
+    ],
     summary: 'Clio’nun şık gövdesini sınıfının en verimli hibrit sistemlerinden biriyle buluşturan, şehirde çok mantıklı bir otomobil.',
   },
   {
@@ -3060,6 +3128,13 @@ const RAW_CARS = [
     ratings: { surus: 8.6, guvenlik: 8.8, konfor: 8.0, tuketim: 7.0, malzeme: 8.8, tasarim: 8.6, fiyat: 7.6, teknoloji: 7.4, guvenilirlik: 9.0, ikinciel: 7.4 },
     pros: ['Sınıfının en iyi sürüşlerinden', 'Premium hissettiren kabin', 'Zamansız tasarım', 'Döner kumandalı, dikkat dağıtmayan multimedya', 'Virajda yük aktarımını düzenleyen G-Vectoring Control'],
     cons: ['Tüketim turbo rakiplerden yüksek', 'Multimedya eski'],
+    longReview: [
+      'CX-5, Mazda’nın dünya genelinde en çok satan modeli ve markanın “Jinba Ittai” yani “at ile binicinin bir olması” felsefesini bir SUV’da en iyi yansıtan otomobil. Mazda, bu otomobilin direksiyonunun, frenlerinin ve gaz pedalının sürücünün hareketlerine doğal ve tutarlı bir şekilde tepki vermesi için yıllarca çalıştı.',
+      'Bu çalışmanın en ilginç sonuçlarından biri G-Vectoring Control. Siz direksiyonu çevirdiğinizde sistem, motor torkunu fark edilemeyecek kadar az azaltarak otomobilin ağırlığını hafifçe ön tekerleklere aktarıyor; bu da ön tekerleklerin yola daha iyi tutunmasını ve otomobilin virajlara daha akıcı girmesini sağlıyor. Virajdan çıkarken de hafif bir frenleme ile gövdeyi dengeliyor. Yolcular bunu fark etmiyor ama baş sallanması azaldığı için araç tutması da daha az yaşanıyor.',
+      'Kabin, sınıfının en premium hissettirenlerinden. Mazda, ekranı bilinçli olarak dokunmatik yapmamış; orta konsoldaki döner kumandayla kullanılıyor. Bu, sürüş sırasında dikkatinizi yoldan ayırmamanız için tasarlanmış. Takumi donanımında deri döşeme, havalandırmalı koltuklar ve Bose ses sistemi var.',
+      'Atmosferik motor ve klasik tam otomatik şanzıman, turbolu ve çift kavramalı rakiplerin aksine basit ve dayanıklı bir mekanik sunuyor. Bu, uzun vadede güvenilirliğin önemli sebeplerinden biri. Bedeli ise tüketim; turbo rakiplere göre daha fazla yakıyor ve sert hızlanmalarda motor daha sesli.',
+      'Multimedya sistemi yaşını hissettiriyor. Ama sürüş keyfini, kaliteli kabini ve uzun ömürlü mekaniği bir arada isteyenler için CX-5, C-SUV sınıfının en dengeli seçeneklerinden biri.',
+    ],
     summary: 'Sürüş keyfini ve kaliteyi önemseyen aileler için karakterli ve çok iyi işlenmiş bir SUV.',
   },
   {
@@ -3626,6 +3701,13 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 8.8, konfor: 8.4, tuketim: 7.0, malzeme: 7.8, tasarim: 7.4, fiyat: 7.4, teknoloji: 7.2, guvenilirlik: 9.2, ikinciel: 8.2 },
     pros: ['Geniş ve pratik kabin', 'Honda güvenilirliği', 'Dört çeker', 'Neredeyse 90 derece açılan arka kapılar'],
     cons: ['Tüketim yüksek', 'Multimedya eski'],
+    longReview: [
+      'CR-V, Honda’nın dünya genelinde en çok satan modellerinden biri ve bu neslin öne çıkan özelliği, bir aile otomobilinde gerçekten işe yarayan pratik detaylar. Bunların en sevileni arka kapılar: Neredeyse dik açıyla açılıyorlar. Çocuk koltuğu takarken, yaşlı bir yakınınızın binmesine yardım ederken ya da arka koltuğa büyük bir eşya yerleştirirken bu geniş açıklık, başka otomobillerde ne kadar zorlandığınızı fark ettiriyor.',
+      'Kabin geniş ve aydınlık. Arka koltukta diz mesafesi sınıfının en iyilerinden; zemin neredeyse düz olduğu için ortada oturan yolcu da rahat ediyor. Bagaj tabanı alçak, yükleme eşiği düşük; ağır bavulları kaldırmak kolay. Orta konsoldaki büyük, çok katmanlı saklama alanı da çantalar ve tabletler için çok kullanışlı.',
+      'Honda Sensing güvenlik paketi; adaptif hız sabitleyici, şerit takip, trafik işareti tanıma ve otomatik acil fren gibi sistemleri bir araya getiriyor. Gerçek zamanlı dört çeker sistemi de kaygan zeminlerde gücü arka tekerleklere aktararak güven veriyor.',
+      'Bu turbo benzinli motorla ilgili bilmeniz gereken teknik bir konu var: Özellikle soğuk iklimlerde ve kısa mesafeli kullanımlarda, motor tam ısınmadan yakıtın bir kısmı motor yağına karışabiliyor ve yağ seviyesi yükseliyormuş gibi görünebiliyor. Honda bu konuda yazılım güncellemeleri yayınladı. İkinci el alırken bu güncellemelerin yapılıp yapılmadığını ve yağ değişimlerinin düzenli yapılıp yapılmadığını kontrol ettirmek önemli.',
+      'CVT şanzıman sakin sürüşte akıcı; ama sert hızlanmalarda motoru yüksek devirde tutarak sesli bir karakter sergiliyor. Tüketimi de hibrit rakiplerine göre yüksek. Buna rağmen geniş kabini, pratik detayları ve Honda güvenilirliğiyle CR-V, aileler için ikinci elde hâlâ çok mantıklı bir seçim.',
+    ],
     summary: 'Geniş, dört çekerli ve uzun ömürlü; aileler için sağlam bir SUV.',
   },
   {
@@ -4787,6 +4869,13 @@ const RAW_CARS = [
     ratings: { surus: 7.0, guvenlik: 7.2, konfor: 7.4, tuketim: 8.2, malzeme: 6.8, tasarim: 8.4, fiyat: 7.6, teknoloji: 7.4, guvenilirlik: 6.8, ikinciel: 7.0 },
     pros: ['İtalyan esintili sevimli tasarım', 'Ekonomik hibrit motor', 'Kullanışlı kabin'],
     cons: ['Motor gücü sınırlı', 'Hibrit sistemin uzun vadeli güvenilirliği henüz kanıtlanmadı'],
+    longReview: [
+      'Fiat 600, adını 1955’te çıkan ve İtalya’nın savaş sonrası yeniden doğuşunun simgelerinden biri olan efsanevi Fiat 600’den alıyor. Polonya’nın Tychy şehrindeki fabrikada üretilen yeni 600, Stellantis grubunun Jeep Avenger ile paylaştığı küçük SUV altyapısını kullanıyor. Fiat 500’ün sevimli tasarım dilini daha büyük ve daha pratik bir gövdeye taşıyor.',
+      'Yuvarlak farlar, kaputun ucundaki gülümseyen ön yüz ve yumuşak hatlar, 600’ü yolda hemen tanınır kılıyor. Kabinde de bu retro hava devam ediyor: Torpidoda gövde rengine ya da fildişi tonlara boyanmış bir panel, yuvarlak dijital gösterge ve 500’den tanıdık detaylar. Kabin, bu sınıfta pek rastlanmayan bir sıcaklık ve neşe sunuyor.',
+      '600, 500’e göre çok daha pratik. Beş kapısı, arkada yetişkinlerin oturabileceği bir koltuğu ve sınıfı için yeterli bir bagajı var. Orta konsolda geniş saklama alanları ve kablosuz şarj da üst donanımlarda sunuluyor.',
+      'Hafif hibrit motor, şehir içinde düşük hızlarda kısa süreliğine yalnızca elektrikle ilerleyebiliyor; bu da dur-kalk trafikte tüketimi düşürüyor. Ama bu versiyondaki motor gücü sınırlı. Şehirde yeterli, otoyolda ve dolu araçla ise zorlanıyor. Yeni hibrit sistemin uzun vadeli güvenilirliği de henüz kanıtlanmış değil.',
+      '600’ü seçmenin asıl sebebi karakteri. Aynı altyapıyı paylaşan rakiplerine göre çok daha sevimli ve kişilikli bir otomobil. Şehirde yaşayan, otomobilinin tasarımını önemseyen ve 500’den daha fazla alan isteyen biri için cazip bir seçenek.',
+    ],
     summary: 'Fiat 500’ün karakterini daha büyük ve pratik bir küçük SUV gövdesine taşıyan, sevimli ve ekonomik bir seçenek.',
   },
   {
