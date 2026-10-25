@@ -1090,6 +1090,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      'GLA, premium SUV dünyasına Mercedes’ten girmenin en ulaşılabilir yollarından biri. Almanya’nın Rastatt şehrindeki fabrikada A Serisi ile aynı çatı altında üretilen otomobil, bu nesilde öncekine göre belirgin şekilde yükseldi ve gerçek bir SUV duruşuna kavuştu.',
+      'Kabinde Mercedes’in kompakt modellerinden tanıdık çift ekran var: Sürücünün önündeki dijital gösterge ve orta konsoldaki multimedya ekranı, tek bir cam yüzeyin altında yan yana duruyor. Havalandırma ızgaralarının türbin tasarımı ve ambiyans aydınlatması, kabine bu sınıfta pek rastlanmayan bir lüks hissi veriyor. “Hey Mercedes” sesli asistanıyla klimayı, navigasyonu ve müziği konuşarak yönetebiliyorsunuz.',
+      'GLA’nın pratik yanlarından biri, opsiyonel olarak ileri-geri kaydırılabilen arka koltuklar. Bagajı büyütmek istediğinizde koltukları öne kaydırabiliyor, arkada uzun boylu yolcular taşırken geri alarak diz mesafesini artırabiliyorsunuz. Arka koltuk sırtlıkları da farklı açılara ayarlanabiliyor.',
+      'Sürüşte GLA, yüksek oturma pozisyonuna rağmen bir hatchback gibi çevik. Hafif hibrit motor ve çift kavramalı şanzıman şehir içinde akıcı bir sürüş sunuyor; start-stop geçişleri de hafif hibrit sistem sayesinde neredeyse hiç hissedilmiyor.',
+      'GLA’nın zayıf yanları yaşı ve bagajı. Model artık yaşını hissettiriyor; bagaj da rakiplerine göre küçük. Ama Mercedes yıldızını ve kabin atmosferini kompakt bir SUV’da makul bir bütçeyle isteyenler için hâlâ çok cazip bir seçenek.',
+    ],
     summary: 'Mercedes kabin deneyimini kompakt boyutlarda ve X1’den bir milyon TL daha uygun fiyatla sunuyor.',
   },
   {
@@ -1602,6 +1610,15 @@ const RAW_CARS = [
       guvenilirlik: '7 ileri S tronic şanzımanın çift kütleli volanı 60.000–80.000 km civarında ses yapmaya başlayabiliyor; özellikle rölantide ve ilk kalkışta şıkırtı/tıkırtı duyulabiliyor. TDI motorlarda AdBlue enjektörü ve deposu sıklıkla tıkanıp arıza lambası yakabiliyor.',
       malzeme: 'Çerçevesiz dikiz aynasının arkasındaki plastik kapaklardan ve ön kapı içlerindeki LED ambiyans şeritlerinin yuvalarından ince tıkırtılar gelebiliyor.',
     },
+    longReview: [
+      'Çerçevesiz dikiz aynasının arkasındaki plastik kapaklardan ve ön kapı içlerindeki LED ambiyans şeritlerinin yuvalarından ince tıkırtılar gelebiliyor.',
+      '7 ileri S tronic şanzımanın çift kütleli volanı 60.000–80.000 km civarında ses yapmaya başlayabiliyor; özellikle rölantide ve ilk kalkışta şıkırtı/tıkırtı duyulabiliyor. TDI motorlarda AdBlue enjektörü ve deposu sıklıkla tıkanıp arıza lambası yakabiliyor.',
+      'A4, Audi’nin en uzun soluklu ve en çok satan modellerinden biri ve Almanya’nın Ingolstadt şehrinde, Audi’nin ana fabrikasında üretiliyor. Bu nesil, Audi’nin dijital gösterge paneli Virtual Cockpit’i orta sınıf sedanlara taşıyan ilk modellerden biriydi. Direksiyonun arkasındaki büyük ekranda navigasyon haritasını tam ekran görebilmek, o dönem için çok yenilikçiydi.',
+      'Bu otomobilin en güçlü yanı uzun yol konforu. Kabin otoyol hızlarında çok sessiz; rüzgar ve yol sesi neredeyse hissedilmiyor. Dizel motor hem güçlü hem de ekonomik; dolu bir araçla uzun yolda bile tüketim çok düşük kalıyor ve büyük deposuyla tek seferde çok uzağa gidebiliyorsunuz.',
+      'İşçilik Audi’nin bilinen kalitesinde: yüzeylerin birleşim yerleri kusursuz, düğmelerin hissi sağlam ve kaliteli. Arka koltuk sınıf ortalamasında; ortadaki yolcu için yüksek şaft tüneli bir dezavantaj.',
+      'İkinci el alırken yukarıda bahsettiğimiz AdBlue, enjektör ve S tronic volanı konularına ek olarak, dizel partikül filtresinin durumunu ve aracın daha çok şehir içinde mi yoksa uzun yolda mı kullanıldığını öğrenmek de önemli; kısa mesafelerde kullanılmış dizellerde filtre tıkanması daha sık görülüyor.',
+      'Kabin tasarımı bugünün yeni nesil Audi’leri karşısında yaşını belli etse de A4, uzun yol yapan ve sessiz, kaliteli, ekonomik bir premium sedan arayanlar için ikinci elde hâlâ çok mantıklı bir seçim.',
+    ],
     summary: 'Sessizliği ve düşük tüketimiyle uzun yolları kolayca tüketen, ikinci elde çok aranan bir yol otomobili.',
   },
   {
@@ -2428,6 +2445,13 @@ const RAW_CARS = [
     ratings: { surus: 9.1, guvenlik: 10.0, konfor: 10.0, tuketim: 7.6, malzeme: 10.0, tasarim: 9.3, fiyat: 7.0, teknoloji: 10.0, guvenilirlik: 7.2, ikinciel: 6.2 },
     pros: ['Uzun şasiyle geniş ve lüks arka koltuk', 'Çok sessiz kabin', 'Dokunmatik ekranlarla dolu ileri teknoloji', 'Ayak masajlı arka koltuk seçeneği', 'Yan çarpışma anında gövdeyi yükselten aktif süspansiyon'],
     cons: ['Yüksek bakım maliyeti', 'S Serisi kadar prestijli algılanmıyor'],
+    longReview: [
+      'A8, Audi’nin amiral gemisi ve Almanya’nın Neckarsulm şehrinde üretiliyor. Bu nesil, otomobil tarihinde ilginç bir dönüm noktasını temsil ediyor: Belirli koşullarda sürüşü tamamen otomobilin üstlendiği, sürücünün yoldan gözünü ayırabildiği üçüncü seviye otonom sürüş için tasarlanan ilk seri üretim otomobil oldu. Yasal düzenlemeler bu özelliğin kullanıma açılmasına izin vermese de A8’in teknoloji iddiasını çok iyi anlatıyor.',
+      'Uzun şasili A8 L’de arka koltuk bu otomobilin asıl yaşam alanı. Sağ arka koltuk neredeyse yatağa dönüşecek kadar yatırılabiliyor; ön yolcu koltuğunun arkasından açılan ayak dayamasında ayak tabanlarına masaj yapan bir sistem bile bulunuyor. Arka yolcular, orta kol dayamasındaki çıkarılabilir küçük bir tabletle koltukları, klimayı, perdeleri, aydınlatmayı ve eğlence sistemini yönetebiliyor.',
+      'Opsiyonel aktif süspansiyon, ön kameradaki görüntüleri kullanarak yoldaki tümsekleri ve çukurları önceden algılıyor ve her tekerleği ayrı ayrı yükseltip alçaltarak gövdeyi neredeyse hiç sarsmadan geçiyor. Yandan bir çarpışmanın kaçınılmaz olduğunu algıladığında da gövdeyi yükselterek darbenin gövdenin daha sağlam alt kısmına gelmesini sağlıyor.',
+      'Ön kabinde alt alta iki dokunmatik ekran var; ekranlara dokunduğunuzda titreşimli bir geri bildirim alıyorsunuz. Bang & Olufsen’in üç boyutlu ses sistemi, kabini bir konser salonuna dönüştürüyor. Hafif hibrit V6 dizel motor bu büyük gövdeyi sessizce ve zahmetsizce taşıyor.',
+      'A8’in zayıf yanları, bu kadar karmaşık teknolojinin getirdiği yüksek bakım maliyeti ve S Serisi kadar prestijli algılanmaması. Ama bu algı ikinci el piyasasında bir fırsata dönüşüyor: Benzer teknoloji ve konforu, rakiplerine göre çok daha uygun bir fiyata sunabiliyor.',
+    ],
     summary: 'Teknolojisi ve sessizliğiyle öne çıkan bir makam sedanı; ikinci elde değer/fiyat dengesi güçlü.',
   },
   {
@@ -2442,6 +2466,15 @@ const RAW_CARS = [
       surus: 'Sınıfının en keskin ve direkt direksiyon tepkilerine sahip; adeta go-kart hissi veriyor. Yalnız tam turlu park manevralarında ön tekerleklerin hafifçe kayarak “atlama” yapması kendine has direksiyon geometrisinden kaynaklanıyor; arıza değil ama ilk seferde kullanıcıyı korkutabiliyor.',
       guvenilirlik: 'Akü voltajı biraz düştüğünde bile (örneğin araç birkaç gün yatarsa) ekranda start-stop devre dışı veya DNA modu arızası gibi asılsız elektronik uyarılar çıkabiliyor.',
     },
+    longReview: [
+      'Sınıfının en keskin ve direkt direksiyon tepkilerine sahip; adeta go-kart hissi veriyor. Yalnız tam turlu park manevralarında ön tekerleklerin hafifçe kayarak “atlama” yapması kendine has direksiyon geometrisinden kaynaklanıyor; arıza değil ama ilk seferde kullanıcıyı korkutabiliyor.',
+      'Akü voltajı biraz düştüğünde bile (örneğin araç birkaç gün yatarsa) ekranda start-stop devre dışı veya DNA modu arızası gibi asılsız elektronik uyarılar çıkabiliyor.',
+      'Giulia, İtalya’nın Cassino şehrindeki fabrikada üretiliyor ve Alfa Romeo’nun arkadan itişli sedan geleneğine dönüşünü temsil ediyor. Mühendisler bu otomobilde ön ve arka aks arasında neredeyse eşit bir ağırlık dağılımı yakalamış; bu, Giulia’nın virajlarda bu kadar dengeli ve keyifli olmasının en büyük sırrı.',
+      'Giulia, fren pedalıyla frenler arasındaki bağlantıyı elektronik olarak kuran entegre fren sistemini kullanan ilk seri üretim otomobillerden biri. Bu sistem fren tepkisini çok hızlı ve hassas yapıyor; ama klasik fren hissine alışkın sürücüler için pedal biraz farklı ve yapay gelebiliyor.',
+      'Direksiyon kolonuna sabitlenmiş büyük alüminyum vites kulakçıkları, direksiyon döndüğünde sizinle birlikte dönmüyor; bu da virajın ortasında vites değiştirirken kulakçığı her zaman aynı yerde bulmanızı sağlıyor. Orta konsoldaki “DNA” sürüş modu seçicisi de otomobilin karakterini tek bir hareketle değiştiriyor.',
+      'Güçlü turbo motor ve Q4 dört çeker sistemi, Giulia’yı her havada hem hızlı hem de güvenli kılıyor. Q4 sistemi normal sürüşte gücü ağırlıklı olarak arka tekerleklere veriyor ve arkadan itişli karakteri koruyor; kaygan zeminde ise ön tekerleklere de güç aktarıyor.',
+      'Giulia’nın zayıf yanları teknoloji ve ikinci el değeri. Multimedya sistemi Alman rakiplerinin gerisinde kalıyor; değer kaybı da daha hızlı. Ama sürüş keyfini her şeyin önüne koyan biri için, bu fiyat aralığında Giulia’nın direksiyon hissine yaklaşan çok az sedan var.',
+    ],
     summary: 'Kalpten alınan bir sedan: teknoloji eksiklerini sürüş karakteri ve tasarımıyla fazlasıyla telafi ediyor.',
   },
   {
@@ -2790,6 +2823,13 @@ const RAW_CARS = [
     ratings: { surus: 7.0, guvenlik: 8.6, konfor: 6.6, tuketim: 6.2, malzeme: 7.4, tasarim: 8.0, fiyat: 6.8, teknoloji: 8.0, guvenilirlik: 7.6, ikinciel: 8.2 },
     pros: ['Sınıfının en konforlu ve teknolojik pick-up’larından', 'Güçlü motor', 'İri ve etkileyici duruş', '800 mm su geçiş derinliği'],
     cons: ['Ford Ranger ile büyük ölçüde aynı araç', 'Yüksek fiyat'],
+    longReview: [
+      'Yeni Amarok’un ilginç bir hikâyesi var: Volkswagen ve Ford’un iş birliği kapsamında, Ford Ranger ile aynı altyapı üzerine kuruldu ve Ranger ile birlikte Güney Afrika’daki Ford fabrikasında üretiliyor. Yani mekanik olarak Ranger’ın kardeşi; ama Volkswagen kendi tasarımını ve donanım anlayışını bu otomobile taşımış.',
+      'Dışarıdan Amarok, Volkswagen’in ağır vasıta ve arazi modellerinden ilham alan iri ve kaslı bir duruşa sahip. Ön taraftaki büyük ızgara ve farları birleştiren ışık çizgisi, onu Ranger’dan hemen ayırıyor. Kabinde Volkswagen’in dijital göstergesi ve dikey büyük multimedya ekranı var; üst donanımlarda Harman Kardon ses sistemi de sunuluyor.',
+      'Amarok, pick-up sınıfında konfor ve teknoloji açısından en iddialı otomobillerden biri. 10 ileri otomatik şanzıman ve 4MOTION dört çeker sistemi, hem asfaltta hem arazide gücü verimli şekilde aktarıyor. Derin sulardan geçebilmesi ve arazi modlarıyla, iş kadar macera için de yetenekli.',
+      'Ranger’ın kullanıcıların çok sevdiği pratik detayları da burada var: kasaya çıkmayı kolaylaştıran tampon basamakları ve kasa kapağında çalışma tezgâhı işlevi gören detaylar. Kabin, bir pick-up’tan çok bir SUV’a oturuyormuş hissi veriyor.',
+      'Amarok’un en büyük dezavantajı fiyat. Ranger ile büyük ölçüde aynı otomobil olmasına rağmen daha yüksek bir fiyata sunuluyor. Tercih, Volkswagen marka algısına ve tasarıma bu farkı ödemeye değer bulup bulmadığınıza bağlı.',
+    ],
     summary: 'Ranger altyapısına dayanan yeni Amarok, pick-up’a SUV konforu ve teknolojisi getiriyor.',
   },
   {
@@ -2949,6 +2989,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
     },
+    longReview: [
+      'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
+      'T-Roc, Portekiz’deki Volkswagen fabrikasında üretiliyor ve kısa sürede Avrupa’nın en çok satan küçük SUV’larından biri hâline geldi. Bu sınıfta pek rastlanmayan bir versiyonu da var: Almanya’da üretilen, tavanı açılabilen T-Roc Cabriolet. Bir SUV’un açılır tavanlı versiyonunun olması, T-Roc’un ne kadar farklı bir kitleye hitap ettiğini gösteriyor.',
+      'Makyajla birlikte kabin belirgin şekilde iyileşti. Önceki versiyonun en çok eleştirilen sert plastik yüzeyleri kısmen yumuşak dokulu kaplamalarla değiştirildi; torpidonun üstüne serbest duran büyük bir multimedya ekranı geldi. Dijital gösterge ve IQ.LIGHT LED Matrix farlar da üst donanımlarda sunuluyor.',
+      'R-Line donanımı T-Roc’a sportif bir karakter kazandırıyor: daha agresif tamponlar, büyük jantlar, sportif koltuklar ve direksiyon. Sürüşte de T-Roc sınıfının en keyifli otomobillerinden biri. Direksiyon hızlı, gövde virajlarda dengeli; güçlü turbo motor ve DSG şanzıman canlı bir performans sunuyor.',
+      'Arka koltuk ise sınırlı; uzun boylu yetişkinler için diz ve baş mesafesi kısıtlı. Bagaj bu boyuttaki bir SUV için yeterli. Fiyatına göre kabinde hâlâ sert plastikler var.',
+      'T-Roc’u almadan önce yukarıda bahsettiğimiz DQ200 şanzıman ve vites kolu risklerini göz önünde bulundurmak gerekiyor. Garantisi devam eden bir örnek ya da uzatılmış garanti mantıklı. Buna rağmen sürüş keyfi, şık tasarımı ve güçlü ikinci el talebiyle T-Roc, küçük SUV sınıfının en dengeli seçeneklerinden biri.',
+    ],
     summary: 'Golf’ün sürüş karakterini daha yüksek ve daha sportif bir gövdeyle sunan, dengeli bir C-SUV.',
   },
   {
@@ -3043,6 +3091,13 @@ const RAW_CARS = [
     ratings: { surus: 7.5, guvenlik: 9.0, konfor: 7.0, tuketim: 9.8, malzeme: 6.8, tasarim: 7.7, fiyat: 7.5, teknoloji: 7.3, guvenilirlik: 9.4, ikinciel: 9.0 },
     pros: ['Şehirde olağanüstü düşük tüketim', 'Toyota güvenilirliği', 'Yüksek ikinci el talebi'],
     cons: ['Küçük bagaj ve dar arka koltuk', 'Kabin malzemeleri sade'],
+    longReview: [
+      'Dördüncü nesil Yaris, 2021’de Avrupa’da Yılın Otomobili seçildi. Fransa’nın Valenciennes şehrindeki Toyota fabrikasında üretilen otomobil, Toyota’nın yeni küçük otomobil altyapısını kullanan ilk modeldi. Önceki nesle göre daha alçak, daha geniş ve çok daha sportif bir duruşa kavuştu.',
+      'Yaris Hybrid’in kalbinde Toyota’nın dördüncü nesil hibrit sistemi var. Bu sistem, şehir içinde zamanın büyük bölümünde otomobili yalnızca elektrikle hareket ettiriyor. Dur-kalk trafikte, trafik ışıklarında ve düşük hızlarda motor çoğu zaman tamamen susuyor. Bu yüzden şehir içi tüketimi, hibrit olmayan hiçbir rakibinin yaklaşamayacağı kadar düşük.',
+      'Hafif gövde ve alçak ağırlık merkezi, Yaris’e şehir içinde çevik ve keyifli bir sürüş kazandırıyor. Dar sokaklarda ve park ederken küçük boyutları büyük avantaj. Toyota Safety Sense paketi standart olarak geliyor; bu küçük otomobili sınıfının en güvenli otomobillerinden biri yapıyor.',
+      'Bu kompakt boyutların bedeli iç hacimde ödeniyor. Bagaj küçük, arka koltuk da uzun boylu yetişkinler için dar. Kabin malzemeleri sade ve sert plastikler ağırlıkta.',
+      'Yaris Hybrid’in ikinci el piyasasındaki en büyük kozu, Toyota’nın hibrit sistemlerinin kanıtlanmış dayanıklılığı. Batarya ve hibrit şanzımanda ciddi bir sorun neredeyse hiç görülmüyor. Şehirde yaşayan ve çok düşük tüketimli, sorunsuz bir küçük otomobil isteyenler için en mantıklı seçimlerden biri.',
+    ],
     summary: 'Şehir içinde neredeyse elektrikli kadar ekonomik, uzun yıllar dert çıkarmayan bir şehir otomobili.',
   },
   {
@@ -3083,6 +3138,13 @@ const RAW_CARS = [
     ratings: { surus: 8.2, guvenlik: 8.0, konfor: 7.4, tuketim: 8.0, malzeme: 7.0, tasarim: 7.8, fiyat: 7.4, teknoloji: 7.4, guvenilirlik: 7.6, ikinciel: 7.6 },
     pros: ['Canlı motor ve hızlı DSG', 'Sportif FR donanımı', 'Keyifli yol tutuş'],
     cons: ['Sert süspansiyon', 'DSG bakım geçmişi önemli'],
+    longReview: [
+      'Beşinci nesil Ibiza, Volkswagen grubunun küçük otomobiller için geliştirdiği altyapıyı kullanan ilk otomobil oldu. Yani daha sonra Polo, Arona, T-Cross ve Kamiq’in de kullanacağı platform ilk kez Ibiza’da yollara çıktı. İspanya’nın Martorell şehrinde üretilen otomobil, adını İspanya’nın ünlü Balear adasından alıyor.',
+      'Bu altyapıya geçiş, Ibiza’yı önceki nesle göre belirgin şekilde büyüttü. Kabin daha geniş, bagaj sınıfının en büyüklerinden; arka koltuk da şehir kullanımı ve kısa yolculuklar için yeterli. Gövde de daha rijit ve daha güvenli hâle geldi.',
+      'FR donanımı Ibiza’nın sportif karakterini öne çıkarıyor: daha agresif tamponlar, büyük jantlar, sportif koltuklar ve kırmızı detaylar. Sürüş profili seçimiyle direksiyon ağırlığını ve motor tepkisini kendi tercihinize göre ayarlayabiliyorsunuz.',
+      'Sürüşte Ibiza sınıfının en keyifli otomobillerinden biri. Küçük turbo motor şehir içinde canlı, DSG şanzıman da hızlı ve akıcı vites geçişleri sunuyor. Direksiyon hızlı, gövde virajlarda dengeli; genç ve sportif bir sürücü için çok eğlenceli bir şehir otomobili.',
+      'Ibiza’nın zayıf yanları sert süspansiyon ve DSG şanzımanın bakım geçmişi. FR donanımın süspansiyonu bozuk yollarda kabine sarsıntı taşıyabiliyor; DSG’nin yağ değişimlerinin zamanında yapılıp yapılmadığını ikinci el alırken mutlaka kontrol ettirmek gerekiyor.',
+    ],
     summary: 'Polo altyapısını genç bir karakterle sunan, sürmesi keyifli bir şehir otomobili.',
   },
   {
@@ -3135,6 +3197,15 @@ const RAW_CARS = [
       teknoloji: 'Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.',
       tasarim: 'Gece sürüşlerinde klima ve ses kontrolünü sağlayan dokunmatik panellerin (slider) aydınlatması olmadığı için kullanmak zorlaşıyor.',
     },
+    longReview: [
+      'Gece sürüşlerinde klima ve ses kontrolünü sağlayan dokunmatik panellerin (slider) aydınlatması olmadığı için kullanmak zorlaşıyor.',
+      'Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.',
+      'Golf GTI’ın hikâyesi 1976’da başladı ve “hot hatch” kavramının doğuşu sayılıyor. Almanya’nın Wolfsburg şehrinde üretilen sekizinci nesil GTI, bu kırk yılı aşan mirası taşıyor. Koltuklardaki ekose desen, ilk GTI’dan beri hiç değişmeden süren bir gelenek; ön ızgaradaki kırmızı şerit ve GTI logosu da öyle.',
+      'Bu nesilde GTI’ın sürüş karakterini yöneten yeni bir sistem var: Araç dinamiği yöneticisi. Bu sistem, virajda içteki tekerleği frenleyen elektronik diferansiyel kilidi ile adaptif süspansiyonu birlikte yönetiyor ve otomobilin virajda çok daha keskin ve dengeli dönmesini sağlıyor. Opsiyonel adaptif süspansiyonla da tek tuşla konfordan sportif ayara geçebiliyorsunuz.',
+      'GTI’ın en güçlü yanı, sportifliği gündelik hayattan hiç ödün vermeden sunması. Dört kapısı, kullanışlı bagajı ve olgun sürüşüyle her gün işe gidip gelebileceğiniz bir aile otomobili; hafta sonu virajlı bir yolda ise gerçek bir sürücü otomobili.',
+      'Teknoloji tarafındaki zayıflıkları ise yukarıda bahsettiğimiz gibi sekizinci nesil Golf’ün genel sorunları: multimedya yazılımı çökmeleri, Seyahat Asistanı hataları ve gece aydınlatması olmayan dokunmatik kaydırma panelleri. Bunlar sürüş keyfini etkilemiyor ama günlük kullanımda can sıkabiliyor.',
+      'Yüksek motor hacmi nedeniyle Türkiye’de ÖTV’si yüksek ve fiyatı da öyle. Ama GTI, ikinci elde değerini çok iyi koruyor ve günlük kullanılabilir bir hot hatch arayanlar için hâlâ en dengeli seçeneklerden biri.',
+    ],
     summary: 'Hot hatch kavramının referansı; her gün kullanılabilen, istendiğinde çok hızlı bir kompakt.',
   },
   {
@@ -3165,6 +3236,13 @@ const RAW_CARS = [
     ratings: { surus: 8.4, guvenlik: 8.8, konfor: 7.6, tuketim: 8.0, malzeme: 8.4, tasarim: 8.2, fiyat: 7.2, teknoloji: 8.6, guvenilirlik: 7.8, ikinciel: 8.2 },
     pros: ['Keskin direksiyon', 'Kaliteli kabin', 'Pratik iç hacim'],
     cons: ['Önden çekişe geçince klasik BMW hissi azaldı', 'Üç silindirli motor sesi'],
+    longReview: [
+      'Üçüncü nesil 1 Serisi, BMW için önemli bir dönüm noktası oldu: Sınıfının arkadan itişli son kompakt hatchback’i olan önceki nesil bırakıldı ve 1 Serisi önden çekişli bir altyapıya geçti. Almanya’nın Leipzig ve Regensburg fabrikalarında üretilen otomobil, bu değişiklikle birlikte çok daha geniş bir kabine kavuştu.',
+      'Önden çekişe geçişin bir avantajı iç hacim. Motor ve şanzıman artık enine yerleştirildiği için kabin belirgin şekilde büyüdü; arka koltukta diz mesafesi ve bagaj önceki nesle göre çok daha iyi. Arkada ortadaki yolcu için şaft tüneli de küçüldü.',
+      'BMW, önden çekişli otomobillerde sık görülen direksiyonun çekmesi hissini azaltmak için ilginç bir teknoloji kullanıyor. Tekerlek kaymasını motor kontrolüne entegre eden bu sistem, kaymayı çok daha hızlı algılayıp müdahale ediyor; bu da 1 Serisi’ne önden çekişli olmasına rağmen keskin ve dengeli bir sürüş kazandırıyor.',
+      'Kabinde BMW’nin dijital göstergesi ve multimedya ekranı var; klasik iDrive döner kumandası ise bu nesilde hâlâ korunuyor. “Hey BMW” sesli asistanı ve kaliteli malzemeler kabine premium bir hava katıyor. M Sport donanımı da sportif tamponlar, koltuklar ve süspansiyonla otomobilin karakterini öne çıkarıyor.',
+      'Üç silindirli motor şehir içinde canlı ve ekonomik, ama çalışırken karakteristik bir ses ve hafif titreşim yapıyor. Klasik arkadan itişli BMW hissini arayanlar bu nesilde biraz hayal kırıklığına uğrayabilir; ama premium bir kompakt hatchback’te geniş kabin ve keskin direksiyon isteyenler için çok mantıklı.',
+    ],
     summary: 'Premium kompakt sınıfta sürüş ve kaliteyi dengeli sunan, ikinci elde de iyi değer tutan bir hatchback.',
   },
   {
@@ -3205,6 +3283,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 8.0, konfor: 7.8, tuketim: 8.8, malzeme: 7.8, tasarim: 8.2, fiyat: 7.4, teknoloji: 7.8, guvenilirlik: 7.6, ikinciel: 7.4 },
     pros: ['Çok düşük tüketim', 'Geniş bagaj', 'Kaliteli kabin'],
     cons: ['i-Cockpit herkese uymuyor', 'Arka koltuk dar'],
+    longReview: [
+      'İkinci nesil 308, 2014’te Avrupa’da Yılın Otomobili seçildi ve Peugeot’nun kalite algısını değiştiren model oldu. Fransa’daki Sochaux ve Mulhouse fabrikalarında üretilen otomobil, Peugeot’nun bugün bütün modellerinde kullandığı i-Cockpit düzenini olgunlaştıran ilk modellerden biriydi.',
+      'i-Cockpit’in mantığı basit: küçük çaplı bir direksiyon ve direksiyonun üzerinden bakılan yüksek bir gösterge paneli. Küçük direksiyon otomobili çok çevik ve oyuncak gibi hissettiriyor; yüksek gösterge de gözünüzü yoldan daha az ayırmanızı sağlıyor. Ama bazı sürücüler, oturuş pozisyonlarına göre direksiyonun göstergeyi kapattığını söylüyor; almadan önce mutlaka denemek gerekiyor.',
+      'Bu otomobilin en güçlü yanı dizel motor ve 8 ileri tam otomatik şanzıman kombinasyonu. Uzun yolda motoru düşük devirde tutarak çok düşük bir tüketim sağlıyor; şanzıman da yumuşak ve akıcı vites geçişleri sunuyor. Bagaj sınıfının en büyüklerinden.',
+      'Kabin kalitesi döneminin Peugeot’ları için büyük bir sıçramaydı; yumuşak yüzeyler ve kaliteli detaylar kabine premium bir hava katıyor. Fiziksel düğmelerin büyük kısmı dokunmatik ekrana taşındığı için klima ayarları sürüş sırasında biraz zahmetli.',
+      'Arka koltuk sınıfın ortalamasının altında; uzun boylu yetişkinler için diz mesafesi sınırlı. Ama düşük tüketimi, büyük bagajı ve kaliteli kabiniyle uzun yol yapan ve otomatik dizel arayanlar için ikinci elde çok mantıklı bir seçim.',
+    ],
     summary: 'Önceki nesil 308; ekonomik dizeli ve kaliteli kabiniyle ikinci elde mantıklı bir kompakt.',
   },
   {
@@ -3276,6 +3361,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      'Bu nesil C Serisi, uzun yıllar Mercedes’in en çok satan modeli oldu. Almanya’nın Bremen şehrinin yanı sıra Güney Afrika’daki fabrikada da üretilen otomobil, S Serisi’nden ilham alan zarif tasarımıyla “küçük S Serisi” olarak anıldı.',
+      'Makyajla birlikte gelen en önemli teknik yenilik, EQ Boost adı verilen hafif hibrit sistem. Bu sistem, motorla şanzıman arasına yerleştirilen bir elektrik motor-jeneratörüyle kalkışlarda ek güç sağlıyor, start-stop geçişlerini neredeyse hissedilmez hâle getiriyor ve otoyolda gazdan ayak çektiğinizde motoru kapatarak süzülmeye izin veriyor.',
+      'Kabin zarif ve kaliteli. Ahşap ya da alüminyum kaplamalar, yuvarlak türbin havalandırmalar ve ambiyans aydınlatması kabine sınıfının üzerinde bir lüks hissi veriyor. Makyajla birlikte gelen dijital gösterge ve büyük multimedya ekranı da kabini güncelliyor. Opsiyonel havalı süspansiyon ve Burmester ses sistemi de konforu bir üst seviyeye taşıyor.',
+      'Sürüşte C Serisi sakin ve konforlu. 9 ileri otomatik şanzıman yumuşak ve akıcı; kabin otoyol hızlarında sessiz. Sportif bir sürüş beklemeyen ama uzun yolda konforu her şeyin önüne koyan biri için çok uygun.',
+      'Arka koltuk sınırlı; uzun boylu yetişkinler için diz mesafesi kısıtlı. Opsiyonlar pahalı. Ama güçlü ikinci el talebi ve zarif tasarımıyla C Serisi, ikinci elde premium sedan arayanlar için hâlâ en güvenli seçeneklerden biri.',
+    ],
     summary: 'W205 kasanın makyajlı hâli; konforu ve prestijiyle ikinci elde çok aranan bir premium sedan.',
   },
   {
