@@ -152,6 +152,13 @@ const RAW_CARS = [
     ratings: { surus: 8.2, guvenlik: 8.0, konfor: 7.6, tuketim: 8.2, malzeme: 7.3, tasarim: 7.8, fiyat: 8.2, teknoloji: 7.7, guvenilirlik: 7.8, ikinciel: 7.8 },
     pros: ['Sınıfının en canlı sürüşlerinden', 'Güçlü motor ve hızlı DSG', 'Polo altyapısı daha uygun fiyata'],
     cons: ['Süspansiyon kötü yolda sert', 'Kabinde sert plastikler'],
+    longReview: [
+      'Ibiza’nın hikâyesi 1984’te başladı ve Seat’in tarihindeki en önemli modellerden biri oldu. İlk Ibiza’nın tasarımı ünlü İtalyan tasarımcı Giorgetto Giugiaro’ya aitti; motorunun geliştirilmesinde de Porsche’nin katkısı vardı ve motor kapağında “System Porsche” yazıyordu. Bugünkü Ibiza, bu kırk yılı aşan mirasın beşinci neslinin en güncel hâli.',
+      'Style Plus donanımı, Ibiza’yı bu sınıfta zengin donanımlı bir şehir otomobili yapıyor: dijital gösterge, büyük multimedya ekranı, kablosuz Apple CarPlay ve Android Auto, adaptif hız sabitleyici ve şerit takip gibi sürüş destek sistemleri. Bagaj sınıfının en büyüklerinden; arka koltuk da şehir kullanımı için yeterince geniş.',
+      'Sürüşte Ibiza, sınıfının en canlı otomobillerinden biri. Polo ile aynı altyapıyı kullanıyor, ama daha sportif bir ayara ve genellikle daha uygun bir fiyata sahip. Turbo motor şehir içinde canlı, DSG şanzıman da hızlı ve akıcı vites geçişleri sunuyor.',
+      'Ibiza’nın zayıf yanları süspansiyon ve kabin malzemeleri. Süspansiyon bozuk yollarda sert; kabinde de sert plastikler yoğun. DSG şanzımanın bakım geçmişine de ikinci el alırken dikkat etmek gerekiyor.',
+      'Ama Polo’nun mekanik güvencesini daha canlı bir karakter ve daha uygun bir fiyatla isteyen, özellikle genç sürücüler için Ibiza çok mantıklı bir seçim.',
+    ],
     summary: 'Volkswagen altyapısını genç bir karakter ve iyi bir fiyatla sunan, sürmesi keyifli bir şehir otomobili.',
   },
   {
@@ -179,6 +186,13 @@ const RAW_CARS = [
     ratings: { surus: 7.7, guvenlik: 8.0, konfor: 7.9, tuketim: 8.3, malzeme: 7.4, tasarim: 7.2, fiyat: 8.0, teknoloji: 7.4, guvenilirlik: 8.0, ikinciel: 8.0 },
     pros: ['Sınıfının en geniş kabinlerinden', '380 litrelik bagaj', 'Pratik akıllı çözümler', 'Akıllı detaylar (buz kazıyıcı)'],
     cons: ['Tasarımı sönük', 'Multimedya sade'],
+    longReview: [
+      'Fabia, 1999’dan beri Škoda’nın en önemli modellerinden biri ve dünya genelinde milyonlarca satıldı. Bu başarının arkasında sadece mantıklı bir şehir otomobili olması değil, yarış pistlerindeki başarısı da var: Fabia’nın ralli versiyonları, dünya ralli şampiyonalarının alt sınıflarında yıllardır en başarılı otomobillerden biri.',
+      'Premium donanımda Fabia, bu sınıfta pek rastlanmayan donanımlar sunuyor: dijital gösterge, büyük multimedya ekranı, iki bölgeli klima ve ısıtmalı direksiyon. Kabin, bir üst sınıfı aratmayacak kadar geniş; arka koltukta yetişkinler rahatça oturabiliyor ve bagaj sınıfının en büyüklerinden.',
+      'Škoda’nın akıllı detayları Fabia’da da var: yakıt kapağının arkasındaki buz kazıyıcı, ön koltuk sırtlarındaki telefon cepleri, orta konsoldaki çıkarılabilir bardaklık ve bagajdaki ağlar. Bu küçük detaylar, günlük hayatı gerçekten kolaylaştırıyor.',
+      'Turbo benzinli motor ve DSG şanzıman, şehir içinde canlı ve ekonomik bir sürüş sunuyor. Olgun süspansiyon da bozuk yollarda sınıfının üzerinde bir konfor sağlıyor.',
+      'Fabia’nın zayıf yanları tasarım ve multimedya. Tasarımı sade ve dikkat çekmiyor; multimedya sistemi de rakiplerine göre daha basit. Ama genişliği, pratikliği ve olgun sürüşüyle aileler için ilk otomobil ya da ikinci otomobil olarak çok mantıklı bir seçim.',
+    ],
     summary: 'Volkswagen mekaniğini daha fazla alanla sunan, akılla seçilecek bir şehir otomobili.',
   },
   {
@@ -189,6 +203,13 @@ const RAW_CARS = [
     ratings: { surus: 6.6, guvenlik: 5.7, konfor: 6.9, tuketim: 8.2, malzeme: 5.7, tasarim: 6.7, fiyat: 9.4, teknoloji: 6.3, guvenilirlik: 8.2, ikinciel: 8.4 },
     pros: ['Piyasanın en uygun fiyatlı sıfır otomobillerinden', 'Geniş kabin', 'Basit ve ucuz bakım', 'Telefon tutuculu pratik medya sistemi', 'Fabrika çıkışlı LPG seçeneği'],
     cons: ['Euro NCAP’te düşük yıldız', 'Ucuz kabin malzemeleri'],
+    longReview: [
+      'Sandero, son yıllarda Avrupa’da bireysel alıcıların en çok tercih ettiği otomobiller arasında zirveye yerleşti. Bu başarı tesadüf değil: Dacia, Sandero’yu Avrupa’nın en uygun fiyatlı sıfır otomobillerinden biri olarak konumlandırırken ona modern bir tasarım ve yeterli bir donanım kazandırmayı başardı. Otomobil Romanya’daki Dacia fabrikasında üretiliyor.',
+      'Sandero’nun bu düşük fiyatı korumak için kullandığı akıllı çözümlerden biri, telefon tutuculu medya sistemi. Pahalı bir multimedya ekranı yerine torpidoya yerleştirilen bir telefon tutucusu ve Dacia’nın uygulamasıyla telefonunuz otomobilin ekranı gibi çalışıyor; navigasyon, müzik ve aramaları telefondan yönetiyorsunuz.',
+      'Fabrika çıkışlı LPG seçeneği, Sandero’yu Türkiye’de daha da cazip kılıyor. LPG ile yakıt maliyeti ciddi şekilde düşüyor; garanti kapsamında fabrika çıkışlı olduğu için de sonradan takılan LPG sistemlerinin getirdiği garanti endişesi yok.',
+      'Kabin, bu fiyat seviyesi için şaşırtıcı derecede geniş; arka koltukta yetişkinler rahatça oturabiliyor ve bagaj büyük. Basit mekanik de bakımı ucuz ve kolay kılıyor.',
+      'Sandero’nun zayıf yanları güvenlik ve kabin malzemeleri. Bağımsız çarpışma testlerinde düşük puan aldı; kabin de tamamen maliyet odaklı. Ama sıfır bir otomobili en uygun bütçeyle almak isteyenler için Sandero, piyasanın en mantıklı seçeneklerinden biri.',
+    ],
     summary: 'Az parayla çok otomobil. Beklentisi temel ihtiyaçlar olanlar için fiyatına göre rakipsiz.',
   },
   {
@@ -300,6 +321,13 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 8.4, konfor: 8.0, tuketim: 8.4, malzeme: 7.5, tasarim: 7.3, fiyat: 8.7, teknoloji: 7.6, guvenilirlik: 8.0, ikinciel: 7.8 },
     pros: ['467 litre ile dev bagaj', 'Geniş arka koltuk', 'Sınıfının en uygun fiyatlılarından', 'Akıllı detaylar (buz kazıyıcı)'],
     cons: ['Sürüş karakteri sıradan', 'Tasarımı dikkat çekmiyor'],
+    longReview: [
+      'Scala’nın adı Latince’den geliyor ve “merdiven” ya da “ölçek” anlamına geliyor; Škoda bu adla, otomobilin markayı kompakt sınıfta yeni bir seviyeye taşıdığını anlatmak istiyor. Scala, bagaj kapağında logo yerine büyük harflerle ŠKODA yazısını taşıyan ilk Škoda modeli oldu; bugün bütün yeni Škoda’larda gördüğünüz bu detay ilk kez Scala’da ortaya çıktı.',
+      'Çek Cumhuriyeti’ndeki Mladá Boleslav fabrikasında üretilen Scala, Volkswagen grubunun küçük otomobil altyapısını kullanıyor; ama bu altyapıyı uzatarak bir kompakt hatchback boyutuna taşıyor. Bu sayede Scala’nın bagajı, bir üst sınıfın bagajlarını aratmayacak kadar büyük. Arka koltuk da sınıfının en genişlerinden.',
+      'Scala’nın ilginç bir opsiyonel detayı, arka camın bagaj kapağının altına doğru uzatıldığı genişletilmiş cam bagaj kapağı. Bu, otomobile daha sportif bir görünüm kazandırırken arka görüşü de artırıyor. Škoda’nın klasik akıllı detayları da yerinde: yakıt kapağının arkasındaki buz kazıyıcı ve bagajdaki ağlar.',
+      'Turbo benzinli motor ve DSG şanzıman, ekonomik ve yeterli bir performans sunuyor. Sürüş karakteri sakin ve olgun; sportif bir iddia taşımıyor ama konforlu.',
+      'Scala’nın zayıf yanı tasarımı; sade ve dikkat çekmiyor. Ama dev bagajı, geniş arka koltuğu ve sınıfının en uygun fiyatlı seçeneklerinden biri olmasıyla, pratikliği her şeyin önüne koyan aileler için çok mantıklı bir seçim.',
+    ],
     summary: 'Kompakt fiyatına neredeyse aile otomobili alanı sunan, sessiz ama çok mantıklı bir seçenek.',
   },
   {
@@ -399,6 +427,14 @@ const RAW_CARS = [
     reviewExtra: {
       guvenilirlik: '1.4 Fire atmosferik benzinli versiyonlarda, yüksek devirli ya da uzun süreli otoyol kullanımında üretici sınırları içinde kabul edilen ama kullanıcıyı şaşırtan belirgin bir yağ eksiltme huyu var. Tüm versiyonlarda ön amortisör takozları çabuk yıpranabiliyor; direksiyonu çevirirken ya da kasislerden geçerken “lokurtu” sesi yapabiliyor.',
     },
+    longReview: [
+      '1.4 Fire atmosferik benzinli versiyonlarda, yüksek devirli ya da uzun süreli otoyol kullanımında üretici sınırları içinde kabul edilen ama kullanıcıyı şaşırtan belirgin bir yağ eksiltme huyu var. Tüm versiyonlarda ön amortisör takozları çabuk yıpranabiliyor; direksiyonu çevirirken ya da kasislerden geçerken “lokurtu” sesi yapabiliyor. İkinci elde Egea satmak, sabah simit almak kadar kolay. Her bütçeden alıcısı var ve değerini şaşırtıcı derecede iyi koruyor. Egea’nın sırrı aslında çok basit: bu paraya bu kadar bagaj, bu kadar ekonomik bir dizel ve her köşede bulunan bir servis ağını başka hiçbir yerde bulamazsınız. Mükemmel bir otomobil değil ama Türkiye şartlarında “mantıklı” kelimesinin tam karşılığı.',
+      'Egea’nın adı Türkiye ile doğrudan bağlantılı: Fiat bu otomobile, Ege Denizi’nin İtalyanca adından esinlenerek Egea adını verdi. Bursa’daki Tofaş fabrikasında üretilen otomobil, yurt dışında Fiat Tipo adıyla satılıyor ve Tofaş’ın Türkiye’nin en büyük otomobil ihracatçılarından biri olmasına önemli katkı sağlıyor.',
+      'Daha önce bahsettiğimiz gibi Egea’nın sırrı basit: bu paraya bu kadar bagaj, bu kadar ekonomik bir dizel ve her köşede bulunan parça. 1.6 Multijet motor güçlü ve çok ekonomik; çift kavramalı otomatik şanzımanla birlikte şehir içinde sürüşü çok kolaylaştırıyor. Arka koltuk geniş; büyük aileler için rahat.',
+      'Makyajla birlikte kabin güncellendi: Büyük dokunmatik multimedya ekranı, dijital gösterge ve kablosuz Apple CarPlay ve Android Auto desteği, Egea’nın kabinini güncel tutuyor. Lounge donanımı, bu fiyat seviyesinde zengin bir donanım paketi sunuyor.',
+      'Egea’nın zayıf yanlarını da daha önce belirtmiştik: eskimiş platform ve güvenlik test puanları, yüksek hızda belirgin rüzgar ve yol sesi, ön süspansiyon takozlarının erken yıpranması ve 1.4 Fire versiyonlarındaki yağ eksiltme eğilimi.',
+      'Ama Egea, Türkiye’de neden bu kadar çok satıldığını çok iyi açıklayan bir otomobil. Ekonomi, alan ve satılabilirlik önceliğinizse rakibi çok az.',
+    ],
     faq: [
       { q: 'Egea Sedan 1.6 Multijet ne kadar yakıt tüketiyor?', a: 'İncelediğimiz 130 beygirlik 1.6 Multijet versiyonun üretici verilerine göre karma tüketimi yaklaşık 4,8 L/100 km.' },
       { q: 'Egea Sedan’ın bagajı ne kadar?', a: 'Bagaj hacmi yaklaşık 520 litre; sınıfının en büyüklerinden.' },
@@ -439,6 +475,13 @@ const RAW_CARS = [
     ratings: { surus: 6.5, guvenlik: 5.7, konfor: 7.0, tuketim: 8.6, malzeme: 5.9, tasarim: 6.7, fiyat: 9.2, teknoloji: 6.5, guvenilirlik: 8.0, ikinciel: 8.2 },
     pros: ['Fabrika LPG ile çok düşük yakıt maliyeti', 'Piyasanın en uygun otomatik sedanlarından', 'Geniş bagaj', 'Telefon tutuculu pratik medya sistemi'],
     cons: ['Güvenlik donanımı ve NCAP sonucu zayıf', 'Ucuz malzemeler'],
+    longReview: [
+      'Logan, 2004’te Dacia’yı modern bir otomobil markasına dönüştüren model oldu. Renault, Dacia’yı satın aldıktan sonra Logan’ı “dünyanın en uygun fiyatlı modern sedanı” olarak tasarladı. Bugünkü üçüncü nesil Logan, bu felsefeyi modern bir tasarım ve otomatik şanzıman seçeneğiyle sürdürüyor.',
+      'Logan’ın Eco-G versiyonu, fabrika çıkışlı LPG sistemiyle geliyor. LPG tankı, stepne yuvasına yerleştirilmiş; bu sayede bagaj hacminden neredeyse hiç ödün verilmiyor. Gösterge panelinde benzin ve LPG için ayrı yakıt göstergeleri var. İki yakıtın toplam menziliyle Logan, tek depoda çok uzun mesafeler gidebiliyor; LPG ile de yakıt maliyeti ciddi şekilde düşüyor.',
+      'Bu versiyonun otomatik şanzımanı, Logan’ı Türkiye’nin en uygun fiyatlı otomatik sedanlarından biri yapıyor. Şehir içi dur-kalk trafikte otomatik şanzımanın getirdiği konfor, bu fiyat seviyesinde çok değerli.',
+      'Telefon tutuculu medya sistemi, pahalı bir multimedya ekranı yerine telefonunuzu otomobilin ekranına dönüştürüyor. Bagaj çok büyük; arka koltuk da geniş.',
+      'Logan’ın zayıf yanları güvenlik ve kabin malzemeleri. Bağımsız çarpışma testlerinde düşük puan aldı; kabin de tamamen maliyet odaklı. Ama en uygun bütçeyle otomatik, geniş ve çok düşük yakıt maliyetli bir sedan arayanlar için Logan çok mantıklı bir seçim.',
+    ],
     summary: 'Az bütçeyle geniş, otomatik ve LPG’li bir sedan arayanlar için en rasyonel seçim.',
   },
   {
@@ -667,6 +710,13 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 8.0, konfor: 7.9, tuketim: 7.9, malzeme: 7.6, tasarim: 8.0, fiyat: 8.2, teknoloji: 8.3, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Kayar arka koltukla esnek bagaj', 'Google tabanlı multimedya', 'Güçlü motor'],
     cons: ['EDC şanzıman düşük hızda sarsıntılı olabiliyor', 'Arka orta koltuk dar'],
+    longReview: [
+      'Makyajlı Captur, Renault’nun yeni tasarım dilinin en belirgin örneklerinden biri. Ön tarafta artık Renault’nun eşkenar dörtgen logosundan ilham alan, küçük elmas desenlerinden oluşan bir ızgara ve yeni, ince LED farlar var. Bu makyajla Captur, Renault’nun elektrikli modellerine benzeyen çok daha modern bir yüze kavuştu.',
+      'Kabindeki en büyük değişiklik, Google tabanlı multimedya sistemi. Google Haritalar, Google Asistan ve Google Play uygulamaları doğrudan otomobilin içinde çalışıyor; telefonu bağlamadan navigasyon ve müzik için her şey hazır. Google Haritalar, rotanızdaki trafik ve yol durumunu gerçek zamanlı olarak hesaba katıyor.',
+      'Captur’un en pratik özelliği kayar arka koltuk ise yerinde duruyor. Arka sıra ileri-geri kaydırılabiliyor; bagajı büyütmek istediğinizde öne, arkada uzun boylu yolcular taşırken geriye alıyorsunuz.',
+      'Hafif hibrit motor güçlü ve canlı. Ama EDC çift kavramalı şanzıman, düşük hızlarda ve dur-kalk trafikte zaman zaman sarsıntılı olabiliyor; ikinci el alırken şanzımanın davranışını test sürüşünde mutlaka gözlemleyin. Arka orta koltuk da dar.',
+      'Ama modern tasarımı, Google tabanlı multimedyası ve esnek kabiniyle Captur, küçük SUV sınıfının en dengeli seçeneklerinden biri olmaya devam ediyor.',
+    ],
     summary: 'Pratikliği, teknolojisi ve fiyatıyla sınıfının en dengeli küçük SUV’larından biri.',
   },
   {
@@ -857,6 +907,15 @@ const RAW_CARS = [
       konfor: 'Kapı ve cam fitillerindeki kauçuk malzeme sert olduğu için 100 km/s’nin üzerine çıkıldığında sürücü kapısının üst köşesinden kabine rüzgar ıslığı sızabiliyor.',
       malzeme: 'Geri dönüştürülmüş sert plastikten üretilen ön konsol, güneş altında uzun süre park edildikten sonra klima açıldığında ani soğumayla çıtırtı ve genleşme sesleri çıkarabiliyor.',
     },
+    longReview: [
+      'Kapı ve cam fitillerindeki kauçuk malzeme sert olduğu için 100 km/s’nin üzerine çıkıldığında sürücü kapısının üst köşesinden kabine rüzgar ıslığı sızabiliyor. Geri dönüştürülmüş sert plastikten üretilen ön konsol, güneş altında uzun süre park edildikten sonra klima açıldığında ani soğumayla çıtırtı ve genleşme sesleri çıkarabiliyor.',
+      'Duster, “SUV istiyorum ama bütçem kısıtlı” diyenlerin cevabı. Yeni nesliyle o eski kaba Duster gitti, yerine gerçekten derli toplu bir SUV geldi. Aynı parayla rakiplerin ancak küçük hatchback’lerini alabildiğinizi düşününce değeri çok yüksek.',
+      'Üçüncü nesil Duster, modelin tarihindeki en büyük dönüşümü temsil ediyor. Romanya’da üretilen otomobil, Renault grubunun daha modern altyapısına geçti; önceki nesillerin kaba ve basit Duster’ı gitti, yerine çok daha olgun ve modern bir SUV geldi.',
+      'Duster’ın tasarımı, sert ve maceracı bir karakter taşıyor. Ön ve arka tamponlarda, çamurluklarda ve kapıların altında, geri dönüştürülmüş malzemeden üretilen ve boyasız bırakılan koruyucu paneller var; bu paneller arazide çizilmeye karşı dayanıklı ve boya gerektirmediği için maliyeti düşürüyor. Tavan rayları da birkaç saniyede döndürülerek tavan barlarına dönüşebiliyor.',
+      'Kabinde YouClip adı verilen bağlantı noktaları var; bu noktalara telefon tutucu, çanta askısı ya da taşınabilir lamba gibi aksesuarlar takabiliyorsunuz. Dört çeker versiyonlarda arazi modları sunuluyor; Duster, bu fiyat seviyesindeki SUV’ların çoğundan daha yetenekli bir arazi aracı.',
+      'Daha önce belirttiğimiz gibi kapı fitillerinden gelen rüzgar ıslığı ve güneşte çıtırdayan sert plastik konsol, Duster’ın bilinen zayıf noktaları. Kabin malzemeleri ucuz; güvenlik test puanları da rakiplerin gerisinde.',
+      'Ama Duster, “SUV istiyorum ama bütçem kısıtlı” diyenlerin hâlâ en mantıklı cevabı. Sağlam duruşu, dört çeker ve LPG seçenekleri ve fiyatına göre inanılmaz değeriyle segmentinin fiyat/performans lideri.',
+    ],
     summary: 'Aile SUV’una en uygun fiyatlı giriş biletlerinden; Türkiye’de Renault logosuyla satılıyor.',
   },
   {
@@ -4455,6 +4514,15 @@ const RAW_CARS = [
       konfor: 'Cam tavanın standart olarak mekanik bir perdesi olmadığı için özellikle yaz aylarında kabin aşırı ısınabiliyor ve klimanın verimi düşüyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler zamanla gevşeyip tıkırdayabiliyor.',
       surus: 'Direksiyon oranı çok hızlı (sportif) olduğu için otoyol hızlarında en ufak hareketle araç şerit içinde keskin tepki veriyor; alışkın olmayan sürücüler için yorucu olabiliyor.',
     },
+    longReview: [
+      'Direksiyon oranı çok hızlı (sportif) olduğu için otoyol hızlarında en ufak hareketle araç şerit içinde keskin tepki veriyor; alışkın olmayan sürücüler için yorucu olabiliyor.',
+      'Cam tavanın standart olarak mekanik bir perdesi olmadığı için özellikle yaz aylarında kabin aşırı ısınabiliyor ve klimanın verimi düşüyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler zamanla gevşeyip tıkırdayabiliyor.',
+      'Avrupa’da satılan Model Y’ler, Tesla’nın Berlin yakınlarındaki Grünheide fabrikasında üretiliyor; Tesla’nın Avrupa’daki ilk ve tek büyük fabrikası. Performance versiyonu, standart Model Y’nin pratikliğini koruyarak ona süper otomobil seviyesinde bir hızlanma kazandırıyor.',
+      'Performance’ı standart versiyondan ayıran detaylar dışarıdan bakınca hemen fark ediliyor: Büyük, türbin desenli jantlar, alçaltılmış süspansiyon, kırmızı fren kaliperleri ve bagaj kapağındaki karbon fiber spoyler. Kabinde ise Tesla’nın Pist Modu sunuluyor; bu mod, kapalı pistlerde sürüş dengesini ve motorların güç dağılımını değiştirerek otomobili daha oyunbaz hâle getiriyor.',
+      'Model Y’nin teknik açıdan en ilginç parçalarından biri ısı pompası sistemi. Tesla’nın “octovalve” adını verdiği sekiz yollu bir vana, bataryanın, motorların ve kabinin ısısını tek bir sistemde yöneterek kışın kabini ısıtırken ve bataryayı şarja hazırlarken çok daha az enerji harcıyor. Bu, soğuk havalarda menzil kaybını azaltan önemli bir teknoloji.',
+      'Model Y’nin pratikliği Performance’ta da tamamen korunuyor: Geniş kabin, dev bagaj ve ön kaputun altındaki ek bagaj bölmesi. Dört çeker sistemi de her havada güven veriyor.',
+      'Daha önce belirttiğimiz cam tavan perdesi, hassas direksiyon ve trim seslerine ek olarak Performance’ın en büyük dezavantajı süspansiyon. Alçaltılmış ve sertleştirilmiş süspansiyon ile büyük jantlar, bozuk yollarda kabine belirgin sarsıntı taşıyor; menzil de standart versiyona göre kısa. Her gün bozuk şehir yollarında kullanacaksanız standart Model Y daha mantıklı olabilir.',
+    ],
     summary: 'Model Y’nin pratikliğini çok ciddi bir performansla birleştiren versiyon.',
   },
   {
@@ -4489,6 +4557,13 @@ const RAW_CARS = [
     ratings: { surus: 9.4, guvenlik: 9.2, konfor: 8.8, tuketim: 8.6, malzeme: 8.2, tasarim: 8.8, fiyat: 7.4, teknoloji: 9.6, guvenilirlik: 7.2, ikinciel: 6.8 },
     pros: ['2,1 saniyelik akıl almaz hızlanma', 'Uzun menzil', 'Geniş ve pratik gövde', 'Arka yolcu ekranında oyun oynayabilme', 'Uçak tipi “yoke” direksiyon'],
     cons: ['Türkiye’ye resmî olarak getirilmedi, örnekler paralel ithalat', 'Yoke direksiyon herkese uymuyor', '“Yoke” direksiyon manevrada zorlayıcı'],
+    longReview: [
+      'Model S Plaid, seri üretim otomobiller arasında en hızlı hızlanan modellerden biri. Bu performansın sırrı üç elektrik motoru: Biri önde, ikisi arkada. Arkadaki iki motor her bir tekerleği ayrı ayrı yöneterek virajlarda gücü çok hassas şekilde dağıtıyor. Bu motorların rotorları, çok yüksek devirlerde parçalanmamaları için karbon fiberle sarılmış; Tesla’nın geliştirdiği bu teknoloji, motorların yüksek hızlarda bile güçlerini korumasını sağlıyor.',
+      'Kabin, makyajla birlikte tamamen yenilendi. Yatay büyük orta ekran, sürücüye ya da yolcuya doğru hafifçe döndürülebiliyor. Arka yolcular için ayrı bir ekran var; daha önce belirttiğimiz gibi bu ekranda oyun bile oynanabiliyor. Ekranlar, bir oyun konsoluna yakın bir işlem gücüne sahip.',
+      'Uçak tipi “yoke” direksiyon, Model S’nin en çok konuşulan detayı. Otoyolda ve düz yollarda fütüristik ve rahat; ama park ederken ve dar manevralarda tutacak bir üst kısım olmadığı için zorlayıcı. Sonradan Tesla, klasik yuvarlak direksiyonu da seçenek olarak sundu.',
+      'Model S’nin bir avantajı da gövde tipi. Dışarıdan bir sedan gibi görünse de bagaj kapağı arka camla birlikte açılan bir liftback; bu da büyük eşyaları yüklemeyi çok kolaylaştırıyor. Ön kaputun altında da ek bir bagaj bölmesi var.',
+      'Türkiye’ye resmî olarak getirilmediği için piyasadaki örnekler paralel ithalat. Garanti, servis ve yazılım güncellemeleri konusunda alıcının dikkatli olması ve aracın geçmişini çok iyi araştırması gerekiyor.',
+    ],
     summary: 'Hiper otomobil hızlanmasını dört kapılı bir aile otomobilinde sunan olağanüstü bir elektrikli.',
   },
   {
@@ -4536,6 +4611,13 @@ const RAW_CARS = [
     ratings: { surus: 9.8, guvenlik: 9.4, konfor: 8.8, tuketim: 7.8, malzeme: 9.6, tasarim: 9.6, fiyat: 7.2, teknoloji: 9.2, guvenilirlik: 8.0, ikinciel: 7.0 },
     pros: ['Elektrikli çağın en iyi şasilerinden', '800V ile çok hızlı şarj', 'Porsche işçiliği'],
     cons: ['Makyaj öncesi menzil sınırlı', 'Arka koltuk dar'],
+    longReview: [
+      'Taycan, Porsche’nin ilk seri üretim elektrikli otomobili ve Almanya’nın Stuttgart şehrinin Zuffenhausen semtinde, 911 ile aynı tarihi fabrika kampüsünde üretiliyor. Porsche’nin efsanevi spor otomobilinin evinde, markanın elektrikli geleceği de üretiliyor.',
+      'Taycan’ın kabininde arka koltuk yolcuları için ilginç bir mühendislik çözümü var. Batarya, otomobilin tabanını kaplıyor; ama Porsche, arka koltukların önünde bataryanın içinde iki boşluk bırakmış. Porsche bunlara “ayak garajı” diyor. Arka yolcular ayaklarını bu boşluklara koyabiliyor; bu sayede çok alçak bir otomobil olmasına rağmen arka koltukta oturma pozisyonu daha doğal hâle geliyor.',
+      'Teknik açıdan Taycan’ın en önemli farkı, arka aksındaki iki ileri şanzıman. Çoğu elektrikli otomobil tek vitesle çalışırken, Taycan kalkışlarda daha güçlü hızlanma için birinci vitesi, yüksek hızlarda verimlilik için ikinci vitesi kullanıyor. 800 voltluk mimarisi de uygun hızlı şarj istasyonlarında çok kısa şarj süreleri sağlıyor.',
+      'Kabinde sürücünün önünde kavisli dijital gösterge, ortada multimedya ekranı, onun altında klima kontrollerinin bulunduğu ikinci bir dokunmatik ekran ve opsiyonel olarak ön yolcunun önünde ayrı bir ekran var. Sürüşte Taycan, elektrikli çağın en iyi şasilerinden birine sahip: Ağır bataryasına rağmen virajlarda inanılmaz dengeli ve keskin.',
+      'Bu makyaj öncesi versiyonun zayıf yanı menzil; makyajlı versiyonlara göre belirgin şekilde kısa. Arka koltuk da ayak garajlarına rağmen başüstü mesafesi açısından dar. Ama elektrikli bir otomobilde gerçek Porsche sürüş keyfi arayanlar için ikinci elde çok özel bir seçim.',
+    ],
     summary: 'Makyaj öncesi Taycan 4S; sürüş dinamiğinde hâlâ elektriklilerin zirvesinde.',
   },
   // =========================================================================
@@ -5321,6 +5403,13 @@ const RAW_CARS = [
     ratings: { surus: 6.8, guvenlik: 6.0, konfor: 7.0, tuketim: 7.8, malzeme: 6.0, tasarim: 7.0, fiyat: 9.0, teknoloji: 6.8, guvenilirlik: 7.8, ikinciel: 8.0 },
     pros: ['Türkiye’nin en uygun fiyatlı 7 koltuklu otomobillerinden', 'Üçüncü sırada bile yetişkinler oturabiliyor', 'Geniş bagaj (5 koltukta)'],
     cons: ['Güvenlik puanları düşük', 'Sade kabin ve malzemeler'],
+    longReview: [
+      'Jogger, Dacia’nın station wagon, minivan ve SUV özelliklerini tek bir gövdede birleştirmeye çalıştığı ilginç bir otomobil. Romanya’daki Dacia fabrikasında üretiliyor ve Türkiye’nin en uygun fiyatlı yedi koltuklu otomobillerinden biri.',
+      'Jogger’ın üçüncü sıra koltukları, bu fiyattaki birçok yedi koltuklu otomobilin aksine gerçekten yetişkinlerin oturabileceği boyutta. Üçüncü sıradaki yolcular için ayrı açılabilen havalandırma camları var. İhtiyaç olmadığında bu koltuklar tamamen sökülüp otomobilden çıkarılabiliyor; bu sayede beş koltuklu düzende çok büyük bir bagaj elde ediyorsunuz.',
+      'Dacia’nın Jogger için sunduğu en ilginç aksesuar, “Sleep Pack” adı verilen kamp paketi. Bagaja yerleştirilen bu modüler sistem, birkaç dakikada iki kişilik bir yatağa dönüşüyor; altında da eşyalar için saklama alanı ve katlanabilir bir masa bulunuyor. Jogger böylece hafta sonları küçük bir karavana dönüşebiliyor.',
+      'Tavan rayları da birkaç saniyede döndürülerek yük taşımaya hazır tavan barlarına dönüşebiliyor; ayrı bir tavan barı satın almanıza gerek kalmıyor. Turbo benzinli motor, bu fiyat seviyesinde yeterli bir performans sunuyor.',
+      'Jogger’ın zayıf yanları güvenlik ve kabin malzemeleri. Bağımsız çarpışma testlerinde düşük puan aldı; kabin de sert plastiklerle dolu ve sade. Ama kalabalık bir aileyi ve onların eşyalarını en uygun bütçeyle taşımak istiyorsanız Jogger’ın rakibi çok az.',
+    ],
     summary: 'Kalabalık ailelere en uygun fiyata 7 koltuk sunan, pratik ve mantıklı bir otomobil.',
   },
   {
