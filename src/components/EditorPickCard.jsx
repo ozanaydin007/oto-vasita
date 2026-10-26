@@ -5,11 +5,11 @@ import ScoreBadge from './ScoreBadge.jsx';
 import RadarChart from './RadarChart.jsx';
 
 // Editörün seçimi kartı: fotoğraf, editör cümlesi, okunabilir radar grafiği
-export default function EditorPickCard({ car, text }) {
+export default function EditorPickCard({ car, text, priority = false }) {
   return (
     <li className="border border-rule rounded-xl overflow-hidden flex flex-col">
       <Link to={`/inceleme/${car.slug}`} tabIndex={-1} aria-hidden="true">
-        <CarImage car={car} className="h-44 bg-mist" />
+        <CarImage car={car} className="h-44 bg-mist" priority={priority} />
       </Link>
       <div className="p-5 flex flex-col flex-1">
         <h3 className="font-display text-xl font-bold leading-tight">

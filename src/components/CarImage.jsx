@@ -92,7 +92,8 @@ export function PhotoCredit({ car, className = '' }) {
 }
 
 // Fotoğraf varsa fotoğrafı, yoksa (ya da yüklenemezse) gövde tipine uygun silüeti gösterir.
-export default function CarImage({ car, className = '' }) {
+// priority: ekranın üstünde ilk görünen büyük fotoğraf için (hemen ve öncelikli yüklenir)
+export default function CarImage({ car, className = '', priority = false }) {
   const label = `${car.year} ${car.make} ${car.model}`;
   const photo = useCarPhoto(car);
   const [failed, setFailed] = useState(false);
@@ -106,7 +107,8 @@ export default function CarImage({ car, className = '' }) {
           src={photo.src}
           alt={label}
           title={photo.own ? undefined : creditText(photo)}
-          loading="lazy"
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : undefined}
           decoding="async"
           onError={() => setFailed(true)}
           className={photo.own ? 'max-h-full w-auto object-contain' : 'w-full h-full object-cover rounded-lg'}

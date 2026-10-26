@@ -79,7 +79,7 @@ function EditorPicks() {
           {weeks.map((w, i) => (
             <div key={w.week} className="min-w-full" aria-hidden={i !== index} inert={i !== index || undefined}>
               <ul className="grid gap-6 md:grid-cols-3">
-                {w.picks.map(({ car, text }) => <EditorPickCard key={car.slug} car={car} text={text} />)}
+                {w.picks.map(({ car, text }, j) => <EditorPickCard key={car.slug} car={car} text={text} priority={i === 0 && j === 0} />)}
               </ul>
             </div>
           ))}

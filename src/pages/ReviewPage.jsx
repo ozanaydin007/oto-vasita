@@ -218,7 +218,7 @@ export default function ReviewPage() {
           </p>
         </div>
         <figure>
-          <CarImage car={car} className="h-56 sm:h-72 bg-mist rounded-xl" />
+          <CarImage car={car} className="h-56 sm:h-72 bg-mist rounded-xl" priority />
           <figcaption>
             <PhotoCredit car={car} className="mt-2" />
           </figcaption>
