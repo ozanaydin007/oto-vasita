@@ -1243,6 +1243,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 8.8, konfor: 8.3, tuketim: 8.3, malzeme: 7.9, tasarim: 8.4, fiyat: 8.6, teknoloji: 8.9, guvenilirlik: 7.4, ikinciel: 7.4 },
     pros: ['Aerodinamik gövdeyle uzun menzil', 'Zengin standart donanım', 'Yaygın yerli servis'],
     cons: ['Yazılım güncellemelerine bağımlı özellikler', 'Arka başüstü sınırlı'],
+    longReview: [
+      'T10F, Türkiye’nin yerli otomobil markası Togg’un T10X’ten sonraki ikinci modeli ve markanın sedan sınıfına attığı ilk adım. Bursa’nın Gemlik ilçesindeki Togg fabrikasında üretiliyor. SUV gövdeli T10X’in aksine T10F, arkaya doğru alçalan tavan çizgisiyle bir fastback sedan; bu da ona yolda çok daha alçak ve sportif bir duruş kazandırıyor.',
+      'Bu fastback gövde yalnızca şık görünmek için değil. Alçak ve akıcı siluet, otomobilin hava direncini azaltarak menzile doğrudan katkı sağlıyor. Aynı bataryayı kullanan bir SUV’a göre otoyolda daha az enerji tüketiyor; bu da T10F’yi uzun yolda daha rahat bir elektrikli yapıyor.',
+      'Togg’un en büyük farkı, otomobili bir dijital ekosistemin parçası olarak tasarlaması. Markanın Trumore adını verdiği dijital platform; şarj istasyonlarını bulmak, şarjı ödemek, otomobili telefondan yönetmek ve çeşitli dijital hizmetlere ulaşmak gibi işlevleri tek bir yerde topluyor. Kabinde de torpidonun bir ucundan diğerine uzanan geniş ekran düzeni bu dijital deneyimin merkezi.',
+      'Togg’un Türkiye’deki en güçlü yanlarından biri servis ve parça. Yerli bir marka olduğu için servis ağı hızla yaygınlaşıyor ve parça bulunabilirliği, ithal elektrikli rakiplere göre çok daha az endişe verici. Zengin standart donanım da fiyatına göre güçlü bir paket sunuyor.',
+      'T10F’nin zayıf yanları, bazı özelliklerin yazılım güncellemelerine bağlı olması ve fastback tavanın arka koltukta uzun boylulardan aldığı başüstü mesafesi. Ama uzun menzili, zengin donanımı ve yerli servis avantajıyla, elektrikli bir sedan arayanlar için çok güçlü bir seçenek.',
+    ],
     summary: 'T10X’in teknolojisini daha verimli bir sedan gövdeyle sunan, menzil odaklı yerli seçenek.',
   },
   {
@@ -1310,6 +1317,13 @@ const RAW_CARS = [
     ratings: { surus: 8.4, guvenlik: 9.0, konfor: 8.4, tuketim: 8.0, malzeme: 8.2, tasarim: 8.6, fiyat: 7.2, teknoloji: 8.6, guvenilirlik: 7.8, ikinciel: 6.6 },
     pros: ['Süper otomobil hızlanması', 'Kaliteli kabin', 'Dört çeker', 'Yatay-dikey dönebilen merkezi ekran'],
     cons: ['Yüksek güç nedeniyle yüksek ÖTV dilimi', 'Yazılım arayüzü karmaşık'],
+    longReview: [
+      'Seal, dünyanın en büyük elektrikli otomobil üreticilerinden biri hâline gelen BYD’nin Tesla Model 3’e doğrudan rakip olarak geliştirdiği sedan. BYD, aslında bir batarya üreticisi olarak kuruldu ve bu geçmiş, Seal’ın en önemli teknolojisinde kendini gösteriyor.',
+      'Seal, BYD’nin “Blade” adını verdiği ince ve uzun hücrelerden oluşan bataryayı kullanıyor. Bu bataryada kullanılan kimya, termal açıdan çok kararlı ve yangın riskine karşı dayanıklı olmasıyla biliniyor. Seal’da batarya, otomobilin gövdesinin taşıyıcı bir parçası olarak tasarlanmış; bataryanın üst yüzeyi doğrudan kabinin tabanı görevi görüyor. Bu da gövdeyi daha rijit ve otomobili daha hafif yapıyor.',
+      'Kabinin en çok konuşulan detayı, bir düğmeyle yatay konumdan dikey konuma dönebilen büyük merkezi ekran. Navigasyonda dikey, video izlerken yatay kullanabiliyorsunuz. Orta konsoldaki kristal görünümlü vites seçici de kabine premium bir hava katıyor. Kabin kalitesi, Çinli bir marka için çoğu kişinin beklentisinin çok üzerinde.',
+      'Bu versiyonun çift motorlu dört çeker sistemi, Seal’a süper otomobil seviyesinde bir hızlanma kazandırıyor. Ama bu yüksek güç, Türkiye’de daha yüksek bir ÖTV dilimine girmesine ve fiyatının yükselmesine yol açıyor.',
+      'BYD’nin Türkiye’de, Manisa’da bir üretim tesisi kurma planını açıklaması, markanın uzun vadeli varlığı ve servis ağı açısından olumlu bir işaret. Yazılım arayüzü ise karmaşık; menülere alışmak zaman alıyor.',
+    ],
     summary: 'Performans ve kalitede iddialı bir elektrikli sedan; Türkiye’de yalnızca güçlü versiyonuyla satılıyor.',
   },
   {
@@ -1340,6 +1354,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 9.1, konfor: 8.8, tuketim: 8.3, malzeme: 8.2, tasarim: 9.3, fiyat: 7.4, teknoloji: 9.0, guvenilirlik: 8.0, ikinciel: 7.0 },
     pros: ['800V altyapıyla çok hızlı şarj', 'İkonik retro-fütüristik tasarım', 'Lounge gibi geniş kabin', 'Araçtan elektrik çekebilme (V2L)', 'Kayan orta konsol', 'Ayak destekli dinlenme pozisyonlu ön koltuklar'],
     cons: ['Arka görüş sınırlı', 'Fiyatı yüksek'],
+    longReview: [
+      'Ioniq 5’in tasarımı, Hyundai’nin tarihine yapılan bir saygı duruşu. Otomobil, Hyundai’nin 1975’te çıkan ilk seri üretim otomobili Pony’den ilham alıyor. Pony’nin tasarımı ünlü İtalyan tasarımcı Giorgetto Giugiaro’ya aitti. Ioniq 5’in keskin çizgileri ve köşeli silueti, bu ilk otomobilin geometrik dilini fütüristik bir yorumla geri getiriyor. 2022’de Dünyada Yılın Otomobili seçilmesi de bu tasarımın ne kadar beğenildiğini gösteriyor.',
+      'Farlardaki ve stop lambalarındaki küçük kare piksel biçimli ışıklar, Ioniq 5’in en karakteristik detayı. Hyundai bunlara “parametrik pikseller” diyor; dijital görüntülerin en küçük birimi olan piksellere ve eski bilgisayar oyunlarının grafiklerine göz kırpıyor.',
+      'Kabin, bir otomobilden çok bir oturma odası gibi tasarlanmış. Ön koltukların arasındaki orta konsol ileri-geri kaydırılabiliyor; geri çektiğinizde ön koltuklar arasında serbest bir alan açılıyor. Uzun dingil mesafesi ve tamamen düz zemin sayesinde arka koltukta da çok geniş bir alan var.',
+      'Ioniq 5’in teknik kozu 800 voltluk mimari: Uygun hızlı şarj istasyonlarında bataryayı çok kısa sürede dolduruyor. Otomobilden dışarıya elektrik verebilmesi de kampta ve acil durumlarda çok işe yarıyor.',
+      'Zayıf yanları arka görüş ve fiyat. Küçük ve eğimli arka cam nedeniyle arka görüş sınırlı; fiyatı da makyajla birlikte yükseldi. Ama tasarımı, geniş kabini ve hızlı şarjıyla elektrikli SUV sınıfının en özel otomobillerinden biri.',
+    ],
     summary: 'Şarj hızı ve kabin ferahlığıyla elektrikli dünyanın en iyi aile otomobillerinden.',
   },
   {
@@ -1859,6 +1880,13 @@ const RAW_CARS = [
     ratings: { surus: 5.3, guvenlik: 4.9, konfor: 5.5, tuketim: 7.6, malzeme: 4.5, tasarim: 4.5, fiyat: 6.8, teknoloji: 3.1, guvenilirlik: 7.4, ikinciel: 7.8 },
     pros: ['Düşük tüketim', 'Geniş bagaj'],
     cons: ['Kalitesiz kabin malzemeleri', 'Zayıf güvenlik ve yol tutuş', 'Gürültülü ve titreşimli kabin', 'Teknoloji neredeyse yok'],
+    longReview: [
+      'Linea, Bursa’daki Tofaş fabrikasında üretildi ve Fiat’ın Türkiye, Brezilya ve Hindistan gibi sedan sevilen pazarlar için geliştirdiği bir modeldi. Grande Punto’nun altyapısını kullanan Linea, daha sonra yerini Egea’ya bıraktı. Türkiye’de uzun yıllar boyunca hem bireysel kullanıcıların hem de filoların çok tercih ettiği bir otomobil oldu.',
+      'Linea’nın en büyük kozu düşük tüketimi ve geniş bagajı. 1.3 Multijet motor, küçük hacmine rağmen düşük devirlerden güçlü bir çekiş sunuyor ve sakin kullanımda inanılmaz derecede az yakıyor. Bagaj da bu boyuttaki bir otomobil için çok büyük. Bursa üretimi sayesinde parça ucuz ve her yerde bulunuyor.',
+      'Bedeli ise kabin, güvenlik ve sürüş. Kabin sert plastiklerle dolu; yüksek hızlarda motor, rüzgar ve yol sesi kabine belirgin şekilde geliyor, titreşim de hissediliyor. Yol tutuşu ve güvenlik donanımı bugünün standartlarının çok gerisinde. Teknoloji de neredeyse yok.',
+      'İkinci el alırken 1.3 Multijet’in bilinen noktalarına dikkat edin: Turbonun durumu, enjektörler, zamanlama zinciri ve şehir içinde kısa mesafelerde kullanılmış örneklerde EGR valfinin tıkanması. Aracın filo ya da taksi geçmişi olup olmadığını öğrenmek de önemli.',
+      'Linea’yı bir ulaşım aracı olarak görmek gerekiyor. Çok sınırlı bir bütçeyle, ekonomik ve geniş bir sedan arayanlar için hâlâ işini görüyor; ama güvenlik önceliğinizse daha yeni bir otomobile yönelmenizi öneririz.',
+    ],
     summary: 'Ucuz ve ekonomik ulaşım aracı; bunun dışında öne çıkan bir özelliği yok.',
   },
   {
@@ -2268,6 +2296,13 @@ const RAW_CARS = [
     ratings: { surus: 5.5, guvenlik: 6.5, konfor: 6.1, tuketim: 5.6, malzeme: 5.3, tasarim: 6.1, fiyat: 6.6, teknoloji: 5.8, guvenilirlik: 7.0, ikinciel: 5.8 },
     pros: ['Geniş kabin ve bagaj', 'Fiyatına göre dolu donanım', 'Uzun garanti'],
     cons: ['Güçsüz motor ve eski 4 ileri şanzıman', 'Hızlı değer kaybı'],
+    longReview: [
+      'İlk nesil MG ZS, markanın Avrupa ve Türkiye pazarına geri dönüşünün en önemli modellerinden biriydi. Kökleri İngiltere’ye uzanan MG markası bugün Çinli SAIC grubuna ait; otomobilin tasarımında Londra’daki MG tasarım stüdyosunun da katkısı var.',
+      'ZS’nin en büyük kozu fiyat/alan dengesi. Bu fiyata bu kadar geniş bir kabin ve bu kadar büyük bir bagaj sunan çok az otomobil vardı. Donanım da fiyatına göre zengin; multimedya ekranı, geri görüş kamerası ve klima gibi donanımlar standart olarak geliyordu. MG’nin uzun garanti süresi de satın alma kararında güven veriyordu.',
+      'Bedeli ise mekanik. Atmosferik benzinli motor, bu gövde için güçsüz; dört ileri otomatik şanzıman da döneminin rakiplerinin çok gerisinde. Hızlanmalar yavaş, otoyolda motor yüksek devirde çalıştığı için hem gürültü hem de tüketim artıyor.',
+      'Kabin malzemeleri sert plastiklerle dolu ve multimedya sistemi yavaş. Ama basit mekaniği, uzun vadede karmaşık turbo ya da çift kavramalı şanzıman sorunlarından uzak durmak isteyenler için bir avantaj olarak da görülebilir.',
+      'ZS’nin en büyük dezavantajı ikinci el değeri; marka Türkiye’de yeni olduğu için hızlı değer kaybediyor. Ama bu, ikinci elde çok geniş bir SUV’u çok uygun bir fiyata bulabileceğiniz anlamına da geliyor.',
+    ],
     summary: 'Uygun fiyatlı ve geniş, ancak performans, tüketim ve ikinci el değerinde zayıf bir SUV.',
   },
   {
@@ -2278,6 +2313,13 @@ const RAW_CARS = [
     ratings: { surus: 6.8, guvenlik: 7.0, konfor: 6.6, tuketim: 8.6, malzeme: 5.8, tasarim: 7.4, fiyat: 7.4, teknoloji: 5.4, guvenilirlik: 7.8, ikinciel: 8.6 },
     pros: ['Çok düşük tüketim', 'Hâlâ şık görünen tasarım', 'Bursa üretimi, kolay servis'],
     cons: ['Sert plastiklerle dolu kabin', 'Arka koltuk dar'],
+    longReview: [
+      'Dördüncü nesil Clio, Bursa’daki Oyak Renault fabrikasında üretildi ve Renault’nun tasarım tarihinde önemli bir dönüm noktası oldu. Renault’nun o dönem tasarım şefi Laurens van den Acker’ın “Yaşam Döngüsü” adını verdiği yeni tasarım stratejisinin ilk modeliydi. Bu stratejide her model, insan hayatının farklı bir evresini temsil ediyordu; Clio, “aşık olmak” evresini simgeliyordu.',
+      'Bu tasarımın en ilginç detaylarından biri arka kapı kolları. Kollar, arka kapının pencere çerçevesinin içine gizlendi; bu sayede beş kapılı Clio, yandan bakıldığında üç kapılı bir coupé gibi görünüyor. Yuvarlak, kaslı hatları ve büyük Renault logosuyla Clio IV, bugün bile yolda şık görünüyor.',
+      '1.5 dCi motor, ekonomisiyle efsaneleşmiş bir motor; sakin kullanımda inanılmaz derecede az yakıyor. Bursa üretimi sayesinde parçası ucuz ve her yerde bulunuyor; satmak istediğinizde de çok kısa sürede alıcı buluyorsunuz.',
+      'İkinci el alırken 1.5 dCi’nin bilinen zayıf noktasına dikkat edin: Yağ bakımı ihmal edildiğinde kol yatağı kuşinetlerinin dönmesi bu motorun kronik sorunlarından. Yağ bakım geçmişini mutlaka kontrol edin; enjektörlerin ve dizel partikül filtresinin durumunu da ekspertizde ölçtürün.',
+      'Kabin sert plastiklerle dolu; arka koltuk da uzun boylular için dar. Ama düşük tüketimi, şık tasarımı ve kolay satılabilirliğiyle, ilk otomobilini arayanlar için ikinci elde hâlâ mantıklı bir seçim.',
+    ],
     summary: 'İkinci elde ekonomik ve şık bir şehir otomobili; kabin kalitesi zayıf halkası.',
   },
   {
@@ -2475,6 +2517,13 @@ const RAW_CARS = [
     ratings: { surus: 9.2, guvenlik: 9.3, konfor: 9.2, tuketim: 8.0, malzeme: 8.7, tasarim: 9.7, fiyat: 7.6, teknoloji: 7.5, guvenilirlik: 6.0, ikinciel: 4.8 },
     pros: ['İtalyan tasarımı ve karakter', 'Güçlü hafif hibrit motor', 'Arkadan itişli keyifli sürüş', 'Torpidodaki analog Maserati saati'],
     cons: ['Teknoloji Alman rakiplerin çok gerisinde', 'Hızlı değer kaybı'],
+    longReview: [
+      'Ghibli, Maserati’nin iş sedanı sınıfındaki temsilcisi ve İtalya’nın Torino şehrinde üretiliyor. Adını Sahra Çölü’nde esen sıcak bir rüzgardan alıyor; Maserati’nin modellerine rüzgar isimleri verme geleneğinin bir parçası. Arka direkteki Maserati üç dişli mızrak logosu ve yan çamurluklardaki üç hava kanalı, Ghibli’yi yolda hemen tanınır kılıyor.',
+      'Bu versiyonun hafif hibrit sistemi ilginç bir teknolojiye sahip: Elektrikli bir kompresör, düşük devirlerde turbonun gecikmesini ortadan kaldırarak motora anında güç sağlıyor. Maserati, bu dört silindirli motorun karakteristik Maserati sesini koruması için egzoz sistemini özel olarak ayarlamış ve kabine sesi aktaran bir ses sistemi eklemiş.',
+      'Kabinde torpidonun ortasındaki analog Maserati saati, markanın klasik bir imzası. Deri döşeme ve İtalyan işçiliği kabine sıcak ve özel bir atmosfer veriyor. Arkadan itişli şasi de Ghibli’ye keyifli ve dengeli bir sürüş kazandırıyor.',
+      'Ghibli’nin zayıf yanları teknoloji ve ikinci el değeri. Multimedya sistemi ve sürüş destek sistemleri Alman rakiplerinin çok gerisinde kalıyor; ikinci el piyasasında da değer kaybı hızlı.',
+      'Ama bu hızlı değer kaybı, ikinci elde bir Maserati’ye çok uygun bir fiyata sahip olmanın yolunu da açıyor. İtalyan karakterini ve tasarımını her şeyin önüne koyan biri için Ghibli çok özel bir seçim; yalnız bakım ve onarım maliyetlerini önceden hesaplamak şart.',
+    ],
     summary: 'Duygusal bir tercih; tasarımı ve sürüşü güzel ama teknolojide ve ikinci el değerinde zayıf.',
   },
   // =========================================================================
@@ -2764,6 +2813,16 @@ const RAW_CARS = [
       konfor: 'Run-flat (patlamayan) lastiklerle sert süspansiyon birleşince şehir içi çukurlarda kabine aşırı darbe iletebiliyor. Ön konsoldaki orta havalandırma ızgaralarından tıkırtı sesleri de gelebiliyor.',
       guvenilirlik: 'Soğutma sistemi hortumlarında ve genleşme tankında (yedek su deposu) erken yaşta çatlama ve su eksiltme eğilimi görülebiliyor; su seviyesini düzenli kontrol edin.',
     },
+    longReview: [
+      'Bizim deneyimimize göre G20 kasa 320i, ufak modifikasyonlarla gerçekten bir M otomobilinin seviyesine erişebiliyor; üstelik yarı fiyatına. Standart hâlinde bile arkadan itişin verdiği denge, keskin direksiyon ve kusursuz 8 ileri şanzıman bu otomobili sınıfının en keyifli sedanlarından biri yapıyor.',
+      'Run-flat (patlamayan) lastiklerle sert süspansiyon birleşince şehir içi çukurlarda kabine aşırı darbe iletebiliyor. Ön konsoldaki orta havalandırma ızgaralarından tıkırtı sesleri de gelebiliyor.',
+      'Türkiye’ye özel 1.6 motor, aslında BMW’nin 2 litrelik motorundan küçültülerek (downsize) üretildiği için yüksek güçlere çok hazırlıklı. Genel bakımlarını aksatmaz ve dikkatli kullanırsanız kronik sorunları yok denecek kadar az. Soğutma sistemi hortumlarında ve genleşme tankında (yedek su deposu) erken yaşta çatlama ve su eksiltme eğilimi görülebiliyor; su seviyesini düzenli kontrol edin.',
+      'G20 kasa 3 Serisi, Almanya’nın Münih şehrindeki BMW ana fabrikasında üretiliyor. 3 Serisi’nin 1975’ten beri süren geleneğinin yedinci nesli olan bu otomobil, sınıfının sürüş referansı olma iddiasını sürdürüyor. 320i First Edition, bu neslin Türkiye’ye ilk gelen özel versiyonlarından biriydi.',
+      'G20’nin ilginç teknolojilerinden biri geri manevra asistanı. Bu sistem, otomobilin son birkaç on metrede yaptığı direksiyon hareketlerini kaydediyor ve dar bir sokağa ya da çıkmaz bir yola girdiğinizde, aynı yolu otomatik olarak geri geri giderek çıkmanızı sağlıyor. Direksiyonu otomobil çeviriyor; siz yalnızca gaz ve fren pedallarını kontrol ediyorsunuz.',
+      'Kabinde “Hey BMW” sesli asistanı, dijital gösterge ve büyük multimedya ekranı var; BMW’nin klasik iDrive döner kumandası da korunuyor. Opsiyonel lazer destekli farlar, uzun far menzilini olağanüstü bir mesafeye çıkarıyor.',
+      'Daha önce bahsettiğimiz gibi Türkiye’ye özel 1.6 motor standart hâliyle bu mükemmel şasinin hakkını tam veremiyor; ama yazılımla ciddi bir güç artışı potansiyeli taşıyor. Arkadan itişli şasi ve kusursuz 8 ileri şanzıman, sürüşü her durumda keyifli kılıyor.',
+      'Soğutma sistemi bileşenlerindeki erken yıpranma ve run-flat lastiklerin getirdiği sertlik, bu otomobilin bilinen zayıf noktaları. Ama sürüş keyfi arayanlar için ikinci elde sınıfının en mantıklı seçimlerinden biri.',
+    ],
     summary: 'Türkiye’ye özel 1.6 motor aslında 2.0 litrelik kardeşiyle aynı bloktan geliyor; yazılım (chip tuning) ile yaklaşık 300 beygire kadar güç alınabildiği biliniyor. Standart hâlinde bile sınıfının en keyifli sedanlarından; güç artışı düşünenler garanti kaybını ve motor ömrüne etkisini hesaba katmalı.',
   },
   {
@@ -2906,6 +2965,14 @@ const RAW_CARS = [
     reviewExtra: {
       guvenilirlik: '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
     },
+    longReview: [
+      '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
+      'Üçüncü nesil Tucson, Avrupa’da satılan versiyonlarıyla Çekya’daki Hyundai fabrikasında üretildi ve Hyundai’nin Avrupa’daki en çok satan modeli oldu. Bu başarının sırrı, geniş kabin, güvenilir mekanik ve rekabetçi fiyatın dengeli bir birleşimiydi.',
+      'Makyajla birlikte Tucson, kabinde ve donanımda önemli yenilikler kazandı. Torpidonun üstünde serbest duran büyük bir multimedya ekranı, üst donanımlarda Amerikan hi-fi markası Krell imzalı bir ses sistemi ve geniş panoramik cam tavan sunuluyordu. Arka koltuk ve bagaj, aileler için rahatça yetecek boyutta.',
+      'Dizel motor ve yedi ileri çift kavramalı şanzıman, uzun yolda ekonomik ve canlı bir sürüş sunuyor. Ama daha önce belirttiğimiz gibi bu şanzıman yoğun dur-kalk trafikte ısınma uyarısı verebiliyor ve kalkışlarda titreyebiliyor. Bu otomobili daha çok şehir içinde kullanacaksanız bunu göz önünde bulundurmak önemli.',
+      'Sürüşte Tucson rahat ve güvenli, ama direksiyon hissi zayıf; virajlarda sportif bir karakter beklememek gerekiyor.',
+      'Multimedya ve tasarım artık yaşını hissettiriyor. Ama Hyundai’nin güvenilir mekaniği, geniş kabini ve ikinci el piyasasındaki güçlü talebiyle, Tucson bütçe dostu bir aile SUV’u arayanlar için hâlâ mantıklı bir seçim.',
+    ],
     summary: 'Önceki nesil Tucson; ekonomik ve güvenilir, ikinci elde mantıklı bir aile SUV’u.',
   },
   {
@@ -3225,6 +3292,13 @@ const RAW_CARS = [
     ratings: { surus: 8.6, guvenlik: 8.8, konfor: 8.4, tuketim: 8.6, malzeme: 8.2, tasarim: 8.2, fiyat: 7.2, teknoloji: 7.8, guvenilirlik: 9.2, ikinciel: 7.6 },
     pros: ['Sınıfının en keyifli sürüşlerinden', 'Güçlü ve verimli hibrit', 'Kaliteli işçilik', 'Sessiz ve pürüzsüz hibrit geçişleri'],
     cons: ['Küçük bagaj', 'Yüksek fiyat'],
+    longReview: [
+      'ZR-V, Honda’nın HR-V ile CR-V arasında konumlanan kompakt SUV’u. Honda, adındaki “Z” harfinin en yüksek seviyeyi, “R”nin de çevik bir gezinti aracını simgelediğini söylüyor. Bu da Honda’nın bu otomobille neyi hedeflediğini anlatıyor: bir SUV’un pratikliğini, bir hatchback’in sürüş keyfiyle birleştirmek.',
+      'ZR-V’nin kalbinde Honda’nın e:HEV hibrit sistemi var. Şehir içinde ve düşük hızlarda tekerlekleri her zaman elektrik motoru döndürüyor; benzinli motor ise çoğu zaman yalnızca bataryayı şarj eden bir jeneratör. Otoyolda, verimli olduğu hızlarda ise benzinli motor doğrudan tekerleklere güç veriyor. Bu geçişler o kadar pürüzsüz ki çoğu zaman fark etmiyorsunuz.',
+      'Sürüşte ZR-V, Civic’ten gelen altyapısı sayesinde sınıfının en keyifli otomobillerinden biri. Direksiyon net, gövde virajlarda dengeli; bir SUV’dan beklemeyeceğiniz kadar çevik. Honda Sensing 360 güvenlik paketi de otomobilin etrafını 360 derece izleyerek kör noktaları ve kavşakları daha güvenli hâle getiriyor.',
+      'Kabin işçiliği Honda’nın bilinen kalitesinde; yumuşak yüzeyler ve sağlam montaj kabine premium bir his veriyor.',
+      'ZR-V’nin zayıf yanları küçük bagaj ve yüksek fiyat. Hibrit batarya nedeniyle bagaj sınıf ortalamasının altında; fiyatı da rakiplerine göre yüksek. Ama sürüş keyfi, verimli hibrit sistemi ve Honda güvenilirliğiyle, keyifli bir SUV arayanlar için çok güçlü bir seçim.',
+    ],
     summary: 'Civic’in sürüş karakterini SUV’a taşıyan, verimli ve kaliteli bir aile otomobili; bagajı zayıf halkası.',
   },
   {
@@ -3330,6 +3404,13 @@ const RAW_CARS = [
     ratings: { surus: 6.8, guvenlik: 7.4, konfor: 7.4, tuketim: 7.2, malzeme: 7.0, tasarim: 7.8, fiyat: 7.4, teknoloji: 7.8, guvenilirlik: 8.4, ikinciel: 8.6 },
     pros: ['Sorunsuz atmosferik motor ve klasik otomatik', 'Geniş kabin', 'İzmit üretimi, kolay satılıyor'],
     cons: ['Performans sınırlı', 'Tüketim turbo rakiplerden yüksek'],
+    longReview: [
+      'Üçüncü nesil i20, Hyundai’nin İzmit’teki fabrikasında üretiliyor ve buradan Avrupa’nın dört bir yanına ihraç ediliyor. Önceki nesle göre çok daha alçak, geniş ve keskin bir tasarıma sahip; yan yüzeydeki çapraz çizgi ve arkada lambaları birleştiren ışık şeridi, otomobile sınıfının en sportif görünümlerinden birini kazandırıyor.',
+      'Kabinde iki büyük ekran var: dijital gösterge ve multimedya ekranı. Havalandırma ızgaralarını birbirine bağlayan yatay çizgiler kabine ferah bir hava veriyor. Üst donanımlarda Bose ses sistemi sunuluyor. Kabin, bu sınıf için çok geniş; arka koltukta yetişkinler rahatça oturabiliyor.',
+      'Bu versiyonun en büyük avantajı mekanik basitliği. Atmosferik motor ve klasik altı ileri tam otomatik şanzıman, turbo ve çift kavramalı şanzımanlı rakiplerin aksine uzun vadede çok güvenilir bir mekanik sunuyor. Şehir içi dur-kalk trafikte de klasik otomatik çok yumuşak ve sarsıntısız.',
+      'Bedeli ise performans ve tüketim. Motor güçlü değil; dolu araçla otoyolda ve sollamalarda zorlanıyor. Tüketim de turbo rakiplere göre daha yüksek.',
+      'İzmit üretimi sayesinde parça ve servis kolay; ikinci el piyasasında da çok kolay satılıyor. Sorunsuz, geniş ve otomatik şanzımanlı bir şehir otomobili arayanlar için çok mantıklı bir seçim.',
+    ],
     summary: 'Turbo ve çift kavrama şanzıman istemeyenler için basit, dayanıklı ve kolay satılan bir tercih.',
   },
   {
@@ -3646,6 +3727,15 @@ const RAW_CARS = [
       guvenilirlik: '7 ileri S tronic şanzımanın çift kütleli volanı 60.000–80.000 km civarında ses yapmaya başlayabiliyor; özellikle rölantide ve ilk kalkışta şıkırtı/tıkırtı duyulabiliyor.',
       malzeme: 'Çerçevesiz dikiz aynasının arkasındaki plastik kapaklardan ve ön kapı içlerindeki LED ambiyans şeritlerinin yuvalarından ince tıkırtılar gelebiliyor.',
     },
+    longReview: [
+      'Çerçevesiz dikiz aynasının arkasındaki plastik kapaklardan ve ön kapı içlerindeki LED ambiyans şeritlerinin yuvalarından ince tıkırtılar gelebiliyor.',
+      '7 ileri S tronic şanzımanın çift kütleli volanı 60.000–80.000 km civarında ses yapmaya başlayabiliyor; özellikle rölantide ve ilk kalkışta şıkırtı/tıkırtı duyulabiliyor.',
+      'Makyajlı A4, Almanya’nın Ingolstadt ve Neckarsulm şehirlerindeki Audi fabrikalarında üretiliyor. Makyajla birlikte gelen en büyük değişiklik kabinde: Önceki versiyonun döner kumandası kaldırıldı ve yerine torpidoya entegre edilmiş büyük bir dokunmatik ekran geldi. Ekran, sürücüye doğru hafifçe açılı yerleştirilmiş; dokunduğunuzda hafif bir tık sesiyle onay veriyor.',
+      'Dış tasarımda da makyaj belirgin: Daha geniş ve basık ön ızgara, yeniden tasarlanan farlar ve çamurlukların üzerinden geçen keskin çizgiler, A4’e daha güçlü bir duruş kazandırdı. Opsiyonel Matrix LED farlar, karşıdan gelen aracı ışık huzmesinin dışında bırakırken yolun geri kalanını aydınlatmaya devam ediyor.',
+      'Daha önce bahsettiğimiz gibi 40 TDI motor, Audi’nin hafif kasasıyla birleşince hem çok ekonomik hem de canlı bir performans sunuyor. Uzun yolda tüketimi çok düşük; kabin de otoyol hızlarında çok sessiz. Bu, A4’ü uzun yol yapan iş insanlarının gözdesi yapıyor.',
+      'İşçilik Audi’nin bilinen seviyesinde; yüzeylerin birleşim yerleri ve düğmelerin hissi kusursuz. Arka koltuk sınıf ortalamasında, ortadaki yolcu için şaft tüneli dar.',
+      'Daha önce belirttiğimiz S tronic volanı ve kabin plastiklerindeki cızırtı riskleri, ikinci el alırken göz önünde bulundurulmalı. Ama düşük tüketimi, sessiz kabini ve güçlü değer korumasıyla A4, uzun yol için en mantıklı premium sedanlardan biri.',
+    ],
     summary: 'Sessizliği ve işçiliğiyle uzun yolların rahat premium sedanı.',
   },
   {
