@@ -16,6 +16,12 @@ const serverEntry = path.join(root, 'dist-server', 'entry-server.js');
 
 const { render } = await import(pathToFileURL(serverEntry).href);
 const { getSeo, allRoutes } = await import(pathToFileURL(path.join(root, 'src/lib/seo.js')).href);
+// SEO’daki SSS yapılandırılmış verisi için inceleme ayrıntılarını hazırla
+{
+  const { DETAILS } = await import(pathToFileURL(path.join(root, 'src/data/carDetails.js')).href);
+  const { primeDetails } = await import(pathToFileURL(path.join(root, 'src/lib/detailsStore.js')).href);
+  primeDetails(DETAILS);
+}
 const { SITE_URL, SITE_NAME } = await import(pathToFileURL(path.join(root, 'src/config.js')).href);
 
 const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');

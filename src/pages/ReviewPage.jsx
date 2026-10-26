@@ -7,6 +7,7 @@ import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
 import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
 import RadarChart from '../components/RadarChart.jsx';
+import { useCarDetails } from '../lib/details.js';
 import { guidesForCar } from '../data/guides.js';
 import { POPULAR_COMPARISONS } from '../data/comparisons.js';
 import { comparePath } from '../lib/compare.js';
@@ -112,7 +113,7 @@ function FullReview({ car, category }) {
         ))}
         {car.longReview && (
           <p className="text-sm text-muted pt-2 border-t border-rule">
-            Bu inceleme, OtoVaro editörünün otomobili bizzat kullanma deneyimine dayanır.{' '}
+            Bu inceleme, OtoVaro editörlerinin kullanım deneyimlerine ve araştırmalarına dayanır.{' '}
             <Link to="/hakkinda" className="text-link hover:underline underline-offset-2">Biz kimiz?</Link>
           </p>
         )}
@@ -156,7 +157,10 @@ function RelatedLinks({ car }) {
 
 export default function ReviewPage() {
   const { slug } = useParams();
-  const car = getCar(slug);
+  const base = getCar(slug);
+  // Uzun inceleme ve SSS ayrı yüklenir (ana paket hafif kalsın)
+  const details = useCarDetails(base ? slug : null);
+  const car = base && details ? { ...base, ...details } : base;
   useTitle(car ? `${car.year} ${car.make} ${car.model} incelemesi` : null);
   if (!car) return <NotFound />;
 

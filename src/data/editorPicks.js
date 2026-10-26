@@ -5,6 +5,23 @@
 // ---------------------------------------------------------------------------
 export const EDITOR_WEEKS = [
   {
+    week: '26 Ekim 2026 haftası',
+    items: [
+      {
+        car: 'porsche-panamera-2026',
+        text: 'Dört yetişkini bir iş sedanı konforunda taşıyıp virajlı yolda spor otomobile dönüşen nadir otomobillerden; gövdeyi her koşulda dengede tutan Active Ride süspansiyonu tek başına bir deneyim.',
+      },
+      {
+        car: 'bmw-x3-2026',
+        text: 'Türkiye’ye özel vergi avantajlı motoruyla orta boy premium SUV’lara en mantıklı giriş; ön tasarımı tartışmalı olsa da direksiyona geçtiğinizde sınıfının hâlâ en keyifli SUV’u.',
+      },
+      {
+        car: 'hyundai-tucson-2026',
+        text: 'Dikkat çekici tasarımı, geniş kabini ve şimdiye kadarki en güçlü motoruyla ciddi ciddi değerlendirilmesi gereken bir aile SUV’u; DCT’nin yoğun trafikteki huyunu bilerek alınmalı.',
+      },
+    ],
+  },
+  {
     week: '19 Ekim 2026 haftası',
     items: [
       {

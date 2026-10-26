@@ -1,4 +1,5 @@
 import { CARS, CATEGORIES, getCar, getCategory } from '../data/cars.js';
+import { getDetails } from './detailsStore.js';
 import { SITE_URL, SITE_NAME } from '../config.js';
 import { GUIDES, getGuide } from '../data/guides.js';
 import { POPULAR_COMPARISONS } from '../data/comparisons.js';
@@ -94,12 +95,12 @@ function reviewSeo(car) {
       },
       reviewRating: { '@type': 'Rating', ratingValue: car.score, bestRating: 10, worstRating: 0 },
     },
-    ...(car.faq?.length
+    ...(getDetails(car.slug)?.faq?.length
       ? [
           {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: car.faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+            mainEntity: getDetails(car.slug).faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
           },
         ]
       : []),
