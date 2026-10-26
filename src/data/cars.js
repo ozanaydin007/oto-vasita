@@ -1040,6 +1040,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Bu otomobilde 1.5 eTSI motor, Golf gibi kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında. Buna hafif hibrit sistemin 48V aküsünde yaşanabilen sorunlar da ekleniyor; bu arızaların ne zaman ortaya çıkacağı belirsiz ve kalıcı bir çözümleri pek yok. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
     },
+    longReview: [
+      'Bu otomobilde 1.5 eTSI motor, Golf gibi kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında. Buna hafif hibrit sistemin 48V aküsünde yaşanabilen sorunlar da ekleniyor; bu arızaların ne zaman ortaya çıkacağı belirsiz ve kalıcı bir çözümleri pek yok. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
+      'İkinci nesil Kodiaq, Çek Cumhuriyeti’nin Kvasiny şehrindeki Škoda fabrikasında üretiliyor. Adını Alaska’daki Kodiak adasında yaşayan dev boz ayıdan alıyor; Škoda, adın yazılışını Alaska’nın yerli halklarının dilinden ilham alarak değiştirdi. İkinci nesille birlikte Kodiaq daha da büyüdü ve teknoloji açısından bir üst sınıfa yaklaştı.',
+      'Kabinde Škoda’nın “Smart Dials” adı verilen içinde küçük ekranlar bulunan üç fiziksel döner düğmesi var. Sıcaklığı, koltuk ısıtma ve havalandırmayı, ses seviyesini ve sürüş modlarını bu düğmelerle ekrana bakmadan ayarlayabiliyorsunuz. Vites seçici direksiyonun arkasına taşındı; orta konsolda geniş saklama alanları açıldı.',
+      'Kodiaq’ın akıllı detayları bir aile otomobilinde gerçekten işe yarıyor. Ön kapıların içinde şemsiyeler, yakıt kapağının arkasında buz kazıyıcı, bagajda ise eşyaları sabitlemeye yarayan ağlar ve kancalar. Yedi koltuk seçeneği ve dev bagajıyla kalabalık aileler için çok uygun.',
+      'Sürüşte Kodiaq çok konforlu ve sessiz. Opsiyonel adaptif süspansiyon, bozuk yolları çok iyi süzüyor. Ama bu versiyonun motoru, bu büyük gövde için dolu araçla zorlanabiliyor.',
+      'Daha önce belirttiğimiz 48V akü ve DQ381 mekatronik riskleri göz önünde bulundurulmalı. Büyük boyutları da şehirde park ederken zorlayıcı olabiliyor. Ama geniş kabini, pratik detayları ve konforuyla aileler için segmentin en mantıklı seçimlerinden biri.',
+    ],
     summary: 'Kalabalık aileler için sınıfının en mantıklı seçeneği; alan ve konforda neredeyse rakipsiz.',
   },
   {
@@ -1344,6 +1352,13 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 9.0, konfor: 8.6, tuketim: 8.0, malzeme: 7.6, tasarim: 7.6, fiyat: 6.8, teknoloji: 8.0, guvenilirlik: 7.4, ikinciel: 6.6 },
     pros: ['Konforlu, sessiz sürüş', 'Geniş kabin ve bagaj', 'Olgun yol davranışı', 'Düz tabanlı, ferah kabin', 'Arkadan itiş sayesinde çok dar dönüş çapı'],
     cons: ['Fiyatına göre kısa menzil', 'Dokunmatik tuşlar', 'Ön bagaj (frunk) yok'],
+    longReview: [
+      'ID.4, Volkswagen’in elektrikli otomobiller için sıfırdan geliştirdiği altyapıyı kullanan ilk SUV ve Almanya’nın Zwickau şehrindeki fabrikada üretiliyor. Bu fabrika, Volkswagen’in tamamen elektrikli otomobil üretimine geçirdiği ilk büyük fabrikası.',
+      'ID.4’ün kabinindeki en ilginç detay, ön camın hemen altında boydan boya uzanan ince ışık şeridi. Volkswagen buna ID.Light diyor. Bu şerit, navigasyonda dönmeniz gereken yönü yanıp sönerek gösteriyor, şarj durumunu bildiriyor ve sesli asistanı kullandığınızda tepki veriyor. Gaz ve fren pedallarının üzerinde ise oynat ve duraklat simgeleri var; Volkswagen’in elektrikli otomobillere eğlenceli bir dokunuşu.',
+      'Elektrikli altyapı sayesinde kabin tabanı tamamen düz ve çok ferah. Motorun arkada olması, ön tekerleklerin çok daha fazla dönebilmesini sağlıyor; bu da ID.4’e bu boyuttaki bir SUV için şaşırtıcı derecede küçük bir dönüş çapı kazandırıyor. Dar sokaklarda ve otoparklarda çok kolay manevra yapıyor.',
+      'Makyajla birlikte yazılım belirgin şekilde iyileşti ve önceki versiyonda gece görülemeyen dokunmatik kaydırma panelleri aydınlatmalı hâle getirildi. Sürüş konforlu, sessiz ve olgun.',
+      'Bu versiyonun zayıf yanı küçük bataryası; fiyatına göre menzil kısa. Ön bagaj da yok. Ama konforlu sürüşü ve geniş kabiniyle, şehir içinde ve kısa mesafelerde kullanılacak bir elektrikli aile SUV’u arayanlar için mantıklı bir seçim.',
+    ],
     summary: 'Aileler için rahat bir elektrikli SUV; ancak bu fiyata rakipleri çok daha uzun menzil sunuyor.',
   },
   {
@@ -1817,6 +1832,13 @@ const RAW_CARS = [
     ratings: { surus: 6.1, guvenlik: 5.3, konfor: 5.7, tuketim: 7.4, malzeme: 5.5, tasarim: 5.9, fiyat: 7.6, teknoloji: 5.1, guvenilirlik: 8.6, ikinciel: 8.0 },
     pros: ['İzmit üretimi, parça ve servis kolay', 'Şehirde park etmesi çok kolay', 'Basit ve dayanıklı mekanik'],
     cons: ['4 ileri otomatik yavaş ve fazla yakıyor', 'Güvenlik donanımı çok sınırlı'],
+    longReview: [
+      'i10, Hyundai’nin İzmit’teki fabrikasında üretiliyor ve buradan Avrupa’nın dört bir yanına ihraç ediliyor. Avrupa’nın en çok satan şehir otomobilleri arasında yer alan i10, küçük boyutlarına rağmen şaşırtıcı derecede olgun bir otomobil.',
+      'i10’un en büyük kozu, şehir hayatına mükemmel uyumu. Çok küçük dış boyutları, kısa dönüş çapı ve hafif direksiyonuyla dar sokaklarda ve sıkışık otoparklarda rakipsiz. Paralel park yapmak, bu otomobille neredeyse zevkli hâle geliyor.',
+      'İzmit üretimi sayesinde parça ve servis çok kolay; neredeyse her usta bu otomobili tanıyor. Atmosferik motor da basit ve dayanıklı; uzun vadede arıza ihtimali çok düşük. Kabin, bu sınıf için şaşırtıcı derecede geniş; arka koltukta kısa yolculuklarda yetişkinler oturabiliyor.',
+      'Bu versiyonun zayıf yanı dört ileri otomatik şanzıman. Hem yavaş hem de modern şanzımanlara göre daha fazla yakıyor; otoyolda motor yüksek devirde çalışıyor. Güvenlik donanımı da çok sınırlı.',
+      'i10’u bir şehir otomobili olarak görmek gerekiyor. Şehirde yaşayan, otomatik şanzımanlı, park etmesi kolay ve masrafsız bir küçük otomobil arayanlar için ikinci elde çok mantıklı bir seçim.',
+    ],
     summary: 'Sadece şehir içi kısa yollar için mantıklı; otoyolda ve güvenlikte sınıfının çok gerisinde kalıyor.',
   },
   {
@@ -1844,6 +1866,13 @@ const RAW_CARS = [
     ratings: { surus: 5.3, guvenlik: 6.3, konfor: 5.7, tuketim: 7.0, malzeme: 5.1, tasarim: 4.7, fiyat: 6.4, teknoloji: 4.1, guvenilirlik: 5.8, ikinciel: 5.2 },
     pros: ['Düşük dizel tüketimi', 'Ferah ve aydınlık kabin', 'Geniş bagaj'],
     cons: ['Dualogic şanzıman sarsıntılı ve arızaya açık', 'Ağır gövdeye çok zayıf motor'],
+    longReview: [
+      '500L, Fiat 500’ün sevimli tasarım dilini daha büyük ve daha pratik bir aile otomobiline taşıma denemesiydi. Sırbistan’ın Kragujevac şehrindeki fabrikada üretilen otomobil, adındaki “L” harfiyle “Large” yani büyük anlamına geliyor.',
+      '500L’nin en güçlü yanı kabin ferahlığı. Yüksek tavan, büyük yan camlar ve geniş ön cam, kabini çok aydınlık ve ferah hissettiriyor. Ön direkleri ikiye bölen küçük üçgen camlar da görüş açısını genişletiyor. Bagaj da bu boyuttaki bir otomobil için büyük.',
+      'Fiat’ın bu otomobil için sunduğu ilginç bir aksesuar da vardı: İtalyan kahve markası Lavazza ile birlikte geliştirilen, otomobilin içinde kullanılabilen bir espresso makinesi. İtalyan otomobil kültürünün eğlenceli bir yansıması.',
+      'Dizel motor çok ekonomik; ama bu ağır gövde için çok zayıf kalıyor. Otoyolda ve yokuşlarda belirgin şekilde zorlanıyor. Dualogic robotize şanzıman da en büyük zayıf noktası: Vites geçişleri sarsıntılı ve yavaş; ayrıca bu şanzıman arızaya açık ve tamiri pahalı olabiliyor. İkinci el alırken şanzımanın bakım geçmişini mutlaka kontrol edin.',
+      '500L’yi alırken bu şanzıman riskini çok iyi değerlendirmek gerekiyor. Mümkünse manuel şanzımanlı bir örnek tercih etmek çok daha mantıklı.',
+    ],
     summary: 'Geniş kabini ve düşük tüketimi var ama yavaş, sarsıntılı şanzımanı ve orantısız tasarımı onu zor bir tercih yapıyor.',
   },
   {
@@ -1854,6 +1883,13 @@ const RAW_CARS = [
     ratings: { surus: 5.7, guvenlik: 7.5, konfor: 6.1, tuketim: 5.4, malzeme: 6.3, tasarim: 7.3, fiyat: 6.0, teknoloji: 6.7, guvenilirlik: 6.8, ikinciel: 5.8 },
     pros: ['Güçlü motor', 'Dikkat çekici tasarım', 'Zengin donanım listesi'],
     cons: ['Gerçek kullanımda yüksek tüketim', 'Hızlı ikinci el değer kaybı ve belirsiz servis deneyimi'],
+    longReview: [
+      'Omoda 5, Çinli Chery’nin genç ve şehirli bir kitleye hitap etmek için kurduğu Omoda markasının ilk modeli. Chery, Omoda’yı ana markasından daha sportif ve teknolojik bir çizgide konumlandırıyor; Türkiye de markanın Avrupa’ya açılırken önem verdiği pazarlardan biri.',
+      'Omoda 5’in en dikkat çekici yanı tasarımı. Çerçevesiz, elmas desenli ön ızgara, ince farlar ve kupa gibi eğimli tavan, otomobile sınıfının en fütüristik görünümlerinden birini kazandırıyor. Kabinde de sürücünün önünden orta konsola kadar uzanan geniş ekran düzeni ve ambiyans aydınlatması bu fütüristik havayı devam ettiriyor.',
+      'Donanım listesi fiyatına göre çok zengin: 360 derece kamera, kablosuz şarj, havalandırmalı koltuklar ve kapsamlı sürüş destek sistemleri. Turbo benzinli motor güçlü ve canlı; çift kavramalı şanzımanla birlikte hızlı bir performans sunuyor.',
+      'Bedeli ise tüketim; gerçek kullanımda katalog değerlerinin belirgin şekilde üzerinde yakıyor. Sürüş dinamikleri ve süspansiyon ayarı da Avrupalı rakiplerin gerisinde.',
+      'Omoda 5’in en büyük soru işareti ikinci el değeri ve servis deneyimi. Marka Türkiye’de çok yeni olduğu için uzun vadede değer kaybı ve servis kalitesi henüz belirsiz. Satın almadan önce bölgenizdeki servis ağını ve garanti koşullarını mutlaka kontrol edin.',
+    ],
     summary: 'Kâğıt üzerinde dolu ama tüketimi, sürüş olgunluğu ve ikinci el değeri beklentinin gerisinde kalıyor.',
   },
   {
@@ -3816,6 +3852,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
     },
+    longReview: [
+      'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
+      'T-Roc’un ilk versiyonu, Portekiz’in Palmela şehrindeki Volkswagen fabrikasında üretiliyor ve 2017’de çıktığında Volkswagen’in küçük SUV sınıfındaki en cesur tasarımı olarak görüldü. Kupa gibi eğimli tavan, iki renkli gövde seçenekleri ve köşeli gündüz farları, T-Roc’u o dönemin ağırbaşlı Volkswagen’lerinden belirgin şekilde ayırıyordu.',
+      'Bu ilk versiyonun kabinindeki en karakteristik detay, torpidodaki gövde rengine boyanmış paneller. Dışarıdaki boya renginin kabinin içine taşınması, T-Roc’a genç ve neşeli bir hava katıyordu. Makyajla birlikte bu paneller kaldırıldı ve yerlerine daha yumuşak dokulu kaplamalar geldi; bu yüzden ilk versiyon, bu renkli detayı sevenler için ayrı bir çekiciliğe sahip.',
+      'Dijital gösterge paneli bu versiyonda da sunuluyordu; navigasyon haritasını direksiyonun arkasında tam ekran görebiliyorsunuz. Sürüşte T-Roc, sınıfının en çevik otomobillerinden biri: Direksiyon hızlı, gövde virajlarda dengeli; güçlü turbo motor ve DSG şanzıman canlı bir performans sunuyor.',
+      'Bu ilk versiyonun zayıf yanı kabin malzemeleri. Torpido ve kapı yüzeylerinde sert plastikler yoğun; makyajlı versiyonda bu belirgin şekilde iyileştirildi. Arka koltuk da uzun boylular için sınırlı.',
+      'Daha önce belirttiğimiz DQ200 şanzıman ve vites kolu riskleri, ikinci el alırken en önemli kontrol noktaları. Buna rağmen güçlü ikinci el değeri ve sürüş keyfiyle T-Roc, ikinci elde çok aranan bir küçük SUV olmaya devam ediyor.',
+    ],
     summary: 'Golf sürüş karakterini yüksek bir gövdede sunan, ikinci elde de kolay satılan bir C-SUV.',
   },
   {
@@ -3827,6 +3871,13 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 8.2, konfor: 7.8, tuketim: 7.8, malzeme: 7.4, tasarim: 8.0, fiyat: 7.6, teknoloji: 7.8, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Kayar arka koltuk', 'Güçlü motor', 'Dikey büyük ekran'],
     cons: ['EDC düşük hızda sarsıntılı olabiliyor', 'Arka orta koltuk dar'],
+    longReview: [
+      'İkinci nesil Captur, Renault’nun Avrupa’daki en çok satan SUV’larından biri ve İspanya’nın Valladolid şehrindeki fabrikada üretiliyor. Önceki nesle göre daha büyük, daha kaliteli ve daha olgun bir otomobile dönüştü; Clio V ile aynı altyapıyı paylaşıyor.',
+      'Kabinin en ilginç tasarım detayı, “uçan konsol” adı verilen orta konsol. Konsol, ön koltuklar arasında havada asılı gibi duruyor; altında çanta ya da büyük eşyalar için açık bir alan bulunuyor. Torpidonun ortasındaki dikey büyük dokunmatik ekran ise kabini çok modern gösteriyor.',
+      'Captur’un en pratik özelliği kayar arka koltuk. Arka sıra ileri-geri kaydırılabiliyor; bagajı büyütmek istediğinizde öne, arkada uzun boylu yolcular taşırken geriye alıyorsunuz. Bu esneklik, bu sınıfta pek rastlanmayan bir avantaj.',
+      'Turbo benzinli motor güçlü ve canlı; şehir içinde ve otoyolda rahat bir performans sunuyor. Ama EDC çift kavramalı şanzıman, düşük hızlarda ve dur-kalk trafikte zaman zaman sarsıntılı olabiliyor; ikinci el alırken şanzımanın davranışını test sürüşünde mutlaka gözlemleyin.',
+      'Kabin kalitesi bu sınıfta iyi; yumuşak dokulu yüzeyler ve kişiselleştirilebilir renk seçenekleri kabine sıcak bir hava katıyor. Arka orta koltuk ise dar. Ama pratikliği, modern kabini ve güçlü motoruyla küçük SUV sınıfının en dengeli seçeneklerinden biri.',
+    ],
     summary: 'Pratik kabini ve güçlü motoruyla dengeli, kolay satılan bir C-SUV.',
   },
   {
@@ -3913,6 +3964,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Otoyol süratlerinde arka çamurlukların iç yalıtımı zayıf kaldığı için, yağmurlu havada arkadaki yolcular tekerleklerden sıçrayan suyu kabinin içindeymiş gibi yüksek sesle duyabiliyor.',
     },
+    longReview: [
+      'Otoyol süratlerinde arka çamurlukların iç yalıtımı zayıf kaldığı için, yağmurlu havada arkadaki yolcular tekerleklerden sıçrayan suyu kabinin içindeymiş gibi yüksek sesle duyabiliyor.',
+      'Beşinci nesil RAV4, Toyota’nın yeni nesil altyapısını kullanıyor ve önceki nesillerin yumuşak çizgilerini bırakıp çok daha köşeli, kaslı ve maceracı bir tasarıma geçti. Köşeli çamurluklar, büyük ızgara ve sekizgen biçimli detaylar, RAV4’e bir arazi aracı duruşu kazandırıyor.',
+      'Bu versiyonun kalbinde Toyota’nın 2.5 litrelik hibrit sistemi var. Bu sistemin benzinli motoru, Toyota’nın “Dynamic Force” adını verdiği ve ısıl verimliliği seri üretim benzinli motorlar arasında en yüksek seviyelerden birine ulaşan bir motor. Yani yaktığı yakıttaki enerjinin çok büyük bir kısmını harekete dönüştürebiliyor. Elektrik motorlarıyla birlikte bu, RAV4’e hem güçlü bir performans hem de bu boyuttaki bir SUV için şaşırtıcı derecede düşük bir tüketim kazandırıyor.',
+      'Kabin geniş ve pratik. Arka koltukta diz mesafesi bol; bagaj da sınıfının en büyüklerinden. Bagaj tabanı iki farklı yüksekliğe ayarlanabiliyor ve tersine çevrildiğinde yıkanabilir bir yüzeye dönüşüyor.',
+      'Daha önce bahsettiğimiz gibi arka çamurlukların yalıtımı zayıf; özellikle yağmurlu havada otoyolda arka yolcular belirgin bir su ve yol sesi duyuyor. Ani gaz verdiğinizde de hibrit şanzıman motoru yüksek devirde tutup sesli bir karakter sergiliyor.',
+      'Kabin malzemeleri fiyatının gerisinde kalıyor. Ama Toyota’nın efsanevi güvenilirliği, uzun ömürlü hibrit sistemi ve ikinci elde olağanüstü talep, RAV4’ü uzun vadede çok mantıklı bir aile SUV’u yapıyor.',
+    ],
     summary: 'Büyük gövdede küçük araç tüketimi; uzun yıllar sorunsuz kullanılacak bir aile SUV’u.',
   },
   {
@@ -3927,6 +3986,14 @@ const RAW_CARS = [
     reviewExtra: {
       guvenilirlik: '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
     },
+    longReview: [
+      '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
+      'Dördüncü nesil Tucson, Hyundai’nin tasarım cesaretinin en iyi örneklerinden biri. Ön taraftaki en ilginç detay, Hyundai’nin “gizli parametrik farlar” dediği gündüz farları: Otomobil kapalıyken ızgaranın elmas desenli yüzeyinin bir parçası gibi görünüyor ve fark edilmiyorlar; çalıştırdığınızda ise ızgaranın içinden kanat biçiminde ışıklar beliriyor. Bu detay, Tucson’u yolda hemen tanınır kılıyor.',
+      'Avrupa’da satılan Tucson’lar Çekya’daki Hyundai fabrikasında üretiliyor. Kabinde sürücünün önünde dijital gösterge, orta konsolda ise dokunmatik tuşlarla çevrili büyük bir ekran var. Havalandırma sisteminin ilginç bir modu var: Havayı doğrudan yüze üflemek yerine dolaylı olarak dağıtan bu mod, uzun yolda yüze gelen sert hava akımının rahatsızlığını ortadan kaldırıyor.',
+      'Bagaj sınıfının en büyüklerinden; arka koltuk da aileler için geniş. Hafif hibrit dizel motor ekonomik; ama dolu araçla ve yokuşlarda sınırda kalabiliyor.',
+      'Daha önce belirttiğimiz gibi yedi ileri DCT şanzıman yoğun dur-kalk trafikte ısınma uyarısı verebiliyor ve kalkışlarda titreyebiliyor. Bu otomobili daha çok şehir içinde kullanacaksanız bunu göz önünde bulundurmak önemli. Direksiyon hissi de zayıf; Tucson sportif değil, rahat ve güvenli bir aile otomobili.',
+      'Cesur tasarımı, geniş bagajı ve zengin donanımıyla Tucson, C-SUV sınıfında hem göze hem de cebe hitap eden seçeneklerden biri.',
+    ],
     summary: 'Yeni nesil Tucson’un dizel versiyonu; donanım, alan ve tasarımda sınıfının önünde.',
   },
   {
@@ -3959,6 +4026,14 @@ const RAW_CARS = [
     reviewExtra: {
       teknoloji: 'Akıllı dikiz aynası ve şerit takip kamerası, ön camda aşırı buğulanma veya aşırı sıcaklık durumlarında kendini kapatarak güvenlik sistemlerini devre dışı bırakabiliyor.',
     },
+    longReview: [
+      'Akıllı dikiz aynası ve şerit takip kamerası, ön camda aşırı buğulanma veya aşırı sıcaklık durumlarında kendini kapatarak güvenlik sistemlerini devre dışı bırakabiliyor.',
+      'Üçüncü nesil Qashqai, İngiltere’nin Sunderland şehrindeki Nissan fabrikasında üretiliyor. Bu fabrika, Avrupa’nın en verimli otomobil fabrikalarından biri olarak biliniyor ve Qashqai’nin bütün nesilleri burada üretildi. Avrupa’da “crossover” sınıfını yaratan otomobilin İngiliz üretimi olması, onu Avrupa pazarında ayrı bir yere koyuyor.',
+      'Bu versiyonun hafif hibrit sistemi, turbo benzinli motoru küçük bir elektrik motoruyla destekliyor. Kalkışlarda ek tork sağlıyor ve start-stop geçişlerini yumuşatıyor. Xtronic sürekli değişken şanzıman ise sakin sürüşte çok akıcı ve sessiz.',
+      'Skypack donanımının en dikkat çekici özelliği, kabinin neredeyse tamamını kaplayan panoramik cam tavan. Kabin aydınlık ve ferah; arka koltuktaki yolcular gökyüzünü görerek seyahat ediyor. Nissan’ın ProPilot sürüş destek sistemi de otoyolda direksiyonu, gazı ve freni yöneterek uzun yolculukları çok daha az yorucu hâle getiriyor.',
+      'Daha önce belirttiğimiz gibi ön kamera sensörleri sıcaklık ve buğudan çabuk etkilenip geçici olarak kapanabiliyor; bu da şerit takip gibi sistemlerin devre dışı kalmasına yol açıyor. Xtronic şanzıman da hızlanmalarda motoru yüksek devirde tutup gürültülü bir karakter sergiliyor; otoyolda tüketim artıyor.',
+      'Kabin kalitesi sınıf ortalamasının üzerinde; rahat süspansiyonuyla Qashqai, şehir içi konforu önceliği olan aileler için mantıklı bir seçim.',
+    ],
     summary: 'Üçüncü nesil Qashqai; konforu ve kalitesiyle ailelerin rahat SUV’u.',
   },
   {
@@ -4332,6 +4407,13 @@ const RAW_CARS = [
     ratings: { surus: 8.2, guvenlik: 9.4, konfor: 8.6, tuketim: 7.8, malzeme: 8.0, tasarim: 8.4, fiyat: 7.0, teknoloji: 9.6, guvenilirlik: 6.8, ikinciel: 6.6 },
     pros: ['Falcon Wing kapılar', '7 koltuk seçeneği', 'Güçlü performans'],
     cons: ['Karmaşık kapılar arıza riski taşıyor', 'Türkiye’ye resmî olarak getirilmedi, örnekler paralel ithalat'],
+    longReview: [
+      'Model X, Tesla’nın büyük SUV’u ve ABD’nin Kaliforniya eyaletindeki Fremont fabrikasında üretiliyor. Otomobilin en ünlü özelliği, arka kapılarındaki “Falcon Wing” yani şahin kanadı kapılar. Bu kapılar yukarı doğru açılıyor ve ortasında ikinci bir menteşe sayesinde katlanarak dar alanlarda bile açılabiliyor. Kapılardaki sensörler, yanınızdaki araç ya da tavandaki bir engel varsa kapının ne kadar açılabileceğini kendisi hesaplıyor.',
+      'Model X’in bir başka ilginç özelliği, ön yolcuların başının üzerine kadar uzanan dev panoramik ön cam. Kabine bir uçak kokpitini andıran geniş bir görüş açısı sağlıyor; yukarıya bakıldığında gökyüzü görünüyor. Tesla’nın HEPA filtreli hava sistemi ise Tesla’nın “Biyolojik Silah Savunma Modu” adını verdiği bir modla kabin havasını hastane seviyesinde temizleyebiliyor.',
+      'Yedi koltuk seçeneği, Model X’i kalabalık aileler için de uygun kılıyor. Çift motorlu dört çeker sistemi ve güçlü performansıyla bu büyük SUV, şaşırtıcı bir hızla hızlanıyor. Makyajla gelen yatay büyük ekran ve opsiyonel uçak tipi direksiyon da kabini modernleştirdi.',
+      'Model X’in en büyük riski karmaşık kapıları. Şahin kanadı kapılar, sensörler ve menteşe mekanizmalarıyla arıza riski taşıyor; onarımları da pahalı olabiliyor.',
+      'Türkiye’ye resmî olarak getirilmediği için piyasadaki örnekler paralel ithalat. Bu yüzden garanti, servis ve yazılım güncellemeleri konusunda alıcının dikkatli olması ve aracın geçmişini çok iyi araştırması gerekiyor.',
+    ],
     summary: 'Etkileyici ve hızlı ama karmaşık bir SUV; servis ve parça konusu Türkiye’de iyi düşünülmeli.',
   },
   {
@@ -4543,6 +4625,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 8.6, konfor: 8.4, tuketim: 8.0, malzeme: 7.6, tasarim: 7.8, fiyat: 7.6, teknoloji: 7.4, guvenilirlik: 7.4, ikinciel: 6.6 },
     pros: ['Geniş ve konforlu kabin', 'Büyük bagaj', 'Ekonomik dizel'],
     cons: ['Büyük gövdeye motor biraz zayıf', 'İkinci el talebi rakiplerden düşük'],
+    longReview: [
+      'İkinci nesil Koleos, Renault-Nissan ittifakının ortak altyapısını kullanıyor ve Nissan X-Trail ile kardeş. İlginç bir detay: Avrupa’da satılan Koleos’lar, Renault’nun Güney Kore’deki iştiraki tarafından Busan’daki fabrikada üretiliyordu. Bu yüzden Koleos, Renault’nun Avrupa’daki diğer modellerinden farklı bir kalite anlayışı ve sağlamlık hissi taşıyor.',
+      'Koleos, Renault’nun SUV sınıfındaki amiral gemisi olarak tasarlandı. Büyük gövdesi, krom detayları ve ön farlardan tampona kadar uzanan C biçimli gündüz farlarıyla yolda güçlü bir duruşa sahip. Kabinde dikey duran büyük bir multimedya ekranı ve üst donanımlarda Bose ses sistemi sunuluyordu.',
+      'Kabin, bu otomobilin en güçlü yanı. Arka koltukta diz mesafesi çok geniş; bagaj da büyük ailelerin tatil yükünü rahatça alıyor. Süspansiyon yumuşak ve konforlu; uzun yolda yorulmadan seyahat edebiliyorsunuz.',
+      'Dizel motor ekonomik; ama bu büyük gövde için biraz zayıf kalıyor. Dolu araçla otoyolda ve yokuşlarda sollama yaparken planlı olmak gerekiyor.',
+      'Koleos’un en büyük dezavantajı ikinci el talebi. Rakiplerine göre daha az bilinen ve daha az aranan bir model olduğu için ikinci elde değer kaybı daha hızlı. Ama bu, ikinci elde geniş ve konforlu bir aile SUV’unu çok uygun bir fiyata bulabileceğiniz anlamına da geliyor.',
+    ],
     summary: 'Geniş, rahat ve ekonomik bir aile SUV’u; ikinci elde rakiplerine göre daha uygun fiyata bulunabiliyor.',
   },
   {
