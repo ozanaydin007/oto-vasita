@@ -3207,6 +3207,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Bu otomobilde 1.5 motor, kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında; bu arızaların ne zaman ortaya çıkacağı belirsiz. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
     },
+    longReview: [
+      'Bu otomobilde 1.5 motor, kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında; bu arızaların ne zaman ortaya çıkacağı belirsiz. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
+      'Tiguan, son yıllarda Volkswagen’in dünya genelinde en çok satan modeli hâline geldi ve Almanya’nın Wolfsburg şehrindeki Volkswagen ana fabrikasında üretiliyor. Bu başarının sırrı, bir aile SUV’undan beklenen her şeyi dengeli bir şekilde sunması: geniş kabin, olgun sürüş, kaliteli işçilik ve güçlü ikinci el değeri.',
+      'Tiguan’ın en pratik özelliklerinden biri kayar arka koltuk. Arka sıra ileri-geri kaydırılabiliyor; bagajı büyütmek istediğinizde öne, arkada uzun boylu yolcular taşırken geriye alıyorsunuz. Arka koltuk sırtlıkları da farklı açılara ayarlanabiliyor. Bazı donanımlarda ön yolcu koltuğunun sırtı da tamamen öne yatırılabiliyor; bu da çok uzun eşyaları, örneğin bir dolap rafını ya da bir sörf tahtasını taşımayı mümkün kılıyor.',
+      'Makyajla birlikte kabin dijitalleşti. Dijital gösterge ve büyük multimedya ekranı, kabini güncel tutuyor. Ama klima kontrolleri dokunmatik kaydırma panellerine taşındı; sürüş sırasında körlemesine kullanmak fiziksel düğmeler kadar kolay değil. Üst donanımlarda IQ.LIGHT LED Matrix farlar ve otomobili yukarıdan gösteren kamera sistemi sunuluyor.',
+      'Sürüşte Tiguan olgun ve sessiz. Süspansiyon bozuk yolları iyi süzüyor; kabin otoyol hızlarında sakin. Turbo benzinli motor ve DSG şanzıman canlı ve akıcı bir performans sunuyor.',
+      'Tiguan’ın en büyük dezavantajı ikinci el fiyatları. Güçlü talep nedeniyle ikinci el Tiguan’lar, rakiplerinin aynı yaştaki örneklerine göre belirgin şekilde pahalı. Ama bu aynı zamanda, satmak istediğinizde de değerini iyi koruyacağı anlamına geliyor.',
+    ],
     summary: 'Önceki nesil Tiguan; alan, konfor ve değer koruma dengesiyle ikinci elde en güvenli tercihlerden.',
   },
   {
@@ -3436,6 +3444,15 @@ const RAW_CARS = [
       guvenilirlik: '8 ileri tam otomatik versiyonlarda çevirmeli vites düğmesi elektronik olarak bazen kararsız kalabiliyor; özellikle D’den R’ye geçerken arkadan sert bir “tak” sesiyle vuruntu hissedilebiliyor.',
       malzeme: 'Ön camın tavan döşemesiyle birleştiği yerdeki dikiz aynası plastik muhafazası bozuk yollarda sürekli ince bir cızırtı sesi üretebiliyor.',
     },
+    longReview: [
+      'Ön camın tavan döşemesiyle birleştiği yerdeki dikiz aynası plastik muhafazası bozuk yollarda sürekli ince bir cızırtı sesi üretebiliyor.',
+      '8 ileri tam otomatik versiyonlarda çevirmeli vites düğmesi elektronik olarak bazen kararsız kalabiliyor; özellikle D’den R’ye geçerken arkadan sert bir “tak” sesiyle vuruntu hissedilebiliyor.',
+      'Dördüncü nesil Focus, Almanya’nın Saarlouis şehrindeki Ford fabrikasında üretildi. Ford, Focus’un üretimini sonlandırma kararı aldı; yani bu nesil, efsanevi Focus serisinin son temsilcisi. Bu, onu ikinci el piyasasında ayrı bir yere koyuyor: sınıfının en iyi sürüşlerinden birini sunan son Focus.',
+      'Focus’un yol tutuşu her zaman sınıfının referansı oldu; bu nesilde de öyle. Üst donanımlarda sunulan sürekli kontrollü sönümleme sistemi, ilginç bir özelliğe sahip: Tekerleğin bir çukura girmek üzere olduğunu algıladığında amortisörü anında sertleştirerek tekerleğin çukura derin düşmesini engelliyor. Bu, hem konforu hem de jant ve lastiklerin ömrünü artırıyor.',
+      'Kabinde bu nesilde Ford, vites kolunu kaldırıp yerine döner bir vites düğmesi koydu. Orta konsolda açılan alan kullanışlı; ama daha önce belirttiğimiz gibi bu düğmenin vites geçişlerinde zaman zaman kararsız kalabildiğini bilmek gerekiyor. Üst donanımlarda gösterge panelinin üzerinden açılan bir ön cama yansıtmalı ekran ve Bang & Olufsen ses sistemi sunuluyordu.',
+      'Dizel motor ve 8 ileri tam otomatik şanzıman kombinasyonu, uzun yolda çok düşük bir tüketim sağlıyor. Şanzıman çift kavramalı rakiplerine göre dur-kalk trafikte daha yumuşak.',
+      'Kabin kalitesi ise Focus’un zayıf yanı; Alman rakiplerinin gerisinde kalıyor ve sert plastikler yoğun. Multimedya sistemi de yavaş. Ama sürüş keyfini her şeyin önüne koyan biri için, Focus’un son nesli ikinci elde çok cazip bir seçim.',
+    ],
     summary: 'Sürüş keyfini dizel ekonomisiyle birleştiren, keyifli bir kompakt.',
   },
   {
@@ -3511,6 +3528,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 8.2, konfor: 8.0, tuketim: 7.0, malzeme: 7.4, tasarim: 8.2, fiyat: 7.6, teknoloji: 8.2, guvenilirlik: 8.4, ikinciel: 7.8 },
     pros: ['Cesur tasarım', 'Çift ekranlı kokpit', 'Sorunsuz atmosferik motor'],
     cons: ['Performans sınırlı', 'Yüksek hızda yol sesi'],
+    longReview: [
+      'Yedinci nesil Elantra, Hyundai’nin tasarım cesaretini en iyi yansıtan modellerinden biri. Hyundai bu tasarıma “Parametrik Dinamikler” adını veriyor: Yan yüzeylerdeki keskin üçgen yüzeyler, ışığın açısına göre otomobilin üzerinde farklı gölgeler ve desenler oluşturuyor. Arka tarafta lambaları birleştiren H biçimli ışık çizgisi de otomobili yolda hemen tanınır kılıyor.',
+      'Kabinde de aynı cesur yaklaşım devam ediyor. Sürücünün önünden orta konsola kadar uzanan tek bir cam yüzeyin altında dijital gösterge ve multimedya ekranı yan yana duruyor. Kokpit belirgin şekilde sürücüye dönük; ön yolcu tarafında ise yolcuyu sürücüden ayıran bir tutamak var. Bu, kabine bir spor otomobil kokpiti havası katıyor.',
+      'Atmosferik motor ve Hyundai’nin IVT adını verdiği sürekli değişken şanzıman, basit ve güvenilir bir mekanik sunuyor. Turbo ya da çift kavramalı şanzıman olmadığı için uzun vadede arıza ihtimali çok düşük. Tüketim de makul.',
+      'Bu basitliğin bedeli performans. Motor güçlü değil; dolu araçla otoyolda ve sollamalarda zorlanıyor. Sürekli değişken şanzıman da sert hızlanmalarda motoru yüksek devirde tutup belirgin bir ses çıkarıyor. Yüksek hızlarda yol ve lastik sesi de kabine belirgin şekilde geliyor.',
+      'Elantra’yı seçmenin asıl sebebi tasarımı ve fiyat/donanım dengesi. Geniş kabini, büyük bagajı ve zengin donanımıyla, uzun vadede sorunsuz ve şık bir sedan arayanlar için mantıklı bir seçim.',
+    ],
     summary: 'Teknolojisi ve tasarımıyla dikkat çeken, sorunsuz ve rahat bir aile sedanı.',
   },
   {
@@ -3595,6 +3619,13 @@ const RAW_CARS = [
     ratings: { surus: 8.8, guvenlik: 9.2, konfor: 9.0, tuketim: 7.8, malzeme: 9.0, tasarim: 8.4, fiyat: 7.2, teknoloji: 9.0, guvenilirlik: 7.8, ikinciel: 8.4 },
     pros: ['Konfor ve sürüş dengesi mükemmel', 'Sessiz ve geniş kabin', 'Zengin teknoloji'],
     cons: ['1.6 motor gövdeye biraz küçük', 'Opsiyonlar pahalı'],
+    longReview: [
+      'Yedinci nesil 5 Serisi, Almanya’nın Dingolfing şehrindeki BMW fabrikasında üretiliyor ve iş sedanı sınıfında konfor ile sürüş keyfi arasındaki dengenin en iyi örneklerinden biri olarak görülüyor. Makyajla birlikte gelen daha büyük böbrek ızgarası ve yenilenen farlar, otomobile daha güçlü bir duruş kazandırdı.',
+      '5 Serisi’nde BMW’nin o dönemdeki teknoloji gösterilerinden birkaçı bulunuyor. El hareketleriyle ses seviyesini ayarlayabildiğiniz ya da telefon çağrılarını kabul edip reddedebildiğiniz hareket kontrolü bunlardan biri. Bir diğeri de BMW’nin ekranlı anahtarı: Bu anahtarla, otomobilin dışında dururken onu dar bir garaja ya da park yerine uzaktan ileri-geri hareket ettirebiliyorsunuz. Opsiyonel lazer destekli farlar da uzun far menzilini olağanüstü bir mesafeye çıkarıyor.',
+      'Sürüşte 5 Serisi gerçekten dengeli. Konfor modunda bir lüks sedan gibi sessiz ve yumuşak; virajlı bir yolda ise arkadan itiş karakteri ve net direksiyonuyla bir sürücü otomobili. 8 ileri ZF şanzıman da her iki karaktere kusursuz uyum sağlıyor.',
+      'Kabin geniş ve sessiz; arka koltukta uzun yolda rahatça seyahat edilebiliyor. Malzeme kalitesi ve işçilik BMW’nin bilinen seviyesinde.',
+      'Türkiye’ye özel 1.6 motor ise bu büyük gövde için biraz küçük kalıyor; dolu araçla ve sollamalarda daha güçlü motorları aratıyor. Opsiyonlar da pahalı. Ama vergi avantajı sayesinde 5 Serisi’ne ulaşmanın en uygun yolu ve ikinci elde de değerini iyi koruyor.',
+    ],
     summary: 'G30 kasanın makyajlı hâli; iş sınıfında konfor ve sürüşü en iyi dengeleyen sedanlardan.',
   },
   {
@@ -3620,6 +3651,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 9.6, konfor: 9.2, tuketim: 7.4, malzeme: 9.2, tasarim: 9.0, fiyat: 7.2, teknoloji: 8.6, guvenilirlik: 7.8, ikinciel: 6.6 },
     pros: ['Üst düzey güvenlik', 'Çok rahat koltuklar', 'Zarif İskandinav tasarımı', 'Kristal vites topuzu'],
     cons: ['İkinci el talebi Alman rakiplerden düşük', 'Sürüş dinamikleri sıradan'],
+    longReview: [
+      'S90, Volvo’nun amiral gemisi sedanı ve İskandinav lüksünün en zarif temsilcisi. Volvo’nun Çinli sahibi Geely’nin altyapısından yararlanan otomobil, dünya pazarı için Çin’deki fabrikada üretiliyor. Ön taraftaki “Thor’un çekici” biçimindeki gündüz farları ve dikey çizgili ızgara, onu yolda hemen tanınır kılıyor.',
+      'Kabin, Volvo’nun sadeliği lüksle birleştirme anlayışının en iyi örneği. Gerçek ahşap kaplamalar, yumuşak deriler ve İsveç’in ünlü cam ustası Orrefors’un el yapımı kristal vites topuzu kabine sakin ve sıcak bir atmosfer veriyor. Dikey duran büyük dokunmatik ekran, kabin düğmelerinin çoğunu ortadan kaldırarak torpidoyu çok sade bir görünüme kavuşturuyor.',
+      'Opsiyonel Bowers & Wilkins ses sisteminin ilginç bir özelliği var: Göteborg Konser Salonu’nun akustiği modellenerek oluşturulmuş bir ses modu. Bu modu açtığınızda müzik, sanki bir konser salonunda dinliyormuş gibi genişliyor. Koltuklar ise Volvo’nun ortopedistlerle birlikte geliştirdiği yapısıyla sınıfının en rahatlarından.',
+      'Volvo’nun güvenlik mirası S90’da da devam ediyor. Pilot Assist sürüş destek sistemi otoyolda direksiyonu, gazı ve freni yöneterek uzun yolculukları çok daha az yorucu hâle getiriyor. Hafif hibrit motor güçlü ve akıcı.',
+      'S90’ın zayıf yanları sürüş dinamikleri ve ikinci el talebi. Virajlarda Alman rakipleri kadar keskin değil; ikinci el piyasasında da rakiplerine göre daha az aranıyor. Ama bu, ikinci elde çok daha uygun fiyata bu kadar lüks ve güvenli bir sedan bulabileceğiniz anlamına geliyor.',
+    ],
     summary: 'Güvenlik ve konforu zarif bir gövdede sunan, Alman rakiplerine sakin bir alternatif.',
   },
   {
@@ -3697,6 +3735,13 @@ const RAW_CARS = [
     ratings: { surus: 8.6, guvenlik: 7.8, konfor: 7.4, tuketim: 8.2, malzeme: 7.2, tasarim: 8.2, fiyat: 7.6, teknoloji: 7.8, guvenilirlik: 7.6, ikinciel: 7.4 },
     pros: ['Sınıfının en eğlenceli sürüşü', 'Bagaj altındaki MegaBox', 'Hafif hibritle düşük tüketim'],
     cons: ['Sert süspansiyon', 'Arka koltuk dar'],
+    longReview: [
+      'Puma’nın bu ilk versiyonu, Romanya’daki Ford fabrikasında üretiliyor ve makyajlı versiyona göre önemli bir avantaja sahip: Klima kontrolleri fiziksel düğmelerle bırakılmış. Makyajla birlikte bu düğmeler ekranın içine taşındı; bu yüzden sürüş sırasında ekrana bakmadan kullanılabilen fiziksel kontrolleri önemseyenler için ilk versiyon daha cazip olabilir.',
+      'Puma’nın kalbinde üç silindirli turbo motor ve 48 voltluk hafif hibrit sistemi var. Kayışla motora bağlanan küçük bir elektrik motoru, kalkışlarda ve hızlanmalarda ek tork sağlıyor; motorun gecikmesini azaltıyor ve tüketimi düşürüyor. Bu versiyon manuel şanzımanla geliyor; bu da sürüş keyfini önemseyenler için ayrı bir artı.',
+      'ST-Line donanımı, Puma’ya sportif tamponlar, büyük jantlar ve daha sert bir süspansiyon kazandırıyor. Fiesta’nın altyapısını kullanan Puma, bu donanımla küçük SUV sınıfının en eğlenceli otomobillerinden biri. Direksiyon hızlı ve net, gövde virajlarda dengeli.',
+      'Bagaj tabanının altındaki MegaBox, ilk versiyonda da var. Su geçirmez kaplamalı ve tahliye tapalı bu derin bölmeye çamurlu botları ya da ıslak eşyaları atıp sonra hortumla yıkayabiliyorsunuz.',
+      'ST-Line’ın sert süspansiyonu bozuk yollarda kabine sarsıntı taşıyor; arka koltuk da uzun boylu yetişkinler için dar. Ama sürüş keyfi, pratik bagajı ve fiziksel düğmeleriyle ilk versiyon Puma, ikinci elde çok mantıklı bir seçim.',
+    ],
     summary: 'Eğlenceli sürüşü ve akıllı bagajıyla C-SUV sınıfının karakterli üyelerinden.',
   },
   {
@@ -3765,6 +3810,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.2, konfor: 8.0, tuketim: 8.6, malzeme: 8.2, tasarim: 8.6, fiyat: 7.4, teknoloji: 8.2, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Etkileyici i-Cockpit kabin', 'Ekonomik dizel', 'Şık tasarım'],
     cons: ['i-Cockpit herkese uymuyor', 'Arka koltuk başüstü sınırlı'],
+    longReview: [
+      'İkinci nesil 3008, 2017’de Avrupa’da Yılın Otomobili seçildi ve Peugeot’nun SUV sınıfındaki başarısını başlatan otomobil oldu. Fransa’nın Sochaux şehrindeki fabrikada üretilen otomobil, makyajla birlikte çerçevesiz ön ızgarası ve aslan dişi biçimindeki gündüz farlarıyla daha da çarpıcı bir yüze kavuştu.',
+      'Kabinin en dikkat çekici detayı, orta konsoldaki piyano tuşlarını andıran sıra sıra kısayol düğmeleri. Klima, navigasyon, müzik ve telefon gibi ana menülere bu düğmelerle tek dokunuşla ulaşabiliyorsunuz. Üst donanımlarda sunulan Focal ses sistemi ve ön ızgaraya yerleştirilen kızılötesi gece görüş kamerası da kabin deneyimini zenginleştiriyor.',
+      '3008’in ilginç bir teknolojisi de Gelişmiş Tutunma Kontrolü. Önden çekişli olmasına rağmen, orta konsoldaki bir düğmeyle çamur, kar ve kum gibi farklı zeminler için çekiş kontrolünü ayarlayabiliyorsunuz. Dört çeker kadar yetenekli olmasa da kaygan zeminlerde ve hafif arazi koşullarında beklenenden fazla iş görüyor.',
+      'Dizel motor ve 8 ileri tam otomatik şanzıman, uzun yolda çok düşük bir tüketim sağlıyor. Kabin kalitesi de Peugeot’nun bu nesildeki büyük sıçramasını yansıtıyor.',
+      'i-Cockpit düzeni, yani küçük direksiyon ve onun üzerinden bakılan gösterge, herkese uymuyor; almadan önce mutlaka deneyin. Arka koltukta başüstü mesafesi de uzun boylular için sınırlı. Ama tasarımı ve ekonomik dizeliyle ikinci elde çok cazip bir aile SUV’u.',
+    ],
     summary: 'Önceki nesil 3008; kabin tasarımı ve dizel ekonomisiyle ikinci elde çok tercih edilen bir SUV.',
   },
   {
@@ -4114,6 +4166,14 @@ const RAW_CARS = [
       tasarim: 'Direksiyon arkasındaki fiziksel silecek ve sinyal kolları tamamen kaldırıldı; sinyaller direksiyonun solundaki dokunmatik butonlara taşındı. Özellikle döner kavşaklarda, direksiyon dönmüşken sinyal butonunu bulup kavşaktan çıkış sinyali vermek çok zorlaşıyor.',
       konfor: 'Bagaj kapağı ıslakken açıldığında arka camdaki su, oluklardan tahliye olmak yerine doğrudan bagajın içine ve eşyaların üzerine akabiliyor.',
     },
+    longReview: [
+      'Bagaj kapağı ıslakken açıldığında arka camdaki su, oluklardan tahliye olmak yerine doğrudan bagajın içine ve eşyaların üzerine akabiliyor. Direksiyon arkasındaki fiziksel silecek ve sinyal kolları tamamen kaldırıldı; sinyaller direksiyonun solundaki dokunmatik butonlara taşındı. Özellikle döner kavşaklarda, direksiyon dönmüşken sinyal butonunu bulup kavşaktan çıkış sinyali vermek çok zorlaşıyor.',
+      'Makyajlı Model 3, Avrupa’ya Çin’in Şanghay şehrindeki Tesla fabrikasından geliyor. Makyajla birlikte otomobil, önceki versiyonun en çok eleştirilen yanlarını büyük ölçüde düzeltti: Kabin çok daha sessiz, süspansiyon çok daha konforlu ve malzeme kalitesi belirgin şekilde daha iyi.',
+      'Sessizlikteki bu büyük artışın sırrı, otomobilin bütün camlarının ses yalıtımlı akustik camlarla değiştirilmesi. Otoyol hızlarında rüzgar ve yol sesi, önceki versiyona göre çok daha az. Kabinde ise ambiyans aydınlatması, havalandırmalı ön koltuklar ve arka yolcuların klimayı ve eğlence sistemini yönettiği bir arka ekran var.',
+      'Tesla’nın yazılım tarafı her zamanki gibi en güçlü yanı. Otomobil, telefonunuz gibi kablosuz güncellemelerle zaman içinde yeni özellikler kazanıyor. Nöbetçi Modu, park hâlindeyken çevredeki şüpheli hareketleri otomobilin kameralarıyla kaydediyor; Köpek Modu ise evcil hayvanınızı otomobilde bıraktığınızda klimayı açık tutup ekranda “Sahibim birazdan dönecek” mesajı gösteriyor.',
+      'Model 3’ün verimliliği olağanüstü; piyasanın en az enerji tüketen elektriklilerinden biri. Tesla’nın Supercharger ağı da uzun yolu çok kolaylaştırıyor.',
+      'Daha önce belirttiğimiz gibi sinyal ve vites kollarının kaldırılması alışkanlık istiyor ve her sürücüye uymuyor. Ama verimliliği, menzili ve yazılımıyla elektrikli sedan arayanlar için hâlâ en güçlü seçeneklerden biri.',
+    ],
     summary: 'Makyajlı (Highland) Model 3; verimlilik, menzil ve konforda elektrikli sedanların referansı.',
   },
   {
@@ -4147,6 +4207,13 @@ const RAW_CARS = [
     ratings: { surus: 7.4, guvenlik: 8.6, konfor: 7.6, tuketim: 9.2, malzeme: 7.2, tasarim: 7.8, fiyat: 7.8, teknoloji: 8.2, guvenilirlik: 8.2, ikinciel: 7.0 },
     pros: ['Çok verimli', 'Kompakt boyutta uzun menzil', 'Güvenilir elektrikli sistem'],
     cons: ['Küçük bagaj', 'Arka koltuk dar'],
+    longReview: [
+      'Kona Electric, kompakt bir SUV gövdesinde uzun menzil sunan ilk uygun fiyatlı elektriklilerden biriydi. Avrupa’da satılan Kona Electric’ler, Çekya’daki Hyundai fabrikasında üretiliyor. Çıktığında bu boyutta bir otomobilde bu kadar menzil bulmak çok zordu; bu yüzden elektrikli otomobile ilk adımı atmak isteyenlerin gözdesi oldu.',
+      'Kona Electric’in en büyük kozu verimliliği. Kompakt gövdesi ve verimli elektrik motoru sayesinde aynı bataryayla birçok büyük rakibinden daha uzağa gidebiliyor. Direksiyonun arkasındaki kulakçıklarla rejeneratif frenleme seviyesini ayarlayabiliyorsunuz; en yüksek seviyede şehir içinde fren pedalına neredeyse hiç dokunmadan sürmek mümkün.',
+      'Üst donanımlarda gösterge panelinin üzerinden açılan bir ön cama yansıtmalı ekran sunuluyordu. Kabin sade ama kullanışlı; fiziksel düğmeler korunmuş.',
+      'İkinci el alırken bilmeniz gereken önemli bir konu var: Bu nesil Kona Electric’lerin bir kısmında, batarya hücrelerindeki olası bir üretim kusuru nedeniyle Hyundai bir geri çağırma kampanyası yürüttü ve etkilenen otomobillerde bataryalar değiştirildi. Aldığınız otomobilin bu kampanyadan etkilenip etkilenmediğini ve gerekli işlemin yapılıp yapılmadığını şasi numarasıyla yetkili servise mutlaka sorgulatın.',
+      'Kona Electric’in zayıf yanları küçük bagaj ve dar arka koltuk. Bu otomobili bir aile SUV’u olarak değil, uzun menzilli ve verimli bir şehir otomobili olarak düşünmek en doğrusu.',
+    ],
     summary: 'Kompakt boyutlarda uzun menzil ve yüksek verimlilik sunan, sorunsuz bir elektrikli SUV.',
   },
   {
@@ -4207,6 +4274,15 @@ const RAW_CARS = [
       surus: 'Performansı segmentine göre çok iyi. 156 beygirlik benzinli motor, 48V elektrik motorunun desteğiyle toplamda 170 beygir üretiyor; şehir içinde de otoyolda da her zaman yeterince güçlü hissettiriyor.',
       fiyat: 'Tuhaf bir şekilde fiyatı sunduklarına göre düşük kalıyor. Bu paraya bu performansı, bu kabini ve BMW logosunu birlikte alabilmeniz onu çok uygun ve akıllıca bir tercih yapıyor.',
     },
+    longReview: [
+      'Performansı segmentine göre çok iyi. 156 beygirlik benzinli motor, 48V elektrik motorunun desteğiyle toplamda 170 beygir üretiyor; şehir içinde de otoyolda da her zaman yeterince güçlü hissettiriyor.',
+      'Tuhaf bir şekilde fiyatı sunduklarına göre düşük kalıyor. Bu paraya bu performansı, bu kabini ve BMW logosunu birlikte alabilmeniz onu çok uygun ve akıllıca bir tercih yapıyor.',
+      'Yeni nesil 2 Serisi Gran Coupé, Almanya’nın Leipzig şehrindeki BMW fabrikasında üretiliyor. BMW’nin dört kapılı kompakt coupé’si, bu nesilde hem tasarım hem de teknoloji açısından belirgin şekilde olgunlaştı.',
+      'Kabinde BMW’nin en yeni işletim sistemi ve sürücüye doğru kavislenen büyük ekran düzeni var. Gösterge paneli ve multimedya ekranı tek bir kavisli yüzeyde birleşiyor; sesli asistanla klimayı, navigasyonu ve müziği konuşarak yönetebiliyorsunuz. Kabin malzemeleri ve işçilik, bu sınıfta BMW’nin bilinen kalitesinde.',
+      'Hafif hibrit sistem, benzinli motorun yanında çalışan bir elektrik motoruyla kalkışlarda ve hızlanmalarda ek güç sağlıyor. Yedi ileri çift kavramalı şanzımanla birlikte bu otomobile, segmentine göre çok canlı bir performans kazandırıyor.',
+      'Önden çekişli altyapı, klasik arkadan itişli BMW hissini arayanlar için bir dezavantaj. Eğimli tavan da arka koltukta uzun boylulardan başüstü mesafesi alıyor.',
+      'Ama 2 Serisi Gran Coupé, BMW kalitesini ve teknolojisini kompakt bir premium sedanda, şaşırtıcı derecede uygun bir fiyata sunuyor. Şık bir şehir sedanı arayan ve arka koltuğu çok sık kullanmayacak biri için çok mantıklı bir seçim.',
+    ],
     summary: 'Performansı segmentine göre çok iyi, fiyatı ise tuhaf bir şekilde düşük; BMW’ye en akıllıca giriş yollarından biri.',
   },
   {
@@ -4342,6 +4418,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.2, konfor: 7.6, tuketim: 8.4, malzeme: 7.6, tasarim: 9.0, fiyat: 7.2, teknoloji: 8.0, guvenilirlik: 7.4, ikinciel: 6.4 },
     pros: ['Çarpıcı İtalyan tasarımı', 'Düşük tüketim', 'Kompakt ve çevik'],
     cons: ['Stellantis altyapısı Alfa karakterini sınırlıyor', 'İkinci el değeri belirsiz'],
+    longReview: [
+      'Junior’ın ilginç bir isim hikâyesi var. Alfa Romeo bu otomobili ilk olarak “Milano” adıyla tanıttı. Ancak otomobil İtalya’da değil Polonya’da üretildiği için İtalyan hükümeti, İtalyan bir şehrin adının yurt dışında üretilen bir otomobilde kullanılmasının yanıltıcı olabileceğini öne sürdü. Alfa Romeo da tanıtımdan kısa süre sonra otomobilin adını, markanın 1960’lardaki efsanevi GT 1300 Junior’ına selam vererek “Junior” olarak değiştirdi.',
+      'Junior, Stellantis grubunun Jeep Avenger ve Fiat 600 ile paylaştığı küçük SUV altyapısını kullanıyor. Ama Alfa Romeo bu altyapıya kendi tasarım kimliğini taşımış: Ön taraftaki üçgen “scudetto” ızgara, üzerinde Alfa Romeo yazısı bulunan bir versiyonuyla sunuluyor; üçlü farlar ve arka taraftaki kesik kuyruk tasarımı, markanın klasik modellerine göz kırpıyor.',
+      'Kabinde Alfa Romeo’nun geleneksel tüp biçimindeki gösterge çerçeveleri ve sürücüye dönük orta konsol var. Hafif hibrit motor şehir içinde düşük hızlarda kısa süreliğine elektrikle ilerleyebiliyor ve tüketimi düşük tutuyor.',
+      'Sürüşte Junior, kardeşlerine göre daha sportif bir ayara sahip; direksiyon daha hızlı ve gövde virajlarda daha dengeli. Ama paylaşılan altyapı, Alfa Romeo’nun arkadan itişli Giulia ve Stelvio’daki karakterini tam olarak yansıtmıyor.',
+      'Junior’ın en büyük soru işareti ikinci el değeri; yeni bir model olduğu için uzun vadede nasıl değer koruyacağı henüz belirsiz. Ama İtalyan tasarımını kompakt ve ekonomik bir SUV’da isteyenler için çok karakterli bir seçenek.',
+    ],
     summary: 'Alfa Romeo tasarımını kompakt ve ekonomik bir pakette sunuyor; sürüş karakteri ise markadan beklenenin biraz gerisinde.',
   },
   {
@@ -4374,6 +4457,14 @@ const RAW_CARS = [
     review: {
       ikinciel: 'Garantisi devam eden bir örnek bulursanız kesinlikle değerlendirmenizi öneririz. Hem DSG şanzımanın olası masraflarına karşı güvence sağlıyor hem de ikinci elde iyi bir fiyat/performans sunuyor.',
     },
+    longReview: [
+      'Garantisi devam eden bir örnek bulursanız kesinlikle değerlendirmenizi öneririz. Hem DSG şanzımanın olası masraflarına karşı güvence sağlıyor hem de ikinci elde iyi bir fiyat/performans sunuyor.',
+      'Makyajlı Ibiza, İspanya’nın Martorell şehrindeki Seat fabrikasında üretiliyor ve Seat’in yeni tasarım dilinin daha keskin hatlarını taşıyor. Ön ve arka tamponlar, yeni farlar ve stop lambaları, otomobile daha agresif ve modern bir yüz kazandırdı.',
+      'Style Plus donanımı, Ibiza’yı bu sınıfta zengin donanımlı bir otomobil yapıyor. Dijital gösterge, torpidonun üstünde serbest duran büyük multimedya ekranı, kablosuz Apple CarPlay ve Android Auto ve sürüş destek sistemleri bu donanımda sunuluyor. Bagaj sınıfının en büyüklerinden.',
+      'Sürüşte Ibiza, sınıfının en keyifli otomobillerinden biri olmaya devam ediyor. Turbo benzinli motor şehir içinde canlı; DSG şanzıman da hızlı ve akıcı vites geçişleri sunuyor. Direksiyon hızlı ve gövde virajlarda dengeli; genç sürücüler için çok eğlenceli bir şehir otomobili.',
+      'Ibiza’nın zayıf yanları malzeme kalitesi ve sert süspansiyon. Kabinde sert plastikler yoğun; süspansiyon da bozuk yollarda kabine sarsıntı taşıyabiliyor.',
+      'Daha önce belirttiğimiz gibi, garantisi devam eden bir örnek bulursanız Ibiza’yı kesinlikle değerlendirmenizi öneririz; DSG şanzımanın olası masraflarına karşı garanti büyük bir güvence sağlıyor.',
+    ],
     summary: 'Canlı motoru ve keyifli sürüşüyle şehir otomobilleri arasında sürüş tutkunlarının tercihi; garantisi devam eden bir örnek bulursanız kaçırmayın.',
   },
   {
