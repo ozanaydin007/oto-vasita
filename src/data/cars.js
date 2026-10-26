@@ -282,6 +282,14 @@ const RAW_CARS = [
     review: {
       surus: 'Leon, Golf altyapısını daha genç bir karakterle sunuyor ve direksiyonu keskin. 1.5 eTSI motor başarılı; yüksek güce erişebiliyor ve segmenti için tatmin edici. Ancak düşük devirlerdeki tork karakteristiği nedeniyle düz yolda kalkışta bile ciddi bir sarma sorunu yaşanabiliyor. Özellikle trafikte sık dur-kalk yapıyorsanız bu durumu test sürüşünde mutlaka deneyin.',
     },
+    longReview: [
+      'Leon, Golf altyapısını daha genç bir karakterle sunuyor ve direksiyonu keskin. 1.5 eTSI motor başarılı; yüksek güce erişebiliyor ve segmenti için tatmin edici. Ancak düşük devirlerdeki tork karakteristiği nedeniyle düz yolda kalkışta bile ciddi bir sarma sorunu yaşanabiliyor. Özellikle trafikte sık dur-kalk yapıyorsanız bu durumu test sürüşünde mutlaka deneyin.',
+      'Dördüncü nesil Leon, İspanya’nın Martorell şehrindeki Seat fabrikasında üretiliyor ve Golf ile aynı altyapıyı daha genç ve sportif bir karakterle sunuyor. Ön ve arka tarafta boydan boya uzanan LED ışık şeritleri, otomobili yolda hemen tanınır kılıyor.',
+      'Kabinin en ilginç detayı, torpidonun ve ön kapıların etrafını saran ambiyans ışık şeridi. Bu şerit yalnızca dekoratif değil: Kör noktada bir araç varken sinyal verdiğinizde ya da arkadan bir bisikletli yaklaşırken kapıyı açmaya çalıştığınızda, o taraftaki şerit kırmızı yanıp sönerek sizi uyarıyor. Bir güvenlik sistemini kabin tasarımının parçasına dönüştüren çok akıllıca bir çözüm.',
+      'Makyajla birlikte kabin iyileşti: Daha büyük ve daha hızlı bir multimedya ekranı geldi; önceki versiyonda gece görülemeyen dokunmatik ses ve klima kaydırma panelleri de aydınlatmalı hâle getirildi.',
+      'Daha önce bahsettiğimiz gibi Leon, Golf altyapısını daha uygun bir fiyatla sunuyor ve direksiyonu keskin. Hafif hibrit sistem de tüketimi düşük tutuyor. Ama bu versiyondaki motor, dolu araçla ve yokuşlarda yetersiz kalabiliyor; düşük devirde kalkışta da belirgin bir sarma yaşanabiliyor.',
+      'Kabin malzemeleri Golf’ün gerisinde. Ama aynı mekanik altyapıyı daha sportif bir karakterle ve daha uygun bir fiyata arayanlar için Leon çok mantıklı bir alternatif.',
+    ],
     summary: 'Golf’ün mekaniğini genç bir karakter ve bir milyon TL’ye yakın daha düşük fiyatla sunan akıllı bir alternatif.',
   },
   {
@@ -319,6 +327,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.2, konfor: 7.9, tuketim: 8.2, malzeme: 7.5, tasarim: 7.4, fiyat: 8.2, teknoloji: 7.8, guvenilirlik: 8.4, ikinciel: 7.8 },
     pros: ['Güçlü ve akıcı motor', 'Fiyatına göre zengin donanım', 'Geniş kabin'],
     cons: ['Tasarımı yaşını hissettiriyor', 'Multimedya rakiplerin gerisinde'],
+    longReview: [
+      'i30, Hyundai’nin Avrupa için özel olarak geliştirdiği bir kompakt hatchback. Almanya’daki Hyundai teknik merkezinde tasarlandı ve sürüş ayarları, dünyanın en zorlu yarış pistlerinden biri olan Nürburgring’deki Hyundai test merkezinde yapıldı. Çekya’daki Hyundai fabrikasında üretiliyor.',
+      'Bu Avrupa odaklı geliştirme sürüşte hissediliyor. i30’un süspansiyonu Avrupa yolları için ayarlanmış; virajlarda gövde dengeli, bozuk yollarda konforlu. Direksiyon da doğal ve tutarlı. Hafif hibrit sistemle desteklenen turbo motor ve çift kavramalı şanzıman güçlü ve akıcı bir performans sunuyor.',
+      'i30’un en büyük kozu fiyat/donanım dengesi. Bu fiyata dijital gösterge, büyük multimedya ekranı, ısıtmalı direksiyon ve koltuklar, kablosuz şarj ve kapsamlı sürüş destek sistemleri sunuyor. Kabin geniş; arka koltuk ve bagaj aileler için yeterli.',
+      'Zayıf yanları tasarım ve multimedya. i30 artık yaşını hissettiriyor; tasarımı yeni rakiplerin yanında sade kalıyor. Multimedya sistemi de rakiplerine göre daha yavaş ve daha az özellikli.',
+      'Ama birçok kullanıcı için fiziksel düğmelerin korunmuş olması aslında bir avantaj. Güçlü motoru, zengin donanımı ve olgun sürüşüyle, mantıklı bir kompakt hatchback arayanlar için Golf’e ve Focus’a güçlü bir alternatif.',
+    ],
     summary: 'Gösterişsiz ama sağlam; güçlü motoru ve makul fiyatıyla mantıklı bir kompakt hatchback.',
   },
   {
@@ -790,6 +805,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 8.2, konfor: 7.6, tuketim: 6.8, malzeme: 7.0, tasarim: 7.6, fiyat: 7.6, teknoloji: 8.0, guvenilirlik: 8.2, ikinciel: 7.6 },
     pros: ['Güçlü motor', 'Geniş kabin ve bagaj', 'Çift ekranlı modern kokpit', 'Direksiyon arkasına taşınan vites seçici'],
     cons: ['Tüketim hibrit rakiplerden yüksek', 'Tasarım herkese hitap etmiyor'],
+    longReview: [
+      'İkinci nesil Kona, ilginç bir tasarım yaklaşımıyla geliştirildi: Hyundai bu otomobili önce elektrikli versiyon düşünülerek tasarladı, ardından benzinli ve hibrit versiyonları bu tasarıma uyarladı. Bu yüzden benzinli Kona da elektrikli bir otomobilin sade ve fütüristik çizgilerini taşıyor.',
+      'Ön taraftaki en dikkat çekici detay, otomobilin bir ucundan diğerine kesintisiz uzanan ince LED ışık çizgisi. Hyundai buna “Seamless Horizon” yani kesintisiz ufuk çizgisi diyor. Arka tarafta da benzer bir ışık şeridi var. Bu ışık imzası, Kona’yı gece yolda uzaktan tanınır kılıyor.',
+      'Kabin önceki nesle göre çok daha büyük ve modern. Sürücünün önünden orta konsola kadar uzanan tek bir cam yüzeyin altında dijital gösterge ve multimedya ekranı yan yana duruyor. Vites seçici direksiyonun arkasına taşındı; orta konsolda geniş bir saklama alanı açıldı. Arka koltuk ve bagaj, artık aileler için gerçekten kullanışlı bir boyutta.',
+      'Turbo benzinli motor güçlü ve canlı; çift kavramalı şanzımanla birlikte şehir içinde ve otoyolda rahat bir performans sunuyor. Bedeli ise tüketim; hibrit rakiplere göre daha fazla yakıyor.',
+      'Kona’nın fütüristik tasarımı herkese hitap etmiyor. Ama geniş kabini, güçlü motoru ve modern teknolojisiyle küçük SUV sınıfının en dolu seçeneklerinden biri.',
+    ],
     summary: 'Yeni neslinde büyüyen Kona, güçlü motoru ve fiyatıyla küçük SUV ile aile SUV’u arasında iyi bir köprü kuruyor.',
   },
   {
@@ -870,6 +892,15 @@ const RAW_CARS = [
       guvenilirlik: 'Bu otomobilde 1.5 eTSI motor, Golf gibi kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında. Buna hafif hibrit sistemin 48V aküsünde yaşanabilen sorunlar da ekleniyor; bu arızaların ne zaman ortaya çıkacağı belirsiz ve kalıcı bir çözümleri pek yok. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
       konfor: 'Tiguan’la uzun yola çıktığınızda neden bu kadar pahalı olduğunu anlıyorsunuz. Kabin sessiz, koltuklar destekleyici; yüzlerce kilometreyi bir kahve molasıyla bitirip yorulmadan inebileceğiniz türden bir SUV.',
     },
+    longReview: [
+      'Tiguan’la uzun yola çıktığınızda neden bu kadar pahalı olduğunu anlıyorsunuz. Kabin sessiz, koltuklar destekleyici; yüzlerce kilometreyi bir kahve molasıyla bitirip yorulmadan inebileceğiniz türden bir SUV.',
+      'Bu otomobilde 1.5 eTSI motor, Golf gibi kompakt modellerdeki kuru kavramalı DQ200 yerine daha dayanıklı, ıslak kavramalı 7 ileri DQ381 şanzımanla eşleşiyor. DQ381 genel olarak sağlam kabul edilse de özellikle soğukken düşük hızlarda vuruntu ve mekatronik ünite arızaları bilinen zayıf noktaları arasında. Buna hafif hibrit sistemin 48V aküsünde yaşanabilen sorunlar da ekleniyor; bu arızaların ne zaman ortaya çıkacağı belirsiz ve kalıcı bir çözümleri pek yok. Şanzıman yağı ve filtresini üretici önerisine göre (genellikle 60 bin km civarında) değiştirmeyi ihmal etmeyin.',
+      'Üçüncü nesil Tiguan, Almanya’nın Wolfsburg şehrindeki Volkswagen ana fabrikasında üretiliyor. Bu nesille birlikte Volkswagen, en çok satan modelinde konfor ve teknoloji çıtasını bir üst sınıfa taşımayı hedeflemiş.',
+      'Kabinin en ilginç detaylarından biri orta konsoldaki “Sürüş Deneyimi Kontrolü” düğmesi. İçinde küçük bir ekran bulunan bu döner düğmeyle sürüş modlarını, ses seviyesini ve ambiyans ışığını seçebiliyorsunuz. Vites seçici de direksiyonun arkasına taşındı; orta konsol ferah ve kullanışlı hâle geldi.',
+      'Konfor tarafında Tiguan, bu sınıfta pek rastlanmayan teknolojiler sunuyor. Opsiyonel DCC Pro adaptif süspansiyon, her amortisörde iki ayrı valf kullanarak sönümlemeyi çok daha hassas ayarlayabiliyor. Ön koltuklarda, birden fazla hava odasıyla çalışan masaj fonksiyonu sunuluyor. IQ.LIGHT HD Matrix farlar ise binlerce küçük LED ile ışığı neredeyse piksel piksel kontrol ediyor.',
+      'Daha önce bahsettiğimiz gibi Tiguan’la uzun yola çıktığınızda neden bu kadar pahalı olduğunu anlıyorsunuz. Bagaj sınıfının en büyüklerinden; arka koltuk da geniş.',
+      'Bu teknoloji ve konforun bedeli fiyat. Tiguan artık premium SUV’lara yaklaşan bir fiyata sahip; opsiyonlarla fiyat hızla yükseliyor. Daha önce belirttiğimiz 48V akü ve DQ381 mekatronik riskleri de göz önünde bulundurulmalı.',
+    ],
     summary: 'Konfor, alan ve kaliteyi en dengeli şekilde birleştiren aile SUV’larından; bedeli ise çok yüksek.',
   },
   {
@@ -3339,6 +3370,13 @@ const RAW_CARS = [
     ratings: { surus: 9.0, guvenlik: 8.0, konfor: 7.0, tuketim: 7.2, malzeme: 8.2, tasarim: 9.0, fiyat: 7.0, teknoloji: 7.8, guvenilirlik: 7.4, ikinciel: 7.8 },
     pros: ['Go-kart gibi keskin sürüş', 'Güçlü motor', 'Premium hissettiren kabin', 'Union Jack desenli arka stop lambaları'],
     cons: ['Çok küçük bagaj', 'Sert süspansiyon'],
+    longReview: [
+      'Üçüncü nesil MINI’nin makyajlı versiyonu, İngiltere’nin Oxford şehrindeki tarihi MINI fabrikasında üretiliyor. Bu makyajla gelen en sevilen detay, arka stop lambalarındaki İngiliz bayrağı deseni. Gece arkadan bakıldığında otomobilin İngiliz kimliğini hemen gösteren bu lambalar, MINI’yi yolda tanınır kılan en karakteristik detaylardan biri oldu.',
+      'Kabinde MINI’nin klasik tasarım öğeleri devam ediyor: ortada büyük yuvarlak bir çerçeve içinde multimedya ekranı, onun etrafında renk değiştiren ambiyans aydınlatması ve orta konsolda uçak kokpitini andıran mandal düğmeler. Motoru, kırmızı renkli bir mandal düğmeyi çevirerek çalıştırıyorsunuz.',
+      'Cooper S, MINI’nin sportif versiyonu ve 2.0 turbo motoruyla bu küçük gövdeye şaşırtıcı bir performans kazandırıyor. MINI’nin efsanevi “go-kart” hissi burada en saf hâlinde: kısa gövde, geniş iz genişliği ve çok hızlı direksiyon, otomobili virajlı yollarda inanılmaz eğlenceli kılıyor. Çift kavramalı şanzıman da hızlı ve akıcı.',
+      'Kabin kalitesi bu sınıfta premium; yumuşak yüzeyler ve sağlam montaj, MINI’yi rakiplerinden ayırıyor. Kişiselleştirme seçenekleri de çok geniş; tavan rengi, ayna kapakları ve iç detaylarla otomobili tamamen kendinize göre tasarlayabiliyorsunuz.',
+      'Bu karakterin bedeli alan ve konfor. Bagaj çok küçük, arka koltuk dar ve süspansiyon sert; bozuk yollarda kabine sarsıntı taşıyor. MINI Cooper S’i bir aile otomobili olarak değil, sürüş keyfi ve karakter arayan biri için bir oyuncak olarak düşünmek en doğrusu.',
+    ],
     summary: 'Şehirde en eğlenceli otomobillerden biri; pratiklik yerine karakter ve sürüş keyfi sunuyor.',
   },
   {
@@ -3905,6 +3943,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
     },
+    longReview: [
+      'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
+      'Q2, Audi’nin en küçük SUV’u ve Almanya’nın Ingolstadt şehrinde, Audi’nin ana fabrikasında üretiliyor. Audi’nin diğer SUV’larından farklı olarak daha genç ve oyuncu bir tasarıma sahip. Bu tasarımın en karakteristik detayı, arka direkteki “blade” adı verilen panel. Bu panel gövdeden farklı bir renkte ya da gümüş tonunda sunulabiliyor ve Q2’ye yolda kendine özgü bir görünüm kazandırıyor.',
+      'Kabinde Audi’nin dijital gösterge paneli Virtual Cockpit sunuluyor; navigasyon haritasını direksiyonun hemen arkasında tam ekran görebiliyorsunuz. Kabin kalitesi Audi’nin bilinen seviyesinde; sağlam montaj ve kaliteli düğmeler, bu küçük SUV’a premium bir his veriyor.',
+      'Q2’nin en güçlü yanı şehir sürüşü. Kompakt boyutları, yüksek oturma pozisyonu ve çevik direksiyonu, otomobili dar sokaklarda ve sıkışık otoparklarda çok kullanışlı kılıyor. Turbo benzinli motor ve S tronic şanzıman şehir içinde canlı bir performans sunuyor.',
+      'Bu kompakt boyutların bedeli alan. Arka koltuk ve bagaj sınırlı; büyük bir aile için yeterli değil. Fiyatına göre de küçük bir otomobil.',
+      'Daha önce belirttiğimiz DQ200 şanzıman ve vites kolu riskleri, Q2 alırken göz önünde bulundurulmalı; garantisi devam eden bir örnek tercih etmek mantıklı. Ama şehirde premium bir kompakt SUV isteyen, otomobilini tek başına ya da çift olarak kullanacak biri için çok uygun bir seçim.',
+    ],
     summary: 'Audi kalitesini şehir boyutlarında sunan, çevik ve kaliteli bir küçük premium SUV.',
   },
   {
@@ -4613,6 +4659,14 @@ const RAW_CARS = [
       konfor: 'Kamera destekli DS Active Scan Suspension büyük çukurları harika sönümlerken, şehir içindeki küçük ama ardışık yama ve parke taşlı yollarda beklenmedik mikro titreşimleri kabine iletebiliyor.',
       malzeme: 'Fildişi veya napa deri kaplı konsol, ön cam havalandırması çalıştığında ani sıcaklık değişimi nedeniyle gerilip çıtırtı sesi çıkarabiliyor.',
     },
+    longReview: [
+      'Kamera destekli DS Active Scan Suspension büyük çukurları harika sönümlerken, şehir içindeki küçük ama ardışık yama ve parke taşlı yollarda beklenmedik mikro titreşimleri kabine iletebiliyor. Fildişi veya napa deri kaplı konsol, ön cam havalandırması çalıştığında ani sıcaklık değişimi nedeniyle gerilip çıtırtı sesi çıkarabiliyor.',
+      'DS 9, DS Automobiles’ın amiral gemisi sedanı ve markanın Fransız lüks anlayışını en iddialı şekilde sunduğu otomobil. Peugeot 508 ile aynı altyapıyı paylaşıyor, ama daha uzun gövdesi ve tamamen farklı kabiniyle bambaşka bir karakter taşıyor. Arka tavanın kenarlarına yerleştirilmiş, eski DS modellerinden ilham alan küçük ışık modülleri de otomobili yolda hemen tanınır kılıyor.',
+      'Kabin, DS’nin Paris’in lüks saatçilik ve kuyumculuk geleneğinden ilham alan tasarım anlayışının vitrini. Düğmelerde ve konsolda, lüks saatlerin kadranlarında kullanılan “Clous de Paris” adlı ince elmas desenli işçilik var. Otomobili çalıştırdığınızda torpidonun ortasından Fransız saat markası B.R.M.’nin tasarladığı analog bir saat yükseliyor. Opsiyonel Focal Electra ses sistemi ise Fransız hi-fi ustalığını kabine taşıyor.',
+      'Arka koltuk, bu otomobilin asıl yaşam alanlarından biri. Arka koltuklarda ısıtma, havalandırma ve masaj fonksiyonu sunuluyor; bu, bu fiyat seviyesindeki sedanlarda pek rastlanmayan bir lüks. Diz mesafesi de geniş; makam otomobili olarak kullanılmaya çok uygun.',
+      'Şarj edilebilir hibrit sistem, şehir içi kısa mesafeleri tamamen elektrikle yapmanıza imkân veriyor; evde ya da işte düzenli şarj edebiliyorsanız tüketim çok düşük kalıyor. Gece görüş kamerası da karanlık yollarda farların aydınlatamadığı yayaları ve hayvanları algılayıp sürücüye gösteriyor.',
+      'DS 9’un en büyük soru işareti ikinci el değeri. Marka Türkiye’de az bilindiği için ikinci el piyasasında talep sınırlı ve değer kaybı hızlı olabiliyor. Ama bu, ikinci elde çok lüks ve farklı bir sedanı uygun fiyata bulabileceğiniz anlamına da geliyor.',
+    ],
     summary: 'Fransız lüksünü özgün bir tasarımla sunan bir premium sedan; ikinci el değeri ve bazı konfor detayları zayıf halkası.',
   },
   {
@@ -4743,6 +4797,14 @@ const RAW_CARS = [
     reviewExtra: {
       tasarim: 'BMW station wagon modellerine özel bir detay: bagaj kapağını tamamen açmadan yalnızca arka cam bağımsız olarak yukarı açılabiliyor. Dar park alanlarında bagaj kapağı arkadaki duvara çarpmadan, sadece camı kaldırıp eşyaları hızlıca bagaja koyabiliyorsunuz.',
     },
+    longReview: [
+      'BMW station wagon modellerine özel bir detay: bagaj kapağını tamamen açmadan yalnızca arka cam bağımsız olarak yukarı açılabiliyor. Dar park alanlarında bagaj kapağı arkadaki duvara çarpmadan, sadece camı kaldırıp eşyaları hızlıca bagaja koyabiliyorsunuz.',
+      '5 Serisi Touring, BMW’nin iş sedanının station wagon versiyonu ve Almanya’nın Dingolfing şehrinde sedan kardeşiyle birlikte üretiliyor. Avrupa’da “sürmekten keyif alınan aile otomobili” denince akla gelen ilk otomobillerden biri.',
+      'Daha önce bahsettiğimiz bağımsız açılan arka cam, Touring’in en sevilen detayı. Bunun yanında Touring’in bir mühendislik avantajı daha var: Arka aksta standart olarak gelen havalı süspansiyon. Bu sistem, bagaja ne kadar yük koyarsanız koyun otomobilin arka tarafını hep aynı yükseklikte tutuyor. Ağır bir tatil yüküyle ya da bir römork çekerken bile otomobil dengesini ve konforunu koruyor.',
+      'Bagaj kapağının altındaki yükleme bölmesinde bagaj örtüsü ve ayırıcı ağ, kapağı açtığınızda kendiliğinden yukarı kalkacak şekilde tasarlanmış. Arka koltuklar bagajdan tek bir tuşla katlanabiliyor. Katlandığında bagaj neredeyse küçük bir panelvan kadar geniş bir yükleme alanına dönüşüyor.',
+      'Dizel motor, hafif hibrit sistem ve xDrive dört çeker kombinasyonu, Touring’i her havada güvenli ve uzun yolda çok ekonomik kılıyor. Sürüşte ise sedan kardeşinin bütün yeteneklerini koruyor: net direksiyon, dengeli gövde ve konforlu süspansiyon.',
+      'Touring’in zayıf yanları fiyat ve opsiyonlar. Sedan’a göre daha pahalı; opsiyon listesi de her BMW’de olduğu gibi uzun ve pahalı. Türkiye’de station wagon’lara talebin az olması da ikinci el satışını biraz yavaşlatabiliyor. Ama hem büyük yük hacmi hem de BMW sürüş keyfi isteyenler için rakibi çok az.',
+    ],
     summary: 'Dinamik BMW sürüş karakterini devasa yükleme hacmiyle en şık şekilde sunan bir station wagon.',
   },
   {
@@ -4854,6 +4916,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 7.0, konfor: 7.4, tuketim: 8.8, malzeme: 6.6, tasarim: 7.4, fiyat: 8.4, teknoloji: 7.2, guvenilirlik: 7.8, ikinciel: 9.0 },
     pros: ['Çok düşük dizel tüketimi', 'Bursa üretimi, ucuz bakım', 'İkinci elde çok kolay satılıyor'],
     cons: ['Kabin malzemeleri sıradan', 'Yüksek hızda belirgin rüzgar ve yol sesi'],
+    longReview: [
+      'Egea Hatchback, Bursa’daki Tofaş fabrikasında üretiliyor ve yurt dışında Fiat Tipo adıyla satılıyor. Türkiye’nin en çok satan otomobillerinden Egea’nın mantığını, sedan yerine daha kompakt bir hatchback gövdeye taşıyor. Şehirde park etmesi daha kolay, ama bagajı sedan kadar olmasa da sınıfı için yeterince geniş.',
+      'Egea Hatchback’in en büyük kozu işletme maliyeti. Dizel motor çok az yakıyor; Bursa üretimi sayesinde parça ucuz ve her yerde bulunuyor. Neredeyse her usta bu otomobili tanıyor. Satmak istediğinizde de çok kısa sürede alıcı buluyorsunuz. Bu üç özellik, Egea’yı Türkiye’de yıllardır en mantıklı aile otomobillerinden biri yapıyor.',
+      'Makyajla birlikte kabin yenilendi: Büyük dokunmatik multimedya ekranı, dijital gösterge ve kablosuz Apple CarPlay ve Android Auto desteği, kabini güncel tutuyor. Çift kavramalı otomatik şanzıman da şehir içinde sürüşü çok kolaylaştırıyor.',
+      'Egea’nın zayıf yanları kabin malzemeleri ve yalıtım. Kabin sert plastiklerle dolu; yüksek hızlarda rüzgar ve yol sesi belirgin şekilde kabine geliyor. Platform da yaşını hissettiriyor; güvenlik test puanları yeni rakiplerin gerisinde.',
+      'Egea Hatchback’i seçmenin asıl sebebi mantık. Bütçesini zorlamadan otomatik, dizel ve ucuz bakımlı bir aile otomobili arayanlar için Türkiye’de bu paketi sunan çok az otomobil var.',
+    ],
     summary: 'Egea’nın ekonomisini daha kompakt bir hatchback gövdede sunan, bakımı ucuz ve satması kolay bir aile otomobili.',
   },
   {
@@ -4865,6 +4934,13 @@ const RAW_CARS = [
     ratings: { surus: 7.0, guvenlik: 7.4, konfor: 8.4, tuketim: 8.2, malzeme: 6.8, tasarim: 8.0, fiyat: 8.2, teknoloji: 7.4, guvenilirlik: 6.8, ikinciel: 7.2 },
     pros: ['Sınıfının en konforlu süspansiyonlarından', 'Yüksek oturma pozisyonu', 'Uygun fiyatlı hibrit otomatik'],
     cons: ['Kabinde sert plastikler', 'Hibrit sistemin uzun vadeli güvenilirliği henüz kanıtlanmadı'],
+    longReview: [
+      'Dördüncü nesil C3, Citroën’in en çok satan modelinin tamamen yeniden tasarlanmış hâli. Slovakya’nın Trnava şehrindeki fabrikada üretilen otomobil, önceki nesillerin klasik hatchback gövdesini bırakıp daha yüksek ve kutu gibi bir crossover duruşuna geçti. Stellantis’in uygun fiyatlı otomobiller için geliştirdiği yeni altyapıyı kullanıyor; aynı altyapıda tamamen elektrikli bir versiyonu da var.',
+      'C3’ün en büyük kozu konfor. Citroën’in Advanced Comfort süspansiyonu, amortisörlerin içindeki ek hidrolik durdurucularla büyük çukurlarda ve kasislerde süspansiyonun sert bir şekilde dayanmasını önlüyor. Sonuçta C3, bu sınıfta bozuk yolları en iyi süzen otomobillerden biri. Yoğun süngerli Advanced Comfort koltuklar da bu konfor hissini tamamlıyor.',
+      'Kabinde ilginç bir gösterge çözümü var: Klasik bir gösterge paneli yerine, torpidonun üst kısmına yerleştirilmiş ince bir ekran bilgileri ön camın alt kısmına yansıtıyor. Sürücü gözünü yoldan çok az ayırarak hız ve navigasyon bilgilerini görebiliyor. Orta konsoldaki büyük dokunmatik ekran ise üst donanımlarda standart.',
+      'Hafif hibrit motor, şehir içinde düşük hızlarda kısa süreliğine elektrikle ilerleyebiliyor ve tüketimi düşük tutuyor. Yüksek oturma pozisyonu da trafikte iyi bir görüş sağlıyor.',
+      'Bu uygun fiyatın bedeli kabin malzemelerinde ödeniyor; sert plastikler yoğun. Yeni hibrit sistemin uzun vadeli güvenilirliği de henüz kanıtlanmış değil. Ama konforu, yüksek oturma pozisyonu ve otomatik şanzımanlı hibrit seçeneğiyle, bu fiyat seviyesinde çok cazip bir şehir otomobili.',
+    ],
     summary: 'Konforu ön plana çıkaran, crossover havalı ve uygun fiyatlı bir şehir otomobili.',
   },
   {
@@ -4984,6 +5060,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 7.0, konfor: 7.8, tuketim: 8.4, malzeme: 6.6, tasarim: 7.8, fiyat: 8.8, teknoloji: 7.2, guvenilirlik: 7.6, ikinciel: 7.8 },
     pros: ['C-SUV boyutları B-SUV fiyatına', 'Ekonomik tam hibrit motor', 'Çok geniş bagaj'],
     cons: ['Kabin malzemeleri sade', 'Hibrit şanzımanda ani hızlanmalarda gecikme'],
+    longReview: [
+      'Bigster, Dacia’nın tarihindeki en büyük ve en iddialı otomobil. Romanya’daki Dacia fabrikasında üretilen otomobil, Dacia’nın “daha azına daha fazlası” felsefesini bir C-SUV boyutuna taşıyor: Bir üst sınıfın boyutlarını, bir alt sınıfın fiyatına sunuyor.',
+      'Bigster’ın tam hibrit sistemi, Renault Clio E-Tech’te de kullanılan Formula 1 ilhamlı debriyajsız, köpek dişli çok modlu şanzımanı daha büyük bir benzinli motorla birleştiriyor. Şehir içinde otomobil zamanın büyük bölümünde elektrikle ilerliyor; bu da tüketimi bu boyuttaki bir SUV için çok düşük tutuyor.',
+      'Dacia’nın akıllı ve uygun maliyetli çözümleri Bigster’da da var. YouClip adı verilen bağlantı noktalarına, kabinin farklı yerlerine telefon tutucu, çanta askısı ya da lamba gibi aksesuarlar takabiliyorsunuz. Tavan rayları da birkaç saniyede döndürülerek yük taşımaya hazır tavan barlarına dönüşebiliyor; ayrı bir tavan barı satın almanıza gerek kalmıyor.',
+      'Bagaj sınıfının en büyüklerinden; arka koltuk da aileler için geniş. Yerden yüksekliği ve sağlam yapısıyla bozuk yollarda ve toprak yollarda rahat ilerliyor.',
+      'Bu uygun fiyatın bedeli kabin malzemelerinde ödeniyor; sert plastikler yoğun ve kabin sade. Hibrit şanzıman da ani hızlanmalarda kısa bir gecikme yaşatabiliyor. Ama büyük bir aile SUV’unu çok makul bir bütçeyle isteyenler için Bigster, segmentin en mantıklı seçeneklerinden biri.',
+    ],
     summary: 'Büyük bir aile SUV’unu çok makul bir fiyata ve ekonomik bir hibrit motorla sunan, segmentin fiyat/performans iddiacısı.',
   },
   {
@@ -5067,6 +5150,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.2, konfor: 7.8, tuketim: 7.4, malzeme: 7.4, tasarim: 8.2, fiyat: 7.6, teknoloji: 7.4, guvenilirlik: 9.0, ikinciel: 9.4 },
     pros: ['Efsanevi Honda güvenilirliği', 'İkinci elde çok aranan, değerini koruyan model', 'Sportif fastback tasarım'],
     cons: ['Atmosferik motor ara hızlanmada zayıf', 'CVT şanzıman sesli olabiliyor'],
+    longReview: [
+      'Onuncu nesil Civic Sedan’ın Türkiye ile özel bir bağı var: Bu otomobil, Honda’nın Gebze’deki fabrikasında üretiliyordu ve buradan Avrupa’ya da ihraç ediliyordu. Honda, 2021’de Türkiye’deki üretimini sonlandırdı; bu yüzden bu nesil, Türkiye’de üretilen son Civic’ler arasında yer alıyor. İkinci el piyasasında bu kadar çok bulunmasının ve bu kadar sevilmesinin önemli bir sebebi bu.',
+      'Bu neslin tasarımı, Civic’i sıradan bir aile sedanından çok daha sportif bir görünüme kavuşturdu. Arkaya doğru alçalan fastback tavan, keskin farlar ve C biçimli arka lambalar, otomobili yolda hâlâ taze ve dikkat çekici gösteriyor.',
+      'Türkiye’de bu neslin fabrika çıkışlı LPG’li versiyonları da çok tercih edildi. LPG ile yakıt maliyeti ciddi şekilde düşüyor; bu yüzden yüksek kilometre yapan kullanıcıların gözdesi oldu. İkinci el alırken LPG sisteminin bakım geçmişini ve sübapların durumunu kontrol ettirmek önemli.',
+      'Atmosferik motor ve CVT şanzıman, Honda’nın basit ve güvenilir mekanik anlayışının ürünü. Turbo ya da çift kavramalı şanzıman olmadığı için uzun vadede arıza ihtimali çok düşük. Bedeli ise performans: Motor ara hızlanmalarda zayıf kalıyor; CVT de sert hızlanmalarda motoru yüksek devirde tutup belirgin bir ses çıkarıyor.',
+      'Civic Sedan’ın en büyük kozu ikinci el değeri. Güvenilirliği, sportif tasarımı ve geniş kabiniyle ikinci el piyasasının en çok aranan sedanlarından biri; satmak istediğinizde çok kısa sürede alıcı buluyor ve değerini olağanüstü iyi koruyor.',
+    ],
     summary: 'Türkiye’nin en sevilen ikinci el sedanlarından; güvenilirliği ve değer korumasıyla çok mantıklı bir tercih.',
   },
   {
