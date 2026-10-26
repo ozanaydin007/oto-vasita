@@ -3165,6 +3165,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      '2020, GLA için yeni neslin başlangıç yılıydı ve bu nesil, öncekiyle karşılaştırıldığında neredeyse farklı bir otomobil gibi. Önceki GLA, yükseltilmiş bir hatchback gibi duruyordu; yeni nesil ise belirgin şekilde daha yüksek bir gövdeye ve gerçek bir SUV duruşuna kavuştu. Oturma pozisyonu da yükseldi; trafikte çevrenizi çok daha iyi görüyorsunuz.',
+      'Bu versiyonun 1.3 litrelik turbo motoru ilginç bir geçmişe sahip: Mercedes ve Renault-Nissan iş birliğiyle geliştirildi. Küçük hacmine rağmen yeterli bir güç sunuyor ve yedi ileri çift kavramalı şanzımanla birlikte şehir içinde ekonomik bir sürüş sağlıyor.',
+      'Kabinde Mercedes’in kompakt modellerinden tanıdık çift ekran var; dijital gösterge ve multimedya ekranı tek bir cam yüzeyin altında yan yana duruyor. “Hey Mercedes” sesli asistanı, türbin biçimli havalandırma ızgaraları ve ambiyans aydınlatması kabine bu sınıfta pek rastlanmayan bir lüks hissi katıyor.',
+      'GLA’nın zayıf yanları arka koltuk, bagaj ve süspansiyon. Arka koltuk ve bagaj sınırlı; Progressive donanımın süspansiyonu da bozuk yollarda sert. Mercedes’lerde olduğu gibi uzun süreli kullanımda trim sesleri de ortaya çıkabiliyor.',
+      'Ama Mercedes prestijini ve modern kabin atmosferini kompakt bir SUV’da makul bir bütçeyle isteyenler için GLA, ikinci elde cazip bir seçenek.',
+    ],
     summary: 'Yeni neslin ilk yılı; şık kabini ve teknolojisiyle ikinci elde değerli bir kompakt premium SUV.',
   },
   {
@@ -3306,6 +3314,15 @@ const RAW_CARS = [
       teknoloji: 'Google tabanlı Android Automotive sistemin internet (LTE/4G) bağlantısı aniden kopabiliyor; bu durumda navigasyon ve Spotify gibi uygulamalar tamamen çevrimdışı kalıyor.',
       tuketim: 'Köşeli tasarımın getirdiği rüzgar direnci nedeniyle 120 km/s üzerindeki hızlarda enerji tüketimi rakiplerine göre çok daha hızlı artıyor ve menzil hızla düşüyor.',
     },
+    longReview: [
+      'Köşeli tasarımın getirdiği rüzgar direnci nedeniyle 120 km/s üzerindeki hızlarda enerji tüketimi rakiplerine göre çok daha hızlı artıyor ve menzil hızla düşüyor.',
+      'Google tabanlı Android Automotive sistemin internet (LTE/4G) bağlantısı aniden kopabiliyor; bu durumda navigasyon ve Spotify gibi uygulamalar tamamen çevrimdışı kalıyor.',
+      'EX40, aslında yeni bir otomobil değil, yeni bir isim. Volvo, 2024’te elektrikli modellerinin isimlendirmesini değiştirdi ve XC40 Recharge’ın adını EX40 olarak güncelledi. Belçika’nın Gent şehrindeki Volvo fabrikasında üretilen otomobil, Volvo’nun ilk tamamen elektrikli modeli olma özelliğini taşıyor.',
+      'EX40’ın tarihindeki bir başka ilk de multimedya: XC40 Recharge, Google’ın otomobiller için geliştirdiği Android Automotive sistemini kullanan ilk otomobillerden biriydi. Google Haritalar, Google Asistan ve Google Play uygulamaları doğrudan otomobilin içinde çalışıyor; daha önce belirttiğimiz LTE bağlantı kopması sorunu ise bu sistemin bilinen zayıf noktası.',
+      'Volvo, bu versiyonla birlikte EX40’ın tek motorlu versiyonlarını önden çekişten arkadan itişe geçirdi. Bu değişiklik hem verimliliği hem de sürüş dengesini iyileştirdi; menzil de belirgin şekilde arttı. Volvo’nun elektrikli modellerinde kabinde gerçek deri kullanılmıyor; bunun yerine geri dönüştürülmüş ve doğal malzemelerden üretilen kaplamalar tercih ediliyor.',
+      'Ön kaputun altında ek bir bagaj bölmesi var. Volvo’nun güvenlik mirası EX40’ta da devam ediyor; kapsamlı sürüş destek sistemleri ve sağlam gövde yapısıyla sınıfının en güvenli elektriklilerinden biri.',
+      'Daha önce belirttiğimiz gibi köşeli tasarım, otoyol hızlarında enerji tüketimini artırıyor. Sürüş dinamikleri de sıradan. Ama güvenliği, uzun menzili ve İskandinav tasarımıyla EX40, şehirde ve kısa yolda kullanılacak premium bir elektrikli SUV arayanlar için güçlü bir seçim.',
+    ],
     summary: 'XC40’ın elektrikli hâli; güvenli, şık ve uzun menzilli bir premium kompakt SUV.',
   },
   {
@@ -3350,6 +3367,13 @@ const RAW_CARS = [
     ratings: { surus: 7.6, guvenlik: 9.0, konfor: 8.6, tuketim: 7.8, malzeme: 8.2, tasarim: 8.4, fiyat: 7.4, teknoloji: 8.6, guvenilirlik: 8.2, ikinciel: 7.4 },
     pros: ['7 koltuk ve geniş kabin', 'Büyük gövdede makul tüketim', 'Zengin donanım', 'Sinyal verince kör noktayı gösterge panelinde gösteren kamera'],
     cons: ['Sürüş keyfi sınırlı', 'Üçüncü sıra dar'],
+    longReview: [
+      'Dördüncü nesil Sorento, Kia’nın en büyük SUV’u ve markanın son yıllardaki kalite atılımının en somut örneklerinden biri. Güney Kore’de üretilen otomobil, yedi koltuklu kabini ve hibrit sistemiyle büyük ailelerin ihtiyaçlarını karşılamak için tasarlandı.',
+      'Tam hibrit sistem, turbo benzinli motoru bir elektrik motoruyla birleştirerek bu büyük gövdeye hem güçlü bir performans hem de makul bir tüketim kazandırıyor. Kia, burada çift kavramalı şanzıman yerine klasik tam otomatik şanzıman kullanmış; bu da dur-kalk trafikte yumuşak bir sürüş sağlıyor.',
+      'Dört çekerli versiyonlarda kar, çamur ve kum gibi farklı zeminler için arazi modları sunuluyor; bu modlar dört çeker sistemini, şanzımanı ve frenleri birlikte yöneterek kaygan zeminlerde tutunmayı artırıyor. Sinyal verdiğinizde gösterge panelinde o taraftaki kör nokta kamerasının görüntüsünün belirmesi de Sorento’nun en sevilen güvenlik detaylarından.',
+      'Kabin geniş ve kaliteli; ikinci sıra koltuklarda bol diz mesafesi var. Üçüncü sıra koltuklar için ayrı havalandırma çıkışları ve USB girişleri bulunuyor; ama bu sıra daha çok çocuklar ve kısa mesafeler için uygun.',
+      'Sorento’nun zayıf yanı sürüş keyfi; büyük gövde ve konfor odaklı ayar, sportif bir karakter sunmuyor. Ama geniş kabini, makul tüketimi ve zengin donanımıyla kalabalık aileler için çok mantıklı bir seçim.',
+    ],
     summary: 'Kalabalık aileler için geniş, donanımlı ve verimli bir hibrit SUV.',
   },
   // =========================================================================
@@ -3429,6 +3453,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 7.4, konfor: 7.8, tuketim: 7.8, malzeme: 7.8, tasarim: 9.0, fiyat: 7.4, teknoloji: 8.0, guvenilirlik: 6.8, ikinciel: 7.6 },
     pros: ['Sınıfının en şık tasarımlarından', '3D i-Cockpit gösterge', 'Çevik ve keyifli sürüş'],
     cons: ['PureTech motorun triger kayışı geçmişi kontrol edilmeli', 'Arka yaşam alanı sınırlı'],
+    longReview: [
+      'İkinci nesil 208, 2020’de Avrupa’da Yılın Otomobili seçildi ve Peugeot’nun küçük otomobil sınıfındaki iddiasını en güçlü şekilde ortaya koydu. Slovakya ve İspanya’daki fabrikalarda üretilen otomobil, Avrupa’nın en çok satan küçük otomobilleri arasında yer alıyor.',
+      '208’in tasarımı, sınıfının en karakterli tasarımlarından biri. Ön taraftaki aslan dişi biçimindeki gündüz farları ve arkadaki aslan pençesi izi bırakan stop lambaları, otomobili yolda hemen tanınır kılıyor. GT donanımında siyah tavan ve detaylar bu sportif havayı daha da öne çıkarıyor.',
+      'Kabinde Peugeot’nun i-Cockpit düzeni var: küçük çaplı bir direksiyon ve direksiyonun üzerinden bakılan bir gösterge paneli. GT donanımında bu gösterge 3D; bilgiler iki katmanlı bir ekranda gösteriliyor ve önemli uyarılar öndeki katmanda adeta havada asılıymış gibi duruyor. Küçük direksiyon, şehir içinde otomobili çok çevik ve oyuncak gibi hissettiriyor.',
+      'Bu versiyonun 8 ileri tam otomatik şanzımanı, bu sınıfta pek rastlanmayan bir donanım; çift kavramalı rakiplerine göre dur-kalk trafikte çok daha yumuşak. Ama 1.2 PureTech motorun bilinen zayıf noktası olan yağ içinde çalışan triger kayışını unutmamak gerekiyor; ikinci el alırken değişim geçmişini mutlaka sorun.',
+      'Arka koltuk ve bagaj sınırlı. Ama tasarımı, sürüş keyfi ve tam otomatik şanzımanıyla 208, şehirde yaşayan ve şık bir küçük otomobil isteyenler için çok cazip.',
+    ],
     summary: 'Tasarımı ve kabin atmosferiyle sınıfının en çekici otomobillerinden; ikinci elde bakım geçmişi önemli.',
   },
   {
@@ -3514,6 +3545,13 @@ const RAW_CARS = [
     ratings: { surus: 7.4, guvenlik: 8.6, konfor: 8.0, tuketim: 9.3, malzeme: 7.6, tasarim: 8.0, fiyat: 7.4, teknoloji: 8.1, guvenilirlik: 8.6, ikinciel: 7.2 },
     pros: ['Çok düşük tüketim', 'Geniş kabin', 'Hibritte bile gerçek otomatik (DCT) sürüş hissi'],
     cons: ['Sürüş keyfi sınırlı', 'Üst donanımlarda fiyat yüksek'],
+    longReview: [
+      'İkinci nesil Niro, Kia’nın hibrit ve elektrikli modellerinin bir arada sunulduğu crossover’ı. Tasarımın en dikkat çekici detayı, arka direkteki “Air Blade” adlı panel. Bu panel gövdeden farklı bir renkte boyanabiliyor ve yalnızca dekoratif değil: Arkaya akan havanın bir kısmını yönlendirerek aerodinamiğe katkı sağlıyor.',
+      'Kia, Niro’nun kabininde sürdürülebilir malzemelere ağırlık vermiş. Tavan döşemesinde geri dönüştürülmüş malzemeler, koltuklarda okaliptüs yapraklarından elde edilen lifler ve su bazlı boyalar kullanılıyor. Bu, kabine doğal ve sıcak bir his katıyor.',
+      'Tam hibrit sistem, Niro’yu sınıfının en az yakan otomobillerinden biri yapıyor. Kia burada hibritlerde sık kullanılan sürekli değişken şanzıman yerine altı ileri çift kavramalı şanzıman kullanmış; bu da hızlanmalarda motorun yüksek devirde bağırmasını engelleyerek klasik bir otomatik şanzıman hissi veriyor.',
+      'Kabin geniş; arka koltukta bol diz mesafesi var. Bagaj da bu boyuttaki bir hibrit için yeterli.',
+      'Niro’nun zayıf yanı sürüş keyfi; sportif bir karakter sunmuyor. Üst donanımlarda fiyat da yükseliyor. Ama çok düşük tüketimi, geniş kabini ve uzun garantisiyle mantıklı bir hibrit crossover arayanlar için güçlü bir seçim.',
+    ],
     summary: 'Verimliliği ve pratikliğiyle hibrit C-SUV arayanlar için güçlü ve sorunsuz bir tercih.',
   },
   {
@@ -3524,6 +3562,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.4, konfor: 8.4, tuketim: 8.0, malzeme: 8.4, tasarim: 9.0, fiyat: 7.6, teknoloji: 8.8, guvenilirlik: 7.4, ikinciel: 7.6 },
     pros: ['7 koltuk ve dev bagaj', '21 inçlik panoramik ekranlı etkileyici kabin', 'Çarpıcı tasarım', 'Katlanıp sökülebilen üçüncü sıra koltuklar'],
     cons: ['Motor dolu araçta zorlanıyor', 'Üçüncü sıra yalnızca çocuklar için'],
+    longReview: [
+      'Üçüncü nesil 5008, Stellantis grubunun yeni nesil orta boy altyapısını kullanıyor ve 3008’in yedi koltuklu, daha uzun kardeşi. Önceki neslin minivan havasını tamamen bırakıp gerçek bir SUV duruşuna kavuştu; uzun gövdesi ve dik arka bölümü, ona yolda güçlü bir görünüm kazandırıyor.',
+      'Kabinde 3008’den tanıdık, torpidonun üzerinde sürücünün önünden orta konsola kadar kesintisiz uzanan kavisli dev panoramik ekran var. Bu ekran, kabine bu sınıfta eşi benzeri olmayan bir teknoloji atmosferi katıyor. Altındaki dokunmatik kısayol tuşları da sık kullanılan işlevlere hızlı ulaşım sağlıyor.',
+      '5008’in en güçlü yanı esnekliği. İkinci sıradaki üç koltuk ayrı ayrı kaydırılabiliyor ve katlanabiliyor. Daha önce belirttiğimiz gibi üçüncü sıra koltuklar katlanıp tamamen sökülebiliyor; bu sayede ihtiyaca göre yedi koltuklu bir aile otomobili ya da dev bagajlı beş koltuklu bir SUV olarak kullanılabiliyor.',
+      'Hafif hibrit motor, şehir içinde düşük hızlarda kısa süreliğine elektrikle ilerleyebiliyor ve tüketimi düşük tutuyor. Ama bu büyük gövde ve yedi kişilik kapasite için motor dolu araçta zorlanıyor; tam dolu bir aileyle uzun yolda sollama yaparken planlı olmak gerekiyor.',
+      'Üçüncü sıra yalnızca çocuklar için uygun. Ama tasarımı, etkileyici kabini ve esnek koltuk düzeniyle 5008, kalabalık aileler için şık ve pratik bir seçim.',
+    ],
     summary: 'Kalabalık aileler için hem çok geniş hem de çok şık bir SUV; motoru ise gövdeye biraz küçük kalıyor.',
   },
   {
@@ -3722,6 +3767,15 @@ const RAW_CARS = [
       teknoloji: 'Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.',
       tasarim: 'Gece sürüşlerinde klima ve ses kontrolünü sağlayan dokunmatik panellerin (slider) aydınlatması olmadığı için kullanmak zorlaşıyor.',
     },
+    longReview: [
+      'Gece sürüşlerinde klima ve ses kontrolünü sağlayan dokunmatik panellerin (slider) aydınlatması olmadığı için kullanmak zorlaşıyor.',
+      'Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.',
+      'Sekizinci nesil Golf, 2019’un sonunda Almanya’nın Wolfsburg şehrinde üretime başladı ve Golf’ün dijitalleşme yolundaki en büyük adımı oldu. Bu nesilde fiziksel düğmelerin büyük kısmı kalktı; far kontrolünden klimaya kadar birçok işlev dokunmatik yüzeylere ve ekranlara taşındı.',
+      'Golf 8, sınıfında ilk kez standart olarak araçtan araca iletişim teknolojisi sunan otomobillerden biri oldu. Bu sistem, yakındaki aynı teknolojiye sahip araçlarla yaklaşık 800 metrelik bir mesafede bilgi alışverişi yaparak, örneğin önünüzdeki bir virajın arkasında duran bir ambulans ya da kaza gibi tehlikeler hakkında sizi önceden uyarabiliyor.',
+      'Bu versiyonun hafif hibrit sistemi, otoyolda gazdan ayağınızı çektiğinizde motoru tamamen kapatıp otomobili bir süre süzülerek ilerletebiliyor; gerektiğinde fark ettirmeden yeniden çalıştırıyor. Bu, uzun yolda tüketimi belirgin şekilde düşürüyor.',
+      'Sürüşte Golf, sınıfının olgunluk referansı olmaya devam ediyor: sessiz, dengeli ve konforlu. Ama daha önce belirttiğimiz gibi ilk yıllarda yaşanan yazılım çökmeleri, Seyahat Asistanı hataları ve gece aydınlatması olmayan dokunmatik paneller, bu neslin bilinen zayıf noktaları.',
+      'İkinci el alırken yazılım güncellemelerinin yapılıp yapılmadığını kontrol ettirmek önemli. Ama olgun sürüşü, düşük tüketimi ve ikinci el piyasasındaki güçlü talebiyle Golf, hâlâ en güvenli kompakt hatchback seçimlerinden biri.',
+    ],
     summary: 'Sekizinci nesil Golf; sürüş olgunluğu ve değer korumasıyla ikinci elde en güvenli kompakt tercihlerden.',
   },
   {
@@ -3797,6 +3851,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
     },
+    longReview: [
+      'Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.',
+      'Seat, modellerine İspanya’daki yerlerin adını verme geleneğine sahip; Leon da adını İspanya’nın kuzeyindeki tarihi León şehrinden alıyor. 1999’dan beri üretilen Leon, Seat’in en önemli modellerinden biri. Dördüncü nesil, İspanya’nın Martorell şehrindeki Seat fabrikasında üretiliyor.',
+      'Dördüncü nesil Leon’un tasarımı, Seat’in en keskin tasarımlarından biri. Önde ve arkada boydan boya uzanan LED ışık şeritleri, otomobili yolda hemen tanınır kılıyor. Kabinde de torpidonun ve ön kapıların etrafını saran ambiyans ışık şeridi var; bu şerit kör noktada araç varken sinyal verdiğinizde ya da arkadan yaklaşan bir bisikletli varken kapıyı açmaya çalıştığınızda kırmızı yanıp sönerek uyarıyor.',
+      'FR donanımı Leon’un sportif karakterini öne çıkarıyor: sportif tamponlar, büyük jantlar, sportif koltuklar ve daha sert bir süspansiyon. 1.5 eTSI motor güçlü ve verimli; hafif hibrit sistem de tüketimi düşük tutuyor. Golf altyapısı sayesinde yol tutuşu keskin ve dengeli.',
+      'FR süspansiyonu bozuk yollarda serte kaçıyor. Bu ilk versiyonda, makyajla düzeltilen bir sorun da var: Ses ve klima için kullanılan dokunmatik kaydırma panelleri gece aydınlatmalı değil; karanlıkta kullanmak zor.',
+      'Daha önce belirttiğimiz DQ200 şanzıman, vites kolu ve 48V akü riskleri ikinci el alırken en önemli kontrol noktaları. Ama şık tasarımı ve keyifli sürüşüyle Leon, Golf’ün mekaniğini daha sportif bir karakterle isteyenler için cazip bir seçim.',
+    ],
     summary: 'Golf mekaniğini daha sportif bir karakterle sunan, sürüş keyfi arayanlar için dengeli bir kompakt.',
   },
   {
@@ -3892,6 +3954,15 @@ const RAW_CARS = [
       teknoloji: 'Dijital kokpitte “Seyahat Asistanı devre dışı” uyarısı, direksiyondaki kapasitif sensörlerin hassasiyet kaybı nedeniyle sürekli bip sesiyle ekrana gelebiliyor. Ayakla bagaj açma (sanal pedal) sistemi de kararsız çalışabiliyor.',
       konfor: 'Arka süspansiyonda torsiyon çubuğu kullanan versiyonlarda (özellikle 1.0 eTSI) arka kısım bozuk yollarda fazla zıplayabiliyor; arka kapı fitillerinden gıcırtı sesleri gelebiliyor.',
     },
+    longReview: [
+      'Arka süspansiyonda torsiyon çubuğu kullanan versiyonlarda (özellikle 1.0 eTSI) arka kısım bozuk yollarda fazla zıplayabiliyor; arka kapı fitillerinden gıcırtı sesleri gelebiliyor.',
+      'Dijital kokpitte “Seyahat Asistanı devre dışı” uyarısı, direksiyondaki kapasitif sensörlerin hassasiyet kaybı nedeniyle sürekli bip sesiyle ekrana gelebiliyor. Ayakla bagaj açma (sanal pedal) sistemi de kararsız çalışabiliyor.',
+      'Octavia adının ilginç bir hikâyesi var: Bu ad ilk olarak 1959’da kullanıldı ve Latince “sekizinci” anlamına geliyor; Škoda’nın İkinci Dünya Savaşı’ndan sonra ürettiği sekizinci model olmasından geliyor. Bugün Octavia, Škoda’nın en çok satan modeli ve Çek Cumhuriyeti’nin Mladá Boleslav şehrinde üretiliyor.',
+      'Dördüncü nesil Octavia’da Škoda, klasik vites kolunu kaldırıp yerine orta konsolda küçük bir vites seçici koydu. Bu, orta konsolda daha fazla saklama alanı açtı. Kabin bir üst sınıfı aratmayacak kadar geniş; bagaj da sınıfının en büyüklerinden.',
+      'Bu versiyonun 1.0 litrelik üç silindirli hafif hibrit motoru, sakin kullanımda çok düşük bir tüketim sağlıyor. Otoyolda gazdan ayağınızı çektiğinizde motoru kapatıp süzülebiliyor. Ama daha önce belirttiğimiz gibi bu motor dolu araçta zorlanıyor; arka süspansiyonda torsiyon çubuğu kullanılması da arka tarafı daha sert hissettirebiliyor.',
+      'Seyahat Asistanı uyarısının sürekli bip sesiyle ekrana gelmesi ve dokunmatik ağırlıklı kontroller, bu neslin bilinen zayıf noktaları. İkinci el alırken yazılım güncellemelerinin yapılıp yapılmadığını kontrol ettirmek önemli.',
+      'Ama dev bagajı, geniş arka koltuğu ve düşük tüketimiyle Octavia, pratikliği ve ekonomiyi her şeyin önüne koyan aileler için ikinci elde çok mantıklı bir seçim.',
+    ],
     summary: 'Kompakt fiyatına orta sınıf alan sunan, ailelerin ikinci elde de gözdesi olan bir sedan.',
   },
   {
@@ -4024,6 +4095,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      'W213 kasa E Serisi, Almanya’nın Sindelfingen şehrindeki Mercedes fabrikasında üretiliyor ve Mercedes’in iş sedanı sınıfındaki uzun geleneğinin en zarif temsilcilerinden biri. Makyajlı versiyonla birlikte kabinde önemli yenilikler geldi.',
+      'Bunların en ilginci direksiyon. Makyajla gelen yeni direksiyon, sürücünün elinin direksiyonda olup olmadığını dokunmatik sensörlerle algılıyor; böylece sürüş destek sistemleri, sürücünün direksiyonu tutup tutmadığını fark etmek için direksiyonu hafifçe çevirmesine gerek kalmadan anlayabiliyor. Bu teknolojiyi sunan ilk Mercedes’lerden biri oldu.',
+      'Kabinde sürücünün önünden orta konsola kadar uzanan geniş çift ekran, ahşap kaplamalar ve ambiyans aydınlatması var. Mercedes’in “Energizing” konfor programları, masaj, ambiyans ışığı, müzik ve klimayı birlikte yöneterek uzun yolda sürücünün yorgunluğunu azaltmayı hedefliyor.',
+      'Sürüş, sınıfının en konforlularından biri. Süspansiyon bozuk yolları çok iyi süzüyor; kabin otoyol hızlarında çok sessiz. 9 ileri otomatik şanzıman yumuşak ve akıcı.',
+      'Daha önce belirttiğimiz gibi 1.6 motor bu ağır gövde için zorlanıyor; bakım maliyetleri yüksek ve uzun süreli kullanımda trim sesleri ortaya çıkabiliyor. Ama konforu, zarif kabini ve güçlü marka prestijiyle ikinci elde çok cazip bir iş sedanı.',
+    ],
     summary: 'Konforu ve zarafetiyle makam sedanı hissi veren, ikinci elde çok aranan bir model.',
   },
   {
@@ -4109,6 +4188,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 7.8, konfor: 7.8, tuketim: 7.8, malzeme: 7.8, tasarim: 8.8, fiyat: 7.2, teknoloji: 8.0, guvenilirlik: 6.8, ikinciel: 7.4 },
     pros: ['Çarpıcı tasarım', 'Premium hissettiren kabin', 'Keyifli sürüş'],
     cons: ['PureTech motorun triger kayışı geçmişi kontrol edilmeli', 'Arka koltuk dar'],
+    longReview: [
+      'İkinci nesil 2008, İspanya’nın Vigo şehrindeki Peugeot fabrikasında üretiliyor ve Peugeot’nun küçük SUV sınıfındaki en başarılı modellerinden biri. Önceki nesle göre çok daha büyük, daha keskin ve daha sportif bir tasarıma kavuştu. Ön taraftaki aslan dişi biçimindeki gündüz farları ve arkadaki aslan pençesi stop lambaları, otomobili yolda hemen tanınır kılıyor.',
+      'Kabin, bu sınıfta premium hissettiren nadir kabinlerden biri. Peugeot’nun 3D i-Cockpit düzeni, iki katmanlı dijital gösterge ve piyano tuşu biçimindeki kısayol düğmeleriyle kabin hem modern hem de kullanışlı. Kumaş ve karbon görünümlü kaplamalar da kabine sıcak bir hava katıyor.',
+      '2008’in ilginç bir teknolojisi Gelişmiş Tutunma Kontrolü. Önden çekişli olmasına rağmen, orta konsoldaki bir düğmeyle çamur, kar ve kum gibi farklı zeminler için çekiş kontrolünü ayarlayabiliyorsunuz. Dört çeker kadar yetenekli olmasa da kaygan zeminlerde beklenenden fazla iş görüyor.',
+      '8 ileri tam otomatik şanzıman, bu sınıfta pek rastlanmayan bir donanım; dur-kalk trafikte çok yumuşak. Ama 1.2 PureTech motorun yağ içinde çalışan triger kayışını unutmamak gerekiyor; ikinci el alırken değişim geçmişini mutlaka sorun.',
+      'Arka koltuk dar. Ama çarpıcı tasarımı, premium kabini ve keyifli sürüşüyle 2008, küçük SUV sınıfının en karakterli seçeneklerinden biri.',
+    ],
     summary: 'Tasarımıyla sınıfın en çekicilerinden; ikinci elde motor bakım geçmişi mutlaka incelenmeli.',
   },
   {
