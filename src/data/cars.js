@@ -5055,6 +5055,16 @@ const RAW_CARS = [
       malzeme: 'F kasalarda hep bahsettiğimiz iç aksam plastiklerinin yoğun güneşte erimesi bu modelde de karşınıza çıkabiliyor.',
       ikinciel: 'Yaşı düşünülünce düşük kilometreli örneklerden ilerlemek gerekiyor. Bakım geçmişi belli, kilometresi düşük bir örnek bulursanız uzun süre keyif alabilirsiniz.',
     },
+    longReview: [
+      '328i’nin motoru çok güçlü, hatta potansiyeli bunun da üzerinde. Bu otomobilin alıcısı zaten asıl olarak motor gücüne ve performansa odaklanıyor; 328i de bunları çok iyi yapıyor.',
+      'F kasalarda hep bahsettiğimiz iç aksam plastiklerinin yoğun güneşte erimesi bu modelde de karşınıza çıkabiliyor.',
+      'Yaşı düşünülünce düşük kilometreli örneklerden ilerlemek gerekiyor. Bakım geçmişi belli, kilometresi düşük bir örnek bulursanız uzun süre keyif alabilirsiniz.',
+      '2012, F30 kasa 3 Serisi’nin satışa çıktığı yıldı ve 328i, bu neslin en güçlü dört silindirli versiyonlarından biriydi. Münih’teki BMW ana fabrikasında üretilen F30, BMW’nin donanım seviyelerini ilk kez “Modern Line”, “Sport Line” ve “Luxury Line” gibi tasarım paketlerine ayırdığı 3 Serisi oldu. Luxury Line; krom detaylar, ahşap kaplamalar ve daha zarif bir görünümle 3 Serisi’nin şık yüzünü öne çıkarıyor.',
+      'Daha önce bahsettiğimiz gibi 328i’nin 2.0 turbo motoru çok güçlü ve potansiyeli bunun da üzerinde. Bu motor, ZF’nin 8 ileri şanzımanı ve arkadan itişli şasiyle birleşince, F30’a sınıfının en keyifli sürüş deneyimlerinden birini kazandırıyor. Neredeyse eşit ağırlık dağılımı sayesinde virajlarda çok dengeli.',
+      'Bu motor ailesi hakkında bilmeniz gereken önemli bir teknik nokta var: İlk üretim yıllarındaki motorlarda zamanlama zincirinin plastik kılavuzları erken yıpranabiliyor. Motor ilk çalıştırıldığında gelen metalik bir tıkırtı, bu sorunun ilk işareti olabilir. İkinci el alırken zincir setinin değişip değişmediğini mutlaka sorun.',
+      'Kabin, zamanının önündeydi: Torpidonun üstündeki geniş ekran, iDrive döner kumandası ve kaliteli malzemeler. Ama daha önce belirttiğimiz gibi F kasalarda iç aksam plastiklerinin yoğun güneşte erimesi ve yaşa bağlı bakım masrafları göz önünde bulundurulmalı.',
+      'Düşük kilometreli ve bakım geçmişi belli bir örnek bulursanız, 328i performans odaklı bir alıcı için ikinci elde çok cazip bir seçim.',
+    ],
     summary: 'Motor gücüne ve performansa odaklananlar için ikinci elde çok güçlü bir seçenek; düşük kilometreli örneklerden ilerlemek şart.',
   },
   {
@@ -5106,6 +5116,15 @@ const RAW_CARS = [
       tasarim: '“Trilobo” ön ızgarası ve 3+3 LED Matrix farlarıyla segmentinin en dikkat çekici duruşlarından birine sahip. Direksiyon arkasındaki büyük, sabit alüminyum vites kulakçıkları süper spor otomobil hissi veriyor ve mekanik hissiyatı harika.',
       surus: 'Sınıfının en direkt ve hızlı tepki veren direksiyonlarından biri (13,6:1 dişli oranı) sayesinde virajlı yollarda bir kompakt hatchback gibi kıvrak dönüyor.',
     },
+    longReview: [
+      'Sınıfının en direkt ve hızlı tepki veren direksiyonlarından biri (13,6:1 dişli oranı) sayesinde virajlı yollarda bir kompakt hatchback gibi kıvrak dönüyor.',
+      '“Trilobo” ön ızgarası ve 3+3 LED Matrix farlarıyla segmentinin en dikkat çekici duruşlarından birine sahip. Direksiyon arkasındaki büyük, sabit alüminyum vites kulakçıkları süper spor otomobil hissi veriyor ve mekanik hissiyatı harika.',
+      'Tonale, adını İtalyan Alpleri’ndeki Tonale Geçidi’nden alıyor ve İtalya’nın Napoli yakınlarındaki Pomigliano d’Arco fabrikasında üretiliyor. Alfa Romeo’nun kompakt SUV sınıfındaki ilk modeli olan Tonale, otomobil dünyasında ilginç bir ilke de imza attı: Otomobilin bakım geçmişini kaydeden dijital bir sertifika sunan ilk otomobillerden biri oldu. Bu dijital kayıt, otomobilin bakımlarını değiştirilemez şekilde saklıyor ve ikinci el satışında alıcıya güven veriyor.',
+      'Daha önce bahsettiğimiz “Trilobo” ön ızgara ve 3+3 LED Matrix farlar, Tonale’ye segmentinin en karakteristik yüzlerinden birini kazandırıyor. Üçlü far tasarımı, Alfa Romeo’nun efsanevi SZ ve Brera modellerine göz kırpıyor.',
+      'Bu versiyonun hafif hibrit sistemi, yedi ileri çift kavramalı şanzımanın içine entegre edilmiş bir elektrik motoru kullanıyor. Bu motor kalkışlarda ve düşük hızlarda otomobili kısa süreliğine yalnızca elektrikle hareket ettirebiliyor; park manevralarında ve dur-kalk trafikte çok işe yarıyor.',
+      'Kabinde Alfa Romeo’nun geleneksel tüp biçimindeki gösterge çerçevesi, kaliteli dijital gösterge ve direksiyona sabitlenmiş büyük alüminyum vites kulakçıkları var. Daha önce belirttiğimiz gibi sınıfının en direkt direksiyonlarından biri, Tonale’yi virajlı yollarda çok keyifli kılıyor.',
+      'Tonale’nin zayıf yanları hızlı değer kaybı ve orta seviyedeki motor performansı. Ama İtalyan tasarımını ve keskin direksiyonu kompakt bir SUV’da isteyenler için çok karakterli bir seçim.',
+    ],
     summary: 'Tasarımı ve direksiyonuyla Alfa ruhunu taşıyan bir premium C-SUV; ikinci el değeri ise zayıf halkası.',
   },
   // =========================================================================
@@ -5147,6 +5166,15 @@ const RAW_CARS = [
       surus: 'Bu otomobilin tek zayıf noktası motor gücü. 170 beygir, özellikle ÖTV’si düşük bir elektrikli için çok düşük kalıyor; diğer elektrikli rakiplerine oranla Ioniq 6 daha güçlü bir motoru kesinlikle hak ediyor.',
       tasarim: 'Porsche’yi andıran akıcı silueti ve yuvarlak hatlarıyla tasarımı çok güzel; yolda gerçekten dikkat çekiyor.',
     },
+    longReview: [
+      'Bu otomobilin tek zayıf noktası motor gücü. 170 beygir, özellikle ÖTV’si düşük bir elektrikli için çok düşük kalıyor; diğer elektrikli rakiplerine oranla Ioniq 6 daha güçlü bir motoru kesinlikle hak ediyor. Menzili gerçekten güzel; çok tatmin edici ve uzun yolda güven veriyor. Aerodinamik gövdesi sayesinde verimliliği de sınıfının en iyilerinden.',
+      'Porsche’yi andıran akıcı silueti ve yuvarlak hatlarıyla tasarımı çok güzel; yolda gerçekten dikkat çekiyor.',
+      'Ioniq 6, 2023’te Dünyada Yılın Otomobili seçildi ve Güney Kore’de üretiliyor. Hyundai bu otomobilin tasarımına “Elektrikli Aerodinamik Akış” adını veriyor; tasarımcılar 1930’ların aerodinamik akım çizgili otomobillerinden ilham aldı. Daha önce bahsettiğimiz Porsche’yi andıran akıcı siluet, otomobilin olağanüstü düşük hava sürtünme katsayısının da kaynağı.',
+      'Ioniq 6’nın kardeşi Ioniq 5 gibi bu otomobilde de piksel biçimli ışıklar var; ama burada daha da yaygın kullanılmış. Arka lambalar, üçüncü stop lambası ve ön taraftaki ışık detayları küçük piksellerden oluşuyor. Kabinde iki renkli ambiyans aydınlatması seçilebiliyor; kabini istediğiniz gibi renklendirebiliyorsunuz.',
+      'Ioniq 6’nın ilginç bir opsiyonel donanımı, dış dikiz aynaları yerine kullanılan kameralar. Kameraların görüntüleri, kapıların iç tarafındaki küçük ekranlara yansıtılıyor. Bu hem aerodinamiğe katkı sağlıyor hem de yağmurda ve gece daha net bir görüntü sunuyor.',
+      'Daha önce belirttiğimiz gibi menzili gerçekten tatmin edici ve uzun yolda güven veriyor. Ama bu ÖTV avantajlı versiyonun motor gücü sınırlı; otoyolda ve sollamalarda daha güçlü versiyonları aratabiliyor. Akıcı tavan çizgisi de arka koltukta başüstü mesafesini azaltıyor.',
+      'Verimliliği, tasarımı ve menziliyle Ioniq 6, elektrikli bir sedan arayanlar için Tesla Model 3’e çok güçlü bir alternatif.',
+    ],
     summary: 'Menzili ve tasarımıyla çok tatmin edici bir elektrikli sedan; tek eksiği rakiplerine göre düşük kalan motor gücü.',
   },
   {
@@ -5164,6 +5192,16 @@ const RAW_CARS = [
       teknoloji: 'Arka logonun LED olması ayrı güzel bir detay; gece yolda gerçekten fark ediliyor. Bang & Olufsen ses sistemi de bu pakette mevcut. Her şeyi yapabilen bir otomobil diyebiliriz.',
       ikinciel: 'Garantisi devam eden ve temiz bir ikinci el örneği bulursanız kesinlikle değerlendirmelisiniz; elektrikli premium modellerdeki değer kaybı, ikinci elde bu otomobili çok cazip bir fiyata ulaştırabiliyor.',
     },
+    longReview: [
+      'Arkadan itişli olması sürüşe ayrı bir denge ve keyif katıyor. 326 beygirlik güç her durumda fazlasıyla yeterli. Menzili çok, çok aşırı tatmin edici: katalogda 623 km. Hızlı şarj istasyonunda yaklaşık 21 dakikada şarj olabiliyor; uzun yolda mola süresi bir kahve molasından uzun sürmüyor.',
+      'Arka logonun LED olması ayrı güzel bir detay; gece yolda gerçekten fark ediliyor. Bang & Olufsen ses sistemi de bu pakette mevcut. Her şeyi yapabilen bir otomobil diyebiliriz.',
+      'Garantisi devam eden ve temiz bir ikinci el örneği bulursanız kesinlikle değerlendirmelisiniz; elektrikli premium modellerdeki değer kaybı, ikinci elde bu otomobili çok cazip bir fiyata ulaştırabiliyor.',
+      'A6 e-tron Sportback, Audi ve Porsche’nin birlikte geliştirdiği yeni nesil elektrikli altyapıyı kullanıyor; bu altyapıyı Porsche’nin elektrikli Macan’ı da paylaşıyor. Almanya’nın Ingolstadt şehrindeki Audi fabrikasında üretilen otomobil, aerodinamik açıdan önemli bir rekora sahip: Sportback gövdesi, Audi’nin şimdiye kadar ürettiği en düşük hava sürtünme katsayısına sahip seri üretim otomobillerden biri.',
+      'Daha önce bahsettiğimiz 623 kilometrelik menzilin arkasında bu aerodinamik başarı yatıyor. Opsiyonel olarak sunulan sanal dış aynalar, yani dikiz aynalarının yerine kullanılan kameralar da hava direncini azaltarak menzile katkı sağlıyor. 800 voltluk mimari ise daha önce belirttiğimiz kısa şarj sürelerini mümkün kılıyor.',
+      'Kabinde Audi’nin yeni dijital düzeni var: kavisli büyük bir gösterge ve multimedya ekranı, opsiyonel olarak da ön yolcunun önünde ayrı bir ekran. Daha önce bahsettiğimiz LED arka logo ve Bang & Olufsen ses sistemi, kabin ve dış tasarımı premium bir seviyeye taşıyor. Arka lambalarda da Audi’nin dijital OLED teknolojisiyle farklı ışık imzaları seçilebiliyor.',
+      'Arkadan itişli yapı sürüşe ayrı bir denge ve keyif katıyor. Kabin otoyol hızlarında çok sessiz; uzun yolda gerçek bir gran turismo konforu sunuyor.',
+      'Yüksek fiyat ve elektrikli premium modellerdeki hızlı değer kaybı bu otomobilin dezavantajları. Ama daha önce belirttiğimiz gibi garantisi devam eden temiz bir ikinci el örnek bulursanız kesinlikle değerlendirmenizi öneririz.',
+    ],
     summary: 'Menzili, şarj hızı ve donanımıyla her şeyi yapabilen bir otomobil; garantili ve temiz bir ikinci el örneği kesinlikle değerlendirilmeli.',
   },
   {
@@ -5202,6 +5240,15 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Çok başarılı bir otomobil; uzun yol performansı konforlu ve keyifli. Arkadan itişli olması, en azından 210 km/s’ye kadar limitör olmaması ve 0–100 km/s’yi 4,3 saniyede tamamlaması gerçekten etkileyici. Öncelikle bu otomobilin menziline insan gerçekten çok şaşırıyor. Katalogda 705 km olarak verilen menzil, dikkatli bir sürüşle sizi yollarda yine de 650 km’ye kadar götürebiliyor.',
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      'EQS, Mercedes’in elektrikli amiral gemisi ve Almanya’nın Sindelfingen şehrindeki Mercedes’in yeni nesil “Factory 56” fabrikasında, S Serisi ile aynı çatı altında üretiliyor. Mercedes’in elektrikli otomobiller için sıfırdan geliştirdiği altyapıyı kullanan ilk model.',
+      'EQS’in ilginç detaylarından biri kaput. Mercedes, bu otomobilin kaputunu kullanıcı tarafından açılmayacak şekilde tasarladı; kaput yalnızca serviste açılıyor. Cam suyu deposunu doldurmak için ise sol ön çamurluktaki küçük bir kapak kullanılıyor. Bu, kaputun gövdeyle kusursuz birleşmesini ve aerodinamiği iyileştirmeyi sağlıyor; daha önce bahsettiğimiz olağanüstü düşük sürtünme katsayısının sırlarından biri.',
+      'EQS’in konfor detayları da şaşırtıcı. Opsiyonel konfor kapıları, siz otomobile yaklaştığınızda kendiliğinden açılabiliyor. Kabin havası, A4 kâğıdı büyüklüğünde dev bir HEPA filtreyle temizleniyor. Seçenek olarak sunulan arka aks yönlendirmesi ise arka tekerlekleri belirgin bir açıyla döndürerek bu uzun sedanın dönüş çapını bir kompakt otomobile yaklaştırıyor.',
+      'Daha önce bahsettiğimiz insanı şaşırtan menzil ve torpidoyu baştan sona kaplayan Hyperscreen seçeneği, EQS’in en çok konuşulan özellikleri. Arkadan itişli yapı da uzun yolda konforlu ve keyifli bir sürüş sunuyor.',
+      'Uzun süreli kullanımda trim sesleri ve elektrikli premium modellerdeki hızlı değer kaybı, EQS’in bilinen dezavantajları. Ama bu hızlı değer kaybı, ikinci elde bu kadar teknolojik ve konforlu bir elektrikli sedanı çok daha uygun bir fiyata bulabileceğiniz anlamına da geliyor.',
+    ],
     summary: 'Menziliyle insanı gerçekten şaşırtan, uzun yolda konforlu ve keyifli, çok başarılı bir elektrikli lüks sedan.',
   },
   {
@@ -5241,6 +5288,16 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Çerçevesiz kapılı coupé-SUV formuna rağmen arka koltuklarda baş ve diz mesafesi bir Q7 kadar geniş; kayar arka koltuklar bagajla yaşam alanı arasında harika bir esneklik sağlıyor. Çerçevesiz kapılara rağmen yalıtım kalitesi de premium seviyede.',
     },
+    longReview: [
+      '0–100 km/s verisi bu kiloya göre çok etkileyici. 2 ton civarındaki ağırlığı ara hızlanmaları ve ani frenlemeleri biraz zorlaştırsa da performansı yine de kötü değil. Yüksek süratlerde şasi son derece istikrarlı.',
+      'Çerçevesiz kapılı coupé-SUV formuna rağmen arka koltuklarda baş ve diz mesafesi bir Q7 kadar geniş; kayar arka koltuklar bagajla yaşam alanı arasında harika bir esneklik sağlıyor. Çerçevesiz kapılara rağmen yalıtım kalitesi de premium seviyede. İçi sade ve şık; premium hissini fazlasıyla taşıyabiliyor.',
+      'Rakiplerinden daha uygun fiyata bulunabilmesi onu öne çıkaran en önemli özelliklerden biri.',
+      'Q8, Slovakya’nın Bratislava şehrindeki Volkswagen grubu fabrikasında, Volkswagen Touareg ve Porsche Cayenne ile aynı altyapıyı paylaşarak üretiliyor. Audi’nin büyük coupé-SUV’u, makyajlı versiyonla birlikte ışık teknolojisinde önemli yenilikler kazandı.',
+      'Makyajla gelen dijital OLED arka lambalar, multimedya ekranından seçebileceğiniz farklı ışık imzaları sunuyor. Bu lambaların ilginç bir güvenlik özelliği de var: Otomobil dururken arkadan bir araç çok yaklaştığında, arka lambaların bütün parçaları birden yanarak yaklaşan sürücüyü uyarıyor. Daha önce bahsettiğimiz dijital Matrix LED farlar da yola şerit işaretlerini ve yön oklarını yansıtabiliyor.',
+      'Daha önce belirttiğimiz gibi Q8, coupé-SUV şıklığını geleneksel SUV genişliğiyle birleştiriyor; çerçevesiz kapılarına rağmen yalıtım premium seviyede ve arka koltuklarda baş ve diz mesafesi yeterli. Opsiyonel arka aks yönlendirmesi de bu büyük gövdeyi şehirde çok daha çevik kılıyor.',
+      'Kabinde alt alta iki dokunmatik ekran var; ekranlara dokunduğunuzda titreşimli geri bildirim alıyorsunuz. Daha önce bahsettiğimiz gibi iç mekân sade ve şık; premium hissini fazlasıyla taşıyor.',
+      '2 tona yakın ağırlık ara hızlanmayı ve frenlemeyi zorlaştırıyor; tüketim de yüksek. Ama rakiplerinden daha uygun fiyatı ve etkileyici performansıyla Q8, büyük bir coupé-SUV arayanlar için güçlü bir seçim.',
+    ],
     summary: 'Premium hissini taşıyan, rakiplerinden daha uygun fiyata bulunabilen ve yüksek hızlarda kayaya oturmuş gibi giden bir SUV coupé.',
   },
   // =========================================================================
@@ -5302,6 +5359,15 @@ const RAW_CARS = [
       guvenilirlik: 'Gövdeye gömülü kapı kolları kış aylarında donabiliyor ya da kirlenince dışarı çıkmayabiliyor; bazen kapı kolunun üzerine ılık su dökmek gerekebiliyor.',
       teknoloji: 'Konsoldaki alt alta iki dokunmatik ekran (Touch Pro Duo) yoğun yük ve sıcaklık nedeniyle senkronizasyonunu kaybedebiliyor; üst ekran navigasyonu gösterirken alt ekran donabiliyor ve klimayı ya da koltuk ısıtmayı kapatamayabiliyorsunuz.',
     },
+    longReview: [
+      'Konsoldaki alt alta iki dokunmatik ekran (Touch Pro Duo) yoğun yük ve sıcaklık nedeniyle senkronizasyonunu kaybedebiliyor; üst ekran navigasyonu gösterirken alt ekran donabiliyor ve klimayı ya da koltuk ısıtmayı kapatamayabiliyorsunuz.',
+      'Gövdeye gömülü kapı kolları kış aylarında donabiliyor ya da kirlenince dışarı çıkmayabiliyor; bazen kapı kolunun üzerine ılık su dökmek gerekebiliyor.',
+      'Velar adının çok ilginç bir hikâyesi var. 1969’da ilk Range Rover’ın prototipleri test edilirken, mühendisler otomobilin gerçek kimliğini gizlemek için prototiplerin üzerine “Velar” yazdılar. Bu ad, Latince “örtmek, gizlemek” anlamına gelen bir kelimeden türetilmişti. Land Rover, neredeyse yarım asır sonra bu gizli kod adını yeni modeline vererek Range Rover’ın tarihine bir selam gönderdi.',
+      'İngiltere’nin Solihull şehrindeki Land Rover fabrikasında üretilen Velar, Range Rover ailesinin en zarif ve en minimal tasarımına sahip. Gövdeye gömülü kapı kolları, ince farlar ve neredeyse hiç çizgi barındırmayan yüzeyler, onu yolda bir heykel gibi gösteriyor.',
+      'Kabinde bu minimal tasarım devam ediyor. Orta konsolda alt alta iki dokunmatik ekran var; alt ekranın üzerindeki iki döner düğme, seçtiğiniz menüye göre işlev değiştiriyor: klima ayarlarından arazi modlarına kadar farklı görevler üstlenebiliyor. Kabin sessiz ve kaliteli; bagaj da geniş.',
+      'Sürüş konforlu ve sessiz. Dört çeker sistemi ve Terrain Response arazi modlarıyla Velar, şık görünümüne rağmen arazide de beklenenden yetenekli.',
+      'Daha önce belirttiğimiz gibi gömme kapı kolları kışın donabiliyor ve çift ekranlı multimedya senkronizasyon kaybı ve kilitlenmeler yaşayabiliyor. İkinci el alırken bu iki noktayı ve yazılım güncellemelerini mutlaka kontrol ettirin.',
+    ],
     summary: 'Tasarımıyla göz kamaştıran, konforlu bir premium SUV; elektronik ve mekanizmalardaki kronik sorunlara hazırlıklı olmak gerekiyor.',
   },
   {
@@ -5463,6 +5529,15 @@ const RAW_CARS = [
       surus: 'Performansı gerçekten çok iyi. 1.3 TCe motor, hafif kasayla birleşince kendinden daha yüksek beygirli bazı otomobillerden bile daha hızlı hissettiriyor; çünkü taşıması gereken ağırlık çok daha az. Ara hızlanmalarda ve sollamalarda bir şehir otomobilinden beklemeyeceğiniz kadar nefes kesici bir performans sunuyor.',
       fiyat: 'Fiyat/performans açısından rakipsiz. Bu bütçeyle bu kadar güçlü, keyifli ve kolay satılan bir otomobil bulmak gerçekten zor.',
     },
+    longReview: [
+      'Performansı gerçekten çok iyi. 1.3 TCe motor, hafif kasayla birleşince kendinden daha yüksek beygirli bazı otomobillerden bile daha hızlı hissettiriyor; çünkü taşıması gereken ağırlık çok daha az. Ara hızlanmalarda ve sollamalarda bir şehir otomobilinden beklemeyeceğiniz kadar nefes kesici bir performans sunuyor.',
+      'Fiyat/performans açısından rakipsiz. Bu bütçeyle bu kadar güçlü, keyifli ve kolay satılan bir otomobil bulmak gerçekten zor.',
+      '2020, beşinci nesil Clio’nun Bursa’daki Oyak Renault fabrikasında üretime başladığı yıldı. Bu nesille birlikte Clio, Avrupa’nın en çok satan otomobilleri arasında zirveye yerleşti. Renault, bu nesilde kabine en büyük yatırımı yaptı; önceki nesillerin sert ve sade kabini, yerini kaliteli ve modern bir kabine bıraktı.',
+      'Bu versiyonun 1.3 TCe motorunun ilginç bir geçmişi var: Renault-Nissan ittifakı ile Mercedes-Benz’in ortak geliştirdiği bir motor ailesinden geliyor. Aynı motor ailesi, Mercedes’in A Serisi ve GLA gibi modellerinde de kullanılıyor. Daha önce bahsettiğimiz nefes kesen performansın arkasında bu güçlü motor ve Clio’nun hafif kasası yatıyor.',
+      'Clio V, sınıfında yarı otonom sürüş destek sistemleri sunan ilk modellerden biri oldu. Otoyolda ve trafik sıkışıklığında direksiyonu, gazı ve freni birlikte yöneten sistem, uzun yolculukları ve yoğun trafiği çok daha az yorucu hâle getiriyor.',
+      'EDC çift kavramalı şanzıman şehir içinde sürüşü kolaylaştırıyor, ama daha önce belirttiğimiz gibi düşük hızlarda sarsıntılı olabiliyor. Arka koltuk da uzun boylular için dar.',
+      'Daha önce belirttiğimiz gibi bu bütçeyle bu kadar güçlü, keyifli ve kolay satılan bir otomobil bulmak zor. Fiyat/performans açısından Clio 2020, ikinci elde rakipsiz bir seçim.',
+    ],
     summary: '1.3 TCe motoruyla şehir otomobili sınıfının en performanslılarından; fiyat/performans açısından rakipsiz bir Clio.',
   },
   {
@@ -5500,6 +5575,15 @@ const RAW_CARS = [
       tuketim: 'Elektrikli menzili ortalama seviyede kaldığı için bu otomobili sürekli şarj etmeniz gerekiyor. Şarj etmeden, batarya hep sıfırdayken yalnızca benzinle sürmek de sağlıklı değil; hem tüketim yükseliyor hem de bu kullanım motor sistemi için ideal değil. Sonuçta sürücü kendini sık sık otomobili şarj ederken buluyor. Evde ya da işte düzenli şarj imkânınız varsa çok ekonomik; yoksa klasik hibrit veya benzinli bir versiyon daha mantıklı olabilir.',
       guvenilirlik: 'Benzinli motor, elektrik motoru, batarya ve şanzımandan oluşan biraz komplike bir sistem; parça sayısı arttıkça olası arıza noktaları da artıyor. Garantisi devam eden bir örnek tercih etmek mantıklı.',
     },
+    longReview: [
+      'Elektrikli menzili ortalama seviyede kaldığı için bu otomobili sürekli şarj etmeniz gerekiyor. Şarj etmeden, batarya hep sıfırdayken yalnızca benzinle sürmek de sağlıklı değil; hem tüketim yükseliyor hem de bu kullanım motor sistemi için ideal değil. Sonuçta sürücü kendini sık sık otomobili şarj ederken buluyor. Evde ya da işte düzenli şarj imkânınız varsa çok ekonomik; yoksa klasik hibrit veya benzinli bir versiyon daha mantıklı olabilir.',
+      'Benzinli motor, elektrik motoru, batarya ve şanzımandan oluşan biraz komplike bir sistem; parça sayısı arttıkça olası arıza noktaları da artıyor. Garantisi devam eden bir örnek tercih etmek mantıklı.',
+      'Şarj edilebilir hibrit Formentor, İspanya’nın Martorell şehrindeki Seat fabrikasında üretiliyor ve Cupra’nın sportif karakterini düşük tüketimle birleştirmeyi hedefliyor. Benzinli motor ve elektrik motoru birlikte çalışarak bu versiyona güçlü ve akıcı bir hızlanma kazandırıyor.',
+      'Bu otomobilin en büyük avantajı, düzenli şarj edildiğinde şehir içinde neredeyse hiç yakıt harcamadan kullanılabilmesi. Kısa mesafeli günlük işlerinizi tamamen elektrikle yapabiliyor, uzun yolda ise benzinli motorun menzilinden yararlanabiliyorsunuz. Direksiyondaki ve ekrandaki tuşlarla elektrikli, hibrit ve sportif sürüş modları arasında geçiş yapabiliyorsunuz.',
+      'Formentor’un tasarımı ve kabini yerinde: agresif ön yüz, bakır renkli detaylar, sportif koltuklar ve direksiyondaki Cupra düğmeleri. Alçak oturma pozisyonu da bir SUV’dan çok bir hatchback’e oturuyormuş hissi veriyor.',
+      'Daha önce belirttiğimiz gibi elektrikli menzil ortalama seviyede kaldığı için bu otomobili sürekli şarj etmek gerekiyor; evde ya da işte düzenli şarj imkânınız yoksa bu versiyonun avantajının büyük kısmı kayboluyor. Benzinli motor, elektrik motoru, batarya ve şanzımandan oluşan komplike sistem de uzun vadede bakım konusunda dikkat istiyor.',
+      'Batarya nedeniyle bagaj, benzinli versiyona göre daha küçük. Ama düzenli şarj edebilen ve sportif bir SUV’da düşük tüketim isteyenler için çok mantıklı bir seçim.',
+    ],
     summary: 'Şarj imkânınız varsa şehirde çok ekonomik ve keyifli; ama sürekli şarj etme disiplini gerektiren bir otomobil.',
   },
   // =========================================================================
@@ -5795,6 +5879,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 7.6, konfor: 7.8, tuketim: 9.0, malzeme: 7.0, tasarim: 7.4, fiyat: 8.4, teknoloji: 7.2, guvenilirlik: 7.6, ikinciel: 8.8 },
     pros: ['Çok düşük dizel tüketimi', 'Geniş bagaj ve arka koltuk', 'Bursa üretimi, ucuz parça'],
     cons: ['EDC şanzımanın bakım geçmişi kontrol edilmeli', 'DPF şehir içi kısa mesafelerde tıkanabiliyor'],
+    longReview: [
+      'Dördüncü nesil Megane Sedan, Bursa’daki Oyak Renault fabrikasında üretildi ve buradan birçok ülkeye ihraç edildi. Hatchback kardeşinden farklı olarak Megane Sedan, Türkiye gibi sedan sevilen pazarlar için özel olarak geliştirildi; uzun gövdesi ve büyük bagajıyla bir aile sedanının bütün beklentilerini karşılıyor.',
+      'Bu neslin dikkat çekici özelliklerinden biri, C biçimli LED gündüz farları. Bu ışık imzası, Megane’yi yolda hemen tanınır kılıyor ve o dönemde bu sınıfta pek rastlanmayan modern bir görünüm sunuyordu. Üst donanımlarda sunulan Multi-Sense sistemi ise sürüş modunu değiştirdiğinizde motorun tepkisini, direksiyon ağırlığını ve kabindeki ambiyans ışığının rengini birlikte değiştiriyordu.',
+      '1.5 dCi motor ekonomisiyle efsaneleşmiş bir motor; sakin kullanımda çok az yakıyor. EDC otomatik şanzımanla birlikte şehir içinde sürüşü kolaylaştırıyor. Bagaj çok büyük; arka koltuk da aileler için geniş.',
+      'İkinci el alırken dikkat edilmesi gereken iki nokta var: EDC şanzımanın bakım geçmişi ve 1.5 dCi’nin bilinen kuşinet riskine karşı yağ bakım geçmişi. Şehir içinde kısa mesafelerde kullanılmış örneklerde dizel partikül filtresinin tıkanması da kontrol edilmeli.',
+      'Bursa üretimi sayesinde parça ucuz ve her yerde bulunuyor. Düşük tüketimi, geniş bagajı ve otomatik şanzımanıyla Megane Sedan, ikinci elde bütçe dostu bir aile sedanı arayanlar için çok mantıklı bir seçim.',
+    ],
     summary: 'Düşük tüketimi, geniş bagajı ve konforuyla ikinci elde en mantıklı aile sedanlarından.',
   },
   {
