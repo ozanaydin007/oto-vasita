@@ -2148,6 +2148,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      'GLE, ABD’nin Alabama eyaletindeki Tuscaloosa fabrikasında üretiliyor; Mercedes’in büyük SUV’ları uzun yıllardır burada üretiliyor. Bu nesil GLE, Mercedes’in büyük SUV sınıfındaki teknoloji ve konfor iddiasını en güçlü şekilde sunan modellerinden biri.',
+      'GLE’nin en etkileyici teknolojisi, opsiyonel E-Active Body Control aktif süspansiyonu. Bu sistem, her tekerleği ayrı ayrı yükseltip alçaltarak gövdeyi neredeyse her koşulda yere paralel tutuyor. Virajlarda gövdeyi bir motosikletçi gibi virajın içine doğru hafifçe yatırabiliyor. En ilginç özelliği ise kuma ya da çamura saplandığınızda devreye giren kurtarma modu: Sistem, gövdeyi hızla yukarı aşağı sallayarak tekerleklerin zemine yeniden tutunmasına yardım ediyor.',
+      'Kabinde Mercedes’in MBUX sistemi var. Bu nesilde MBUX’a bir de kabin içi asistan eklendi: Sürücü ya da yolcu elini dikiz aynasının altındaki okuma lambasına doğru uzattığında sistem bunu algılayıp o tarafın lambasını yakıyor; kimin uzandığını da ayırt edebiliyor. Yedi koltuk seçeneği ve geniş bagajıyla GLE, büyük aileler için de uygun.',
+      'Hafif hibrit dizel motor, bu büyük gövdeyi sessizce ve zahmetsizce taşırken uzun yolda şaşırtıcı derecede düşük bir tüketim sunuyor. Sürüş çok konforlu ve sessiz; ama virajlarda BMW X5 kadar keskin değil.',
+      'Fiyatı çok yüksek ve Mercedes’lerin genelinde olduğu gibi uzun süreli kullanımda trim sesleri ortaya çıkabiliyor. Ama konfor ve teknolojiyi her şeyin önünde tutan büyük aileler için GLE, sınıfının en güçlü seçeneklerinden biri.',
+    ],
     summary: 'Konfor ve teknolojiyi ön plana koyan, uzun yolların rahat büyük SUV’u.',
   },
   {
@@ -2218,6 +2226,15 @@ const RAW_CARS = [
       tasarim: 'Alçak tavanı, geniş çamurlukları ve akıcı siluetiyle son yılların en karizmatik elektrikli GT tasarımlarından; yolda geleneksel süper sporlardan bile daha fütüristik duruyor.',
       surus: 'Üç odacıklı havalı süspansiyon ve arka aks yönlendirmesi sayesinde yüksek hızda viraj alırken bataryanın ağırlığını tamamen unutturuyor; ray üzerinde gidiyormuş gibi bir kararlılık sunuyor.',
     },
+    longReview: [
+      'Üç odacıklı havalı süspansiyon ve arka aks yönlendirmesi sayesinde yüksek hızda viraj alırken bataryanın ağırlığını tamamen unutturuyor; ray üzerinde gidiyormuş gibi bir kararlılık sunuyor.',
+      'Alçak tavanı, geniş çamurlukları ve akıcı siluetiyle son yılların en karizmatik elektrikli GT tasarımlarından; yolda geleneksel süper sporlardan bile daha fütüristik duruyor.',
+      'e-tron GT, Almanya’nın Neckarsulm şehrinde, Audi Sport’un Böllinger Höfe adlı özel tesisinde, R8 süper otomobiliyle aynı çatı altında büyük ölçüde elle üretiliyor. Porsche Taycan ile aynı elektrikli altyapıyı paylaşıyor; ama tasarım ve karakter olarak tamamen Audi.',
+      'Daha önce bahsettiğimiz gibi e-tron GT, son yılların en karizmatik elektrikli gran turismo tasarımlarından biri. Audi’nin tasarımcıları, otomobilin konsept versiyonuyla seri üretim versiyonu arasında neredeyse hiç fark bırakmamış; bu, otomobil dünyasında çok nadir görülen bir durum.',
+      'Teknik açıdan e-tron GT’nin en ilginç özelliklerinden biri, arka aksındaki iki ileri şanzıman. Çoğu elektrikli otomobil tek vitesle çalışırken, e-tron GT kalkışlarda daha güçlü bir hızlanma için birinci vitesi, otoyolda verimlilik için ikinci vitesi kullanıyor. 800 voltluk mimari de uygun hızlı şarj istasyonlarında çok kısa şarj süreleri sağlıyor.',
+      'Kabin, Audi’nin bilinen kalitesinde; sürücüye dönük bir kokpit ve alçak bir oturma pozisyonu otomobile gerçek bir spor otomobil havası katıyor. Elektrikli otomobillere özel olarak tasarlanan sportif sürüş sesi de kabinde eşsiz bir atmosfer yaratıyor.',
+      'e-tron GT’nin zayıf yanları menzil ve arka koltuk. Menzil rakiplerinin gerisinde; alçak tavan da arka koltuğu dar ve alçak kılıyor. Ama elektrikli bir otomobilde spor otomobil keyfi ve zamansız bir tasarım isteyenler için çok özel bir seçim.',
+    ],
     summary: 'Taycan altyapısını daha rahat bir karakter ve çarpıcı bir tasarımla sunan elektrikli GT.',
   },
   {
@@ -2255,6 +2272,13 @@ const RAW_CARS = [
     ratings: { surus: 5.5, guvenlik: 5.1, konfor: 5.9, tuketim: 7.8, malzeme: 4.7, tasarim: 5.1, fiyat: 7.0, teknoloji: 3.7, guvenilirlik: 7.4, ikinciel: 7.2 },
     pros: ['Düşük tüketim', 'Büyük bagaj', 'Yumuşak süspansiyon'],
     cons: ['Sade ve ucuz hissettiren kabin', 'Zayıf ses yalıtımı'],
+    longReview: [
+      'C-Elysée, Citroën’in gelişmekte olan pazarlar için tasarladığı bir sedan ve Peugeot 301’in kardeşi. İki otomobil İspanya’nın Vigo şehrindeki aynı fabrikada, aynı altyapı ve aynı motorlarla üretiliyor. Aradaki fark tasarımda ve sürüş karakterinde: C-Elysée, Citroën’in yumuşak süspansiyon geleneğini taşıyor.',
+      'C-Elysée’nin en güçlü yanı konforu. Citroën’in mühendisleri süspansiyonu özellikle yumuşak ayarlamış; bozuk yollarda, kasislerde ve çukurlarda otomobil sarsıntıları iyi süzüyor. Yerden yüksekliği de bozuk yollar için artırılmış.',
+      'Dizel motor çok ekonomik ve dayanıklı; sakin kullanımda çok az yakıyor. Bagaj sınıfının en büyüklerinden; büyük ailelerin tatil bavullarını rahatça alıyor. Arka koltuk da geniş. Bu yüzden C-Elysée, filo ve taksi kullanımında çok tercih edildi.',
+      'Bedeli ise kabin ve yalıtım. Kabin tamamen sert plastiklerle döşenmiş ve sade; ses yalıtımı zayıf, otoyolda motor ve yol sesi kabine belirgin şekilde geliyor. Donanım da çok basit.',
+      'İkinci el alırken aracın filo ya da taksi geçmişini, kilometresini ve dizel enjektörlerin durumunu kontrol ettirin. Doğru bir örnek bulursanız, bütçesini zorlamadan konforlu, geniş ve ekonomik bir sedan arayanlar için mantıklı bir seçim.',
+    ],
     summary: 'Peugeot 301’in kardeşi; ekonomik bir ulaşım aracı ama kalite beklentisini düşük tutmak gerek.',
   },
   {
@@ -2376,6 +2400,13 @@ const RAW_CARS = [
     ratings: { surus: 7.0, guvenlik: 8.0, konfor: 7.4, tuketim: 8.4, malzeme: 6.8, tasarim: 7.4, fiyat: 7.0, teknoloji: 6.4, guvenilirlik: 7.8, ikinciel: 8.2 },
     pros: ['Çok düşük tüketim', 'Rahat sürüş ve iyi güvenlik', 'Güçlü ikinci el talebi'],
     cons: ['Motor otoyol sollamalarında zayıf', 'Multimedya eski'],
+    longReview: [
+      'İkinci nesil Qashqai, İngiltere’nin Sunderland şehrindeki Nissan fabrikasında üretildi ve Avrupa’nın en çok satan crossover’larından biri oldu. İlk nesille Avrupa’da “crossover” sınıfını yaratan Qashqai, bu nesille sınıfın lideri olduğunu kanıtladı.',
+      'Bu nesil Qashqai, döneminin güvenlik teknolojisinde öncüydü. Nissan’ın “Around View Monitor” adını verdiği 360 derece kamera sistemi, otomobili yukarıdan görüyormuş gibi gösteriyor; üstelik otomobilin etrafında hareket eden bir nesne, örneğin bir çocuk ya da kedi algıladığında sürücüyü uyarıyordu. O dönem bu sınıfta pek rastlanmayan bir teknolojiydi.',
+      'Qashqai’nin bir başka ilginç teknolojisi, virajlarda tek tek tekerlekleri hafifçe frenleyerek otomobilin daha dengeli dönmesini sağlayan sistem. Bozuk yollarda gövdenin sallanmasını azaltan başka bir sistemle birlikte, sürüşü hem daha güvenli hem de daha konforlu kılıyor.',
+      '1.5 dCi motor ekonomisiyle efsaneleşmiş bir motor; sakin kullanımda çok az yakıyor. Ama bu gövde için otoyol sollamalarında zayıf kalıyor. İkinci el alırken bu motorun bilinen kuşinet riskine karşı yağ bakım geçmişini mutlaka kontrol edin.',
+      'Multimedya sistemi bugünün gözüyle eski. Ama düşük tüketimi, rahat sürüşü, iyi güvenlik donanımı ve güçlü ikinci el talebiyle Qashqai, ikinci elde hâlâ çok aranan bir aile otomobili.',
+    ],
     summary: 'Crossover modasını başlatan modelin ikinci nesli; ekonomik ve dengeli bir ikinci el SUV.',
   },
   // =========================================================================
@@ -2408,6 +2439,15 @@ const RAW_CARS = [
       surus: 'Sınıfının en iyi simetrik dört çeker sistemlerinden birine sahip olsa da, Lineartronic CVT şanzımanla dik rampaları geri geri çıkarken zorlanabiliyor.',
       teknoloji: 'Ön camın üstündeki EyeSight kamera sistemi; kalitesiz cam filmleri, dikiz aynasına asılan kokular veya hafif buğu yüzünden çarpışma önleme ve şerit takibini aniden kapatabiliyor.',
     },
+    longReview: [
+      'Sınıfının en iyi simetrik dört çeker sistemlerinden birine sahip olsa da, Lineartronic CVT şanzımanla dik rampaları geri geri çıkarken zorlanabiliyor.',
+      'Ön camın üstündeki EyeSight kamera sistemi; kalitesiz cam filmleri, dikiz aynasına asılan kokular veya hafif buğu yüzünden çarpışma önleme ve şerit takibini aniden kapatabiliyor.',
+      'Forester, Japonya’nın Gunma bölgesindeki Subaru fabrikasında üretiliyor ve markanın iki temel mühendislik imzasını taşıyor: boxer motor ve simetrik dört çeker. Boxer motorda silindirler yatay olarak karşılıklı yerleştirildiği için motor çok alçakta duruyor; bu da otomobilin ağırlık merkezini düşürerek bu yüksek SUV’a beklenenden daha dengeli bir yol tutuşu kazandırıyor.',
+      'Subaru’nun simetrik dört çeker sistemi, motordan tekerleklere kadar bütün aktarma organlarını otomobilin orta ekseni boyunca simetrik olarak yerleştiriyor. Bu, gücün dört tekerleğe çok dengeli dağıtılmasını sağlıyor. X-Mode ise çamur, kar ve kum gibi zorlu zeminlerde motoru, şanzımanı ve frenleri birlikte yöneterek otomobilin tutunmasını en üst seviyeye çıkarıyor.',
+      'Forester’ın güvenlik kozu EyeSight sistemi. Ön camın üstündeki iki kamera, insan gözü gibi derinliği algılayarak önündeki araçları, yayaları ve bisikletlileri tespit ediyor. Kabinde ayrıca sürücünün yüzünü tanıyan bir kamera var; sürücüyü tanıyıp koltuk ve ayna ayarlarını otomatik olarak getiriyor, yorgunluk ya da dikkat dağınıklığı algıladığında uyarıyor.',
+      'Geniş camlar ve ince direkler sayesinde Forester, sınıfının en iyi görüş açılarından birine sahip. Yerden yükseklik de bu sınıf için çok iyi.',
+      'Daha önce belirttiğimiz gibi CVT şanzıman yavaş, tüketim hibrite rağmen yüksek ve EyeSight kameraları dış etkenlerden çabuk etkilenebiliyor. Ama dört çekerin ve güvenliğin her şeyden önemli olduğu biri için Forester çok güvenilir bir seçim.',
+    ],
     summary: 'Kötü yol ve kış koşulları için en güvenilir SUV’lardan; verimlilik ve teknolojide rakiplerin gerisinde.',
   },
   {
@@ -2935,6 +2975,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      'EQB, Mercedes’in GLB’sinin elektrikli versiyonu ve Macaristan’ın Kecskemét şehrindeki Mercedes fabrikasında üretiliyor. Bu sınıfta pek rastlanmayan bir özelliği var: Yedi koltuk seçeneği. Bagajın tabanından çıkan iki ek koltuk, EQB’yi yedi kişi taşıyabilen nadir elektrikli SUV’lardan biri yapıyor; üçüncü sıra daha çok çocuklar için uygun.',
+      'Kutu gibi gövde, kabini çok pratik kılıyor. Yüksek tavan, geniş camlar ve dik arka bölüm, hem arka koltukta hem de bagajda bol alan sağlıyor. Arka koltuklar ileri-geri kaydırılabiliyor.',
+      'EQB’nin ilginç bir teknolojisi, navigasyon verilerini kullanarak enerji geri kazanımını planlayan sistem. Otomobil, önündeki yokuş aşağıları, kavşakları ve hız sınırlarını haritadan bilerek rejeneratif frenlemeyi kendisi ayarlıyor; böylece enerjiyi en verimli şekilde geri kazanıyor. Direksiyon arkasındaki kulakçıklarla rejeneratif frenleme seviyesini kendiniz de ayarlayabiliyorsunuz.',
+      'Kabinde Mercedes’in MBUX sistemi, çift ekran ve ambiyans aydınlatması var. Sürüş sessiz ve konforlu; Mercedes kalitesi kabinin her yerinde hissediliyor.',
+      'EQB’nin zayıf yanları menzil ve verimlilik. Kutu gibi gövde aerodinamik değil; bu yüzden fiyatına göre menzil kısa ve verimlilik rakiplerin gerisinde. Mercedes’lerde olduğu gibi uzun süreli kullanımda trim sesleri de ortaya çıkabiliyor.',
+    ],
     summary: 'Kalabalık aileler için pratik bir elektrikli; menzil ve verimlilik zayıf halkası.',
   },
   {
@@ -3298,6 +3346,13 @@ const RAW_CARS = [
     ratings: { surus: 8.4, guvenlik: 8.8, konfor: 7.8, tuketim: 7.4, malzeme: 8.8, tasarim: 8.8, fiyat: 7.6, teknoloji: 7.6, guvenilirlik: 9.0, ikinciel: 7.0 },
     pros: ['Premium markalarla yarışan kabin kalitesi', 'Zarif tasarım', 'Keyifli yol tutuş', 'Döner kumandalı, dikkat dağıtmayan multimedya', 'Virajda yük aktarımını düzenleyen G-Vectoring Control'],
     cons: ['Arka koltuk ve bagaj sınırlı', 'Motor performansı sıradan'],
+    longReview: [
+      'CX-30’un adının ilginç bir hikâyesi var. Mazda, bu modeli CX-3 ile CX-5 arasında konumlandırdı; ama mantıklı isim olan CX-4, Mazda’nın Çin’de sattığı başka bir model için zaten kullanılıyordu. Bu yüzden Mazda, karışıklığı önlemek için iki haneli yeni bir isimlendirmeye geçti ve otomobile CX-30 adını verdi.',
+      'CX-30, Mazda 3 ile aynı altyapıyı ve “Kodo” tasarım dilini paylaşıyor. Yan yüzeylerde keskin çizgiler yerine ışık yansımalarıyla oynayan bu tasarım, otomobili farklı açılardan bakıldığında sürekli değişen bir görüntüyle sunuyor. Gövdenin alt kısmını çevreleyen geniş siyah koruyucular ise ona bir SUV havası katıyor.',
+      'Kabin kalitesi, premium markalarla yarışacak seviyede. Yumuşak dokulu yüzeyler, kaliteli dikişler ve sağlam montaj, CX-30’u bu sınıfta en premium hissettiren otomobillerden biri yapıyor. Multimedya ekranı bilinçli olarak dokunmatik değil; orta konsoldaki döner kumandayla kullanılıyor ve sürücünün dikkatini yoldan ayırmıyor. Üst donanımlarda Bose ses sistemi sunuluyor.',
+      'Sürüşte CX-30 keyifli; direksiyon doğal ve tutarlı. G-Vectoring Control, virajlarda yük aktarımını düzenleyerek akıcı bir sürüş sağlıyor. Atmosferik motor ve klasik tam otomatik şanzıman da uzun vadede çok güvenilir bir mekanik sunuyor.',
+      'Zayıf yanları arka koltuk ve bagaj. Kalın arka direkler arka görüşü kısıtlıyor; arka koltuk ve bagaj sınırlı. Motor performansı da sıradan. Ama kabin kalitesi ve zarif tasarımı önceliğiniz ise CX-30 çok cazip bir seçim.',
+    ],
     summary: 'Premium hissi uygun fiyata sunan, sürmesi keyifli ve çok iyi işlenmiş bir C-SUV.',
   },
   {
@@ -3476,6 +3531,13 @@ const RAW_CARS = [
     ratings: { surus: 6.8, guvenlik: 7.6, konfor: 7.2, tuketim: 8.0, malzeme: 7.0, tasarim: 6.6, fiyat: 7.0, teknoloji: 6.8, guvenilirlik: 9.2, ikinciel: 8.0 },
     pros: ['Magic Seat ile sınıfının en esnek kabini', 'Honda güvenilirliği', 'Geniş iç hacim'],
     cons: ['CVT hızlanmada gürültülü', 'Sade tasarım ve multimedya'],
+    longReview: [
+      'Jazz’ın en ünlü özelliği Magic Seat, ama bu özelliği mümkün kılan şey daha az bilinen bir mühendislik çözümü. Honda, bu küçük otomobilin yakıt deposunu, çoğu otomobilde olduğu gibi arka koltuğun altına değil, ön koltukların altına yerleştirdi. Bu sayede arka koltukların altında boş bir alan kaldı ve koltuklar hem sinema koltuğu gibi yukarı kaldırılabiliyor hem de tamamen düz bir şekilde katlanabiliyor.',
+      'Arka koltuk minderlerini yukarı kaldırdığınızda, arka koltukların önünde yerden tavana kadar uzanan bir yükleme alanı oluşuyor. Büyük bir bitkiyi, bir bisikleti ya da uzun bir eşyayı dik olarak taşıyabiliyorsunuz. Koltukları katladığınızda ise küçük bir hatchback’ten beklenmeyecek kadar büyük ve düz bir yükleme alanı elde ediyorsunuz.',
+      'Jazz, dış boyutlarına göre şaşırtıcı derecede geniş bir kabine sahip. Yüksek tavan ve geniş camlar kabini aydınlık ve ferah kılıyor; arka koltukta yetişkinler rahatça oturabiliyor.',
+      'Atmosferik motor ve CVT şanzıman, Honda’nın basit ve güvenilir mekanik anlayışının ürünü. Uzun vadede arıza ihtimali çok düşük. Bedeli ise performans: CVT, hızlanmalarda motoru yüksek devirde tutarak gürültülü bir karakter sergiliyor.',
+      'Tasarım ve multimedya sade. Ama Honda güvenilirliği, olağanüstü esnek kabini ve kolay kullanımıyla Jazz, şehirde yaşayan ve pratikliği önemseyenler için ikinci elde çok mantıklı bir seçim.',
+    ],
     summary: 'Dışarıdan küçük, içeriden şaşırtıcı derecede geniş; uzun yıllar sorunsuz kullanılacak pratik bir şehir otomobili.',
   },
   {
@@ -3637,6 +3699,13 @@ const RAW_CARS = [
     ratings: { surus: 7.2, guvenlik: 8.8, konfor: 8.0, tuketim: 7.8, malzeme: 7.6, tasarim: 7.8, fiyat: 8.0, teknoloji: 7.2, guvenilirlik: 9.4, ikinciel: 9.4 },
     pros: ['Efsanevi güvenilirlik', 'İkinci elde çok hızlı satılıyor', 'Rahat ve sessiz'],
     cons: ['Performans sınırlı', 'Multimedya sade'],
+    longReview: [
+      'On ikinci nesil Corolla, Toyota’nın yeni nesil altyapısına geçen ilk Corolla oldu ve Sakarya’daki Toyota fabrikasında üretiliyor. Bu yeni altyapı, Corolla’nın yıllardır eleştirilen sıkıcı sürüş karakterini belirgin şekilde değiştirdi: Daha alçak ağırlık merkezi ve çok daha rijit gövde sayesinde Corolla artık virajlarda dengeli ve keyifli.',
+      'Bu versiyondaki atmosferik motor, Toyota’nın verimlilik ve düşük tüketim odaklı yeni motor ailesinden geliyor. Basit yapısı ve turbo kullanmaması, uzun vadede Corolla’nın efsanevi güvenilirliğini sürdürmesine katkı sağlıyor.',
+      'Corolla’nın tasarımı da bu nesille birlikte çok daha sportif hâle geldi. Keskin farlar, geniş ızgara ve dinamik silüet, otomobile önceki nesillere göre çok daha genç bir görünüm kazandırıyor. Kabinde de torpidonun üstünde serbest duran bir multimedya ekranı ve modern bir düzen var.',
+      'Bu versiyonun zayıf yanı performans: Motor güçlü değil; dolu araçla ve sollamalarda zorlanıyor. CVT şanzıman da sert hızlanmalarda motoru yüksek devirde tutuyor.',
+      'Ama Corolla’nın asıl kozu her zaman olduğu gibi güvenilirlik ve ikinci el değeri. Sorunsuz mekaniği ve ikinci el piyasasındaki olağanüstü talebiyle, satmak istediğinizde çok kısa sürede alıcı bulan ve değerini çok iyi koruyan bir sedan.',
+    ],
     summary: 'Türkiye’nin en sorunsuz sedanlarından; değerini korumada neredeyse rakipsiz.',
   },
   {
@@ -3903,6 +3972,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
     },
+    longReview: [
+      'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
+      'Kamiq, Çek Cumhuriyeti’nin Mladá Boleslav şehrindeki Škoda fabrikasında üretiliyor. Adı ilginç bir kaynaktan geliyor: Škoda, Kodiaq ve Karoq’ta olduğu gibi bu modelin adını da Kuzey Kutbu’nun yerli halklarının dilinden almış. “Kamiq”, ayağa tam oturan bir ayakkabıyı anlatan bir kelimeden türetilmiş; Škoda bununla otomobilin her duruma tam uyduğunu anlatmak istiyor.',
+      'Monte Carlo donanımı, adını Škoda’nın Monte Carlo Rallisi’ndeki başarılarından alıyor. Siyah detaylar, büyük siyah jantlar, panoramik cam tavan, sportif koltuklar ve kırmızı detaylar, Kamiq’in sade tasarımına sportif bir karakter katıyor.',
+      'Kamiq’in en güçlü yanı arka koltuk. Bu sınıfta en geniş arka diz mesafelerinden birine sahip; arkada uzun boylu yetişkinler bile rahatça oturabiliyor. Škoda’nın akıllı detayları da eksik değil: yakıt kapağının arkasındaki buz kazıyıcı, ön koltuk sırtlarındaki telefon cepleri ve bagajdaki ağlar.',
+      'Güçlü turbo motor ve DSG şanzıman, Kamiq’e sınıfının üzerinde bir performans kazandırıyor. Ama daha önce belirttiğimiz DQ200 şanzıman ve vites kolu riskleri, ikinci el alırken en önemli kontrol noktaları.',
+      'Kamiq’in tasarımı sade ve bagajı ortalama. Ama geniş kabini, güçlü motoru ve T-Cross’a göre daha uygun fiyatıyla, aileler için çok mantıklı bir küçük SUV.',
+    ],
     summary: 'Güçlü motoru ve geniş kabiniyle mantıklı ve keyifli bir C-SUV.',
   },
   {
@@ -4063,6 +4140,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.4, konfor: 7.8, tuketim: 8.2, malzeme: 7.2, tasarim: 7.8, fiyat: 7.4, teknoloji: 7.8, guvenilirlik: 7.4, ikinciel: 7.4 },
     pros: ['Keyifli yol tutuş', 'Ekonomik dizel', 'Kayar arka koltuk'],
     cons: ['Motor dolu araçta zorlanıyor', 'Kabin kalitesi ortalama'],
+    longReview: [
+      'Üçüncü nesil Kuga, İspanya’nın Valencia şehrindeki Ford fabrikasında üretiliyor ve Focus ile aynı altyapıyı paylaşıyor. Bu ortak altyapı, Kuga’ya sınıfının en keyifli yol tutuşlarından birini kazandırıyor. Ford’un Avrupalı mühendislerinin sürüş keyfine verdiği önem burada da hissediliyor.',
+      'Kuga’nın en pratik özelliği kayar arka koltuk. Arka sıra ileri-geri kaydırılabiliyor; bagajı büyütmek istediğinizde öne, arkada uzun boylu yolcular taşırken geriye alıyorsunuz. Ayağınızı bagajın altında sallayarak açabildiğiniz elektrikli bagaj kapağı da elleriniz doluyken çok işe yarıyor.',
+      'ST-Line donanımı, Kuga’ya sportif tamponlar, büyük jantlar ve daha sert bir süspansiyon kazandırıyor. Üst donanımlarda Bang & Olufsen ses sistemi ve dijital gösterge sunuluyor.',
+      'Dizel motor ve 8 ileri tam otomatik şanzıman, uzun yolda çok düşük bir tüketim sağlıyor. Ama bu versiyondaki motor, dolu araçla ve yokuşlarda zorlanıyor; sollamalarda planlı olmak gerekiyor.',
+      'Kabin kalitesi ortalama; sert plastikler yoğun. Ama keyifli yol tutuşu, pratik arka koltuğu ve ekonomik dizeliyle Kuga, sürüş keyfini önemseyen aileler için mantıklı bir C-SUV.',
+    ],
     summary: 'Sürüşü keyifli, ekonomik ve pratik bir aile SUV’u.',
   },
   {
@@ -4178,6 +4262,15 @@ const RAW_CARS = [
       tasarim: 'Bagaj kapağını açma düğmesi dışarıdan görünmüyor; arka silecek kolunun altındaki plastik gövdeye gizlenmiş. Yağmurlu havalarda sileceğin topladığı çamur bu yuvaya doluyor ve bagajı açmak isterken eliniz çamur olabiliyor.',
       guvenilirlik: '7 ileri PDK şanzımanın mekatronik ünitesindeki hız sensörü zamanla bozulabiliyor. Sensörün kendisi ucuz olsa da servis prosedürleri nedeniyle şanzımanın komple değişmesi gerekebiliyor ve fatura çok yüksek tutarlara ulaşabiliyor.',
     },
+    longReview: [
+      'Bagaj kapağını açma düğmesi dışarıdan görünmüyor; arka silecek kolunun altındaki plastik gövdeye gizlenmiş. Yağmurlu havalarda sileceğin topladığı çamur bu yuvaya doluyor ve bagajı açmak isterken eliniz çamur olabiliyor.',
+      '7 ileri PDK şanzımanın mekatronik ünitesindeki hız sensörü zamanla bozulabiliyor. Sensörün kendisi ucuz olsa da servis prosedürleri nedeniyle şanzımanın komple değişmesi gerekebiliyor ve fatura çok yüksek tutarlara ulaşabiliyor.',
+      'İlk nesil Macan, Almanya’nın Leipzig şehrindeki Porsche fabrikasında üretildi ve uzun yıllar boyunca Porsche’nin en çok satan modeli oldu. Porsche’ye ilk kez bu kadar geniş bir kitlenin ulaşmasını sağlayan Macan, markanın tarihindeki en önemli modellerden biri.',
+      'Macan S’in kalbindeki V6 motorun ilginç bir mühendislik detayı var: İki turbo, silindir sıralarının arasındaki V boşluğunun içine yerleştirilmiş. Bu düzen, egzoz gazının turbolara çok kısa bir yoldan ulaşmasını sağlayarak turbo gecikmesini azaltıyor ve motoru daha kompakt hâle getiriyor. Sonuçta Macan S, gaz pedalına anında tepki veren güçlü bir motora sahip.',
+      'Macan, SUV gövdesinde gerçek bir spor otomobil yol tutuşu sunuyor. Porsche’nin aktif dört çeker sistemi gücü ihtiyaca göre tekerleklere dağıtırken, PDK şanzıman da çok hızlı ve akıcı vites geçişleri sağlıyor. Torpidonun ortasındaki Sport Chrono saati de kabine Porsche’nin yarış mirasını taşıyor.',
+      'Daha önce bahsettiğimiz iki ilginç detayı da bilmekte fayda var: Bagaj açma düğmesi arka silecek kolunun altına gizlenmiş ve yağmurlu havada elinizi çamurlayabiliyor; PDK’nın mekatronik ünitesindeki küçük bir hız sensörü arızası da beklenenden yüksek bir şanzıman masrafına dönüşebiliyor.',
+      'Tüketim yüksek; arka koltuk ve bagaj da sınırlı. Ama Porsche kalitesi, güçlü değer koruması ve SUV’da spor otomobil keyfiyle Macan, ikinci elde çok cazip bir seçim.',
+    ],
     summary: 'Benzinli Macan’ın son neslinden; SUV gövdesinde gerçek bir Porsche sürüşü.',
   },
   {
