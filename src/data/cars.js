@@ -1319,6 +1319,13 @@ const RAW_CARS = [
     ratings: { surus: 8.4, guvenlik: 9.0, konfor: 8.3, tuketim: 8.3, malzeme: 8.2, tasarim: 9.0, fiyat: 6.6, teknoloji: 8.9, guvenilirlik: 8.0, ikinciel: 6.8 },
     pros: ['800V hızlı şarj', 'Sportif ve çevik sürüş', 'Etkileyici tasarım', 'Araçtan elektrik çekebilme (V2L)', 'Dinlenme pozisyonlu ön koltuklar'],
     cons: ['Standart menzilde fiyatına göre kısa menzil', 'Arka görüş sınırlı'],
+    longReview: [
+      'EV6, Kia’nın elektrikli otomobiller için sıfırdan geliştirdiği altyapıyı kullanan ilk modeli ve 2022’de Avrupa’da Yılın Otomobili seçildi. Güney Kore’de üretilen otomobil, Kia’nın elektrikli dönemdeki iddiasını tek başına anlatıyor: Uzun dingil mesafesi, alçak ve geniş gövde, arkada boydan boya uzanan bumerang biçimli lamba ve bir crossover’dan çok bir gran turismoyu andıran siluet.',
+      'EV6’nın en büyük teknik kozu 800 voltluk mimarisi. Bu sistem, uygun hızlı şarj istasyonlarında bataryanın çok kısa sürede doldurulmasını sağlıyor; uzun yolda şarj molası bir kahve molasından fazla sürmüyor. Bu standart menzilli versiyonda menzil kısa, ama hızlı şarj bu açığı uzun yolda büyük ölçüde kapatıyor.',
+      'EV6’nın en sevilen özelliklerinden biri, otomobilden dışarıya elektrik verebilmesi. Şarj soketine takılan bir adaptörle EV6’nın bataryasından priz gibi elektrik çekebiliyorsunuz. Kampta elektrikli ocak ya da kahve makinesi çalıştırmak, bir elektrikli bisikleti şarj etmek, hatta başka bir elektrikli otomobile acil şarj vermek mümkün.',
+      'Kabinde sürücünün önünden orta konsola kadar uzanan kavisli ekran paneli ve havada asılı gibi duran orta konsol var. Ön koltuklar, şarj sırasında ya da molada neredeyse yatar pozisyona gelebilen dinlenme moduna sahip. Üst donanımlarda sunulan artırılmış gerçeklik göstergeli ön cama yansıtmalı ekran ise navigasyon oklarını adeta yolun üzerine çiziyor.',
+      'Sürüşte EV6 sportif ve çevik. Alçak ağırlık merkezi sayesinde virajlarda dengeli; arkadan itişli versiyon da keyifli bir karakter sunuyor. Zayıf yanları, standart menzilde fiyatına göre kısa menzil ve eğimli arka cam nedeniyle sınırlı arka görüş.',
+    ],
     summary: 'Sürücü odaklı karakteri ve tasarımıyla etkileyici; Türkiye’deki standart menzil versiyonunun fiyatı ise zorlayıcı.',
   },
   {
@@ -1768,6 +1775,13 @@ const RAW_CARS = [
     ratings: { surus: 5.7, guvenlik: 4.3, konfor: 5.1, tuketim: 7.2, malzeme: 4.7, tasarim: 5.5, fiyat: 6.8, teknoloji: 3.7, guvenilirlik: 7.4, ikinciel: 7.4 },
     pros: ['Çok ucuz bakım ve parça', 'Dar sokaklarda rakipsiz manevra'],
     cons: ['Güvenlik seviyesi günümüz için çok zayıf', 'Otoyolda güçsüz ve gürültülü', 'Sert ve sarsıntılı sürüş', 'Kabin malzemeleri çok ucuz'],
+    longReview: [
+      'Üçüncü nesil Panda, İtalya’nın Napoli yakınındaki Pomigliano d’Arco fabrikasında üretildi. Fiat, bu nesilde otomobilin her yerinde aynı tasarım temasını kullandı: köşeleri yuvarlatılmış kare, İtalyanların “squircle” dediği biçim. Bu biçimi farlarda, arka lambalarda, havalandırma ızgaralarında, göstergelerde, hatta direksiyonun ortasında görebiliyorsunuz. Otomobile neşeli ve tutarlı bir karakter kazandırıyor.',
+      'Kabinin en pratik detayı torpidonun önündeki açık raf. Kapaklı bir torpido gözünün yanında, yolcunun önünde boydan boya uzanan bu açık bölmeye telefonunuzu, cüzdanınızı ya da güneş gözlüğünüzü atabiliyorsunuz. Yüksek tavan ve dik oturma pozisyonu da bu küçük otomobilin içini şaşırtıcı derecede ferah hissettiriyor.',
+      'Panda’nın asıl doğal ortamı şehir. Çok küçük dış boyutları, kısa dönüş çapı ve hafif direksiyonuyla dar sokaklarda ve sıkışık otoparklarda rakipsiz. Basit atmosferik motor ve manuel şanzıman da arıza ihtimali düşük, tamiri ucuz bir mekanik sunuyor; parça neredeyse her yerde bulunuyor.',
+      'Bedeli ise güvenlik ve konfor. Panda, bugünün güvenlik standartlarının çok gerisinde kalıyor; bağımsız çarpışma testlerinde de düşük puan aldı. Otoyolda motor güçsüz ve kabin gürültülü; süspansiyon da bozuk yollarda sert. Kabin malzemeleri tamamen maliyet odaklı.',
+      'Panda’yı doğru değerlendirmek için onu bir şehir aracı olarak görmek gerekiyor. Çok sınırlı bir bütçeyle, şehir içinde kısa mesafelerde kullanılacak, park etmesi kolay ve masrafsız bir ikinci otomobil arıyorsanız hâlâ işini görüyor. Uzun yol ve güvenlik önceliğinizse daha yeni bir otomobile yönelmenizi öneririz.',
+    ],
     summary: 'Ucuz ve basit bir şehir aracı; güvenlik ve konforda artık çağın gerisinde kaldı.',
   },
   {
@@ -2129,6 +2143,13 @@ const RAW_CARS = [
     ratings: { surus: 4.7, guvenlik: 4.1, konfor: 5.5, tuketim: 8.0, malzeme: 4.3, tasarim: 4.5, fiyat: 7.2, teknoloji: 3.1, guvenilirlik: 7.8, ikinciel: 7.8 },
     pros: ['Çok düşük yakıt tüketimi', 'Ucuz parça ve servis'],
     cons: ['Çok güçsüz motor', 'Güvenlik ve malzeme kalitesi zayıf', 'Otoyolda sollamalar çok uzun sürüyor', 'Konforsuz ve gürültülü sürüş'],
+    longReview: [
+      'İkinci nesil Symbol, Dacia Logan’ın altyapısını kullanan ve Bursa’daki Oyak Renault fabrikasında üretilen bir bütçe sedanı. Renault bu otomobili, Türkiye gibi sedan sevilen ve fiyat hassasiyeti yüksek pazarlar için tasarladı. Hedef açıktı: mümkün olan en uygun fiyata, geniş ve ekonomik bir aile sedanı.',
+      'Bu hedefin en güçlü yanı yakıt tüketimi. 1.5 dCi motor, ekonomisiyle efsaneleşmiş bir motor; sakin kullanımda inanılmaz derecede az yakıyor. Bagaj da bu boyuttaki bir otomobil için çok büyük. Bursa üretimi sayesinde parçası ucuz ve her yerde bulunuyor; neredeyse her usta bu otomobili tanıyor.',
+      'Bu düşük fiyatın bedeli performans ve konfor. Bu versiyondaki motor çok güçsüz; dolu araçla otoyolda sollamalar çok uzun sürüyor, yokuşlarda zorlanıyor. Ses yalıtımı zayıf, süspansiyon sert ve kabin tamamen sert plastiklerle döşenmiş. Güvenlik donanımı da bugünün standartlarının gerisinde.',
+      'İkinci el alırken 1.5 dCi motorun bilinen zayıf noktasına dikkat edin: Yağ bakımı ihmal edildiğinde kol yatağı kuşinetlerinin dönmesi bu motorun kronik sorunlarından. Yağ bakım geçmişini mutlaka kontrol edin; enjektörlerin durumunu da ekspertizde ölçtürün. Filo ya da taksi geçmişi olan örneklerde kilometreye ve genel yıpranmaya ayrıca dikkat etmek gerekiyor.',
+      'Symbol’ü bir sürüş keyfi otomobili olarak değil, bir ulaşım aracı olarak görmek gerekiyor. Bu açıdan bakıldığında, çok düşük işletme maliyeti ve geniş bagajıyla bütçesi kısıtlı aileler için hâlâ mantıklı bir seçenek.',
+    ],
     summary: 'Taksi ve filo klasiği; ekonomik ama yavaş ve konforsuz.',
   },
   {
@@ -2199,6 +2220,13 @@ const RAW_CARS = [
     ratings: { surus: 5.5, guvenlik: 4.7, konfor: 5.7, tuketim: 7.6, malzeme: 4.5, tasarim: 5.5, fiyat: 7.9, teknoloji: 3.7, guvenilirlik: 7.8, ikinciel: 8.4 },
     pros: ['Uygun fiyata SUV duruşu', 'Ekonomik dizel', 'Kötü yollara dayanıklı'],
     cons: ['Zayıf güvenlik ve malzeme kalitesi', 'Otoyolda gürültülü'],
+    longReview: [
+      'İlk nesil Duster, Avrupa’da “uygun fiyatlı SUV” kavramını neredeyse tek başına yarattı. Romanya’daki Dacia fabrikasında üretilen otomobil, Renault-Nissan grubunun bütçe altyapısını kullanıyordu; ama ona gerçek bir SUV duruşu ve kötü yollara dayanıklı bir yapı kazandırılmıştı. Çıktığında bu fiyata bu kadar yüksek ve sağlam bir otomobil bulmak neredeyse imkânsızdı.',
+      'Duster’ın en büyük kozu yerden yüksekliği ve sağlamlığı. Bozuk köy yollarında, toprak yollarda ve yüksek kaldırımlarda birçok SUV’dan daha rahat ilerliyor. Dört çekerli versiyonları ise Nissan’dan gelen bir sistemle hafif arazi koşullarında şaşırtıcı derecede yetenekliydi. Bu yüzden Duster, kırsal bölgelerde yaşayanların ve doğa tutkunlarının gözdesi oldu.',
+      '1.5 dCi motor ekonomik ve yeterli; altı ileri manuel şanzımanla otoyolda da makul bir tüketim sunuyor. Kabin geniş, bagaj da büyük. Parça ucuz ve her yerde bulunuyor.',
+      'Bedeli ise güvenlik ve konfor. İlk nesil Duster, bağımsız çarpışma testlerinde döneminin rakiplerinin gerisinde kaldı. Kabin sert plastiklerle dolu, ses yalıtımı zayıf; otoyolda rüzgar ve motor sesi belirgin. Donanım da sade.',
+      'İkinci el alırken 1.5 dCi’nin bilinen kuşinet riskine, aracın arazi kullanımı geçmişine ve alt takımın durumuna dikkat edin. Doğru bir örnek bulursanız, bütçesi kısıtlı ama bozuk yollara dayanıklı bir otomobil arayanlar için hâlâ mantıklı bir seçenek.',
+    ],
     summary: 'Az parayla SUV isteyenler için basit ve dayanıklı; konfor ve güvenlikte çok sınırlı.',
   },
   {
@@ -2507,6 +2535,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 8.2, konfor: 7.2, tuketim: 7.4, malzeme: 7.6, tasarim: 8.0, fiyat: 7.2, teknoloji: 6.2, guvenilirlik: 9.0, ikinciel: 7.2 },
     pros: ['Keyifli yol tutuş ve direksiyon', 'Kaliteli kabin', 'Mazda güvenilirliği'],
     cons: ['100 bg ile performans zayıf', 'Arka koltuk ve bagaj sınıf ortalamasının altında'],
+    longReview: [
+      'Üçüncü nesil Mazda 3, Mazda’nın “Kodo – Hareketin Ruhu” tasarım dilini sedan gövdeye taşıyan zarif bir otomobil. Japonya’da üretilen otomobil, sınıfının çoğu rakibine göre daha alçak ve daha uzun bir silueti sayesinde bir üst sınıf sedanın havasını yansıtıyor.',
+      'Bu nesildeki ilginç teknolojilerden biri, gösterge panelinin üzerinden açılan küçük şeffaf ekran. Mazda’nın Active Driving Display adını verdiği bu sistem, hız ve navigasyon gibi temel bilgileri sürücünün görüş hizasına yansıtıyor; böylece gözünüzü yoldan neredeyse hiç ayırmadan bilgiye ulaşıyorsunuz. O dönemde bu sınıfta pek rastlanmayan bir donanımdı.',
+      'Makyajla birlikte gelen G-Vectoring Control, Mazda 3’ün zaten keyifli olan sürüşünü daha da akıcı hâle getirdi. Direksiyonu çevirdiğinizde motor torku fark edilmeyecek kadar azaltılarak ağırlık ön tekerleklere aktarılıyor ve otomobil virajlara daha istekli giriyor. Direksiyon hissi, sınıfının en iyilerinden.',
+      'Kabin kalitesi, döneminin rakiplerinin üzerinde. Yumuşak dokulu yüzeyler, sağlam montaj ve orta konsoldaki döner kumanda, kabine premium bir hava katıyor. Atmosferik motor ve klasik tam otomatik şanzıman da uzun vadede çok güvenilir bir mekanik sunuyor.',
+      'Bu versiyonun zayıf yanı performans: Küçük atmosferik motor, otomobilin keyifli şasisinin hakkını veremiyor; dolu araçla ve sollamalarda zorlanıyor. Arka koltuk ve bagaj da sınıf ortalamasının altında. Ama sürüş keyfi, kaliteli kabin ve sorunsuz mekaniği önemseyenler için ikinci elde çok mantıklı bir seçim.',
+    ],
     summary: 'Sürüşü ve kalitesiyle sınıfının üstünde hissettiren ama zayıf motoruyla sınırlanan bir sedan.',
   },
   {
@@ -2578,6 +2613,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      'İlk nesil CLA, Mercedes’in kompakt sınıfa “dört kapılı coupé” fikrini taşıdığı otomobildi ve Macaristan’ın Kecskemét şehrindeki fabrikada üretildi. Bu otomobilin tasarımında bir rekor gizli: Çıktığında, en verimli versiyonu dünyanın en düşük hava sürtünme katsayısına sahip seri üretim otomobillerinden biriydi. Alçak, akıcı silueti yalnızca şık görünmek için değil, rüzgarı en az dirençle yarmak için tasarlanmıştı.',
+      'Çerçevesiz kapı camları, uzun kaput ve coupé gibi eğimli tavan çizgisi, CLA’yı yolda bir üst sınıf Mercedes gibi gösteriyor. Mercedes’in prestijini kompakt bir bütçeyle isteyenler için çok cazip bir paketti ve hâlâ öyle.',
+      '1.6 turbo benzinli motor ve yedi ileri çift kavramalı şanzıman, bu otomobile ekonomik ve yeterli bir performans kazandırıyor. Şehir içinde ve otoyolda rahat; tüketimi de makul.',
+      'Bu şık tasarımın bedeli arka koltukta ve konforda ödeniyor. Eğimli tavan nedeniyle arka koltuk dar ve alçak; uzun boylu yetişkinler için kısa yolculuklarda bile zorlayıcı. AMG donanımın süspansiyonu da bozuk yollarda serte kaçıyor. Multimedya sistemi ise yaşını belli ediyor; torpidonun üstüne yerleştirilmiş tablet görünümlü ekran ve küçük çözünürlüğü bugünün gözüyle eski.',
+      'İkinci el alırken çift kavramalı şanzımanın bakım geçmişine ve Mercedes’lerde sık görülen kabin trim seslerine dikkat edin. Doğru bir örnek bulursanız, uygun bir bütçeyle şık ve prestijli bir sedan arayanlar için cazip bir seçenek.',
+    ],
     summary: 'Tasarımıyla alınan şık bir sedan; konfor ve arka yaşam alanında C Serisi’nin gerisinde.',
   },
   {
@@ -2588,6 +2631,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 6.8, konfor: 6.2, tuketim: 8.4, malzeme: 5.6, tasarim: 6.8, fiyat: 6.8, teknoloji: 4.4, guvenilirlik: 7.8, ikinciel: 7.8 },
     pros: ['Sınıfının en iyi yol tutuşlarından', 'Çok düşük tüketim', 'Yaygın parça ve servis'],
     cons: ['Güçsüz motor', 'Karmaşık tuşlu eski kabin'],
+    longReview: [
+      'Fiesta, Ford’un Avrupa’daki en başarılı modellerinden biri; İngiltere’de yıllarca en çok satan otomobil oldu. Almanya’nın Köln şehrindeki fabrikada üretilen bu nesil, makyajla birlikte Aston Martin’i andıran büyük trapez biçimli ön ızgarasıyla çok daha karakterli bir yüze kavuştu.',
+      'Fiesta’nın sınıfındaki en büyük kozu yol tutuşu. Ford’un Avrupalı mühendisleri, bu küçük otomobile sınıfının en keskin direksiyonunu ve en dengeli şasisini vermek için büyük çaba harcadı. Virajlı bir yolda Fiesta, kendisinden çok daha pahalı otomobilleri aratmayacak kadar keyifli. Bu yüzden yıllarca sürüş keyfi arayanların küçük otomobil tercihi oldu.',
+      'Ford’un bu nesilde sunduğu ilginç bir teknoloji MyKey. Bu sistemle anahtarlardan birini, örneğin otomobili kullanacak genç bir sürücüye verilecek anahtarı, azami hızı sınırlayacak, ses sisteminin seviyesini kısıtlayacak ve emniyet kemeri takılmadan müziğin çalmasını engelleyecek şekilde programlayabiliyorsunuz. Ehliyetini yeni almış çocukları olan aileler için çok düşünceli bir özellik.',
+      'Dizel motor çok ekonomik; sakin kullanımda çok az yakıyor. Ama bu versiyonda motor güçsüz; otoyolda ve sollamalarda zorlanıyor. Kabin ise bugünün gözüyle eski ve karmaşık: Çok sayıda küçük düğmenin bulunduğu orta konsol, telefon tuş takımını andıran bir düzene sahip ve alışmak zaman alıyor.',
+      'Parçası yaygın ve ucuz, bakımı kolay. Sürüş keyfini önemseyen ve ekonomik bir küçük otomobil arayanlar için ikinci elde hâlâ çok mantıklı bir seçim.',
+    ],
     summary: 'Sürüşü eğlenceli ve çok ekonomik; motor gücü ve kabin kalitesi ise sınırlı.',
   },
   {
@@ -2656,6 +2706,15 @@ const RAW_CARS = [
       guvenilirlik: '1.6 CDTI dizel versiyonlarda ilk çalıştırmada zincir gergisi yağı geç doldurduğu için motordan 2–3 saniye boyunca şiddetli bir zincir sesi gelebiliyor ve zincir zamanla erken uzayabiliyor.',
       teknoloji: 'IntelliLux LED Matrix farlar, karşıdan araç gelmediği durumlarda bile tabela yansımalarını veya yol kenarındaki nesneleri araç sanarak uzun farı gereksiz yere kapatabiliyor.',
     },
+    longReview: [
+      'IntelliLux LED Matrix farlar, karşıdan araç gelmediği durumlarda bile tabela yansımalarını veya yol kenarındaki nesneleri araç sanarak uzun farı gereksiz yere kapatabiliyor.',
+      '1.6 CDTI dizel versiyonlarda ilk çalıştırmada zincir gergisi yağı geç doldurduğu için motordan 2–3 saniye boyunca şiddetli bir zincir sesi gelebiliyor ve zincir zamanla erken uzayabiliyor.',
+      'Insignia, Opel’in amiral gemisi ve Almanya’nın Rüsselsheim şehrindeki fabrikada üretiliyor. İkinci nesille birlikte otomobil, klasik sedan yerine bagaj kapağı arka camla birlikte açılan “Grand Sport” adlı liftback gövdeye geçti. Bu, Insignia’yı bir sedan gibi şık ama bir hatchback gibi pratik yapıyor; büyük eşyaları yüklemek çok kolay.',
+      'Insignia’nın en güçlü yanı uzun yol konforu. AGR sertifikalı ergonomik koltuklar, uzun yolculuklarda belin yorulmasını belirgin şekilde azaltıyor; üst donanımlarda bu koltuklar masaj, ısıtma ve havalandırma fonksiyonlarıyla geliyor. Kabin geniş; arka koltukta bacak bacak üstüne atıp oturabileceğiniz bir diz mesafesi var.',
+      'Intelli-Lux LED Matrix farlar, Insignia’yı döneminin en gelişmiş far teknolojilerinden birine kavuşturdu. Sistem karşıdan gelen aracı algılayıp onu ışık huzmesinin dışında bırakırken yolun geri kalanını uzun farla aydınlatmaya devam ediyor. Ancak daha önce belirttiğimiz gibi tabela yansımaları ve sis gibi çevresel etkenler sistemi zaman zaman kararsız çalıştırabiliyor.',
+      'Dizel motor ve sekiz ileri tam otomatik şanzıman, uzun yolda çok düşük bir tüketim sağlıyor. Ama bu büyük gövde için motor güçsüz kalıyor; dolu araçla ve sollamalarda zorlandığını hissediyorsunuz. Multimedya sistemi de yaşını belli ediyor.',
+      'Insignia, ikinci el piyasasında Passat ve Superb gibi rakiplerine göre daha uygun fiyatlı. Bu da onu, konforlu ve geniş bir uzun yol sedanı arayanlar için çok cazip bir fırsat hâline getiriyor.',
+    ],
     summary: 'Uzun yolların ekonomik ve rahat sedanı; performans ve teknoloji beklentisini düşük tutmak gerek.',
   },
   {
@@ -2684,6 +2743,15 @@ const RAW_CARS = [
     ratings: { surus: 5.0, guvenlik: 1.5, konfor: 4.8, tuketim: 4.4, malzeme: 4.2, tasarim: 6.8, fiyat: 5.8, teknoloji: 1.0, guvenilirlik: 4.6, ikinciel: 5.0 },
     pros: ['Nostaljik ve karakterli tasarım', 'Klasik otomobil camiasında aranan model'],
     cons: ['Günümüz standartlarında güvenlik neredeyse yok', 'Yüksek tüketim ve konforsuz sürüş', 'Fren ve süspansiyon günümüz trafiğine uygun değil', 'Pas ve yedek parça sorunları', 'Hiçbir konfor donanımı yok'],
+    longReview: [
+      'Tasarımı bu otomobilin en güçlü yanı. Uzun kaputu ve sade çizgileriyle bugün bile sokakta başları çeviriyor; yeni nesil otomobillerin arasında bambaşka bir karakter taşıyor.',
+      'Günlük ulaşım aracı olarak bakarsanız aynı parayla çok daha güvenli ve konforlu otomobiller alınabilir. Klasik otomobil piyasasında ise temiz ve orijinal örneklerin değeri her yıl artıyor.',
+      'Taunus, Türkiye’de nostaljinin en güçlü simgelerinden biri. Almanya’nın Köln şehrinde geliştirilen bu nesil Taunus, Amerikan otomobil tasarımından ilham alan uzun kaputu ve ortası sivri ön yüzüyle tanınıyor. Bu sivri ön yüz, o dönem Ford’un başkanı olan Semon Knudsen’in adıyla “Knudsen burnu” olarak anılıyor.',
+      'Taunus’un Türkiye ile özel bir bağı da var: Sonraki nesilleri, 1980’lerin ortasından 1990’ların başına kadar İstanbul’da Ford Otosan tarafından üretildi. Bu yüzden Taunus, birçok ailenin ilk otomobili, babaların ve dedelerin hatıralarındaki otomobil olarak Türk otomobil kültüründe derin bir yere sahip.',
+      'Mekanik olarak Taunus çok basit: arkadan itişli, dört silindirli atmosferik motor, dört ileri manuel şanzıman ve neredeyse hiç elektronik yok. Bu basitlik, hobi olarak klasik otomobille ilgilenenler için büyük bir avantaj; birçok tamiri kendiniz yapabiliyorsunuz. Arkadan itişli yapısı da bu otomobile bugünün önden çekişli otomobillerinde olmayan bir sürüş karakteri kazandırıyor.',
+      'Ama Taunus’u günlük kullanım için değerlendirmek gerçekçi değil. Güvenlik donanımı neredeyse yok; hava yastığı, ABS ya da modern bir gövde yapısı bulunmuyor. Frenler ve süspansiyon bugünün trafiğine göre çok yetersiz. Pas, bu yaştaki otomobillerin en büyük düşmanı; alırken alt takımı ve gövdeyi bir uzmana mutlaka kontrol ettirin.',
+      'Taunus’u almanın tek doğru sebebi tutku. Klasik otomobil camiasının bir parçası olmak, hafta sonları nostaljik bir sürüş yapmak ya da bir aile hatırasını yaşatmak istiyorsanız, iyi korunmuş bir Taunus size bunu fazlasıyla verecektir.',
+    ],
     summary: 'Türkiye’nin hafızasına kazınmış bir klasik; günlük kullanım için değil, nostalji ve koleksiyon için.',
     review: {
       tasarim: 'Tasarımı bu otomobilin en güçlü yanı. Uzun kaputu ve sade çizgileriyle bugün bile sokakta başları çeviriyor; yeni nesil otomobillerin arasında bambaşka bir karakter taşıyor.',
@@ -2851,6 +2919,13 @@ const RAW_CARS = [
     ratings: { surus: 8.0, guvenlik: 8.4, konfor: 7.4, tuketim: 8.2, malzeme: 7.2, tasarim: 7.4, fiyat: 7.4, teknoloji: 6.5, guvenilirlik: 7.6, ikinciel: 7.8 },
     pros: ['Sınıfının en iyi yol tutuşlarından', 'Ekonomik dizel', 'Geniş bagaj'],
     cons: ['Sert süspansiyon', 'Kabinde sert plastikler'],
+    longReview: [
+      'Ateca, Seat’in ilk SUV’u ve adını İspanya’nın Aragon bölgesindeki küçük bir kasabadan alıyor. İlginç bir detay: Seat’in İspanyol kimliğine rağmen Ateca, Çek Cumhuriyeti’ndeki Kvasiny fabrikasında, Škoda Karoq ve Kodiaq ile aynı hatta üretiliyor.',
+      'Ateca’nın sınıfındaki en büyük kozu yol tutuşu. Seat, bu SUV’a markanın sportif karakterini taşımak için süspansiyonu ve direksiyonu özellikle ayarladı. Sonuçta Ateca, yüksek gövdesine rağmen virajlarda bir hatchback gibi dengeli ve keyifli. Bu sınıfta sürüş keyfi arayanlar için en iyi seçeneklerden biriydi.',
+      'Bagaj sınıfının en genişlerinden; arka koltuk da aileler için yeterli. Üst donanımlarda otomobili yukarıdan gösteren kamera sistemi ve ayakla açılan bagaj kapağı gibi donanımlar sunuluyordu.',
+      'Dizel motor ekonomik; uzun yolda çok düşük bir tüketim sağlıyor. Yedi ileri DSG şanzıman hızlı ve akıcı vites geçişleri sunuyor. Ama ikinci el alırken bu şanzımana dikkat etmek gerekiyor: Kuru kavramalı yedi ileri DSG, bakımı ihmal edildiğinde kavrama ve mekatronik arızalarıyla biliniyor. Kalkıştaki davranışını test sürüşünde mutlaka gözlemleyin.',
+      'Sportif süspansiyon ayarı bozuk yollarda serte kaçıyor; kabinde de sert plastikler yoğun. Ama sürüş keyfi, geniş bagajı ve ekonomik dizeliyle ikinci elde mantıklı bir aile SUV’u.',
+    ],
     summary: 'Golf altyapısını SUV gövdesine taşıyan, sürüşü keyifli ve ekonomik bir ikinci el SUV.',
   },
   {
@@ -2925,6 +3000,13 @@ const RAW_CARS = [
     ratings: { surus: 6.6, guvenlik: 7.6, konfor: 7.2, tuketim: 7.8, malzeme: 6.6, tasarim: 6.6, fiyat: 7.4, teknoloji: 6.0, guvenilirlik: 9.2, ikinciel: 8.2 },
     pros: ['Geniş bagaj ve arka koltuk', 'Honda güvenilirliği', 'Ekonomik', 'Sınıfının üstünde arka diz mesafesi'],
     cons: ['CVT hızlanmada gürültülü', 'Sade kabin'],
+    longReview: [
+      'City, Honda’nın gelişmekte olan pazarlar için tasarladığı kompakt sedan ve Türkiye gibi sedan sevilen ülkelerde çok tercih ediliyor. Yedinci nesil City, önceki nesillere göre büyüdü ve bu büyümenin en çok hissedildiği yer arka koltuk.',
+      'City’nin en büyük kozu arka diz mesafesi. Uzun dingil mesafesi sayesinde arka koltukta, sınıfının çok üzerinde, neredeyse bir üst sınıf sedanı aratmayan bir diz mesafesi var. Bagaj da bu boyuttaki bir otomobil için çok büyük. Bu yüzden City, geniş bir aile sedanı isteyen ama büyük bir otomobil için bütçesi olmayanlar için çok mantıklı.',
+      'Atmosferik motor ve CVT şanzıman, Honda’nın basit ve güvenilir mekanik anlayışının ürünü. Turbo, çift kavramalı şanzıman ya da karmaşık elektronik sistemler olmadığı için arıza ihtimali çok düşük. Tüketim de ekonomik. ECON modu, gaz pedalı tepkisini ve klimayı tüketimi düşürecek şekilde ayarlıyor.',
+      'Bedeli ise sürüş karakteri ve kabin. CVT şanzıman, sert hızlanmalarda motoru yüksek devirde tutup belirgin bir motor sesi çıkarıyor; sakin sürüşte ise akıcı. Kabin sade ve sert plastikler ağırlıkta; teknoloji de rakiplerine göre basit.',
+      'City, gösterişten çok mantığa hitap eden bir otomobil. Honda’nın güvenilirliği, geniş arka koltuğu ve büyük bagajıyla, uzun yıllar sorunsuz kullanılacak ve satarken de kolay alıcı bulacak bir sedan arayanlar için çok güvenli bir seçim.',
+    ],
     summary: 'Civic’in daha ekonomik küçük kardeşi; güvenilir ve geniş ama heyecansız bir sedan.',
   },
   {
@@ -3044,6 +3126,13 @@ const RAW_CARS = [
     ratings: { surus: 7.0, guvenlik: 8.7, konfor: 7.8, tuketim: 8.9, malzeme: 7.3, tasarim: 7.3, fiyat: 7.5, teknoloji: 7.5, guvenilirlik: 9.4, ikinciel: 8.6 },
     pros: ['Çok düşük tüketim', 'Toyota güvenilirliği', 'Geniş arka koltuk'],
     cons: ['e-CVT hızlanmada gürültülü', 'Kabin tasarımı sade'],
+    longReview: [
+      'Corolla Cross, dünyanın en çok satan otomobili Corolla’nın SUV versiyonu. Toyota bu otomobili, Corolla’nın güvenilirliğini ve ekonomisini daha yüksek bir gövde ve daha pratik bir kabinle sunmak için tasarladı. Corolla ile aynı altyapıyı ve hibrit sistemi paylaşıyor.',
+      'Hibrit sistem, şehir içinde zamanın büyük bölümünde otomobili elektrikle hareket ettiriyor. Dur-kalk trafikte ve düşük hızlarda motor çoğu zaman tamamen susuyor; bu da şehir içi tüketimi bu boyuttaki bir SUV için olağanüstü düşük tutuyor. Hibrit sistem dışarıdan hiç şarj edilmiyor.',
+      'X-Pack donanımı, Corolla Cross’a daha maceracı bir görünüm kazandırıyor: tavan rayları, gövdenin alt kısmını çevreleyen koruyucular ve özel jantlar. Panoramik cam tavan da kabini aydınlık ve ferah hissettiriyor. Arka koltuk geniş; aileler için rahat bir diz mesafesi sunuyor.',
+      'Toyota Safety Sense güvenlik paketi; adaptif hız sabitleyici, şerit takip ve otomatik acil fren gibi sistemleri bir araya getiriyor. Bu da Corolla Cross’u sınıfının en güvenli otomobillerinden biri yapıyor.',
+      'Zayıf yanları kabin tasarımı ve sürüş karakteri. Kabin sade ve tasarım olarak heyecan verici değil; e-CVT şanzıman da sert hızlanmalarda motoru yüksek devirde tutup gürültü yapıyor. Ama Toyota’nın efsanevi güvenilirliği, çok düşük tüketim ve ikinci elde güçlü talep, Corolla Cross’u uzun vadede çok mantıklı bir aile SUV’u yapıyor.',
+    ],
     summary: 'Corolla’nın güvenilirliğini ve verimliliğini SUV gövdesine taşıyan, aileler için sorunsuz bir tercih.',
   },
   {
