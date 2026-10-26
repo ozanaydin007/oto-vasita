@@ -4264,6 +4264,13 @@ const RAW_CARS = [
     ratings: { surus: 7.7, guvenlik: 8.8, konfor: 7.4, tuketim: 9.2, malzeme: 7.6, tasarim: 8.5, fiyat: 7.3, teknoloji: 7.3, guvenilirlik: 9.4, ikinciel: 8.8 },
     pros: ['Sakarya üretimi', 'Çok düşük tüketim', 'Güvenilir hibrit sistem'],
     cons: ['Küçük bagaj', 'Arka görüş zayıf'],
+    longReview: [
+      'İlk nesil C-HR, Türkiye’nin otomotiv tarihinde özel bir yere sahip: Sakarya’daki Toyota fabrikasında üretilen bu otomobil, Türkiye’de seri üretimi yapılan ilk hibrit otomobil oldu. Buradan Avrupa’nın dört bir yanına ihraç edildi ve Toyota’nın Avrupa’daki en önemli hibrit modellerinden biri hâline geldi.',
+      'C-HR’ın tasarımı, Toyota’nın sade tasarım geleneğini tamamen bir kenara bırakan bir çıkıştı. Elmas biçimli yüzeyler, keskin çizgiler ve kupa gibi eğimli tavan, otomobile yolda çok dikkat çekici bir görünüm kazandırıyor. Arka kapı kolları, otomobili iki kapılı gibi göstermek için arka direğin yukarısına gizlenmiş. Elmas motifi kabinde de devam ediyor; kapı döşemelerinde ve tavan döşemesinde küçük elmas desenleri var.',
+      'Toyota’nın hibrit sistemi, şehir içinde zamanın büyük bölümünde otomobili elektrikle hareket ettiriyor ve tüketimi bu boyuttaki bir SUV için çok düşük tutuyor. Sistem dışarıdan hiç şarj edilmiyor ve kanıtlanmış dayanıklılığıyla biliniyor.',
+      'X-Pack donanımı, gövdenin alt kısmını çevreleyen koruyucular ve özel detaylarla C-HR’a daha maceracı bir görünüm katıyor. Sürüş sakin ve rahat; Toyota’nın yeni altyapısı sayesinde virajlarda da dengeli.',
+      'Bu çarpıcı tasarımın bedeli alan ve görüş. Küçük arka cam ve yükselen bel çizgisi arka görüşü ciddi şekilde kısıtlıyor; arka koltuk karanlık ve dar, bagaj da küçük. Ama düşük tüketimi, güvenilir hibrit sistemi ve ikinci elde güçlü talebiyle C-HR, şık bir şehir SUV’u arayanlar için mantıklı bir seçim.',
+    ],
     summary: 'Birinci nesil C-HR; tasarımı, verimliliği ve sorunsuzluğuyla ikinci elde en güvenli tercihlerden.',
   },
   {
@@ -4399,6 +4406,14 @@ const RAW_CARS = [
       konfor: 'Kademeli Hidrolik Destekli süspansiyon “uçan halı” hissi sunsa da virajlarda ve ani şerit değişimlerinde gövdeyi çok fazla yatırabiliyor; amortisörler ömrünü erken tamamlayıp yağ sızdırabiliyor.',
       tasarim: 'Hız sabitleyici kolu direksiyonun sol arkasında, sürücünün görüş açısının tamamen dışında; ayar yapmak için körlemesine ezbere basmak gerekiyor.',
     },
+    longReview: [
+      'Kademeli Hidrolik Destekli süspansiyon “uçan halı” hissi sunsa da virajlarda ve ani şerit değişimlerinde gövdeyi çok fazla yatırabiliyor; amortisörler ömrünü erken tamamlayıp yağ sızdırabiliyor. Hız sabitleyici kolu direksiyonun sol arkasında, sürücünün görüş açısının tamamen dışında; ayar yapmak için körlemesine ezbere basmak gerekiyor.',
+      'C5 Aircross, Fransa’nın Rennes şehrindeki Stellantis fabrikasında üretiliyor ve Citroën’in konfor felsefesini bir aile SUV’unda en saf hâliyle sunuyor. Citroën, bu otomobili rakiplerinin yaptığı gibi sportif değil, tamamen konfor odaklı olarak tasarladı.',
+      'Bu konforun kalbinde daha önce bahsettiğimiz kademeli hidrolik destekli süspansiyon var. Amortisörlerin içine yerleştirilen ikinci bir hidrolik durdurucu, büyük çukurlarda ve kasislerde süspansiyonun sert bir şekilde dayanmasını önlüyor. Advanced Comfort koltuklar da ekstra yoğun sünger katmanlarıyla bir koltuktan çok bir kanepeye oturuyormuş hissi veriyor.',
+      'C5 Aircross’un en pratik özelliği arka koltuklar. Arka sıradaki üç koltuk aynı genişlikte; her biri ayrı ayrı ileri-geri kaydırılabiliyor, sırtları ayrı ayrı yatırılabiliyor ve katlanabiliyor. Bu sayede üç çocuk koltuğu yan yana takılabiliyor; bu sınıfta çok nadir bulunan bir özellik. Bagaj da sınıfının en büyüklerinden.',
+      'Dizel motor ve 8 ileri tam otomatik şanzıman, uzun yolda çok düşük bir tüketim sağlıyor ve dur-kalk trafikte çok yumuşak bir sürüş sunuyor.',
+      'Daha önce belirttiğimiz gibi virajlarda gövde salınımı fazla, amortisörler erken yağ sızdırabiliyor ve hız sabitleyici kolu direksiyonun arkasında görünmüyor. İkinci el talebi de rakiplerine göre düşük. Ama konforu her şeyin önünde tutan aileler için C5 Aircross, sınıfının en rahat SUV’u.',
+    ],
     summary: 'Konforu her şeyin önüne koyan aileler için rahat ve pratik bir SUV.',
   },
   {
@@ -4467,6 +4482,14 @@ const RAW_CARS = [
     reviewExtra: {
       konfor: 'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
     },
+    longReview: [
+      'Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor.',
+      'İlk nesil GLC, Almanya’nın Bremen şehrindeki Mercedes fabrikasında üretildi ve kısa sürede Mercedes’in en çok satan SUV’u oldu. Makyajlı versiyonla birlikte kabin ve motorlarda önemli yenilikler geldi.',
+      'Makyajla gelen en büyük yenilik, Mercedes’in MBUX multimedya sistemi. “Hey Mercedes” diyerek başlatılan sesli asistan, doğal konuşmaları anlayabiliyor; “üşüdüm” dediğinizde klimayı açıyor, “en yakın kafeyi bul” dediğinizde navigasyonu yönlendiriyor. Dokunmatik ekran ve orta konsoldaki dokunmatik ped de kullanımı kolaylaştırıyor.',
+      'Bu versiyonun 2.0 turbo motoru, EQ Boost adlı hafif hibrit sistemle destekleniyor. Bu sistem kalkışlarda ek güç sağlıyor ve start-stop geçişlerini neredeyse hissedilmez hâle getiriyor. 4MATIC dört çeker de her havada güven veriyor. Opsiyonel havalı süspansiyon ise konforu bir üst seviyeye taşıyor.',
+      'Sürüş konforlu ve sessiz; kabin zarif ve kaliteli. Ahşap kaplamalar, türbin biçimli havalandırma ızgaraları ve ambiyans aydınlatması kabine bu sınıfta pek rastlanmayan bir lüks hissi katıyor.',
+      'GLC’nin zayıf yanları tüketim ve arka koltuk. Tüketim yüksek; arka koltuk da uzun boylular için sınırlı. Mercedes’lerde olduğu gibi uzun süreli kullanımda trim sesleri de ortaya çıkabiliyor. Ama güçlü ikinci el talebi ve konforuyla ikinci elde çok aranan bir premium SUV.',
+    ],
     summary: 'Önceki nesil GLC; konforu ve prestijiyle ikinci elde en çok aranan premium SUV’lardan.',
   },
   {
@@ -4677,6 +4700,15 @@ const RAW_CARS = [
       konfor: 'Cam tavanın standart olarak mekanik bir perdesi olmadığı için özellikle yaz aylarında kabin aşırı ısınabiliyor ve klimanın verimi düşüyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler zamanla gevşeyip tıkırdayabiliyor.',
       surus: 'Direksiyon oranı çok hızlı (sportif) olduğu için otoyol hızlarında en ufak hareketle araç şerit içinde keskin tepki veriyor; alışkın olmayan sürücüler için yorucu olabiliyor.',
     },
+    longReview: [
+      'Direksiyon oranı çok hızlı (sportif) olduğu için otoyol hızlarında en ufak hareketle araç şerit içinde keskin tepki veriyor; alışkın olmayan sürücüler için yorucu olabiliyor.',
+      'Cam tavanın standart olarak mekanik bir perdesi olmadığı için özellikle yaz aylarında kabin aşırı ısınabiliyor ve klimanın verimi düşüyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler zamanla gevşeyip tıkırdayabiliyor.',
+      'Model Y’nin standart menzilli arkadan itişli versiyonu, Tesla’nın en uygun fiyatlı SUV’u ve teknik açıdan ilginç bir bataryaya sahip. Bu versiyonda kullanılan lityum demir fosfat bataryalar, uzun versiyonlardaki bataryalara göre daha dayanıklı ve uzun ömürlü. Tesla, bu tip bataryaların günlük kullanımda yüzde yüze kadar şarj edilmesini öneriyor; bu da gerçek kullanımda menzili tam olarak kullanabileceğiniz anlamına geliyor.',
+      'Model Y’nin pratik detayları ailelerin hayatını kolaylaştırıyor. Bagajın yan duvarındaki düğmelerle arka koltukları elektrikli olarak katlayabiliyorsunuz. Bagaj tabanının altında derin bir saklama alanı, ön kaputun altında da ek bir bagaj bölmesi var. Toplam yükleme kapasitesi, bu sınıfın en büyüklerinden.',
+      'Tesla’nın yazılım tarafı her zamanki gibi güçlü: Otomobil, kablosuz güncellemelerle zaman içinde yeni özellikler kazanıyor. Isı pompası sistemi kışın kabini ısıtırken daha az enerji harcıyor. Supercharger ağı da uzun yolu çok kolaylaştırıyor.',
+      'Daha önce belirttiğimiz gibi sert süspansiyon, cam tavanda perde olmaması ve otoyolda çok hassas direksiyon, bu otomobilin bilinen zayıf noktaları. Bütün kontrollerin ekranda olması da alışkanlık gerektiriyor.',
+      'Ama verimliliği, dev bagajı ve şarj ağıyla Model Y, elektrikli bir aile SUV’u arayanlar için en mantıklı seçimlerden biri.',
+    ],
     summary: 'Türkiye’de satılan ilk Model Y’ler; verimlilik ve pratiklikte hâlâ çok güçlü.',
   },
   {
@@ -4815,6 +4847,16 @@ const RAW_CARS = [
       malzeme: 'F kasa BMW’lerin çoğunda olduğu gibi, iç plastikler yoğun güneşe maruz kaldığında özellikle kapı içlerinde erime görülebiliyor. Bunu bizzat birçok BMW’de deneyimledik; aracı açık otoparkta tutuyorsanız güneşlik kullanmanızı öneririz.',
       guvenilirlik: 'Dizel motorun en bilinen sorunu DPF (partikül filtresi) arızası. Özellikle kısa mesafeli şehir içi kullanımda DPF’nin tıkanma ihtimali artıyor; düzenli uzun yol yapmak ve DPF kontrollerini aksatmamak gerekiyor.',
     },
+    longReview: [
+      '116d’nin sürüşü gerçekten güzel. Bu otomobilin en önemli özelliği arkadan itişli olması: kompakt sınıfta neredeyse herkes önden çekişliyken, 1 Serisi direksiyonda o dengeli ve keyifli BMW hissini veriyor. 116 beygirlik dizel motorun performansı idare eder seviyede, ama aynı yıllarda üretilmiş çoğu otomobile göre gayet iyi.',
+      'F kasa BMW’lerin çoğunda olduğu gibi, iç plastikler yoğun güneşe maruz kaldığında özellikle kapı içlerinde erime görülebiliyor. Bunu bizzat birçok BMW’de deneyimledik; aracı açık otoparkta tutuyorsanız güneşlik kullanmanızı öneririz.',
+      'Dizel motorun en bilinen sorunu DPF (partikül filtresi) arızası. Özellikle kısa mesafeli şehir içi kullanımda DPF’nin tıkanma ihtimali artıyor; düzenli uzun yol yapmak ve DPF kontrollerini aksatmamak gerekiyor.',
+      'İkinci nesil 1 Serisi, Almanya’nın Leipzig ve Regensburg şehirlerindeki BMW fabrikalarında üretildi ve bugün ikinci el piyasasında özel bir yere sahip. Daha önce bahsettiğimiz gibi bu, sınıfının arkadan itişli son kompakt hatchback’i; sonraki nesil 1 Serisi önden çekişe geçti.',
+      'Arkadan itişin bir kompakt hatchback’e kattığı en büyük şey, sürüş dengesi. Motor uzunlamasına yerleştirildiği için ön tekerlekler yalnızca yön vermekle meşgul; bu da direksiyona önden çekişli otomobillerde olmayan bir saflık ve netlik kazandırıyor. Virajlı bir yolda 116d, sınıfındaki çoğu rakipten çok daha keyifli.',
+      '116d ED, yani “Efficient Dynamics”, BMW’nin verimlilik odaklı versiyonuydu. Uzun vites oranları, düşük yuvarlanma dirençli lastikler ve aerodinamik iyileştirmeler sayesinde tüketim çok düşük.',
+      'Bu uzunlamasına motor düzeninin bedeli kabinde ödeniyor: Şaft tüneli arka koltuğun ortasını işgal ediyor ve arka koltuk dar. Daha önce belirttiğimiz gibi DPF arızası riski ve yoğun güneşte kapı içi plastiklerinin erimesi de bu otomobilin bilinen zayıf noktaları.',
+      'Ama arkadan itişli bir kompakt BMW’nin sürüş keyfini makul bir bütçeyle yaşamak isteyenler için 116d, ikinci elde çok cazip ve artık nadir bulunan bir seçenek.',
+    ],
     summary: 'Arkadan itişli şasisiyle sınıfında eşi az bulunan bir sürüş keyfi sunuyor; DPF ve iç plastikler konusunda dikkatli olmak gerekiyor.',
   },
   {
@@ -4830,6 +4872,15 @@ const RAW_CARS = [
       surus: 'Bu otomobili kullandık ve gerçekten çok beğendik. Performansı bir 1 Serisi için çok iyi: 156 beygirlik benzinli motor, 48V elektrik motorunun desteğiyle toplamda 170 beygir üretiyor; elektrik motorunun verdiği ekstra itki özellikle kalkışlarda ve ara hızlanmalarda kendini net şekilde hissettiriyor.',
       malzeme: 'Kabini çok tatmin edici; malzeme kalitesi ve işçilik premium hissini fazlasıyla hak ediyor. Kompakt bir otomobilde bu seviyede bir kabin atmosferi bulmak kolay değil.',
     },
+    longReview: [
+      'Bu otomobili kullandık ve gerçekten çok beğendik. Performansı bir 1 Serisi için çok iyi: 156 beygirlik benzinli motor, 48V elektrik motorunun desteğiyle toplamda 170 beygir üretiyor; elektrik motorunun verdiği ekstra itki özellikle kalkışlarda ve ara hızlanmalarda kendini net şekilde hissettiriyor.',
+      'Kabini çok tatmin edici; malzeme kalitesi ve işçilik premium hissini fazlasıyla hak ediyor. Kompakt bir otomobilde bu seviyede bir kabin atmosferi bulmak kolay değil.',
+      'Dördüncü nesil 1 Serisi, Almanya’nın Leipzig şehrindeki BMW fabrikasında üretiliyor. Bu nesil, önceki neslin altyapısını korurken tasarım, kabin ve motor açısından belirgin şekilde yenilendi.',
+      'Bu versiyonun hafif hibrit sistemi ilginç bir çözüm kullanıyor: Elektrik motoru, yedi ileri çift kavramalı şanzımanın içine entegre edilmiş. Bu sayede elektrik motoru doğrudan şanzıman üzerinden güç verebiliyor; kalkışlarda ve hızlanmalarda motorun turbo gecikmesini dolduruyor. Daha önce bahsettiğimiz canlı hızlanmanın sırrı bu.',
+      'Kabinde BMW’nin en yeni işletim sistemi ve kavisli ekran düzeni var; gösterge paneli ve multimedya ekranı tek bir kavisli yüzeyde birleşiyor. Klima kontrolleri de bu ekrana taşındı. Sürüş modlarını, ambiyans aydınlatmasını ve ekran görünümünü birlikte değiştiren “My Modes” özelliği de kabine kişisel bir hava katıyor.',
+      'M Sport donanımı, sportif tamponlar, büyük jantlar ve sportif koltuklarla otomobilin karakterini öne çıkarıyor. Kabin malzemeleri ve işçilik, daha önce belirttiğimiz gibi premium hissini fazlasıyla hak ediyor.',
+      'Önden çekiş, klasik arkadan itişli BMW hissini arayanlar için hâlâ bir dezavantaj; fiyatı da rakiplerine göre yüksek. Ama performansı, kabin kalitesi ve teknolojisiyle premium bir kompakt hatchback arayanlar için güçlü bir seçim.',
+    ],
     summary: 'Performansı ve kabin kalitesiyle kompakt premium sınıfın en tatmin edici otomobillerinden; bizim favorilerimizden biri.',
   },
   {
@@ -4891,6 +4942,16 @@ const RAW_CARS = [
     reviewExtra: {
       tasarim: 'Sürücü tarafında ayak boşluğu çok dar; özellikle manuel versiyonda pedal kullanımı zorlaşıyor ve bot gibi kalın tabanlı ayakkabılarla sürmek neredeyse imkânsız hâle geliyor.',
     },
+    longReview: [
+      'Bu motoru çok beğendik. 1.2 turbo motor gerçekten çok başarılı ve performansı segmentine göre çok çok çok iyi; bir şehir otomobilinden beklemeyeceğiniz kadar canlı. 8 ileri otomatik şanzımanla uyumu da çok iyi.',
+      'Sürücü tarafında ayak boşluğu çok dar; özellikle manuel versiyonda pedal kullanımı zorlaşıyor ve bot gibi kalın tabanlı ayakkabılarla sürmek neredeyse imkânsız hâle geliyor.',
+      'Tek sorunu kronik olarak bilinen triger kayışı problemi. Bunun da çözümü belli: yaklaşık 50 bin kilometrede bir, tercihen daha da kısa aralıklarla kayış değişimi yaptırmak. Bu bakımı aksatmazsanız keyifle kullanabileceğiniz bir otomobil.',
+      'Altıncı nesil Corsa, Opel’in tarihinde bir dönüm noktası oldu: Opel’in Fransız PSA grubuna katılmasından sonra geliştirilen ilk Corsa’ydı ve Peugeot 208 ile aynı altyapıyı paylaşıyordu. İspanya’nın Zaragoza şehrindeki fabrikada üretilen Corsa, bu ortaklığın getirdiği modern teknolojilerle birlikte Opel’in Alman tasarım anlayışını taşıyor.',
+      'Corsa’nın sınıfındaki en dikkat çekici teknolojisi, IntelliLux LED Matrix farlar. Bu teknoloji, daha önce yalnızca üst sınıf otomobillerde bulunuyordu; Corsa onu küçük otomobil sınıfına taşıyan ilk modellerden biri oldu. Farlar, karşıdan gelen aracı algılayıp onu ışık huzmesinin dışında bırakırken yolun geri kalanını uzun farla aydınlatmaya devam ediyor.',
+      'Daha önce bahsettiğimiz 1.2 turbo motor ve 8 ileri tam otomatik şanzıman, Corsa’ya segmentine göre olağanüstü bir performans kazandırıyor. Şanzıman, bu sınıfta pek rastlanmayan bir donanım; dur-kalk trafikte çok yumuşak ve sarsıntısız.',
+      'GS Line donanımı, sportif tamponlar, siyah tavan ve sportif koltuklarla Corsa’ya genç ve sportif bir görünüm kazandırıyor.',
+      'Daha önce belirttiğimiz gibi kronik triger kayışı sorunu ve dar sürücü ayak boşluğu, bu otomobilin bilinen zayıf noktaları. Kayışı yaklaşık 50 bin kilometrede bir değiştirmenizi öneririz. Ama performansı ve tam otomatik şanzımanıyla Corsa, sınıfının en keyifli şehir otomobillerinden biri.',
+    ],
     summary: 'Segmentinin en performanslı şehir otomobillerinden; motorunu çok beğendik, yalnızca kayış değişimlerini aksatmamak gerekiyor.',
   },
   {
@@ -4918,6 +4979,13 @@ const RAW_CARS = [
     ratings: { surus: 8.4, guvenlik: 9.0, konfor: 7.8, tuketim: 8.4, malzeme: 7.8, tasarim: 8.6, fiyat: 7.4, teknoloji: 8.2, guvenilirlik: 7.6, ikinciel: 6.8 },
     pros: ['Arkadan itişli eğlenceli sürüş', 'Sportif tasarım', 'Verimli elektrikli sistem', 'Bakır detaylı sportif kabin'],
     cons: ['Kabinde sert plastikler', 'Dokunmatik kontroller'],
+    longReview: [
+      'Born, Cupra’nın ilk tamamen elektrikli otomobili ve adını İspanya’nın Barselona şehrindeki tarihi El Born semtinden alıyor; Cupra’nın Barselona kökenine yapılmış bir selam. Volkswagen ID.3 ile aynı altyapıyı paylaşıyor ve Almanya’nın Zwickau şehrinde onunla aynı fabrikada üretiliyor.',
+      'Born’un kabininde sürdürülebilirliğe dair ilginç bir detay var: Koltuk kumaşları, denizlerden toplanan plastik atıkların geri dönüştürülmesiyle elde edilen ipliklerden üretiliyor. Cupra’nın imzası olan bakır renkli detaylar da kabine sportif bir hava katıyor.',
+      'Opsiyonel artırılmış gerçeklik göstergeli ön cama yansıtmalı ekran, navigasyon oklarını adeta yolun üzerine çiziyor; dönmeniz gereken kavşağı ön camın üzerinde, tam yolun üzerinde görüyorsunuz.',
+      'Arkadan itişli yapı, Born’a çok keyifli bir sürüş karakteri kazandırıyor. Motorun arkada olması, ön tekerleklerin çok daha fazla dönebilmesini sağlıyor; bu da Born’a şehir içinde çok küçük bir dönüş çapı veriyor. Cupra’nın ayarladığı süspansiyon ve direksiyon, ID.3’e göre daha sportif bir his sunuyor.',
+      'Born’un zayıf yanları kabindeki sert plastikler ve dokunmatik kontroller. Ama sportif karakterli, şık ve verimli bir elektrikli hatchback arayanlar için çok cazip bir seçim.',
+    ],
     summary: 'Elektrikli hatchback’lere sportif bir karakter katan, sürmesi keyifli bir otomobil.',
   },
   {
@@ -4934,6 +5002,16 @@ const RAW_CARS = [
       malzeme: 'Koltukların tam deri olması kabini bir üst sınıfa taşıyor. Özellikle iç mekân krem renk olduğunda ortaya çok başarılı ve şık bir görüntü çıkıyor.',
       guvenilirlik: 'Bu otomobilin zayıf halkası Powershift şanzıman; başarısız bir şanzıman olduğunu söylemek abartı olmaz. Ayrıca dizel motorda DPF kontrollerinin eksiksiz yapılması gerekiyor. İkinci el alırken bu iki konunun geçmişini mutlaka sorgulayın.',
     },
+    longReview: [
+      'Genel olarak iyi bir otomobil, ancak motor performansı çok iyi değil. 115 beygirlik dizel, özellikle sollamalarda ve dolu araçta zorlanıyor.',
+      'Koltukların tam deri olması kabini bir üst sınıfa taşıyor. Özellikle iç mekân krem renk olduğunda ortaya çok başarılı ve şık bir görüntü çıkıyor.',
+      'Bu otomobilin zayıf halkası Powershift şanzıman; başarısız bir şanzıman olduğunu söylemek abartı olmaz. Ayrıca dizel motorda DPF kontrollerinin eksiksiz yapılması gerekiyor. İkinci el alırken bu iki konunun geçmişini mutlaka sorgulayın.',
+      'V40, Belçika’nın Gent şehrindeki Volvo fabrikasında üretildi ve otomobil güvenliği tarihinde önemli bir yere sahip: Dünyada ilk kez yaya hava yastığı sunan otomobil oldu. Bir yayaya çarpma durumunda, kaputun arka kısmı yükseliyor ve ön camın alt kısmını ve ön direkleri kaplayan bir hava yastığı açılıyor; böylece yayanın başının ön cama çarpması önleniyor.',
+      'V40’ın kabininde Volvo’nun imzası olan “yüzen” orta konsol var: Orta konsol, arkasında boşluk bırakacak şekilde ince bir panel olarak tasarlanmış; arkasına küçük eşyaları koyabiliyorsunuz. Daha önce bahsettiğimiz gibi tam deri koltuklar, özellikle krem renkli iç mekânla kabini bir üst sınıfa taşıyor.',
+      'V40, Volvo’nun güvenlik mirasını kompakt bir hatchback’e taşıyordu. Şehir içi düşük hızlarda öndeki araca çarpmak üzere olduğunuzu algılayıp otomatik fren yapan sistem, o dönemde bu sınıfta pek rastlanmayan bir teknolojiydi.',
+      'Daha önce belirttiğimiz gibi motor performansı zayıf ve Powershift şanzıman bu otomobilin en zayıf halkası; bakım geçmişi belli olmayan örneklerden uzak durmak gerekiyor. DPF kontrolleri de aksatılmamalı.',
+      'Ama güvenliği, şık kabini ve düşük tüketimiyle V40, doğru bakılmış bir örnek bulunduğunda ikinci elde zarif ve güvenli bir kompakt hatchback.',
+    ],
     summary: 'Genel olarak iyi bir otomobil; şık kabini ve güvenliğiyle öne çıkıyor ama Powershift şanzımanı ciddi bir risk.',
   },
   {
@@ -4951,6 +5029,16 @@ const RAW_CARS = [
       fiyat: 'Özellikleri o kadar dolu ki sürüşü, motor gücü ve bütün bu donanımın bu fiyata satıldığına açıkçası inanamadık.',
       guvenilirlik: 'Bununla birlikte bazı kronik sorunları olduğunu da söylemek gerekiyor; özellikle yazılım ve elektronik tarafında servis ziyaretleri yaşanabiliyor. Garantisi devam eden bir örnek tercih etmek mantıklı.',
     },
+    longReview: [
+      'Sürüşü ve motor gücü gerçekten etkileyici; 220 beygirlik elektrik motoru her durumda güçlü ve akıcı hissettiriyor.',
+      'Dikiz aynası kamera şeklinde çalışıyor. Başta alışmak zor olabilir, ama sonrasında arka koltuktaki yolcuların ya da bagajdaki eşyaların görüşü kapatmaması sayesinde klasik aynadan çok daha kolay geliyor.',
+      'Bununla birlikte bazı kronik sorunları olduğunu da söylemek gerekiyor; özellikle yazılım ve elektronik tarafında servis ziyaretleri yaşanabiliyor. Garantisi devam eden bir örnek tercih etmek mantıklı. Özellikleri o kadar dolu ki sürüşü, motor gücü ve bütün bu donanımın bu fiyata satıldığına açıkçası inanamadık.',
+      'Megane E-Tech, Renault’nun elektrikli otomobiller için sıfırdan geliştirdiği altyapıyı kullanan ilk model ve Fransa’nın kuzeyindeki Douai fabrikasında üretiliyor. Bu otomobilin en ilginç mühendislik detayı bataryası: Sınıfının en ince bataryalarından biri. Bu ince batarya, kabin tabanını alçak tutarak otomobilin hem daha alçak ve sportif görünmesini hem de ağırlık merkezinin düşük olmasını sağlıyor.',
+      'Kabinde Renault’nun OpenR adını verdiği L biçimli ekran düzeni var: Dijital gösterge ve dikey multimedya ekranı tek bir yüzeyde birleşiyor. Multimedya sistemi Google tabanlı; Google Haritalar şarj istasyonlarını ve bataryanın durumunu hesaba katarak rota planlıyor. Daha önce bahsettiğimiz kameralı dikiz aynası da arka koltuktaki yolcular ya da bagajdaki eşyalar görüşü kapattığında arka kameranın görüntüsünü aynaya yansıtıyor.',
+      'Daha önce belirttiğimiz gibi 220 beygirlik elektrik motoru her durumda etkileyici bir performans sunuyor. Düşük ağırlık merkezi sayesinde virajlarda da dengeli ve keyifli. Fiyatına göre donanım listesi inanılmaz derecede dolu.',
+      'Bagaj ve arka koltuk sınıf ortalamasında; arka cam da küçük. Daha önce bahsettiğimiz kronik sorunlar da göz önünde bulundurulmalı.',
+      'Ama güçlü motoru, zengin donanımı ve modern teknolojisiyle Megane E-Tech, elektrikli bir kompakt crossover arayanlar için güçlü bir seçenek.',
+    ],
     summary: 'Donanımı, sürüşü ve motor gücüyle bu fiyata satıldığına inanmakta zorlandığımız bir elektrikli; birkaç kronik sorunu göz ardı edilmemeli.',
   },
   {
