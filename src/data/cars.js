@@ -1043,6 +1043,16 @@ const RAW_CARS = [
       guvenilirlik: '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
       tuketim: '1.6 T-GDI benzinli motor, performansına oranla şehir içi dur-kalk trafikte beklenenden yüksek yakıt tüketimine ulaşabiliyor.',
     },
+    longReview: [
+      '1.6 T-GDI benzinli motor, performansına oranla şehir içi dur-kalk trafikte beklenenden yüksek yakıt tüketimine ulaşabiliyor.',
+      'Sportage’ın kavisli çift ekranı hem şık hem kullanışlı. Klima ile medya kontrolleri arasında geçiş yapan dokunmatik panele alışmak biraz zaman alıyor, ama alıştıktan sonra çok pratik.',
+      '7 ileri DCT (çift kavramalı) şanzıman yoğun dur-kalk trafikte hızlı ısınma uyarısı verebiliyor ve kalkışlarda titreme eğilimi gösterebiliyor.',
+      'Makyajlı Sportage, Kia’nın yeni tasarım dilinin en belirgin örneklerinden biri. Ön tarafta dikey olarak yerleştirilmiş ince LED gündüz farları ve onları çevreleyen ışık desenleri var; Kia bu ışık imzasına “yıldız haritası” diyor. Gece Sportage’ı uzaktan tanımak artık çok kolay.',
+      'Makyajla birlikte kabinde yazılım ve ekranlar güncellendi. Daha önce bahsettiğimiz kavisli çift ekran daha hızlı ve daha akıcı bir arayüze kavuştu; kablosuz Apple CarPlay ve Android Auto desteği geldi. Klima ile medya arasında geçiş yapan çift fonksiyonlu panel ise hâlâ alışkanlık gerektiriyor.',
+      'Sportage’ın pratik yanları yerinde: Arka koltuk sınıfının en genişlerinden, bagaj büyük ve yükleme eşiği alçak. Sinyal verdiğinizde gösterge panelinde o taraftaki kör nokta kamerasının görüntüsünün belirmesi de Sportage’ın en sevilen güvenlik detaylarından.',
+      'Bu versiyonun turbo benzinli motoru günlük kullanımda yeterli, ama dolu araçla sınırda kalıyor. Daha önce belirttiğimiz gibi DCT şanzıman yoğun trafikte ısınma uyarısı verebiliyor ve şehir içi tüketim beklenenden yüksek. Şehir içinde çok kullanacaksanız hibrit versiyonları değerlendirmek mantıklı olabilir.',
+      'Uzun garantisi, geniş kabini ve modern tasarımıyla Sportage, aile SUV’u arayanlar için hâlâ en güvenli seçimlerden biri.',
+    ],
     summary: 'Tucson’un kuzeni; kaliteli kabini ve geniş donanım yelpazesiyle eşit derecede güçlü bir aday.',
   },
   {
@@ -1300,6 +1310,14 @@ const RAW_CARS = [
     review: {
       teknoloji: 'Togg’a bindiğinizde sizi karşılayan uçtan uca ekran ve akıllı cihaz ekosistemi, otomobili adeta bir telefon gibi kullanmanızı sağlıyor. Bazı özellikler hâlâ güncellemelerle olgunlaşıyor ama yerli bir otomobilde bu teknoloji seviyesini görmek gerçekten etkileyici.',
     },
+    longReview: [
+      'Togg’a bindiğinizde sizi karşılayan uçtan uca ekran ve akıllı cihaz ekosistemi, otomobili adeta bir telefon gibi kullanmanızı sağlıyor. Bazı özellikler hâlâ güncellemelerle olgunlaşıyor ama yerli bir otomobilde bu teknoloji seviyesini görmek gerçekten etkileyici.',
+      'T10X, Türkiye’nin yerli otomobil markası Togg’un ilk modeli ve Bursa’nın Gemlik ilçesindeki fabrikada üretiliyor. Tasarımında İtalyan tasarım evi Pininfarina ile iş birliği yapıldı. Türkiye’ye özgü bir dokunuş da var: Farlarda, jantlarda ve kabinde lale motifinden ilham alan desenler bulunuyor; lale, Osmanlı sanatının en tanınmış simgelerinden biri.',
+      'Daha önce bahsettiğimiz uçtan uca ekran ve akıllı cihaz ekosistemi, T10X’i bir otomobilden çok bir teknoloji ürününe dönüştürüyor. Togg’un Trumore adını verdiği dijital platform; şarj istasyonlarını bulmak, şarjı ödemek ve otomobili telefondan yönetmek gibi işlevleri tek bir yerde topluyor.',
+      'Uzun menzilli versiyon, fiyatına göre çok iyi bir menzil sunuyor. Arkadan itişli yapı, otomobile dengeli bir sürüş ve şehir içinde küçük bir dönüş çapı kazandırıyor. Panoramik cam tavan kabini aydınlık ve ferah hissettiriyor; arka koltuk ve bagaj aileler için yeterli.',
+      'Togg’un Türkiye’deki en güçlü yanlarından biri, hızla yaygınlaşan yerli servis ağı ve parça bulunabilirliği. İthal elektrikli rakiplerin servis ve parça konusundaki belirsizlikleri, T10X için çok daha az geçerli.',
+      'T10X’in zayıf yanları hızlı şarj gücü ve yazılım. Hızlı şarj gücü rakiplerinin gerisinde; bazı yazılım özellikleri de hâlâ güncellemelerle olgunlaşıyor. Ama uzun menzili, zengin donanımı ve yerli servis avantajıyla elektrikli SUV arayanlar için çok güçlü bir seçenek.',
+    ],
     summary: 'Türkiye’nin en çok satan elektriklilerinden; menzil, donanım ve fiyat dengesi çok güçlü.',
   },
   {
@@ -1401,6 +1419,13 @@ const RAW_CARS = [
     ratings: { surus: 8.2, guvenlik: 9.0, konfor: 8.4, tuketim: 7.4, malzeme: 8.2, tasarim: 8.4, fiyat: 7.0, teknoloji: 8.6, guvenilirlik: 7.8, ikinciel: 6.4 },
     pros: ['Çok güçlü çift motor', 'Geniş kabin', 'Zengin standart donanım'],
     cons: ['Tüketim yüksek', 'Fiyatı Model Y’nin üzerinde'],
+    longReview: [
+      'Sealion 7, BYD’nin Tesla Model Y’ye rakip olarak geliştirdiği elektrikli SUV ve Seal ile aynı teknolojileri daha büyük ve daha pratik bir gövdede sunuyor. BYD’nin batarya üreticisi olarak kurulan geçmişi, Sealion 7’de de en önemli teknolojinin kaynağı.',
+      'Sealion 7, BYD’nin ince ve uzun hücrelerden oluşan Blade bataryasını kullanıyor; bu batarya kimyası termal açıdan çok kararlı ve yangın riskine karşı dayanıklı olmasıyla biliniyor. Batarya, gövdenin taşıyıcı bir parçası olarak tasarlanmış; üst yüzeyi doğrudan kabinin tabanı görevi görüyor. Isı pompası standart olarak geliyor; bu da kışın menzil kaybını azaltıyor.',
+      'Kabinde BYD’nin imzası olan, yataydan dikeye dönebilen büyük merkezi ekran var. Havalandırmalı ve ısıtmalı koltuklar, panoramik cam tavan ve kaliteli malzemeler standart donanımda sunuluyor. Ön kaputun altında ek bir bagaj bölmesi var; arka koltuk ve bagaj da geniş.',
+      'Bu versiyonun çift motorlu dört çeker sistemi, Sealion 7’ye çok güçlü bir performans kazandırıyor. Ama bu güç, Türkiye’de daha yüksek bir ÖTV dilimine girmesine ve fiyatının Model Y’nin üzerine çıkmasına yol açıyor. Tüketimi de rakiplerine göre yüksek.',
+      'BYD’nin Türkiye’de, Manisa’da bir üretim tesisi kurma planını açıklaması, markanın uzun vadeli varlığı ve servis ağı açısından olumlu bir işaret.',
+    ],
     summary: 'Güçlü ve donanımlı bir elektrikli SUV; verimlilikte Tesla’nın gerisinde kalıyor.',
   },
   {
@@ -1479,6 +1504,13 @@ const RAW_CARS = [
     ratings: { surus: 7.8, guvenlik: 8.9, konfor: 8.2, tuketim: 8.8, malzeme: 7.9, tasarim: 8.6, fiyat: 8.8, teknoloji: 8.7, guvenilirlik: 8.2, ikinciel: 7.2 },
     pros: ['Kompakt boyutlarda çok uzun menzil', 'Fiyatına göre güçlü paket', 'Geniş bagaj', 'Araçtan elektrik çekebilme (V2L)', 'Masa gibi açılan katlanır tepsi'],
     cons: ['Şarj hızı 800V kardeşlerinin gerisinde', 'GT-Line donanımda fiyat çok artıyor'],
+    longReview: [
+      'EV3, Kia’nın elektrikli otomobilleri daha geniş bir kitleye ulaştırmak için geliştirdiği kompakt SUV ve Güney Kore’de üretiliyor. Bu boyuttaki bir otomobilde, uzun menzilli bataryasıyla sınıfının en uzun menzillerinden birini sunması, EV3’ün en büyük kozu.',
+      'Kabindeki en sevilen detay, ön yolcunun önündeki torpidodan açılan katlanır tepsi. Bu tepsi açıldığında küçük bir masaya dönüşüyor; şarj molası sırasında dizüstü bilgisayarla çalışmak ya da bir şeyler yemek için çok kullanışlı. Arka koltukta zemin tamamen düz; bagaj da bu boyuttaki bir SUV için geniş.',
+      'EV3, Kia’nın yapay zekâ destekli sesli asistanını sunan modellerinden biri. Asistan, doğal konuşmaları anlayarak navigasyon, klima ve eğlence sistemini yönetebiliyor; genel sorulara da cevap verebiliyor. Kia’nın tek pedal sürüş sistemi de şehir içinde fren pedalına neredeyse hiç dokunmadan sürmeyi mümkün kılıyor.',
+      'Otomobilden dışarıya elektrik verebilme özelliği EV3’te de var: Kampta elektrikli aletleri çalıştırmak ya da başka bir elektrikli araca acil şarj vermek mümkün.',
+      'EV3’ün zayıf yanı şarj hızı; büyük kardeşleri EV6 ve EV9’daki 800 voltluk mimariyi kullanmadığı için hızlı şarj süreleri daha uzun. GT-Line donanımda da fiyat belirgin şekilde artıyor. Ama kompakt boyutları ve uzun menziliyle şehirde yaşayıp zaman zaman uzun yola çıkanlar için çok mantıklı bir elektrikli.',
+    ],
     summary: 'Kompakt elektrikli SUV sınıfında menzil ve fiyat dengesinde çıtayı yükselten, çok güçlü bir paket.',
   },
   {
@@ -1605,6 +1637,13 @@ const RAW_CARS = [
     ratings: { surus: 10.0, guvenlik: 9.7, konfor: 9.3, tuketim: 8.5, malzeme: 9.9, tasarim: 10.0, fiyat: 6.4, teknoloji: 9.8, guvenilirlik: 8.0, ikinciel: 6.8 },
     pros: ['Gerçek spor otomobil dinamikleri', '800V mimariyle çok hızlı şarj', 'Makyajla uzayan menzil', 'Ön bagaj (frunk)', 'Arka aksta iki ileri şanzıman'],
     cons: ['Dar arka yaşam alanı', 'Çok pahalı opsiyonlar'],
+    longReview: [
+      'Makyajlı Taycan, Porsche’nin elektrikli spor otomobilinde en çok eleştirilen konuyu, yani menzili ciddi şekilde iyileştirdi. Yeni nesil batarya hücreleri, daha verimli motorlar ve geliştirilmiş ısı yönetimi sayesinde menzil belirgin şekilde arttı; hızlı şarj gücü de yükseldi. Bu temel arkadan itişli versiyon bile artık uzun yolda çok daha rahat.',
+      'Makyajla gelen eğlenceli bir yenilik de direksiyondaki güç artırma düğmesi. Bu düğmeye bastığınızda Taycan, birkaç saniyeliğine ek güç sağlıyor; sollamalarda ya da otoyola çıkarken bu ek güç çok işe yarıyor. Porsche, bunu yarış otomobillerindeki benzer düğmelerden ilham alarak tasarladı.',
+      'Taycan’ın teknik imzaları korunuyor: arka aksta iki ileri şanzıman ve 800 voltluk mimari. Ön kaputun altında ek bir bagaj bölmesi var. Opsiyonel Porsche Active Ride süspansiyonu ise gövdeyi her koşulda yere paralel tutarak hem konforu hem yol tutuşunu bir üst seviyeye taşıyor.',
+      'Arkadan itişli temel versiyon, dört çekerli kardeşleri kadar hızlı değil; ama daha hafif ve daha oyunbaz bir karakter sunuyor. Porsche’nin elektrikli çağda da sürüş keyfinden ödün vermediğini en saf şekilde hissettiren versiyon bu.',
+      'Zayıf yanları dar arka yaşam alanı ve çok pahalı opsiyonlar. Temel fiyatla katalog fotoğraflarındaki otomobil arasında ciddi bir fark olabiliyor; opsiyon listesini dikkatle incelemek gerekiyor.',
+    ],
     summary: 'Elektrikli çağda saf spor otomobil karakterini yaşatan bir mühendislik örneği; Türkiye’de benzinli Porsche’lara göre vergi avantajlı.',
   },
   {
@@ -2046,6 +2085,14 @@ const RAW_CARS = [
     review: {
       guvenilirlik: 'Bu otomobilin en büyük zayıf noktası N13 kodlu 1.6 motoru. Genel olarak sıkıntılı bir motor; zamanlama zinciri ve gergisi, yağ kaçakları ve yüksek basınç yakıt pompası gibi kronik sorunlu parçaları fazla. Bakımı ihmal edilmiş bir örnekte işin sandık motora (komple motor değişimine) kadar gitme ihtimali bile var. Bu yüzden bütçeniz uygunsa, aynı kasada 2.0 litrelik N20 motorlu versiyonları tercih etmenizi öneririz.',
     },
+    longReview: [
+      'Bu otomobilin en büyük zayıf noktası N13 kodlu 1.6 motoru. Genel olarak sıkıntılı bir motor; zamanlama zinciri ve gergisi, yağ kaçakları ve yüksek basınç yakıt pompası gibi kronik sorunlu parçaları fazla. Bakımı ihmal edilmiş bir örnekte işin sandık motora (komple motor değişimine) kadar gitme ihtimali bile var. Bu yüzden bütçeniz uygunsa, aynı kasada 2.0 litrelik N20 motorlu versiyonları tercih etmenizi öneririz.',
+      'F30 kasa 3 Serisi, Almanya’nın Münih şehrindeki BMW ana fabrikasında üretildi ve 3 Serisi’nin en sevilen nesillerinden biri olarak görülüyor. 320i ED, yani “Efficient Dynamics Edition”, BMW’nin verimlilik odaklı versiyonuydu: daha uzun vites oranları, düşük yuvarlanma dirençli lastikler ve aerodinamik iyileştirmelerle tüketimi düşürmek için tasarlandı.',
+      'F30’un en büyük kozu şasisi. Arkadan itişli yapı, neredeyse eşit ağırlık dağılımı ve ZF’nin 8 ileri şanzımanı, bu otomobile bugün bile keyifli ve dengeli bir sürüş kazandırıyor. Daha önce bahsettiğimiz gibi standart hâliyle G20’den bile hızlı hissettirebiliyor.',
+      'Tasarımı ve donanımı, zamanının önündeydi. Torpidonun üstündeki geniş ekran, iDrive döner kumandası ve kaliteli kabin malzemeleri, F30’u bugün bile güncel hissettiriyor.',
+      'Ama bu otomobili alırken en dikkat edilmesi gereken konu, daha önce detaylıca anlattığımız N13 motor. Zamanlama zinciri, yüksek basınç pompası ve diğer kronik sorunlu parçalar nedeniyle bakım geçmişi belli olmayan örneklerden mutlaka uzak durmak gerekiyor. Yaşına bağlı olarak süspansiyon burçları ve soğutma sistemi de kontrol edilmeli.',
+      'Doğru bakılmış bir örnek bulursanız, F30 hâlâ bu bütçede arkadan itişli bir BMW sürüş keyfi yaşamanın en mantıklı yollarından biri. Bütçeniz elverirse N20 motorlu versiyonlara bakmanızı öneririz.',
+    ],
     summary: 'İkinci elde BMW sürüş keyfine ulaşmanın en mantıklı yollarından; bakım geçmişi mutlaka kontrol edilmeli.',
   },
   {
@@ -2081,6 +2128,14 @@ const RAW_CARS = [
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
       ikinciel: 'Passat Türkiye’de neredeyse bir statü sembolü; ikinci elde satışa koyduğunuz gün telefonunuz susmuyor. Değerini koruma konusunda sınıfında Passat’la yarışabilecek çok az otomobil var.',
     },
+    longReview: [
+      'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin. Passat Türkiye’de neredeyse bir statü sembolü; ikinci elde satışa koyduğunuz gün telefonunuz susmuyor. Değerini koruma konusunda sınıfında Passat’la yarışabilecek çok az otomobil var.',
+      'Makyajlı Passat, Almanya’nın Emden şehrindeki Volkswagen fabrikasında üretiliyor ve Türkiye’de yıllardır makam otomobili ve aile sedanı olarak en çok tercih edilen modellerden biri. Daha önce bahsettiğimiz gibi Passat Türkiye’de neredeyse bir statü sembolü; ikinci elde de çok kısa sürede alıcı buluyor.',
+      'Makyajla birlikte gelen en önemli teknoloji, Travel Assist adlı sürüş destek sistemi. Bu sistem, otoyolda direksiyonu, gazı ve freni birlikte yöneterek otomobili şeridinde tutuyor ve öndeki araçla mesafesini koruyor. Direksiyon simidi de elinizin direksiyonda olup olmadığını dokunmatik sensörlerle algılıyor; bu, Volkswagen’in bu teknolojiyi sunan ilk modellerinden biriydi.',
+      'Makyajla gelen IQ.LIGHT LED Matrix farlar ve dijital gösterge de Passat’ı modernleştirdi. Kabin çok geniş; arka koltukta bacak bacak üstüne atıp oturabileceğiniz bir diz mesafesi var. Bagaj da sınıfının en büyüklerinden.',
+      'Uzun yol konforu, Passat’ın en güçlü yanı. Kabin otoyol hızlarında çok sessiz; süspansiyon bozuk yolları iyi süzüyor. 1.5 TSI motor ve DSG şanzıman ekonomik ve akıcı bir performans sunuyor; silindir kapatma sistemi de düşük yükte tüketimi azaltıyor.',
+      'Daha önce belirttiğimiz DQ200 şanzıman ve vites kolu riskleri, ikinci el alırken en önemli kontrol noktaları. Tasarımı muhafazakâr, ama Passat zaten gösterişten çok olgunluk ve güven arayanlar için tasarlanmış.',
+    ],
     summary: 'Türkiye’nin favori makam sedanlarından; konfor, alan ve değer korumada hâlâ çok güçlü.',
   },
   {
@@ -2095,6 +2150,15 @@ const RAW_CARS = [
       guvenilirlik: 'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
       konfor: 'Superb çok ama çok konforlu bir otomobil. Bozuk yollarda bile hiçbir sıkıntı yaşatmıyor; süspansiyon çukurları ve yama yapılmış asfaltı neredeyse tamamen siliyor, kabine sarsıntı taşımıyor. Uzun yolda saatlerce sürdükten sonra bile yorgunluk hissetmiyorsunuz. Açık konuşmak gerekirse bu fiyat seviyesinde böyle bir konfor sunan başka bir otomobil bulmak gerçekten zor.',
     },
+    longReview: [
+      'Superb çok ama çok konforlu bir otomobil. Bozuk yollarda bile hiçbir sıkıntı yaşatmıyor; süspansiyon çukurları ve yama yapılmış asfaltı neredeyse tamamen siliyor, kabine sarsıntı taşımıyor. Uzun yolda saatlerce sürdükten sonra bile yorgunluk hissetmiyorsunuz. Açık konuşmak gerekirse bu fiyat seviyesinde böyle bir konfor sunan başka bir otomobil bulmak gerçekten zor.',
+      'Güvenilirlik tarafında bu 1.5 TSI motorlu otomobillerde bilinmesi gereken iki kronik nokta var: 7 ileri DQ200 şanzıman ve vites kolu arızaları. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz. İkinci el alırken şanzımanın bakım ve tamir geçmişini mutlaka sorgulayın; mümkünse garantili bir örnek tercih edin.',
+      'Üçüncü nesil Superb, Çek Cumhuriyeti’nin Kvasiny şehrindeki Škoda fabrikasında üretildi ve Škoda’nın amiral gemisi olarak markanın kalite algısını bir üst seviyeye taşıdı. Makyajla birlikte Superb, LED Matrix farları sunan ilk Škoda modeli oldu. Üst donanım olan Laurin & Klement, adını 1895’te Škoda’nın temelini atan iki kurucudan alıyor.',
+      'Daha önce bahsettiğimiz gibi Superb çok ama çok konforlu bir otomobil. Arka koltuktaki diz mesafesi bir limuzini aratmıyor; bu yüzden Türkiye’de makam otomobili olarak da çok tercih ediliyor. Liftback gövde, bagaj kapağını arka camla birlikte açarak dev bagaja ulaşımı çok kolaylaştırıyor.',
+      'Škoda’nın akıllı detayları Superb’de en zengin hâliyle var: Ön kapıların içinde şemsiyeler, yakıt kapağının arkasında buz kazıyıcı, bagajda çıkarılabilir LED el feneri ve ayağınızı bagajın altında sallayarak açabildiğiniz elektrikli bagaj kapağı.',
+      'Bu versiyonun 1.5 TSI motoru, silindir kapatma sistemiyle ekonomik bir sürüş sunuyor. Daha önce belirttiğimiz gibi bu motorda eTSI versiyonlarındaki 48V akü riski bulunmuyor; ama DQ200 şanzıman ve vites kolu riskleri göz önünde bulundurulmalı.',
+      'Marka prestiji Passat’ın gerisinde ve multimedya sade. Ama Passat’a göre daha uygun fiyatı, daha geniş arka koltuğu ve akıllı detaylarıyla Superb, ikinci elde çok güçlü bir alternatif.',
+    ],
     summary: 'Passat’ın mekaniğini daha fazla alan ve daha iyi fiyatla sunan, ikinci elde çok mantıklı bir aile sedanı.',
   },
   // =========================================================================
@@ -2255,6 +2319,13 @@ const RAW_CARS = [
     ratings: { surus: 7.9, guvenlik: 9.5, konfor: 9.5, tuketim: 9.0, malzeme: 9.5, tasarim: 8.7, fiyat: 7.8, teknoloji: 8.2, guvenilirlik: 9.6, ikinciel: 7.2 },
     pros: ['Çok sessiz ve rahat kabin', 'Premium sınıfta en düşük tüketimlerden', 'Kusursuz işçilik ve güvenilirlik', 'Mark Levinson ses sistemi (üst donanımlarda)'],
     cons: ['Sürüş keyfi sınırlı', 'Dokunmatik ped ile multimedya kullanımı zor'],
+    longReview: [
+      'ES, Lexus’un en uzun soluklu modellerinden biri; ama Batı Avrupa’da ilk kez bu yedinci nesille satışa sunuldu. Daha önce bu pazarlarda Lexus’un iş sedanı GS modeliydi; ES, GS’nin yerini aldı. Japonya’nın Kyushu adasındaki Lexus fabrikasında üretiliyor.',
+      'ES, dünyada dış dikiz aynaları yerine kamera kullanan ilk seri üretim otomobillerden biri oldu. Japonya’da opsiyon olarak sunulan bu sistemde, aynaların yerinde küçük kameralar bulunuyor ve görüntüler kabinin içindeki ekranlara yansıtılıyor. Bu sistem Avrupa’ya her zaman gelmese de ES’in teknoloji iddiasını iyi anlatıyor.',
+      'Lexus’un “Takumi” adını verdiği usta zanaatkârlar, kabinin işçiliğini denetliyor; bu ustaların bazıları, belirli işlemlerde yıllarca eğitim almış kişiler. Kabin bu yüzden sınıfının en kusursuz işçiliklerinden birine sahip. Üst donanımlarda sunulan Mark Levinson ses sistemi de müzik dinlemeyi ayrı bir keyfe dönüştürüyor.',
+      'Hibrit sistem, ES’i premium sınıfın en düşük tüketimli sedanlarından biri yapıyor. Kabin olağanüstü sessiz; sürüş yumuşak ve rahat.',
+      'ES’in zayıf yanları sürüş keyfi ve multimedya. Sportif bir karakter beklememek gerekiyor; dokunmatik pedle multimedya kullanımı da zor. Ama sessizliği, düşük tüketimi ve efsanevi Lexus güvenilirliğiyle uzun vadede çok mantıklı bir premium sedan.',
+    ],
     summary: 'Alman rakiplerine sessiz, verimli ve bakımı kolay bir alternatif.',
   },
   {
@@ -2304,6 +2375,13 @@ const RAW_CARS = [
     ratings: { surus: 5.3, guvenlik: 3.5, konfor: 4.9, tuketim: 6.8, malzeme: 4.3, tasarim: 4.5, fiyat: 7.0, teknoloji: 2.9, guvenilirlik: 8.2, ikinciel: 7.8 },
     pros: ['Çok ucuz satın alma ve bakım'],
     cons: ['Güvenlik seviyesi çok düşük', 'Gürültülü ve sert kabin', 'Otoyolda güçsüz ve kararsız', 'Kabin malzemeleri çok ucuz'],
+    longReview: [
+      'Getz, Hyundai’nin Avrupa’da adını duyurduğu ilk modellerden biriydi ve özellikle Avrupa pazarı düşünülerek geliştirilen ilk Hyundai’lerden biri oldu. Uygun fiyatı ve sağlamlığıyla 2000’lerde Avrupa’da ve Türkiye’de çok satıldı.',
+      'Getz’in en büyük kozu, çok ucuz satın alma ve bakım maliyeti. Basit atmosferik motor ve manuel şanzıman, arıza ihtimali düşük ve tamiri ucuz bir mekanik sunuyor. Parça her yerde bulunuyor ve neredeyse her usta bu otomobili tanıyor.',
+      'Küçük boyutları şehir içinde büyük avantaj sağlıyor. Yüksek tavan sayesinde kabin, dış boyutlarına göre ferah hissettiriyor.',
+      'Ama Getz’in ciddi dezavantajları var. Güvenlik seviyesi bugünün standartlarının çok gerisinde; gövde yapısı ve güvenlik donanımı modern bir otomobille kıyaslanamaz. Kabin gürültülü ve sert; malzemeler çok ucuz. Otoyolda motor güçsüz ve otomobil yüksek hızlarda rüzgara karşı kararsız.',
+      'İkinci el alırken paslanma, süspansiyon ve zamanlama kayışının değişim geçmişine dikkat edin. Getz, çok sınırlı bir bütçeyle şehir içinde kısa mesafelerde kullanılacak bir ulaşım aracı olarak düşünülmeli; güvenlik önceliğinizse daha yeni bir otomobile yönelmenizi öneririz.',
+    ],
     summary: 'Yalnızca en düşük bütçeyle ulaşım arayanlar için; güvenlikte günümüz standartlarının çok gerisinde.',
   },
   {
@@ -2449,6 +2527,13 @@ const RAW_CARS = [
     ratings: { surus: 7.0, guvenlik: 7.8, konfor: 7.2, tuketim: 8.4, malzeme: 6.8, tasarim: 6.0, fiyat: 7.0, teknoloji: 5.3, guvenilirlik: 7.6, ikinciel: 8.0 },
     pros: ['Ekonomik dizel ve DSG', 'Geniş bagaj', 'Sağlam gövde'],
     cons: ['Sıkıcı tasarım ve sade kabin', 'DSG bakım geçmişi önemli'],
+    longReview: [
+      'Bu nesil Jetta’nın ilginç bir özelliği var: Avrupa’da satılan Jetta’lar, Meksika’nın Puebla şehrindeki Volkswagen fabrikasında üretildi. Jetta, özellikle Kuzey Amerika pazarı için tasarlanmış bir sedan; bu yüzden Avrupa’daki Golf’ten daha büyük bir bagaja ve daha geniş bir arka koltuğa sahip.',
+      'Jetta’nın en güçlü yanı pratikliği. Bagaj çok büyük; arka koltuk da aileler için geniş. Gövde sağlam ve güvenli; Volkswagen’in olgun sürüş karakteri burada da hissediliyor.',
+      'Dizel motor ve yedi ileri DSG şanzıman, uzun yolda çok düşük bir tüketim sağlıyor. Şehir içinde de DSG, sürüşü kolaylaştırıyor.',
+      'Ama ikinci el alırken DSG şanzımana çok dikkat etmek gerekiyor. Kuru kavramalı yedi ileri DSG, bakımı ihmal edildiğinde kavrama ve mekatronik arızalarıyla biliniyor; kalkıştaki davranışını test sürüşünde gözlemleyin ve bakım geçmişini mutlaka sorun. Dizel partikül filtresinin durumunu da kontrol ettirin.',
+      'Tasarım ve kabin sade, hatta sıkıcı. Ama Jetta zaten gösteriş için değil, pratik ve ekonomik bir aile sedanı arayanlar için tasarlanmış. Passat’a bütçesi yetmeyenler için mantıklı bir alternatif.',
+    ],
     summary: 'Mantıklı ama heyecansız bir sedan; ekonomisi ve genişliğiyle hâlâ iş görüyor.',
   },
   {
@@ -3021,6 +3106,13 @@ const RAW_CARS = [
     ratings: { surus: 8.7, guvenlik: 9.3, konfor: 8.7, tuketim: 8.0, malzeme: 8.9, tasarim: 8.5, fiyat: 7.4, teknoloji: 9.0, guvenilirlik: 8.0, ikinciel: 6.8 },
     pros: ['Güçlü çift motor ve dört çeker', 'Pratik ve geniş kabin', 'Kaliteli işçilik', 'Kavisli ekranlı modern kokpit'],
     cons: ['Menzil ortalama', 'Fiziksel tuş neredeyse yok'],
+    longReview: [
+      'iX1, BMW X1’in elektrikli versiyonu ve Almanya’nın Regensburg şehrindeki BMW fabrikasında, benzinli ve dizel X1’lerle aynı üretim hattında üretiliyor. Bu esnek üretim anlayışı, BMW’nin elektrikli geçişteki yaklaşımının bir parçası.',
+      'iX1’in ilginç bir detayı ses. BMW, elektrikli otomobillerinin sürüş seslerini Oscar ödüllü film müziği bestecisi Hans Zimmer ile birlikte tasarladı. Gaz pedalına bastığınızda kabinde, hızlanmanıza göre değişen fütüristik bir ses duyuluyor; bu sesi kapatabiliyor ya da sürüş moduna göre değiştirebiliyorsunuz.',
+      'Kabinde BMW’nin kavisli ekranı var; gösterge paneli ve multimedya ekranı tek bir kavisli yüzeyde birleşiyor. Orta konsol havada asılı gibi duruyor; altında saklama alanı var. Arka koltuklar 40:20:40 oranında bölünerek katlanabiliyor; bu da uzun eşyaları taşırken iki arka yolcuya yer bırakmanızı sağlıyor.',
+      'Çift motorlu dört çeker sistemi, iX1’e güçlü ve her havada güven veren bir performans kazandırıyor. Kabin işçiliği BMW’nin bilinen kalitesinde.',
+      'iX1’in zayıf yanları menzil ve fiziksel tuşların neredeyse tamamen kalkmış olması. Menzil ortalama; ama BMW kalitesini kompakt bir elektrikli SUV’da isteyenler için çok güçlü bir seçim.',
+    ],
     summary: 'X1’in pratikliğini güçlü bir elektrikli aktarma organıyla birleştiren, dengeli bir premium SUV.',
   },
   {
