@@ -877,7 +877,10 @@ export const DETAILS = {
       "Model Y gerçekten çok dolu bir otomobil. Trafik cezası yemenizi önlemek ve güvenli bir sürüş sağlamak için sürekli çalışıyor: hız tabelalarını sürekli okuyor ve o hızları aşmanızı önlemek için sistemleri devreye giriyor.",
       "Tüm koltuklarda ısıtma seçeneğinin olması gerçekten çok başarılı. Arkada bir ekran bulunması da otomobilin ne kadar premium olduğunu aslında gösteriyor; arka yolcular klimayı ve eğlence sistemini kendileri yönetebiliyor. Bagajı da oldukça büyük.",
       "Menzili başarılı, verimliliği ise bir SUV için akıl almaz. Supercharger ağı sayesinde uzun yolda şarj planlamak neredeyse hiç kafa yormuyor: navigasyona hedefi yazıyorsunuz, nerede ve ne kadar şarj etmeniz gerektiğini otomobil kendisi hesaplıyor.",
-      "Bilinmesi gerekenler de var. Cam tavanın standart olarak mekanik bir perdesi olmadığı için yaz aylarında kabin aşırı ısınabiliyor. Direksiyon oranı çok hızlı olduğu için otoyol hızlarında en ufak hareketle keskin tepki veriyor; ilk başta alışmak gerekiyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler de zamanla tıkırdayabiliyor."
+      "Bilinmesi gerekenler de var. Cam tavanın standart olarak mekanik bir perdesi olmadığı için yaz aylarında kabin aşırı ısınabiliyor. Direksiyon oranı çok hızlı olduğu için otoyol hızlarında en ufak hareketle keskin tepki veriyor; ilk başta alışmak gerekiyor. Ön konsoldaki dekoratif şerit ve kapı içi trimler de zamanla tıkırdayabiliyor.",
+      "Makyajlı Model Y, Avrupa’da Tesla’nın Berlin yakınlarındaki Grünheide fabrikasında üretiliyor. Dışarıdaki en belirgin değişiklik, ön tarafta bir uçtan diğerine uzanan ince LED ışık şeridi ve arkadaki yeni lambalar; Model Y artık yolda çok daha modern ve fütüristik görünüyor.",
+      "Kabinde de önemli yenilikler var: havalandırmalı ön koltuklar, ambiyans aydınlatması ve daha önce bahsettiğimiz arka ekran. Arka koltukların sırtları elektrikli olarak yatırılabiliyor ve katlanabiliyor; bu da hem arka yolcuların konforunu artırıyor hem de büyük eşyaları yüklemeyi kolaylaştırıyor.",
+      "Makyajla birlikte kabin yalıtımı ve süspansiyon konforu da belirgin şekilde iyileşti. Model Y, dünyanın en çok satan elektrikli otomobillerinden biri olmaya devam ediyor ve ikinci el piyasasında da güçlü bir talep görüyor."
     ],
     "review": {
       "tuketim": "Model Y’nin verimliliği bir SUV için akıl almaz. Supercharger ağı sayesinde uzun yolda şarj planlamak neredeyse hiç kafa yormuyor: navigasyona hedefi yazıyorsunuz, nerede ve ne kadar şarj etmeniz gerektiğini otomobil kendisi hesaplıyor."
@@ -1105,7 +1108,10 @@ export const DETAILS = {
       "MX-5 bir sürücü otomobili. Çok küçük olması sayesinde trafikte aralara rahatça girebiliyorsunuz; şehirde bile çevikliğiyle insanı gülümsetiyor.",
       "Performansı çok tatmin edici. Tabii ki çok hızlı değil; ama mekanik olarak otomobil size her şeyi hissettiriyor. Direksiyondan, vitesten, koltuktan yola dair her bilgi size geliyor. Bu da tutku olarak inanılmaz bir şey. Saniyeler içinde elle açılan tavanı da bu keyfi katlıyor.",
       "Kabinde bazı fedakârlıklar var. Şanzıman tüneli sürücü tarafına doğru geniş tasarlandığı için gaz pedalının yanındaki ayak boşluğu çok dar; sağ bacak orta konsoldaki sert plastiğe yaslanıyor ve uzun yolda dizde ağrı yapabiliyor. Klasik bir torpido gözü de yok; eşyalar koltukların arkasındaki kilitli kutuya konuyor ve sürüş sırasında oraya ulaşmak tam bir akrobasi.",
-      "Ama bu otomobili alan biri için bunlar küçük detaylar. Kompakt, başarılı ve tamamen mekanik bir otomobil. Otomobil tutkunlarının listesinde mutlaka olmalı."
+      "Ama bu otomobili alan biri için bunlar küçük detaylar. Kompakt, başarılı ve tamamen mekanik bir otomobil. Otomobil tutkunlarının listesinde mutlaka olmalı.",
+      "MX-5, dünyanın en çok satan iki kişilik roadster’ı olarak Guinness Rekorlar Kitabı’na girdi; 1989’dan bu yana bir milyondan fazla satıldı. Japonya’nın Hiroşima şehrindeki Mazda fabrikasında üretilen dördüncü nesil MX-5, önceki nesle göre daha hafif ve daha kısa; Mazda, bu nesilde otomobili ilk MX-5’in saf ruhuna geri döndürmeyi hedefledi.",
+      "MX-5’in manuel şanzımanı, sınıfının en kısa ve en keyifli vites yollarından birine sahip. Vites kolu her geçişte mekanik ve kesin bir his veriyor; bu da otomobilin “sürücüyle bütünleşme” felsefesinin en somut göstergelerinden biri.",
+      "MX-5, uygun bir bütçeyle saf bir sürüş keyfi arayanlar için otomobil dünyasının en akıllıca seçimlerinden biri. Mazda’nın güvenilirliği sayesinde ikinci elde de masrafsız bir otomobil."
     ],
     "reviewExtra": {
       "konfor": "Şanzıman tüneli sürücü tarafına doğru geniş tasarlandığı için gaz pedalının yanındaki ayak boşluğu çok dar; sağ bacak sürekli orta konsoldaki sert plastiğe yaslanıyor ve uzun yolda sağ dizde ağrı yapabiliyor.",
@@ -1128,7 +1134,10 @@ export const DETAILS = {
       "S3’ü bir GPS ölçüm cihazıyla test ettik ve 0–100 km/s ölçümlerinde sürekli 4,7–4,8 saniye gibi değerler kaydettik. Yani katalogdaki değeri gerçek hayatta da rahatlıkla tutturuyor; quattro sayesinde her kalkışta bu performansı tekrar tekrar alabiliyorsunuz. Gücü gerçekten tatmin edici.",
       "Tabii ki otomobil çok sert. Tabii ki konfor beklemedik; bu otomobilin varlık sebebi bu değil. Bozuk yollarda bunu her an hissettiriyor, ama virajlı bir yolda bu sertliğin karşılığını fazlasıyla alıyorsunuz.",
       "İç mekân güzel ve sade; klas görünüyor. Ama tabii ki içi A3 ile aynı. Bir S3’ten biraz daha farklı, daha özel bir kabin beklentiniz varsa bu sizi biraz hayal kırıklığına uğratabilir.",
-      "Ama dürüst olalım: Bu otomobili performansı için alıyorsunuz. Bir S3 kullanıcısı diğer şeyleri ne yapsın? Her gün kullanılabilen, istendiğinde ise çok daha pahalı otomobilleri zorlayan bir hot hatch arıyorsanız S3 tam bunu yapıyor."
+      "Ama dürüst olalım: Bu otomobili performansı için alıyorsunuz. Bir S3 kullanıcısı diğer şeyleri ne yapsın? Her gün kullanılabilen, istendiğinde ise çok daha pahalı otomobilleri zorlayan bir hot hatch arıyorsanız S3 tam bunu yapıyor.",
+      "S3 Sportback, Audi’nin S modellerinin en kompakt üyesi. S harfi, Audi’nin standart modellerinin daha güçlü ve sportif versiyonlarını simgeliyor; en uç noktadaki RS modellerinin bir alt basamağı. S3, günlük kullanılabilirlik ile performans arasındaki dengeyi en iyi kuran Audi’lerden biri.",
+      "S3’ün ilerleyici direksiyonu, direksiyon simidini çevirdikçe tepkisini artırıyor: Şehir içinde ve park ederken direksiyonu daha az çevirerek manevra yapabiliyor, otoyolda ise sakin ve dengeli bir sürüş elde ediyorsunuz. Virtual Cockpit’in S modellerine özel görünümleri de devir, güç ve tork gibi bilgileri öne çıkarıyor.",
+      "Daha önce bahsettiğimiz GPS ölçümlerimizdeki tutarlı hızlanma süreleri, S3’ü günlük kullanılabilir bir performans otomobili arayanlar için çok cazip kılıyor. Quattro sayesinde bu performansı kışın da güvenle yaşayabiliyorsunuz."
     ]
   },
   "audi-a5-sportback-2023": {
@@ -1785,7 +1794,10 @@ export const DETAILS = {
       "MG4 XPOWER’ın olayı tek kelimeyle motor performansı. Güçlü elektrik motorları bu otomobilin asıl albenisi; gaza bastığınız anda tam bir şaka makinesine dönüşüyor. Düz yolda gerçekten çok hızlı ve gaz pedalı hissi süper; anlık tepkisi her seferinde insanı şaşırtıyor.",
       "Dört çeker olması da işi daha da tatlı yapıyor. Bu kadar gücü kayıpsız yere aktarabiliyor, ıslak zeminde bile kalkışlarda güven veriyor.",
       "Ama hâl böyle olunca biraz menzilden feragat ediyorsunuz. Bu güç ve dört çeker, menzili standart versiyonlara göre belirgin şekilde kısaltıyor; uzun yolda şarj planlaması yapmak gerekiyor.",
-      "İç aksamdaki malzeme kalitesi fena değil; fiyatı düşünüldüğünde beklentiyi karşılıyor. Direksiyon hissi ise idare eder; düz yoldaki o inanılmaz hızlanmayı virajlarda aynı keskinlikte hissettirmiyor."
+      "İç aksamdaki malzeme kalitesi fena değil; fiyatı düşünüldüğünde beklentiyi karşılıyor. Direksiyon hissi ise idare eder; düz yoldaki o inanılmaz hızlanmayı virajlarda aynı keskinlikte hissettirmiyor.",
+      "MG4, MG’nin elektrikli otomobiller için geliştirdiği yeni altyapıyı kullanan ilk model ve bu altyapının en ilginç özelliği bataryanın inceliği. MG, sınıfının en ince bataryalarından birini geliştirdi; bu da otomobilin alçak bir tabanla hem daha alçak ve sportif görünmesini hem de ağırlık merkezinin çok düşük olmasını sağlıyor. Standart MG4’ler arkadan itişli; bu da onlara sınıfında nadir görülen keyifli bir sürüş karakteri kazandırıyor.",
+      "XPOWER, bu altyapıya önde ikinci bir elektrik motoru ekleyerek dört çekerli bir performans otomobiline dönüşüyor. Daha sert süspansiyon, büyük frenler ve özel jantlarla standart MG4’ten ayrılıyor. MG’nin Londra’daki tasarım stüdyosunun katkısıyla şekillenen keskin tasarımı da bu sportif karakteri yansıtıyor.",
+      "XPOWER’ın en büyük kozu, süper otomobil seviyesindeki hızlanmayı bir kompakt hatchback fiyatına sunması. Hızlanma testlerinde kendisinden çok daha pahalı otomobilleri geride bırakabiliyor."
     ]
   },
   "porsche-911-turbo-s-2022": {
@@ -2125,7 +2137,10 @@ export const DETAILS = {
       "i20 N’de ilk sizi yakalayan şey o spor egzoz sesi. İnanılmaz. Sürüş modları ve devir değiştikçe ses de değişiyor ve bu değişimler çok güzel; her vites düşürmede yüzünüzde bir gülümseme oluşuyor.",
       "Otomobil baştan sona spor olarak tasarlanmış. Kokpit başarılı, sürüş pozisyonu doğru. Sadece iç mekân biraz normal i20’yi andırıyor; ama fiyatı da i20’ye yakın olduğu için bu bir sıkıntı değil.",
       "Performansı çok başarılı. Sürüş için ciddi bir AR-GE yapıldığı çok belli; bunu en net virajlarda anlıyorsunuz. Ön aks inatla çizgisini koruyor, şasi her girişte size güven veriyor. Devir eşitlemeli manuel şanzıman da bu keyfi tamamlıyor.",
-      "Süspansiyonu sert, günlük kullanımda bunu hissettiriyor. Ama bu fiyata bu kadar keyif veren bir otomobil bulmak gerçekten zor. Sürüş tutkunları için kaçırılmaması gereken bir hot hatch."
+      "Süspansiyonu sert, günlük kullanımda bunu hissettiriyor. Ama bu fiyata bu kadar keyif veren bir otomobil bulmak gerçekten zor. Sürüş tutkunları için kaçırılmaması gereken bir hot hatch.",
+      "i20 N’nin Türkiye ile özel bir bağı var: Bu hot hatch, Hyundai’nin İzmit’teki fabrikasında üretildi ve buradan Avrupa’nın dört bir yanına ihraç edildi. Yani Avrupa’daki i20 N tutkunlarının sürdüğü otomobiller, Türkiye’de üretilmişti.",
+      "Adındaki “N” harfi, Hyundai’nin Güney Kore’deki araştırma merkezinin bulunduğu Namyang şehrini ve otomobillerin test edildiği Almanya’daki Nürburgring pistini simgeliyor. i20 N, Hyundai’nin dünya ralli şampiyonasında yarışan i20 WRC otomobilinin mirasını taşıyor; tasarımında ve sürüş karakterinde bu ralli ruhu hissediliyor.",
+      "Hyundai, 2024’te i20 N’nin üretimini sonlandırdı. Bu da onu ikinci el piyasasında giderek daha aranan bir model hâline getiriyor. İyi korunmuş, değiştirilmemiş örneklerin değerini iyi koruması bekleniyor."
     ]
   },
   "skoda-fabia-2024": {
@@ -2524,7 +2539,10 @@ export const DETAILS = {
     "longReview": [
       "A6’ya bindiğinizde koltuklarda ısıtma ve soğutma olması, böyle bir otomobilde zaten çok da şaşırtmıyor. Asıl dikkatimi çeken, multimedyanın altındaki kontrol ekranı oldu; klima ve konfor ayarlarını yönettiğiniz bu ekran gerçekten şahane ve kullanımı çok keyifli. Ambiyans aydınlatmada da 30 farklı renk seçeneği var; gece kabin bambaşka bir havaya bürünüyor.",
       "Ama bu otomobilin yıldızı Matrix LED farlar. Farlar ışığın gücünü ve dağılımını karşıdan gelen aracı rahatsız etmeden ayarlıyor; yolda adeta bir ışık şovu izliyorsunuz. Bize göre Audi son yıllarda en çok bu konuda ilerleme kaydetti; gece sürüşünde verdiği güven bambaşka.",
-      "Kabin çok sessiz ve uzun yolda yorulmuyorsunuz; quattro dört çeker de her havada güven veriyor. Alışık olduğumuz 40 TDI motor seçeneği ise idare eder. Ekonomik ve yeterli, ama bu sınıfta bir otomobilde size yeterli gelip gelmeyeceğini bilemiyorum; daha fazla performans isteyenler güçlü motor seçeneklerine bakmalı."
+      "Kabin çok sessiz ve uzun yolda yorulmuyorsunuz; quattro dört çeker de her havada güven veriyor. Alışık olduğumuz 40 TDI motor seçeneği ise idare eder. Ekonomik ve yeterli, ama bu sınıfta bir otomobilde size yeterli gelip gelmeyeceğini bilemiyorum; daha fazla performans isteyenler güçlü motor seçeneklerine bakmalı.",
+      "A6, Almanya’nın Neckarsulm şehrindeki Audi fabrikasında üretiliyor. Bu nesilde Audi, kabinde üç büyük ekrandan oluşan bir düzen sundu: sürücünün önündeki dijital gösterge, orta konsolda multimedya ekranı ve onun altında klima ve konfor ayarlarının bulunduğu ikinci bir dokunmatik ekran. Ekranlara dokunduğunuzda titreşimli bir geri bildirim alıyorsunuz.",
+      "Hafif hibrit sistem, otoyolda gazdan ayağınızı çektiğinizde motoru tamamen kapatıp otomobili bir süre süzülerek ilerletebiliyor; gerektiğinde fark ettirmeden yeniden çalıştırıyor. Seçenek olarak sunulan arka aks yönlendirmesi de bu uzun sedanı şehirde daha çevik, otoyolda daha dengeli kılıyor.",
+      "A6’nın bir de Avant adı verilen station wagon versiyonu var; aynı konfor ve teknolojiyi çok daha büyük bir bagajla sunuyor. A6, uzun yol yapan ve teknolojiye önem veren iş insanları için sınıfının en dengeli seçeneklerinden biri."
     ]
   },
   "volkswagen-t-roc-2021": {
@@ -2661,7 +2679,10 @@ export const DETAILS = {
       "Kuga’nın en pratik özelliği kayar arka koltuk. Arka sıra ileri-geri kaydırılabiliyor; bagajı büyütmek istediğinizde öne, arkada uzun boylu yolcular taşırken geriye alıyorsunuz. Ayağınızı bagajın altında sallayarak açabildiğiniz elektrikli bagaj kapağı da elleriniz doluyken çok işe yarıyor.",
       "ST-Line donanımı, Kuga’ya sportif tamponlar, büyük jantlar ve daha sert bir süspansiyon kazandırıyor. Üst donanımlarda Bang & Olufsen ses sistemi ve dijital gösterge sunuluyor.",
       "Dizel motor ve 8 ileri tam otomatik şanzıman, uzun yolda çok düşük bir tüketim sağlıyor. Ama bu versiyondaki motor, dolu araçla ve yokuşlarda zorlanıyor; sollamalarda planlı olmak gerekiyor.",
-      "Kabin kalitesi ortalama; sert plastikler yoğun. Ama keyifli yol tutuşu, pratik arka koltuğu ve ekonomik dizeliyle Kuga, sürüş keyfini önemseyen aileler için mantıklı bir C-SUV."
+      "Kabin kalitesi ortalama; sert plastikler yoğun. Ama keyifli yol tutuşu, pratik arka koltuğu ve ekonomik dizeliyle Kuga, sürüş keyfini önemseyen aileler için mantıklı bir C-SUV.",
+      "Kuga’nın şarj edilebilir hibrit versiyonu, 2021’de Avrupa’nın en çok satan şarj edilebilir hibrit otomobili oldu. Bu, Kuga’nın altyapısının ne kadar esnek olduğunu gösteriyor: Aynı gövde dizel, benzinli, hafif hibrit, tam hibrit ve şarj edilebilir hibrit motorlarla sunuldu.",
+      "Kabinde Ford’un dijital gösterge paneli, multimedya ekranı ve sesli komutlarla telefonu, müziği ve navigasyonu yönetebildiğiniz SYNC sistemi var. Kablosuz şarj ve ön cama yansıtmalı gösterge de üst donanımlarda sunuluyor.",
+      "Kuga, sürüş keyfini önemseyen ama bir aile SUV’unun pratikliğinden de vazgeçmek istemeyen sürücüler için tasarlanmış. Focus ile paylaştığı şasi, onu sınıfının en keyifli sürülen SUV’larından biri yapıyor."
     ]
   },
   "citroen-c5-aircross-2022": {
@@ -2975,7 +2996,10 @@ export const DETAILS = {
     "longReview": [
       "4 Serisi Coupé bugünün dünyasında en çok tutan otomobillerden biri. Satarken de bunu göz önünde bulundurunca, açıkçası bu otomobilin bir eksisi yok. Harbiden her kutucuğu işaretleyen bir otomobil: tasarımı, şasisi, kabini ve ikinci el değeriyle eksik yanı bulmak çok zor.",
       "420i gerçekten çok çok başarılı. 320i’deki gibi Türkiye’ye özel 1.6 motor aslında 2.0 litrelik kardeşiyle aynı bloktan geliyor. Güvenli bir yazılımla M340i’nin hızlanma sürelerine yaklaşan değerler bile alınabiliyor; bu inanılmaz. Arkadan itişli şasi de bu güce fazlasıyla hazır. Yine de güç artışı düşünenler garanti kaybını ve motor ömrüne etkisini mutlaka hesaba katmalı.",
-      "Bu otomobil aynı zamanda çok başarılı bir platform üzerinde duruyor. Sürüş dengesi, direksiyon hissi ve günlük kullanımdaki rahatlığı bir arada sunması, onu sınıfının en keyifli seçeneklerinden biri yapıyor."
+      "Bu otomobil aynı zamanda çok başarılı bir platform üzerinde duruyor. Sürüş dengesi, direksiyon hissi ve günlük kullanımdaki rahatlığı bir arada sunması, onu sınıfının en keyifli seçeneklerinden biri yapıyor.",
+      "İkinci nesil 4 Serisi Coupé, Almanya’nın Dingolfing şehrindeki BMW fabrikasında üretiliyor. En çok konuşulan detayı, hiç kuşkusuz büyük dikey böbrek ızgarası. BMW, bu tasarımın markanın 1930’lardaki efsanevi 328 modelinden ve 1970’lerin 3.0 CSi coupé’sinden ilham aldığını söylüyor; o klasik otomobillerde de ızgara dikey ve uzundu.",
+      "4 Serisi ailesinde coupé’nin yanında açık tavanlı bir Convertible ve dört kapılı bir Gran Coupé da var. Gran Coupé, coupé’nin şık tasarımını bagaj kapağı arka camla birlikte açılan pratik bir gövdeyle sunuyor; aileler için daha mantıklı bir seçenek.",
+      "Kabinde BMW’nin kavisli ekranı, M Sport direksiyon ve sportif koltuklar var. 4 Serisi Coupé, arka koltuk ve bagaj konusunda 3 Serisi’nden biraz ödün veriyor; ama daha alçak gövdesi ve coupé tasarımıyla çok daha sportif bir karakter sunuyor."
     ],
     "review": {
       "surus": "420i gerçekten çok çok başarılı bir otomobil. 320i’deki gibi Türkiye’ye özel 1.6 motor aslında 2.0 litrelik kardeşiyle aynı bloktan geliyor; yazılım (chip tuning) ile yaklaşık 300 beygire kadar güç alınabildiği biliniyor. Arkadan itişli şasi bu güce fazlasıyla hazır. Güç artışı düşünenler garanti kaybını ve motor ömrüne etkisini hesaba katmalı."
@@ -3187,7 +3211,10 @@ export const DETAILS = {
     "longReview": [
       "Çok ama çok başarılı, inanılmaz bir otomobil. Roadster tarzı küçük, klasik Z4 havası mı desek, o havayla birleşen yeni teknoloji mi, kasanın rijitliği mi, yoksa hafif kasasıyla 258 beygirin aslında bu araba için gayet yeterli olması mı; hangisini öne çıkaracağımızı bilemedik.",
       "Kasa ve arka kısım çok dayanıklı; uzun soluklu yanlama ve drift işlerinde başarılı. Katalogda verilen hızlanma süresine rağmen otomobil bize kesinlikle daha hızlı hissettirdi. Elektrikli kumaş tavanı birkaç saniyede açılıyor.",
-      "ZF’nin 8 ileri şanzımanıyla geldiğini söylemekte fayda var; piyasadaki en hızlı ve en başarılı şanzımanlardan biri. Çok yaygın bir kronik sorunu da yok. Sanırım bu otomobilin çok bir eksiği yok; tek fedakârlık iki kişilik kabini ve küçük bagajı."
+      "ZF’nin 8 ileri şanzımanıyla geldiğini söylemekte fayda var; piyasadaki en hızlı ve en başarılı şanzımanlardan biri. Çok yaygın bir kronik sorunu da yok. Sanırım bu otomobilin çok bir eksiği yok; tek fedakârlık iki kişilik kabini ve küçük bagajı.",
+      "Z4’ün ilginç bir kardeşi var: Toyota GR Supra. İki otomobil, BMW ile Toyota’nın ortak projesi kapsamında aynı altyapı üzerine geliştirildi ve Avusturya’nın Graz şehrinde, sözleşmeli otomobil üreticisi Magna Steyr’in fabrikasında yan yana üretiliyor. Aynı mekanik temeli paylaşmalarına rağmen Z4 açık tavanlı bir roadster, Supra ise kapalı bir coupé.",
+      "Z4’ün kumaş tavanı, yaklaşık on saniyede açılıp kapanabiliyor ve bu işlem düşük hızlarda giderken bile yapılabiliyor. Trafik ışığında yağmur başladığında bile tavanı kapatmak için durmanıza gerek yok.",
+      "Z harfli BMW roadster geleneği, 1989’da kapıları gövdenin içine doğru aşağı kayarak açılan sıra dışı Z1 ile başladı. Bugünkü Z4, bu geleneğin olgun bir temsilcisi: Klasik roadster oranları, uzun kaput ve kısa arka bölümüyle zamansız bir tasarım sunuyor."
     ],
     "review": {
       "surus": "Çok ama çok başarılı, inanılmaz bir otomobil. Roadster tarzı küçük, klasik Z4 havası mı desek, o havayla birleşen yeni teknoloji mi, kasanın rijitliği mi, yoksa hafif kasasıyla 258 beygirin aslında bu araba için gayet yeterli olması mı; hangisini öne çıkaracağımızı bilemedik. Kasa ve arka kısım çok dayanıklı; uzun soluklu yanlama ve drift işlerinde başarılı. Katalogda 0–100 km/s 5,4 saniye görünüyor ama otomobil bize kesinlikle daha hızlı hissettirdi.",
@@ -3275,7 +3302,10 @@ export const DETAILS = {
     "longReview": [
       "Stinger, Kia’nın Avrupalı rakiplerine meydan okuyan gran turismosu. Tasarımı Peter Schreyer’in ekibinden çıktı; sürüş dinamikleri ise BMW’nin M bölümünün eski şefi Albert Biermann yönetiminde, Nürburgring pistinde geliştirildi.",
       "Arkadan itişli şasisi keyifli bir sürüş sunuyor. Liftback yapısı sayesinde bagaj kapağı camla birlikte açılıyor ve bagaja ulaşım çok kolay. Fiyatına göre donanımı da çok zengin.",
-      "Ama bu liftback yapının bir bedeli var. Büyük bagaj kapağının kilit mekanizması bozuk yollarda mikro esnemeler yapabiliyor ve arkadan kabine sürekli bir gıcırtı ya da lokurtu sesi dolabiliyor; kullanıcılar bunu çoğunlukla kilit mekanizmasına bez bant sararak çözüyor. Brembo kaliperlere rağmen fabrikasyon balatalar agresif kullanımda disk yüzeyinde düzensiz balata kalıntısı bırakabiliyor; bu da diskte yamulma hissi ve direksiyonda titreme yaratıyor."
+      "Ama bu liftback yapının bir bedeli var. Büyük bagaj kapağının kilit mekanizması bozuk yollarda mikro esnemeler yapabiliyor ve arkadan kabine sürekli bir gıcırtı ya da lokurtu sesi dolabiliyor; kullanıcılar bunu çoğunlukla kilit mekanizmasına bez bant sararak çözüyor. Brembo kaliperlere rağmen fabrikasyon balatalar agresif kullanımda disk yüzeyinde düzensiz balata kalıntısı bırakabiliyor; bu da diskte yamulma hissi ve direksiyonda titreme yaratıyor.",
+      "Stinger, Güney Kore’de üretildi ve Kia’nın Avrupa’da sunduğu ilk arkadan itişli sedan oldu. Kia bu otomobille, marka algısını değiştirmeyi ve Alman premium markalarıyla doğrudan rekabet etmeyi hedefledi. Stinger, 2023’te üretimden kaldırıldı ve bugün Kia’nın en cesur deneylerinden biri olarak hatırlanıyor.",
+      "Stinger’ın tasarımı, uzun kaputu, kısa arka bölümü ve akıcı tavan çizgisiyle bir gran turismo silueti taşıyor. Kabinde de sürücüye dönük bir kokpit, havacılıktan ilham alan yuvarlak havalandırma ızgaraları ve kaliteli deri döşemeler var.",
+      "Üretimden kalkması, Stinger’ı ikinci el piyasasında ayrı bir yere koyuyor. Arkadan itişli, şık ve donanımlı bir sedanı Alman rakiplerine göre çok daha uygun bir fiyata isteyenler için cazip bir seçenek; yalnız parça ve servis konusunda bölgenizdeki imkânları önceden araştırmak mantıklı."
     ],
     "reviewExtra": {
       "konfor": "Liftback yapıdaki büyük bagaj kapağının kilit mekanizması bozuk yollarda mikro esnemeler yapabiliyor ve arkadan kabine sürekli bir gıcırtı/lokurtu sesi dolabiliyor. Kullanıcılar bunu çoğunlukla kilit mekanizmasına bez bant sararak çözüyor.",
@@ -3722,14 +3752,20 @@ export const DETAILS = {
     "longReview": [
       "Yeni BMW iX3’ün en havalı özelliği menzili. Yaklaşık 794 km gibi bir menzil, elektrikli otomobillerdeki menzil kaygısını neredeyse tamamen ortadan kaldırıyor. Üstelik yeni nesil hızlı şarj sayesinde yaklaşık 21 dakikada şarj olabiliyor; uzun yolda bir kahve molası yetiyor.",
       "Azami süratin 210 km/s’de limitörle sınırlandırılmış olması elektrikli bir otomobil için çok iyi bir veri. Standart jantlar 20 inç, yani zaten oldukça büyük; opsiyonla 22 inçe kadar büyütebiliyorsunuz. Yalnız jant büyüdükçe konfor ve menzil biraz etkilenebilir.",
-      "Donanım tarafında Head-Up Display, ısıtmalı ve masajlı koltuklar, kablosuz şarj ve Harman Kardon HiFi ses sistemi gibi özellikler bulunuyor; bazı donanımlar opsiyonel. Yeni iX3 çok dolu ve kesinlikle ciddi ciddi bakılması gerektiğini düşündüğümüz bir otomobil."
+      "Donanım tarafında Head-Up Display, ısıtmalı ve masajlı koltuklar, kablosuz şarj ve Harman Kardon HiFi ses sistemi gibi özellikler bulunuyor; bazı donanımlar opsiyonel. Yeni iX3 çok dolu ve kesinlikle ciddi ciddi bakılması gerektiğini düşündüğümüz bir otomobil.",
+      "Yeni iX3, BMW’nin “Neue Klasse” yani “Yeni Sınıf” adını verdiği yeni nesil elektrikli otomobil ailesinin ilk modeli. Bu isim, BMW’nin tarihinde çok önemli bir yere sahip: 1962’de tanıtılan ilk Neue Klasse sedanlar, o dönem zor durumda olan BMW’yi kurtarmış ve markanın sportif sedan kimliğinin temelini atmıştı. BMW, bu adı yeniden kullanarak yeni iX3’ün de benzer bir dönüm noktası olduğunu anlatıyor.",
+      "iX3, BMW’nin Macaristan’ın Debrecen şehrinde kurduğu yeni fabrikada üretiliyor. Kabinin en dikkat çekici yeniliği, BMW’nin “Panoramik iDrive” adını verdiği ekran düzeni: Ön camın alt kısmı boyunca, sürücünün görüş alanına bilgiler yansıtılıyor; böylece sürücü hız, navigasyon ve diğer bilgileri gözünü yoldan neredeyse hiç ayırmadan görebiliyor.",
+      "Yeni nesil batarya ve elektrik motorları, daha önce bahsettiğimiz uzun menzili ve hızlı şarj sürelerini mümkün kılıyor. iX3, BMW’nin elektrikli geleceğinin nasıl şekilleneceğini gösteren ilk otomobil olarak ayrı bir önem taşıyor."
     ]
   },
   "audi-q4-e-tron-2025": {
     "longReview": [
       "Q4 e-tron ilk bakışta güzel bir görünüme ve sakin bir havaya sahip. İçine girdiğinizde ısıtmalı deri direksiyon, ısıtmalı ön koltuklar, elektrikli bagaj, cam tavan, far yıkama ve güzel bir ambiyans aydınlatması karşınıza çıkıyor.",
       "Bu özellikleri barındırırken iç kısımda maalesef olması gerekenden biraz fazla sert plastik kullanılmış. Ayrıca Cupra Formentor’da da bulunan ve dokunmatiği kronik olarak sorun çıkarabilen SOS paneli bu otomobilde de var; bu panelin dokunmatiğinin bozulma ihtimali mevcut.",
-      "204 beygir yeterli; 400 km menzil ise biraz az. 286 beygirlik 45 e-tron’u tercih ederseniz menzil yaklaşık 551 km’ye, uzun menzilli versiyonu tercih ettiğinizde ise yaklaşık 605 km’ye kadar çıkabiliyor. Neyse ki bu modelde de hızlı şarjla yaklaşık 22 dakikada şarj olabilmesi oldukça başarılı."
+      "204 beygir yeterli; 400 km menzil ise biraz az. 286 beygirlik 45 e-tron’u tercih ederseniz menzil yaklaşık 551 km’ye, uzun menzilli versiyonu tercih ettiğinizde ise yaklaşık 605 km’ye kadar çıkabiliyor. Neyse ki bu modelde de hızlı şarjla yaklaşık 22 dakikada şarj olabilmesi oldukça başarılı.",
+      "Q4 e-tron, Almanya’nın Zwickau şehrindeki fabrikada, Volkswagen ID.4 ile aynı elektrikli altyapı üzerinde üretiliyor. Audi’nin en uygun fiyatlı elektrikli SUV’u olarak konumlanan Q4, bu altyapıya Audi’nin kabin kalitesini ve tasarımını taşıyor.",
+      "Q4 e-tron’un pratik bir detayı, kapı ceplerinin büyük su şişelerini dik olarak taşıyabilecek şekilde tasarlanması. Kabin, elektrikli altyapı sayesinde düz bir tabana sahip; arka koltuk ve bagaj aileler için geniş. Opsiyonel artırılmış gerçeklik göstergeli ön cama yansıtmalı ekran, navigasyon oklarını adeta yolun üzerine yansıtıyor.",
+      "Arkadan itişli yapı, ön tekerleklerin daha fazla dönebilmesini sağlayarak Q4’e bu boyuttaki bir SUV için küçük bir dönüş çapı kazandırıyor; şehirde ve otoparklarda manevra çok kolay. Q4 e-tron, Audi kalitesini elektrikli bir aile SUV’unda isteyenler için mantıklı bir giriş kapısı."
     ]
   },
   "bmw-x3-2022": {
