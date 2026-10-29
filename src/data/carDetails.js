@@ -1171,7 +1171,10 @@ export const DETAILS = {
     "longReview": [
       "CLA 45 S’in kalbinde dünyanın en güçlü seri üretim dört silindirli motorlarından biri var. AMG’nin “Bir adam, bir motor” felsefesiyle her motor tek bir usta tarafından elle monte ediliyor ve motorun üzerinde o ustanın imzalı plakası bulunuyor.",
       "AMG Performance 4MATIC+ dört çeker sistemi, arka aksta her tekerleğe gücü ayrı ayrı dağıtabilen iki kavramalı bir yapıya sahip. Bu sayede otomobil virajlarda arkadan itiyormuş gibi davranabiliyor; hatta bir drift modu bile var.",
-      "Şehirde ise sert ve yorucu bir otomobil. Yüksek kullanım maliyetini de hesaba katmak gerekiyor. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor."
+      "Şehirde ise sert ve yorucu bir otomobil. Yüksek kullanım maliyetini de hesaba katmak gerekiyor. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor.",
+      "CLA 45 S’in motorunun ilginç bir yerleşimi var: AMG, bu motoru öncekilerin tersine, 180 derece döndürerek yerleştirdi. Turbo ve egzoz manifoldu artık motorun ön tarafında değil, kabine bakan arka tarafında. Bu sayede ön kaput daha alçak tasarlanabildi ve havanın motora giden yolu kısaldı.",
+      "CLA 45 S, Macaristan’ın Kecskemét şehrindeki Mercedes fabrikasında, CLA ile birlikte üretiliyor. Kabinde AMG’ye özel direksiyon, sportif koltuklar ve sürüş modlarını gösteren özel ekran grafikleri var. Kalkış kontrolü, bu gücü kayıpsız bir şekilde yere aktarmaya yardımcı oluyor.",
+      "Dört kapılı coupé gövdesi, CLA 45 S’i günlük hayatta pratik kılıyor; ama arka koltuk alçak tavan nedeniyle uzun boylular için dar. CLA 45 S, kompakt bir gövdede süper otomobil seviyesinde hızlanma arayanlar için sınıfının en güçlü seçeneklerinden biri."
     ],
     "reviewExtra": {
       "konfor": "Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor."
@@ -1191,7 +1194,10 @@ export const DETAILS = {
     "longReview": [
       "F-Type, yaşayan en güzel spor otomobil tasarımlarından biri olarak kabul ediliyor. Kapı kolları gövdeye gömülü duruyor ve otomobile yaklaştığınızda dışarı çıkıyor. Hızlandıkça yükselen arka spoyler ve çalıştırınca yükselen orta havalandırma ızgarası da tiyatro gibi detaylar.",
       "Arkadan itişli şasi son derece dengeli ve sürmesi keyifli. Ayarlanabilir sportif egzoz, tek tuşla otomobilin sesini değiştiriyor.",
-      "Bu versiyondaki dört silindirli motor ise V6 ve V8 versiyonlar kadar karakterli değil. F-Type, Jaguar’ın son içten yanmalı spor otomobili olarak üretimden kalktı. İkinci el fiyatları cazip olsa da parça ve servis maliyetlerini önceden araştırmak gerekiyor."
+      "Bu versiyondaki dört silindirli motor ise V6 ve V8 versiyonlar kadar karakterli değil. F-Type, Jaguar’ın son içten yanmalı spor otomobili olarak üretimden kalktı. İkinci el fiyatları cazip olsa da parça ve servis maliyetlerini önceden araştırmak gerekiyor.",
+      "F-Type, Jaguar’ın 1961’de tanıttığı efsanevi E-Type’ın ruhani mirasçısı olarak tasarlandı. E-Type, otomobil tarihinin en güzel otomobillerinden biri olarak kabul ediliyor; hatta Enzo Ferrari’nin bu otomobil için “şimdiye kadar yapılmış en güzel otomobil” dediği aktarılıyor. F-Type, bu mirası modern bir yorumla sürdürdü.",
+      "F-Type, İngiltere’nin Birmingham şehrindeki Castle Bromwich fabrikasında üretildi. Alüminyum ağırlıklı gövde yapısı, otomobili hem hafif hem de rijit kılıyor. Coupé versiyonun yanında açık tavanlı bir Convertible versiyonu da üretildi.",
+      "F-Type, Jaguar’ın tamamen elektrikli bir lüks markaya dönüşme planı kapsamında üretimden kaldırıldı ve markanın son içten yanmalı spor otomobili olarak tarihe geçti. Bu da ona ikinci el piyasasında ve koleksiyonerler arasında ayrı bir değer kazandırıyor."
     ]
   },
   "audi-a7-sportback-2020": {
@@ -1834,7 +1840,10 @@ export const DETAILS = {
     "longReview": [
       "Sanayide iyi bir ustanız ve köşede bir miktar bakım bütçeniz varsa, bu otomobil bütün otomobil severlere hitap ediyor. Sürüşü, direksiyon geri bildirimi, arkadan itişi ve tarz duruşuyla F10 5 Serisi hâlâ çok özel bir his veriyor.",
       "Kasası hâlâ yaşlanmadı ve güncel duruyor; yolda yeni otomobillerin arasında bile göze batmıyor. İç mekânı ise artık çok güncel değil; ekranlar ve multimedya yaşını belli ediyor.",
-      "Teknik verileri de genel olarak zamanına göre çok iyi. Yalnız bu yaştaki bir BMW’de zamanlama zinciri ve genel bakım maliyetlerini mutlaka hesaba katmalısınız; bakım geçmişi belli bir örnek bulmak çok önemli."
+      "Teknik verileri de genel olarak zamanına göre çok iyi. Yalnız bu yaştaki bir BMW’de zamanlama zinciri ve genel bakım maliyetlerini mutlaka hesaba katmalısınız; bakım geçmişi belli bir örnek bulmak çok önemli.",
+      "F10 kasa 5 Serisi, Almanya’nın Dingolfing şehrindeki BMW fabrikasında üretildi ve 5 Serisi’nin tarihindeki en başarılı nesillerinden biri oldu; dünya genelinde milyonlarca satıldı. Bu nesil, BMW’nin ZF’nin 8 ileri otomatik şanzımanını geniş bir model yelpazesine yaydığı dönemin ilk örneklerindendi; bu şanzıman bugün bile sektörün en iyilerinden biri olarak kabul ediliyor.",
+      "F10, döneminin teknoloji vitrinlerinden biriydi: ön cama yansıtmalı gösterge, gece görüş kamerası, otomobili yukarıdan gösteren kamera sistemi ve otomatik park asistanı gibi donanımlar üst donanımlarda sunuluyordu. Bu donanımların hangilerinin aldığınız araçta olduğunu kontrol etmek ikinci el alımında önemli.",
+      "Executive donanımı, F10’u konforlu ve donanımlı bir iş sedanı olarak öne çıkarıyor. Geniş arka koltuğu ve sessiz kabiniyle uzun yolda çok konforlu; Türkiye’de uzun yıllar makam otomobili olarak tercih edilmesinin sebebi de bu."
     ]
   },
   "volkswagen-polo-2020": {
@@ -1959,7 +1968,10 @@ export const DETAILS = {
     "longReview": [
       "Yedi kişilik bir otomobil bakıyorsanız, GLB’nin bu fiyatlarda pek de rakibi yok gibi görünüyor. Üstelik premium kalitesi onu yedi koltuklu rakiplerinden açıkça ayırıyor.",
       "İç hacim tabii ki çok geniş. Kutu gibi kabini sayesinde hem yolcular hem de eşyalar için bolca yer var; kalabalık aileler için çok pratik.",
-      "Maalesef motor bu kasa ve ağırlık için çok yeterli değil. Özellikle araç doluyken ve yokuşlarda 1.3 litrelik motorun zorlandığını hissediyorsunuz. Ayrıca Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor."
+      "Maalesef motor bu kasa ve ağırlık için çok yeterli değil. Özellikle araç doluyken ve yokuşlarda 1.3 litrelik motorun zorlandığını hissediyorsunuz. Ayrıca Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor.",
+      "GLB’nin ilginç bir üretim hikâyesi var: Bu otomobil, Mercedes ile Nissan’ın Meksika’daki ortak fabrikasında üretiliyor. Mercedes, GLB’nin köşeli ve dik hatlarını, markanın efsanevi arazi aracı G Serisi’nden ilham alarak tasarladı; bu kutu gibi gövde, kabini ve bagajı çok kullanışlı kılıyor.",
+      "GLB’nin ikinci sıra koltukları ileri-geri kaydırılabiliyor; bu sayede üçüncü sıradaki yolculara biraz daha diz mesafesi bırakabiliyor ya da bagajı büyütebiliyorsunuz. Üçüncü sıra koltuklar daha çok çocuklar için uygun, ama kısa mesafelerde yetişkinler de oturabiliyor. Üçüncü sıra kullanılmadığında tabana katlanarak düz bir yükleme alanı oluşturuyor.",
+      "Kabinde Mercedes’in MBUX sistemi, tek bir cam yüzeyin altında yan yana duran iki ekran ve “Hey Mercedes” sesli asistanı var. GLB, Mercedes kalitesini ve yedi koltuk pratikliğini bir arada isteyen aileler için bu bütçede çok az rakibi olan bir seçenek."
     ],
     "reviewExtra": {
       "konfor": "Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor."
@@ -2670,7 +2682,10 @@ export const DETAILS = {
     "longReview": [
       "XC40, kompakt premium SUV’lar arasında en karakterli tasarımlardan birine sahip. Kabin akıllı detaylarla dolu: Hoparlörler torpidoya taşındığı için kapı cepleri çok geniş; ön koltuğun altında bir saklama çekmecesi, orta konsolda da çıkarılabilir bir çöp kutusu bulunuyor.",
       "Google tabanlı multimedya sistemi, Google Haritalar ve Google Asistan dahil, kullanımı çok kolay ve güncel. Volvo’nun güvenlik donanımları da bu kompakt gövdede eksiksiz.",
-      "Motor yeterli bir performans sunuyor, ama tüketimi rakiplerine göre yüksek. Sürüş dinamikleri de sıradan; XC40 sportif değil, rahat ve pratik bir şehir SUV’u."
+      "Motor yeterli bir performans sunuyor, ama tüketimi rakiplerine göre yüksek. Sürüş dinamikleri de sıradan; XC40 sportif değil, rahat ve pratik bir şehir SUV’u.",
+      "XC40, 2018’de Avrupa’da Yılın Otomobili seçildi ve Volvo’nun kompakt otomobiller için geliştirdiği yeni altyapıyı kullanan ilk model oldu. Aynı altyapı daha sonra Polestar 2 gibi modellerde de kullanıldı. XC40, Belçika’nın Gent şehrindeki Volvo fabrikasında üretiliyor.",
+      "XC40, Volvo’nun genç ve şehirli bir kitleye hitap eden ilk modellerinden biri. İki renkli gövde seçenekleri, renkli halı ve döşeme seçenekleri ve keçe gibi sıra dışı malzemelerden yapılan kaplamalar, kabine Volvo’nun daha ağırbaşlı büyük modellerinden farklı, oyuncu bir hava katıyor.",
+      "XC40’ın tamamen elektrikli versiyonu, daha sonra EX40 adını aldı. Bu benzinli versiyon ise aynı pratik kabini ve akıllı detayları, şarj altyapısına bağımlı olmadan sunuyor. Volvo’nun güvenlik donanımları ve sağlam gövdesiyle şehirde yaşayan küçük aileler için çok mantıklı bir seçim."
     ]
   },
   "audi-q2-2021": {
@@ -2989,7 +3004,10 @@ export const DETAILS = {
     "longReview": [
       "İkinci nesil TT, zamansız ve şık tasarımıyla hâlâ yolda dikkat çekiyor. Gövdesi alüminyum ve çeliğin birlikte kullanıldığı hafif bir yapıya sahip.",
       "Belirli bir hızın üzerinde otomatik olarak yükselen arka spoyler bu nesilde de var. Opsiyonel manyetik süspansiyon (Magnetic Ride), sönümlemeyi saniyede yüzlerce kez ayarlayarak konfor ile yol tutuşu arasında çok iyi bir denge kuruyor. Manuel şanzıman ve karakterli motoru da sürüşü keyifli kılıyor.",
-      "Yaşı nedeniyle teknolojisi eskimiş. Yağ tüketimi ve zamanlama zinciri gibi yaşa bağlı riskler de var; ikinci el alırken bakım geçmişi mutlaka kontrol edilmeli."
+      "Yaşı nedeniyle teknolojisi eskimiş. Yağ tüketimi ve zamanlama zinciri gibi yaşa bağlı riskler de var; ikinci el alırken bakım geçmişi mutlaka kontrol edilmeli.",
+      "İkinci nesil TT, ilginç bir üretim yöntemiyle üretildi: Alüminyum ve çeliğin birlikte kullanıldığı gövdesi Almanya’nın Ingolstadt şehrinde üretiliyor, ardından Macaristan’ın Győr şehrindeki Audi fabrikasına gönderilerek burada montajı tamamlanıyordu.",
+      "TT’nin ilk nesli 1998’de çıktığında, Almanya’nın ünlü Bauhaus tasarım okulundan ilham alan sade geometrik çizgileriyle otomobil tasarım tarihine geçmişti. İkinci nesil, bu tasarım mirasını daha kaslı ve daha sportif bir gövdeyle sürdürdü. Bu nesilde açık tavanlı bir Roadster versiyonu da üretildi.",
+      "Bugün ikinci nesil TT, uygun bir bütçeyle şık ve sportif bir coupé arayanlar için cazip bir ikinci el seçenek. Kompakt boyutları sayesinde şehirde kullanımı kolay; arka koltuklar ise yalnızca çantalar ya da çok kısa yolculuklarda çocuklar için uygun."
     ]
   },
   "cupra-born-2023": {
@@ -3200,7 +3218,10 @@ export const DETAILS = {
     "longReview": [
       "S60’ta konfor çok üst seviyede. Koltuklar uzun yolda bel ve sırtı mükemmel destekliyor, kabin sakin ve İskandinav sadeliğinde.",
       "Yol tutuşu da rakiplerine kıyasla kesinlikle geride değil; virajlarda dengeli ve güven veriyor. Şanzıman ise ani hızlanma isteklerinde rakiplerine, örneğin BMW’nin ZF8’ine göre daha hantal kalıyor ve vites düşürürken silkeleme yapabiliyor.",
-      "Azami süratin 180 km/s’de limitörle sınırlandırılmış olması biraz üzücü; Volvo bunu güvenlik politikası olarak tüm modellerinde uyguluyor. 120 km/s üzerindeki hızlarda kapı fitillerinden ıslık benzeri bir rüzgar sesi de gelebiliyor."
+      "Azami süratin 180 km/s’de limitörle sınırlandırılmış olması biraz üzücü; Volvo bunu güvenlik politikası olarak tüm modellerinde uyguluyor. 120 km/s üzerindeki hızlarda kapı fitillerinden ıslık benzeri bir rüzgar sesi de gelebiliyor.",
+      "Üçüncü nesil S60, Volvo’nun ABD’deki ilk fabrikasında, Güney Carolina eyaletindeki Ridgeville’de üretiliyor. Bu nesil, Volvo’nun tarihinde önemli bir dönüm noktası oldu: Hiç dizel motor seçeneği sunulmayan ilk Volvo modeliydi. Volvo, bu kararla elektrikli ve hibrit geleceğe geçişini başlatmış oldu.",
+      "S60’ın kabini, Volvo’nun İskandinav tasarım anlayışının sedan gövdedeki en zarif yorumu. Dikey duran büyük dokunmatik ekran, gerçek ahşap kaplamalar ve sade yüzeyler kabine sakin bir atmosfer veriyor. Pilot Assist sürüş destek sistemi, otoyolda direksiyonu, gazı ve freni yöneterek uzun yolculukları çok daha az yorucu hâle getiriyor.",
+      "Volvo’nun güvenlik mirası S60’ta da devam ediyor; kapsamlı sürüş destek sistemleri ve sağlam gövde yapısıyla sınıfının en güvenli sedanlarından biri. Alman rakiplerine sakin, zarif ve güvenli bir alternatif arayanlar için çok mantıklı bir seçim."
     ],
     "reviewExtra": {
       "surus": "8 ileri Geartronic şanzıman ani hızlanma isteklerinde (kick-down) rakiplerine, örneğin BMW’nin ZF8’ine kıyasla belirgin şekilde hantal kalıyor ve vites düşürürken silkeleme yapabiliyor.",
@@ -3240,7 +3261,10 @@ export const DETAILS = {
     "longReview": [
       "Mustang, ikonik muscle car tasarımını arkadan itişli eğlenceli bir sürüşle birleştiriyor. Makyajlı kasayla gelen tamamen dijital gösterge paneli, sürüş moduna göre görünümünü değiştiriyor.",
       "Pist için ilginç özellikleri var. “Line-lock” özelliği ön frenleri kilitleyip arka lastikleri döndürerek lastikleri ısıtmanızı sağlıyor. Track Apps ile ivmelenme ve fren performansınızı ölçebiliyorsunuz.",
-      "Geri vitese takıldığında arka kamera açılmayabiliyor ya da ekranda çizgiler çıkabiliyor. Bunun sebebi çoğunlukla bagaj kapağından geçen ana kablo tesisatının, bagaj her açılıp kapandığında menteşe kenarına sürtünerek zamanla kopması. Geniş dış boyutlarına rağmen arka tavan eğimi o kadar basık ki, arkaya oturan yetişkinlerin başı doğrudan arka cama değebiliyor; yazın güneşte bu ayrı bir eziyete dönüşüyor."
+      "Geri vitese takıldığında arka kamera açılmayabiliyor ya da ekranda çizgiler çıkabiliyor. Bunun sebebi çoğunlukla bagaj kapağından geçen ana kablo tesisatının, bagaj her açılıp kapandığında menteşe kenarına sürtünerek zamanla kopması. Geniş dış boyutlarına rağmen arka tavan eğimi o kadar basık ki, arkaya oturan yetişkinlerin başı doğrudan arka cama değebiliyor; yazın güneşte bu ayrı bir eziyete dönüşüyor.",
+      "Mustang, 1964’te tanıtıldığında kısa sürede Amerikan otomobil kültürünün simgelerinden biri oldu ve “pony car” adı verilen yeni bir otomobil sınıfı yarattı. ABD’nin Michigan eyaletindeki Flat Rock fabrikasında üretilen bu nesil, Mustang’in tarihinde bir ilke imza attı: Sağdan direksiyonlu versiyonlarıyla birlikte dünya genelinde resmî olarak satılan ilk Mustang oldu.",
+      "Bu küresel açılımın sonucunda Mustang, bir dönem dünyanın en çok satan spor otomobili hâline geldi. Ön ızgaradaki koşan at logosu ve üç parçalı dikey stop lambaları, ilk Mustang’den bu yana süren tasarım imzaları.",
+      "Mustang, Amerikan muscle car karakterini uygun bir bütçeyle yaşamak isteyenler için çok cazip bir otomobil. Arkadan itişli şasisi ve karakteristik tasarımıyla her sürüşü bir etkinliğe dönüştürüyor."
     ],
     "reviewExtra": {
       "guvenilirlik": "Geri vitese takıldığında arka kamera açılmayabiliyor ya da ekranda çizgiler çıkabiliyor. Bunun sebebi çoğunlukla bagaj kapağından geçen ana kablo tesisatının, bagaj her açılıp kapandığında menteşe kenarına sürtünerek zamanla kopması.",
@@ -3262,7 +3286,10 @@ export const DETAILS = {
     "longReview": [
       "Type R, dünyanın en iyi manuel şanzıman yollarından birine sahip: Vites topuzunun milimetrik ve kemikli geçişleri saf bir mekanik sanat eseri hissi uyandırıyor. Devir eşitleme sistemi, vites düşürürken motor devrini kusursuz ayarlıyor.",
       "Ön akstaki çift eksenli süspansiyon ve mekanik kilitli diferansiyel sayesinde bu gücü ön tekerleklere iletirken direksiyon sağa sola çekmiyor; pist sürelerinde süper sporları geride bırakabiliyor. LogR uygulamasıyla pist verilerinizi kaydedip sürüşünüzü analiz edebiliyorsunuz.",
-      "Kırmızı yarış koltukları kabine tam bir yarış otomobili havası katıyor. Süspansiyonu sert; yüksek ÖTV nedeniyle de pahalı. Ama Honda güvenilirliği ve güçlü ikinci el değeri bu bedeli hafifletiyor."
+      "Kırmızı yarış koltukları kabine tam bir yarış otomobili havası katıyor. Süspansiyonu sert; yüksek ÖTV nedeniyle de pahalı. Ama Honda güvenilirliği ve güçlü ikinci el değeri bu bedeli hafifletiyor.",
+      "Type R adı, Honda’nın tarihinde 1992’ye, efsanevi NSX’in hafifletilmiş versiyonu NSX Type R’a uzanıyor. O günden beri Type R, Honda’nın en saf ve en sportif modellerini simgeliyor; beyaz gövde rengi ve kırmızı Honda logosu da bu geleneğin imzası.",
+      "Bu nesil Civic Type R, Japonya’daki Honda fabrikasında üretiliyor ve önemli bir başarıya imza attı: Dünyanın en zorlu yarış pistlerinden biri olan Nürburgring Nordschleife’de önden çekişli seri üretim otomobiller için tur rekorunu kırdı. Ayrıca Avrupa’nın birçok ünlü pistinde de önden çekişli otomobiller için rekorlar kırdı.",
+      "Type R, önceki neslin agresif ve abartılı tasarımından uzaklaşıp daha olgun ve sade bir görünüme geçti; ama arka kanadı ve geniş çamurlukları onun ne olduğunu hâlâ belli ediyor. Günlük kullanımda sert ama katlanılabilir; dört kapısı ve kullanışlı bagajıyla da gerçekten her gün kullanılabilen bir pist otomobili."
     ],
     "reviewExtra": {
       "surus": "Dünyanın en iyi manuel şanzıman yollarından birine sahip: vites topuzunun milimetrik ve kemikli geçişleri saf bir mekanik sanat eseri hissi uyandırıyor. Devir eşitleme (Rev-Match) sistemi vites düşürürken motor sesini kusursuz ayarlıyor. Ön akstaki çift eksenli süspansiyon ve mekanik kilitli diferansiyel sayesinde 329 beygiri ön tekerleklere iletirken direksiyon sağa sola çekmiyor; pist sürelerinde süper sporları geride bırakabiliyor."
@@ -3285,7 +3312,10 @@ export const DETAILS = {
     "longReview": [
       "M xDrive dört çeker sistemi akıl almaz bir esneklik sunuyor. Tek tuşla ön aksı tamamen devre dışı bırakıp saf arkadan itişli bir drift canavarına dönüşebiliyor; istendiğinde ise dört çeker sport modunda bütün gücü asfalta kayıpsız aktarıyor.",
       "Direksiyondaki kırmızı M1 ve M2 tuşları, kendi ayarladığınız iki farklı sürüş profilini tek dokunuşla çağırmanızı sağlıyor. Biri günlük kullanım, diğeri pist için kurulabiliyor.",
-      "Pist sürelerinde süper sporlarla yarışabilen performansına tezat olarak, konfor moduna alındığında dört yetişkini uzun yolculuklarda lüks ve sessiz bir iş sedanı konforunda taşıyabiliyor. Bedeli ise yüksek tüketim ve bakım maliyeti."
+      "Pist sürelerinde süper sporlarla yarışabilen performansına tezat olarak, konfor moduna alındığında dört yetişkini uzun yolculuklarda lüks ve sessiz bir iş sedanı konforunda taşıyabiliyor. Bedeli ise yüksek tüketim ve bakım maliyeti.",
+      "Bu nesil M5, Almanya’nın Dingolfing şehrindeki BMW fabrikasında üretiliyor ve M5’in tarihinde bir ilke imza attı: Dört çeker sistemiyle sunulan ilk M5 oldu. Ama BMW, tutkunları kızdırmamak için bu sistemi tek tuşla tamamen arkadan itişe geçirilebilecek şekilde tasarladı; böylece M5 hem her havada güvenli bir aile sedanı hem de saf bir arkadan itişli sürücü otomobili olabiliyor.",
+      "Competition versiyonunda daha sert süspansiyon, daha güçlü motor ve özel detaylar var. Karbon fiber tavan, ağırlık merkezini düşürüyor. Karbon seramik frenler seçenek olarak sunuluyor ve pistte tekrar tekrar yapılan sert frenlemelerde bile performansını kaybetmiyor.",
+      "M5, 1984’ten beri süren bir geleneğin parçası; ilk M5, “süper sedan” kavramının doğuşu sayılıyor. Bugünkü M5, bu geleneği dört kapılı bir sedanda süper otomobil performansı arayanlar için hâlâ en iyi şekilde sürdüren otomobillerden biri."
     ],
     "reviewExtra": {
       "surus": "M xDrive dört çeker sistemi akılalmaz bir esneklik sunuyor: tek tuşla ön aksı tamamen devre dışı bırakıp (2WD modu) saf arkadan itişli bir drift canavarına dönüşebiliyor, istendiğinde ise 4WD Sport modunda 600’ü aşkın beygiri asfalta kayıpsız aktarıyor.",
@@ -3309,7 +3339,10 @@ export const DETAILS = {
     "longReview": [
       "Dört kapılı pratik bir gövdeye sahip olmasına rağmen AMG mühendisleri şasiyi o kadar rijit ve keskin tasarlamış ki, direksiyonu milimetrik çevirdiğinizde bile arkada büyük bir gövde olduğunu unutturan saf bir spor otomobil çevikliği hissediyorsunuz. Gaza basıldığında kabine dolan hırıltılı AMG egzoz sesi de ayrı bir keyif.",
       "Orta konsoldaki küçük ekranlı tuşlar, sürüş modlarını ve egzoz ayarlarını tek dokunuşla değiştirmenizi sağlıyor; her tuş kendi işlevini kendi ekranında gösteriyor. Arka aks yönlendirmesi de bu büyük gövdeyi şehirde daha çevik kılıyor.",
-      "Çok yüksek tüketimi var. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor."
+      "Çok yüksek tüketimi var. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor.",
+      "AMG GT 4 kapı coupé, adını iki kapılı AMG GT spor otomobilinden alıyor; ama teknik olarak ondan çok farklı. Bu otomobil, Mercedes’in E Serisi ile aynı altyapı üzerine kuruldu; AMG, bu altyapıyı kendi motorları, süspansiyonu ve tasarımıyla tamamen dönüştürdü.",
+      "Gaz pedalına bastığınızda kabine dolan V8 sesi ve süper otomobil seviyesindeki hızlanmasıyla bu otomobil, bir aile sedanının pratikliğini bir spor otomobilin heyecanıyla birleştiriyor. Bagaj kapağı arka camla birlikte açılan liftback yapısı, büyük eşyaları yüklemeyi bir sedana göre çok daha kolay hâle getiriyor.",
+      "Opsiyonel karbon seramik frenler ve aktif aerodinamik elemanlar, bu ağır otomobilin performansını tamamlıyor. Arka koltuklar iki ya da üç kişilik seçeneklerle sunuluyor; dört yetişkini uzun yolda konforla taşıyabiliyor."
     ],
     "reviewExtra": {
       "surus": "Dört kapılı pratik bir gövdeye sahip olmasına rağmen AMG mühendisleri şasiyi o kadar rijit ve keskin tasarlamış ki, direksiyonu milimetrik çevirdiğinizde bile arkada büyük bir gövde olduğunu unutturan saf bir spor otomobil çevikliği hissediyorsunuz. Gaza basıldığında kabine dolan hırıltılı AMG egzoz sesi de ayrı bir keyif.",
@@ -3679,7 +3712,10 @@ export const DETAILS = {
       "Yeni C5 Aircross’un en güçlü yanı, kısacası çok dolu olması. Ön ve arka koltuk ısıtması, direksiyon ısıtması, ön koltuk soğutması ve masaj fonksiyonu; bu sınıfta bu kadar zengin bir konfor donanımını bir arada görmek gerçekten şaşırtıcı.",
       "Teknoloji tarafı da güçlü. 360 derece kamera park ederken ve dar alanlarda çok işe yarıyor. Adaptif Matrix farlar hem gece sürüşünde güven veriyor hem de otomobile çok güzel bir görünüm katıyor.",
       "Kabinde 6 hoparlörlü ses sistemi var; ses çok net geliyor. Alüminyum pedallar da iç mekâna sportif bir hava katıyor.",
-      "1.2 litrelik 145 beygirlik hafif hibrit motor günlük kullanımda yeterli ve ekonomik."
+      "1.2 litrelik 145 beygirlik hafif hibrit motor günlük kullanımda yeterli ve ekonomik.",
+      "Yeni C5 Aircross, Fransa’nın Rennes şehrindeki fabrikada üretiliyor ve Stellantis grubunun yeni nesil orta boy altyapısını kullanıyor. Önceki nesle göre belirgin şekilde büyüdü ve artık sınıfının en geniş aile SUV’larından biri.",
+      "Kabinde dikey olarak yerleştirilmiş büyük bir dokunmatik ekran var; bu ekran torpidonun ortasında, sürücüye doğru hafifçe döndürülmüş şekilde duruyor. Citroën’in Advanced Comfort koltukları ve süspansiyonu, markanın konfor geleneğini yeni nesle taşıyor. Arka koltuklar kaydırılabiliyor; bagaj hacmi ihtiyaca göre büyütülebiliyor.",
+      "C5 Aircross, Citroën’in tarihindeki konfor odaklı otomobil geleneğinin modern bir temsilcisi. Sportif bir karakter yerine rahat ve sakin bir yolculuk sunuyor; bozuk yolların çok olduğu şehirlerde yaşayan aileler için bu, gerçek bir avantaj."
     ]
   },
   "bmw-ix3-2026": {
