@@ -106,7 +106,10 @@ export const DETAILS = {
     "longReview": [
       "Golf sade ama modern tasarımıyla dikkat çekiyor. Dengeli sürüş karakteriyle hem şehirde hem de uzun yolda rahat hissettiriyor; şasisi hâlâ sınıfının referansı.",
       "İç mekânı kullanışlı ve düzenli. Makyajla gelen aydınlatmalı kontroller ve yeni yazılım, önceki neslin en çok eleştirilen noktalarını büyük ölçüde düzeltmiş. Motor seçenekleri de farklı performans beklentilerini karşılıyor; 1.5 eTSI yüksek güce rahatça ulaşıyor.",
-      "Yalnız bu motorun düşük devirlerdeki tork karakteristiği nedeniyle kalkışta belirgin bir sarma yaşanabiliyor. Güvenilirlik tarafında da bilinmesi gereken üç nokta var: DQ200 şanzıman, vites kolu arızaları ve 48V hafif hibrit akü sorunları. Garantisi devam eden bir örnek ya da uzatılmış garanti mantıklı olabilir."
+      "Yalnız bu motorun düşük devirlerdeki tork karakteristiği nedeniyle kalkışta belirgin bir sarma yaşanabiliyor. Güvenilirlik tarafında da bilinmesi gereken üç nokta var: DQ200 şanzıman, vites kolu arızaları ve 48V hafif hibrit akü sorunları. Garantisi devam eden bir örnek ya da uzatılmış garanti mantıklı olabilir.",
+      "Golf, 1974’ten bu yana üretiliyor ve 2024’te ellinci yılını kutladı. Bugüne kadar dünya genelinde 37 milyondan fazla satılarak tarihin en çok satan otomobillerinden biri oldu. Makyajlı sekizinci nesil, Almanya’nın Wolfsburg şehrindeki Volkswagen ana fabrikasında üretiliyor.",
+      "Makyajla gelen dikkat çekici detaylardan biri, ön ve arka taraftaki ışıklı Volkswagen logoları. Kabinde ise daha büyük ve torpidonun üstünde serbest duran bir multimedya ekranı, aydınlatmalı dokunmatik kaydırma panelleri ve çok daha hızlı bir yazılım var. Volkswagen, sesli asistanına yapay zekâ destekli bir altyapı ekleyerek doğal konuşmaları ve genel bilgi sorularını anlayabilen bir asistan sunmaya başladı.",
+      "Golf’ün asıl gücü, her şeyi dengeli yapması. Şehir içinde kullanımı kolay, otoyolda sessiz ve konforlu, virajlarda dengeli. Bu yüzden elli yıldır kompakt sınıfın ölçüsü olarak görülüyor. İkinci el piyasasındaki güçlü talebi de satarken avantaj sağlıyor."
     ],
     "review": {
       "guvenilirlik": "Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.",
@@ -363,7 +366,10 @@ export const DETAILS = {
     "longReview": [
       "3 Serisi’nin en güçlü yanı hâlâ sportif sürüş karakteri. Direksiyonu sürücüye kontrollü ve net bir his veriyor; arkadan itişin dengesi ve kusursuz 8 ileri şanzımanla virajlı bir yolda neden sınıfının referansı olduğunu hemen anlıyorsunuz.",
       "Türkiye’ye özel 1.6 motor günlük kullanımda canlı bir performans sunuyor. Kabin kaliteli ve modern bir görünüm taşıyor; kavisli ekran ve iDrive kullanımı keyifli.",
-      "Şunu da söylemeliyim: BMW bu kasayla F30’dan ayrılarak saf bir sürücü otomobilinden biraz daha “normal” bir otomobile dönüştü. Ama çağımızın gereklilikleri diyelim, yapacak bir şey yok. Run-flat lastikler ve sert süspansiyon şehir içi çukurlarda kabine darbe iletebiliyor; soğutma sistemi hortumları ve genleşme tankında da erken çatlama eğilimi görülebiliyor, su seviyesini düzenli kontrol edin."
+      "Şunu da söylemeliyim: BMW bu kasayla F30’dan ayrılarak saf bir sürücü otomobilinden biraz daha “normal” bir otomobile dönüştü. Ama çağımızın gereklilikleri diyelim, yapacak bir şey yok. Run-flat lastikler ve sert süspansiyon şehir içi çukurlarda kabine darbe iletebiliyor; soğutma sistemi hortumları ve genleşme tankında da erken çatlama eğilimi görülebiliyor, su seviyesini düzenli kontrol edin.",
+      "3 Serisi, 1975’ten bu yana üretiliyor ve 2025’te ellinci yılını kutladı. Bugünkü yedinci nesil, Almanya’nın Münih şehrindeki BMW ana fabrikasında üretiliyor. Makyajla birlikte kabin tamamen yenilendi: Sürücünün önünden orta konsola kadar uzanan tek parça kavisli ekran, dijital gösterge ile multimedya ekranını birleştiriyor ve sürücüye doğru hafifçe kıvrılıyor.",
+      "Sürüş destek sistemleri de bu nesilde çok gelişmiş. Otoyolda direksiyonu, gazı ve freni birlikte yöneten sistem, uzun yolculukları daha az yorucu hâle getiriyor. Dar bir sokağa ya da çıkmaza girdiğinizde, otomobilin son birkaç on metrede yaptığı direksiyon hareketlerini ezberleyip aynı yolu geri geri kendisi çıkardığı manevra asistanı da bu nesildeki en pratik özelliklerden biri.",
+      "M Sport donanımı, kalın tutuşlu M direksiyon, sportif koltuklar, daha agresif tamponlar ve alçaltılmış süspansiyonla 3 Serisi’nin sportif karakterini öne çıkarıyor. Ellinci yılında bile 3 Serisi, sürüş keyfini önemseyenler için sınıfının referansı olmaya devam ediyor."
     ],
     "review": {
       "surus": "Türkiye’ye özel 1.6 motor kâğıt üzerinde mütevazı görünse de 3 Serisi’nin şasisi her şeyi affettiriyor. Arkadan itişin verdiği o dengeli his, keskin direksiyon ve kusursuz 8 ileri şanzıman; virajlı bir yolda bu otomobilin neden hâlâ sınıfının referansı olduğunu çok net anlıyorsunuz."
@@ -447,7 +453,10 @@ export const DETAILS = {
     "longReview": [
       "Peugeot son zamanlarda gerçekten kendini aştı ve 2008 de bunun bir parçası. Keskin tasarımıyla yolda kolayca fark ediliyor.",
       "Yüksek sürüş pozisyonu yola hâkimiyet hissi veriyor. İç mekânı modern bir görünüm taşıyor; i-Cockpit düzeni bir üst sınıf hissi veriyor. Bagajı günlük kullanım için yeterli, arka koltuk ise rakiplerine göre biraz dar.",
-      "Peugeot’nun en yeni kasalarının belki biraz gerisinde kalıyor; ama fiyatı da onlara göre daha uygun."
+      "Peugeot’nun en yeni kasalarının belki biraz gerisinde kalıyor; ama fiyatı da onlara göre daha uygun.",
+      "Makyajlı 2008, Peugeot’nun yeni yüzüne kavuştu: Ön tarafta artık aslan pençesinden ilham alan üç dikey LED çizgi ve ızgaranın ortasında Peugeot’nun yeni aslan arması logosu var. Arka taraftaki üç çizgili stop lambaları da bu imzayı tamamlıyor. Otomobil İspanya’nın Vigo şehrindeki fabrikada üretiliyor.",
+      "Bu versiyonun hibrit sistemi, 48 voltluk bir elektrik motorunu çift kavramalı şanzımanın içine entegre ediyor. Bu sayede 2008, şehir içinde düşük hızlarda ve park manevralarında kısa süreliğine yalnızca elektrikle ilerleyebiliyor; dur-kalk trafikte tüketim belirgin şekilde düşüyor.",
+      "Kabinde Peugeot’nun i-Cockpit düzeni ve makyajla gelen daha büyük multimedya ekranı var. Ekranın altındaki dokunmatik i-Toggles kısayollarına istediğiniz işlevleri atayabiliyorsunuz. GT donanımı, siyah detaylar, sportif koltuklar ve ambiyans aydınlatmasıyla kabine premium bir hava katıyor."
     ]
   },
   "toyota-yaris-cross-2026": {
@@ -816,7 +825,10 @@ export const DETAILS = {
     "longReview": [
       "XC60, sade ve premium tasarımıyla öne çıkıyor. İç mekânı kaliteli malzemelerle şık bir görünüm sunuyor; koltukları da çok rahat.",
       "Konfor odaklı sürüşü uzun yolculukları kolaylaştırıyor ve sürüşü gerçekten çok güzel. Güvenlik teknolojilerine ne kadar önem verildiğini direksiyona geçer geçmez anlıyorsunuz; bu konuda çok çok önde. Zaten markanın pazarlama stratejisi tam olarak bu.",
-      "Tüketimi ise düşük değil; 2.0 motor nedeniyle vergisi de yüksek. Konforlu ve prestijli bir SUV istiyorsanız kesinlikle bakmanız gereken otomobillerden."
+      "Tüketimi ise düşük değil; 2.0 motor nedeniyle vergisi de yüksek. Konforlu ve prestijli bir SUV istiyorsanız kesinlikle bakmanız gereken otomobillerden.",
+      "XC60, Volvo’nun dünya genelinde en çok satan modeli ve İsveç’in Göteborg şehrindeki Torslanda fabrikasında üretiliyor. İlk nesil XC60, 2008’de Volvo’nun düşük hızlarda öndeki araca çarpmak üzere olduğunuzu algılayıp otomatik fren yapan City Safety sistemini standart olarak sunan ilk otomobil oldu. Bugün neredeyse her otomobilde bulunan bu teknolojinin yaygınlaşmasında XC60’ın önemli bir payı var.",
+      "Kabinde İsveç’in ünlü cam ustası Orrefors’un el yapımı kristal vites topuzu, gerçek ahşap kaplamalar ve dikey büyük dokunmatik ekran var. Multimedya sistemi Google tabanlı; Google Haritalar ve Google Asistan doğrudan otomobilin içinde çalışıyor. Opsiyonel Bowers & Wilkins ses sistemi de sınıfının en iyilerinden.",
+      "Pilot Assist sürüş destek sistemi, otoyolda direksiyonu, gazı ve freni yöneterek uzun yolculukları çok daha az yorucu hâle getiriyor. Volvo’nun ortopedistlerle birlikte geliştirdiği koltuklar da saatlerce süren yolculuklarda bile sırtı yormuyor."
     ]
   },
   "lexus-nx-2026": {
@@ -1100,7 +1112,10 @@ export const DETAILS = {
       "A5 Sportback’in kalbinde kendini kanıtlamış bir motor var: EA888. Bu motorun S tronic şanzımanla uyumu aşırı iyi; vites geçişleri çok seri ve motor her devirde istekli. Quattro ile birlikte yol tutuşu konusunda segmentinde rakipsiz.",
       "Sürüşü muazzam. Egzoz tam ideal sesi veriyor; ne fazla bağırıyor ne de sessiz kalıyor. GPS ölçümlerimizde her seferinde stabil ve iyi süreler verdi; otomobil performansını tutarlı şekilde tekrar edebiliyor. Direksiyon hissi de güzel. Tam bir sürücü otomobili.",
       "Yazılım işlerine meraklıysanız bu otomobil çok iyi tepkiler verebiliyor. EA888’in potansiyeli yüksek; tabii ki güç artışı düşünenlerin garanti ve motor ömrü konusunu hesaba katması gerekiyor.",
-      "Tasarım konusuna gelince açık konuşayım: Bence bu, Audi’nin tasarladığı belki de en iyi, en yakışıklı otomobil. Fastback silueti yıllar geçse de eskimiyor ve yolda her zaman dikkat çekiyor."
+      "Tasarım konusuna gelince açık konuşayım: Bence bu, Audi’nin tasarladığı belki de en iyi, en yakışıklı otomobil. Fastback silueti yıllar geçse de eskimiyor ve yolda her zaman dikkat çekiyor.",
+      "A5 Sportback, Almanya’daki Audi fabrikalarında üretiliyor ve Audi’nin “dört kapılı coupé” fikrinin en başarılı örneklerinden biri. Kapı camlarında çerçeve olmaması, A5 Sportback’e kapıları açıldığında bile gerçek bir coupé havası veriyor. Bagaj kapağı arka camla birlikte açılan liftback yapı da bu şık görünüşün arkasında büyük bir pratiklik saklıyor; büyük eşyaları yüklemek bir sedana göre çok daha kolay.",
+      "Kabinde Audi’nin Virtual Cockpit dijital göstergesi var; navigasyon haritasını direksiyonun hemen arkasında tam ekran görebiliyorsunuz. Opsiyonel Matrix LED farlar karşıdan gelen aracı ışık huzmesinin dışında bırakırken yolun geri kalanını aydınlatmaya devam ediyor. Audi drive select ile motor tepkisini, şanzımanı ve direksiyonu kendi tercihinize göre ayarlayabiliyorsunuz.",
+      "S line donanımı, sportif tamponlar, büyük jantlar, sportif koltuklar ve daha sert bir süspansiyonla A5 Sportback’in sportif karakterini öne çıkarıyor. Değerini çok iyi koruyan bir model olduğu için ikinci elde de satarken avantaj sağlıyor."
     ]
   },
   "audi-a4-sedan-2019": {
@@ -1139,7 +1154,10 @@ export const DETAILS = {
     "longReview": [
       "Evoque, Range Rover tasarım dilini en kompakt ve en ulaşılabilir hâliyle sunuyor. Gövdeye gömülü kapı kolları ve yatay çizgilerle yolda sınıfının en zarif SUV’larından biri gibi duruyor.",
       "Kabinde Pivi Pro multimedya sistemi ve iki katlı dokunmatik ekran düzeni var. ClearSight Ground View kamera sistemi, kaputun altını ekranda “şeffafmış” gibi göstererek dar alanlarda ve kaldırım kenarlarında çok işe yarıyor. ClearSight dikiz aynası da arka yolcular ya da bagajdaki eşyalar görüşü kapattığında arka kameranın görüntüsünü aynaya yansıtıyor.",
-      "Türkiye versiyonunun motoru ve önden çekişi ise bu gövdede zayıf kalıyor. Range Rover adının çağrıştırdığı arazi yeteneğini bu versiyonda beklememek gerekiyor; Evoque daha çok şehirde şıklık ve prestij arayanlara hitap ediyor."
+      "Türkiye versiyonunun motoru ve önden çekişi ise bu gövdede zayıf kalıyor. Range Rover adının çağrıştırdığı arazi yeteneğini bu versiyonda beklememek gerekiyor; Evoque daha çok şehirde şıklık ve prestij arayanlara hitap ediyor.",
+      "Evoque, İngiltere’nin Liverpool yakınlarındaki Halewood fabrikasında üretiliyor. İlk nesil Evoque 2011’de çıktığında küçük premium SUV’ların tasarım anlayışını kökten değiştirdi; hatta bir dönem ünlü moda tasarımcısı Victoria Beckham ile birlikte hazırlanan özel bir versiyonu bile sunuldu. Bu nesilde, açılır tavanlı bir Evoque Convertible versiyonu da üretildi.",
+      "Evoque’un arazi yeteneğini gösteren ilginç bir teknolojisi var: su geçiş algılama sistemi. Dış aynalardaki sensörler, otomobil suya girdiğinde suyun derinliğini ölçüyor ve multimedya ekranında otomobilin ne kadar suya gömüldüğünü ve izin verilen sınıra ne kadar kaldığını gösteriyor. Su basmış bir yolda ya da derede bu bilgi gerçekten işe yarıyor.",
+      "Makyajla birlikte kabinde daha büyük ve kavisli tek bir multimedya ekranı geldi; fiziksel düğmelerin sayısı azaldı ve kabin daha minimalist bir görünüme kavuştu. Ses yalıtımı ve malzeme kalitesi sınıfının üzerinde."
     ]
   },
   "jaguar-f-type-2023": {
@@ -1177,7 +1195,10 @@ export const DETAILS = {
     "longReview": [
       "Stelvio, SUV’lar arasında en keskin direksiyona sahip otomobillerden biri. Çok hızlı direksiyon oranı sayesinde bu boyutta bir SUV’un bu kadar çevik dönebilmesi insanı şaşırtıyor.",
       "Güçlü turbo motor ve Q4 dört çeker sistemi hem keyifli hem de güven veren bir paket oluşturuyor. Direksiyonun arkasındaki büyük, sabit alüminyum vites kulakçıkları sürüşe gerçek bir spor otomobil havası katıyor.",
-      "Zayıf tarafı teknoloji. Multimedya sistemi ve sürüş destek sistemleri Alman rakiplerinin gerisinde kalıyor. İkinci el değeri de rakiplerine göre daha zayıf; bu da satarken daha fazla kayıp anlamına geliyor."
+      "Zayıf tarafı teknoloji. Multimedya sistemi ve sürüş destek sistemleri Alman rakiplerinin gerisinde kalıyor. İkinci el değeri de rakiplerine göre daha zayıf; bu da satarken daha fazla kayıp anlamına geliyor.",
+      "Stelvio, adını İtalyan Alpleri’ndeki efsanevi Stelvio Geçidi’nden alıyor. Avrupa’nın en yüksek asfalt yollarından biri olan bu geçit, kırkı aşkın keskin virajıyla dünyanın en ünlü sürüş yollarından biri; Alfa Romeo, SUV’unun virajlardaki yeteneğini bu adla anlatmak istiyor. Otomobil İtalya’nın Cassino şehrindeki fabrikada, Giulia ile birlikte üretiliyor.",
+      "Stelvio’nun ne kadar yetenekli bir şasiye sahip olduğunu gösteren bir başarı da var: En güçlü versiyonu Stelvio Quadrifoglio, çıktığı dönemde dünyanın en zorlu yarış pistlerinden biri olan Nürburgring’de seri üretim SUV’lar için tur rekorunu kırdı. Veloce versiyonu bu kadar güçlü değil, ama aynı şasi mirasını taşıyor.",
+      "Kabinde Alfa Romeo’nun “DNA” adını verdiği sürüş modu seçicisi var; tek bir döner düğmeyle otomobilin motor tepkisini, şanzımanını ve direksiyonunu dinamik, normal ya da verimli moda geçirebiliyorsunuz. İtalyan deri işçiliği ve sportif koltuklar kabine sıcak ve karakterli bir hava katıyor."
     ]
   },
   "hyundai-i10-2019": {
@@ -1360,7 +1381,10 @@ export const DETAILS = {
     "longReview": [
       "X5 xDrive30d’nin altı silindirli dizel motoru hem güçlü hem pürüzsüz, hem de büyük bir SUV için şaşırtıcı derecede ekonomik.",
       "Büyük gövdesine rağmen bir sedan gibi yol tutuyor. Kabinde kristal vites topuzu seçeneği, açılır Sky Lounge panoramik cam tavan seçeneği ve uzun farlarda lazer teknolojisini kullanan Laserlight farlar gibi BMW’nin üst sınıf detayları bulunuyor.",
-      "Bedeli ise yüksek ÖTV nedeniyle pahalı ikinci el fiyatları ve havalı süspansiyon gibi opsiyonların bakımda yarattığı maliyet. Büyük boyutları da şehirde zorlayıcı olabiliyor."
+      "Bedeli ise yüksek ÖTV nedeniyle pahalı ikinci el fiyatları ve havalı süspansiyon gibi opsiyonların bakımda yarattığı maliyet. Büyük boyutları da şehirde zorlayıcı olabiliyor.",
+      "X5, ABD’nin Güney Carolina eyaletindeki Spartanburg fabrikasında üretiliyor; burası BMW’nin dünyadaki en büyük fabrikası. X5 ilk kez 1999’da çıktığında BMW, bu otomobili “SUV” yerine “SAV” yani Sports Activity Vehicle olarak tanımlamıştı; markanın bu otomobili bir arazi aracından çok yüksek bir sürücü otomobili olarak gördüğünü anlatıyor.",
+      "Bu nesil X5’in şaşırtıcı detaylarından biri, ısıtmalı ve soğutmalı bardak tutucular: Orta konsoldaki bardaklıklar içeceğinizi kışın sıcak, yazın soğuk tutabiliyor. Opsiyonel off-road paketi, havalı süspansiyonla birlikte kar, kum, çakıl ve kaya için ayrı sürüş modları sunarak X5’in arazi yeteneğini ciddi şekilde artırıyor. Yedi koltuk seçeneği de kalabalık aileler için sunuluyor.",
+      "El hareketleriyle ses seviyesini ayarlayabildiğiniz ya da çağrıları kabul edebildiğiniz hareket kontrolü, büyük dijital gösterge ve Harman Kardon ses sistemi kabini çok modern tutuyor. Uzun yolda X5, sınıfının en konforlu ve en sessiz otomobillerinden biri."
     ]
   },
   "mercedes-benz-gle-2023": {
@@ -1546,7 +1570,10 @@ export const DETAILS = {
     "longReview": [
       "F8 Tributo, Ferrari’nin orta motorlu V8 geleneğinin en güçlü temsilcilerinden. Motoru, piste odaklı 488 Pista’dan geliyor.",
       "Tasarımında efsanevi F40’a selam veren bir detay var: Motorun üzerindeki şeffaf, panjurlu motor kapağı. Ön tampondaki “S-Duct” adı verilen hava kanalı, havayı kaputun üzerinden yönlendirerek ön aksa yere basma kuvveti kazandırıyor.",
-      "Bu kadar güce rağmen F8 şaşırtıcı derecede kolay sürülüyor. Ferrari’nin kayma açısını kontrol eden elektronik sistemleri, sürücüyü sınırlara yaklaştırırken güvende tutuyor. Direksiyondaki Manettino ile otomobilin karakterini anında değiştirebiliyorsunuz. Bedeli ise çok yüksek bakım ve sigorta maliyetleri."
+      "Bu kadar güce rağmen F8 şaşırtıcı derecede kolay sürülüyor. Ferrari’nin kayma açısını kontrol eden elektronik sistemleri, sürücüyü sınırlara yaklaştırırken güvende tutuyor. Direksiyondaki Manettino ile otomobilin karakterini anında değiştirebiliyorsunuz. Bedeli ise çok yüksek bakım ve sigorta maliyetleri.",
+      "F8 Tributo, İtalya’nın Maranello şehrindeki Ferrari fabrikasında üretiliyor. Adındaki “Tributo” kelimesi İtalyanca “saygı duruşu” anlamına geliyor; Ferrari bu otomobili, kullandığı V8 motora bir saygı duruşu olarak tasarladığını söylüyor. Bu motor, dünya genelinde otomotiv gazetecilerinin oylarıyla belirlenen “Yılın Motoru” ödülünü üst üste birçok kez kazandı.",
+      "F8’in sürüş elektroniği Ferrari’nin yarış deneyiminin bir ürünü. Kayma açısını kontrol eden sistem, otomobilin arkasının kontrollü bir şekilde kaymasına izin verirken sürücünün sınırları aşmasını engelliyor; frenleri de çok hafifçe kullanarak otomobilin virajdan çıkışını düzeltiyor. Bu sayede sıradan bir sürücü bile bu kadar güçlü bir otomobilde kendini güvende hissedebiliyor.",
+      "Kabinde sürücüye dönük bir kokpit ve opsiyonel olarak ön yolcunun önünde, hız ve devir gibi bilgileri gösteren küçük bir ekran var; yolcu da sürüşün heyecanını yaşayabiliyor. Bagajı ön kaputun altında; hafta sonu kaçamağı için yeterli."
     ]
   },
   "ferrari-roma-2022": {
@@ -1813,7 +1840,10 @@ export const DETAILS = {
     "longReview": [
       "iX’i test ettiğimizde ilk dikkatimizi çeken şey, camları kapattığımızdaki sessizlik oldu. Dış dünya bir anda yok oluyor; bu sessizlik uzun yolda yorgunluğu gerçekten azaltıyor.",
       "Uzun yolda da çok konforlu. Süspansiyonlar yumuşak ama yayvan değil; otomobil yolun bozukluklarını süzerken gövdeyi sallamıyor. Çok stabil ve aynı zamanda çok güçlü; otoyolda sollamalar hiç çaba gerektirmiyor.",
-      "İç tasarımdaki elmas görünümlü kristal detaylar otomobile çok ciddi bir premium his veriyor. Kabine her bindiğinizde özel bir otomobilde olduğunuzu hissettiriyor."
+      "İç tasarımdaki elmas görünümlü kristal detaylar otomobile çok ciddi bir premium his veriyor. Kabine her bindiğinizde özel bir otomobilde olduğunuzu hissettiriyor.",
+      "iX, Almanya’nın Dingolfing şehrindeki BMW fabrikasında üretiliyor ve BMW’nin teknoloji vitrini olarak tasarlandı. Gövdesinin iskeletinde, BMW’nin “karbon kafes” adını verdiği karbon fiber takviyeli parçalar var; bu hem gövdeyi çok rijit yapıyor hem de ağır bataryaya rağmen ağırlığı sınırlı tutuyor.",
+      "iX’in ilginç detaylarından biri, ön taraftaki büyük böbrek ızgarası. Elektrikli olduğu için soğutmaya ihtiyaç duymayan bu ızgara, aslında kameraları ve sensörleri barındıran kapalı bir panel; yüzeyindeki özel kaplama, küçük çizikleri sıcaklıkla kendi kendine onarabiliyor. Kaput da kullanıcı tarafından açılmıyor; cam suyu, ön taraftaki BMW logosunun arkasındaki bir kapaktan dolduruluyor.",
+      "Kabinde altıgen biçimli direksiyon, ortada havada asılı gibi duran kristal görünümlü kontroller ve ahşap bir orta konsol var. Opsiyonel Bowers & Wilkins ses sistemi ve büyük panoramik cam tavan, kabini bir otomobilden çok bir yaşam alanına dönüştürüyor."
     ]
   },
   "bmw-ix1-2023": {
@@ -3207,7 +3237,10 @@ export const DETAILS = {
     "longReview": [
       "Renault Taliant, ekonomik kullanım ve günlük ulaşım ihtiyaçları için tasarlanmış kompakt bir sedan. 1.0 TCe turbo benzinli motoru, düşük hacmine rağmen şehir içi kullanımda yeterli performans verdi.",
       "CVT otomatik şanzıman vites geçişlerini hiç hissettirmiyor; trafikte sürüş son derece akıcı. Hafif direksiyonu ve kolay kontrol edilebilir yapısı da özellikle şehir trafiğinde büyük avantaj sağlıyor.",
-      "Geniş bagaj hacmi aile kullanımı ve günlük ihtiyaçlar açısından çok iyi. İç mekân malzemeleri ise daha çok maliyet odaklı; lüks bir his beklememek gerekiyor."
+      "Geniş bagaj hacmi aile kullanımı ve günlük ihtiyaçlar açısından çok iyi. İç mekân malzemeleri ise daha çok maliyet odaklı; lüks bir his beklememek gerekiyor.",
+      "Taliant, Bursa’daki Oyak Renault fabrikasında üretiliyor. Dacia Logan’ın altyapısını kullanan otomobil, Renault’nun Türkiye gibi sedan sevilen pazarlar için geliştirdiği özel bir model; Taliant adı da bu pazarlar için yaratıldı. Renault’nun logosu ve tasarım detaylarıyla Logan’dan daha premium bir görünüm sunuyor.",
+      "Bagajı, Taliant’ın en büyük kozu: Sınıfının en büyük bagajlarından birine sahip; büyük ailelerin tatil bavullarını ya da bir bebek arabasını rahatça alıyor. Arka koltuk da bu fiyat seviyesi için geniş. Telefonla eşleşen multimedya ekranı, geri görüş kamerası ve otomatik klima gibi donanımlar üst donanımlarda sunuluyor.",
+      "Taliant’ı Türkiye’de mantıklı kılan bir başka şey de otomatik şanzıman seçeneği. Bu fiyat seviyesinde otomatik şanzımanlı yeni bir sedan bulmak çok zor; şehir içi dur-kalk trafikte bu büyük bir konfor sağlıyor. Bursa üretimi sayesinde parça ucuz ve servis yaygın; ikinci elde de kolay alıcı buluyor."
     ],
     "faq": [
       {
@@ -3291,7 +3324,10 @@ export const DETAILS = {
     "longReview": [
       "Kia Stonic, sportif tasarımıyla şehir içi kullanıma odaklanan bir crossover. Geleneksel hatchback otomobillere kıyasla daha farklı bir kullanım hissi sunuyor.",
       "Direksiyonunun hafifliği ve gövdesinin kolay kontrol edilebilmesi yoğun trafikte büyük avantaj. Hem ekonomik hem de sportif bir karakteri var; motor sesi de hoş.",
-      "İç mekânda sert plastik malzemeler kullanılıyor. Arka koltuk ve bagaj kapasitesi ise büyük ailelerin ihtiyaçları için sınırlı kalıyor."
+      "İç mekânda sert plastik malzemeler kullanılıyor. Arka koltuk ve bagaj kapasitesi ise büyük ailelerin ihtiyaçları için sınırlı kalıyor.",
+      "Stonic adı, Kia’nın İngilizce “speedy” (hızlı) ve müzikteki “tonik” sözcüklerini birleştirerek oluşturduğu bir isim; Kia bununla otomobilin çevik ve dinamik karakterini anlatmak istiyor. Güney Kore’de üretilen Stonic, Kia’nın Avrupa’daki en küçük SUV’u ve özellikle genç sürücüleri hedefliyor.",
+      "Makyajla birlikte Stonic’in kabininde büyük bir değişiklik oldu: Sürücünün önünden orta konsola kadar uzanan iki büyük ekrandan oluşan geniş bir panel geldi. Bu, Kia’nın daha büyük modellerinden tanıdık bir düzen ve küçük SUV’a çok modern bir hava katıyor. İki renkli gövde seçenekleri de Stonic’i yolda daha kişisel kılıyor.",
+      "Kia’nın Avrupa’da sunduğu uzun garanti, Stonic’in en güçlü satış argümanlarından biri; Türkiye’deki garanti koşullarını satın almadan önce kontrol etmek mantıklı. Şehirde çevik, ekonomik ve iyi donanımlı bir küçük SUV arayanlar için güçlü bir seçenek; ama aile kullanımı için Sportage gibi daha büyük modellere bakmak gerekiyor."
     ],
     "faq": [
       {
