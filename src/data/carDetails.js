@@ -38,7 +38,10 @@ export const DETAILS = {
     "longReview": [
       "Yaris, küçük boyutlarıyla şehir hayatına tam uyum sağlıyor. Direksiyonu hafif ve kullanımı çok kolay; trafikte ve park ederken hiç yormuyor.",
       "Hibrit sistemi sayesinde şehir içinde çoğu zaman elektrikle, sessizce ilerliyor ve yakıt tüketimi rakipsiz. Bir yandan da sportif bir karakteri var; virajlarda çevik ve keyifli.",
-      "İç mekânı kompakt ama işlevsel. Bagaj ve arka koltuk ise sınıfının küçükleri arasında; kalabalık bir aile için dar kalabilir."
+      "İç mekânı kompakt ama işlevsel. Bagaj ve arka koltuk ise sınıfının küçükleri arasında; kalabalık bir aile için dar kalabilir.",
+      "Yaris, Fransa’nın Valenciennes şehrindeki Toyota fabrikasında üretiliyor ve bu nesil 2021’de Avrupa’da Yılın Otomobili seçildi. 2024’teki makyajla birlikte kabin belirgin şekilde modernleşti: Sürücünün önüne büyük bir dijital gösterge, ortaya da daha büyük ve daha hızlı bir multimedya ekranı geldi. Kablosuz Apple CarPlay ve Android Auto desteği de standart.",
+      "Makyajla birlikte daha güçlü bir hibrit seçeneği de sunuldu; bu da Yaris’in en büyük zayıflığı olan ara hızlanmalardaki yetersizliği büyük ölçüde giderdi. Toyota Safety Sense paketinin en güncel versiyonu, kavşaklarda dönerken karşıdan gelen araçları ve yayaları algılayan sistemle bu küçük otomobili sınıfının en güvenli otomobillerinden biri yapıyor.",
+      "Yaris’in sportif ruhu, Toyota’nın ralli şampiyonalarındaki başarısından geliyor; dünya ralli şampiyonasında yarışan otomobillerden ilham alan GR Yaris de bu ailenin bir parçası. Normal Yaris Hybrid elbette bir ralli otomobili değil; ama hafif gövdesi ve alçak ağırlık merkeziyle virajlarda keyifli bir karakter sunuyor. Toyota’nın kanıtlanmış hibrit dayanıklılığı da ikinci elde güçlü bir talep yaratıyor."
     ]
   },
   "hyundai-i20-2026": {
@@ -63,7 +66,10 @@ export const DETAILS = {
   "opel-corsa-2026": {
     "longReview": [
       "Yeni Corsa keskin hatlarıyla sportif bir görünüm sunuyor. Hibrit motoru sınıfına göre güçlü ve tüketimi düşük.",
-      "İç mekânı temel ihtiyaçları karşılayacak seviyede; fazlası yok. Kabinde sert plastikler var. Bu kasadaki Opel’lerde ortak olan dar sürücü ayak boşluğu da burada devam ediyor; kalın tabanlı ayakkabılarla sürmek zor."
+      "İç mekânı temel ihtiyaçları karşılayacak seviyede; fazlası yok. Kabinde sert plastikler var. Bu kasadaki Opel’lerde ortak olan dar sürücü ayak boşluğu da burada devam ediyor; kalın tabanlı ayakkabılarla sürmek zor.",
+      "Makyajlı Corsa, Opel’in yeni yüzü olan siyah “Vizor” paneline kavuştu; farlar, ızgara ve yeniden çizilen Opel logosu artık tek bir yüzeyde birleşiyor. Otomobil İspanya’nın Zaragoza şehrindeki fabrikada üretiliyor ve Peugeot 208 ile aynı altyapıyı paylaşıyor.",
+      "Bu versiyonun hibrit sistemi, 48 voltluk bir elektrik motorunu çift kavramalı şanzımanın içine entegre ediyor. Bu sayede Corsa, şehir içinde düşük hızlarda ve park manevralarında kısa süreliğine yalnızca elektrikle ilerleyebiliyor. Dur-kalk trafikte motorun daha az çalışması hem tüketimi düşürüyor hem de kabini sessizleştiriyor.",
+      "Corsa’nın küçük sınıfta pek rastlanmayan bir donanımı, karşıdan gelen aracı algılayıp onu ışık huzmesinin dışında bırakan IntelliLux LED Matrix farlar. Gece sürüşünde ciddi bir güvenlik ve konfor artışı sağlıyor. Arka koltuk ve bagaj sınıf ortalamasında; Corsa’yı daha çok şehirde yaşayan çiftler ve küçük aileler için düşünmek mantıklı."
     ],
     "reviewExtra": {
       "tasarim": "Sürücü tarafında ayak boşluğu çok dar; özellikle manuel versiyonda pedal kullanımı zorlaşıyor ve bot gibi kalın tabanlı ayakkabılarla sürmek neredeyse imkânsız hâle geliyor."
@@ -251,7 +257,10 @@ export const DETAILS = {
       "Megane Sedan’da beni en çok memnun eden şey geniş bagaj hacmi ve konforlu sürüş karakteri oldu. Özellikle aile kullanımı ve uzun yolculuklar için gerçekten işlevsel bir otomobil.",
       "Sedan gövde yapısı sayesinde bagaj alanı hem günlük ihtiyaçları hem de tatil yolculuklarını rahatça karşılıyor. Arka koltuk da geniş; aileyle uzun yola çıkmak için zorlanmıyorsunuz.",
       "Motor seçenekleri arasında yakıt ekonomisine odaklanan alternatifler var. Süspansiyon da yolun durumuna göre değişse de genel olarak fena değil; bozuk yolları makul ölçüde süzüyor ve uzun yolda yormuyor.",
-      "Zayıf tarafı iç mekân. Tasarımı ve donanım seviyesi, aynı fiyattaki rakiplerinden biraz aşağıda kalıyor; platformun ve multimedyanın yaşı da hissediliyor."
+      "Zayıf tarafı iç mekân. Tasarımı ve donanım seviyesi, aynı fiyattaki rakiplerinden biraz aşağıda kalıyor; platformun ve multimedyanın yaşı da hissediliyor.",
+      "Megane Sedan, Bursa’daki Oyak Renault fabrikasında üretiliyor ve buradan birçok ülkeye ihraç ediliyor. Türkiye gibi sedan sevilen pazarlar için özel olarak geliştirilen bu otomobil, hatchback Megane’den uzun gövdesi ve dev bagajıyla ayrılıyor. Bursa üretimi sayesinde parça ucuz, servis yaygın ve neredeyse her usta bu otomobili tanıyor.",
+      "Bu versiyonun 1.3 TCe motoru, Renault-Nissan ittifakı ile Mercedes-Benz’in ortak geliştirdiği bir motor ailesinden geliyor; aynı aile Mercedes’in bazı kompakt modellerinde de kullanılıyor. Turbo motor, otomobile sınıfının üzerinde bir güç kazandırıyor; EDC çift kavramalı şanzımanla birlikte şehir içinde ve otoyolda rahat bir performans sunuyor.",
+      "Megane’nin C biçimli LED gündüz farları ve geniş arka lambaları, otomobili yolda hemen tanınır kılıyor. Platform artık yaşını hissettirse de, büyük bagajı, geniş arka koltuğu ve uygun işletme maliyetiyle Megane Sedan, Türkiye’de aile sedanı arayanların en mantıklı seçeneklerinden biri olmaya devam ediyor. İkinci elde de çok kolay alıcı buluyor."
     ],
     "faq": [
       {
@@ -307,7 +316,10 @@ export const DETAILS = {
     "longReview": [
       "Octavia geniş iç hacmiyle dikkat çekiyor. Arka koltuğa oturan herkes önce dizlerinin önündeki boşluğa şaşırıyor; 600 litrelik bagajıyla da gerçekten çok kullanışlı.",
       "Uzun yolda konforlu ve dengeli ilerliyor. Çoğu Škoda’da olduğu gibi açık konuşayım: bu otomobil çok konforlu. Yakıt kapağındaki buz kazıyıcı gibi akıllı detaylar da ailelerin hayatını gerçekten kolaylaştırıyor.",
-      "Bilinmesi gerekenler: 1.5 motorlu versiyonlarda DQ200 şanzıman, vites kolu ve 48V akü riskleri var. Dijital kokpitte Seyahat Asistanı uyarısının sürekli bip sesiyle ekrana gelmesi de kullanıcıların sık yaşadığı bir sorun."
+      "Bilinmesi gerekenler: 1.5 motorlu versiyonlarda DQ200 şanzıman, vites kolu ve 48V akü riskleri var. Dijital kokpitte Seyahat Asistanı uyarısının sürekli bip sesiyle ekrana gelmesi de kullanıcıların sık yaşadığı bir sorun.",
+      "Makyajlı Octavia, Çek Cumhuriyeti’nin Mladá Boleslav şehrinde üretiliyor ve 2024’teki yenilemeyle kabinde önemli yenilikler kazandı. Torpidonun üstünde artık daha büyük, serbest duran bir multimedya ekranı var. Škoda’nın sesli asistanı Laura, yapay zekâ destekli altyapısı sayesinde artık doğal konuşmaları çok daha iyi anlıyor; navigasyon, klima ve müziği konuşarak yönetebiliyorsunuz.",
+      "Octavia’nın dışarıdaki en belirgin yeniliği, yeni farlar ve gündüz farı imzası. Bagaj kapağında da logo yerine büyük harflerle ŠKODA yazısı yer alıyor. 1.5 TSI hafif hibrit motor, silindir kapatma sistemiyle uzun yolda tüketimi düşük tutuyor; otoyolda gazdan ayağınızı çektiğinizde motoru kapatıp süzülebiliyor.",
+      "Octavia, sınıfının en büyük bagajlarından birine sahip; arka koltuk da bir üst sınıfı aratmıyor. Bu yüzden hem aile otomobili hem de şirket ve filo otomobili olarak çok tercih ediliyor. İkinci el piyasasındaki güçlü talebi de satarken avantaj sağlıyor."
     ],
     "review": {
       "guvenilirlik": "Güvenilirlik tarafında bu 1.5 eTSI motorlu otomobillerde bilinmesi gereken üç kronik nokta var: 7 ileri DQ200 şanzıman, vites kolu arızaları ve hafif hibrit sistemin 48V aküsünde yaşanan sorunlar. Ne yazık ki bu arızaların kalıcı bir çözümü pek yok ve ne zaman başınıza geleceği tamamen belirsiz; kimi araçta hiç görülmezken kimisinde erken kilometrelerde ortaya çıkabiliyor. Garantisi devam eden bir örnek almak ya da uzatılmış garanti yaptırmak mantıklı olabilir.",
@@ -384,7 +396,10 @@ export const DETAILS = {
       "Yeni Audi A5 Sedan’ı kullandığımda ilk dikkatimi çeken şey yolcu tarafındaki ekran oldu. Kalitesi gerçekten çok yüksek ve inanılmaz başarılı. Üstelik güvenlik önlemi olarak sürücü koltuğundan bakınca ekranın içeriği görünmüyor; yolcu film izlerken sürücünün dikkati dağılmıyor. Ana ekran da çok büyük ve çok etkileyici.",
       "2 litrelik 204 beygirlik motor bu otomobil için çok yeterli; quattro dört çekerle birlikte her koşulda güven veriyor. Araç aynı zamanda konforlu; uzun yolda da yormuyor.",
       "Tasarım konusunda ise kişisel bir yorumum var: Bence A5 bir coupé ya da cabrio olmalı, sedan olmamalı. Ama bu tamamen kişiden kişiye değişir. Tasarımı yine her A5 gibi çok havalı. Önceki kasa çıtayı çok yükseltmişti; bu yeni kasa o yüksekliğe erişebilecek mi, zamanla göreceğiz.",
-      "Kasanın rüzgar katsayısı da çok iyi. Duyduğuma göre bu kasa üzerine geliştirilecek yeni RS5’te bir aerodinamik rekor denemesi bile yapılacakmış; bu da Audi’nin bu gövdenin aerodinamiğine ne kadar güvendiğini gösteriyor."
+      "Kasanın rüzgar katsayısı da çok iyi. Duyduğuma göre bu kasa üzerine geliştirilecek yeni RS5’te bir aerodinamik rekor denemesi bile yapılacakmış; bu da Audi’nin bu gövdenin aerodinamiğine ne kadar güvendiğini gösteriyor.",
+      "Yeni A5, Audi’nin isimlendirme stratejisindeki büyük bir değişikliğin sonucu. Audi, çift sayılı model isimlerini (A4, A6 gibi) elektrikli modellerine, tek sayılı isimleri ise içten yanmalı motorlu modellerine ayırmaya karar verdi. Bu yüzden uzun yıllar A4 olarak bildiğimiz sedan, bu nesilde A5 Sedan adını aldı. Almanya’nın Neckarsulm şehrinde üretiliyor.",
+      "Kabinde Audi’nin yeni dijital düzeni var: Sürücünün önünden orta konsola kadar uzanan kavisli büyük ekran paneli ve opsiyonel ön yolcu ekranı. Ambiyans aydınlatması kapılardan torpidoya kadar kabini sarıyor; Bang & Olufsen’in üç boyutlu ses sistemi de seçenek olarak sunuluyor. Sesli asistan, yapay zekâ destekli altyapısıyla doğal konuşmaları anlayabiliyor.",
+      "Quattro dört çeker, A5’i her havada güvenli kılıyor; sessiz kabini ve konforlu süspansiyonuyla uzun yolda gerçek bir iş sedanı konforu sunuyor. Opsiyonlarla fiyat hızla yükseliyor; ama teknolojisi ve kalitesiyle segmentinin en güçlü seçeneklerinden biri."
     ]
   },
   "skoda-superb-2026": {
@@ -462,7 +477,10 @@ export const DETAILS = {
       "T-Cross, kompakt SUV sınıfında şehir içi kullanım kolaylığı ve pratikliğiyle kendini kanıtlamış bir otomobil. Yüksek sürüş pozisyonu sayesinde yol görüşü çok iyi; trafikte çevrenize hâkim olmak güven veriyor.",
       "Kompakt boyutları dar sokaklarda ve park alanlarında büyük avantaj sağlıyor. Şehirde manevra yapmak, park yeri bulmak ve sıkışık sokaklarda ilerlemek hiç zahmetli değil.",
       "İç mekân günlük kullanım için yeterli genişlik ve işlevsellik sunuyor. Bagajı da sınıfına göre kullanışlı; kayar arka koltuk sayesinde ihtiyaca göre bagajı büyütebiliyorsunuz. Motor seçenekleri genel olarak ekonomik kullanıma uygun.",
-      "Volkswagen’in sade tasarım anlayışını ve ergonomik kokpitini beğendim; her şey olması gereken yerde. Ama iç mekânda kullanılan bazı sert plastikler kalite algısını düşürüyor; bu fiyattaki bir otomobilde daha iyisini beklerdim."
+      "Volkswagen’in sade tasarım anlayışını ve ergonomik kokpitini beğendim; her şey olması gereken yerde. Ama iç mekânda kullanılan bazı sert plastikler kalite algısını düşürüyor; bu fiyattaki bir otomobilde daha iyisini beklerdim.",
+      "T-Cross, İspanya’nın Pamplona şehrindeki Volkswagen fabrikasında, Polo ile aynı çatı altında üretiliyor. 2024’teki makyajla birlikte otomobil, ilk versiyonun en çok eleştirilen yanını, yani kabin kalitesini önemli ölçüde iyileştirdi: Torpidonun üst kısmına yumuşak dokulu bir kaplama geldi ve multimedya ekranı torpidonun üzerinde serbest duran daha büyük bir ekrana dönüştü. Dışarıda da yeni farlar ve arka lambaları birleştiren ışık şeridi, otomobile daha modern bir görünüm kazandırdı.",
+      "Kayar arka koltuk, T-Cross’u bu sınıfta en pratik otomobillerden biri yapan detay. Arka sıra yaklaşık bir karış ileri-geri kaydırılabiliyor: Bagajı büyütmek istediğinizde öne, arkada uzun boylu yolcular taşırken geriye alıyorsunuz. Üst donanımlarda IQ.LIGHT LED Matrix farlar ve Travel Assist sürüş destek sistemi gibi bir üst sınıftan gelen teknolojiler de sunuluyor.",
+      "1.0 TSI motor, üç silindirli yapısına rağmen şehir içinde canlı ve DSG şanzımanla birlikte akıcı. Otoyolda ise dolu araçla sınırda kalabiliyor. İkinci el piyasasında Volkswagen adının getirdiği güçlü talep, T-Cross’u satarken de avantajlı kılıyor; bu, yüksek fiyatının uzun vadede bir kısmını geri kazandırıyor."
     ],
     "faq": [
       {
@@ -499,7 +517,10 @@ export const DETAILS = {
   "skoda-kamiq-2026": {
     "longReview": [
       "Škoda Kamiq, kompakt SUV sınıfında pratikliği, geniş kullanım alanı ve kolay sürüş özellikleriyle öne çıkıyor.",
-      "Günlük kullanımda canlı bir performans ve makul yakıt tüketimi sunuyor. İç mekânı ergonomik tasarımı ve akıllı saklama çözümleriyle tamamen işlevselliğe odaklı."
+      "Günlük kullanımda canlı bir performans ve makul yakıt tüketimi sunuyor. İç mekânı ergonomik tasarımı ve akıllı saklama çözümleriyle tamamen işlevselliğe odaklı.",
+      "Makyajlı Kamiq, Çek Cumhuriyeti’nin Mladá Boleslav şehrindeki Škoda fabrikasında üretiliyor ve 2024’teki yenilemeyle daha keskin bir yüze kavuştu. Bagaj kapağında artık logo yerine büyük harflerle ŠKODA yazısı var; ön taraftaki yeni farlar ve tamponlar da otomobile daha modern bir görünüm kazandırıyor.",
+      "Kamiq’in en güçlü yanı arka koltuk. Bu sınıfta en geniş arka diz mesafelerinden birine sahip; arkada uzun boylu yetişkinler bile rahatça oturabiliyor. Bagaj da şehir otomobili tabanlı bir SUV için cömert. Škoda’nın akıllı detayları da eksik değil: yakıt kapağının arkasındaki buz kazıyıcı, ön koltuk sırtlarındaki telefon cepleri, orta konsoldaki çıkarılabilir bardaklık ve bagajdaki ağlar.",
+      "Makyajla birlikte kabin de güncellendi: Daha büyük dijital gösterge, büyük dokunmatik multimedya ekranı ve bazı donanımlarda geri dönüştürülmüş malzemelerden üretilen döşemeler sunuluyor. 1.0 TSI motor ve DSG şanzıman şehir içinde canlı ve ekonomik. Kamiq, aynı mekaniği paylaşan T-Cross’a göre genellikle daha uygun fiyatlı olması ve daha geniş arka koltuğuyla aileler için çok mantıklı bir alternatif. DSG şanzımanın bakım geçmişine ise ikinci el alırken dikkat etmek gerekiyor."
     ],
     "faq": [
       {
@@ -627,7 +648,10 @@ export const DETAILS = {
     "longReview": [
       "Tucson, dikkat çekici ön tasarımıyla öne çıkıyor. Parametrik ızgarası ve kapalıyken gizlenen gündüz farları onu yolda hemen tanınır kılıyor; kabinde de aynı modern hava devam ediyor.",
       "Geniş kabini aile kullanımını kolaylaştırıyor, koltukları uzun yolculuklarda rahatlık sağlıyor. Motoru da şu ana kadar denediğim Tucson’ların en güçlüsü; ara hızlanmalarda ve sollamalarda hiç zorlanmıyor.",
-      "Bilinmesi gerekenler: 7 ileri DCT şanzıman yoğun dur-kalk trafikte ısınma uyarısı verebiliyor ve kalkışlarda titreyebiliyor. Benzinli motorun şehir içi tüketimi de performansına oranla yüksek. Geniş ve modern bir SUV arıyorsanız Tucson kesinlikle değerlendirilmeli. Açıkçası ben de artık ciddi ciddi Tucson’a bakmayı düşünüyorum."
+      "Bilinmesi gerekenler: 7 ileri DCT şanzıman yoğun dur-kalk trafikte ısınma uyarısı verebiliyor ve kalkışlarda titreyebiliyor. Benzinli motorun şehir içi tüketimi de performansına oranla yüksek. Geniş ve modern bir SUV arıyorsanız Tucson kesinlikle değerlendirilmeli. Açıkçası ben de artık ciddi ciddi Tucson’a bakmayı düşünüyorum.",
+      "Makyajlı Tucson, en büyük değişikliği kabinde yaşadı. Sürücünün önünden orta konsola kadar kesintisiz uzanan kavisli tek bir panel, dijital gösterge ile multimedya ekranını birleştiriyor. Vites seçici direksiyonun arkasına taşındı; orta konsolda geniş bir saklama alanı açıldı. Hyundai, makyaj öncesi versiyonda dokunmatik olan klima kontrollerini de kullanıcı geri bildirimleri üzerine yeniden fiziksel düğmelere dönüştürdü; sürüş sırasında klimayı ekrana bakmadan ayarlayabilmek gerçek bir kolaylık.",
+      "Avrupa’da satılan Tucson’lar Çekya’daki Hyundai fabrikasında üretiliyor. Ön taraftaki parametrik ızgara ve kapalıyken ızgaranın içinde görünmeyen gündüz farları, makyajla birlikte daha da belirgin hâle geldi. Bagaj sınıfının en büyüklerinden; arka koltukta da bol diz mesafesi var.",
+      "Turbo benzinli motorun gücü, bu nesildeki en büyük artılarından biri; dolu araçla bile rahat hızlanıyor. Ama şehir içinde çok kullanacaksanız, aynı gövdeyi daha düşük tüketimle sunan hibrit versiyonlar da değerlendirilmeli."
     ],
     "review": {
       "tasarim": "Tucson’un parametrik ızgarası ve kapalıyken gizlenen gündüz farları onu yolda hemen tanınır kılıyor. Sınıfının en cesur tasarımlı SUV’larından; kabinde de aynı modern hava devam ediyor."
@@ -733,7 +757,10 @@ export const DETAILS = {
     "longReview": [
       "X1, BMW’nin kompakt SUV’u; ama yeni kasayla birlikte büyüdü ve kabin hissi neredeyse bir üst sınıfa yaklaştı. Motoru günlük kullanımda canlı ve yeterli; önden çekişli yapısı ise onu klasik BMW’lerden çok pratik bir aile otomobiline yaklaştırıyor.",
       "Kabindeki en büyük değişiklik, BMW’nin klasik döner kumandasının kaldırılmış olması; neredeyse her şey kavisli ekrandan yönetiliyor. Sürücüyle yolcu arasında havada asılı gibi duran “yüzen” kol dayamasının altında kablosuz şarj ve geniş bir saklama alanı var. Kayar arka koltuk seçeneği, ihtiyaca göre bagajı ya da arka diz mesafesini büyütmeye yarıyor.",
-      "M Sport donanımı otomobile çok yakışıyor, ama süspansiyonu da belirgin şekilde sertleştiriyor; bozuk yollarda bunu hissedeceksiniz. Fiziksel tuşların neredeyse tamamen kalkmış olması da sürüş sırasında klima gibi basit ayarlar için ekrana bakmanızı gerektiriyor."
+      "M Sport donanımı otomobile çok yakışıyor, ama süspansiyonu da belirgin şekilde sertleştiriyor; bozuk yollarda bunu hissedeceksiniz. Fiziksel tuşların neredeyse tamamen kalkmış olması da sürüş sırasında klima gibi basit ayarlar için ekrana bakmanızı gerektiriyor.",
+      "X1, Almanya’nın Regensburg şehrindeki BMW fabrikasında üretiliyor; aynı hatta elektrikli kardeşi iX1 de üretiliyor. Bu nesil, önceki X1’e göre belirgin şekilde büyüdü ve kabin hissi neredeyse bir üst sınıfa yaklaştı.",
+      "Kabinde “Hey BMW” sesli asistanıyla klimayı, navigasyonu ve müziği konuşarak yönetebiliyorsunuz. Opsiyonel ön cama yansıtmalı gösterge, Harman Kardon ses sistemi ve otomobili telefondan uzaktan park etmenize imkân veren gelişmiş park asistanı da sunuluyor. Arka koltuklar 40:20:40 oranında bölünerek katlanabiliyor.",
+      "Üç silindirli motorun çalışırken çıkardığı karakteristik ses ve hafif titreşim, özellikle soğuk çalıştırmalarda hissediliyor; ama yolda bu neredeyse fark edilmiyor. X1, BMW kalitesini ve teknolojisini kompakt bir SUV’da isteyenler için, özellikle şehir içi kullanımda, çok mantıklı bir giriş kapısı."
     ]
   },
   "mercedes-benz-gla-2026": {
@@ -766,7 +793,10 @@ export const DETAILS = {
     "longReview": [
       "Yeni X3, Türkiye’ye özel vergi avantajlı bir motorla geliyor. Türkiye versiyonunun arkadan itişli olması, dört çeker arayanlar için bilinmesi gereken önemli bir detay.",
       "Kabinde kavisli ekran ve sade, kaliteli bir tasarım var; Harman Kardon ses sistemi ve zengin donanımıyla segmentinin en dolu otomobillerinden. Ön tasarımı ise oldukça tartışmalı: büyük böbrek ızgarası ve keskin hatlar herkesin beğenisine hitap etmeyebilir.",
-      "Sürüş tarafında X3 hâlâ sınıfının referanslarından biri. Direksiyon net, gövde dengeli ve arkadan itiş karakteri her virajda hissediliyor. Vergi avantajı sayesinde de rakiplerine göre daha erişilebilir bir fiyata geliyor."
+      "Sürüş tarafında X3 hâlâ sınıfının referanslarından biri. Direksiyon net, gövde dengeli ve arkadan itiş karakteri her virajda hissediliyor. Vergi avantajı sayesinde de rakiplerine göre daha erişilebilir bir fiyata geliyor.",
+      "Yeni X3’ün kabinindeki en ilginç detaylardan biri, torpidonun bir ucundan diğerine uzanan ince ışık şeridi. BMW buna “etkileşim çubuğu” diyor: Bu şerit yalnızca ambiyans aydınlatması değil; bazı işlevler için dokunmatik kontroller içeriyor, kapı açıkken bir araç yaklaşırsa ya da telefon çaldığında renk değiştirerek sürücüyü uyarıyor.",
+      "Opsiyonel olarak sunulan ışıklı böbrek ızgarası, gece ızgaranın çerçevesini aydınlatarak X3’e yolda çok dikkat çekici bir görünüm kazandırıyor. Kabinde BMW’nin en yeni işletim sistemi, kavisli ekran ve “Hey BMW” sesli asistanı var; üst seviye park asistanı ise otomobili telefondan uzaktan park etmenize bile imkân veriyor.",
+      "Bagaj, önceki nesle göre büyüdü ve sınıfının en kullanışlılarından biri oldu; arka koltuklar 40:20:40 oranında bölünerek katlanabiliyor. Bu da uzun eşyaları taşırken iki arka yolcuya yer bırakmanızı sağlıyor. Ama M Sport donanımda süspansiyon sert; bozuk yollarda bunu hissettiriyor. Opsiyonlar da her BMW’de olduğu gibi pahalı."
     ]
   },
   "mercedes-benz-glc-2026": {
@@ -2592,7 +2622,10 @@ export const DETAILS = {
     "longReview": [
       "M4, M3’ün coupé kardeşi. Aynı güçlü motoru ve tek tuşla arkadan itişe geçebilen M xDrive sistemini, daha alçak ve daha sportif bir gövdede sunuyor.",
       "M Drift Analyser, M Laptimer ve 10 kademeli M Traction Control gibi pist araçları burada da var. Lazer destekli uzun far seçeneği gece sürüşlerinde çok uzağı aydınlatıyor.",
-      "Keskin direksiyonuyla sınıfının en keyifli otomobillerinden. Büyük ön ızgarası ise tartışmalı; süspansiyonu da günlük kullanımda sert."
+      "Keskin direksiyonuyla sınıfının en keyifli otomobillerinden. Büyük ön ızgarası ise tartışmalı; süspansiyonu da günlük kullanımda sert.",
+      "M4, Almanya’nın Münih şehrindeki BMW fabrikasında, M3 ile birlikte üretiliyor. Competition versiyonunda tavan standart olarak karbon fiberden yapılıyor; bu hem ağırlık merkezini düşürüyor hem de otomobile ayrı bir görsel karakter katıyor. Opsiyonel karbon kova koltukların sırt kısmında ışıklı bir M4 logosu bulunuyor.",
+      "Direksiyondaki kırmızı M1 ve M2 düğmeleri, kendi ayarladığınız iki farklı sürüş profilini tek dokunuşla çağırmanızı sağlıyor: Biri günlük kullanım, diğeri virajlı yollar ya da pist için kurulabiliyor. Orta konsoldaki “Setup” düğmesiyle motor tepkisini, süspansiyon sertliğini, direksiyon ağırlığını ve fren hissini ayrı ayrı ayarlayabiliyorsunuz.",
+      "Sıralı altı silindir biturbo motor, düşük devirlerden itibaren muazzam bir çekiş sunuyor; sesi de bir M otomobilinden beklenen karakterde. Ama bu performansın bedeli yüksek tüketim, yüksek ÖTV ve günlük kullanımda sert süspansiyon. M4’ü her gün kullanılabilen bir spor otomobil olarak düşünmek mümkün; yalnız bozuk şehir yollarında konforu biraz geride bırakmak gerekiyor."
     ]
   },
   "mercedes-amg-c-63-s-2021": {
@@ -3234,7 +3267,10 @@ export const DETAILS = {
     "longReview": [
       "Nissan Juke, sıra dışı tasarımıyla küçük crossover modellerinden hemen ayrılıyor. Yine de tasarım konusunda bugün segmentin en önünde olduğunu söyleyemem; farklı ama herkesin beğenisine hitap eden bir çizgi değil.",
       "Yerden yüksek yapısı şehir içinde sürüş ve park kolaylığı sağlıyor. Performansı motor ve şanzıman seçeneğine göre değişse de benzinli versiyonlar günlük kullanım için yeterli.",
-      "Kompakt boyutları dar sokaklarda avantaj sağlarken arka koltuk ve bagaj alanı bazı rakiplerine göre daha sınırlı kalabiliyor."
+      "Kompakt boyutları dar sokaklarda avantaj sağlarken arka koltuk ve bagaj alanı bazı rakiplerine göre daha sınırlı kalabiliyor.",
+      "Juke, İngiltere’nin Sunderland şehrindeki Nissan fabrikasında, Qashqai ile aynı çatı altında üretiliyor. İlk nesil Juke, 2010’da çıktığında küçük crossover sınıfının öncülerinden biriydi; bugünkü ikinci nesil, o cesur tasarım mirasını daha olgun bir şekilde sürdürüyor. Yuvarlak ana farların üzerinde, kaputa doğru uzanan ince gündüz farları Juke’un imzası.",
+      "Juke’un ilginç bir donanımı, Bose’un sürücü koltuğunun kafalığına yerleştirdiği hoparlörler. Bu hoparlörler sesi sürücünün etrafına yayarak bu küçük kabinde etkileyici bir ses deneyimi yaratıyor; navigasyon uyarılarını da doğrudan sürücünün kulağına iletiyor. Makyajla birlikte gelen büyük multimedya ekranı ve kablosuz Apple CarPlay ve Android Auto desteği de kabini güncel tutuyor.",
+      "Sürüşte Juke çevik ve keyifli; şehir içinde dar sokaklarda kolay manevra yapıyor. Ama sportif görünüm, arka koltukta ve bagajda biraz alandan ödün vermeyi gerektiriyor; bu yüzden Juke’u kalabalık aileler için değil, şehirde yaşayan bekâr ve çiftler için düşünmek mantıklı."
     ],
     "faq": [
       {
