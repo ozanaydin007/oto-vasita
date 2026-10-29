@@ -1155,7 +1155,10 @@ export const DETAILS = {
     "longReview": [
       "M235i, kompakt Gran Coupé gövdesinde ciddi bir performans sunuyor. Önden çekiş tabanlı bir platforma dayansa da xDrive dört çeker sistemi ve önde mekanik kilitli diferansiyel sayesinde virajlardan güçlü ve kararlı çıkıyor.",
       "BMW, tekerlek kaymasını motor kontrolüne entegre ederek çok daha hızlı müdahale eden bir sistem (ARB) kullanıyor. Bu da önden çekişli otomobillerdeki direksiyonun çekmesi hissini büyük ölçüde azaltıyor. Çerçevesiz kapılar ve kalkış kontrolü (Launch Control) de otomobile sportif bir karakter katıyor.",
-      "Dört kapısı ve kullanışlı bagajıyla günlük hayatta pratik bir otomobil. Yalnız klasik arkadan itişli BMW hissini burada bulamıyorsunuz; süspansiyonu da şehir içinde serte kaçıyor."
+      "Dört kapısı ve kullanışlı bagajıyla günlük hayatta pratik bir otomobil. Yalnız klasik arkadan itişli BMW hissini burada bulamıyorsunuz; süspansiyonu da şehir içinde serte kaçıyor.",
+      "M235i Gran Coupé, Almanya’nın Leipzig şehrindeki BMW fabrikasında üretiliyor. 2 Serisi Gran Coupé, BMW’nin kompakt sınıfa getirdiği ilk dört kapılı coupé oldu; M235i ise bu ailenin en güçlü versiyonu. Adındaki “M” harfi, BMW’nin M bölümünün katkısıyla geliştirilen ama tam bir M otomobili olmayan “M Performance” modellerini işaret ediyor.",
+      "Kabinde BMW’nin dijital göstergesi, büyük multimedya ekranı ve opsiyonel ön cama yansıtmalı gösterge var. M sportif koltuklar, kalın tutuşlu M direksiyon ve ambiyans aydınlatması kabine sportif ve premium bir hava katıyor. Harman Kardon ses sistemi de seçenek olarak sunuluyor.",
+      "M235i, 1 Serisi ve X1 ile aynı altyapıyı paylaşıyor; bu yüzden kabin ve bagaj, kompakt boyutlarına göre kullanışlı. Dört kapısı ve sportif performansıyla, günlük hayatta pratik ama hafta sonu virajlı bir yolda keyif veren bir otomobil arayanlar için cazip bir seçim."
     ]
   },
   "mercedes-amg-cla-45-s-2023": {
@@ -1206,7 +1209,10 @@ export const DETAILS = {
     "longReview": [
       "R8, Audi’nin son içten yanmalı süper otomobili ve bu onu şimdiden özel kılıyor. Kalbinde Lamborghini Huracán ile paylaşılan atmosferik V10 var. Turbo motorların hâkim olduğu bir dünyada çok yüksek devirlere dönen bu motorun sesi efsanevi.",
       "Her R8, Audi Sport’un Böllinger Höfe’deki özel tesisinde büyük ölçüde elle üretiliyor. Motor, arka camın altından sergileniyor. Kabinde orta ekran yok; bütün bilgiler sürücünün önündeki dijital göstergede. Bu da kokpiti tamamen sürücüye odaklıyor.",
-      "Quattro dört çeker sayesinde güvenli ve öngörülebilir bir karakteri var; süper otomobiller arasında en kolay günlük kullanılanlardan biri. Bedeli ise çok yüksek tüketim ve bakım maliyetleri."
+      "Quattro dört çeker sayesinde güvenli ve öngörülebilir bir karakteri var; süper otomobiller arasında en kolay günlük kullanılanlardan biri. Bedeli ise çok yüksek tüketim ve bakım maliyetleri.",
+      "R8 ilk kez 2006’da tanıtıldı ve kısa sürede günlük kullanılabilir süper otomobilin tanımı oldu. Popüler kültürde de iz bıraktı: Marvel filmlerindeki Tony Stark’ın, yani Iron Man’in kullandığı otomobillerden biri R8’di. Audi, R8’in üretimini 2024’te sonlandırdı.",
+      "R8, Audi’nin yarış programıyla çok yakından bağlantılı. R8’in yarış versiyonu, dünya genelinde GT yarışlarında yıllarca başarı kazandı ve yol versiyonuyla parçalarının önemli bir kısmını paylaşıyor. Yani bir R8 sahibi, pistte yarışan bir otomobile çok yakın bir mekaniğe sahip oluyor.",
+      "Üretimin sona ermesi ve atmosferik V10 motorların artık neredeyse hiç üretilmemesi, R8’i koleksiyonerler için giderek daha değerli bir otomobil hâline getiriyor. İyi korunmuş, düşük kilometreli örneklerin değerini uzun vadede koruması bekleniyor."
     ]
   },
   "alfa-romeo-stelvio-2025": {
@@ -1371,7 +1377,10 @@ export const DETAILS = {
     "longReview": [
       "911 Carrera S, günlük kullanılabilen gerçek spor otomobilin tanımı. Direksiyon ve fren hissi kusursuz; otomobil sürücüye yolla ilgili her bilgiyi doğrudan aktarıyor.",
       "Bu nesille gelen ıslak zemin modu ilginç bir detay: Otomobil yolun ıslak olduğunu tekerlek yuvalarındaki sensörlerle algılıyor ve sürücüye ıslak moda geçmesini öneriyor. Sport Chrono paketiyle gelen direksiyondaki sürüş modu çevirmeli düğmesi ve arka aks yönlendirme seçeneği sürüş deneyimini daha da keskinleştiriyor.",
-      "Değerini olağanüstü iyi koruyor. Arka koltuklar ise yalnızca çocuklar ya da çanta koymak için; opsiyon listesi de çok uzun ve fiyat hızla yükseliyor."
+      "Değerini olağanüstü iyi koruyor. Arka koltuklar ise yalnızca çocuklar ya da çanta koymak için; opsiyon listesi de çok uzun ve fiyat hızla yükseliyor.",
+      "911’in hikâyesi 1963’e uzanıyor. İlginç bir detay: Otomobil ilk olarak “901” adıyla tanıtıldı. Ancak Fransız otomobil üreticisi Peugeot, ortasında sıfır bulunan üç haneli model isimlerinin haklarına sahip olduğunu belirtince Porsche ismi “911” olarak değiştirdi. Bugün dünyanın en tanınmış otomobil isimlerinden biri böyle doğdu.",
+      "Bugünkü 911 Carrera S, Almanya’nın Stuttgart şehrinin Zuffenhausen semtindeki tarihi Porsche fabrikasında üretiliyor. Altmış yılı aşkın süredir motorun arkada olduğu bu düzeni koruyan 911, fizik kurallarına meydan okuyan bir mühendislik başarısı olarak görülüyor: Porsche, motoru arkada olan bir otomobili dünyanın en dengeli spor otomobillerinden birine dönüştürmeyi başardı.",
+      "Sekiz ileri PDK şanzıman, hem günlük kullanımda yumuşak hem de virajlı yolda çok hızlı vites geçişleri sunuyor. Kabinde analog devir göstergesinin iki yanında dijital ekranlar var; Porsche, geleneği ve teknolojiyi bu şekilde bir araya getiriyor."
     ]
   },
   "bmw-m3-2021": {
@@ -1584,7 +1593,10 @@ export const DETAILS = {
     "longReview": [
       "Countryman E; şık, premium hissini uygun fiyata veren otomobiller arasında. MINI’nin karakterini daha büyük ve daha pratik bir gövdeye taşıyor.",
       "İç kabini alışılagelmişin dışında; farklı bir yapısı var. Yuvarlak OLED ekran ve kumaş kaplı torpido ilk bakışta şaşırtıyor ama kısa sürede alışılıyor ve kabine çok sıcak bir hava veriyor. Kabin, segmentinin ortalama büyüklüğünde.",
-      "Üstüne güzel bir motor gücü ve çok zengin donanım da eklenince, yollarda neden sürekli bu otomobilleri gördüğümüzü daha iyi anlıyoruz."
+      "Üstüne güzel bir motor gücü ve çok zengin donanım da eklenince, yollarda neden sürekli bu otomobilleri gördüğümüzü daha iyi anlıyoruz.",
+      "Yeni Countryman, MINI’nin tarihindeki en büyük model ve ilginç bir üretim hikâyesine sahip: Almanya’nın Leipzig şehrindeki BMW fabrikasında üretilen ilk MINI. Elektrikli versiyon Countryman E de burada, BMW X1 ile aynı altyapıyı paylaşarak üretiliyor.",
+      "Kabinin en ilginç detaylarından biri, torpidoyu kaplayan geri dönüştürülmüş örgü kumaş. Seçtiğiniz “Deneyim Modu”na göre bu kumaşın üzerine farklı renk ve desenlerde ışıklar yansıtılıyor; ekrandaki grafikler, ambiyans aydınlatması ve elektrikli sürüş sesi de moda göre değişiyor. MINI’nin klasik mandal düğmeleri de ekranın altında yerini koruyor.",
+      "Countryman E, MINI’nin karakterini bir aile SUV’unun pratikliğiyle birleştiriyor. Arka koltuk ve bagaj, küçük MINI’lerden çok daha kullanışlı; elektrikli olmasına rağmen bagaj hacminden fazla ödün verilmemiş. MINI’nin “go-kart” hissi de büyüyen gövdeye rağmen kısmen korunuyor."
     ]
   },
   "subaru-forester-2023": {
@@ -1677,7 +1689,10 @@ export const DETAILS = {
     "longReview": [
       "MC20, Maserati’nin yaklaşık 20 yıl sonra kendi geliştirdiği ilk motorla gelen otomobili. “Nettuno” adlı V6 motor, Formula 1’den gelen ön yanma odası teknolojisini kullanıyor.",
       "Gövdesi, yarış otomobilleri üreten Dallara ile birlikte geliştirilen karbon fiber bir monokok. Bu hafiflik otomobili çok çevik kılıyor. Yukarı doğru açılan kelebek kapılar da onu yolda bir yarış otomobili gibi gösteriyor.",
-      "Rakiplerine göre daha makul bir fiyatla gelmesi büyük avantaj. Kabin detayları ise Ferrari ve Lamborghini rakiplerinin gerisinde kalıyor."
+      "Rakiplerine göre daha makul bir fiyatla gelmesi büyük avantaj. Kabin detayları ise Ferrari ve Lamborghini rakiplerinin gerisinde kalıyor.",
+      "MC20’nin adı iki parçadan oluşuyor: “MC”, Maserati’nin yarış bölümü Maserati Corse’yi; “20” ise otomobilin tanıtıldığı 2020 yılını simgeliyor. İtalya’nın Modena şehrindeki tarihi Maserati fabrikasında üretiliyor.",
+      "Maserati, MC20’nin açık tavanlı bir versiyonunu da üretti: MC20 Cielo. İtalyanca “gökyüzü” anlamına gelen Cielo’nun tavanı, bir düğmeye basıldığında şeffaf hâle gelebilen özel bir camdan yapılmış; kapalıyken bile gökyüzünü görebiliyorsunuz.",
+      "MC20’nin kabini sade ve sürücüye odaklı. Gösterişten çok işlevselliği ön plana çıkaran bu yaklaşım, otomobilin yarış ruhunu yansıtıyor. Yukarı açılan kelebek kapılar ise MC20’yi her park ettiğiniz yerde bir gösteriye dönüştürüyor."
     ]
   },
   "maserati-ghibli-2021": {
@@ -2358,7 +2373,10 @@ export const DETAILS = {
     "longReview": [
       "Yeni kasa Civic’in 512 litrelik bagajı fazlasıyla yeterli; bu konuda sınıfının liderlerinden biri. İç tasarımı sade ve otomobile çok güzel bir görünüm katıyor.",
       "Şanzımanda CVT var. CVT’nin hayranıysanız ayrı konu, ama güç konusunda kayıp yaşattığı bir gerçek. Yine de 182 beygir bu açığı kapatıyor; 1.5 TSI motorlu, hatchback hafifliğindeki otomobillerle paralel gidebiliyor. Hızlanmada bir problemi yok.",
-      "Yol tutuşu güzel ve eski kasaya göre kesinlikle daha konforlu. Bilinmesi gereken iki nokta var: Direksiyon kutusunda zamanla sertleşme ve takılma hissi görülebiliyor; 110 km/s üzerindeki hızlarda da A sütunu ve aynalardan kabine belirgin bir rüzgar sesi geliyor."
+      "Yol tutuşu güzel ve eski kasaya göre kesinlikle daha konforlu. Bilinmesi gereken iki nokta var: Direksiyon kutusunda zamanla sertleşme ve takılma hissi görülebiliyor; 110 km/s üzerindeki hızlarda da A sütunu ve aynalardan kabine belirgin bir rüzgar sesi geliyor.",
+      "On birinci nesil Civic’in kabininde Honda mühendislerinin ilginç bir titizliği var: Klima düğmelerinin çevrilirken çıkardığı his ve “tık” sesi özel olarak ayarlanmış. Honda, kullanıcıların düğmeleri çevirirken kaliteli bir his almasını bir tasarım hedefi olarak belirledi. Torpidonun bir ucundan diğerine uzanan petek desenli ızgara ise havalandırma çıkışlarını gizleyerek kabine çok temiz bir görünüm veriyor.",
+      "Honda Sensing güvenlik paketi, bu nesilde daha geniş açılı bir ön kamerayla güncellendi; bu da yayaları, bisikletlileri ve kavşaklardaki araçları daha erken algılamasını sağlıyor. Adaptif hız sabitleyici, şerit takip ve trafik işareti tanıma standart olarak geliyor.",
+      "Civic’in bu nesli, efsanevi Civic Type R’ın da temelini oluşturuyor; yani aynı gövdenin altında çok yetenekli bir şasi var. Normal Civic’te bu şasi, keyifli ve dengeli bir sürüş olarak kendini gösteriyor."
     ],
     "reviewExtra": {
       "guvenilirlik": "Bilinen bir sorun direksiyon kutusunda: zamanla aşırı sertleşme ve takılma hissi (EPS direksiyon dişlisi) görülebiliyor; düz yolda giderken sürekli küçük düzeltmeler yapma ihtiyacı doğabiliyor.",
@@ -2420,7 +2438,10 @@ export const DETAILS = {
       "2 Serisi Gran Coupé gayet güzel bir otomobil. İç mekânı hoş ve kaliteli; BMW kalitesini kompakt bir gövdede sunuyor.",
       "Dış tasarımı ise tartışmalı. Açıkçası ben sevmedim. Motoru da çok güçlü değil, ama günlük kullanımda idare ediyor.",
       "Benim asıl memnun olmadığım nokta, bu kasayla birlikte 2 Serisi’nin önden çekişe geçmiş olması. BMW denince akla gelen arkadan itiş karakteri burada yok ve bu, sürüşte hissediliyor.",
-      "Belki de önceki 2 Serisi kasalarının başarısı burada beklentimizi çok yüksek tuttu; çünkü otomobil aslında kötü değil. BMW’ye ulaşılabilir bir giriş arayanlar için mantıklı, ama heyecan arayanlar başka seçeneklere bakmalı."
+      "Belki de önceki 2 Serisi kasalarının başarısı burada beklentimizi çok yüksek tuttu; çünkü otomobil aslında kötü değil. BMW’ye ulaşılabilir bir giriş arayanlar için mantıklı, ama heyecan arayanlar başka seçeneklere bakmalı.",
+      "2 Serisi Gran Coupé, 2019’da BMW’nin kompakt sınıfa getirdiği ilk dört kapılı coupé olarak tanıtıldı. Almanya’nın Leipzig şehrindeki BMW fabrikasında üretiliyor ve 1 Serisi ile X1 ile aynı önden çekişli altyapıyı paylaşıyor.",
+      "Kapı camlarının çerçevesiz olması, 2 Serisi Gran Coupé’ye bir coupé havası katıyor. Kabinde BMW’nin dijital göstergesi, büyük multimedya ekranı ve “Hey BMW” sesli asistanı var; klima ve multimedyayı konuşarak yönetebiliyorsunuz.",
+      "Üç silindirli motor şehir içinde ekonomik ve yeterli; ama daha önce belirttiğimiz gibi güçlü değil. Arka koltuk, eğimli tavan nedeniyle uzun boylular için sınırlı. 2 Serisi Gran Coupé, BMW kalitesini kompakt ve şık bir sedanda isteyen, otomobilini çoğunlukla şehirde kullanacak biri için uygun."
     ]
   },
   "audi-a4-sedan-2021": {
@@ -2704,7 +2725,10 @@ export const DETAILS = {
     "longReview": [
       "Golf R, günlük kullanılabilir bir süper hatchback. 4MOTION dört çeker sistemi, arka aksta gücü sağ ve sol tekerleğe ayrı ayrı dağıtabiliyor. Bu sayede virajlarda otomobil arkadan itiyormuş gibi dönebiliyor; hatta bir drift modu da var.",
       "Akrapovič egzoz seçeneği, otomobile çok daha karakterli bir ses kazandırıyor.",
-      "Teknoloji tarafında ise sekizinci nesil Golf’ün bilinen zayıflıkları var. Multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı uyarısı ekranda sürekli hata verebiliyor. Gece sürüşlerinde de klima ve ses kontrolündeki dokunmatik panellerin aydınlatması olmadığı için kullanmak zorlaşıyor."
+      "Teknoloji tarafında ise sekizinci nesil Golf’ün bilinen zayıflıkları var. Multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı uyarısı ekranda sürekli hata verebiliyor. Gece sürüşlerinde de klima ve ses kontrolündeki dokunmatik panellerin aydınlatması olmadığı için kullanmak zorlaşıyor.",
+      "Golf R’nin hikâyesi 2002’ye, altı silindirli motoruyla gelen Golf R32’ye uzanıyor. O günden beri “R” harfi, Volkswagen’in en sportif modellerini simgeliyor. Bugünkü Golf R, Almanya’nın Wolfsburg şehrinde üretiliyor ve R modellerinin imza rengi olan parlak mavi tonuyla tanınıyor.",
+      "Golf R’nin sürüş modları arasında ilginç bir tane var: “Special” modu. Volkswagen bu modu, dünyanın en zorlu pistlerinden biri olan Nürburgring Nordschleife için özel olarak ayarladı. Bu modda süspansiyon, pistin tümseklerine ve atlamalarına göre yumuşatılırken motor ve şanzıman en sportif hâline geçiyor.",
+      "Dört çeker sistemi sayesinde Golf R, her havada güvenle kullanılabilen bir hot hatch. Kışın karlı yollarda bile hem hızlı hem de güvenli; dört kapısı ve kullanışlı bagajıyla da bir aile otomobili kadar pratik."
     ],
     "reviewExtra": {
       "teknoloji": "Teknoloji tarafında sekizinci nesil Golf’ün bilinen zayıflıkları var: multimedya sistemi yazılımsal olarak sık sık çökebiliyor, geri görüş kamerası donabiliyor ya da geç açılabiliyor ve Seyahat Asistanı (Travel Assist) uyarısı ekranda sürekli hata verebiliyor.",
@@ -2725,14 +2749,20 @@ export const DETAILS = {
     "longReview": [
       "C 63 S, gürleyen V8 motoru ve eşsiz sesiyle sınıfının en karakterli sedanlarından. Bu motor da AMG’nin “Bir adam, bir motor” felsefesiyle elle monte ediliyor.",
       "Bu nesil özellikle değerli: Yeni nesil C 63, V8’i bırakıp dört silindirli hibrit bir motora geçti. Yani bu otomobil, V8 motorlu son C 63’lerden biri. Islak kavramalı 9 ileri şanzıman, vites geçişlerini çok hızlı yapıyor. Pist sürelerini kaydeden AMG Track Pace de kabindeki ilginç detaylardan.",
-      "Arkadan itişli yapısı nedeniyle ıslak zeminde dikkat istiyor. Tüketimi yüksek. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda trim sesleri ortaya çıkabiliyor."
+      "Arkadan itişli yapısı nedeniyle ıslak zeminde dikkat istiyor. Tüketimi yüksek. Mercedes modellerinin genelinde olduğu gibi uzun süreli kullanımda trim sesleri ortaya çıkabiliyor.",
+      "AMG, 1967’de iki eski Mercedes mühendisi Hans Werner Aufrecht ve Erhard Melcher tarafından kuruldu; AMG adı kurucuların soyadlarının ve Aufrecht’in doğduğu Großaspach kasabasının baş harflerinden oluşuyor. Bugün Mercedes’in performans bölümü olan AMG, motorlarını Almanya’nın Affalterbach kasabasındaki tesisinde elle monte ediyor.",
+      "C 63 S’in V8 motorunun ilginç bir mühendislik detayı var: İki turbo, silindir sıralarının arasındaki V boşluğunun içine yerleştirilmiş. Bu düzen, egzoz gazının turbolara çok kısa bir yoldan ulaşmasını sağlayarak turbo gecikmesini azaltıyor ve motoru daha kompakt hâle getiriyor. Sonuçta gaz pedalına anında tepki veren, gürleyen bir motor ortaya çıkıyor.",
+      "AMG Ride Control süspansiyonu, sürüş modlarına göre sönümlemeyi ayarlayarak C 63 S’i günlük kullanımda katlanılabilir, pistte ise keskin kılıyor. Kalkış kontrolü, bu gücü kayıpsız bir şekilde yere aktarmaya yardımcı oluyor."
     ]
   },
   "porsche-911-gt3-2023": {
     "longReview": [
       "GT3, 911’in pist için yaratılmış hâli. Çok yüksek devirlere dönen atmosferik motoru bugün nadir bulunan bir deneyim sunuyor.",
       "Bu nesilde ön süspansiyon, 911’in yarış otomobili 911 RSR’dan gelen çift salıncaklı bir yapıya geçti. Bu, yol 911’lerinde bir ilk. Kuğu boynu taşıyıcılı dev arka kanadı da yere basma kuvvetini artırıyor. Dijital göstergede sürücüye yalnızca gerekli bilgileri gösteren sade bir pist ekranı modu bulunuyor.",
-      "Değerini koruyan, hatta artıran bir model. Günlük kullanımda ise sert ve gürültülü; pratiklik neredeyse sıfır."
+      "Değerini koruyan, hatta artıran bir model. Günlük kullanımda ise sert ve gürültülü; pratiklik neredeyse sıfır.",
+      "GT3, Porsche’nin motor sporları bölümünün elinden çıkan bir otomobil ve bu nesil önemli bir başarıya imza attı: Dünyanın en zorlu yarış pistlerinden biri olan Nürburgring Nordschleife’yi yedi dakikanın altında tamamlayan ilk 911 GT3 oldu.",
+      "GT3’ü tutkunların gözünde özel kılan bir detay, manuel şanzıman seçeneği. Bugün çok az süper otomobilde bulunan altı ileri manuel şanzıman, sürücüye otomobille çok daha doğrudan bir bağ kurma imkânı veriyor. Porsche ayrıca dev arka kanadı olmayan, daha sade görünümlü bir “Touring” versiyonu da sunuyor; aynı performansı daha zarif bir görünümle isteyenler için.",
+      "GT3, Almanya’nın Stuttgart şehrinin Zuffenhausen semtindeki tarihi Porsche fabrikasında üretiliyor. Sınırlı üretimi ve atmosferik motorların giderek azalması, GT3’ü bugün en çok değer kazanan modern otomobillerden biri yapıyor."
     ]
   },
   "audi-tt-rs-2021": {
@@ -3558,7 +3588,10 @@ export const DETAILS = {
     "longReview": [
       "Corolla’nın en büyük gücü dayanıklılık algısı, kullanım kolaylığı ve geniş servis ağı.",
       "CVT şanzıman vites geçişlerini hissettirmeden konforlu bir sürüş sağlıyor; ancak hızlanma sırasında motor sesi kötü ve otomobil güçsüz hissettiriyor.",
-      "İç mekânı gösterişten çok işlevsel. Arka koltuk alanı ve bagaj hacmi aile kullanımına uygun. Düzenli bakımla çok uzun süre kullanılabilmesi ve yaygın yedek parça imkânları önemli avantajlar."
+      "İç mekânı gösterişten çok işlevsel. Arka koltuk alanı ve bagaj hacmi aile kullanımına uygun. Düzenli bakımla çok uzun süre kullanılabilmesi ve yaygın yedek parça imkânları önemli avantajlar.",
+      "Bu nesil Corolla, Sakarya’daki Toyota fabrikasında üretildi ve 2013–2019 yılları arasında Türkiye’nin en çok satan sedanlarından biri oldu. Makyajlı versiyonla birlikte Corolla’ya Toyota Safety Sense güvenlik paketi geldi: Önündeki araca çarpmak üzere olduğunuzu algılayıp otomatik fren yapan sistem, şerit ihlal uyarısı ve otomatik uzun far. Bu sistemler, o dönem bu sınıfta pek rastlanmayan donanımlardı.",
+      "Corolla’nın kabini geniş ve pratik; arka koltukta zemin neredeyse düz olduğu için ortada oturan yolcu da rahat ediyor. Bagaj sınıfının ortalamasının üzerinde. Basit atmosferik motor ve CVT şanzıman, doğru bakıldığında yüz binlerce kilometre sorunsuz çalışabiliyor.",
+      "Corolla’nın ikinci el piyasasındaki gücü, onu satın alırken de satarken de avantajlı kılıyor. Çok yüksek kilometreli ya da taksi geçmişi olan örneklerden kaçınmak ve bakım geçmişini kontrol etmek şartıyla, sorunsuz bir aile sedanı arayanlar için hâlâ çok güvenli bir seçim."
     ],
     "faq": [
       {
@@ -3629,7 +3662,10 @@ export const DETAILS = {
       "X3’te ilk dikkatimizi çeken şey tasarımı oldu; gerçekten çok çok başarılı. Yolda hem güçlü hem de zarif bir duruşu var.",
       "Donanım çok zengin: panoramik açılır cam tavan, hayalet gösterge (Head-Up Display), anahtarsız giriş ve çalıştırma, otomatik bagaj, kör nokta ve şerit takip asistanları, ısıtmalı koltuklar, ambiyans aydınlatması ve otomatik park etme özelliği. Adaptif LED farlar uzun ve kısa far ayarını da otomatik yapıyor. Bu donanımda otomobil 19 inç M Sport jantlarla geliyor.",
       "Bizce bu otomobil için en mantıklısı M Sport donanımı tercih etmek; hem görünüm hem de sürüş açısından otomobile çok yakışıyor.",
-      "Tek sıkıntı olabilecek durum, rakiplerine oranla biraz daha pahalı olması. Bu onu geride bırakır mı? Tabii ki hayır."
+      "Tek sıkıntı olabilecek durum, rakiplerine oranla biraz daha pahalı olması. Bu onu geride bırakır mı? Tabii ki hayır.",
+      "X3, BMW’nin orta boy SUV’u ve ilk kez 2003’te tanıtıldı. Bu üçüncü nesil, ABD’nin Güney Carolina eyaletindeki Spartanburg fabrikasının yanı sıra Güney Afrika ve Çin’deki fabrikalarda da üretiliyor; dünyanın dört bir yanında satılan küresel bir model.",
+      "Makyajlı versiyonla birlikte X3, daha büyük bir böbrek ızgarası, daha ince farlar ve yenilenen arka lambalar kazandı. Kabinde büyük dijital gösterge ve multimedya ekranı, el hareketleriyle ses seviyesini ayarlayıp çağrıları kabul edebildiğiniz hareket kontrolü ve kapsamlı sürüş destek sistemleri sunuluyor.",
+      "Bu sDrive20i versiyonu arkadan itişli; bu da X3’e, dört çekerli kardeşlerine göre daha hafif ve daha oyunbaz bir sürüş karakteri kazandırıyor. Bagaj sınıfının en kullanışlılarından; arka koltuklar 40:20:40 oranında bölünerek katlanabiliyor."
     ]
   },
 };
