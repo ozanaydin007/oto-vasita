@@ -841,7 +841,10 @@ export const DETAILS = {
     "longReview": [
       "NX 350h, tam hibrit sistemini arka aksı süren ayrı bir elektrik motoruyla birleştirerek dört çekerli bir premium SUV oluşturuyor. Premium sınıfın en düşük tüketimlerinden birini sunuyor.",
       "Kabin işçiliği kusursuz. Lexus’un elektronik kapı açma sistemi ilginç bir detay: Kapılar düğmeyle açılıyor ve arkadan bir araç ya da bisikletli yaklaşırken kapıyı açmanızı engelleyebiliyor. Büyük merkezi ekran ve Mark Levinson ses sistemi seçeneği kabin deneyimini tamamlıyor.",
-      "Sürüş keyfi ise sınırlı. Hibrit sistemin şanzımanı sert hızlanmalarda motoru yüksek devirde tutup gürültü yapabiliyor. NX hızlı değil, sakin ve rahat sürüş için tasarlanmış; efsanevi güvenilirliği de en büyük kozu."
+      "Sürüş keyfi ise sınırlı. Hibrit sistemin şanzımanı sert hızlanmalarda motoru yüksek devirde tutup gürültü yapabiliyor. NX hızlı değil, sakin ve rahat sürüş için tasarlanmış; efsanevi güvenilirliği de en büyük kozu.",
+      "Lexus, NX adının “Nimble Crossover” yani çevik crossover anlamına geldiğini söylüyor. Bu ikinci nesil NX, Lexus için bir dönüm noktası oldu: Markanın büyük dokunmatik ekranı ve “Hey Lexus” sesli asistanını sunan yeni multimedya sistemini ilk kullanan model NX’ti. Lexus’un uzun yıllar eleştirilen dokunmatik ped sistemi de bu nesille tarihe karıştı.",
+      "NX, Japonya’daki Lexus fabrikasında, Lexus’un “Takumi” adını verdiği usta zanaatkârların denetiminde üretiliyor. Kabin işçiliğinin sınıfının en kusursuzlarından biri olmasının sebebi bu. Kabinde sürücüye dönük bir kokpit, kaliteli deri döşemeler ve sessiz bir atmosfer var.",
+      "Lexus’un efsanevi güvenilirliği, NX’i ikinci el piyasasında da çok aranan bir model yapıyor. Hibrit sistemin kanıtlanmış dayanıklılığı, uzun vadede çok düşük bakım maliyetleri anlamına geliyor. Premium bir SUV’da kafa rahatlığını her şeyin önünde tutanlar için çok mantıklı bir seçim."
     ]
   },
   "togg-t10x-2026": {
@@ -1075,14 +1078,20 @@ export const DETAILS = {
     "longReview": [
       "Yeni Macan artık yalnızca elektrikli. Arkadan itişli temel versiyonu bile hem uzun menzil hem de çok hızlı şarj sunuyor; Porsche’nin yüksek voltajlı mimarisi sayesinde şarj molaları çok kısa.",
       "Porsche, elektrikli bir SUV’da bile sürüş karakterinden ödün vermemiş. Arka aks yönlendirme seçeneğiyle hem şehirde çevik hem de otoyolda çok dengeli. Önde ek bir bagaj bölmesi (frunk) var; opsiyonel ön yolcu ekranı da kabine ayrı bir lüks katıyor.",
-      "Türkiye’de elektrikli araçların ÖTV avantajı sayesinde Macan Electric, Porsche dünyasına girmenin en uygun yollarından biri hâline geldi. Yalnız opsiyon listesi çok uzun ve fiyat hızla yükselebiliyor; arka koltukta başüstü mesafesi de uzun boylular için sınırlı."
+      "Türkiye’de elektrikli araçların ÖTV avantajı sayesinde Macan Electric, Porsche dünyasına girmenin en uygun yollarından biri hâline geldi. Yalnız opsiyon listesi çok uzun ve fiyat hızla yükselebiliyor; arka koltukta başüstü mesafesi de uzun boylular için sınırlı.",
+      "Yeni Macan, Almanya’nın Leipzig şehrindeki Porsche fabrikasında üretiliyor ve Porsche ile Audi’nin birlikte geliştirdiği yeni nesil elektrikli altyapıyı kullanan ilk model. Aynı altyapı daha sonra Audi’nin elektrikli A6’sında da kullanıldı.",
+      "Macan’ın ilginç teknolojilerinden biri, opsiyonel artırılmış gerçeklik göstergeli ön cama yansıtmalı ekran. Bu sistem, navigasyon oklarını ve sürüş destek sistemlerinin uyarılarını adeta yolun üzerine yansıtıyor; dönmeniz gereken kavşağı ön camın üzerinde, tam yolun üzerinde görüyorsunuz.",
+      "Macan, elektrikli olmasına rağmen Porsche’nin sürüş karakterini koruyor: Direksiyon net ve hassas, gövde virajlarda dengeli. Alçak ağırlık merkezi sayesinde virajlarda bir SUV’dan çok bir spor otomobil gibi hissettiriyor. Kabin kalitesi ve işçiliği de Porsche’nin bilinen seviyesinde."
     ]
   },
   "porsche-cayenne-2026": {
     "longReview": [
       "Cayenne, büyük bir SUV olmasına rağmen virajlarda bir spor otomobil gibi davranıyor. Porsche’nin bu sınıftaki üstünlüğü hâlâ belirgin; V6 motoru akıcı ve güçlü.",
       "Makyajla birlikte kabin tamamen dijitalleşti: kavisli gösterge paneli ve ön yolcu ekranı standart donanımlar arasında. Bagajı da sınıfının en geniş bagajlarından biri; uzun bir aile tatili için yeterince yer var.",
-      "Türkiye özelinde dikkat edilmesi gereken bir nokta var: Benzinli Cayenne, yüksek ÖTV nedeniyle elektrikli Cayenne’den çok daha pahalıya geliyor. Tüketimi de bu sınıfta beklendiği gibi yüksek; bütçe hesabı yapıyorsanız elektrikli versiyonu da mutlaka karşılaştırın."
+      "Türkiye özelinde dikkat edilmesi gereken bir nokta var: Benzinli Cayenne, yüksek ÖTV nedeniyle elektrikli Cayenne’den çok daha pahalıya geliyor. Tüketimi de bu sınıfta beklendiği gibi yüksek; bütçe hesabı yapıyorsanız elektrikli versiyonu da mutlaka karşılaştırın.",
+      "Cayenne, 2002’de tanıtıldığında Porsche tutkunlarından büyük tepki aldı; spor otomobil markasının bir SUV üretmesi kabul edilemez bulunuyordu. Ama Cayenne kısa sürede Porsche’nin en çok satan modeli oldu ve markanın finansal olarak güçlenmesinde büyük rol oynadı. Bugün birçok kişi, 911’in yaşamaya devam etmesini kısmen Cayenne’in başarısına borçlu olduğunu söylüyor.",
+      "Cayenne, Slovakya’nın Bratislava şehrindeki Volkswagen grubu fabrikasında üretiliyor. Adı, acı biber türünden geliyor. Opsiyonel havalı süspansiyon, yükseklik ayarı sayesinde hem otoyolda alçalarak aerodinamiği iyileştiriyor hem de arazide yükselerek yerden yüksekliği artırıyor.",
+      "Cayenne’in bir de şarj edilebilir hibrit versiyonları var; bu versiyonlar şehir içi kısa mesafeleri tamamen elektrikle yapabiliyor ve Türkiye’de vergi açısından avantajlı olabiliyor. Spor otomobil sürüşünü bir aile SUV’unun pratikliğiyle birleştirmek isteyenler için Cayenne hâlâ sınıfının ölçütü."
     ]
   },
   "mazda-mx-5-2016": {
@@ -1102,7 +1111,10 @@ export const DETAILS = {
       "2 Serisi Coupé, çok severek sürdüğümüz otomobillerden biri. Hatta bence tasarımı BMW’nin en iyi tasarımı; bu kadar net. Zamanının gerçekten ötesindeydi ve bugün bile yolda hâlâ taze görünüyor.",
       "218i’nin 136 beygirlik motoru güç konusunda biraz eksik kalıyor; 136 beygir bu otomobil için çok yeterli değil. Ama hafif kasası ve ZF’nin 8 ileri şanzımanı otomobili yine de rahatça taşıyor. Şanzıman o kadar akıllı ve hızlı ki motordaki eksikliği büyük ölçüde kapatıyor.",
       "Bu otomobili 220d olarak alırsanız işler daha da iyi oluyor: hem daha güçlü hem de daha az yakıt tüketen bir otomobile sahip olursunuz. Yine de benzinli hâli de gayet başarılı ve günlük kullanımda tüketimi düşük.",
-      "Arkadan itişli dengeli şasisiyle 2 Serisi Coupé, BMW sürüş keyfini makul bir bütçeyle yaşamak isteyenler için çok mantıklı. Arka koltuğu dar, ama bu otomobili alacak biri için bunun çok önemi olmayacaktır."
+      "Arkadan itişli dengeli şasisiyle 2 Serisi Coupé, BMW sürüş keyfini makul bir bütçeyle yaşamak isteyenler için çok mantıklı. Arka koltuğu dar, ama bu otomobili alacak biri için bunun çok önemi olmayacaktır.",
+      "2 Serisi Coupé, Almanya’nın Leipzig şehrindeki BMW fabrikasında üretildi ve 1 Serisi Coupé’nin yerini aldı. Bu otomobilin ne kadar iyi bir şasiye sahip olduğunu gösteren en güzel kanıt, BMW’nin efsanevi M2’sini bu otomobilin üzerine kurması. M2, bugün modern BMW M otomobillerinin en saf ve en keyifli örneklerinden biri olarak kabul ediliyor.",
+      "2 Serisi Coupé’nin sürüş keyfinin sırrı, neredeyse eşit ağırlık dağılımı ve arkadan itişli yapısı. Motor uzunlamasına yerleştirildiği için ön tekerlekler yalnızca yön vermekle meşgul; bu da direksiyona bugünün önden çekişli otomobillerinde bulunmayan bir saflık ve netlik kazandırıyor.",
+      "Kompakt boyutları sayesinde şehirde kullanımı kolay; arka koltuk ise yetişkinler için kısa yolculuklarda yeterli. 2 Serisi Coupé, ikinci el piyasasında arkadan itişli bir BMW sürüş keyfini en makul bütçeyle yaşamanın yollarından biri ve giderek daha aranan bir model hâline geliyor."
     ]
   },
   "audi-s3-sportback-2021": {
@@ -1386,7 +1398,10 @@ export const DETAILS = {
     "longReview": [
       "XC90, yedi koltuklu premium SUV’lar arasında güvenliği ve sakin karakteriyle öne çıkıyor. Volvo’nun koltukları uzun yolda bel ve sırtı mükemmel destekliyor; kabin İskandinav sadeliğinde ve çok aydınlık.",
       "Kristal vites topuzu, Google tabanlı multimedya sistemi ve arka koltuğa entegre çocuk yükselticisi seçeneği bu otomobile özgü detaylar. Üçüncü sıra koltuklar çocuklar için rahat; yetişkinler için ise kısa mesafelerde kullanılabilir.",
-      "Sürüş dinamikleri sıradan; XC90 hızlı değil, sakin sürüş için tasarlanmış. Motor da bu büyük gövdede, özellikle araç tam doluyken zorlanabiliyor."
+      "Sürüş dinamikleri sıradan; XC90 hızlı değil, sakin sürüş için tasarlanmış. Motor da bu büyük gövdede, özellikle araç tam doluyken zorlanabiliyor.",
+      "İkinci nesil XC90, İsveç’in Göteborg şehrindeki Torslanda fabrikasında üretiliyor ve Volvo’nun yeniden doğuşunun simgesi oldu. 2014’te tanıtılan bu otomobil, Volvo’nun bugün bütün büyük modellerinde kullandığı yeni altyapıyı ilk kullanan model; “Thor’un çekici” biçimindeki gündüz farları da ilk kez XC90’da görüldü.",
+      "XC90, dünyada ilk kez sunulan ilginç bir güvenlik teknolojisine sahip: yoldan çıkma koruması. Otomobil yoldan çıkıp bir hendeğe ya da araziye girdiğini algıladığında emniyet kemerlerini önceden geriyor; koltukların altındaki enerji emici yapılar da sert iniş anında yolcuların omurgasına gelen darbeyi azaltıyor.",
+      "Volvo’nun güvenlik mirası, XC90’ı kalabalık aileler için en güvenli seçeneklerden biri yapıyor. Kabinin sakinliği, rahat koltukları ve İskandinav tasarımıyla XC90, yedi koltuklu bir premium SUV’da huzur arayanlar için çok mantıklı bir seçim."
     ]
   },
   "bmw-x5-2020": {
@@ -1426,7 +1441,10 @@ export const DETAILS = {
     "longReview": [
       "Yeni nesil Range Rover Sport, zamansız ve minimal tasarımıyla yolda çok güçlü bir duruşa sahip. Altı silindirli dizel motoru büyük gövdeyi zahmetsizce taşıyor.",
       "Havalı süspansiyon asfaltta bir lüks sedan konforu sunarken, Terrain Response sistemi zemine göre otomobilin ayarlarını değiştiriyor. Derin sulardan geçebilmesiyle sınıfının en yetenekli SUV’larından biri; arazide de gerçekten iş görüyor.",
-      "İkinci el alırken dikkatli olmak şart. Range Rover’ların elektronik ve süspansiyon sistemlerinde güvenilirlik geçmişi zayıf; bakım ve onarım maliyetleri de çok yüksek. Garantisi devam eden ya da yetkili servis geçmişi tam bir örnek tercih edilmeli."
+      "İkinci el alırken dikkatli olmak şart. Range Rover’ların elektronik ve süspansiyon sistemlerinde güvenilirlik geçmişi zayıf; bakım ve onarım maliyetleri de çok yüksek. Garantisi devam eden ya da yetkili servis geçmişi tam bir örnek tercih edilmeli.",
+      "Range Rover Sport, İngiltere’nin Solihull şehrindeki Land Rover fabrikasında üretiliyor. İlk Range Rover Sport 2005’te çıktığında, Range Rover’ın lüksünü daha sportif ve daha dinamik bir gövdeyle sunma fikrinin ürünüydü; bugünkü üçüncü nesil bu fikri en olgun hâline taşıyor.",
+      "Range Rover Sport’un ilginç teknolojilerinden biri, kabin havası temizleme sistemi. Bu sistem, kabindeki havayı filtrelerin yanı sıra iyonlaştırma teknolojisiyle temizleyerek bakterileri, virüsleri ve kötü kokuları azaltmayı hedefliyor. Otomobile binmeden önce telefondan çalıştırılarak kabin havası önceden temizlenebiliyor.",
+      "Viraj denge sistemi, 48 voltluk elektrikli aktüatörlerle virajlarda gövdenin yatmasını neredeyse tamamen engelliyor. Bu da bu büyük ve ağır SUV’u virajlarda şaşırtıcı derecede dengeli kılıyor. Opsiyonel arka aks yönlendirmesi ise şehir içinde dönüş çapını belirgin şekilde küçültüyor."
     ]
   },
   "lexus-es-2022": {
@@ -1443,7 +1461,10 @@ export const DETAILS = {
       "BMW i4; sürüş dinamikleri, sessizliği ve malzeme kalitesiyle alınabilecek en keyifli elektrikli otomobillerden biri. Ancak beklentilere ve kullanım şekline göre bazı tavizler vermek gerekebiliyor.",
       "BMW’nin klasik sportif DNA’sını korumuş: yol tutuşu ve direksiyon tepkileri sınıfında çok iyi. Motor gücü gayet yerinde ve otomobil oldukça hızlı; sürüş keyfi muazzam. Elektrik motorunun sessizliği de kabindeki çok başarılı yalıtımla birleşmiş.",
       "Güncel birçok rakibine kıyasla ergonomik fiziksel tuşların bir kısmını korumaya devam etmesi büyük artı. Bagaj kapağının camla birlikte açılan yapısı da çok başarılı; büyük eşyaları yüklemek bir sedandan çok daha kolay.",
-      "Tavizlere gelince: i4 doğuştan saf bir elektrikli platformda (örneğin iX’teki gibi) geliştirilmediği için arkada şaft tüneline benzer bir çıkıntı var; bu da arka diz ve baş mesafesini daraltıyor ve iç hacmi kısıtlıyor. 12,5 metrelik dönüş çapı şehir içi dar alanlarda ve park manevralarında dezavantaj yaratabiliyor. Hızlı şarj gücü de bazı rakiplerinin gerisinde."
+      "Tavizlere gelince: i4 doğuştan saf bir elektrikli platformda (örneğin iX’teki gibi) geliştirilmediği için arkada şaft tüneline benzer bir çıkıntı var; bu da arka diz ve baş mesafesini daraltıyor ve iç hacmi kısıtlıyor. 12,5 metrelik dönüş çapı şehir içi dar alanlarda ve park manevralarında dezavantaj yaratabiliyor. Hızlı şarj gücü de bazı rakiplerinin gerisinde.",
+      "i4, Almanya’nın Münih şehrindeki BMW ana fabrikasında, 3 Serisi ile aynı üretim hattında üretiliyor. Bu esnek üretim anlayışı, BMW’nin elektrikli geçişteki yaklaşımının bir parçası. i4’ün en güçlü versiyonu i4 M50, BMW’nin M bölümünün geliştirdiği ilk elektrikli otomobil oldu.",
+      "i4’ün kabininde, BMW’nin elektrikli otomobillerinin sürüş seslerini Oscar ödüllü film müziği bestecisi Hans Zimmer ile birlikte tasarladığı ses deneyimi var. Gaz pedalına bastığınızda kabinde, hızlanmanıza göre değişen fütüristik bir ses duyuluyor; bu sesi kapatabiliyor ya da sürüş moduna göre değiştirebiliyorsunuz.",
+      "Kabinde BMW’nin kavisli ekranı var; gösterge paneli ve multimedya ekranı tek bir kavisli yüzeyde birleşiyor. Gran Coupé gövde, bir sedan kadar şık ama bir hatchback kadar pratik; elektrikli bir BMW’de sürüş keyfini her şeyin önüne koyanlar için çok cazip."
     ]
   },
   "audi-e-tron-gt-2022": {
@@ -1615,14 +1636,20 @@ export const DETAILS = {
     "longReview": [
       "Urus, süper otomobil performansını bir SUV gövdesine taşıyor; sınıfının en hızlı SUV’larından biri.",
       "Savaş uçağı esintili “Tamburo” sürüş modu seçicisi otomobilin karakterini tamamen değiştiriyor. Strada (yol), Sport ve Corsa (pist) modlarının yanında Neve (kar), Terra (arazi) ve Sabbia (kum) gibi modlar da var; yani Urus yalnızca asfaltta değil, kumda ve karda da yetenekli. Dev karbon seramik frenler de bu gücü güvenle durduruyor.",
-      "Geniş bagajı ve dört kişilik kabiniyle günlük kullanılabilen bir Lamborghini. Bedeli ise çok yüksek tüketim, yüksek bakım maliyetleri ve sert sürüş modlarında azalan konfor."
+      "Geniş bagajı ve dört kişilik kabiniyle günlük kullanılabilen bir Lamborghini. Bedeli ise çok yüksek tüketim, yüksek bakım maliyetleri ve sert sürüş modlarında azalan konfor.",
+      "Urus, adını evcil sığırların vahşi atası olan ve artık nesli tükenmiş dev bir yaban öküzü türünden alıyor; Lamborghini’nin modellerine boğalarla ilgili isimler verme geleneğinin bir parçası. İtalya’nın Sant’Agata Bolognese kasabasında üretiliyor.",
+      "Urus, Lamborghini’nin ilk SUV’u değil. Marka, 1986’da LM002 adında bir arazi aracı üretmişti; “Rambo Lambo” lakabıyla bilinen bu otomobil, bugün koleksiyonerlerin en çok aradığı Lamborghini’lerden biri. Urus, bu mirasın modern bir yorumu.",
+      "Urus, Volkswagen grubunun büyük SUV altyapısını Audi Q8, Porsche Cayenne ve Bentley Bentayga ile paylaşıyor; ama Lamborghini bu altyapıya kendi karakterini vermiş. Agresif tasarımı, altıgen detaylarla dolu kabini ve kırmızı kapaklı çalıştırma düğmesiyle Urus, bir SUV’dan çok bir süper otomobil gibi hissettiriyor. Lamborghini’nin tarihinde en çok satan model oldu."
     ]
   },
   "aston-martin-db11-2021": {
     "longReview": [
       "DB11, yaşayan en güzel gran turismo tasarımlarından biri. Kaputun tek parça hâlinde, çamurluklarla birlikte açılan “clamshell” yapısı bu tasarımın imzalarından.",
       "Arkada görünür bir spoyler yok, ama arka direklerden alınan hava gövdenin içinden geçirilip bagaj kapağından üflenerek görünmez bir spoyler gibi çalışıyor. Aston Martin buna “Aeroblade” diyor. V8 motoru ise Mercedes-AMG ile iş birliğinden geliyor ve güçlü, dengeli bir karakter sunuyor.",
-      "Uzun yolda çok konforlu ve kabini el işçiliği hissi veriyor. Zayıf noktası multimedya sistemi; eski bir Mercedes sistemine dayandığı için yaşını belli ediyor."
+      "Uzun yolda çok konforlu ve kabini el işçiliği hissi veriyor. Zayıf noktası multimedya sistemi; eski bir Mercedes sistemine dayandığı için yaşını belli ediyor.",
+      "DB11, İngiltere’nin Gaydon kasabasındaki Aston Martin fabrikasında üretiliyor. Adındaki “DB” harfleri, Aston Martin’in 1947–1972 yılları arasındaki sahibi Sir David Brown’ın baş harfleri. Bu efsanevi seri, özellikle James Bond filmlerinde kullanılan DB5 sayesinde dünyanın en tanınmış otomobil isimlerinden biri hâline geldi.",
+      "DB11’in V12 motorlu bir versiyonu da var; ama birçok tutkun bu V8 versiyonunu daha dengeli buluyor. Daha hafif motor, otomobilin ön tarafını hafifleterek virajlarda daha çevik bir karakter kazandırıyor. V8 motorun derin ve güçlü sesi de bu gran turismoya çok yakışıyor.",
+      "Kabin, el işçiliği hissi veren deri döşemeler ve kaliteli detaylarla dolu. Uzun yolda konforlu ve sessiz; arkadaki iki küçük ek koltuk da çocuklar ya da çantalar için kullanılabiliyor. DB11, bir İngiliz gran turismosunun zarafetini ve performansını bir arada sunan nadir otomobillerden."
     ]
   },
   "aston-martin-vantage-2022": {
@@ -1729,7 +1756,10 @@ export const DETAILS = {
     "longReview": [
       "911 Turbo S’in gazına sonuna kadar bastığınız ilk anı unutmanız mümkün değil. Güç dört tekere öyle kusursuz dağıtılıyor ki otomobil yere yapışıp fırlıyor; buna rağmen trafikte sıradan bir otomobil kadar uysal.",
       "Hıza ve sürüş moduna göre konumunu değiştiren aktif ön spoyler ve arka kanat, otomobilin hem hızlı hem de dengeli kalmasını sağlıyor. Arka aks yönlendirmesi ve karbon seramik frenler standart.",
-      "Her havada ve her yolda kullanılabilen, sınıfına göre şaşırtıcı derecede konforlu bir süper otomobil. İşçiliği kusursuz ve değerini çok iyi koruyor."
+      "Her havada ve her yolda kullanılabilen, sınıfına göre şaşırtıcı derecede konforlu bir süper otomobil. İşçiliği kusursuz ve değerini çok iyi koruyor.",
+      "911 Turbo’nun hikâyesi 1974’e, 930 kodlu ilk 911 Turbo’ya uzanıyor. O ilk Turbo, gücü aniden ve sert bir şekilde veren turbosu ve arkadan itişli yapısıyla o kadar zorlu bir otomobildi ki “dul bırakan” lakabıyla anıldı. Bugünkü Turbo S ise bu mirası tamamen tersine çeviriyor: Dört çeker, arka aks yönlendirmesi ve gelişmiş elektronik sistemlerle sınıfının en kolay ve en güvenli sürülen süper otomobillerinden biri.",
+      "Turbo S, Almanya’nın Stuttgart şehrinin Zuffenhausen semtindeki tarihi Porsche fabrikasında üretiliyor. Karbon seramik frenler standart; dev disklerle bu inanılmaz performansı güvenle durduruyor. Ön kaputun altında bir bagaj, arkada da iki küçük ek koltuk var; bu küçük koltuklar çocuklar ya da çantalar için kullanılabiliyor.",
+      "Turbo S’in en etkileyici yanı, bu kadar performansı günlük kullanımla birleştirebilmesi. Konfor modunda şehir trafiğinde sakin ve uysal, kabin sessiz; ama gaz pedalına sonuna kadar bastığınızda dünyanın en hızlı hızlanan otomobillerinden birine dönüşüyor."
     ],
     "review": {
       "surus": "911 Turbo S’in gazına sonuna kadar bastığınız ilk anı unutmanız mümkün değil. 650 beygirlik güç dört tekere öyle kusursuz dağıtılıyor ki otomobil yere yapışıp fırlıyor; buna rağmen trafikte sıradan bir otomobil kadar uysal."
@@ -2642,7 +2672,10 @@ export const DETAILS = {
       "Q5’in iç mekânı oldukça sade bir tasarıma sahip. Abartı değil, ama zaten Audi’nin tasarım ideolojisi bu. Dışarıdan biraz daha sert ve sportif görünen bir otomobil.",
       "Pratiklik tarafında çok tatmin edici: arka koltukları indirdiğinizde yaklaşık 1.520 litrelik bir yükleme alanı oluşuyor. Taşınma, tatil ya da büyük alışverişler için gayet yeterli.",
       "Süspansiyonlar çok aşırı konforlu değil; otomobil biraz daha spor bir havada ayarlanmış. Yine de uzun yolda konfor sıkıntısı yok. Dizel motora rağmen yalıtım iyi olduğu için kabin genelde sessiz.",
-      "Rakipleri BMW X3, Land Rover Discovery Sport, Mercedes GLC ve Porsche Macan."
+      "Rakipleri BMW X3, Land Rover Discovery Sport, Mercedes GLC ve Porsche Macan.",
+      "Q5, Audi’nin dünya genelinde en çok satan SUV’larından biri. İlginç bir detay: Bu nesil Q5, Meksika’daki Audi fabrikasında üretiliyor ve buradan dünyanın dört bir yanına ihraç ediliyor. Makyajla birlikte Q5’e, coupé gibi eğimli tavanlı bir Sportback versiyonu da eklendi.",
+      "Q5’in quattro sistemi, verimlilik için akıllı bir çözüm kullanıyor: Normal sürüşte arka aks tamamen devre dışı kalıyor ve otomobil önden çekişli gibi çalışıyor; bu da tüketimi düşürüyor. Sistem, tekerlek kayması ya da sert hızlanma ihtiyacını önceden algıladığında saniyenin çok küçük bir kesrinde arka aksı devreye sokuyor.",
+      "Makyajla birlikte kabine daha büyük bir dokunmatik ekran geldi ve döner kumanda kaldırıldı. Audi’nin kabin işçiliği ve sessizliği, Q5’i uzun yolda çok konforlu kılıyor. Güçlü ikinci el talebi de satarken avantaj sağlıyor."
     ]
   },
   "porsche-macan-2021": {
@@ -3497,7 +3530,10 @@ export const DETAILS = {
     "longReview": [
       "Passat; geniş iç mekânı, konforlu sürüşü ve ciddi tasarımıyla öne çıkıyor. Uzun yolda yakıt tüketimi çok düşük ve büyük deposuyla tek seferde çok uzağa gidebiliyorsunuz.",
       "DSG çift kavramalı otomatik şanzıman hızlı ve akıcı vites geçişleri sunuyor. Geniş arka koltuk alanı ve büyük bagaj hacmi aileler ve sık seyahat edenler için önemli avantajlar. Yalıtımı ve uzun yol konforu modelin en güçlü yönleri; açık konuşmak gerekirse çoook konforlu.",
-      "Bununla birlikte DSG şanzıman, dizel motorun emisyon sistemi (DPF ve EGR) ve genel bakım geçmişi ikinci el alımında dikkatle incelenmeli."
+      "Bununla birlikte DSG şanzıman, dizel motorun emisyon sistemi (DPF ve EGR) ve genel bakım geçmişi ikinci el alımında dikkatle incelenmeli.",
+      "Passat, 1973’ten beri üretiliyor ve Volkswagen’in en uzun soluklu modellerinden biri. Bu sekizinci nesil, Almanya’nın Emden ve Zwickau fabrikalarında üretildi ve 2015’te Avrupa’da Yılın Otomobili seçildi.",
+      "Bu nesil Passat, Volkswagen’in dijital gösterge panelini (Active Info Display) sunan ilk modeli oldu. Direksiyonun arkasındaki büyük ekranda navigasyon haritasını tam ekran görebiliyordunuz; o dönem bu sınıfta pek rastlanmayan bir teknolojiydi. Otomobili yukarıdan gösteren kamera sistemi ve otomatik park asistanı gibi donanımlar da üst donanımlarda sunuluyordu.",
+      "Passat’ın kabini, bir üst sınıfı aratmayacak kadar geniş; arka koltukta bacak bacak üstüne atıp oturabileceğiniz bir diz mesafesi var. Türkiye’de uzun yıllar makam otomobili olarak tercih edilmesinin ve ikinci elde bu kadar aranmasının sebebi de bu."
     ],
     "faq": [
       {
