@@ -51,7 +51,10 @@ export const DETAILS = {
     "longReview": [
       "i20 şehir içinde rahatça hareket ediyor ve kolayca park ediliyor. İç mekânı kullanışlı bir düzende; dijital göstergesi ve donanımıyla da modern hissettiriyor.",
       "Kabini bir şehir otomobili için gerçekten ferah; arkaya geçen bir yetişkin bile dizlerinden pek şikâyet etmiyor. Yumuşak süspansiyon ayarı şehrin çukurlu sokaklarında işinizi epey kolaylaştırıyor.",
-      "Motoru ise çok güçlü değil. 90 beygir şehirde yeterli olsa da dolu bir araçla otoyolda ve sollamalarda biraz planlı olmak gerekiyor."
+      "Motoru ise çok güçlü değil. 90 beygir şehirde yeterli olsa da dolu bir araçla otoyolda ve sollamalarda biraz planlı olmak gerekiyor.",
+      "i20, Hyundai’nin İzmit’teki fabrikasında üretiliyor ve buradan Avrupa’nın dört bir yanına ihraç ediliyor; Hyundai Assan’ın en önemli ihracat modellerinden biri. Makyajlı versiyon, daha keskin bir ön tampon, yeni jantlar ve yenilenen detaylarla güncellendi.",
+      "Bu versiyonun turbo motoru ve çift kavramalı şanzımanı, i20’ye şehir içinde canlı bir performans kazandırıyor. Hyundai’nin kapsamlı güvenlik paketi; şerit takip, kör nokta uyarısı ve otomatik acil fren gibi sistemleri bir araya getiriyor. Üst donanımlarda sunulan Bose ses sistemi ve kablosuz şarj da bu sınıfta pek rastlanmayan donanımlar.",
+      "i20’nin bir de performans versiyonu var: i20 N. Aynı gövdeyi kullanan bu hot hatch, Hyundai’nin Nürburgring’de geliştirdiği şasisiyle sınıfının en keyifli otomobillerinden biri. Normal i20 ise aynı sağlam temeli, konforlu ve ekonomik bir şehir otomobili olarak sunuyor."
     ],
     "review": {
       "konfor": "i20’nin kabini bir şehir otomobili için gerçekten ferah; arkaya geçen bir yetişkin bile dizlerinden pek şikâyet etmiyor. Yumuşak süspansiyon ayarı da şehrin çukurlu sokaklarında işinizi epey kolaylaştırıyor."
@@ -1010,7 +1013,10 @@ export const DETAILS = {
     "longReview": [
       "C 200 d, premium sedan sınıfında konforu, prestiji ve kendi döneminin modern teknolojilerini bir araya getiriyor.",
       "Dizel motor uzun mesafelerde yakıt ekonomisine odaklanırken günlük sürüş için yeterli çekiş sağlıyor. Hızlı bir otomobil değil, ama sakin ve verimli.",
-      "Kaliteli iç mekân tasarımı, ekranları ve sürüş destek sistemleri öne çıkan özellikleri arasında. Dengeli şasi yapısı da konfor ile yol tutuşu arasında iyi bir denge kuruyor."
+      "Kaliteli iç mekân tasarımı, ekranları ve sürüş destek sistemleri öne çıkan özellikleri arasında. Dengeli şasi yapısı da konfor ile yol tutuşu arasında iyi bir denge kuruyor.",
+      "W205 kasa C Serisi, Almanya’nın Bremen şehrindeki Mercedes fabrikasında üretildi ve Mercedes’in “küçük S Serisi” tasarım anlayışını ilk kez bu sınıfa taşıyan model oldu. Zarif hatları ve kabin kalitesi, döneminin rakiplerinin belirgin şekilde önündeydi.",
+      "Bu nesil C Serisi, sınıfında havalı süspansiyon seçeneği sunan ilk otomobil oldu. Air Body Control adlı bu sistem, bozuk yolları çok iyi süzerek C Serisi’ne bir üst sınıf konforu kazandırıyordu. Orta konsoldaki dokunmatik ped ise multimedya sistemini yönetmenin yeni bir yoluydu; parmağınızla harf yazarak adres girebiliyordunuz.",
+      "Kabindeki yuvarlak türbin havalandırmaları, ahşap ya da alüminyum kaplamalar ve geniş orta konsol, kabine sıcak ve lüks bir atmosfer katıyor. Bugün bile bu kabin, zarif tasarımıyla yaşını belli etmiyor. Dizel motorun düşük tüketimi de uzun yolda bu otomobili çok ekonomik kılıyor."
     ],
     "faq": [
       {
@@ -1668,21 +1674,30 @@ export const DETAILS = {
     "longReview": [
       "Vantage, Aston Martin’in daha keskin ve daha çevik spor otomobili. Motoru ön aksın arkasında konumlandıran ön orta motor düzeni, ideale yakın bir ağırlık dağılımı sağlıyor.",
       "Elektronik kontrollü arka diferansiyel virajda gücü iki tekerlek arasında dağıtarak otomobilin çok keskin dönmesine yardımcı oluyor. Kaslı ve agresif tasarımı ve güçlü V8 sesiyle yolda gerçekten dikkat çekiyor.",
-      "Kabin kalitesi ise fiyatına göre zayıf kalıyor; süspansiyon da günlük kullanımda serte kaçıyor."
+      "Kabin kalitesi ise fiyatına göre zayıf kalıyor; süspansiyon da günlük kullanımda serte kaçıyor.",
+      "Vantage adı, Aston Martin’in tarihinde 1951’e kadar uzanıyor. O dönem bu ad, DB2 modelinin daha güçlü motorlu versiyonları için kullanılıyordu; zamanla Aston Martin’in en sportif modelinin adı oldu. Bugünkü Vantage, İngiltere’nin Gaydon kasabasındaki Aston Martin fabrikasında üretiliyor.",
+      "Vantage’ın Formula 1 ile de bir bağı var: Aston Martin’in F1’e dönmesiyle birlikte Vantage, Formula 1 yarışlarında güvenlik otomobili olarak kullanılmaya başlandı. Bu görevden ilham alan özel bir F1 Edition versiyonu da üretildi; daha sert süspansiyonu ve büyük arka kanadıyla bu versiyon, Vantage’ın en sportif hâli.",
+      "Mercedes-AMG kaynaklı V8 motor, düşük devirlerden itibaren güçlü bir çekiş ve derin bir ses sunuyor. Vantage, Aston Martin’in gran turismo geleneğini daha keskin ve daha sportif bir pakette yaşamak isteyenler için tasarlandı."
     ]
   },
   "bentley-continental-gt-2022": {
     "longReview": [
       "Continental GT, kusursuz el işçiliği ve malzeme kalitesiyle gran turismo sınıfının zirvesinde. Kabindeki en ünlü detay, döner ekran: Bir düğmeyle torpidodaki panel dönüyor ve ekran yerine üç analog gösterge ya da tamamen ahşap kaplama bir yüzey ortaya çıkıyor.",
       "Bentley’nin 48 voltluk aktif viraj denge sistemi, virajlarda gövdenin yatmasını neredeyse tamamen engelliyor. Dört çekerle her koşulda güven veriyor; uzun yol konforu olağanüstü. Mulliner kişiselleştirme seçenekleriyle neredeyse her detay müşteriye göre şekillendirilebiliyor.",
-      "Bedeli ise çok yüksek kullanım ve bakım maliyetleri."
+      "Bedeli ise çok yüksek kullanım ve bakım maliyetleri.",
+      "Continental GT, İngiltere’nin Crewe şehrindeki Bentley fabrikasında üretiliyor ve her bir otomobilin üretimi yüzlerce saatlik el işçiliği gerektiriyor. Kabindeki ahşap kaplamaların ilginç bir detayı var: Kaplamalar, aynı ağaçtan kesilen ardışık katmanlardan hazırlanıyor ve otomobilin sağ ve sol tarafındaki desenler birbirinin ayna görüntüsü olacak şekilde eşleştiriliyor.",
+      "Opsiyonel Naim ses sistemi, sınıfının en iyi ses sistemlerinden biri; koltuklara yerleştirilen titreşim birimleri, müziğin baslarını yolcunun bedenine aktarıyor. Bentley’nin Mulliner bölümü ise neredeyse sınırsız kişiselleştirme seçenekleri sunuyor: dikiş renginden ahşap türüne kadar her detay müşteriye göre şekillendirilebiliyor.",
+      "Continental GT, uzun yolda kıtalar arasında seyahat etmek için tasarlanmış bir gran turismo: Sessiz, konforlu ve son derece güçlü. Adı da bu amacı anlatıyor; “Continental”, Avrupa kıtasını baştan sona geçebilecek bir otomobili simgeliyor."
     ]
   },
   "bentley-bentayga-2022": {
     "longReview": [
       "Bentayga, sınıfının en lüks kabinlerinden birine sahip. El dikişli deriler, gerçek ahşap ve metal detaylar ve Mulliner kişiselleştirme seçenekleriyle her otomobil neredeyse tek bir müşteriye özel üretilmiş gibi.",
       "V8 motoru bu ağır SUV’u şaşırtıcı bir hızla taşıyor. Havalı süspansiyon ve neredeyse kusursuz ses yalıtımı yolculuğu sessiz ve yumuşak hâle getiriyor. Opsiyonel Naim ses sistemi de sınıfının en iyilerinden.",
-      "Bedeli ise yüksek tüketim ve çok yüksek bakım maliyetleri. İkinci el alırken yetkili servis geçmişi ve garanti durumu mutlaka kontrol edilmeli."
+      "Bedeli ise yüksek tüketim ve çok yüksek bakım maliyetleri. İkinci el alırken yetkili servis geçmişi ve garanti durumu mutlaka kontrol edilmeli.",
+      "Bentayga, Bentley’nin ilk SUV’u ve 2015’te tanıtıldı. İngiltere’nin Crewe şehrindeki Bentley fabrikasında üretiliyor ve kısa sürede markanın en çok satan modeli oldu. Adını, Kanarya Adaları’ndaki Gran Canaria’da bulunan Roque Bentayga adlı kayalık zirveden alıyor.",
+      "Bentayga’nın en ünlü opsiyonlarından biri, torpidonun ortasına yerleştirilen Breitling imzalı Mulliner Tourbillon saati. Bu el yapımı mekanik saat, tek başına birçok otomobilden daha pahalıya mal olabiliyor. Mulliner bölümü ayrıca bagaja yerleştirilen, piknik takımı içeren özel bir sepet ve bagajın arkasından açılan oturma yerleri gibi seçenekler de sunuyor.",
+      "48 voltluk aktif viraj denge sistemi, bu büyük ve ağır SUV’un virajlarda gövdesinin yatmasını neredeyse tamamen engelliyor. Bentayga, lüksü ve kişiselleştirmeyi en üst seviyede bir SUV’da isteyenler için SUV dünyasının zirvelerinden biri."
     ]
   },
   "maserati-mc20-2023": {
@@ -1826,7 +1841,10 @@ export const DETAILS = {
     "longReview": [
       "Açıkçası Polo; düşük yakıt tüketimi ve Volkswagen kalitesi ile güvenilirliği dışında çok bir şey sunmuyor. Bu ikisi elbette önemli, ama bu bütçede rakiplerinden ayrışmasına yetmiyor.",
       "Sürüşü olgun ve sessiz, bagajı geniş; ama donanım ve kabin oldukça sade. Aynı paraya daha donanımlı, daha keyifli rakipler bulmak mümkün.",
-      "En büyük sorunu fiyatı. İkinci el piyasası, sunduklarına göre nedense pahalı. Ben olsam biraz bütçeden kısıp daha uygun fiyatlı, farklı modellere yönelirdim."
+      "En büyük sorunu fiyatı. İkinci el piyasası, sunduklarına göre nedense pahalı. Ben olsam biraz bütçeden kısıp daha uygun fiyatlı, farklı modellere yönelirdim.",
+      "Polo, 1975’ten beri üretiliyor ve Volkswagen’in en uzun soluklu modellerinden biri; dünya genelinde milyonlarca satıldı. Altıncı nesil Polo, İspanya’nın Pamplona şehrindeki Volkswagen fabrikasında üretiliyor ve önceki nesle göre belirgin şekilde büyüdü; artık neredeyse bir önceki Golf kadar geniş bir kabine sahip.",
+      "Bu nesil Polo, sınıfında önündeki araca çarpmak üzere olduğunuzu algılayıp otomatik fren yapan sistemi standart olarak sunan otomobillerden biri oldu. Opsiyonel dijital gösterge paneli de o dönem bu sınıfta pek rastlanmayan bir teknolojiydi.",
+      "Daha önce belirttiğimiz gibi Polo’nun en güçlü yanları düşük tüketim ve Volkswagen kalitesi. Kabin sessiz, sürüş olgun; bir şehir otomobilinden çok bir üst sınıf otomobil gibi hissettiriyor. Bu olgunluğun bedeli ise fiyatında ödeniyor."
     ]
   },
   "mini-cooper-2024": {
@@ -2672,7 +2690,10 @@ export const DETAILS = {
     "longReview": [
       "X3 xDrive20d; dizel motoru, ZF şanzımanı ve xDrive dört çekeriyle hem güçlü hem de ekonomik bir paket.",
       "Sınıfının en keskin yol tutuşlarından birine sahip; virajlarda bir SUV’dan çok bir sedan gibi davranıyor. Makyajlı kasada gelen büyük ekranlar ve el hareketiyle bazı fonksiyonları kontrol etmeye yarayan hareket kontrolü gibi detaylar kabini modern tutuyor.",
-      "M Sport süspansiyon ise sert; bozuk yollarda bunu hissettiriyor. BMW’lerde olduğu gibi opsiyonlar pahalı; ikinci el alırken hangi donanımların olduğuna dikkat etmek gerekiyor."
+      "M Sport süspansiyon ise sert; bozuk yollarda bunu hissettiriyor. BMW’lerde olduğu gibi opsiyonlar pahalı; ikinci el alırken hangi donanımların olduğuna dikkat etmek gerekiyor.",
+      "Bu versiyonun dizel motoru, 48 voltluk hafif hibrit sistemle destekleniyor. Bu sistem kalkışlarda ek güç sağlıyor, start-stop geçişlerini neredeyse hissedilmez hâle getiriyor ve tüketimi düşürüyor. Uzun yolda bu büyük SUV, şaşırtıcı derecede ekonomik.",
+      "X3’ün pratik yanlarından biri çekiş kapasitesi. Dört çekerli dizel versiyonlar, sınıfı için yüksek bir römork çekme kapasitesine sahip; karavan ya da tekne römorku çekmek isteyenler için mantıklı bir seçim. Arka koltuklar 40:20:40 oranında bölünerek katlanabiliyor.",
+      "Makyajlı versiyonla birlikte X3’e daha büyük bir böbrek ızgarası, daha ince farlar ve yenilenen kabin ekranları geldi. Kabin işçiliği BMW’nin bilinen kalitesinde; uzun yolda sessiz ve konforlu."
     ]
   },
   "mercedes-benz-glc-2022": {
@@ -2718,7 +2739,10 @@ export const DETAILS = {
     "longReview": [
       "RX 450h, V6 motorla elektrik motorlarını birleştiren tam hibrit sistemiyle büyük bir SUV’da şaşırtıcı derecede makul tüketim sunuyor; sürüşü sessiz ve akıcı.",
       "Kabin işçiliği kusursuz ve sessizlik seviyesi sınıfının en iyilerinden. Mark Levinson ses sistemi seçeneği müzik dinlemeyi ayrı bir keyfe dönüştürüyor. Lexus’un efsanevi güvenilirliği de ikinci el alımında en büyük güvence.",
-      "Zayıf noktası multimedya sistemi: dokunmatik pedle kullanım sürüş sırasında zor ve dikkat dağıtıcı. Sürüş keyfi de sınırlı; RX sportif değil, tamamen konfor odaklı."
+      "Zayıf noktası multimedya sistemi: dokunmatik pedle kullanım sürüş sırasında zor ve dikkat dağıtıcı. Sürüş keyfi de sınırlı; RX sportif değil, tamamen konfor odaklı.",
+      "RX, 1998’de tanıtıldığında lüks crossover sınıfının öncülerinden biri oldu; bir lüks sedanın konforunu yüksek bir SUV gövdesinde sunma fikri o dönem için yeniydi. 2005’te ise RX 400h ile dünyanın ilk lüks hibrit SUV’u olarak tarihe geçti. Bugünkü RX 450h, bu hibrit mirasın olgunlaşmış hâli.",
+      "RX, Japonya’nın Kyushu adasındaki Lexus fabrikasında üretiliyor. Lexus’un “Takumi” adını verdiği usta zanaatkârların denetimindeki kabin işçiliği, sınıfının en kusursuzlarından biri. Kabin olağanüstü sessiz; uzun yolda yorgunluğu belirgin şekilde azaltıyor.",
+      "Lexus’un hibrit sistemlerinin kanıtlanmış dayanıklılığı, RX’i ikinci el piyasasında çok güvenilir bir seçim yapıyor. Batarya ve hibrit şanzımanda ciddi sorunlar neredeyse hiç görülmüyor; bu da uzun vadede çok düşük bakım maliyetleri anlamına geliyor."
     ]
   },
   "volkswagen-golf-r-2021": {
@@ -3113,7 +3137,10 @@ export const DETAILS = {
     "longReview": [
       "Tank desek yerinde olur; muazzam bir otomobil. Sıralı altı silindir motor ve xDrive ile hem çok hızlı hem de her koşulda kayaya oturmuş gibi güven veriyor. Bir eksiğini bulmaya çok uğraştık ama bulamadık.",
       "Hızlı, donanımlı ve teknolojik; hatta anahtarı bile çok güzel ve teknolojik. Harman Kardon ses sistemiyle kabin adeta muazzam bir orkestrayı barındırıyor. Kristal vites topuzu da kabine ayrı bir lüks katıyor.",
-      "Tek eksi olarak sayabildiğimiz şey fiyatı."
+      "Tek eksi olarak sayabildiğimiz şey fiyatı.",
+      "8 Serisi, BMW’nin 1990’lardaki efsanevi büyük coupé’sinin adını yeniden canlandırdı. İlk 8 Serisi 1989–1999 yılları arasında üretilmiş ve bugün koleksiyonerlerin en çok aradığı BMW’lerden biri hâline gelmişti. Yeni 8 Serisi, Almanya’nın Dingolfing şehrindeki BMW fabrikasında üretiliyor.",
+      "Kabindeki kristal detaylar, 8 Serisi’nin lüks karakterinin simgesi. Vites topuzu, çalıştırma düğmesi, iDrive kumandası ve ses seviyesi düğmesi, el yapımı kristal camdan üretilebiliyor; ışık vurduğunda kabine küçük parıltılar yayıyor. Opsiyonel lazer destekli farlar da uzun far menzilini olağanüstü bir mesafeye çıkarıyor.",
+      "8 Serisi, BMW’nin gran turismo anlayışının zirvesi: Uzun yolda konforlu ve sessiz, virajlı yolda ise keskin ve dengeli. Daha önce bahsettiğimiz gibi bu otomobilde bir eksik bulmak gerçekten zor."
     ],
     "review": {
       "surus": "Tank desek yerinde olur; muazzam bir otomobil. 340 beygirlik sıralı altı silindir ve xDrive ile hem çok hızlı hem de her koşulda kayaya oturmuş gibi güven veriyor. Bir eksiğini bulmaya çok uğraştık ama bulamadık.",
@@ -3446,7 +3473,10 @@ export const DETAILS = {
   "kia-picanto-2026": {
     "longReview": [
       "Kia Picanto, küçük boyutlarıyla özellikle şehir içi kullanım için geliştirilmiş pratik bir otomobil. Dar sokaklarda ilerlemek ve park yeri bulmak oldukça kolay.",
-      "Kolay kullanımı yeni sürücüler için büyük avantaj. Küçük hacimli motoru ise otoyol hızlarında sınırlı kalabiliyor; uzun yol bu otomobilin işi değil."
+      "Kolay kullanımı yeni sürücüler için büyük avantaj. Küçük hacimli motoru ise otoyol hızlarında sınırlı kalabiliyor; uzun yol bu otomobilin işi değil.",
+      "Picanto, Kia’nın en küçük otomobili ve Güney Kore’de üretiliyor. Makyajla birlikte otomobil daha keskin bir yüze kavuştu: Ön ve arkadaki yeni LED ışık imzaları ve büyük ızgara, bu küçük otomobile beklenmeyecek kadar iddialı bir görünüm kazandırıyor. GT-Line donanımı da sportif tamponlar ve detaylarla bu havayı güçlendiriyor.",
+      "Kabin, boyutlarına göre şaşırtıcı derecede iyi donanımlı. Dokunmatik multimedya ekranı, telefonla eşleşme, geri görüş kamerası ve üst donanımlarda otomatik acil fren gibi sürüş destek sistemleri sunuluyor. Basit atmosferik motor ve robotize şanzıman, uzun vadede bakımı ucuz ve sorunsuz bir mekanik sağlıyor.",
+      "Kia’nın Avrupa’da sunduğu uzun garanti, Picanto’yu ilk otomobil arayanlar için çok cazip kılıyor; Türkiye’deki garanti koşullarını satın almadan önce kontrol etmek mantıklı. Şehirde yaşayan, otomobilini çoğunlukla kısa mesafelerde kullanan ve masraf çıkarmayan bir otomobil isteyenler için Picanto, sınıfının en akıllıca seçimlerinden biri."
     ],
     "faq": [
       {
@@ -3539,7 +3569,10 @@ export const DETAILS = {
     "longReview": [
       "Fiat Egea Sedan; uygun fiyatlı kullanımı, geniş bagaj hacmi ve ekonomik dizel motoruyla Türkiye pazarında en yaygın tercih edilen modellerden biri.",
       "1.3 Multijet motor özellikle sakin kullanımda çok düşük yakıt tüketimi sağlayabiliyor. Performansı ise atak değil; sollamalarda planlı olmak gerekiyor.",
-      "İç mekânda malzeme kalitesi mütevazı. Yaygın servis ağı ve parça bulunabilirliği ise işletme maliyetlerini yönetmeyi çok kolaylaştırıyor."
+      "İç mekânda malzeme kalitesi mütevazı. Yaygın servis ağı ve parça bulunabilirliği ise işletme maliyetlerini yönetmeyi çok kolaylaştırıyor.",
+      "Egea, 2015’te tanıtıldığında Tofaş için çok önemli bir projeydi: Bursa’da geliştirilip üretilen otomobil, dünyanın birçok ülkesine Fiat Tipo adıyla ihraç edildi. Türkiye’de ise kısa sürede satış listelerinin zirvesine yerleşti ve uzun süre ülkenin en çok satan otomobili oldu.",
+      "Egea’nın başarısının sırrı, Türkiye’deki bir aile otomobili alıcısının ne istediğini çok iyi anlamasıydı: geniş bir bagaj, ekonomik bir dizel motor, uygun bir fiyat ve her yerde bulunabilen ucuz parçalar. 1.3 Multijet motor, küçük hacmine rağmen düşük devirlerden yeterli bir çekiş sunuyor ve sakin kullanımda çok az yakıyor.",
+      "İkinci el piyasasında Egea’nın en büyük avantajı, satmak istediğinizde çok kısa sürede alıcı bulması. Daha önce belirttiğimiz ön süspansiyon takozlarının ve dizel partikül filtresinin durumunu kontrol ettirmek şartıyla, bütçe dostu bir aile sedanı arayanlar için hâlâ çok mantıklı bir seçim."
     ],
     "faq": [
       {
@@ -3612,7 +3645,10 @@ export const DETAILS = {
     "longReview": [
       "2016 Ford Focus Sedan, yol tutuşu ve sürüş dinamikleriyle sınıfındaki birçok rakibinden ayrılıyor. Dengeli şasisi ve direksiyon tepkileri virajlı yollarda sürücüye güven veriyor. Süspansiyonu ise sert.",
       "1.5 TDCi dizel motor özellikle uzun mesafelerde ekonomik kullanım sunuyor. Sedan gövde de günlük ihtiyaçlar için kullanışlı bir bagaj alanı sağlıyor.",
-      "İkinci el alırken dizel partikül filtresi, turbo ve enjeksiyon sistemi gibi parçaların durumu mutlaka kontrol edilmeli."
+      "İkinci el alırken dizel partikül filtresi, turbo ve enjeksiyon sistemi gibi parçaların durumu mutlaka kontrol edilmeli.",
+      "Üçüncü nesil Focus, 2012’de dünyanın en çok satan otomobili oldu; Ford’un tek bir küresel otomobil fikrinin ne kadar başarılı olduğunu gösteren bir sonuç. Makyajlı versiyon, Aston Martin’i andıran trapez ızgarasıyla daha karakterli bir yüze kavuştu ve kabinde daha az düğmeli, daha sade bir düzene geçti.",
+      "Bu nesil Focus’ta sunulan sürüş destek sistemleri, döneminin rakiplerinin önündeydi. Paralel ve dik park yerlerine direksiyonu kendisi çevirerek giren otomatik park asistanı, geri geri çıkarken yandan yaklaşan araçları algılayan sistem ve şehir içi düşük hızlarda otomatik fren yapan sistem, üst donanımlarda sunuluyordu.",
+      "Focus’ın şasisi, sınıfının sürüş referansı olarak kabul ediliyordu ve sedan gövdede de bu karakter korunuyor. Uzun yolda ekonomik, virajlı yolda keyifli bir aile sedanı arayanlar için ikinci elde mantıklı bir seçim."
     ],
     "faq": [
       {
@@ -3632,7 +3668,10 @@ export const DETAILS = {
   "fiat-500-2021": {
     "longReview": [
       "Fiat 500, retro tasarımıyla diğer küçük otomobillerden hemen ayrılıyor. Dar sokaklarda rahatça hareket ediyor; küçük boyutları park etmeyi çok kolaylaştırıyor.",
-      "İç mekânı şirin ve kendine özgü bir tarz taşıyor. Bagaj ve arka koltuk ise çok küçük; bu otomobil daha çok tek başına ya da iki kişi kullanım için. Şehir içinde tarz sahibi bir otomobil istiyorsanız ama herkes gibi Clio ya da Egea almak istemiyorsanız Fiat 500 iyi bir seçenek olabilir."
+      "İç mekânı şirin ve kendine özgü bir tarz taşıyor. Bagaj ve arka koltuk ise çok küçük; bu otomobil daha çok tek başına ya da iki kişi kullanım için. Şehir içinde tarz sahibi bir otomobil istiyorsanız ama herkes gibi Clio ya da Egea almak istemiyorsanız Fiat 500 iyi bir seçenek olabilir.",
+      "Bugünkü Fiat 500, 2007’de, efsanevi Nuova 500’ün tanıtımının ellinci yılında piyasaya sürüldü. 1957’de çıkan orijinal 500, savaş sonrası İtalya’sında milyonlarca insanın ilk otomobili olmuş ve İtalyan kültürünün simgelerinden biri hâline gelmişti. Modern 500, bu mirası taşıyan retro tasarımıyla kısa sürede dünyanın dört bir yanında sevildi.",
+      "Bu versiyonun motoru, üç silindirli bir benzinli motoru küçük bir elektrik motoruyla destekleyen hafif hibrit bir sistem. Elektrik motoru kalkışlarda ek güç sağlıyor ve start-stop geçişlerini yumuşatıyor; şehir içi tüketimi düşük tutuyor.",
+      "Dolcevita donanımı, adını İtalyan yaşam tarzını simgeleyen “tatlı hayat” ifadesinden alıyor; krom detaylar ve açılır cam tavan gibi şık detaylarla 500’ün retro karakterini öne çıkarıyor. Fiat 500, otomobilini bir aksesuar gibi kişiliğinin parçası olarak gören şehirliler için tasarlanmış bir otomobil."
     ]
   },
   "citroen-c5-aircross-2026": {
