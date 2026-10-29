@@ -10,7 +10,10 @@ export const DETAILS = {
     "longReview": [
       "Yeni Clio’yu ilk gördüğünüzde bir şehir otomobiline baktığınıza inanmak zor. Keskin farları ve kaslı duruşuyla segmentinin en havalı tasarımlarından; Bursa’dan çıkan bir otomobilin bu kadar iddialı görünmesi ayrıca gurur verici.",
       "Şehir içinde oldukça pratik bir kullanım sunuyor. Kompakt boyutları sayesinde park etmek kolay, trafikte manevra yapmak zahmetsiz. İç mekânı günlük ihtiyaçları rahatça karşılıyor ve kabinde ucuzluk hissi neredeyse yok.",
-      "Uygun kullanım maliyetleriyle çok geniş bir kitleye hitap ediyor. Arka koltuk diz mesafesi biraz dar; EDC şanzıman da düşük hızlarda zaman zaman sarsıntılı olabiliyor."
+      "Uygun kullanım maliyetleriyle çok geniş bir kitleye hitap ediyor. Arka koltuk diz mesafesi biraz dar; EDC şanzıman da düşük hızlarda zaman zaman sarsıntılı olabiliyor.",
+      "Clio, uzun yıllardır Bursa’daki Oyak Renault fabrikasında üretiliyor ve buradan Avrupa’nın dört bir yanına ihraç ediliyor. Avrupa’nın en çok satan otomobilleri arasında sürekli zirvede yer alan Clio, Türkiye’de de yıllardır en çok tercih edilen modellerden biri. Yeni Clio’nun keskin ve iddialı tasarımı da bu başarıyı sürdürmek için tasarlandı.",
+      "Yeni Clio’nun kabininde iki büyük ekran var ve multimedya sistemi Google tabanlı: Google Haritalar, Google Asistan ve Google Play uygulamaları doğrudan otomobilin içinde çalışıyor. Telefonunuzu bağlamadan navigasyon ve müzik için her şey hazır. Kabin malzemeleri, bu sınıfta premium hissettirecek kadar kaliteli.",
+      "Clio’nun bagajı, sınıfının en büyüklerinden biri olmaya devam ediyor. Turbo benzinli motor ve EDC şanzıman şehir içinde canlı ve ekonomik bir sürüş sunuyor. Bursa üretimi sayesinde parça ucuz ve servis yaygın; ikinci elde de çok kolay alıcı buluyor."
     ],
     "faq": [
       {
@@ -305,7 +308,10 @@ export const DETAILS = {
     "longReview": [
       "Civic, sportif tasarımıyla ilk bakışta öne çıkıyor; içinde ve dışında spor otomobil havası mevcut. Direksiyonuna geçtiğinizde neden yıllardır bu kadar sevildiğini hemen anlıyorsunuz.",
       "Şasi virajlara iştahla giriyor, 1.5 turbo motor her devirde canlı ve akıcı bir sürüş sunuyor. Kabin geniş, oturma pozisyonu rahat; bir aile sedanından bu kadar keyif almak gerçekten nadir. Bagajı da günlük ihtiyaçları rahatça karşılıyor.",
-      "Bilmeniz gereken iki nokta var. Direksiyon kutusunda zamanla sertleşme ve takılma hissi görülebiliyor; düz yolda sürekli küçük düzeltmeler yapma ihtiyacı doğabiliyor. Ayrıca 110 km/s üzerindeki hızlarda A sütunu ve aynalardan kabine belirgin bir rüzgar sesi geliyor."
+      "Bilmeniz gereken iki nokta var. Direksiyon kutusunda zamanla sertleşme ve takılma hissi görülebiliyor; düz yolda sürekli küçük düzeltmeler yapma ihtiyacı doğabiliyor. Ayrıca 110 km/s üzerindeki hızlarda A sütunu ve aynalardan kabine belirgin bir rüzgar sesi geliyor.",
+      "Civic, 1972’den beri üretiliyor ve 2022’de ellinci yılını kutladı; dünyanın en uzun soluklu otomobil isimlerinden biri. On birinci nesil Civic, önceki neslin agresif ve karmaşık çizgilerinden uzaklaşıp daha sade, daha olgun bir tasarıma geçti.",
+      "Kabindeki en zarif detay, torpidonun bir ucundan diğerine uzanan petek desenli metal ızgara. Bu ızgara, havalandırma çıkışlarını gizliyor; havalandırmalar ızgaranın arkasında kaybolmuş gibi görünüyor ve kabine çok temiz bir görünüm veriyor. Üst donanımlarda sunulan Bose ses sistemi de sınıfının en iyilerinden.",
+      "Honda Sensing güvenlik paketi; adaptif hız sabitleyici, şerit takip ve trafik işareti tanıma gibi sistemlerle standart olarak geliyor. Civic’in güçlü ikinci el talebi ve Honda güvenilirliği, uzun vadede bu otomobili çok mantıklı bir yatırım yapıyor."
     ],
     "review": {
       "surus": "Civic’in direksiyonuna geçtiğinizde neden yıllardır bu kadar sevildiğini hemen anlıyorsunuz. Şasi virajlara iştahla giriyor, 1.5 turbo motor her devirde canlı; bir aile sedanından bu kadar keyif almak gerçekten nadir."
@@ -1360,14 +1366,20 @@ export const DETAILS = {
     "longReview": [
       "M3, dört kapılı bir sedanda pist seviyesinde performans sunuyor. M xDrive dört çeker sistemi, tek tuşla ön aksı devre dışı bırakıp saf arkadan itişli bir otomobile dönüşebiliyor.",
       "Pistte ve kapalı alanlarda eğlenmek isteyenler için ilginç araçları var. Kaymaları puanlayan M Drift Analyser, tur sürelerini kaydeden M Laptimer ve 10 kademeli M Traction Control ile kayma miktarını kendi seviyenize göre ayarlayabiliyorsunuz. Opsiyonel karbon kova koltuklar da otomobile yarış havası katıyor.",
-      "Dört kapısıyla günlük hayatta pratik bir otomobil. En çok tartışılan yanı ise büyük, dikey ön ızgarası; herkesin beğenisine hitap etmiyor."
+      "Dört kapısıyla günlük hayatta pratik bir otomobil. En çok tartışılan yanı ise büyük, dikey ön ızgarası; herkesin beğenisine hitap etmiyor.",
+      "M3, Almanya’nın Münih şehrindeki BMW fabrikasında üretiliyor. Bu nesil, M3’ün tarihinde iki önemli ilke imza attı: Dört çeker seçeneği sunulan ilk M3 oldu ve M3’ün tarihinde ilk kez station wagon gövdeli bir Touring versiyonu üretildi. Uzun yıllar boyunca M3 Touring isteyen tutkunların hayali, bu nesille gerçek oldu.",
+      "Sıralı altı silindir biturbo motor, düşük devirlerden itibaren muazzam bir çekiş sunuyor ve yüksek devirlerde bir M otomobilinden beklenen karakteristik sesi çıkarıyor. Opsiyonel karbon seramik frenler, pistte tekrar tekrar yapılan sert frenlemelerde bile performansını kaybetmiyor.",
+      "Kabinde kırmızı çalıştırma düğmesi, direksiyondaki kırmızı M1 ve M2 düğmeleri ve orta konsoldaki “Setup” düğmesi var. Setup ile motor tepkisini, süspansiyonu, direksiyonu ve fren hissini ayrı ayrı ayarlayabiliyorsunuz. Dört kapısı ve kullanışlı bagajıyla M3, ailesiyle de kullanılabilen bir pist otomobili."
     ]
   },
   "audi-rs-6-avant-2021": {
     "longReview": [
       "RS 6 Avant, süper otomobil performansını bir station wagon gövdesinde sunuyor. Bu nesilde A6 Avant ile yalnızca tavan, ön kapılar ve bagaj kapağı ortak; geri kalan bütün gövde panelleri, genişletilmiş çamurluklar dahil, RS 6’ya özel.",
       "V8 motoru, düşük yükte bazı silindirleri devre dışı bırakarak tüketimden tasarruf edebiliyor. Quattro dört çeker sayesinde her havada güvenle kullanılabiliyor; havalı süspansiyonla uzun yolda da şaşırtıcı derecede konforlu.",
-      "Dev bagajı ve geniş kabiniyle aile otomobili olarak kullanılabilen en hızlı otomobillerden biri. Bedeli ise çok yüksek tüketim."
+      "Dev bagajı ve geniş kabiniyle aile otomobili olarak kullanılabilen en hızlı otomobillerden biri. Bedeli ise çok yüksek tüketim.",
+      "RS 6 Avant, Almanya’nın Neckarsulm şehrinde, Audi Sport’un sorumluluğunda üretiliyor. Bu nesilde RS 6’nın sedan versiyonu yok; yalnızca station wagon gövdeyle sunuluyor. Bu, Audi’nin RS 6’yı her şeyden önce “aile otomobili gibi kullanılabilen bir süper otomobil” olarak konumlandırdığını gösteriyor.",
+      "RS 6’nın ilginç bir süspansiyon teknolojisi var: Dynamic Ride Control. Bu sistemde çapraz konumdaki amortisörler, örneğin sol ön ile sağ arka, hidrolik olarak birbirine bağlı. Virajlarda ve sert frenlemelerde gövdenin yatmasını ve öne eğilmesini mekanik olarak sınırlıyor; bunun için elektronik bir sisteme ihtiyaç duymuyor.",
+      "Opsiyonel karbon seramik frenler ve büyük jantlar, bu güçlü otomobilin performansını tamamlıyor. Dev bagajı ve geniş arka koltuğuyla RS 6, bir aileyi tatile götürebilecek ve dönüşte pistte tur atabilecek nadir otomobillerden."
     ]
   },
   "volvo-xc90-2023": {
@@ -1404,7 +1416,10 @@ export const DETAILS = {
     "longReview": [
       "Q7, yedi koltuklu premium SUV’lar arasında en dengeli seçeneklerden. V6 dizel motoru büyük gövdeyi pürüzsüz ve sessiz şekilde taşıyor; uzun yolda tüketimi de makul.",
       "Kabinde alt alta iki dokunmatik ekran ve Virtual Cockpit var. Arka aks yönlendirme seçeneği, bu büyük SUV’un şehirde dönüş çapını belirgin şekilde küçültüyor. Beş koltuklu düzende dev bir bagaja ulaşıyor ve çok pratik.",
-      "Üçüncü sıra koltuklar ise yetişkinler için dar; daha çok çocuklar ya da kısa mesafeler için. Büyük boyutları da şehirde park ederken zorlayıcı olabiliyor."
+      "Üçüncü sıra koltuklar ise yetişkinler için dar; daha çok çocuklar ya da kısa mesafeler için. Büyük boyutları da şehirde park ederken zorlayıcı olabiliyor.",
+      "Q7, Audi’nin ilk SUV’u olarak 2005’te tanıtıldı ve markanın SUV ailesinin temelini attı. Bugünkü ikinci nesil, Slovakya’nın Bratislava şehrindeki Volkswagen grubu fabrikasında, Volkswagen Touareg ve Porsche Cayenne ile aynı çatı altında üretiliyor.",
+      "Opsiyonel HD Matrix LED farlar, karşıdan gelen aracı algılayıp onu ışık huzmesinin dışında bırakırken yolun geri kalanını uzun farla aydınlatıyor. Havalı süspansiyon seçeneği, bozuk yollarda kabine neredeyse hiç sarsıntı taşımıyor ve arazi koşullarında gövdeyi yükselterek yerden yüksekliği artırabiliyor.",
+      "Q7’nin kabin işçiliği Audi’nin bilinen kalitesinde; uzun yolda sessiz ve konforlu. Yedi kişilik bir aileyi uzun bir tatile taşımak için hem alan hem de konfor açısından sınıfının en mantıklı seçeneklerinden biri."
     ]
   },
   "land-rover-range-rover-sport-2023": {
@@ -1580,14 +1595,20 @@ export const DETAILS = {
     "longReview": [
       "Roma, modern bir klasik gibi zarif tasarımıyla Ferrari’nin en şık otomobillerinden. Ferrari onu 1950’ler ve 60’ların Roma’sındaki “La Dolce Vita” yaşam tarzından ilham alarak tasarladığını söylüyor.",
       "Kabinde ön yolcunun da kendi ekranı var; sürüş verilerini yolcu da takip edebiliyor. Arka cama entegre aktif spoyler, hıza göre konumunu değiştiriyor. Direksiyondaki Manettino’da ıslak zemin modu da bulunuyor.",
-      "Günlük kullanıma uygun konforuyla bir gran turismo karakteri taşıyor. Zayıf noktası ise direksiyondaki dokunmatik tuşlar; sürüş sırasında kullanmak zorlaşabiliyor."
+      "Günlük kullanıma uygun konforuyla bir gran turismo karakteri taşıyor. Zayıf noktası ise direksiyondaki dokunmatik tuşlar; sürüş sırasında kullanmak zorlaşabiliyor.",
+      "Roma, İtalya’nın Maranello şehrindeki Ferrari fabrikasında üretiliyor ve motoru önde, arkada iki küçük ek koltuğu olan bir gran turismo. Ferrari, bu otomobilin şanzımanını hibrit süper otomobili SF90 Stradale’den aldı: Sekiz ileri çift kavramalı bu şanzıman, vites geçişlerini hem çok hızlı hem de şehir içinde çok yumuşak yapıyor.",
+      "Roma’nın sade ve temiz yüzeylerinde aerodinamik detaylar ustalıkla gizlenmiş. Arka camın altına entegre edilen hareketli spoyler hıza göre yükselerek yere basma kuvvetini artırıyor; düşük hızlarda ise gövdenin içinde kaybolup tasarımın akıcılığını bozmuyor. Otomobilin altındaki hava kanalları da gövdeyi yola doğru çekiyor.",
+      "Ferrari, Roma’nın açık tavanlı bir versiyonunu da üretti: Kumaş tavanlı Roma Spider. Ama coupé, Roma’nın zarif siluetini en saf hâliyle sunuyor. Bagajı ve arka ek koltuklarıyla, hafta sonu kaçamakları için gerçekten kullanılabilen bir Ferrari."
     ]
   },
   "lamborghini-huracan-evo-2021": {
     "longReview": [
       "Huracán EVO, atmosferik V10 motorunun eşsiz sesiyle tam bir süper otomobil. Kırmızı kapağı kaldırıp çalıştırma düğmesine bastığınız anda başlayan tören bile bir deneyim.",
       "EVO ile gelen öngörülü sürüş dinamiği sistemi, otomobilin bir sonraki hareketini önceden tahmin ederek dört çekeri, arka aks yönlendirmesini ve süspansiyonu aynı anda yönetiyor. Bu sayede bu kadar güçlü bir otomobil şaşırtıcı derecede kontrol edilebilir oluyor.",
-      "Strada, Sport ve Corsa sürüş modlarıyla otomobilin karakteri tamamen değişiyor. Bedeli ise çok yüksek tüketim ve bakım maliyetleri."
+      "Strada, Sport ve Corsa sürüş modlarıyla otomobilin karakteri tamamen değişiyor. Bedeli ise çok yüksek tüketim ve bakım maliyetleri.",
+      "Huracán, İtalya’nın Sant’Agata Bolognese kasabasındaki Lamborghini fabrikasında üretiliyor. Lamborghini, modellerine efsanevi boğaların adını verme geleneğine sahip; Huracán da adını 1879’da İspanya’da cesaretiyle ün kazanmış bir dövüş boğasından alıyor. Şirketin kurucusu Ferruccio Lamborghini’nin burcunun boğa olması da bu geleneğin kaynaklarından biri.",
+      "Huracán’ın atmosferik V10 motoru, Audi R8 ile paylaşılan bir motor; Lamborghini’nin Volkswagen grubuna ait olmasının bir sonucu. Ama Lamborghini bu motora kendi karakterini vermiş: Yüksek devirlerdeki çığlık atan sesi, turbo motorların bugün artık veremediği bir deneyim.",
+      "EVO ile birlikte kabine sürücüye dönük büyük bir dokunmatik ekran geldi; bu ekrandan klimayı, multimedyayı ve sürüş verilerini yönetebiliyorsunuz. Uçak kokpitini andıran düğmeler ve altıgen motifler kabinin her yerinde Lamborghini’nin tasarım dilini hissettiriyor. Huracán, bir süper otomobil için şaşırtıcı derecede kolay sürülüyor; bu da onu Lamborghini’nin en çok satan modellerinden biri yaptı."
     ]
   },
   "lamborghini-urus-2022": {
@@ -1833,7 +1854,10 @@ export const DETAILS = {
     "longReview": [
       "QX70, kaslı ve kendine özgü tasarımıyla yolda sık görülmeyen bir premium SUV. Renault-Nissan iş birliğiyle geliştirilen V6 dizel motoru son derece pürüzsüz çalışıyor.",
       "Arkadan itiş ağırlıklı dört çeker sistemi sayesinde sportif bir yol tutuşa sahip. Nissan ve Infiniti’nin ilk kullananlarından olduğu 360 derece kamera sistemi de döneminin çok ilerisindeydi.",
-      "En büyük sorunu marka. Infiniti, Türkiye ve Avrupa pazarından çekildi; bu da parça bulmayı ve yetkili servis hizmeti almayı zorlaştırıyor. Bagajı küçük, teknolojisi de artık eski. Almadan önce bölgenizde bu araca bakabilecek bir usta olduğundan emin olun."
+      "En büyük sorunu marka. Infiniti, Türkiye ve Avrupa pazarından çekildi; bu da parça bulmayı ve yetkili servis hizmeti almayı zorlaştırıyor. Bagajı küçük, teknolojisi de artık eski. Almadan önce bölgenizde bu araca bakabilecek bir usta olduğundan emin olun.",
+      "QX70, aslında Infiniti’nin uzun yıllar FX adıyla sattığı modelin yeni adı. Infiniti, 2013’te bütün modellerinin isimlerini yeniledi ve FX, QX70 oldu. Infiniti, Nissan’ın 1989’da kurduğu lüks markası; QX70 da Japonya’daki Nissan fabrikasında üretildi.",
+      "Infiniti’nin bu dönemdeki ilginç teknolojilerinden biri, “Scratch Shield” adını verdiği boya. Bu özel boya, küçük çizikleri ve kılcal izleri zamanla, özellikle sıcak havada, kendi kendine onarabiliyordu. İkinci elde bile boyanın görece iyi durumda kalmasının sebeplerinden biri bu.",
+      "Uzun kaputu, kısa arka bölümü ve kaslı çamurluklarıyla QX70, bir SUV’dan çok yükseltilmiş bir spor otomobil gibi tasarlanmıştı. Bu tasarım, bugün bile yolda dikkat çekiyor ve onu sıradan premium SUV’lardan ayırıyor."
     ]
   },
   "bmw-ix-2023": {
@@ -2236,7 +2260,10 @@ export const DETAILS = {
     "longReview": [
       "A Serisi kompakt bir gövdede premium bir deneyim sunuyor. İç mekânındaki çift ekran çok modern duruyor, dış tasarımı da sportif ve dinamik.",
       "Şehir içinde kullanımı oldukça kolay; şık ve prestijli bir otomobil. Motoru rakiplerinden biraz daha güçlü, ama kayda değer bir fark yaratmıyor. Süspansiyonu sert ve arka koltuk sınırlı; uzun süreli kullanımda da Mercedes’lerde olduğu gibi trim sesleri ortaya çıkabiliyor.",
-      "Açık konuşmak gerekirse rakiplerinden ayrışacak çok fazla bir yanı yok. “A3 mü, 1 Serisi mi, Golf mü, A Serisi mi?” sorusunun net bir cevabı da bence yok; her zaman kişinin neyi önemsediğinde bitiyor."
+      "Açık konuşmak gerekirse rakiplerinden ayrışacak çok fazla bir yanı yok. “A3 mü, 1 Serisi mi, Golf mü, A Serisi mi?” sorusunun net bir cevabı da bence yok; her zaman kişinin neyi önemsediğinde bitiyor.",
+      "Bu nesil A Serisi, 2018’de çıktığında Mercedes’in MBUX multimedya sistemini ve “Hey Mercedes” sesli asistanını sunan ilk model oldu. Yani bugün en pahalı Mercedes’lerde bile bulunan bu sistem, ilk kez markanın en uygun fiyatlı modelinde tanıtıldı. Bu, Mercedes’in A Serisi ile genç bir kitleye ulaşma hedefinin bir parçasıydı.",
+      "A Serisi, Almanya’nın Rastatt ve Macaristan’ın Kecskemét şehirlerindeki fabrikalarda üretiliyor. Türbin biçimli havalandırma ızgaraları, 64 renk seçenekli ambiyans aydınlatması ve tek bir cam yüzeyin altında yan yana duran iki ekran, kabine bu sınıfta pek rastlanmayan bir lüks hissi veriyor.",
+      "AMG donanımı, sportif tamponlar, büyük jantlar ve sportif koltuklarla A Serisi’ne genç ve dinamik bir görünüm kazandırıyor. A Serisi’nin bir de sedan versiyonu var; daha büyük bagaj isteyenler için alternatif olabilir."
     ],
     "reviewExtra": {
       "konfor": "Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor."
@@ -2349,7 +2376,10 @@ export const DETAILS = {
     "longReview": [
       "CLA kesinlikle sert bir otomobil. Daha sportif bir havada olduğu için süspansiyonlar biraz sert kalmış ve bozuk zeminlerde bunu hissettiriyor.",
       "Arka koltukta boyunuz 1,85 m civarındaysa sınırdasınız; coupé tavan nedeniyle arka koltuklarda çok büyük bir hacim yok. Kabin içindeki alüminyum detaylar ise çok güzel duruyor ve premium görünüme ciddi katkı yapıyor. Dışarıdan da çok agresif ve sportif bir havası var; bu, en olumlu yönlerinden biri.",
-      "Fiyatı maalesef ekstraları ekledikçe hızla artabiliyor. Ama baz hâlini alsanız bile Mercedes kalitesini hissediyorsunuz. Mercedes’lerin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor."
+      "Fiyatı maalesef ekstraları ekledikçe hızla artabiliyor. Ama baz hâlini alsanız bile Mercedes kalitesini hissediyorsunuz. Mercedes’lerin genelinde olduğu gibi uzun süreli kullanımda kabinde trim sesleri ortaya çıkabiliyor.",
+      "İkinci nesil CLA, Macaristan’ın Kecskemét şehrindeki Mercedes fabrikasında üretiliyor. Mercedes, CLA’yı “dört kapılı coupé” olarak konumlandırıyor; alçak tavan çizgisi ve çerçevesiz kapı camları bu coupé havasını güçlendiriyor. Aerodinamik açıdan da sınıfının en verimli otomobillerinden biri.",
+      "CLA, Mercedes’in MBUX multimedya sistemini ve “Hey Mercedes” sesli asistanını sunuyor; tek bir cam yüzeyin altında yan yana duran iki ekran ve türbin biçimli havalandırmalar kabine bir üst sınıf havası katıyor. Opsiyonel 64 renkli ambiyans aydınlatması gece kabini tamamen başka bir yere dönüştürüyor.",
+      "CLA’nın bir de station wagon versiyonu var: CLA Shooting Brake. Aynı şık tasarımı, daha büyük bir bagaj ve daha pratik bir gövdeyle sunuyor. Daha fazla yük alanı isteyenler için bu versiyon değerlendirilebilir."
     ],
     "reviewExtra": {
       "konfor": "Mercedes modellerinin genelinde olduğu gibi, uzun süreli kullanımda kabinde trim (plastik) sesleri maalesef ortaya çıkabiliyor ve zamanla rahatsız edebiliyor."
@@ -2676,14 +2706,20 @@ export const DETAILS = {
     "longReview": [
       "TT RS’in kalbinde Audi’nin efsanevi beş silindirli turbo motoru var. Bu motor defalarca “Yılın Motoru” ödülü kazandı ve eşsiz sesiyle tanınıyor.",
       "TT, Audi’nin dijital göstergesini (Virtual Cockpit) ilk kullanan otomobillerinden. Bu otomobilde orta ekran yok; her şey sürücünün önündeki ekranda. Klima ayarları da havalandırma ızgaralarının ortasındaki düğmelere entegre edilmiş; çok akıllıca ve şık bir detay.",
-      "Quattro dört çeker sayesinde her havada güvenli ve kompakt boyutlarına göre çok hızlı. Arka koltuk sembolik, süspansiyonu da sert."
+      "Quattro dört çeker sayesinde her havada güvenli ve kompakt boyutlarına göre çok hızlı. Arka koltuk sembolik, süspansiyonu da sert.",
+      "TT, Macaristan’ın Győr şehrindeki Audi fabrikasında üretildi ve 2023’te, 25 yıllık üretim hayatının ardından veda etti. TT adı, Audi’nin ortaklarından NSU’nun İngiltere’deki ünlü Tourist Trophy yarışlarındaki başarılarına bir selam. TT RS ise bu efsanevi modelin en güçlü ve son temsilcilerinden biri; bugün koleksiyonerlerin ilgisini çekmeye başladı.",
+      "Beş silindirli motor, TT RS’in ruhu. Audi bu motor düzenini 1980’lerde ralli şampiyonalarına damgasını vuran quattro modellerinde kullanmıştı; TT RS bu mirası taşıyor. Motorun düzensiz ateşleme sırası, onu dört ya da altı silindirli motorlardan ayıran kendine özgü, hırıltılı bir ses veriyor.",
+      "Kalkış kontrolü ve yedi ileri S tronic şanzımanla TT RS, küçük gövdesine rağmen süper otomobilleri zorlayan bir hızlanma sunuyor. Quattro dört çeker, bu gücü her havada güvenle yere aktarıyor."
     ]
   },
   "cupra-formentor-2022": {
     "longReview": [
       "Formentor VZ, Cupra’nın kendi tasarımıyla geliştirdiği ilk modellerden biri; agresif ve sportif tasarımı en büyük kozu. Direksiyondaki ayrı Cupra düğmeleri, sürüş modlarına ve motor başlatmaya tek dokunuşla ulaşmanızı sağlıyor.",
       "Güçlü motor ve 4Drive dört çeker sistemiyle keskin direksiyon tepkileri sunuyor. Ancak MINI Cooper kadar olmasa da arka süspansiyon geometrisi sert; arka yolcular bunu hissediyor.",
-      "Teknoloji tarafında Golf 8’e benzer şekilde multimedya ekranı tamamen kapanabiliyor ya da donabiliyor; dijital göstergede anlık veri kayıpları yaşanabiliyor. Tüketimi de yüksek."
+      "Teknoloji tarafında Golf 8’e benzer şekilde multimedya ekranı tamamen kapanabiliyor ya da donabiliyor; dijital göstergede anlık veri kayıpları yaşanabiliyor. Tüketimi de yüksek.",
+      "Formentor, adını İspanya’nın Mayorka adasındaki Formentor Burnu’ndan alıyor; adanın en kuzey ucundaki bu burun, uçurumların arasında kıvrılan virajlı yoluyla ünlü. VZ ise İspanyolca “hızlı” anlamına gelen “veloz” kelimesinden geliyor; Cupra en güçlü versiyonlarını bu harflerle işaretliyor. Otomobil İspanya’nın Martorell şehrinde üretiliyor.",
+      "Adaptif süspansiyon, sürüş modlarına göre sönümlemeyi ayarlayarak hem günlük konforu hem de virajlardaki keskinliği dengelemeye çalışıyor. Büyük Brembo frenler ve bakır renkli detaylar da otomobilin sportif karakterini tamamlıyor.",
+      "Formentor, bir SUV’un pratikliğini bir hot hatch’in performansıyla birleştirmeye çalışan nadir otomobillerden. Alçak oturma pozisyonu ve eğimli tavan, onu bir SUV’dan çok yükseltilmiş bir spor hatchback gibi hissettiriyor."
     ],
     "reviewExtra": {
       "konfor": "Agresif ve sportif tasarımını destekleyen keskin direksiyon tepkileri var; ancak MINI Cooper kadar olmasa da arka süspansiyon geometrisi sert, arka yolcular bunu hissediyor.",
