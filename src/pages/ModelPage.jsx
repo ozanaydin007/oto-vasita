@@ -5,6 +5,8 @@ import { formatScore } from '../lib/scoring.js';
 import NotFound from './NotFound.jsx';
 import useTitle from '../lib/useTitle.js';
 
+const anchor = (code) => code.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
 // Model geçmişi: bir modelin bütün nesilleri zaman çizelgesi hâlinde
 export default function ModelPage() {
   const { slug } = useParams();
@@ -33,7 +35,7 @@ export default function ModelPage() {
       {/* Kısa özet: bütün kasalar tek satırda */}
       <div className="mt-8 flex flex-wrap gap-2" aria-label="Nesiller">
         {model.generations.map((g) => (
-          <a key={g.code} href={`#${g.code.toLowerCase()}`} className="text-sm font-semibold border border-rule rounded-full px-3 py-1 hover:border-ink">
+          <a key={g.code} href={`#${anchor(g.code)}`} className="text-sm font-semibold border border-rule rounded-full px-3 py-1 hover:border-ink">
             {g.code} <span className="text-muted font-normal">{g.years}</span>
           </a>
         ))}
@@ -41,7 +43,7 @@ export default function ModelPage() {
 
       <ol className="mt-10 relative border-l-2 border-rule ml-2 space-y-12">
         {model.generations.map((g) => (
-          <li key={g.code} id={g.code.toLowerCase()} className="pl-6 sm:pl-8 relative scroll-mt-24">
+          <li key={g.code} id={anchor(g.code)} className="pl-6 sm:pl-8 relative scroll-mt-24">
             <span className="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-star border-2 border-white" aria-hidden="true" />
             <p className="text-sm font-semibold text-muted">{g.years}</p>
             <h2 className="font-display text-2xl sm:text-3xl font-bold leading-tight mt-0.5">

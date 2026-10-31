@@ -46,6 +46,11 @@ const STATIC = {
     title: titled('Editörün seçimi'),
     description: 'Her hafta öne çıkardığımız üç otomobil ve onları neden seçtiğimiz: OtoVaro editörünün haftalık seçimleri.',
   },
+  '/favoriler': {
+    title: titled('Favorilerim'),
+    description: 'Favorilere eklediğiniz otomobiller.',
+    noindex: true,
+  },
   '/modeller': {
     title: titled('Model geçmişleri'),
     description: 'Popüler otomobil modellerinin bütün nesilleri: kasa kodları, üretim yılları, öne çıkan özellikler, bilinen sorunlar ve ikinci el tavsiyeleri.',
@@ -241,6 +246,7 @@ export function allRoutes() {
     ...POPULAR_COMPARISONS.filter((p) => p.every((s) => getCar(s))).map((p) => `/karsilastir/${p.join('-vs-')}`),
     '/rehber',
     '/modeller',
+    '/favoriler',
     ...MODELS.map((md) => `/model/${md.slug}`),
     ...GUIDES.map((g) => `/rehber/${g.slug}`),
     ...CATEGORIES.map((c) => `/kategori/${c.slug}`),

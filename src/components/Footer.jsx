@@ -21,6 +21,7 @@ export default function Footer() {
             <li><Link to="/karsilastir" className={linkClass}>Otomobil karşılaştır</Link></li>
             <li><Link to="/rehber" className={linkClass}>Rehber</Link></li>
             <li><Link to="/modeller" className={linkClass}>Model geçmişleri</Link></li>
+            <li><Link to="/favoriler" className={linkClass}>Favorilerim</Link></li>
             {CATEGORIES.map((c) => (
               <li key={c.slug}>
                 <Link to={`/kategori/${c.slug}`} className={linkClass}>{c.title}</Link>

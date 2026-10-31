@@ -32,7 +32,16 @@ if (!template.includes('<div id="root"></div>')) {
 const esc = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
+// Paylaşım görseli: sayfaya özel görsel varsa onu, yoksa genel site görselini kullan
+function ogImage(route) {
+  const m = route.match(/^\/(inceleme|rehber|model)\/([^/]+)$/);
+  const files = m ? [`${m[1]}-${m[2]}.png`, 'site.png'] : ['site.png'];
+  const f = files.find((name) => fs.existsSync(path.join(dist, 'og', name)));
+  return f ? `${SITE_URL}/og/${f}` : null;
+}
+
 function headTags(route, seo) {
+  const img = ogImage(route);
   const tags = [
     `<meta name="description" content="${esc(seo.description)}" />`,
     seo.canonical ? `<link rel="canonical" href="${esc(seo.canonical)}" />` : '',
@@ -43,7 +52,11 @@ function headTags(route, seo) {
     `<meta property="og:title" content="${esc(seo.title)}" />`,
     `<meta property="og:description" content="${esc(seo.description)}" />`,
     seo.canonical ? `<meta property="og:url" content="${esc(seo.canonical)}" />` : '',
-    '<meta name="twitter:card" content="summary" />',
+    img ? `<meta property="og:image" content="${esc(img)}" />` : '',
+    img ? '<meta property="og:image:width" content="1200" />' : '',
+    img ? '<meta property="og:image:height" content="630" />' : '',
+    img ? `<meta name="twitter:image" content="${esc(img)}" />` : '',
+    `<meta name="twitter:card" content="${img ? 'summary_large_image' : 'summary'}" />`,
     ...(seo.jsonLd || []).map(
       (d) => `<script type="application/ld+json">${JSON.stringify(d).replace(/</g, '\\u003c')}</script>`
     ),

@@ -8,6 +8,7 @@ import CarImage from '../components/CarImage.jsx';
 import ScoreBadge from '../components/ScoreBadge.jsx';
 import useTitle from '../lib/useTitle.js';
 import CompareToggle from '../components/CompareToggle.jsx';
+import FavoriteToggle from '../components/FavoriteToggle.jsx';
 
 // ---------------------------------------------------------------------------
 // Filtre ve sıralama tanımları
@@ -178,8 +179,9 @@ function ResultRow({ car }) {
           </span>
         </div>
       </Link>
-      <div className="mt-2 flex justify-end">
+      <div className="mt-2 flex justify-end gap-2">
         <CompareToggle car={car} compact />
+        <FavoriteToggle car={car} compact />
       </div>
     </li>
   );

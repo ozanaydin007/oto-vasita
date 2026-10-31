@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/fetch-photos.mjs && node scripts/split-details.mjs && vite build && vite build --ssr src/entry-server.jsx --outDir dist-server && node scripts/prerender.mjs",
+    "build": "node scripts/fetch-photos.mjs && node scripts/split-details.mjs && vite build && vite build --ssr src/entry-server.jsx --outDir dist-server && node scripts/og-images.mjs && node scripts/prerender.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

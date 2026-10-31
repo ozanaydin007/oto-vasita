@@ -6,6 +6,7 @@ import { CRITERIA } from '../data/criteria.js';
 import { formatScore, priceLabel, scoreVerdict } from '../lib/scoring.js';
 import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
+import FavoriteToggle from '../components/FavoriteToggle.jsx';
 import RadarChart from '../components/RadarChart.jsx';
 import { useCarDetails } from '../lib/details.js';
 import { modelForCar } from '../data/models.js';
@@ -185,8 +186,9 @@ export default function ReviewPage() {
             <ScoreBadge score={car.score} size="md" />
             <StarRating value={car.score} size={20} />
           </div>
-          <div className="mt-4">
+          <div className="mt-4 flex flex-wrap gap-2">
             <CompareToggle car={car} />
+            <FavoriteToggle car={car} />
           </div>
           {/* Sıralama yalnızca kategorisinin ilk 10'undaki araçlarda gösterilir */}
           {car.rank <= 10 && (
