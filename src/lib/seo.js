@@ -3,6 +3,7 @@ import { getDetails } from './detailsStore.js';
 import { SITE_URL, SITE_NAME } from '../config.js';
 import { GUIDES, getGuide } from '../data/guides.js';
 import { POPULAR_COMPARISONS } from '../data/comparisons.js';
+import { MODELS, getModel } from '../data/models.js';
 
 // ---------------------------------------------------------------------------
 // ARAMA MOTORU (SEO) BİLGİLERİ
@@ -44,6 +45,10 @@ const STATIC = {
   '/editorun-secimi': {
     title: titled('Editörün seçimi'),
     description: 'Her hafta öne çıkardığımız üç otomobil ve onları neden seçtiğimiz: OtoVaro editörünün haftalık seçimleri.',
+  },
+  '/modeller': {
+    title: titled('Model geçmişleri'),
+    description: 'Popüler otomobil modellerinin bütün nesilleri: kasa kodları, üretim yılları, öne çıkan özellikler, bilinen sorunlar ve ikinci el tavsiyeleri.',
   },
   '/rehber': {
     title: titled('Rehber'),
@@ -173,6 +178,36 @@ export function getSeo(pathname) {
         `${cars.map((c) => `${c.year} ${c.make} ${c.model} (${fmt(c.score)}/10)`).join(' ile ')} karşılaştırması: 10 başlıkta puanlar, teknik veriler, artılar ve eksiler. Hangisini almalı?`
       ),
     };
+  } else if ((m = path.match(/^\/model\/([^/]+)$/)) && getModel(m[1])) {
+    const md = getModel(m[1]);
+    const url = `${SITE_URL}/model/${md.slug}`;
+    seo = {
+      title: titled(md.title),
+      description: clip(md.description),
+      type: 'article',
+      jsonLd: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: md.title,
+          description: clip(md.description),
+          datePublished: md.date,
+          dateModified: md.date,
+          inLanguage: 'tr-TR',
+          mainEntityOfPage: url,
+          author: { '@type': 'Organization', name: SITE_NAME },
+          publisher: { '@type': 'Organization', name: SITE_NAME },
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Model geçmişleri', item: `${SITE_URL}/modeller` },
+            { '@type': 'ListItem', position: 2, name: `${md.make} ${md.name}`, item: url },
+          ],
+        },
+      ],
+    };
   } else if ((m = path.match(/^\/rehber\/([^/]+)$/)) && getGuide(m[1])) {
     seo = guideSeo(getGuide(m[1]));
   } else if ((m = path.match(/^\/kategori\/([^/]+)$/)) && getCategory(m[1])) {
@@ -205,6 +240,8 @@ export function allRoutes() {
     '/karsilastir',
     ...POPULAR_COMPARISONS.filter((p) => p.every((s) => getCar(s))).map((p) => `/karsilastir/${p.join('-vs-')}`),
     '/rehber',
+    '/modeller',
+    ...MODELS.map((md) => `/model/${md.slug}`),
     ...GUIDES.map((g) => `/rehber/${g.slug}`),
     ...CATEGORIES.map((c) => `/kategori/${c.slug}`),
     ...CARS.map((c) => `/inceleme/${c.slug}`),

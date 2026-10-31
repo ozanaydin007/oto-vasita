@@ -17,6 +17,8 @@ import EditorPicksPage from './pages/EditorPicksPage.jsx';
 import CompareTray from './components/CompareTray.jsx';
 import GuidesPage from './pages/GuidesPage.jsx';
 import GuidePage from './pages/GuidePage.jsx';
+import ModelPage from './pages/ModelPage.jsx';
+import ModelsPage from './pages/ModelsPage.jsx';
 import Contact from './pages/Contact.jsx';
 import Privacy from './pages/Privacy.jsx';
 import CookiePolicy from './pages/CookiePolicy.jsx';
@@ -55,6 +57,8 @@ export default function App() {
           <Route path="/karsilastir/:pair" element={<ComparePage />} />
           <Route path="/rehber" element={<GuidesPage />} />
           <Route path="/rehber/:slug" element={<GuidePage />} />
+          <Route path="/modeller" element={<ModelsPage />} />
+          <Route path="/model/:slug" element={<ModelPage />} />
           <Route path="/hakkinda" element={<About />} />
           <Route path="/iletisim" element={<Contact />} />
           <Route path="/gizlilik" element={<Privacy />} />

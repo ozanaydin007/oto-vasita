@@ -8,6 +8,7 @@ import CarImage, { PhotoCredit } from '../components/CarImage.jsx';
 import CompareToggle from '../components/CompareToggle.jsx';
 import RadarChart from '../components/RadarChart.jsx';
 import { useCarDetails } from '../lib/details.js';
+import { modelForCar } from '../data/models.js';
 import { guidesForCar } from '../data/guides.js';
 import { POPULAR_COMPARISONS } from '../data/comparisons.js';
 import { comparePath } from '../lib/compare.js';
@@ -203,6 +204,15 @@ export default function ReviewPage() {
               <span className="text-muted">{priceLabel(car)}</span>
             )}
           </p>
+          {modelForCar(car.slug) && (
+            <p className="mt-2 text-[15px]">
+              <span className="text-muted">Bu model hakkında:</span>{' '}
+              {modelForCar(car.slug).gen.code} kasa ({modelForCar(car.slug).gen.years}) ·{' '}
+              <Link to={`/model/${modelForCar(car.slug).model.slug}`} className="text-link hover:underline underline-offset-2">
+                Bütün {modelForCar(car.slug).model.name} nesillerini gör →
+              </Link>
+            </p>
+          )}
         </div>
         <figure>
           <CarImage car={car} className="h-56 sm:h-72 bg-mist rounded-xl" priority />
