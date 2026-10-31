@@ -22,8 +22,8 @@ export default function About() {
       </p>
       <p>
         Siteyi de ilk başta kendi incelemelerimiz bir yerde dursun, kaybolmasın diye kurmuştuk; ancak sonradan
-        buralara kadar gelmeyi başardık. Bugün “Tam incelemeyi oku” bölümünde yer alan uzun incelemeler, otomobili
-        bizzat kullandığımız deneyimlere dayanıyor.
+        buralara kadar gelmeyi başardık. İncelemelerimiz, kendi kullandığımız ve yakın çevremizin kullandığı
+        otomobillerdeki deneyimlerimize ve kapsamlı araştırmalarımıza dayanıyor.
       </p>
       <p>
         <strong>Kurucu ve editör:</strong> Ozan Ege Aydın
@@ -32,7 +32,7 @@ export default function About() {
       <h2>Nasıl değerlendiriyoruz?</h2>
       <p>
         Her aracı sürüşten güvenlik ve konfora, tüketimden malzeme kalitesine, güvenilirlikten ikinci el değerine
-        kadar 10 başlıkta, 10 üzerinden puanlıyoruz. Genel puan bu başlıkların ortalaması; kategori sıralamaları da
+        kadar 10 başlıkta, 10 üzerinden puanlıyoruz. Genel puan bu başlıkların ağırlıklı ortalaması; kategori sıralamaları da
         genel puana göre otomatik oluşuyor. Ayrıntılar için{' '}
         <Link to="/puanlama">Nasıl puanlıyoruz?</Link> sayfasına bakabilirsiniz.
       </p>

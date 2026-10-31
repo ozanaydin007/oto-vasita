@@ -986,6 +986,87 @@ const GUIDE_LIST = [
       },
     ],
   },
+  {
+    slug: 'kisa-hazirlik-kontrol-listesi',
+    title: 'Kışa Hazırlık: Akü, Antifriz, Lastik ve Silecek Kontrol Listesi',
+    subtitle: 'Soğuk havalar gelmeden otomobilinizde kontrol etmeniz gereken her şey; benzinli, dizel ve elektrikli otomobiller için pratik öneriler',
+    description:
+      'Kışa hazırlık rehberi: akü kontrolü, antifriz oranı, kış lastiği ve lastik basıncı, silecek ve cam suyu, farlar, dizel ve elektrikli otomobillerde kış önlemleri ve otomobilde bulundurulması gereken kış kiti.',
+    date: '2026-10-31',
+    dateLabel: '31 Ekim 2026',
+    intro: [
+      'Kış, otomobiller için yılın en zorlu dönemi. Soğuk hava aküyü zayıflatıyor, lastiklerin tutunmasını azaltıyor, motor yağını koyulaştırıyor ve küçük ihmalleri büyük arızalara dönüştürebiliyor. Üstelik kışın yaşanan arızalar genellikle en kötü anda, bir sabah işe yetişmeye çalışırken ya da karlı bir yolda ortaya çıkıyor.',
+      'İyi haber şu: Kışın yaşanan arızaların büyük çoğunluğu, soğuklar başlamadan yapılacak birkaç basit kontrolle önlenebiliyor. Bu rehberde, otomobilinizi kışa hazırlarken nelere bakmanız gerektiğini adım adım anlatıyoruz.',
+    ],
+    sections: [
+      {
+        title: '1. Akü: kışın en sık arızalanan parça',
+        paragraphs: [
+          'Soğuk hava, akünün içindeki kimyasal tepkimeleri yavaşlatıyor ve kullanılabilir kapasitesini belirgin şekilde düşürüyor. Aynı anda motoru çalıştırmak için gereken güç artıyor; çünkü soğukta koyulaşan motor yağı motorun dönmesini zorlaştırıyor. Bu yüzden yaz boyunca sorunsuz çalışan yaşlı bir akü, ilk soğuk sabahta pes edebiliyor.',
+          'Akünüz dört–beş yaşın üzerindeyse ya da son zamanlarda marş yaparken motor ağır dönüyorsa, kış başlamadan bir servise ya da akü bayisine test ettirin. Test birkaç dakika sürüyor ve genellikle ücretsiz. Start-stop sistemli otomobillerde AGM ya da EFB tipi özel aküler kullanıldığını unutmayın; akü değiştirirken aynı tipte akü takılmalı.',
+        ],
+      },
+      {
+        title: '2. Antifriz: motorun donmaya karşı kalkanı',
+        paragraphs: [
+          'Antifriz, motorun soğutma suyunun donmasını engelliyor. Donan soğutma suyu genleşerek motor bloğunu, radyatörü ve hortumları çatlatabilir; bu da çok pahalı bir onarım demek. Antifriz aynı zamanda soğutma sistemini paslanmaya karşı da koruyor.',
+          'Servislerde birkaç saniyede yapılan bir ölçümle antifrizin kaç dereceye kadar koruduğu kontrol edilebiliyor. Türkiye’nin soğuk bölgelerinde en az eksi 35 dereceye kadar koruma önerilir. Antifriz eklerken otomobilinizin üreticisinin önerdiği türü kullanın; farklı türleri karıştırmak, soğutma sisteminde tortuya yol açabilir.',
+        ],
+      },
+      {
+        title: '3. Lastikler: yolla tek bağlantınız',
+        paragraphs: [
+          'Hava sıcaklığı yaklaşık 7 derecenin altına düştüğünde yaz lastiklerinin hamuru sertleşiyor ve tutunması azalıyor. Bu yüzden soğuk ve karlı bölgelerde yaşıyorsanız kış lastiğine geçmek en önemli güvenlik önlemi. Ayrıntılı bilgi için Lastik Seçiminin Önemi rehberimize bakabilirsiniz.',
+          'Kış lastiği kullanmasanız bile lastik basıncını kontrol etmeyi unutmayın: Hava soğudukça lastiklerin içindeki hava büzülüyor ve basınç düşüyor. Düşük basınç hem tutunmayı azaltıyor hem de tüketimi artırıyor. Diş derinliğini de kontrol edin; karlı ve ıslak yollarda yeterli diş derinliği hayati önem taşıyor.',
+        ],
+      },
+      {
+        title: '4. Silecekler, cam suyu ve farlar: görmek ve görünmek',
+        paragraphs: [
+          'Kış, günlerin kısaldığı ve görüşün en çok zorlaştığı dönem. Sertleşmiş ya da çatlamış silecek lastikleri camı temizlemek yerine çizgi bırakıyor; silecek değiştirmek ucuz ve basit bir iş. Cam suyu deposuna mutlaka donmaya karşı katkılı kış cam suyu koyun; sade su donarak hem depoyu hem de pompayı bozabilir.',
+          'Farların ve stop lambalarının çalıştığını kontrol edin; sisli ve karlı havada görünür olmak, görmek kadar önemli. Sararmış ve matlaşmış far camları da gece görüşü ciddi şekilde azaltıyor; basit bir far parlatma işlemiyle düzeltilebiliyor.',
+        ],
+      },
+      {
+        title: '5. Dizel ve elektrikli otomobiller için özel önlemler',
+        paragraphs: [
+          'Dizel yakıt çok soğuk havalarda içindeki parafinin donması nedeniyle jelleşebiliyor ve yakıt filtresini tıkayabiliyor. İstasyonlarda kış aylarında satılan dizel yakıt buna karşı katkılı oluyor; ama çok soğuk bölgelerde yakıt filtresinin zamanında değiştirilmiş olması da önemli. Kısa mesafelerde kullanılan dizellerde dizel partikül filtresinin kışın daha kolay tıkanabileceğini de unutmayın.',
+          'Elektrikli otomobillerde soğuk hava menzili belirgin şekilde düşürüyor; çünkü hem batarya soğukta daha az verimli çalışıyor hem de kabini ısıtmak enerji harcıyor. Otomobil şarja bağlıyken kabini ve bataryayı önceden ısıtmak, menzil kaybını önemli ölçüde azaltıyor. Isı pompası olan otomobiller, kışın kabini çok daha az enerjiyle ısıtabiliyor.',
+        ],
+        cars: ['tesla-model-y-2026', 'kia-ev6-2026'],
+      },
+      {
+        title: '6. Dört çeker kışın neye yarar, neye yaramaz?',
+        paragraphs: [
+          'Dört çeker, karlı ve buzlu yollarda kalkışta ve tırmanışta büyük avantaj sağlıyor. Ama otomobilin frenlemesini ve virajda tutunmasını iyileştirmiyor; bunları belirleyen asıl şey lastikler. Yaz lastikli dört çekerli bir otomobil, kış lastikli önden çekişli bir otomobilden daha geç durabilir. Bu yüzden dört çekerli bir otomobil kullanıyor olsanız bile kış lastiği hâlâ en önemli önlem.',
+        ],
+        cars: ['subaru-forester-2023', 'volkswagen-golf-r-2021'],
+      },
+      {
+        title: 'Otomobilde bulundurulması gereken kış kiti',
+        list: [
+          'Buz kazıyıcı ve kar fırçası',
+          'Kalın bir battaniye, eldiven ve yedek bere',
+          'Akü takviye kablosu ya da taşınabilir akü takviye cihazı',
+          'Kar zinciri (dağlık ve karlı bölgelerde yolculuk yapacaksanız) ve önceden bir kez takma denemesi',
+          'El feneri ve yedek pil',
+          'Küçük bir kürek ve kayan tekerleklerin altına koymak için kum ya da kedi kumu',
+          'Su, uzun süre bozulmayan atıştırmalıklar ve telefon şarj kablosu',
+          'Yansıtıcı yelek ve reflektör üçgeni',
+        ],
+      },
+      {
+        title: 'Kışın sürüş için kısa hatırlatmalar',
+        list: [
+          'Takip mesafenizi artırın; karlı ve buzlu yolda fren mesafesi birkaç katına çıkabiliyor.',
+          'Ani gaz, ani fren ve ani direksiyon hareketlerinden kaçının; her şeyi yumuşak ve kademeli yapın.',
+          'Köprüler ve gölgede kalan yollar, havanın görece ılık olduğu günlerde bile buzlanabilir.',
+          'Yola çıkmadan önce camları ve tavanı kardan tamamen temizleyin; tavandaki kar frenlemede ön cama kayarak görüşü kapatabilir.',
+          'Uzun yolculuklardan önce yol ve hava durumunu kontrol edin, yakıtınızı ya da şarjınızı yüksek tutun.',
+        ],
+      },
+    ],
+  },
 ];
 
 // En yeni rehber en üstte (aynı tarihtekilerde sonradan eklenen önce)
@@ -993,7 +1074,7 @@ export const GUIDES = GUIDE_LIST.map((g, i) => ({ g, i }))
   .sort((a, b) => b.g.date.localeCompare(a.g.date) || b.i - a.i)
   .map(({ g }) => g);
 
-// Bir aracın geçtiği rehberler (inceleme sayfasındaki "İlgili rehberler" için)
+// Bir aracın geçtiği rehberler (inceleme sayfasındaki "ilgili yazılar" için)
 export function guidesForCar(slug) {
   return GUIDES.filter(
     (g) => (g.items || []).some((it) => it.car === slug) || (g.sections || []).some((s) => (s.cars || []).includes(slug))

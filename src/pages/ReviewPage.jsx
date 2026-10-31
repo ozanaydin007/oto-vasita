@@ -89,25 +89,12 @@ function reviewParagraphs(car) {
   ].filter(Boolean);
 }
 
-function FullReview({ car, category }) {
-  const [open, setOpen] = useState(false);
-  useEffect(() => setOpen(false), [car.slug]);
-
+function FullReview({ car }) {
+  // İnceleme metni sayfanın ana içeriği olduğu için doğrudan açık gösterilir
   return (
-    <div className="mt-6">
-      <button
-        type="button"
-        onClick={() => setOpen((o) => !o)}
-        aria-expanded={open}
-        aria-controls="tam-inceleme"
-        className="inline-flex items-center gap-2 bg-ink text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-ink-soft"
-      >
-        {open ? 'Tam incelemeyi gizle' : 'Tam incelemeyi oku'}
-        <ChevronDown className={`w-4 h-4 transition-transform ${open ? 'rotate-180' : ''}`} aria-hidden="true" />
-      </button>
-
-      {/* Metin her zaman sayfada bulunur (arama motorları okuyabilsin); yalnızca görünürlüğü değişir */}
-      <div id="tam-inceleme" hidden={!open} className="mt-6 border-l-2 border-star pl-5 sm:pl-6 space-y-5 max-w-prose">
+    <section className="mt-8" aria-labelledby="h-inceleme">
+      <h2 id="h-inceleme" className="font-display text-2xl font-bold">İnceleme</h2>
+      <div id="tam-inceleme" className="mt-4 border-l-2 border-star pl-5 sm:pl-6 space-y-5 max-w-prose">
         {reviewParagraphs(car).map((t, i) => (
           <p key={i} className="text-[17px] leading-relaxed">{t}</p>
         ))}
@@ -118,7 +105,7 @@ function FullReview({ car, category }) {
           </p>
         )}
       </div>
-    </div>
+    </section>
   );
 }
 
@@ -231,7 +218,7 @@ export default function ReviewPage() {
             <h2 className="font-display text-2xl font-bold mb-3">Editörün görüşü</h2>
             <p className="text-lg leading-relaxed max-w-prose">{car.summary}</p>
             {/* Tam inceleme yalnızca kişisel notu olan araçlarda gösterilir */}
-            {(car.longReview || car.review || car.reviewExtra) && <FullReview car={car} category={category} />}
+            {(car.longReview || car.review || car.reviewExtra) && <FullReview car={car} />}
           </section>
 
           <section className="grid sm:grid-cols-2 gap-6">
